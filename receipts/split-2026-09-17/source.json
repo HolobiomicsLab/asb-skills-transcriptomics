@@ -1,0 +1,17 @@
+{
+  "intent": "INT-ASB-042",
+  "source_repository": "HolobiomicsLab/asb-skill-collections",
+  "source_commit": "f554641c24ea7c60bbaa5322ec8a56b1a6bd30db",
+  "source_ref": "main after PR #58",
+  "paths": [
+    "collections/transcriptomics",
+    "packs/transcriptomics",
+    "staged-collections/transcriptomics",
+    "LICENSE",
+    "LICENSING.md"
+  ],
+  "method": "git filter-repo --path (history preserved; blobs unchanged)",
+  "blob_count": 640,
+  "listing_sha256": "c309135b44d24d44d710e97ee5fee71c7c5bc39a9635e47e0a1c0f8f829630e3",
+  "generated_at": "2026-09-17T04:44:16Z"
+}
