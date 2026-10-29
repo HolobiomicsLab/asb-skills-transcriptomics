@@ -1,0 +1,320 @@
+schema_version: 0.3.0
+workflow_id: single_cell_clustering_annotation
+kind: composite-workflow
+techniques: []
+steps:
+- id: filter_cells_and_genes
+  goal: remove low-quality cells and uninformative genes from raw single-cell counts
+  edam_operation: http://edamontology.org/operation_3218
+  skills:
+  - single-cell-rna-seq-quality-filtering
+  - scanpy-single-cell-data-preprocessing
+  - scanpy-scrna-seq-data-handling
+  - scanpy-single-cell-data-loading
+  tools:
+  - AnnData
+  - AnnData (Annotated Data object)
+  - Cellar
+  - Python
+  - faiss
+  - numpy
+  - scanpy
+  - scikit-learn
+  - scipy
+  inputs:
+  - type: single-cell-object
+    flavour: raw-rna-counts
+  - type: tsv
+    flavour: cell-metadata
+  outputs:
+  - type: single-cell-object
+    flavour: filtered-raw-rna-counts
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s11704-022-2011-y
+    - asb-paper-10-1038-s41467-022-29744-0
+    - asb-paper-10-1038-s41467-023-39494-2
+    - asb-paper-10-1093-bioadv-vbad150
+    dois:
+    - 10.1007/s11704-022-2011-y
+    - 10.1038/s41467-022-29744-0
+    - 10.1038/s41467-023-39494-2
+    - 10.1093/bioadv/vbad150
+  after: []
+  candidate_tools:
+  - FastMNN
+  - Harmony
+  - MIRA
+  - Scanorama
+  - Seurat
+  - scANVI
+  - scVI
+  - AE-TPGG
+  - Python 3
+  - gssnng
+- id: normalize_expression
+  goal: construct a scaled log-CPM expression matrix for dimensionality reduction
+  edam_operation: http://edamontology.org/operation_3435
+  skills:
+  - scrna-cpm-normalization-log1p-scaling
+  - scanpy-expression-normalization
+  - single-cell-count-matrix-preprocessing--c487867256c234ac
+  - scanpy-single-cell-preprocessing-pipeline
+  - single-cell-expression-preprocessing--09b3e71f0eac3812
+  tools:
+  - AnnData
+  - AnnData (Annotated Data object)
+  - Cellar
+  - faiss
+  - scanpy
+  - scikit-learn
+  inputs:
+  - type: single-cell-object
+    flavour: filtered-raw-rna-counts
+  outputs:
+  - type: single-cell-matrix
+    flavour: scaled-log-cpm
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-022-29744-0
+    - asb-paper-10-1038-s41467-022-31107-8
+    - asb-paper-10-1038-s41467-023-36134-7
+    - asb-paper-10-1038-s41467-024-46413-6
+    - asb-paper-10-1038-s41467-024-51891-9
+    dois:
+    - 10.1038/s41467-022-29744-0
+    - 10.1038/s41467-022-31107-8
+    - 10.1038/s41467-023-36134-7
+    - 10.1038/s41467-024-46413-6
+    - 10.1038/s41467-024-51891-9
+  after:
+  - filter_cells_and_genes
+  candidate_tools:
+  - Cancer-Finder
+  - PyTorch
+  - numpy
+  - pandas
+  - scMGCA
+  - scipy
+  - Python
+  - UMAP
+  - numba
+  - pegasus
+  - scikit-learn (sklearn)
+  - h5py
+  - python-louvain
+  - scCAD
+  inputs_from:
+    filter_cells_and_genes:
+    - single-cell-object:filtered-raw-rna-counts
+- id: compute_pca_embedding
+  goal: reduce normalized single-cell expression to a compact PCA representation
+  edam_operation: http://edamontology.org/operation_2939
+  skills:
+  - pca-dimensionality-reduction-scrna--260081bc53a44a5a
+  - pca-dimensionality-reduction-of-sc-rna-seq-counts
+  - pca-latent-space-embedding
+  - knn-graph-construction-from-pca-embeddings
+  - single-cell-rnaseq-pca-dimensionality-reduction
+  tools:
+  - AnnData
+  - AnnData (Annotated Data object)
+  - Cellar
+  - SCANPY
+  - Scikit-learn
+  - faiss
+  - scSemiProfiler
+  inputs:
+  - type: single-cell-matrix
+    flavour: scaled-log-cpm
+  outputs:
+  - type: cell-embedding
+    flavour: pca
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-crmeth-2022-100200
+    - asb-paper-10-1016-j-csbj-2023-10-032
+    - asb-paper-10-1038-s41467-022-29744-0
+    - asb-paper-10-1038-s41467-024-51649-3
+    - asb-paper-10-1093-bioinformatics-btad360
+    dois:
+    - 10.1016/j.crmeth.2022.100200
+    - 10.1016/j.csbj.2023.10.032
+    - 10.1038/s41467-022-29744-0
+    - 10.1038/s41467-024-51649-3
+    - 10.1093/bioinformatics/btad360
+  after:
+  - normalize_expression
+  candidate_tools:
+  - irlba
+  - lme4
+  - lmerTest
+  - scDist
+  - scTransform
+  - simData
+  - PhyloVision
+  - R
+  - VISION
+  - PyTorch
+  - Python
+  - conda
+  - pip
+  - pytorch-cluster
+  - scSHARP
+  - SCALA
+  - Seurat
+  inputs_from:
+    normalize_expression:
+    - single-cell-matrix:scaled-log-cpm
+- id: cluster_cells
+  goal: build a neighborhood graph on the PCA embedding and assign Leiden clusters
+  edam_operation: http://edamontology.org/operation_3935
+  skills:
+  - leiden-clustering-of-low-dimensional-embeddings
+  - leiden-neighborhood-graph-clustering
+  - leiden-graph-community-detection
+  - louvain-graph-clustering--ae6203732f5c17a9
+  - leiden-graph-community-clustering-on-topic-embeddings
+  tools:
+  - Cobolt
+  - MOFA+
+  - Mowgli
+  - Multigrate
+  - Python
+  - Scanpy
+  - Seurat v4
+  - scikit-learn
+  inputs:
+  - type: cell-embedding
+    flavour: pca
+  outputs:
+  - type: cluster-labels
+    flavour: leiden
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-isci-2021-103200
+    - asb-paper-10-1038-s41467-022-29744-0
+    - asb-paper-10-1038-s41467-023-43019-2
+    - asb-paper-10-1038-s41467-024-51891-9
+    dois:
+    - 10.1016/j.isci.2021.103200
+    - 10.1038/s41467-022-29744-0
+    - 10.1038/s41467-023-43019-2
+    - 10.1038/s41467-024-51891-9
+  after:
+  - compute_pca_embedding
+  candidate_tools:
+  - FIt-SNE
+  - Miscell
+  - Seurat
+  - anndata
+  - scVI
+  - Cellar
+  - UMAP (umap-learn)
+  - faiss
+  - python-louvain
+  - scCAD
+  - AnnData (Annotated Data object)
+  - Leiden
+  - cisTopic
+  - diffxpy
+  inputs_from:
+    compute_pca_embedding:
+    - cell-embedding:pca
+- id: identify_cluster_markers
+  goal: identify genes specifically upregulated in each cluster
+  edam_operation: http://edamontology.org/operation_3223
+  skills:
+  - marker-gene-identification-across-clusters
+  - sccatch-object-construction
+  - scrnaseq-marker-gene-identification
+  tools:
+  - Seurat
+  - scCATCH
+  inputs:
+  - type: single-cell-object
+    flavour: filtered-raw-rna-counts
+  - type: cluster-labels
+    flavour: leiden
+  - type: yaml
+    flavour: species-tissue-cancer-context
+  - type: marker-database
+    flavour: tissue-specific
+  outputs:
+  - type: sccatch-object
+    flavour: cluster-markers
+  - type: marker-table
+    flavour: cluster-specific
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-isci-2020-100882
+    dois:
+    - 10.1016/j.isci.2020.100882
+  after:
+  - filter_cells_and_genes
+  - cluster_cells
+  candidate_tools:
+  - CHETAH
+  - CellAssign
+  - Garnett
+  - Matrix
+  - SingleR
+  - devtools
+  - scMap
+  inputs_from:
+    filter_cells_and_genes:
+    - single-cell-object:filtered-raw-rna-counts
+    cluster_cells:
+    - cluster-labels:leiden
+- id: annotate_cell_types
+  goal: assign a tissue-supported cell type to each single-cell cluster
+  edam_operation: http://edamontology.org/operation_0314
+  skills:
+  - tissue-specific-marker-database-matching
+  - cell-type-annotation-scoring-against-reference-database
+  - evidence-based-cell-type-scoring
+  - scrnaseq-cluster-benchmarking
+  - cellmatch-reference-database-querying
+  tools:
+  - CellMatch
+  - Seurat
+  - rev_gene
+  - scCATCH
+  inputs:
+  - type: sccatch-object
+    flavour: cluster-markers
+  outputs:
+  - type: annotation-table
+    flavour: cell-type-by-cluster
+  - type: sccatch-object
+    flavour: annotated-clusters
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-isci-2020-100882
+    dois:
+    - 10.1016/j.isci.2020.100882
+  after:
+  - identify_cluster_markers
+  candidate_tools:
+  - CHETAH
+  - CellAssign
+  - Garnett
+  - Matrix
+  - SingleR
+  - devtools
+  - scMap
+  inputs_from:
+    identify_cluster_markers:
+    - sccatch-object:cluster-markers
+verification:
+  final_outputs:
+  - path: single_cell_cluster_labels.tsv
+    type: file
+  - path: single_cell_cluster_markers.tsv
+    type: file
+  - path: single_cell_type_annotations.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

@@ -1,0 +1,206 @@
+schema_version: 0.3.0
+workflow_id: bulk_rnaseq_differential_expression
+kind: composite-workflow
+techniques: []
+steps:
+- id: trim_bulk_reads
+  goal: remove adapters and low-quality sequence from bulk RNA-seq reads
+  edam_operation: http://edamontology.org/operation_3192
+  skills:
+  - rna-seq-adapter-quality-trimming
+  - wgs-read-quality-trimming
+  - bulk-rnaseq-read-qc-trimming
+  - fastq-adapter-and-quality-trimming
+  tools:
+  - CCIVR
+  - DESeq2
+  - RSEM
+  - STAR
+  - Trim Galore!
+  inputs:
+  - type: paired-fastq
+    flavour: raw-bulk-rnaseq
+  outputs:
+  - type: paired-fastq
+    flavour: trimmed-bulk-rnaseq
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-csbj-2021-08-016
+    - asb-paper-10-1038-s41598-022-19782-5
+    - asb-paper-10-1080-2162402x-2020-1737369
+    - asb-paper-10-1093-bioinformatics-btad659
+    dois:
+    - 10.1016/j.csbj.2021.08.016
+    - 10.1038/s41598-022-19782-5
+    - 10.1080/2162402x.2020.1737369
+    - 10.1093/bioinformatics/btad659
+  after: []
+  candidate_tools:
+  - BWA
+  - BWA 0.7.17
+  - GATK
+  - Mutect2
+  - SAMtools
+  - TSNAD v2.0
+  - Trimmomatic
+  - Trimmomatic 0.39
+  - BiocManager
+  - R
+  - Salmon
+  - clusterProfiler
+  - tximport
+  - FastQC
+  - ScanNeo2
+  - Snakemake
+  - fastp
+- id: quantify_raw_gene_counts
+  goal: pseudoalign reads and aggregate transcript estimates into raw gene counts
+  edam_operation: http://edamontology.org/operation_3223
+  skills:
+  - kallisto-reference-assembly-pseudoalignment
+  - kallisto-pseudoalignment-quantification
+  - transcriptome-reference-index-preparation
+  - kallisto-bus-pseudoalignment-to-utrome
+  tools:
+  - ExpressAnalyst
+  - ExpressAnalystR
+  - Kallisto
+  - Seq2Fun
+  - Seq2Fun 2.0
+  - Seq2Fun 2.0.2
+  - limma
+  inputs:
+  - type: paired-fastq
+    flavour: trimmed-bulk-rnaseq
+  - type: fasta
+    flavour: reference-transcriptome
+  - type: tsv
+    flavour: transcript-to-gene-map
+  outputs:
+  - type: count-table
+    flavour: raw-gene-counts
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41467-023-38785-y
+    - asb-paper-10-1038-s41467-024-48254-9
+    - asb-paper-10-1093-bioadv-vbad050
+    dois:
+    - 10.1038/s41467-023-38785-y
+    - 10.1038/s41467-024-48254-9
+    - 10.1093/bioadv/vbad050
+  after:
+  - trim_bulk_reads
+  candidate_tools:
+  - CanIsoNet
+  - Conda
+  - Snakemake
+  - bustools
+  - kallisto-bustools
+  - scUTRquant
+  inputs_from:
+    trim_bulk_reads:
+    - paired-fastq:trimmed-bulk-rnaseq
+- id: test_differential_expression
+  goal: derive consensus differential-expression calls with per-gene logFC estimates
+  edam_operation: http://edamontology.org/operation_3223
+  skills:
+  - rna-seq-differential-expression-analysis--864ee06faecb526b
+  - differential-gene-expression-analysis--40640222da726826
+  - deg-method-consensus-combination
+  - multi-method-deg-consensus-voting
+  tools:
+  - DESeq2
+  - DEgenes Hunter
+  - ExpHunter Suite
+  - NOISeq
+  - R
+  - limma
+  inputs:
+  - type: count-table
+    flavour: raw-gene-counts
+  - type: tsv
+    flavour: sample-design
+  outputs:
+  - type: differential-expression-table
+    flavour: consensus-with-logfc
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1038-s41598-021-94343-w
+    dois:
+    - 10.1038/s41598-021-94343-w
+  after:
+  - quantify_raw_gene_counts
+  candidate_tools:
+  - ExpHunterSuiteExamples
+  - ExpHunter Suite (DEgenes Hunter pipeline)
+  - ExpHunterSuiteExamples scripts
+  - Bioconductor
+  inputs_from:
+    quantify_raw_gene_counts:
+    - count-table:raw-gene-counts
+- id: test_pathway_enrichment
+  goal: rank genes by their consensus logFC and identify pathways enriched at the
+    extremes of that ranking
+  edam_operation: http://edamontology.org/operation_2436
+  skills:
+  - gsea-prerank-pathway-enrichment-analysis
+  - pathway-enrichment-estimation
+  - gene-set-enrichment-analysis--1f9beeabb1328d9f
+  - ssgsea-pathway-enrichment-scoring
+  tools:
+  - VEGA
+  - gseapy
+  - scanpy
+  inputs:
+  - type: differential-expression-table
+    flavour: consensus-with-logfc
+  - type: gmt
+    flavour: pathway-gene-sets
+  outputs:
+  - type: enrichment-table
+    flavour: preranked-pathways
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-apsb-2024-08-017
+    - asb-paper-10-1038-s41467-021-26017-0
+    - asb-paper-10-1038-s41467-024-44823-0
+    - asb-paper-10-1093-bioinformatics-btad522
+    dois:
+    - 10.1016/j.apsb.2024.08.017
+    - 10.1038/s41467-021-26017-0
+    - 10.1038/s41467-024-44823-0
+    - 10.1093/bioinformatics/btad522
+  after:
+  - test_differential_expression
+  candidate_tools:
+  - R
+  - Snakemake
+  - enrichplot
+  - ggraph
+  - pareg
+  - tidyverse
+  - condiments
+  - fgsea
+  - ggplot2
+  - slingshot
+  - tradeSeq
+  - Docker
+  - GSFM
+  - Jupyter Notebook
+  - Python 3.9.7
+  - R 4.1.1
+  inputs_from:
+    test_differential_expression:
+    - differential-expression-table:consensus-with-logfc
+verification:
+  final_outputs:
+  - path: raw_gene_counts.tsv
+    type: file
+  - path: consensus_differential_expression.tsv
+    type: file
+  - path: preranked_pathway_enrichment.tsv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

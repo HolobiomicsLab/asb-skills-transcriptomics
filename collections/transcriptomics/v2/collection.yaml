@@ -33,7 +33,7 @@ contributors:
 cut_id: b5a519a80508
 skills_count: 11256
 tools_count: 2086
-workflows_count: 0
+workflows_count: 2
 skills:
 - 10x-cellranger-matrix-integration
 - 10x-chromium-single-cell-read-counting

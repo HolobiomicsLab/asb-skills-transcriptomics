@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "bulk-rnaseq-differential-expression",
+    "name": "bulk-rnaseq-differential-expression-workflow",
+    "description": "Use when paired-end bulk RNA-seq reads must be adapter-trimmed, pseudoaligned to an external reference transcriptome, aggregated into raw gene counts, tested for differential expression, and interpreted with preranked pathway enrichment.\n",
+    "techniques": [],
+    "stage_count": 4,
+    "stages": [
+      "trim_bulk_reads",
+      "quantify_raw_gene_counts",
+      "test_differential_expression",
+      "test_pathway_enrichment"
+    ],
+    "member_tools": [
+      "CCIVR",
+      "DESeq2",
+      "RSEM",
+      "STAR",
+      "Trim Galore!",
+      "ExpressAnalyst",
+      "ExpressAnalystR",
+      "Kallisto",
+      "Seq2Fun",
+      "Seq2Fun 2.0",
+      "Seq2Fun 2.0.2",
+      "limma",
+      "DEgenes Hunter",
+      "ExpHunter Suite",
+      "NOISeq",
+      "R",
+      "VEGA",
+      "gseapy",
+      "scanpy"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "single-cell-clustering-annotation",
+    "name": "single-cell-clustering-annotation-workflow",
+    "description": "Use when a raw single-cell RNA-seq count matrix must be quality-filtered, normalized, reduced to a PCA embedding, clustered by a neighborhood graph, tested for cluster-specific markers, and annotated against an external tissue marker reference.\n",
+    "techniques": [],
+    "stage_count": 6,
+    "stages": [
+      "filter_cells_and_genes",
+      "normalize_expression",
+      "compute_pca_embedding",
+      "cluster_cells",
+      "identify_cluster_markers",
+      "annotate_cell_types"
+    ],
+    "member_tools": [
+      "AnnData",
+      "AnnData (Annotated Data object)",
+      "Cellar",
+      "Python",
+      "faiss",
+      "numpy",
+      "scanpy",
+      "scikit-learn",
+      "scipy",
+      "scSemiProfiler",
+      "Cobolt",
+      "MOFA+",
+      "Mowgli",
+      "Multigrate",
+      "Seurat v4",
+      "Seurat",
+      "scCATCH",
+      "CellMatch",
+      "rev_gene"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

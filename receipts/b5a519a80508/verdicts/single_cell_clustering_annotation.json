@@ -1,0 +1,21 @@
+{
+  "workflow": "single_cell_clustering_annotation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "The nonprimary leaf knn-graph-construction-from-pca-embeddings builds the downstream neighbor graph rather than computing the PCA embedding.",
+      "severity": "advisory",
+      "slug": "knn-graph-construction-from-pca-embeddings",
+      "stage": "compute_pca_embedding"
+    }
+  ],
+  "verdict": "pass"
+}
