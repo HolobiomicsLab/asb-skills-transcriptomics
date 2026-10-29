@@ -1,0 +1,16 @@
+name: SClineager
+slug: sclineager
+version_used: '1.30'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.celrep.2020.108589
+  title: Overcoming Expressional Drop-outs in Lineage Reconstruction from Single-Cell RNA-Sequencing Data
+source_repos:
+- https://github.com/inmybrain/SClineager
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/inmybrain/SClineager

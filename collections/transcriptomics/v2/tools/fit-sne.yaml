@@ -1,0 +1,17 @@
+name: FIt-SNE
+slug: fit-sne
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+source_repos:
+- https://github.com/KlugerLab/FIt-SNE
+- https://github.com/lixiangchun/Miscell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/FIt-SNE

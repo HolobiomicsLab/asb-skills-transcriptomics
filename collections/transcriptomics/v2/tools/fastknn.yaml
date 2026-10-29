@@ -1,0 +1,19 @@
+name: fastknn
+slug: fastknn
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'first install the `fastknn` package, which can be installed as follows:'
+- devtools::install_github("davpinto/fastknn")
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+source_repos:
+- https://github.com/davpinto/fastknn
+- https://github.com/WangX-Lab/PreCanCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/davpinto/fastknn

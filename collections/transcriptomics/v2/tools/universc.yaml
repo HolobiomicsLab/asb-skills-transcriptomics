@@ -1,0 +1,19 @@
+name: UniverSC
+slug: universc
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce UniverSC (https://github.com/minoda-lab/universc), a universal single-cell RNA-seq data processing tool
+- the SmartSeq2 dataset was processed twice, once by UniverSC and once by zUMIs
+- We introduce UniverSC (https://github.com/minoda-lab/universc), a universal single-cell RNA-seq data processing tool that supports any unique molecular identifier-based platform.
+derived_from:
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+source_repos:
+- https://github.com/minoda-lab/universc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/minoda-lab/universc

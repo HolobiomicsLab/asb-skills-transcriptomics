@@ -1,0 +1,18 @@
+name: BUSCO
+slug: busco
+version_used: null
+edam_topics: []
+evidence_spans:
+- TransRate‐Q and BUSCO are executed using this filtered assembly
+- Busco and Transrate are used to establish a ground quality score of the unfiltered assembly.
+derived_from:
+- doi: 10.1002/ece3.5571
+  title: The Bellerophon pipeline, improving de novo transcriptomes and removing chimeras
+source_repos:
+- https://github.com/JesseKerkvliet/Bellerophon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JesseKerkvliet/Bellerophon

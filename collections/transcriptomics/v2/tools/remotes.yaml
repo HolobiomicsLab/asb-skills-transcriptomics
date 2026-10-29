@@ -1,0 +1,49 @@
+name: remotes
+slug: remotes
+version_used: null
+edam_topics: []
+evidence_spans:
+- remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')
+- The remotes package is needed
+- 'Once you have the remotes package installed you can install the origins package by typing: remotes::install_github("danielasenraoka/ORIGINS")'
+- remotes::install_github(repo='yulijia/SnapCCESS',branch='main',subdir='snapccess-r/SnapCCESS')
+- remotes::install_github("almeidasilvaf/SoyFungiGCN")
+- 'require(remotes)
+
+  remotes::install_github(''JEFworks-Lab/STdeconvolve'')'
+- require(remotes)
+- remotes::install_github('JEFworks-Lab/STdeconvolve')
+- remotes::install_github("dajmcdon/suffpcr")
+derived_from:
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+- doi: 10.1016/j.mex.2023.102179
+  title: 'Cell annotation using scRNA-seq data: A protein-protein interaction network approach'
+- doi: 10.1016/j.mex.2022.101778
+  title: 'ORIGINS: A protein network-based approach to quantify cell pluripotency from scRNA-seq data'
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+- doi: 10.1038/s41598-021-03864-x
+  title: Integration of genome-wide association studies and gene coexpression networks unveils promising soybean resistance genes against five common fungal pathogens
+- doi: 10.1038/s41467-022-30033-z
+  title: Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data
+- doi: 10.1093/bioadv/vbac033
+  title: Sufficient principal component regression for pattern discovery in transcriptomic data
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+source_repos:
+- https://github.com/13308204545/Chord
+- https://github.com/danielasenraoka/ORIGINS2
+- https://github.com/danielasenraoka/ORIGINS
+- https://github.com/PYangLab/SnapCCESS
+- https://github.com/yulijia/SnapCCESS
+- https://github.com/almeidasilvaf/SoyFungiGCN
+- https://github.com/JEFworks-Lab/STdeconvolve
+- https://github.com/dajmcdon/suffpcr
+- https://github.com/carmonalab/TILPRED
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/13308204545/Chord

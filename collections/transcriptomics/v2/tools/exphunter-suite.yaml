@@ -1,0 +1,19 @@
+name: ExpHunter Suite
+slug: exphunter-suite
+version_used: null
+edam_topics: []
+evidence_spans:
+- packageVersion("ExpHunterSuite")
+- ExpHunter Suite is implemented as an R/Bioconductor package available from https://bioconductor.org/packages/ExpHunterSuite
+- '**Package version**: `r packageVersion("ExpHunterSuite")`'
+derived_from:
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+source_repos:
+- https://github.com/seoanezonjic/ExpHunterSuite
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/seoanezonjic/ExpHunterSuite

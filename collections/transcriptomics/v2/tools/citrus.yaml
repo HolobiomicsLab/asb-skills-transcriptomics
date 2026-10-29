@@ -1,0 +1,18 @@
+name: Citrus
+slug: citrus
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Our method is implemented as a part of the Citrus project and is freely available at: http://chenmengjie.github.io/Citrus/.'
+- '- `CellCycleData (Citrus)`'
+derived_from:
+- doi: 10.1038/s41598-017-13665-w
+  title: Controlling for Confounding Effects in Single Cell RNA Sequencing Studies Using both Control and Target Genes
+source_repos:
+- https://github.com/ChenMengjie/Citrus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChenMengjie/Citrus

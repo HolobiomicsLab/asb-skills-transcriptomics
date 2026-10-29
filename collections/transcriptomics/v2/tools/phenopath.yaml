@@ -1,0 +1,23 @@
+name: Phenopath
+slug: phenopath
+version_used: null
+edam_topics: []
+evidence_spans:
+- Phenopath28 and condiments29 are two pseudotime methods capable of identifying changes across conditions.
+- (e.g. Monocle2, Monocle3, PhenoPath)
+- We provide an R implementation of our method PhenoPath at https://bioconductor.org/packages/release/bioc/html/phenopath.html.
+- We provide an R implementation of our method PhenoPath at
+derived_from:
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+source_repos:
+- https://github.com/Winnie09/Lamian
+- https://github.com/kieranrcampbell/phenopath
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Winnie09/Lamian

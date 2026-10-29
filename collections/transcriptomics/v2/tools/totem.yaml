@@ -1,0 +1,22 @@
+name: Totem
+slug: totem
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce Totem, an open-source, easy-to-use R package designed to facilitate inference of tree-shaped trajectories from single-cell data.
+- '`Totem` generates a large number of clustering results with a *k*-medoids algorithm (CLARA) and constructs an MST for each clustering.'
+- We introduce Totem, an open-source, easy-to-use R package designed to facilitate inference of tree-shaped trajectories from single-cell data
+- '`Totem` generates a large number of clustering results with a *k*-medoids algorithm (CLARA)'
+- Totem package manual
+- '`Totem` package is a tool designed to facilitate the inference of tree-shaped trajectories from single-cell data [1].'
+derived_from:
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+source_repos:
+- https://github.com/elolab/Totem
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/elolab/Totem

@@ -1,0 +1,20 @@
+name: computeCommunProb
+slug: computecommunprob
+version_used: null
+edam_topics: []
+evidence_spans:
+- computeCommunProb(object, type, trim, LR.use, raw.use, population.size, distance.use, interaction.range, scale.distance, k.min, contact.dependent, contact.range, contact.knn.k,
+- computeCommunProb(object, type, trim, LR.use, raw.use, population.size, distance.use, interaction.range, scale.distance, k.min, contact.dependent, contact.range, contact.knn.k
+- '`computeCommunProb(object, type, trim, LR.use, raw.use, population.size, distance.use, interaction.range, scale.distance, k.min, contact.dependent, contact.range, contact.knn.k,'
+derived_from:
+- doi: 10.1038/s41467-021-21246-9
+  title: Inference and analysis of cell-cell communication using CellChat
+source_repos:
+- https://github.com/jinworks/CellChat
+- https://github.com/sqjin/CellChat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jinworks/CellChat

@@ -1,0 +1,20 @@
+name: psRNAtarget
+slug: psrnatarget
+version_used: null
+edam_topics: []
+evidence_spans:
+- A bipartite network is constructed to depict miRNA–target interactions predicted by psRNAtarget [36].
+derived_from:
+- doi: 10.1016/j.gpb.2021.02.010
+  title: Interactive Web-Based Annotation of Plant MicroRNAs with iwa-miRNA
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+source_repos:
+- https://github.com/cma2015/iwa-miRNA
+- https://github.com/skbinfo/tncRNA-Toolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cma2015/iwa-miRNA

@@ -1,0 +1,25 @@
+name: ROCR
+slug: rocr
+version_used: '0.11'
+edam_topics: []
+evidence_spans:
+- Find_Markers_ROC(dl, cm, n_threads)
+- ROCR (Imports)
+- method uses Kullback-Leibler divergence to find genes that are expressed in subsets of cells that are non-randomly positioned
+derived_from:
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+source_repos:
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/alexisvdb/singleCellHaystack
+- https://github.com/LXY1201/GSFM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/leeprichman/ClonoCluster

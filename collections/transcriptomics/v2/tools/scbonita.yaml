@@ -1,0 +1,17 @@
+name: scBONITA
+slug: scbonita
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed the single-cell Boolean Omics Network Invariant Time Analysis (scBONITA) algorithm
+derived_from:
+- doi: 10.1038/s41540-022-00246-5
+  title: Executable models of immune signaling pathways in HIV-associated atherosclerosis
+source_repos:
+- https://github.com/Thakar-Lab/scBONITA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Thakar-Lab/scBONITA

@@ -1,0 +1,34 @@
+name: RCTD
+slug: rctd
+version_used: null
+edam_topics: []
+evidence_spans:
+- deconvolute cell type composition for each spot on single ST slice.
+- Deconvolution of mouse lymph node samples
+- We set the doublet_mode parameter being full.
+- 'We followed the guidelines on the RCTD GitHub repository: https://github.com/dmcable/spacexr. We set the doublet_mode parameter being full.'
+- 'We followed the guidelines on the RCTD GitHub repository: https://github.com/dmcable/spacexr'
+- we follow RCTD’s strategy to accurately approximate γg by viewing ST data as a bulk RNA-seq data
+- we replace the first step, Nucleus segmentation, with Singlet/Doublet classification inspired by RCTD
+- RCTD4 uses the cell-type-specific mean expression of marker genes derived from a scRNA-seq reference to build a probabilistic model
+derived_from:
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+- doi: 10.1038/s41467-022-30033-z
+  title: Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data
+source_repos:
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/dmcable/spacexr
+- https://github.com/YangLabHKUST/SpatialScope
+- https://github.com/JEFworks-Lab/STdeconvolve
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QuKunLab/SPACEL

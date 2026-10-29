@@ -1,0 +1,19 @@
+name: STARE
+slug: stare
+version_used: null
+edam_topics: []
+evidence_spans:
+- If you're only interested in the ABC-scored interactions, you can also call that part independently.
+- STARE is a framework that combines two tasks, which can also work independently
+- To get TF scores for a gene, STARE summarises the TF-affinities from regions that were assigned to that gene.
+derived_from:
+- doi: 10.1093/bioinformatics/btad062
+  title: The adapted Activity-By-Contact model for enhancer–gene assignment and its application to single-cell data
+source_repos:
+- https://github.com/schulzlab/STARE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/schulzlab/STARE

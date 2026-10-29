@@ -1,0 +1,17 @@
+name: R >=3.5
+slug: r-3-5
+version_used: '3.5'
+edam_topics: []
+evidence_spans:
+- '#R >=3.5'
+derived_from:
+- doi: 10.1038/s41421-019-0114-x
+  title: A novel approach to remove the batch effect of single-cell data
+source_repos:
+- https://github.com/jumphone/BEER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jumphone/BEER

@@ -1,0 +1,17 @@
+name: Java Run time environment 8
+slug: java-run-time-environment-8
+version_used: null
+edam_topics: []
+evidence_spans:
+- '* Java Run time environment 8'
+derived_from:
+- doi: 10.1038/s42003-023-04557-z
+  title: Single-cell transcriptome sequencing allows genetic separation, characterization and identification of individuals in multi-person biological mixtures
+source_repos:
+- https://github.com/genid/de-goulash
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genid/de-goulash

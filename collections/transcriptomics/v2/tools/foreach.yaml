@@ -1,0 +1,24 @@
+name: foreach
+slug: foreach
+version_used: 1.4.4
+edam_topics: []
+evidence_spans:
+- '`cores` represents the number of cores to use for parallel execution.'
+- Two algorithms, namely SingleR and PreCanCell, were implemented with multiple workers for parallel execution
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1093/bib/bbae180
+  title: Single-cell multi-omics analysis identifies context-specific gene regulatory gates and mechanisms
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+source_repos:
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/CompBioIPM/scGATE
+- https://github.com/Xinglab/PAIRADISE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangX-Lab/PreCanCell

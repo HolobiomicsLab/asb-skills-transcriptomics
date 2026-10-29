@@ -1,0 +1,19 @@
+name: AnnotationHub
+slug: annotationhub
+version_used: 3.8.0
+edam_topics: []
+evidence_spans:
+- '`SeedMatchR` makes extensive use of `AnnotationHub` to help access genomic annotations in a reproducible manner.'
+- '`AnnotationHub` ≥ 3.8.0 is required'
+- This is because `AnnotationHub` ≥ 3.8.0 is required.
+derived_from:
+- doi: 10.1093/bioinformatics/btae011
+  title: 'SeedMatchR: identify off-target effects mediated by siRNA seed regions in RNA-seq experiments'
+source_repos:
+- https://github.com/tacazares/SeedMatchR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tacazares/SeedMatchR

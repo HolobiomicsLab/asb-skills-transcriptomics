@@ -1,0 +1,17 @@
+name: LINCS L1000
+slug: lincs-l1000
+version_used: null
+edam_topics: []
+evidence_spans:
+- to predict potential combined treatment strategies using the LINCS L1000 data [17]
+derived_from:
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+source_repos:
+- https://github.com/ailabstw/scDrug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ailabstw/scDrug

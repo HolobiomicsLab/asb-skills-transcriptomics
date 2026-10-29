@@ -1,0 +1,20 @@
+name: EmptyDrops
+slug: emptydrops
+version_used: null
+edam_topics: []
+evidence_spans:
+- The recent method EmptyDrops12 addresses this filtering issue for scRNA-seq by estimating a Dirichlet-Multinomial distribution of the ambient RNA.
+derived_from:
+- doi: 10.1038/s41598-020-67513-5
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+- doi: 10.1016/j.patter.2021.100311
+  title: 'EmptyNN: A neural network based on positive and unlabeled learning to remove cell-free droplets and recover lost cells in scRNA-seq data'
+source_repos:
+- https://github.com/marcalva/diem
+- https://github.com/lkmklsmn/empty_nn
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marcalva/diem

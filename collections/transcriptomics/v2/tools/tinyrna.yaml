@@ -1,0 +1,18 @@
+name: tinyRNA
+slug: tinyrna
+version_used: null
+edam_topics: []
+evidence_spans:
+- tiny-count can be run alone or as part of tinyRNA, a workflow that provides a basic all-in-one command line-based solution
+- tiny-count can be run alone or as part of tinyRNA, a workflow that provides a basic all-in-one command line-based solution for small RNA-seq data analysis
+derived_from:
+- doi: 10.1093/bioadv/vbad065
+  title: 'tiny-count: a counting tool for hierarchical classification and quantification of small RNA-seq reads with single-nucleotide precision'
+source_repos:
+- https://github.com/MontgomeryLab/tinyRNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MontgomeryLab/tinyRNA

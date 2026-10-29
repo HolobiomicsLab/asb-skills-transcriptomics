@@ -1,0 +1,18 @@
+name: mmsig
+slug: mmsig
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("evenrus/mmsig")
+- library(mmsig)
+derived_from:
+- doi: 10.1038/s42003-021-01938-0
+  title: 'mmsig: a fitting approach to accurately identify somatic mutational signatures in hematological malignancies'
+source_repos:
+- https://github.com/evenrus/mmsig
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/evenrus/mmsig

@@ -1,0 +1,21 @@
+name: MetaCycle
+slug: metacycle
+version_used: null
+edam_topics: []
+evidence_spans:
+- please see the documentation for the `meta2d` function in `MetaCycle` or the `JTK_Cycle` package.
+- please see the documentation for the `meta2d` function in `MetaCycle`
+- the documentation for the `meta2d` function in `MetaCycle`
+- the `meta2d` function in `MetaCycle`
+- For more details, please see the documentation for the `meta2d` function in `MetaCycle` or the `JTK_Cycle` package.
+derived_from:
+- doi: 10.1038/s41467-024-48041-6
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+source_repos:
+- https://github.com/micnngo/tauFisher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/micnngo/tauFisher

@@ -1,0 +1,17 @@
+name: miloDE
+slug: milode
+version_used: null
+edam_topics: []
+evidence_spans:
+- apply GEDI (hyperplane and hyperellipsoid), LEMUR, miloDE, and DESeq2 pseudobulk
+derived_from:
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+source_repos:
+- https://github.com/csglab/GEDI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/csglab/GEDI

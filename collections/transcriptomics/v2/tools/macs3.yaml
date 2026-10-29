@@ -1,0 +1,24 @@
+name: MACS3
+slug: macs3
+version_used: null
+edam_topics: []
+evidence_spans:
+- peaks2utr uses MACS (https://pypi.org/project/MACS3/) to call broad "peaks" of significant read coverage in the BAM file
+- peaks2utr uses MACS (https://pypi.org/project/MACS3/) to call broad "peaks" of significant read coverage
+- Then we used MACS3 to call peaks from each per-cell-type BAM file.
+- MACS3 was run under the -BAMPE mode with the q-value threshold 0.05; HOMER was run under the -region mode with the parameter -minDist 150
+derived_from:
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+source_repos:
+- https://github.com/haessar/peaks2utr
+- https://github.com/macs3-project/MACS
+- https://github.com/JSB-UCLA/scReadSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haessar/peaks2utr

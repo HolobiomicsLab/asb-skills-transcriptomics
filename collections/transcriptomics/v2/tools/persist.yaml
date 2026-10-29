@@ -1,0 +1,18 @@
+name: persist
+slug: persist
+version_used: null
+edam_topics: []
+evidence_spans:
+- To use the persist package, you will need to install it following the instructions
+derived_from:
+- doi: 10.1038/s41540-024-00339-3
+  title: 'MarkerMap: nonlinear marker selection for single-cell studies'
+source_repos:
+- https://github.com/iancovert/persist
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iancovert/persist

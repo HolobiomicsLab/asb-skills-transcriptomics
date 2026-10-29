@@ -1,0 +1,32 @@
+name: pROC
+slug: proc
+version_used: 17.0.1
+edam_topics: []
+evidence_spans:
+- ROCs and AUCs are calculated for each pipeline using the pROC package79
+- Final.drugs<-TopDrug(SC.integrated=SC.integrated,
+- library(pROC)
+- 'library(nestedcv)
+
+  library(pROC)'
+- 'pROC: An open-source package for r and s+ to analyze and compare ROC curves'
+derived_from:
+- doi: 10.1038/s41467-023-36637-3
+  title: ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs
+- doi: 10.1093/bioadv/vbad048
+  title: 'nestedcv: an R package for fast implementation of nested cross-validation with embedded feature selection designed for transcriptomics and high-dimensional data'
+- doi: 10.1093/bioinformatics/btad062
+  title: The adapted Activity-By-Contact model for enhancer–gene assignment and its application to single-cell data
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+source_repos:
+- https://github.com/lanagarmire/ASGARD
+- https://github.com/myles-lewis/nestedcv
+- https://github.com/schulzlab/STARE
+- https://github.com/LXY1201/GSFM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/ASGARD

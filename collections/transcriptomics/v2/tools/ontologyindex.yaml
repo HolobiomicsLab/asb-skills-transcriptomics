@@ -1,0 +1,22 @@
+name: ontologyIndex
+slug: ontologyindex
+version_used: null
+edam_topics: []
+evidence_spans:
+- ontologyIndex (Imports)
+- library(ontologyIndex)
+- ont <- ontologyIndex::get_OBO(obo_file, propagate_relationships = propagate_relationships)
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/Papatheodorou-Group/scOntoMatch
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

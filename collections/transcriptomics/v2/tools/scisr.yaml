@@ -1,0 +1,20 @@
+name: scISR
+slug: scisr
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop a novel imputation method, named single-cell Imputation via Subspace Regression (scISR), that can reliably recover the dropout values of scRNA-seq data
+- we develop a novel imputation method, named single-cell Imputation via Subspace Regression (scISR)
+- The second module utilizes a data perturbation technique26 to automatically group genes with similar patterns into smaller groups.
+- scISR package manual
+derived_from:
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+source_repos:
+- https://github.com/duct317/scISR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/duct317/scISR

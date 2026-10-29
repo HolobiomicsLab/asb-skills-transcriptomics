@@ -1,0 +1,17 @@
+name: Seurat AddModuleScore function
+slug: seurat-addmodulescore-function
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.xgen.2023.100383
+  title: Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data
+source_repos:
+- https://github.com/satijalab/seurat
+- https://github.com/dengchunyu/scPagwas
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/satijalab/seurat

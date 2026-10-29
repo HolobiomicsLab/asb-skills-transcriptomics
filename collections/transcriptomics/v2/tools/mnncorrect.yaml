@@ -1,0 +1,16 @@
+name: MNNcorrect
+slug: mnncorrect
+version_used: 821.841.001.001
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+source_repos:
+- https://github.com/mandricigor/batman
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mandricigor/batman

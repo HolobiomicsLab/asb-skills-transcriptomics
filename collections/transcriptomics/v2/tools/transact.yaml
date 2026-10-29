@@ -1,0 +1,17 @@
+name: TRANSACT
+slug: transact
+version_used: null
+edam_topics: []
+evidence_spans:
+- we validate ASGARD using the drug response prediction method TRANSACT with Triple-Negative-Breast-Cancer patient samples
+derived_from:
+- doi: 10.1038/s41467-023-36637-3
+  title: ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs
+source_repos:
+- https://github.com/lanagarmire/ASGARD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/ASGARD

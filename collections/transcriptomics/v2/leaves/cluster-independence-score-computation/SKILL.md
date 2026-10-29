@@ -1,0 +1,147 @@
+---
+name: cluster-independence-score-computation
+description: Use when you already have decomposed/merged M-cluster assignments for
+  a scRNA-seq expression matrix and need per-cluster anomaly scores and rarity calls
+  via isolation-forest anomaly scoring plus the independence score with threshold
+  I=0.7.
+when_to_use_negative:
+- The input is a raw count matrix that has not been through scCAD's upstream pipeline
+  (gene filter of >=3 cells, log-normalization with size factors, PCA to 40 PCs, k=15
+  KNN Louvain clustering, ensemble feature selection of top 2000 HVG + top 2000 random-forest
+  genes) — the M-clusters needed as input will not exist yet.
+- You need rare-type detection from a one-time global clustering alone — the article's
+  premise is that one-time clustering overlooks rare types; this skill only scores
+  already-decomposed clusters.
+- The clusters to score are known-rare reference populations used for validation only,
+  where differential-expression-based candidate gene selection (median difference)
+  is unnecessary.
+edam_operation: http://edamontology.org/operation_3432
+edam_topics:
+- http://edamontology.org/topic_0203
+- http://edamontology.org/topic_3308
+tools:
+- name: scCAD
+  role: Implements the per-cluster differential gene selection, isolation-forest scoring,
+    independence score computation, and I=0.7 rare-cluster flagging (overlap_h argument)
+  repo: https://github.com/xuyp-csu/scCAD
+- name: scikit-learn
+  role: Provides the IsolationForest model used to compute per-cell anomaly scores
+    on the top-20 differential genes (tested with scikit-learn 1.0.2)
+- name: h5py
+  role: Loads the .h5 expression matrix, labels, gene names, and cell names (e.g.
+    1%Jurkat.h5 with 1540 293T + 16 Jurkat cells)
+- name: numpy
+  role: Array computation for median differences, anomaly score ranking, and independence-score
+    set overlap
+- name: pandas
+  role: Writes per-cluster independence scores and candidate DEG lists to independence_scores.csv
+- name: Scanpy
+  role: Upstream preprocessing (normalization, PCA, Louvain clustering) that produces
+    the clusters scored by this skill (version 1.9.1)
+provenance:
+  source_task_ids:
+  - task_008
+  source_papers:
+  - doi: 10.1038/s41467-024-51891-9
+    title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification
+      in single-cell expression data'
+  source_content_hash: sha256:ba51f5345a511472b5ff33b0a322fe64f203cf59693aae6a59878b8cdcfa1d02
+schema_version: 0.2.0
+metadata:
+  license_tier: noncommercial
+  tool_license:
+    tier: noncommercial
+    requires_ack: true
+    ref: CC-BY-NC-ND-4.0
+    url: https://github.com/xuyp-csu/scCAD
+  repo_url: https://github.com/xuyp-csu/scCAD
+  tools:
+  - Scanpy
+  - h5py
+  - numpy
+  - pandas
+  - scCAD
+  - scikit-learn
+  edam_operation: http://edamontology.org/operation_3432
+  edam_topics:
+  - http://edamontology.org/topic_0203
+  - http://edamontology.org/topic_3308
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: critique
+yes_rate: 0.4
+n_claims: 10
+---
+
+# cluster-independence-score-computation
+
+> **License: noncommercial** — confirm your use is a permitted (noncommercial) purpose before applying; commercial use requires a separate license (see `metadata.tool_license`). <!-- asb-license-banner -->
+## Summary
+
+Implements scCAD's post-merging rarity quantification: for each M-cluster, anomaly scores from an isolation forest trained on the cluster's top-20 differential genes are converted into an independence score (IS) that flags rare cell clusters. This is the step that turns cluster decomposition output into rare-cell-type calls.
+
+## When to use
+
+Use when you already have decomposed/merged M-cluster assignments for a scRNA-seq expression matrix and need per-cluster anomaly scores and rarity calls via isolation-forest anomaly scoring plus the independence score with threshold I=0.7.
+
+## When NOT to use
+
+- The input is a raw count matrix that has not been through scCAD's upstream pipeline (gene filter of >=3 cells, log-normalization with size factors, PCA to 40 PCs, k=15 KNN Louvain clustering, ensemble feature selection of top 2000 HVG + top 2000 random-forest genes) — the M-clusters needed as input will not exist yet.
+- You need rare-type detection from a one-time global clustering alone — the article's premise is that one-time clustering overlooks rare types; this skill only scores already-decomposed clusters.
+- The clusters to score are known-rare reference populations used for validation only, where differential-expression-based candidate gene selection (median difference) is unnecessary.
+
+## Inputs
+
+- Preprocessed expression matrix (cells x genes), e.g. h5py File with 'X', 'Y', 'gn', 'cn' arrays from 1%Jurkat.h5
+- M-cluster (sub-cluster) label assignments for each cell from scCAD's cluster decomposition/merging stage
+- Optional cell names and gene names vectors (auto-generated by scCAD if not provided)
+
+## Outputs
+
+- Per-cluster independence scores (np.array[n sub-clusters]); the scCAD 'score' return value
+- Rare sub-cluster assignments: list of cell names belonging to flagged rare clusters (IS_i > 0.7)
+- Candidate DEG lists per rare sub-cluster (scCAD 'degs_list' return value)
+- Per-sub-cluster cell label assignments (np.array[n cells])
+- independence_scores.csv with per-cluster independence scores, rare-cluster assignments, and candidate DEG lists (save_full=True, save_path='./')
+
+## How to apply
+
+Load the preprocessed expression matrix and M-cluster assignments (e.g. from 1%Jurkat.h5 with h5py, cells x genes). For each M-cluster i, compute per-gene median differences d_k = |median(X_Ci^k) - median(X_Ci'^k)| between cells inside and outside the cluster and keep the top 20 genes with the largest differences as the candidate gene set S_i. Restrict the expression matrix to S_i, train a scikit-learn IsolationForest, and compute anomaly scores AS_j^Si = 2^(-E(h(j))/c(n)) where c(n) = 2H(n-1) - 2(n-1)/n with H(n-1) ≈ ln(n-1) + 0.5772156649 (the Euler-Mascheroni approximation). Define T_Ni as the top N_i cells ranked by anomaly score over all cells and compute IS_i = |T_Ni ∩ C_i| / N_i; the key decision point is flagging cluster i as rare when IS_i exceeds the default threshold I = 0.7. Rationale: a truly rare cluster's most abnormal cells should coincide with the cluster's own cells, yielding a high overlap ratio, so IS quantifies the cluster's rarity rather than relying on global clustering. Record the per-cluster independence scores and candidate DEG lists (rare clusters are exactly those with IS_i > 0.7).
+
+## Related tools
+
+- **scCAD** (Implements the per-cluster differential gene selection, isolation-forest scoring, independence score computation, and I=0.7 rare-cluster flagging (overlap_h argument)) — https://github.com/xuyp-csu/scCAD
+- **scikit-learn** (Provides the IsolationForest model used to compute per-cell anomaly scores on the top-20 differential genes (tested with scikit-learn 1.0.2))
+- **h5py** (Loads the .h5 expression matrix, labels, gene names, and cell names (e.g. 1%Jurkat.h5 with 1540 293T + 16 Jurkat cells))
+- **numpy** (Array computation for median differences, anomaly score ranking, and independence-score set overlap)
+- **pandas** (Writes per-cluster independence scores and candidate DEG lists to independence_scores.csv)
+- **Scanpy** (Upstream preprocessing (normalization, PCA, Louvain clustering) that produces the clusters scored by this skill (version 1.9.1))
+
+## Examples
+
+```
+result, score, sub_clusters, degs_list = scCAD.scCAD(data=data, dataName='Jurkat', cellNames=cellNames, geneNames=geneNames, overlap_h=0.7, save_path='./')
+```
+
+## Evaluation signals
+
+- All computed independence scores fall within [0, 1] since IS_i = |T_Ni ∩ C_i| / N_i is an overlap ratio.
+- Flagged rare clusters are exactly those with IS_i > 0.7 (the paper's default threshold, I=0.7 across all datasets).
+- On the 1%Jurkat.h5 demo (1540 293T cells + 16 Jurkat cells), the rare sub-cluster found should correspond to the 16 Jurkat cells; checking Counter(labels[indices]) should recover the Jurkat label.
+- Each flagged rare cluster carries a non-empty candidate DEG list (scCAD's degs_list), and the article reports over 86% of selected genes on average were rare cell type-specific.
+- Output artifacts (independence_scores.csv / returned score array) have one entry per sub-cluster, with len(score) == n sub-clusters and len(sub_clusters) == n cells.
+
+## Limitations
+
+- The independence-score threshold is dataset-independent by default ('We default to applying I=0.7 across all datasets'), but sensitivity to I is a tuning risk if the default misclassifies borderline clusters.
+- Scores depend on the quality of upstream cluster decomposition and merging (rare_h=0.01 decomposition threshold, merge_h=0.3 merge threshold); poor M-clusters yield unreliable independence scores.
+- Candidate gene selection uses only the top 20 median-difference genes per cluster, so clusters with weak differential signal may produce low anomaly-score separation.
+- Runtime/memory: scCAD requires enough RAM for in-memory operations; the demo dataset takes ~40 seconds, but large datasets scale accordingly.
+
+## Evidence
+
+- [discussion] Top-20 differential genes fed to isolation forest: [evidence span withheld — anchor status: not_found]
+- [discussion] Independence score threshold I=0.7 flags rare clusters: [evidence span withheld — anchor status: not_found]
+- [discussion] Default threshold applied across all datasets: [evidence span withheld — anchor status: not_found]
+- [readme] README documents score return value per sub-cluster: "score : Score of every sub_clusters: np.array[n sub-clusters]."
+- [readme] README documents overlap_h as rare sub-cluster threshold: "overlap_h: Overlap threshold to identify rare sub-clusters. (default: 0.7)"

@@ -1,0 +1,19 @@
+name: scKINETICS
+slug: sckinetics
+version_used: null
+edam_topics: []
+evidence_spans:
+- Welcome to scKINETICS's documentation!
+- '**s**ingle-**c**ell **K**ey regulatory **I**nteraction **NET**work for **I**nferring **C**ell **S**peed'
+- We introduce scKINETICS (Key regulatory Interaction NETwork for Inferring Cell Speed), a dynamical model of gene expression change
+derived_from:
+- doi: 10.1093/bioinformatics/btad267
+  title: 'scKINETICS: inference of regulatory velocity with single-cell transcriptomics data'
+source_repos:
+- https://github.com/dpeerlab/scKINETICS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dpeerlab/scKINETICS

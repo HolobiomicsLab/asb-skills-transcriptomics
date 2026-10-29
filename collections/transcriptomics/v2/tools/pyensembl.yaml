@@ -1,0 +1,19 @@
+name: pyensembl
+slug: pyensembl
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'python module: pyensembl (https://github.com/openvax/pyensembl)'
+- 'python module: [pyensembl](https://github.com/openvax/pyensembl)'
+derived_from:
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+source_repos:
+- https://github.com/openvax/pyensembl
+- https://github.com/XiDsLab/scFusion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/openvax/pyensembl

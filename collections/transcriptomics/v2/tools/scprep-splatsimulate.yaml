@@ -1,0 +1,18 @@
+name: scprep (SplatSimulate)
+slug: scprep-splatsimulate
+version_used: null
+edam_topics: []
+evidence_spans:
+- python wrapper scprep SplatSimulate v1.2.3 of splatter v1.18.2
+derived_from:
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+source_repos:
+- https://github.com/jranek/delve_benchmark
+- https://github.com/jranek/delve
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jranek/delve_benchmark

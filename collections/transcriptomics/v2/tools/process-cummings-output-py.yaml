@@ -1,0 +1,17 @@
+name: process_cummings_output.py
+slug: process-cummings-output-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- which can be done using the `process_cummings_output.py` script
+derived_from:
+- doi: 10.1016/j.ajhg.2021.12.014
+  title: 'MRSD: A quantitative approach for assessing suitability of RNA-seq in the investigation of mis-splicing in Mendelian disease'
+source_repos:
+- https://github.com/mcgm-mrsd/mrsd-explorer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgm-mrsd/mrsd-explorer

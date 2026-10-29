@@ -1,0 +1,17 @@
+name: faiss-cpu
+slug: faiss-cpu
+version_used: 1.7.3
+edam_topics: []
+evidence_spans:
+- 'faiss-cpu: 1.7.3'
+derived_from:
+- doi: 10.1093/bioinformatics/btad098
+  title: 'scGCL: an imputation method for scRNA-seq data based on graph contrastive learning'
+source_repos:
+- https://github.com/zehaoxiong123/scGCL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zehaoxiong123/scGCL

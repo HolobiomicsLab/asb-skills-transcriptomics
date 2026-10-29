@@ -1,0 +1,62 @@
+name: stats
+slug: stats
+version_used: 4.1.2
+edam_topics: []
+evidence_spans:
+- stats (Imports)
+- 1. Perform a PCA on the data matrix of control genes XB.
+- Take a random sample with replacement of |A| rows from XA and another |B| rows from XB
+- p.adjust(CSCORE_p[upper.tri(CSCORE_p)], method = "BH")
+- The raw counts are stored in a
+- '- `stats (Imports)`'
+- call library(<dep>) explicitly before using their functions.
+- Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- stats (Imports)
+- '`stats (Imports)`'
+- '- `stats (Imports)`'
+- pc <- stats::prcomp(X_PCA[, -ncol(X_PCA)], scale = FALSE)
+- stats::prcomp(X_PCA[, -ncol(X_PCA)], scale = FALSE)
+- stats::complete.cases(bulk_data[,-1])
+- R packages stats (version 4.1.2) and clues (version 0.6.2.2) within R, respectively
+derived_from:
+- doi: 10.1038/s41467-020-15816-6
+  title: Accurate estimation of cell composition in bulk expression through robust integration of single-cell information
+- doi: 10.1038/srep33892
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1038/s41598-020-67513-5
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+- doi: 10.1093/bioadv/vbac041
+  title: 'dipm: an R package implementing the Depth Importance in Precision Medicine (DIPM) tree and Forest-based method'
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1093/bib/bbaf110
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+- doi: 10.1093/bioadv/vbac033
+  title: Sufficient principal component regression for pattern discovery in transcriptomic data
+- doi: 10.1038/s41467-024-48041-6
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+source_repos:
+- https://github.com/cozygene/bisque
+- https://github.com/cran/ccRemover
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/marcalva/diem
+- https://github.com/chenvict/dipm
+- https://github.com/mamouzgar/hsslda
+- https://github.com/BIGslu/kimma
+- https://github.com/ConesaLab/MOSim
+- https://github.com/dajmcdon/suffpcr
+- https://github.com/micnngo/tauFisher
+- https://github.com/minoda-lab/universc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/bisque

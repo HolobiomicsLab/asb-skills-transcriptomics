@@ -1,0 +1,21 @@
+name: tensorflow-probability
+slug: tensorflow-probability
+version_used: '0.12'
+edam_topics: []
+evidence_spans:
+- This package uses the tensorflow (>= 2.4) and tensorflow-probability (>=0.12) packages.
+- We used tensorflow-probability v0.7.0 for all analyses
+derived_from:
+- doi: 10.1038/s41467-021-27150-6
+  title: scCODA is a Bayesian model for compositional single-cell data analysis
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+source_repos:
+- https://github.com/theislab/scCODA
+- https://github.com/klarman-cell-observatory/scPhere
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/scCODA

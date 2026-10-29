@@ -1,0 +1,20 @@
+name: iSC.MEB
+slug: isc-meb
+version_used: null
+edam_topics: []
+evidence_spans:
+- the function `iSC.MEB` implements the model `iSCMEB`
+- This vignette provides an introduction to the R package `iSC.MEB`, where the function `iSC.MEB` implements the model `iSCMEB`
+- the function `iSC.MEB` implements the model `iSCMEB`, a integrate spatial clustering analysis method with hidden Markov random field using empirical Bayes.
+- the function `iSC.MEB` implements the model `iSCMEB`, a integrate spatial clustering analysis method with hidden Markov random field using empirical Bayes
+derived_from:
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+source_repos:
+- https://github.com/XiaoZhangryy/iSC.MEB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiaoZhangryy/iSC.MEB

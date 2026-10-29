@@ -1,0 +1,18 @@
+name: MU-PseUDeep
+slug: mu-pseudeep
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have developed a deep learning convolutional neural network for the identification of Ψ sites, called MU-PseUDeep
+- our tool MU-PseUDeep is designed to capture both the sequence and secondary structure context
+derived_from:
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+source_repos:
+- https://github.com/smk5g5/MU-PseUDeep
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smk5g5/MU-PseUDeep

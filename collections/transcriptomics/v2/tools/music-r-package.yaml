@@ -1,0 +1,17 @@
+name: MuSiC R package
+slug: music-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`MuSiC` is implemented as an R package, `r BiocStyle::Githubpkg(''xuranw'', ''MuSiC'')`, which can be installed from GitHub'
+derived_from:
+- doi: 10.1038/s41467-018-08023-x
+  title: Bulk tissue cell type deconvolution with multi-subject single-cell expression reference
+source_repos:
+- https://github.com/xuranw/MuSiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xuranw/MuSiC

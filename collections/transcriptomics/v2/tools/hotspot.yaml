@@ -1,0 +1,22 @@
+name: Hotspot
+slug: hotspot
+version_used: 1.1.1
+edam_topics: []
+evidence_spans:
+- Hotspot was implemented using the hotspotsc v1.1.1 package in python
+- gene modules (i.e., not guided by pre-defined signatures) that are learned from the intersection of phylogeny and expression data using our Hotspot algorithm
+derived_from:
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1016/j.crmeth.2022.100200
+  title: Interactive, integrated analysis of single-cell transcriptomic and phylogenetic data with PhyloVision
+source_repos:
+- https://github.com/jranek/delve
+- https://github.com/YosefLab/Hotspot
+- https://github.com/YosefLab/VISION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jranek/delve

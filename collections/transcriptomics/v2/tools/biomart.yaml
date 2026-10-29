@@ -1,0 +1,45 @@
+name: biomaRt
+slug: biomart
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(biomaRt)
+- 'library(GEOquery)
+
+  library(biomaRt)
+
+  library(dplyr)'
+- Firstly Biomart was used to download lists of genes that were annotated to the cell cycle
+- one solution is to use `biomaRt` R package to convert the gene name to make sure they are consistent each other.
+- query Gene Ontology through Ensembl via biomaRt and pathway databases (KEGG, Reactome, Biocarta, PID:NCI-Nature, Panther, PharmGKB) via graphite
+- We use the Tabula Muris and Tabula Sapiens Smartseq-2 lung dataset as example.
+- we use biomaRt to map chromosome positions to HGNC symbols
+derived_from:
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/srep33892
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+- doi: 10.1016/j.omtn.2022.10.015
+  title: 'CRIT: Identifying RNA-binding protein regulator in circRNA life cycle via non-negative matrix factorization'
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+- doi: 10.1038/s42003-021-02986-2
+  title: InterCellar enables interactive analysis and exploration of cell−cell communication in single-cell transcriptomic data
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+source_repos:
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/cran/ccRemover
+- https://github.com/BioinformaticsSTU/CRIT
+- https://github.com/xzhoulab/iDEA
+- https://github.com/martaint/InterCellar
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/annweideman/canopy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/boostdiff_inference

@@ -1,0 +1,19 @@
+name: sim.py
+slug: sim-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- generates a single TWAS statistic using the simulator
+- generates a single TWAS statistic using the simulator [sim.py](https://github.com/mancusolab/twas_sim/blob/master/sim.py)
+- '[sim.py](https://github.com/mancusolab/twas_sim/blob/master/sim.py) is the actual simulator'
+derived_from:
+- doi: 10.1093/bioinformatics/btad288
+  title: twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis
+source_repos:
+- https://github.com/mancusolab/twas_sim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mancusolab/twas_sim

@@ -1,0 +1,18 @@
+name: CelliD
+slug: cellid
+version_used: null
+edam_topics: []
+evidence_spans:
+- The application of MCA embedding in scRNA-seq studies was first reported in the CelliD12 method, which generally performed the second best in the benchmarking
+- GSDensity first projects cells and genes in scRNA-seq data into the same low dimensional space using MCA (Fig. 1b), inspired by a previous study, CelliD
+derived_from:
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+source_repos:
+- https://github.com/qingnanl/gsdensity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qingnanl/gsdensity

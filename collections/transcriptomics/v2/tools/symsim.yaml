@@ -1,0 +1,36 @@
+name: SymSim
+slug: symsim
+version_used: 0.0.0.9000
+edam_topics: []
+evidence_spans:
+- We used SymSim v0.0.0.9000 in R v4.1.1 to simulate tree differentiation trajectories with 10000 cells, 20000 genes, and 4 cell types.
+- Estimate SymSim/Splatter parameters from the Perturb-seq (and optionally MARS-seq) data, simulate DE datasets
+- We perform three experiments to test the clustering performance of scMDC and generate 10 datasets in each experiment.
+- SymSim is an R package made to simulate single cell RNA-seq data
+- SimulateTrueCounts generates true transcript counts for the given number of genes and cells
+- True2ObservedCounts then simulates the library preparation and sequencing procedures, and convert the true transcript counts into observed read counts or UMI counts
+- For a single population, **BestMatchParams( )** returns parameters to generate datasets with similar statistical properties as a given input real dataset.
+- Here, we present SymSim, a simulator that explicitly models the processes that give rise to data observed in single cell RNA-Seq experiments.
+- devtools::install_github('YosefLab/SymSim')
+- SymSim is an R package made to simulate single cell RNA-seq data.
+derived_from:
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1038/s41467-021-26682-1
+  title: Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+source_repos:
+- https://github.com/YosefLab/SymSim
+- https://github.com/jranek/delve_benchmark
+- https://github.com/jranek/delve
+- https://github.com/lingfeiwang/normalisr
+- https://github.com/xianglin226/scMDC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YosefLab/SymSim

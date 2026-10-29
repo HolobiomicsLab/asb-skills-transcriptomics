@@ -1,0 +1,21 @@
+name: rpy2
+slug: rpy2
+version_used: 3.4.0
+edam_topics: []
+evidence_spans:
+- rpy2 >= 3.4.0 (For seamless working this package Linux system is recommended)
+- CTMM calls R routines through [rpy2](https://rpy2.github.io/), so a working R installation is required.
+derived_from:
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+- doi: 10.1038/s41467-024-49242-9
+  title: A robust model for cell type-specific interindividual variation in single-cell RNA sequencing data
+source_repos:
+- https://github.com/ashiq24/BEENE
+- https://github.com/Minhui-Chen/CTMM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ashiq24/BEENE

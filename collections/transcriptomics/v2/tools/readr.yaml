@@ -1,0 +1,23 @@
+name: readr
+slug: readr
+version_used: '4.0'
+edam_topics: []
+evidence_spans:
+- 'Following libraries are needed to run the shiny app: igraph,tidyr,dplyr,ggplot2,plotly,ggtext,data.table,readr.'
+derived_from:
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+- doi: 10.1016/j.ailsci.2023.100068
+  title: Elucidating dynamic cell lineages and gene networks in time-course single cell differentiation
+source_repos:
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/LXY1201/GSFM
+- https://github.com/zhangzmr/CellST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiangyanYu/IntestLine

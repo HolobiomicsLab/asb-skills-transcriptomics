@@ -1,0 +1,17 @@
+name: MuSDynamicDCBM
+slug: musdynamicdcbm
+version_used: null
+edam_topics: []
+evidence_spans:
+- First construct a `MuSDynamicDCBM` instance, i.e., simulation model, with desired parameters.
+derived_from:
+- doi: 10.1093/bioinformatics/btad592
+  title: 'MuDCoD: multi-subject community detection in personalized dynamic gene networks from single-cell RNA sequencing'
+source_repos:
+- https://github.com/bo1929/MuDCoD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bo1929/MuDCoD

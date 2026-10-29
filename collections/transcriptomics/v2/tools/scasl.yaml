@@ -1,0 +1,20 @@
+name: SCASL
+slug: scasl
+version_used: null
+edam_topics: []
+evidence_spans:
+- '> python main.py -y configs/srr.yaml'
+- we present the SCASL (single-cell clustering based on alternative splicing landscapes) method for interrogating the heterogeneity of RNA splicing with single-cell RNA-seq data
+- This figure represents the outcome of the final dimensionality reduction visualization, where the coloring is based on the clustering results of SCASL.
+- python main.py -y configs/srr.yaml
+derived_from:
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+source_repos:
+- https://github.com/xryanglab/SCASL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xryanglab/SCASL

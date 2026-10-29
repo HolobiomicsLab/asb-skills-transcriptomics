@@ -1,0 +1,18 @@
+name: Bioconductor (>=3.6)
+slug: bioconductor-3-6
+version_used: '3.6'
+edam_topics: []
+evidence_spans:
+- Note that `zinbwave` requires R (>=3.4) and Bioconductor (>=3.6).
+- publicly available through the Bioconductor Project (https://bioconductor.org/packages/zinbwave)
+derived_from:
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+source_repos:
+- https://github.com/drisso/zinbwave
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/drisso/zinbwave

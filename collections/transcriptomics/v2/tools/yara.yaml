@@ -1,0 +1,17 @@
+name: yara
+slug: yara
+version_used: null
+edam_topics: []
+evidence_spans:
+- DNA-seq and RNA-seq data are filtered for HLA reads using yara (Siragusa et al. 2013)
+derived_from:
+- doi: 10.1093/bioinformatics/btad659
+  title: 'ScanNeo2: a comprehensive workflow for neoantigen detection and immunogenicity prediction from diverse genomic and transcriptomic alterations'
+source_repos:
+- https://github.com/ylab-hi/ScanNeo2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ylab-hi/ScanNeo2

@@ -1,0 +1,21 @@
+name: Louvain
+slug: louvain
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have used the Louvain clustering algorithm to compute the clusters with a resolution that maximizes the NMI value.
+- Louvain community detection and Monocle 2 are widely used for scRNA-seq clustering
+derived_from:
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1016/j.isci.2020.101126
+  title: 'Sphetcher: Spherical Thresholding Improves Sketching of Single-Cell Transcriptomic Heterogeneity'
+source_repos:
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/canzarlab/Sphetcher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Zafar-Lab/scDREAMER

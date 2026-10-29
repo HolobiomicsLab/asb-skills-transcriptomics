@@ -1,0 +1,19 @@
+name: corral
+slug: corral
+version_used: null
+edam_topics: []
+evidence_spans:
+- We implement CA for scRNAseq data in corral, an R/Bioconductor package which interfaces directly with single cell classes in Bioconductor.
+- We implemented standard and adapted CA for scRNAseq in corral, an R/Bioconductor package that interfaces directly with Bioconductor classes
+- Dimension reduction of single cell data with corral
+derived_from:
+- doi: 10.1038/s41598-022-26434-1
+  title: Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data
+source_repos:
+- https://github.com/laurenhsu1/corral
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/laurenhsu1/corral

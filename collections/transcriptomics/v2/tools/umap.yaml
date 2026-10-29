@@ -1,0 +1,129 @@
+name: UMAP
+slug: umap
+version_used: 0.2.10
+edam_topics: []
+evidence_spans:
+- an adaptation of UMAP’s stochastic gradient descent (SGD)-based algorithm to project a multiresolution network into 2 and 3D space
+- library(umap)
+- '* DrawUMAP: Draw UMAP plots per cell type-specific correlation and cell labels.'
+- 'Install UMAP python pacakge for dimension reduction: pip install umap-learn'
+- incorporates clonality information into the dimensionality reduction step prior to the commonly used Uniform Manifold
+- Single cell RNA-sequencing of peripheral blood mononuclear cells from publicly available datasets was then used to determine the immune cell subsets involved.
+- a between-cell pairwise similarity matrix defined in UMAP59 computed with the full data matrix
+- simu.umap <- umap(dat_log,random_state=2020)
+- should be performed with nonlinear dimensionality reduction (e.g., UMAP, t-SNE, PHATE)
+- We compare and benchmark HSS optimized LDA against PCA, UMAP, and PHATE across three mass cytometry datasets
+- library(umap)
+- 'data_pt["um"]: umap.UMAP object fit to PCs used to produce UMAP dims.'
+- umap.UMAP object fit to PCs used to produce UMAP dims
+- umap.UMAP object fit to PCs used to produce UMAP dims.
+- We then applied UMAP and acquired the cluster labels by mapping the synthetic observations to the original data based on the Euclidean distance in UMAP space
+- We then applied UMAP and acquired the cluster labels by mapping the synthetic observations to the original data
+- result_umap = scDEED(data, K = K, reduction.method = 'umap')
+- 'For UMAP: reduction.method = ''umap'''
+- data_opt = RunUMAP(data_opt, dims = 1:K, min.dist = m, n.neighbors = n, seed.use = 100)
+- We used UMAP71 after reducing the dimension of data to get the 2D embeddings for the evaluation of performances.
+- after reducing the dimension of data to get the 2D embeddings
+- x_umap = umap_op.fit_transform(s_pair_dist)
+- umap_op = scmomat.UMAP(n_components = 2, n_neighbors = n_neighbors, min_dist = 0.20, random_state = 0, metric='precomputed'
+- umap_op = scmomat.UMAP(n_components = 2, n_neighbors = n_neighbors, min_dist = 0.20
+- (absent — flagged as missing)
+- Embedding data distributed on a hypersphere to a Euclidean space introduces significant distortion for commonly used dimensionality reduction tools
+- The UMAP coordinates, previously generated in our UMAP comparison between real-profiled and semi-profiled datasets, served as the input for pseudotime computation.
+- compares the performance of the Topological Autoencoder with regular Autoencoder, Variational Autoencoder and UMAP.
+- UMAP projections were derived from the first 10 PCs using either gene expression, aTAR expression, or uTAR expression.
+- umap.UMAP(random_state=42, n_neighbors=15, init='random').fit_transform(data.values[:, 0:5])
+- '# use UMAP or PHate to obtain embedding that is used for single-cell level visualization'
+- We showed that methods which require UMAP (or t-SNE) before parsing MOCA are highly susceptible to user defined input parameters
+- Umap v0.2.6.0McInnes et al., 2018https://github.com/lmcinnes/umap
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s41467-021-21246-9
+  title: Inference and analysis of cell-cell communication using CellChat
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1016/j.ebiom.2023.104472
+  title: Early peripheral blood MCEMP1 and HLA-DRA expression predicts COVID-19 prognosis
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1016/j.patter.2022.100443
+  title: 'EMBEDR: Distinguishing signal from noise in single-cell omics data'
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1016/j.isci.2022.105530
+  title: 'layerUMAP: A tool for visualizing and understanding deep learning models in biological sequence classification using UMAP'
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+- doi: 10.1016/j.csbj.2023.02.012
+  title: 'LncCat: An ORF attention model to identify LncRNA based on ensemble learning strategy and fused sequence information'
+- doi: 10.1038/s41467-021-23518-w
+  title: Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+- doi: 10.1038/s41598-021-88875-4
+  title: Synthetic single cell RNA sequencing data from small pilot studies using deep generative models
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+- doi: 10.1038/s41467-023-36066-2
+  title: scMoMaT jointly performs single cell mosaic integration and multi-modal bio-marker detection
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+- doi: 10.1038/s41467-024-50150-1
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and active learning'
+- doi: 10.1093/bioadv/vbad171
+  title: 'scTopoGAN: unsupervised manifold alignment of single-cell data'
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/lmcinnes/umap
+- https://github.com/jinworks/CellChat
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/kuanrongchan/COVID19-severity
+- https://github.com/jranek/delve
+- https://github.com/shawnstat/EDGE
+- https://github.com/ejohnson643/EMBEDR
+- https://github.com/xiaorudong/Escort
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/mamouzgar/hsslda
+- https://github.com/jingry/autoBioSeqpy
+- https://github.com/ZhangLabGT/LinRace
+- https://github.com/a525076133/LncCat
+- https://github.com/gifford-lab/prescient
+- https://github.com/PavlopoulosLab/SCALA
+- https://github.com/MTreppner/scDBM-paper
+- https://github.com/MTreppner/scDBM.jl
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/Mathbiomed/scLENS
+- https://github.com/PeterZZQ/scMoMaT
+- https://github.com/klarman-cell-observatory/scPhere
+- https://github.com/mcgilldinglab/scSemiProfiler
+- https://github.com/AkashCiel/scTopoGAN
+- https://github.com/fw262/TAR-scRNA-seq
+- https://github.com/ShobiStassen/VIA
+- https://github.com/WilsonImmunologyLab/LinQView
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

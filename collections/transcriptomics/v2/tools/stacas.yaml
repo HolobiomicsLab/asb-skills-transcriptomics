@@ -1,0 +1,25 @@
+name: STACAS
+slug: stacas
+version_used: null
+edam_topics: []
+evidence_spans:
+- a bioinformatic tool for scRNA-seq data integration specifically designed for the challenges of integrating heterogeneous datasets
+- STACAS (Imports)
+- STACAS.anchor.coverage, STACAS.correction.scale, STACAS.k.anchor, STACAS.k.weight
+- Wrapper function to run the complete anchor-finding algorithm in STACAS.
+- In this work we present STACAS, a batch correction method for scRNA-seq that leverages prior knowledge on cell types to preserve biological variability upon integration.
+- '`Run.STACAS`   Wrapper function to run the complete anchor-finding algorithm in STACAS.'
+derived_from:
+- doi: 10.1038/s41467-021-23324-4
+  title: Interpretation of T cell states from single-cell transcriptomics data using reference atlases
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/carmonalab/STACAS
+- https://github.com/carmonalab/ProjecTILs
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/carmonalab/STACAS

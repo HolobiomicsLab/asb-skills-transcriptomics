@@ -1,0 +1,19 @@
+name: dyndimred
+slug: dyndimred
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we use the landmark Multi-Dimensional Scaling (LMDS) from `dyndimred` package [4] to generate a low-dimensional embedding with 5 dimensions.
+- we use the landmark Multi-Dimensional Scaling (LMDS) from `dyndimred` package
+- we use the landmark Multi-Dimensional Scaling (LMDS) from `dyndimred` package [4]
+derived_from:
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+source_repos:
+- https://github.com/elolab/Totem
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/elolab/Totem

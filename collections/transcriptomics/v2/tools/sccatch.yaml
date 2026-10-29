@@ -1,0 +1,35 @@
+name: scCATCH
+slug: sccatch
+version_used: '10.1016'
+edam_topics: []
+evidence_spans:
+- Annotation performance was compared against five automatic annotation tools, ScType40, SCINA19, clustifyR12, scCATCH41, scSorter17.
+- many automatic annotation tools have recently been developed, including SingleR [7], CHETAH [8], CellAssign [9], scMatch [10], scCATCH [11], scPred [12], SciBet [13], scVI [14], and Cell BLAST [15]
+- ZJUFanLab/scCATCH
+- Our unsupervised approach outperformed the prior knowledge-based methods scSorter30, SCINA33, and scCATCH34
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/ZJUFanLab/scCATCH
+- https://github.com/bsml320/deCS
+- https://github.com/rx-li/EasyCellType
+- https://github.com/compbioNJU/scPlant
+- https://github.com/IanevskiAleksandr/sc-type
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

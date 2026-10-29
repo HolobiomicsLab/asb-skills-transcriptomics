@@ -1,0 +1,60 @@
+name: scmap
+slug: scmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- including scmap4, CHETAH5, and singleR and CAMLU6
+- Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+- a single cell transcriptome querying tool, based on
+- what performance boost do active learning approaches deliver when combined with a range of popular single-cell annotation algorithms such as SingleR23 and scmap22?
+- Popular methods in this category include scmap13, CHETAH14, CellAssign15, and others
+- run the same benchmark with Azimuth/Seurat 4 and scmapCell/scmapCell2Cluster for comparison
+- t.results <- predCellType(expr@assays[["RNA"]]@data)
+- For example, scmap [7] assigns cell types by measuring the maximum similarity between known cluster centroids or cells in the source and target samples.
+- scmap [7] assigns cell types by measuring the maximum similarity between known cluster centroids or cells in the source and target samples.
+- we performed the classification using the function scmapCluster of scmap without considering the unassigned cells
+- The scripts for producing all the quantitative results in our manuscript can be found in [scripts](./scripts).
+derived_from:
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1038/s41467-020-17281-7
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+- doi: 10.1038/s41467-024-45198-y
+  title: The impacts of active and self-supervised learning on efficient annotation of single-cell expression data
+- doi: 10.1016/j.csbj.2022.06.010
+  title: 'MarkerCount: A stable, count-based cell type identifier for single-cell RNA-seq experiments'
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1038/s41467-021-23324-4
+  title: Interpretation of T cell states from single-cell transcriptomics data using reference atlases
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+- doi: 10.1016/j.gpb.2022.12.008
+  title: 'scEMAIL: Universal and Source-Free Annotation Method for scRNA-Seq Data with Novel Cell-Type Perception'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+- doi: 10.1016/j.isci.2020.100914
+  title: scID Uses Discriminant Analysis to Identify Transcriptionally Equivalent Cell Types across Single-Cell RNA-Seq Data with Batch Effect
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+source_repos:
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/gao-lab/Cell_BLAST
+- https://github.com/camlab-bioml/leader
+- https://github.com/combio-dku/MarkerCount
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/carmonalab/ProjecTILs
+- https://github.com/czythu/scCancer
+- https://github.com/ZJUFanLab/scCATCH
+- https://github.com/aster-ww/scEMAIL
+- https://github.com/PaulingLiu/scibet
+- https://github.com/BatadaLab/scID
+- https://github.com/SELINA-team/SELINA.py
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yizhuo-wang/CASi

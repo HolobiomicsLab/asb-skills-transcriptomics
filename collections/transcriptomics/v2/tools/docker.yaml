@@ -1,0 +1,110 @@
+name: Docker
+slug: docker
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- 'Docker image
+
+  ----------
+
+  * sridnona/python3:180925.v1'
+- Docker image
+- sudo docker run --name cris_analysis -v /fullPath/SRR1814049_test.bam:/cris/SRR1814049_test.bam -t cris:v1 bash CRIS_docker.sh
+- sudo docker run --name cris_analysis -v /fullPath/SRR1814049_test.bam:/cris/SRR1814049_test.bam -t cris:v1 bash CRIS_docker.sh SRR1814049_test.bam threads=4 memory=16G
+- You can install cudaMMC using docker or compile it without a container
+- sudo docker run -v ~/Projects:/Projects --rm -it --gpus all cudammc
+- The pre-processing and processing of the data setup environment is available as a `docker` image.
+- The software environment where the code was executed is available as a docker image (https://hub.docker.com/r/bcmslab/adiporeg_array).
+- We provided a docker image where you can run the pipeline without having to install any other dependency than docker
+- We provided a docker image where you can run the pipeline
+- We provided a docker image where you can run the pipeline without having to install any other dependency than docker.
+- $ docker pull yazdanz/groundgan:4b98686
+- Run the app in docker/APP/app.R
+- IntestLine is an open-source application and available as a docker image under the BSD-3 clause License.
+- Source codes and Docker image of iwa-miRNA were released for the first time.
+- packaging an independent runtime environment into a Docker image
+- '*methylR* is packed into docker container that is available online.'
+- could be run through a single-line command with either Docker (Merkel 2014) or Singularity
+- Pollock has been containerized, and is available as a Docker container that is portable across Linux, Windows and Mac OS
+- Docker daemon installed on the machine, for more info see this document
+- Docker daemon installed on the machine
+- Scdrake is distributed as a Docker image, which provides a straightforward setup and enhances reproducibility.
+- we provide a Docker image in which all dependencies are installed. The Docker image is the most reproducible and straightforward way of how to use scdrake
+- we also provide a Dockerfile that contains a working environment containing all the dependencies.
+- docker run --rm -v path/to/10x/sample:/app/input
+- docker build -t scpathoquant .
+- the workflow is provided as a docker (and udocker) container and as a Singularity Image File (SIF)
+- ./nextflow run guigolab/sqtlseeker2-nf -with-docker
+- Our command-line tool, docker image, and containerised graphical application enables consistent and comprehensive integration, comparison, and evaluation
+- With the availability of a Docker image and GUI application for UniverSC, we envision UniverSC will facilitate robust and user-friendly single-cell analysis
+- docker run -it -p 8888:8888 tblabfjd/visoqlr:latest
+derived_from:
+- doi: 10.1038/s41467-019-11591-1
+  title: A general approach for detecting expressed mutations in AML cells using single cell RNA-sequencing
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+- doi: 10.1038/s42003-023-04557-z
+  title: Single-cell transcriptome sequencing allows genetic separation, characterization and identification of individuals in multi-person biological mixtures
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1016/j.gpb.2021.02.010
+  title: Interactive Web-Based Annotation of Plant MicroRNAs with iwa-miRNA
+- doi: 10.1093/bioinformatics/btad184
+  title: 'methylR: a graphical interface for comprehensive DNA methylation array data analysis'
+- doi: 10.1093/bioadv/vbac028
+  title: 'Pollock: fishing for cell states'
+- doi: 10.1038/s41540-020-00162-6
+  title: Sparsely-connected autoencoder (SCA) for single cell RNAseq data mining
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1038/s41467-019-14018-z
+  title: Realistic in silico generation and augmentation of single-cell RNA-seq data using generative adversarial networks
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+- doi: 10.1016/j.xpro.2022.102038
+  title: Computational approach to evaluate scRNA-seq data quality and gene body coverage with SkewC
+- doi: 10.1038/s41467-020-20578-2
+  title: Identification and analysis of splicing quantitative trait loci across multiple tissues in the human genome
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+- doi: 10.1007/s00439-023-02539-z
+  title: 'VIsoQLR: an interactive tool for the detection, quantification and fine-tuning of isoforms in selected genes using long-read sequencing'
+source_repos:
+- https://github.com/sridnona/cb_sniffer
+- https://github.com/Rashedul/CRIS
+- https://github.com/SFGLab/cudaMMC
+- https://github.com/MahShaaban/curatedAdipoArray
+- https://github.com/genid/de-goulash
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/cma2015/iwa-miRNA
+- https://github.com/JD2112/methylr-devel
+- https://github.com/JD2112/methylr
+- https://github.com/ding-lab/pollock
+- https://github.com/kendomaniac/docker4seq
+- https://github.com/kendomaniac/rCASC
+- https://github.com/bioinfocz/scdrake
+- https://github.com/imsb-uke/scGAN
+- https://github.com/galelab/scPathoQuant
+- https://github.com/LSBDT/SkewC
+- https://github.com/guigolab/sqtlseeker2-nf
+- https://github.com/jiujiezz/tsnad
+- https://github.com/minoda-lab/universc
+- https://github.com/LXY1201/GSFM
+- https://github.com/TBLabFJD/VIsoQLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sridnona/cb_sniffer

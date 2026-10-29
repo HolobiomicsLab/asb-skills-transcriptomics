@@ -1,0 +1,20 @@
+name: VADT (VCF ASE Detection Tool)
+slug: vadt-vcf-ase-detection-tool
+version_used: null
+edam_topics: []
+evidence_spans:
+- VADT first filters out variants marked as failing by GATK, indels, SNPs within a certain distance of an indel (user defined), multiallelic SNPs
+- a custom program was developed called VADT (VCF ASE Detection Tool), the complete code for the program can be found at https://github.com/mjtiv/VADT
+- ASE analysis was performed using a custom software called VCF ASE Detection Tool (VADT), which detects ASE of biallelic SNPs using a binomial test.
+- To identify ASE variants, a custom program was developed called VADT (VCF ASE Detection Tool)
+derived_from:
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mjtiv/VADT

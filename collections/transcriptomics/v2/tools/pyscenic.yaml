@@ -1,0 +1,32 @@
+name: pyscenic
+slug: pyscenic
+version_used: 0.12.0
+edam_topics: []
+evidence_spans:
+- pyscenic(>=0.12.0)
+- For this analysis, the Python implementation of SCENIC was used, namely pySCENIC55.
+- This GRN construction procedure (i.e. GRNBoost2 followed by RcisTarget) was adopted from pySCENIC workflow (Van de Sande et al. 2020).
+derived_from:
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1038/s41467-021-24152-2
+  title: Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells
+- doi: 10.1093/bioinformatics/btad644
+  title: Inference of differential key regulatory networks and mechanistic drug repurposing candidates from scRNA-seq data with SCANet
+- doi: 10.1038/s42003-025-07942-y
+  title: scMalignantFinder distinguishes malignant cells in single-cell and spatial transcriptomics by leveraging cancer signatures
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+source_repos:
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/dynverse/dyngen
+- https://github.com/oubounyt/SCANet
+- https://github.com/aertslab/pySCENIC
+- https://github.com/Jonyyqn/scMalignantFinder
+- https://github.com/compbioNJU/scPlant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WPZgithub/CEFCON

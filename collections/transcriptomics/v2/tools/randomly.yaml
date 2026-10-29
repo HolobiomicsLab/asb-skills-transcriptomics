@@ -1,0 +1,22 @@
+name: Randomly
+slug: randomly
+version_used: null
+edam_topics: []
+evidence_spans:
+- Randomly32 also automatically selects the signals based on RMT and employs log normalization as preprocessing
+- also automatically selects the signals based on RMT and employs log normalization as preprocessing
+derived_from:
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/luisaparicio/randomly
+- https://github.com/RabadanLab/randomly
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/luisaparicio/randomly

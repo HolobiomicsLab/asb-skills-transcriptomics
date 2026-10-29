@@ -1,0 +1,20 @@
+name: ICAT
+slug: icat
+version_used: null
+edam_topics: []
+evidence_spans:
+- ICAT makes heavy use of the excellent `scanpy` library
+- The final clustering is stored in the `sslouvain` column of the returned `AnnData` object.
+- "# specify model parameters -- see documentation for more information\n    model = models.icat("
+- model = models.icat(
+derived_from:
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+source_repos:
+- https://github.com/BradhamLab/icat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BradhamLab/icat

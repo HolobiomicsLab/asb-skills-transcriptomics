@@ -1,0 +1,18 @@
+name: RcisTarget
+slug: rcistarget
+version_used: null
+edam_topics: []
+evidence_spans:
+- Next, we use RcisTarget (Aibar et al. 2017) to ensure accuracy by performing cis-regulatory TF-binding motif enrichment analysis.
+- we used the RcisTarget (Imrichová et al. 2015, Van de Sande et al. 2020) database to perform cis-regulatory TF-binding motifs enrichment analysis
+derived_from:
+- doi: 10.1093/bioinformatics/btad644
+  title: Inference of differential key regulatory networks and mechanistic drug repurposing candidates from scRNA-seq data with SCANet
+source_repos:
+- https://github.com/oubounyt/SCANet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/oubounyt/SCANet

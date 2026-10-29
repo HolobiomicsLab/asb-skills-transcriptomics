@@ -1,0 +1,21 @@
+name: XClone
+slug: xclone
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present a statistical method, XClone, that strengthens the signals of read depth and allelic imbalance by effective smoothing on cell neighborhood and gene coordinate graphs
+- RDR_Xdata = xclone.model.run_RDR(RDR_adata,
+- we present a statistical method, XClone, that strengthens the signals of read depth and allelic imbalance by effective smoothing
+- xclone.model.run_RDR
+- BAF_merge_Xdata = xclone.model.run_BAF(BAF_adata,
+derived_from:
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+source_repos:
+- https://github.com/single-cell-genetics/XClone
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/XClone

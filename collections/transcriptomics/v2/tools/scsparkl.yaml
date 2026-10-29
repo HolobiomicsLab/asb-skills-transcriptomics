@@ -1,0 +1,16 @@
+name: scSPARKL
+slug: scsparkl
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41598-025-12897-5
+  title: Enabling scalable single-cell transcriptomic analysis through distributed computing with Apache spark
+source_repos:
+- https://github.com/asif7adil/scSparkl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/asif7adil/scSparkl

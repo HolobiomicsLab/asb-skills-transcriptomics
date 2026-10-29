@@ -1,0 +1,21 @@
+name: SCANet
+slug: scanet
+version_used: null
+edam_topics: []
+evidence_spans:
+- The proposed value chain for scRNA-seq data gene co-expression-based analysis starts by giving preprocessed data in the form of an expression matrix as input.
+- These TFs and the processed scRNA-seq data are fed to the GRN inference function.
+- SCANet framework offers a function that enables users to easily explore potential drug repurposing candidates targeting an identified mechanistic key driver network
+- we have developed SCANet, an all-in-one package for single-cell profiling
+- SCANet allows users to explore and visualize GCNs in various ways
+derived_from:
+- doi: 10.1093/bioinformatics/btad644
+  title: Inference of differential key regulatory networks and mechanistic drug repurposing candidates from scRNA-seq data with SCANet
+source_repos:
+- https://github.com/oubounyt/SCANet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/oubounyt/SCANet

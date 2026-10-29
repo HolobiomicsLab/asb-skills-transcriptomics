@@ -1,0 +1,17 @@
+name: segmentation-models-pytorch
+slug: segmentation-models-pytorch
+version_used: null
+edam_topics: []
+evidence_spans:
+- Set `model_params.name` in the .yaml file with an encoder from https://segmentation-modelspytorch.readthedocs.io/en/latest/index.html
+derived_from:
+- doi: 10.1038/s41467-023-44560-w
+  title: 'BIDCell: Biologically-informed self-supervised learning for segmentation of subcellular spatial transcriptomics data'
+source_repos:
+- https://github.com/SydneyBioX/BIDCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SydneyBioX/BIDCell

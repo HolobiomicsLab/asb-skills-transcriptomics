@@ -1,0 +1,25 @@
+name: SpatialDWLS
+slug: spatialdwls
+version_used: null
+edam_topics: []
+evidence_spans:
+- deconvolute cell type composition for each spot on single ST slice.
+- We set the parameter as n_cell = 20.
+- SpatialDWLS5 uses cell-type signature genes derived from a scRNA-seq reference to first enrich for cell types likely to be in each pixel
+derived_from:
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+- doi: 10.1038/s41467-022-30033-z
+  title: Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data
+source_repos:
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/YangLabHKUST/SpatialScope
+- https://github.com/JEFworks-Lab/STdeconvolve
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QuKunLab/SPACEL

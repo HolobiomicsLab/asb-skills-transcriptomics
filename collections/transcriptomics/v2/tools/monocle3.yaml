@@ -1,0 +1,54 @@
+name: Monocle3
+slug: monocle3
+version_used: 1.3.4
+edam_topics: []
+evidence_spans:
+- 'We also include a comparison with Monocle316 as well as two approaches accounting for RNA velocity information: VeTra11 and Cellpath.12'
+- cluster assignment probabilities from DESC are biologically interpretable and can reveal both discrete and pseudotemporal structure of cells
+- GSDensity, combined with trajectory analysis can identify curated pathways that are active at various stages of mouse brain development
+- well-known packages like Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing and Principal Component Analysis (PCA) with 50 principal components (PCs) by default for DR
+- well-known packages like Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing
+- Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing and Principal Component Analysis (PCA) with 50 principal components (PCs) by default
+- We carried out pseudotime analysis utilizing the Monocle3 R package110.
+- get_normalized_umi(object)
+- devtools::install_github('cole-trapnell-lab/monocle3')
+- even the few algorithms which automate cell fate detection (e.g., SlingShot1, Palantir2, STREAM3, and Monocle34) exhibit low sensitivity to cell fates
+derived_from:
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+- doi: 10.1038/s41467-024-50150-1
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and active learning'
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+- doi: 10.1016/j.xpro.2022.101266
+  title: Processing single-cell RNA-seq datasets using SingCellaR
+- doi: 10.1038/s42003-023-05283-2
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+source_repos:
+- https://github.com/aron0093/cytopath
+- https://github.com/eleozzr/desc
+- https://github.com/xiaorudong/Escort
+- https://github.com/qingnanl/gsdensity
+- https://github.com/Mathbiomed/scLENS
+- https://github.com/mcgilldinglab/scSemiProfiler
+- https://github.com/ZJUFanLab/scTITANS
+- https://github.com/supatt-lab/SingCellaR
+- https://github.com/cole-trapnell-lab/monocle3
+- https://github.com/ChengLiLab/TimeTalk
+- https://github.com/ShobiStassen/VIA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aron0093/cytopath

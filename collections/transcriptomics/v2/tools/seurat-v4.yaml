@@ -1,0 +1,28 @@
+name: Seurat v4
+slug: seurat-v4
+version_used: null
+edam_topics: []
+evidence_spans:
+- We compare Mowgli to Seurat v415 which uses Weighted Nearest
+- with default parameters
+- Hao et al. developed a weighted nearest-neighbor (WNN) procedure in Seurat V4 for multi-omics data clustering23
+- Computes anchors between datasets for integration in Seurat
+- compares favorably to popular unsupervised methods such as Harmony, FastMNN, Seurat v4, scVI, and Scanorama
+derived_from:
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/cantinilab/mowgli
+- https://github.com/satijalab/seurat
+- https://github.com/xianglin226/scMDC
+- https://github.com/carmonalab/STACAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/mowgli

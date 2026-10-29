@@ -1,0 +1,26 @@
+name: reCAT
+slug: recat
+version_used: null
+edam_topics: []
+evidence_spans:
+- A recent method reCAT25 reconstructs cell-cycle pseudo-time using a Gaussian mixture model (GMM)
+- reCAT is achieved in R and is easy to use
+- and for cell cycle processes such as reCAT [20]
+- including Monocle2 [17], TSCAN [18], and SCORPIUS [19], and for cell cycle processes such as reCAT [20]
+derived_from:
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+- doi: 10.1038/s41467-017-00039-z
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+source_repos:
+- https://github.com/KChen-lab/cyclum
+- https://github.com/tinglab/reCAT
+- https://github.com/tinglab/redPATH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KChen-lab/cyclum

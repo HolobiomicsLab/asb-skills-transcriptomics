@@ -1,0 +1,18 @@
+name: zUMIs
+slug: zumis
+version_used: null
+edam_topics: []
+evidence_spans:
+- While there are pipelines that can be configured for a variety of technologies (dropSeqPipe9; zUMIs10; dropEst14, Kallisto/BUStools15)
+- once by UniverSC and once by zUMIs, to generate a pair of GBMs
+derived_from:
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+source_repos:
+- https://github.com/minoda-lab/universc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/minoda-lab/universc

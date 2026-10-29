@@ -1,0 +1,18 @@
+name: hkariti/DBCV
+slug: hkariti-dbcv
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our implementation is available at https://github.com/hkariti/DBCV.
+derived_from:
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+source_repos:
+- https://github.com/hkariti/DBCV
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hkariti/DBCV

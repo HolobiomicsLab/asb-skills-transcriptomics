@@ -1,0 +1,206 @@
+name: ggplot2
+slug: ggplot2
+version_used: 3.3.2
+edam_topics: []
+evidence_spans:
+- mycolor <- grDevices::colorRampPalette(RColorBrewer::brewer.pal(n = 8, name = "Dark2"))(nClust)
+- library(ggplot2)
+- '* DrawUMAP: Draw UMAP plots per cell type-specific correlation and cell labels.'
+- 'library(cellmarkeraccordion)
+
+  library(Seurat)
+
+  library(data.table)
+
+  library(ggplot2)'
+- list.of.packages <- c('reshape','reshape2','pheatmap','tsne','igraph','ggplot2','mclust','grid','Rtsne','cccd')
+- library(ggplot2)
+- p1 <- ggplot(temp,aes(x = factor(sample.name, levels = names(con.list)),
+- install.packages("ggplot2")
+- deCS relies on R (>= 3.5), reshape2 (>= 1.4.4), ggplot2 (>= 3.3.2)
+- library(ggplot2)
+- '- `ggplot2 (Imports)`'
+- "ggplot(datasetDF, aes(x = dataset, y = nSamples, fill = dataset)) +\n  geom_bar(stat = \"identity\", alpha = 0.5)"
+- plot_dot(test="GSEA", annot.GSEA)
+- library(ggplot2)
+- '- `ggplot2 (Imports)`'
+- library(ggplot2)
+- ggplot2::ggplot(lda.df,ggplot2::aes(x = HSS_LD1, y = HSS_LD2, color = labels)) +
+- '"gplots", "ggplot2", "RColorBrewer"'
+- 'Following libraries are needed to run the shiny app: igraph,tidyr,dplyr,ggplot2,plotly,ggtext,data.table,readr.'
+- library(ggplot2)
+- ggplot2 (Imports)
+- '- `ggplot2 (Imports)`'
+- ggplot(m.prop.ana.h, aes(HbA1c, ct.prop)) + geom_smooth(method = 'lm'
+- ggplot(m.prop.GSE50244, aes(Method, Prop)) +
+- ggplot2 (Imports)
+- ggplot2 (Imports)
+- library(ggplot2)
+- ggplot2 (Imports)
+- '***ggplot2***'
+- 'the package list is as follows: ***ggplot2***'
+- car, combinat, doParallel, dplyr, energy, ggplot2, GOsummaries, gplots, MASS, mclust, minerva
+- It also requires `ggplot2` for later descriptive plots
+- 'The RSCanner script has three R package dependencies: ''tidyverse'', ''dplyr'', and ''ggplot2''.'
+- install.packages("ggplot2")
+- DistPlot(out)
+- ggplot2 (Imports)
+- '- `ggplot2 (Imports)`'
+- install.packages("Rcpp")
+- 'library(ggplot2)         # plots'
+- widely used data visualization libraries, such as matplotlib18 in Python or ggplot219 in R
+- library("ggplot2")
+- ggplot(data=pearson,aes(x=label,y=value,fill=source)) +geom_boxplot()
+- library(ggplot2)
+- 'output: rmarkdown::html_vignette'
+- The function also generates Q-Q plots of mean, percent-non-zero, standard deviation (sd) of genes between the given experimental dataset and simulated dataset
+- "p+ggplot2::scale_fill_gradientn(colours = grDevices::heat.colors(50)) + \n  ggplot2::theme_minimal()"
+- The returned plot is a ggplot2 object, we can using ggplot2 code to change the plot.
+- ggplot2 v3.3.2Hadley Wickhamhttps://dplyr.tidyverse.org/
+- ggplot2 v3.3.2Hadley Wickhamhttps://ggplot2.tidyverse.org/
+derived_from:
+- doi: 10.1093/bioinformatics/btae283
+  title: 'CASCC: a co-expression-assisted single-cell RNA-seq data clustering method'
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1038/s41467-024-44823-0
+  title: Trajectory inference across multiple conditions with condiments
+- doi: 10.1038/s41598-022-07959-x
+  title: Computation and visualization of cell–cell signaling topologies in single-cell systems data using Connectome
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1038/s41389-019-0157-8
+  title: 'DeepCC: a novel deep learning-based framework for cancer molecular subtype classification'
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+- doi: 10.1093/bioadv/vbac041
+  title: 'dipm: an R package implementing the Depth Importance in Precision Medicine (DIPM) tree and Forest-based method'
+- doi: 10.1038/s41467-021-24152-2
+  title: Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+- doi: 10.1038/s41467-023-39017-z
+  title: Cell-attribute aware community detection improves differential abundance testing from single-cell RNA-Seq data
+- doi: 10.1016/j.simpa.2021.100144
+  title: 'FeatureCorr: An R package to study feature correlations aided with data transformation for sequencing and microarray data'
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1038/s41467-021-21244-x
+  title: Dissection of intercellular communication using the transcriptome-based framework ICELLNET
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1038/s44320-024-00045-6
+  title: Building and analyzing metacells in single-cell genomics data
+- doi: 10.1016/j.isci.2022.104962
+  title: miRSCAPE - inferring miRNA expression from scRNA-seq data
+- doi: 10.1038/s42003-021-01938-0
+  title: 'mmsig: a fitting approach to accurately identify somatic mutational signatures in hematological malignancies'
+- doi: 10.1038/s41467-018-08023-x
+  title: Bulk tissue cell type deconvolution with multi-subject single-cell expression reference
+- doi: 10.1038/s42003-023-04461-6
+  title: Open-source curation of a pancreatic ductal adenocarcinoma gene expression analysis platform (pdacR) supports a two-subtype model
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1038/s41467-021-23324-4
+  title: Interpretation of T cell states from single-cell transcriptomics data using reference atlases
+- doi: 10.1038/s41467-017-00039-z
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+- doi: 10.1093/bioinformatics/btad111
+  title: 'RSCanner: rapid assessment and visualization of RNA structure content'
+- doi: 10.1016/j.eng.2023.12.004
+  title: A Single-Cell Landscape of Human Liver Transplantation Reveals a Pathogenic Immune Niche Associated with Early Allograft Dysfunction
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+- doi: 10.1016/j.isci.2020.100914
+  title: scID Uses Discriminant Analysis to Identify Transcriptionally Equivalent Cell Types across Single-Cell RNA-Seq Data with Batch Effect
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1016/j.patter.2023.100915
+  title: 'Spaco: A comprehensive tool for coloring spatial data at single-cell resolution'
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1016/j.gpb.2023.01.003
+  title: 'stAPAminer: Mining Spatial Patterns of Alternative Polyadenylation for Spatially Resolved Transcriptomic Studies'
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1093/bioinformatics/btae099
+  title: 'vizAPA: visualizing dynamics of alternative polyadenylation from bulk and single-cell data'
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+- doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+- doi: 10.1007/978-1-4939-7710-9_15
+  title: Single-Cell Transcriptome Analysis Using SINCERA Pipeline
+source_repos:
+- https://github.com/LingyiC/CASCC
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/edroaldo/cellrouter
+- https://github.com/HectorRDB/condiments
+- https://github.com/msraredon/Connectome
+- https://github.com/bsml320/deCS
+- https://github.com/CityUHK-CompBio/DeepCC
+- https://github.com/aet21/DICE
+- https://github.com/chenvict/dipm
+- https://github.com/dynverse/dyngen
+- https://github.com/rx-li/EasyCellType
+- https://github.com/aet21/ELVAR
+- https://github.com/DKundnani/FeatureCorr
+- https://github.com/csglab/GEDI
+- https://github.com/mamouzgar/hsslda
+- https://github.com/soumelis-lab/ICELLNET
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/ZhangLabGT/LinRace
+- https://github.com/yuntianf/Longcell
+- https://github.com/GfellerLab/MetacellAnalysisToolkit
+- https://github.com/hannenhalli-lab/miRSCAPE
+- https://github.com/evenrus/mmsig
+- https://github.com/xuranw/MuSiC
+- https://github.com/rmoffitt/pdacR
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/carmonalab/ProjecTILs
+- https://github.com/tinglab/reCAT
+- https://github.com/tinglab/redPATH
+- https://github.com/sysbio-curie/rROMA
+- https://github.com/pylelab/RSCanner
+- https://github.com/multitalk/scCrossTalk
+- https://github.com/phillipnicol/scDist
+- https://github.com/PaulingLiu/scibet
+- https://github.com/BatadaLab/scID
+- https://github.com/jr-leary7/SCISSORS
+- https://github.com/jackbibby1/SCPA
+- https://github.com/BrainStOrmics/Spaco
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/BMILAB/stAPAminer
+- https://github.com/YosefLab/SymSim
+- https://github.com/BMILAB/vizAPA
+- https://github.com/WilsonImmunologyLab/LinQView
+- https://github.com/Coffey-Lab/MIRIAM
+- https://github.com/Xinglab/PAIRADISE
+- https://github.com/xu-lab/SINCERA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LingyiC/CASCC

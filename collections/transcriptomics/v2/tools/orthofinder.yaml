@@ -1,0 +1,22 @@
+name: OrthoFinder
+slug: orthofinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- the typical steps of transcript assembly and annotation are replaced with the alignment of individual translated reads directly to a comprehensive, high-resolution protein ortholog database
+- extract orthologous maps from `OrthoFinder <https://github.com/davidemms/OrthoFinder>`_ results.
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+- doi: 10.1093/bioinformatics/btad657
+  title: 'oggmap: a Python package to extract gene ages per orthogroup and link them with single-cell RNA data'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+- https://github.com/davidemms/OrthoFinder
+- https://github.com/kullrich/oggmap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

@@ -1,0 +1,28 @@
+name: MACS2
+slug: macs2
+version_used: null
+edam_topics: []
+evidence_spans:
+- On this sample, we used MACS2 to call the open peaks.
+- Peaks are called from the BAM file for each strand using MACS2 (Zhang et al. 2008).
+- peaks called by Cell Ranger are superior to peaks called by the popular peak caller MACS2
+derived_from:
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+- doi: 10.1038/s41467-021-25089-2
+  title: Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+source_repos:
+- https://github.com/SUwonglab/DC3
+- https://github.com/haessar/peaks2utr
+- https://github.com/SUwonglab/sc-compReg
+- https://github.com/PavlopoulosLab/SCALA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SUwonglab/DC3

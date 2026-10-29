@@ -1,0 +1,21 @@
+name: Leafcutter
+slug: leafcutter
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**lc**: directory of leafcutter.'
+- Leafcutter22 identifies junction reads for definitions of AS events and then adopts a generalized linear model to quantify the AS events
+- git clone https://github.com/davidaknowles/leafcutter
+- If you encounter difficulties downloading Leafcutter using conda, you have the option to use the source code instead
+derived_from:
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+source_repos:
+- https://github.com/davidaknowles/leafcutter
+- https://github.com/xryanglab/SCASL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/davidaknowles/leafcutter

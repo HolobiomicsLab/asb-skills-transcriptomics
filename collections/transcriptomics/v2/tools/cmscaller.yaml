@@ -1,0 +1,19 @@
+name: CMScaller
+slug: cmscaller
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'package: `r pkg_ver("CMScaller")`'
+- pkg_ver("CMScaller")
+- 'CMScaller: an R package for tumor microenvironment-independent colorectal cancer consensus molecular subtyping'
+derived_from:
+- doi: 10.1038/s41598-017-16747-x
+  title: 'CMScaller: an R package for consensus molecular subtyping of colorectal cancer pre-clinical models'
+source_repos:
+- https://github.com/Lothelab/CMScaller
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Lothelab/CMScaller

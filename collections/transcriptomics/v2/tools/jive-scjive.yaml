@@ -1,0 +1,19 @@
+name: JIVE (scJIVE)
+slug: jive-scjive
+version_used: null
+edam_topics: []
+evidence_spans:
+- The joint and individual variation explained (JIVE) method can be used to extract shared biological patterns from multi-source sequencing data
+- The default function to estimate the JIVE decomposition is `jive`
+- This package implements Joint and Individual Variation Explained (JIVE)
+derived_from:
+- doi: 10.1093/bioadv/vbae134
+  title: Batch-effect correction in single-cell RNA sequencing data using JIVE
+source_repos:
+- https://github.com/oconnell-statistics-lab/scJIVE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/oconnell-statistics-lab/scJIVE

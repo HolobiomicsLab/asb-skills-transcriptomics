@@ -1,0 +1,17 @@
+name: sift.sifter
+slug: sift-sifter
+version_used: null
+edam_topics: []
+evidence_spans:
+- "sift.SiFT\n    sift.sifter"
+derived_from:
+- doi: 10.1038/s41467-024-44757-7
+  title: 'SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data'
+source_repos:
+- https://github.com/nitzanlab/sift-sc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nitzanlab/sift-sc

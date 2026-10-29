@@ -1,0 +1,19 @@
+name: scisorseqr
+slug: scisorseqr
+version_used: null
+edam_topics: []
+evidence_spans:
+- The *scisorseqr* package allows you to go from short-read, single cell assignments and a set of fastq files to a full-blown cell-type specific analysis of alternative splicing patterns.
+- The *scisorseqr* package allows you to go from short-read, single cell assignments and a set of fastq files to a full-blown cell-type specific analysis
+- The *scisorseqr* package allows you to go from short-read, single cell assignments and a set of fastq files
+derived_from:
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+source_repos:
+- https://github.com/noush-joglekar/scisorseqr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/noush-joglekar/scisorseqr

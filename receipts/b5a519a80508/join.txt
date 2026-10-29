@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/transcriptomics-receipts/corpus.yaml": "create",
+    "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/transcriptomics-receipts/corpus_join_receipt.json": "create"
+  },
+  "receipt": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/transcriptomics-receipts/corpus_join_receipt.json",
+  "status": "ok",
+  "summary": {
+    "hold": 0,
+    "included": 450,
+    "total": 450
+  }
+}

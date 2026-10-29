@@ -1,0 +1,25 @@
+name: RSpectra
+slug: rspectra
+version_used: null
+edam_topics: []
+evidence_spans:
+- library("RSpectra")
+- we use the RSpectra package to perform the large-scale eigenvalue decomposition
+- RSpectra (Imports)
+derived_from:
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1093/bioadv/vbae134
+  title: Batch-effect correction in single-cell RNA sequencing data using JIVE
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+source_repos:
+- https://github.com/shawnstat/EDGE
+- https://github.com/oconnell-statistics-lab/scJIVE
+- https://github.com/cailab-tamu/scTenifoldNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shawnstat/EDGE

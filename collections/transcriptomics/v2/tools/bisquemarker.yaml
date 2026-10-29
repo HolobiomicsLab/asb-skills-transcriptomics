@@ -1,0 +1,18 @@
+name: BisqueMarker
+slug: bisquemarker
+version_used: null
+edam_topics: []
+evidence_spans:
+- we propose BisqueMarker, a semi-supervised model that extracts trends in cellular composition from normalized bulk expression samples using only cell-specific marker genes
+- BisqueMarker can provide estimates of relative cell type abundances using only known marker genes
+derived_from:
+- doi: 10.1038/s41467-020-15816-6
+  title: Accurate estimation of cell composition in bulk expression through robust integration of single-cell information
+source_repos:
+- https://github.com/cozygene/bisque
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/bisque

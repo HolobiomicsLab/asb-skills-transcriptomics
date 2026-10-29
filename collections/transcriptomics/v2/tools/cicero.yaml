@@ -1,0 +1,20 @@
+name: Cicero
+slug: cicero
+version_used: null
+edam_topics: []
+evidence_spans:
+- Cicero predicts cis-regulatory DNA interactions from single-cell chromatin accessibility data
+derived_from:
+- doi: 10.1016/j.stemcr.2022.11.010
+  title: Gene regulatory network reconfiguration in direct lineage reprogramming
+- doi: 10.1093/bioinformatics/btad062
+  title: The adapted Activity-By-Contact model for enhancer–gene assignment and its application to single-cell data
+source_repos:
+- https://github.com/morris-lab/CellOracle
+- https://github.com/schulzlab/STARE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morris-lab/CellOracle

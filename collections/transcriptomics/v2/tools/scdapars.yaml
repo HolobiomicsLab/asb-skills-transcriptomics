@@ -1,0 +1,17 @@
+name: scDaPars
+slug: scdapars
+version_used: null
+edam_topics: []
+evidence_spans:
+- Computational tools, including scDAPA [22], scAPA [23], Sierra [24], scAPAtrap [25], and scDaPars [26], have been proposed to identify APA sites in single cells
+derived_from:
+- doi: 10.1016/j.gpb.2023.01.003
+  title: 'stAPAminer: Mining Spatial Patterns of Alternative Polyadenylation for Spatially Resolved Transcriptomic Studies'
+source_repos:
+- https://github.com/BMILAB/stAPAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BMILAB/stAPAminer

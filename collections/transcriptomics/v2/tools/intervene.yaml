@@ -1,0 +1,17 @@
+name: Intervene
+slug: intervene
+version_used: null
+edam_topics: []
+evidence_spans:
+- plotted by the Python package Intervene48
+derived_from:
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+source_repos:
+- https://github.com/JSB-UCLA/scReadSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JSB-UCLA/scReadSim

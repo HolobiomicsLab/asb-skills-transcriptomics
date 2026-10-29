@@ -1,0 +1,22 @@
+name: SCA
+slug: sca
+version_used: null
+edam_topics: []
+evidence_spans:
+- we report a tool that we developed for the functional mining of single cell clusters based on Sparsely-Connected Autoencoder (SCA)
+derived_from:
+- doi: 10.1038/s41540-020-00162-6
+  title: Sparsely-connected autoencoder (SCA) for single cell RNAseq data mining
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+source_repos:
+- https://github.com/kendomaniac/SCAtutorial
+- https://github.com/kendomaniac/rCASC
+- https://github.com/bendemeo/shannonca
+- https://github.com/xuyp-csu/scCAD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kendomaniac/SCAtutorial

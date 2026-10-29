@@ -1,0 +1,23 @@
+name: TabNet
+slug: tabnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- we selected a recent architecture specifically proposed for tabular data33
+- 'Implementation: `TabnetClassifier` class under `cellnet/models.py`'
+- 'TabNet: `notebooks/model_evaluation/classification-tabnet.ipynb`'
+derived_from:
+- doi: 10.1038/s41467-024-51059-5
+  title: 'scTab: Scaling cross-tissue single-cell annotation models'
+- doi: 10.1016/j.xgen.2024.100581
+  title: 'SIMS: A deep-learning label transfer tool for single-cell RNA sequencing analysis'
+source_repos:
+- https://github.com/theislab/scTab
+- https://github.com/braingeneers/SIMS
+- https://github.com/jlehrer1/sims
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/scTab

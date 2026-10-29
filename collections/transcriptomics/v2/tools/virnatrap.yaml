@@ -1,0 +1,20 @@
+name: viRNAtrap
+slug: virnatrap
+version_used: null
+edam_topics: []
+evidence_spans:
+- This file describes the software package viRNAtrap [1], an alignment-free method to identify viral reads in RNAseq datasets based on a deep learning model
+- This file describes the software package viRNAtrap [1], an alignment-free method to identify viral reads in RNAseq datasets based on a deep learning model and to assemble predicted viral contigs.
+- we develop viRNAtrap, an alignment-free pipeline to identify viral reads and assemble viral contigs
+derived_from:
+- doi: 10.1038/s41467-023-36336-z
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+source_repos:
+- https://github.com/AuslanderLab/virnatrap.git
+- https://github.com/AuslanderLab/virnatrap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AuslanderLab/virnatrap.git

@@ -1,0 +1,24 @@
+name: drImpute
+slug: drimpute
+version_used: null
+edam_topics: []
+evidence_spans:
+- showing a drop in the fraction of zeros; while Magic mostly shows a high fraction of near-zero imputed values
+- DrImpute21 uses a cluster ensemble strategy and consensus clustering to separate data into groups of similar cells
+derived_from:
+- doi: 10.1038/s41598-018-34688-x
+  title: 'AutoImpute: Autoencoder based imputation of single-cell RNA-seq data'
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+source_repos:
+- https://github.com/divyanshu-talwar/AutoImpute
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/duct317/scISR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/divyanshu-talwar/AutoImpute

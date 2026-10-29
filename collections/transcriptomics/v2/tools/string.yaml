@@ -1,0 +1,27 @@
+name: STRING
+slug: string
+version_used: null
+edam_topics: []
+evidence_spans:
+- showing them on STRING interaction network
+- Pathogenic impact of transcript isoform switching in 1,209 cancer samples covering 27 cancer types using an isoform-specific interaction network Scientific Reports, 2020
+- Kahraman et al., [Pathogenic impact of transcript isoform switching in 1,209 cancer samples covering 27 cancer types using an isoform-specific interaction network Scientific Reports, 2020]
+- These 208 genes were uploaded to STRING56 to examine protein interactions (Fig. 6).
+- Protein–protein interactions were collected from the STRING database (version 11
+derived_from:
+- doi: 10.1093/bioadv/vbad050
+  title: 'CanIsoNet: a database to study the functional impact of isoform switching events in diseases'
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+- doi: 10.1002/advs.202200045
+  title: 'InterCellDB: A User‐Defined Database for Inferring Intercellular Networks'
+source_repos:
+- https://github.com/kahramanlab/CanIsoNet_Web
+- https://github.com/mjtiv/VADT
+- https://github.com/ZJUDBlab/InterCellDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kahramanlab/CanIsoNet_Web

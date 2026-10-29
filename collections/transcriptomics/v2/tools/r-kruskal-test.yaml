@@ -1,0 +1,17 @@
+name: R (kruskal.test)
+slug: r-kruskal-test
+version_used: null
+edam_topics: []
+evidence_spans:
+- P < 0.01, R kruskal.test
+derived_from:
+- doi: 10.1016/j.gpb.2020.09.004
+  title: 'SSRE: Cell Type Detection Based on Sparse Subspace Representation and Similarity Enhancement'
+source_repos:
+- https://github.com/CSUBioGroup/SSRE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSUBioGroup/SSRE

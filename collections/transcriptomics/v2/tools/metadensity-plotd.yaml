@@ -1,0 +1,17 @@
+name: metadensity.plotd
+slug: metadensity-plotd
+version_used: null
+edam_topics: []
+evidence_spans:
+- metadensity.plotd module
+derived_from:
+- doi: 10.1093/bioadv/vbac083
+  title: 'Metadensity: a background-aware python pipeline for summarizing CLIP signals on various transcriptomic sites'
+source_repos:
+- https://github.com/YeoLab/Metadensity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YeoLab/Metadensity

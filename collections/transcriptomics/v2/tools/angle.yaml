@@ -1,0 +1,18 @@
+name: Angle
+slug: angle
+version_used: null
+edam_topics: []
+evidence_spans:
+- Slingshot9 for tree-like topology, Angle14 for cell cycle, and partition-based graph abstraction (PAGA; directionality enabled by velocity pseudotime)8,15 for graph models
+derived_from:
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+source_repos:
+- https://github.com/dynverse/ti_angle
+- https://github.com/aron0093/cytopath
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dynverse/ti_angle

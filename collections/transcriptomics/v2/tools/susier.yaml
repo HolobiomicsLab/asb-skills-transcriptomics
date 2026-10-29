@@ -1,0 +1,19 @@
+name: susieR
+slug: susier
+version_used: null
+edam_topics: []
+evidence_spans:
+- to call susieR on the simulated data
+- to fit external R model ([SuSiE](https://github.com/stephenslab/susieR))
+derived_from:
+- doi: 10.1093/bioinformatics/btad288
+  title: twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis
+source_repos:
+- https://github.com/stephenslab/susieR
+- https://github.com/mancusolab/twas_sim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/stephenslab/susieR

@@ -1,0 +1,20 @@
+name: GRouNdGAN
+slug: groundgan
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce GRouNdGAN, a gene regulatory network (GRN)-guided reference-based causal implicit generative model for simulating single-cell RNA-seq data
+- --perturb        Perform a perturbation experiment using a trained GRouNdGAN model
+- GRouNdGAN is a gene regulatory network (GRN)-guided causal implicit generative model for
+- GRouNdGAN (GRN-guided in silico simulation of single-cell RNA-seq data using Causal generative adversarial networks) is a causal implicit generative model
+derived_from:
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+source_repos:
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Emad-COMBINE-lab/GRouNdGAN

@@ -1,0 +1,30 @@
+name: Seurat v3
+slug: seurat-v3
+version_used: null
+edam_topics: []
+evidence_spans:
+- We compared cTP-net with an anchor-based transfer-learning method developed in Seurat v3
+- clustering scRNA-seq first and then transfer the labels to scATAC-seq (i.e. Seurat V3)
+- Seurat v3 [8] explores the pairwise relationship between cells and constructs the shared nearest neighbor graph to identify cell types.
+- For Seurat v3, we identified anchors and classified cells using the FindTransferAnchors function and TransferData functions
+- The scripts for producing all the quantitative results in our manuscript can be found in [scripts](./scripts).
+derived_from:
+- doi: 10.1038/s41467-020-14391-0
+  title: Surface protein imputation from single cell transcriptomes by deep neural networks
+- doi: 10.1038/s41467-021-25089-2
+  title: Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data
+- doi: 10.1016/j.gpb.2022.12.008
+  title: 'scEMAIL: Universal and Source-Free Annotation Method for scRNA-Seq Data with Novel Cell-Type Perception'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+source_repos:
+- https://github.com/zhouzilu/cTPnet
+- https://github.com/SUwonglab/sc-compReg
+- https://github.com/aster-ww/scEMAIL
+- https://github.com/PaulingLiu/scibet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhouzilu/cTPnet

@@ -1,0 +1,19 @@
+name: FAVA
+slug: fava
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Run FAVA from the command line as follows:'
+- This section provides documentation for the `fava.py` module.
+- favapy <path-to-data-file> <path-to-save-output>
+derived_from:
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+source_repos:
+- https://github.com/mikelkou/fava
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mikelkou/fava

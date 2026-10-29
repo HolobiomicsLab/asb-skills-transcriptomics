@@ -1,0 +1,20 @@
+name: BoolODE
+slug: boolode
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.patter.2023.100793
+  title: Transcriptomic forecasting with neural ordinary differential equations
+- doi: 10.1093/bib/bbae180
+  title: Single-cell multi-omics analysis identifies context-specific gene regulatory gates and mechanisms
+source_repos:
+- https://github.com/FertigLab/RNAForecasterPaperCode
+- https://github.com/FertigLab/RNAForecaster.jl
+- https://github.com/CompBioIPM/scGATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FertigLab/RNAForecasterPaperCode

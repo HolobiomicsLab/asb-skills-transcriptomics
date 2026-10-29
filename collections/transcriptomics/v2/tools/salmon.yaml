@@ -1,0 +1,36 @@
+name: salmon
+slug: salmon
+version_used: 0.8.1
+edam_topics: []
+evidence_spans:
+- salmon (v0.8.1)
+- The resultant Ig transcripts were used in Salmon (v0.8.1; Patro et al., 2017) to quantify their abundances with a k-mer of 31 bp
+- facilitated by the rapid pseudoalignment of reads to known transcripts by methods such as kallisto (Bray et al. 2016) and salmon (Patro et al. 2017).
+- salmon quant -i transcripts_index -l <LIBTYPE> -r reads.fq --validateMappings -o transcripts_quant
+- Salmon, a fast and GC bias-aware quantification procedure using dual-phase inference, is implemented to compute the transcript-level abundance of all isoforms
+- '[salmon](https://github.com/COMBINE-lab/salmon)'
+- 7500 most variable genes from a recent re-quantification of the original data set using Salmon
+derived_from:
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+- doi: 10.1038/s41467-024-46875-8
+  title: 'InPACT: a computational method for accurate characterization of intronic polyadenylation from RNA sequencing data'
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+source_repos:
+- https://github.com/Rashedul/CRIS
+- https://github.com/canzarlab/fortuna
+- https://github.com/COMBINE-lab/salmon
+- https://github.com/YY-TMU/InPACT
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/carmonalab/TILPRED
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rashedul/CRIS

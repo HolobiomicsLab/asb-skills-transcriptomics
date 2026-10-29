@@ -1,0 +1,763 @@
+name: Seurat
+slug: seurat
+version_used: '2.2'
+edam_topics: []
+evidence_spans:
+- compared our performance with that of the standard Seurat pipeline
+- the number of PCs to retain for each was chosen by the jackstraw method as implemented in Seurat
+- which were chosen using Seurat’s jackstraw command on the original matrix.
+- equivalent operations in AnnData or Seurat largely failed (or were ∼700× slower) on a high-performance computing cluster
+- Seurat18, DESeq226, edgeR27, and Limma25 are among the top methods in discovering differentially expressed genes using single-cell data
+- Get differential genes from Seurat (Wilcoxon Rank Sum test)
+- C_data <- FindMarkers(c_cells, ident.1 = "TNBC.PDX", ident.2 = "Normal", test.use = "DESeq2")
+- library('Seurat')
+- a simple combination of Seurat18, a tool for scRNA-seq analysis, and CLUE
+- Seurat, a tool for scRNA-seq analysis
+- barcode import interfaces directly with popular R-based single-cell frameworks including Seurat and SingleCellExperiment
+- library(Seurat)
+- pbmc@reductions$umap@cell.embeddings=umap
+- 'install.packages(''Seurat'') # ==4.0.0'
+- Seurat16,17, LIGER18, and scMerge19 attempt to identify shared variations across batches
+- state-of-the-art scRNA-seq data clustering methods such as SC3, SIMLR, and Seurat [20], [21], [37] were also used for comparison
+- The Seurat package was used to perform dimension reduction and clustering analysis on the CNDM [37].
+- The Seurat package was used to perform dimension reduction and clustering analysis on the CNDM
+- Scanorama and Seurat calculate mutual nearest neighbors in a low-dimensional space
+- we ran Scanorama12, scVI11, and Seurat13 on the combinations of the synthetic datasets to merge two respective datasets
+- 'remotes::install_version("Seurat", "4.3.0") # dependency'
+- Following an initial low computational complexity graph-based clustering (Hao et al. 2021), the top-ranked differentially expressed genes (DEGs) of each cluster are selected
+- library(Seurat)
+- The popular pipelines for these analyses include scran1, Seurat2, and SINCERA3.
+- If you do not provide CASi with the cell labels, CASi will first perform an unsupervised clustering for unlabeled data
+- Simple statistical tests (i.e., the t-test and the Wilcoxon Rank Sum test) are used in pipelines such as Seurat.
+- The earliest work for spatial location recovery of scRNA-seq data dated back to Seurat8, which recovers the locations of cells by modeling information provided by anchor genes
+- Interface with other single-cell analysis toolkits (e.g., Seurat, SingleCellExperiment, Scanpy)
+- Those using Seurat and AnnData objects can use our “as_cellexalvrR” function which will produce a cellexalvrR object
+- Single-cell data is processed using any method preferred by the user (Seurat/Scanpy for example)
+- we have provided simple functions for the conversion of Seurat and Scanpy objects given their current popularity
+- Both functions take as input a Seurat34 object (versions 4 or 5) or a raw count matrix
+- Single-cell datasets were analyzed employing a standard pre-processing pipeline for single-cell RNA-seq data, using Seurat (version 5.0.3) in the R environment (version 4.2.3).
+- The MERFISH mouse brain dataset was analyzed employing a standard pre-processing pipeline for imaging-based spatial dataset, using Seurat (version 5.0.3)
+- Single-cell datasets were analyzed employing a standard pre-processing pipeline for single-cell RNA-seq data, using Seurat
+- using Seurat (version 5.0.3) in the R environment (version 4.2.3)
+- Single-cell datasets were analyzed employing a standard pre-processing pipeline for single-cell RNA-seq data, using Seurat (version 5.0.3)
+- The automatic annotation can be easily integrated into a Seurat analysis workflow34
+- The gene-cell-barcode matrix of 68k PBMCs was log-transformed as an input to Seurat.
+- We have also tried to cluster the 68k PBMC data with Seurat27
+- Census requires Seurat version 4 to run. Please load Seurat v4 prior to loading the Census library in R.
+- The latter can be retrieved from your Seurat object if you already have one
+- Two popular software packages for classifying cells by transcriptome information alone are Seurat and scanpy
+- It is built to work with Seurat from Satija Lab.
+- it is designed to be used in association with the R package Seurat
+- Single cell RNA-sequencing of peripheral blood mononuclear cells from publicly available datasets was then used to determine the immune cell subsets involved.
+- we took advantage of the opportunity to analyse the publicly available single cell sequencing data from PBMCs and BALF
+- Integrative analysis of single-cell data was performed using the Seurat R package (Version 3)
+- install.packages(c("cluster", "circlize", "dplyr", "pls", "purrr", "Seurat", "stringr"), dependencies = TRUE)
+- library(Seurat)
+- 'library(CSCORE)
+
+  library(Seurat)'
+- Denoised counts (Λ) were further transformed with Seurat default LogNormalize function
+- For different Seurat version, we developed separate vignette see below
+- For different Seurat version, we developed separate vignette
+- Seurat v3 anchor transfer20 is a recent approach that uses cell alignment between data sets to impute features for single cell data.
+- 'For different Seurat version, we developed separate vignette see below: ### Seurat v2'
+- The cell cycle regression approaches implemented in scLVM17, Seurat18, and ccRemover19 are based on linear representations
+- a re-implementation of the scoring approach provided by the Seurat package (Satija et al. 2015)
+- library(Seurat)
+- pbmc <- CreateSeuratObject(counts = pbmc.data, project = "pbmc3k", min.cells = 3, min.features = 200)
+- 'library(Seurat)
+
+  library(dplyr)'
+- install.packages(‘Seurat’)
+- HTODemux implemented in the R package Seurat clusters cells into groups of low and high counts for each HTO
+- convenience function `convert_to_seurat`for converting to
+- The droplets above the quantile threshold were clustered using Seurat.
+- 'library(Seurat) # for Read10X helper function'
+- interfaces easily with existing single cell software platforms such as Seurat, Bioconductor, and Scanpy
+- "bm <- FindMultiModalNeighbors(\n  bm, reduction.list = list(\"pca\", \"apca\"), \n  dims.list = list(1:30, 1:18)"
+- bm <- FindMultiModalNeighbors(
+- we recommend using DUBStepR with the [Seurat](https://satijalab.org/seurat/) (Satija, R. et al. Nature Biotechnol. 33.5(2015):495.) package
+- we recommend using DUBStepR with the [Seurat]
+- we recommend using DUBStepR with the [Seurat](https://satijalab.org/seurat/)
+- DUBStepR can be inserted into the Seurat workflow at this stage
+- E.PAGE used a Seurat object (with clustering performed) as an input and performs differential expression analyses between the clusters
+- We followed the standard workflow provided by `Seurat` package[@seurat] to process the PBMC data set.
+- markers <- FindAllMarkers(pbmc, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+- calculated by the FindVariableFeatures function in the R package Seurat
+- library(Seurat)
+- seu.o <- FindNeighbors(seu.o, dims = 1:8, k.param=20,verbose=FALSE);
+- 'library(ELVAR)
+
+  library(Seurat)'
+- To create the networks using hdWGCNA, we first had to analyze the data using the Seurat (Hao et al. 2020) pipeline.
+- Major cell types among these can be characterised comprehensively with toolkits such as Seurat5 and Scater6
+- library(SeuratData)
+- The raw count matrix was subset to 1000 highly variable genes using the Seurat V3 method32 as implemented in Scanpy7.
+- hashing deconvolution, GEX analysis and ADT analysis can be performed
+- normalization, demultiplexing, and removal of doublets as well as negatives are performed using the Seurat framework (Hao et al. 2021).
+- library(Seurat)
+- Please load your "HTO" assay using the Seurat package
+- HTOdemux using the R package Seurat (version 4.3.0.1) in R 4.2.2
+- (absent — flagged as missing)
+- To learn more about the algorithm, and how it compares to other methods, see the original paper at [Bioinformatics](https://doi.org/10.1093/bioinformatics/btad278)
+- 'we tested three state-of-the-art integration methods: Seurat (Satija et al. 2015; Stuart and Satija 2019), Scanorama (Hie et al. 2019), and Harmony (Korsunsky et al. 2019)'
+- 'library(iSC.MEB)
+
+  library(Seurat)'
+- expression objects such as [Seurat](https://github.com/satijalab/seurat)
+- library(Seurat)
+- JOINTLY uses a list of scRNA-seq expression objects such as [Seurat](https://github.com/satijalab/seurat)
+- other implementations include Scanpy14 Louvain and Seurat15 Louvain and Bluster16 Louvain
+- Seurat was run by the following procedure (all with default parameters)
+- For sample harmonization, we used Seurat32 to embed cells into a common low-dimensional space.
+- we cluster with Seurat13. Next, we sampled cells from the resulting clusters such that the same number of cells is taken from each cluster.
+- we cluster with Seurat13
+- Leader requires a processed seurat object with gene expression data and an optional marker file specifying known marker genes
+- and Seurat19—as the representative of the commonly used methods in the single-cell multi-omic studies
+- In the following, we review clonealign, CCNMF, Seurat19, and SCATrEx.
+- and Seurat19—as the representative of the commonly used methods in the single-cell multi-omic studies—through their application to a CRC dataset31
+- There are many well-established integration methods available to address batch effects in scRNA-seq datasets, for example, Seurat, Harmony, and LIGER
+- batch-effect correction methods, including Scanorama16, LIGER6, and Seurat7
+- library(Seurat)
+- Here we only demonstrate how to interface with Seurat object for  one **patient sample**
+- compared to Seurat’s14 automated CIBERSORT marker-based annotations (14 cell types
+- This class includes popular methods such as Seurat v324, FastMNN17, and Scanorama25.
+- Differential expression analysis on the TNBC1 dataset was performed using the FindMarkers function from Seurat45 using the DESeq2 model46.
+- Seurat FindMarkers function with DESeq2 model; Fig. 5e
+- Many single cell clustering methods were proposed, including Seurat10, SC311, TSCAN12
+- DE methods including Seurat (with default Wilcoxon test)32, edgeR, and MAST8
+- We employed a uniform pre-processing pipeline utilizing Seurat (Hao et al, 2021) for the normalization and clustering of structures.
+- RUN Rscript -e 'install.packages(c("seurat", "remotes"), repos="https://cloud.r-project.org")'
+- two popular reference-based approaches, Seurat and Scanpy
+- We performed the differential gene expression analysis with the function “FindMarkers()” in the R package “Seurat”
+- we normalized gene expression values using the “NormalizeData()” function in the R package “Seurat”
+- normalized gene expression values using the “NormalizeData()” function in the R package “Seurat”
+- we normalized gene expression values using the “NormalizeData()” function in the R package “Seurat” (v4.0.6)
+- For pre-processing, we recommend using Seurat or scanpy.
+- Because ProjecTILs is integrated with Seurat, it can be easily combined with other tools for up- and down-stream analyses.
+- Generate a averaged gene expression heatmap from a Seurat object
+- '`celltype.heatmap`   Generate a averaged gene expression heatmap from a Seurat object'
+- compared to the neighborhood graph methods in Seurat7, Monocle8, Scanpy9, and optimal transport
+- The resulting cell clusters were significantly different than those obtained simply from the RNA expression profiles with the canonical Seurat pipeline
+- library(Seurat)
+- This data was processed using the Cell Ranger and Seurat pipelines39
+- 'suppressMessages(library(Seurat))
+
+  suppressMessages(library(xgboost))'
+- suppressMessages(library(Seurat))
+- the “AddModuleScore” function in Seurat are both optional to calculate phenotypic scores
+- The most widely used methods include Seurat13, Harmony14, Scanorama15, scVI16, scDML17, and scDREAMER18.
+- we used Seurat, Harmony, Scanorama, scVI, scDML, and scDREAMER as benchmarking methods with default parameters
+- '(1) Seurat (v3.2.3): employed for data normalization and the selection of 2000 highly variable genes using the "vst" method'
+- The orange dotted line indicates the reference DBI for the Seurat clustering on the original data.
+- via the Wilcoxon test implemented in Seurat
+- library(Seurat)
+- scDEED uses Seurat objects.
+- for RunPCA, Seurat uses the scale.data slot, so we must use Permuted(slot = 'scale.data')
+- In practical uses of t-SNE and UMAP (such as in the Seurat pipeline)
+- Widely-used methods in this category include SC39, SEURAT10, SINCERA11, CIDR12, and SCANPY13
+- The input to `scDist` is a normalized count matrix and correpsonding
+- Seurat (Imports)
+- Differential abundance approaches, such as DA-seq, Milo, and Meld4–7, focus on identifying cell types with varying proportions between conditions.
+- The small COVID-19 dataset was generated by ref. 1 and can be downloaded as a Seurat object from www.covid19cellatlas.org
+- batchelor (Haghverdi et al., 2018) and Seurat (Hao et al., 2021).
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- Methods such as BBKNN, Scanorama and Seurat v3 employ global mutual nearest neighbors (MNNs)
+- '[Seurat](https://satijalab.org/seurat/)'
+- we normalized data using the Seurat R package
+- the linear SVM when your integrated data still has a lot of dimensions (e.g. when you have used Seurat to integrate the datasets)
+- Before applying scHPL, we aligned the datasets using Seurat28
+- Seurat is a computational strategy for spatial reconstruction of cells from single-cell gene expression data14.
+- we perform an additional clustering analysis using Seurat. This method can automatically determine the number of cell types from the input data
+- 'library(Seurat)          # single cell infrastructure'
+- SCISSORS is wrapped around the popular Seurat R package and can be easily integrated into existing Seurat pipelines
+- well-known packages like Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing and Principal Component Analysis (PCA) with 50 principal components (PCs) by default for DR
+- well-known packages like Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing
+- Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing and Principal Component Analysis (PCA) with 50 principal components (PCs) by default
+- Seurat constructs a k-nearest neighbors (KNN) graph based on the Euclidean distance in PCA space.
+- Seurat (v4.0.4, https://github.com/satijalab/seurat)17
+- All datasets are preprocessed following the standard instructions of the Seurat protocol (Butler et al. 2018)
+- devtools::install_github("satijalab/seurat", "seurat5", quiet = TRUE)
+- suppressMessages(library(Seurat))
+- such as Seurat for scRNA-seq analysis and data integration (Stuart et al., 2019)
+- With the exception of Seurat13
+- With the exception of Seurat13, SAUCIE14 and Scanorama15, several of these rapid procedures (deepMNN16, BBKNN17, Harmony18, scVI19, scANVI20 and DESC21)
+- With the exception of Seurat13, SAUCIE14 and Scanorama15, several of these rapid procedures
+- Seurat integrates scRNA-seq data with insitu RNA patterns to infer cell locations and clusters
+- visualize the top differentially-expressed genes using Seurat's `DotPlot` function
+- library(Seurat)
+- The scMiko package was developed using the [Seurat](https://satijalab.org/seurat/index.html) framework.
+- The development of computational toolboxes like Seurat4
+- The development of computational toolboxes like Seurat4–7, Scanpy8, and Cell Ranger (10X Genomics, commercial) facilitates scRNA-seq analyses
+- Store the seurat object in RDS format and use `getSeuratRds` to read them in.
+- Loading data with pathogen counts into Seurat
+- such as 10× Loupe Browser ... Seurat (Hao et al. 2021) or Monocle (Qiu et al. 2017)
+- Seurat [11] leverages shared nearest neighbor graphs and Louvain community detection following PCA.
+- we retain 2000 highly variable genes, employing the method outlined in references [11], [25]
+- pre-clustering the cells using the gene-by-cell count matrix and Louvain clustering (in the Seurat R package29)
+- Here, we applied Seurat batch effect removal56 to combine the Hockley and the Usoskin data
+- its output is designed to be easily integrated into downstream analysis pipelines including, but not limited to, Seurat and SCANPY
+- We performed all data preprocessing using the Seurat v4.0 R package (Hao et al. 2021).
+- We utilized Seurat v4.042 for data processing and normalization.
+- pbmc <- NormalizeData(pbmc, normalization.method = "LogNormalize", scale.factor = 10000)
+- lapply(c("dplyr","Seurat","HGNChelper","openxlsx"), library, character.only = T)
+- pbmc <- CreateSeuratObject(counts = pbmc.data, project = "pbmc3k", min.cells = 3, min.features = 200)
+- A combination of Seurat and Partek Flow software packages was used to pre-process the data
+- log-transforming the normalized result from the ‘NormalizeData’ function of Seurat67
+- log-transforming the normalized result from the ‘NormalizeData’ function of Seurat67 or ‘pp.normalize_total’ function of SCANPY68
+- such as monocle 2 and Seurat7,8
+- 'library(Seurat)
+
+  library(SeuratData)'
+- satijalab/seurat-wrappers
+- The most important functionality in the R package works
+- singleCellHaystack can be used with module scores as computed by Seurat
+- summarized the ATAC data from peak level into gene activity scores using the CreateGeneActivityMatrix function in Seurat
+- R v4 or higher (https://www.r-project.org/)
+- marker analysis was carried out using the “FindAllMarkers” function of Seurat, only keeping the results having adjusted P-value ≤0.05 and average log2(Fold Change) ≥1.
+- marker analysis was carried out using the “FindAllMarkers” function of Seurat,
+- UMAP dimensional reduction
+- The gene-cell expression matrixes from the simulated experiment, along with those generated with SoloTE and scTE, were processed with Seurat
+- deconvolute cell type composition for each spot on single ST slice.
+- popular data analysis frameworks like Seurat,14 Giotto,15 Scanpy,16 and Squidpy17 derive their colorization approaches
+- we used the “cca” utility in Seurat15 which determines a low-dimensional common space for the two datasets
+- Therefore, we used the “cca” utility in Seurat15 which determines a low-dimensional common space for the two datasets
+- For gene expression imputation task, we compared SpatialScope with Tangram, gimVI, SpaGE, SpaOTsc, novoSpaRc, stPlus and Seurat.
+- Multiple clustering algorithms have been developed, including Seurat [11], SC3 [12], SIMLR [13], ZIFA [14], CIDR [15], SNN-Cliq [16], and Corr [17].
+- Cells were further clustered into 39 subtypes by the authors based on the Seurat algorithm.
+- Computes anchors between datasets for integration in Seurat
+- library(Seurat)
+- Some data integration methods including Seurat29 are not designed for this task, but they can construct SC-ST integrated graphs
+- This two-track approach seamlessly and efficiently integrates with Seurat (Hao et al., 2021)
+- This two-track approach seamlessly and efficiently integrates with Seurat (Hao et al., 2021), so that simple aggregation is used for clustering cell types
+- Reference mapping approaches introduced so far include Seurat30, which is compatible with Seurat anchor-based integration18
+- Reference mapping approaches introduced so far include Seurat, which is compatible with Seurat anchor-based integration
+- 'We consider three additional clustering methods: Seurat'
+- Louvain clustering43 (implemented in Seurat44)
+- our model outperforms Seurat and the state-of-the-art method SAMap
+- We used the Seurat suite of scRNA-seq tools21,22 to analyze gene expression and TAR expression data.
+- We used Seurat spatial transcriptome tools to visualize spatially tagged expression data.
+- We used Seurat to analyze single-cell gene and TAR expression profiles
+- The SCTransform function was performed on each sample and 3250 integration features were selected using SelectIntegrationFeatures
+- The merged expression matrix was input to Seurat (version 3.2.3)70 to perform t-SNE dimension reduction and draw marker expression by FeaturePlot.
+- library(Seurat)
+- we put the scRNA-seq data into the Seurat toolkit to perform t-SNE dimension reductions
+- Seurat 96.37% for hArtery
+- "The dataset was normalized using the \n# LogNormalize method from the Seurat R"
+- A wrapper for UCell to interact directly with Seurat objects.
+- it can be applied to any numerical metadata contained in SingleCellExperiment or Seurat objects
+- The Seurat R package [4] is one of the most comprehensive and widely used frameworks for scRNA-seq data analysis.
+- library(Seurat)
+- "library(Seurat)\n    library(tidyverse)"
+- the celebrated platform Seurat9 projected feature space into a common subspace using canonical correlation analysis (CCA)
+- clustering analysis with an R package Seurat (version 4.1.1)18 within R (version 4.1.2)
+- each version of SmartSeq2 GBM was integrated with the reference GBMs independently using Seurat
+- No accession identifiers are given for the biological datasets cited for validation (hematopoiesis, pancreatic development, cardiac multi-omic)
+- data integration of the individual sc-modalities...integrated using Seurat3 before PHATE
+- If you are already using Seurat for your analysis, VISION provides a convenience function
+- It is also possible to get embeddings based on the counts data in the `PACdataset`, using the `Seurat` package.
+- Leveraging `FindMarkers` used in `Seurat`, `getAPAmarkers` of vizAPA used different statistical tests (e.g., wilcoxon rank sum test)
+- Use `Seurat::reduceDim function` to get embeddings based on the counts data.
+- scRNA‐seq data preprocessing was completed by Seurat (v3.2) before applying InterCellDB for intercellular analysis.
+- To determine gene expression, the same version of Seurat (v2.3.4) as described in the original study was applied.
+- The default cell population clustering method in LinQ-View is a community detection algorithm implemented in Seurat
+- Seurat v3.9.9Hao et al., 2020https://satijalab.org/seurat/
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+- doi: 10.1038/s41467-023-36637-3
+  title: ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+- doi: 10.1038/s41421-019-0114-x
+  title: A novel approach to remove the batch effect of single-cell data
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1016/j.gpb.2020.05.005
+  title: 'c-CSN: Single-Cell RNA Sequencing Data Analysis by Conditional Cell-Specific Network'
+- doi: 10.1038/s41467-022-33681-3
+  title: Alignment of single-cell trajectory trees with CAPITAL
+- doi: 10.1093/bioinformatics/btae283
+  title: 'CASCC: a co-expression-assisted single-cell RNA-seq data clustering method'
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1038/s41467-021-21246-9
+  title: Inference and analysis of cell-cell communication using CellChat
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/ncomms14049
+  title: Massively parallel digital transcriptional profiling of single cells
+- doi: 10.1093/bioinformatics/btad714
+  title: Hierarchical and automated cell-type annotation and inference of cancer cell of origin with Census
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1038/s41598-022-07959-x
+  title: Computation and visualization of cell–cell signaling topologies in single-cell systems data using Connectome
+- doi: 10.1016/j.xpro.2022.101729
+  title: Protocol for fast scRNA-seq raw data processing using scKB and non-arbitrary quality control with COPILOT
+- doi: 10.1016/j.ebiom.2023.104472
+  title: Early peripheral blood MCEMP1 and HLA-DRA expression predicts COVID-19 prognosis
+- doi: 10.1093/bib/bbae198
+  title: 'CPPLS-MLP: a method for constructing cell–cell communication networks and identifying related highly variable genes based on single-cell sequencing and spatial transcriptomics data'
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1038/s41467-020-14391-0
+  title: Surface protein imputation from single cell transcriptomes by deep neural networks
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+- doi: 10.1093/bioinformatics/btad435
+  title: <i>Cytocipher</i> determines significantly different populations of cells in single-cell RNA-seq data
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+- doi: 10.1093/bioinformatics/btad481
+  title: 'demuxmix: demultiplexing oligonucleotide-barcoded single-cell RNA sequencing data with regression mixture models'
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+- doi: 10.1038/s41598-020-67513-5
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+- doi: 10.1038/s41467-022-29356-8
+  title: Normalizing and denoising protein expression data from droplet-based single cell profiling
+- doi: 10.1038/s41467-021-26085-2
+  title: DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1038/s41467-023-39017-z
+  title: Cell-attribute aware community detection improves differential abundance testing from single-cell RNA-Seq data
+- doi: 10.1016/j.patter.2021.100311
+  title: 'EmptyNN: A neural network based on positive and unlabeled learning to remove cell-free droplets and recover lost cells in scRNA-seq data'
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+- doi: 10.1038/s41467-021-24489-8
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+- doi: 10.1093/bib/bbae254
+  title: A hybrid demultiplexing strategy that improves performance and robustness of cell hashing
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+- doi: 10.1038/s41467-024-45198-y
+  title: The impacts of active and self-supervised learning on efficient annotation of single-cell expression data
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1038/s41467-023-44014-3
+  title: Accurate integration of single-cell DNA and RNA for analyzing intratumor heterogeneity using MaCroDNA
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1038/s44320-024-00045-6
+  title: Building and analyzing metacells in single-cell genomics data
+- doi: 10.1038/s41467-023-40457-w
+  title: Characterizing cancer metabolism from bulk and single-cell RNA-seq data using METAFlux
+- doi: 10.1038/s41467-023-38333-8
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1016/j.isci.2022.104962
+  title: miRSCAPE - inferring miRNA expression from scRNA-seq data
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1093/bib/bbaf110
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1038/s41467-021-26682-1
+  title: Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+- doi: 10.1093/bioadv/vbac028
+  title: 'Pollock: fishing for cell states'
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41467-021-23518-w
+  title: Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions
+- doi: 10.1038/s41467-021-23324-4
+  title: Interpretation of T cell states from single-cell transcriptomics data using reference atlases
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+- doi: 10.1016/j.patter.2023.100793
+  title: Transcriptomic forecasting with neural ordinary differential equations
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1038/s41540-022-00246-5
+  title: Executable models of immune signaling pathways in HIV-associated atherosclerosis
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+- doi: 10.1038/s41467-024-51382-x
+  title: 'scConfluence: single-cell diagonal integration with regularized Inverse Optimal Transport on weakly connected features'
+- doi: 10.1016/j.eng.2023.12.004
+  title: A Single-Cell Landscape of Human Liver Transplantation Reveals a Pathogenic Immune Niche Associated with Early Allograft Dysfunction
+- doi: 10.1038/s41598-021-88875-4
+  title: Synthetic single cell RNA sequencing data from small pilot studies using deep generative models
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1093/bib/bbae011
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1016/j.csbj.2022.04.023
+  title: 'scEFSC: Accurate single-cell RNA-seq data analysis via ensemble consensus clustering based on multiple feature selections'
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-021-23196-8
+  title: Hierarchical progressive learning of cell identities in single-cell data
+- doi: 10.1016/j.isci.2020.100914
+  title: scID Uses Discriminant Analysis to Identify Transcriptionally Equivalent Cell Types across Single-Cell RNA-Seq Data with Batch Effect
+- doi: 10.1038/s41467-018-03405-7
+  title: An accurate and robust imputation method scImpute for single-cell RNA-seq data
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+- doi: 10.1038/s42003-025-07942-y
+  title: scMalignantFinder distinguishes malignant cells in single-cell and spatial transcriptomics by leveraging cancer signatures
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s42003-022-04093-2
+  title: Multi-level cellular and functional annotation of single-cell transcriptomes using scPipeline
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1016/j.xgen.2023.100383
+  title: Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+- doi: 10.1016/j.csbj.2023.12.021
+  title: 'scQA: A dual-perspective cell type identification model for single cell transcriptome data'
+- doi: 10.1016/j.xcrm.2024.101568
+  title: scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1038/s41598-019-56911-z
+  title: Using transfer learning from prior reference knowledge to improve the clustering of single-cell RNA-Seq data
+- doi: 10.1038/s41598-025-12897-5
+  title: Enabling scalable single-cell transcriptomic analysis through distributed computing with Apache spark
+- doi: 10.1038/s41467-021-21808-x
+  title: Identifying transposable element expression dynamics and heterogeneity during development at the single-cell level with a processing pipeline scTE
+- doi: 10.1093/bioadv/vbad171
+  title: 'scTopoGAN: unsupervised manifold alignment of single-cell data'
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+- doi: 10.1093/bib/bbaf279
+  title: 'scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks'
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+- doi: 10.1038/s41408-022-00636-2
+  title: 'secDrug: a pipeline to discover novel drug combinations to kill drug-resistant multiple myeloma cells using a greedy set cover algorithm and single-cell multi-omics'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1016/j.patter.2023.100915
+  title: 'Spaco: A comprehensive tool for coloring spatial data at single-cell resolution'
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+- doi: 10.1016/j.gpb.2018.10.003
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-Scale Single Cell RNA-Seq Data'
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+- doi: 10.1016/j.gpb.2023.01.003
+  title: 'stAPAminer: Mining Spatial Patterns of Alternative Polyadenylation for Spatially Resolved Transcriptomic Studies'
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+- doi: 10.1093/bioadv/vbac061
+  title: 'STtools: a comprehensive software pipeline for ultra-high-resolution spatial transcriptomics data'
+- doi: 10.1038/s41467-021-25957-x
+  title: Efficient and precise single-cell reference atlas mapping with Symphony
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1093/bioinformatics/btad248
+  title: Cell type matching across species using protein embeddings and transfer learning
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+- doi: 10.1038/s41467-024-48041-6
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1038/s42003-023-05283-2
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+- doi: 10.1038/s41467-023-35923-4
+  title: Transformer for one stop interpretable cell type annotation
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+- doi: 10.1016/j.csbj.2021.06.043
+  title: 'UCell: Robust and scalable single-cell gene signature scoring'
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+- doi: 10.1016/j.crmeth.2022.100200
+  title: Interactive, integrated analysis of single-cell transcriptomic and phylogenetic data with PhyloVision
+- doi: 10.1093/bioinformatics/btae099
+  title: 'vizAPA: visualizing dynamics of alternative polyadenylation from bulk and single-cell data'
+- doi: 10.1002/advs.202200045
+  title: 'InterCellDB: A User‐Defined Database for Inferring Intercellular Networks'
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+- doi: 10.1007/s11704-022-2011-y
+  title: 'AE-TPGG: a novel autoencoder-based approach for single-cell RNA-seq data imputation and dimensionality reduction'
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/satijalab/seurat
+- https://github.com/KlugerLab/ALRA
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/lanagarmire/ASGARD
+- https://github.com/lanagarmire/Asgard
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/DaneVass/BARtab
+- https://github.com/mandricigor/batman
+- https://github.com/jumphone/BEER
+- https://github.com/songfd2018/BUSseq
+- https://github.com/LinLi-0909/c-CSN
+- https://github.com/ykat0/capital
+- https://github.com/LingyiC/CASCC
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/jinworks/CellChat
+- https://github.com/sonejilab/cellexalvr
+- https://github.com/MaShisongLab/CellGEP
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/10XGenomics/single-cell-3prime-paper
+- https://github.com/10XGenomics/cellranger
+- https://github.com/sjdlabgroup/Census
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/msraredon/Connectome
+- https://github.com/ohlerlab/COPILOT
+- https://github.com/kuanrongchan/COVID19-severity
+- https://github.com/wuzhenao/CPPLS-MLP
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/zhouzilu/cTPnet
+- https://github.com/KChen-lab/cyclum
+- https://github.com/BradBalderson/Cytocipher
+- https://github.com/bsml320/deCS
+- https://github.com/satijalab/seurat-data
+- https://github.com/JiangBioLab/DeepCCI
+- https://github.com/huklein/demuxmix
+- https://github.com/GreenleafLab/chromVAR
+- https://github.com/aet21/DICE
+- https://github.com/marcalva/diem
+- https://github.com/niaid/dsb
+- https://github.com/prabhakarlab/DUBStepR
+- https://github.com/AhmedMehdiLab/E.PAGE
+- https://github.com/rx-li/EasyCellType
+- https://github.com/shawnstat/EDGE
+- https://github.com/aet21/ELVAR
+- https://github.com/lkmklsmn/empty_nn
+- https://github.com/xiaorudong/Escort
+- https://github.com/mikelkou/fava
+- https://github.com/fabotao/GapClust
+- https://github.com/csglab/GEDI
+- https://github.com/nceglia/genevector
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+- https://github.com/qingnanl/gsdensity
+- https://github.com/WilsonImmunologyLab/HTOreader
+- https://github.com/BradhamLab/icat
+- https://github.com/XiaoZhangryy/iSC.MEB
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+- https://github.com/Winnie09/Lamian
+- https://github.com/camlab-bioml/leader
+- https://github.com/yuntianf/Longcell
+- https://github.com/NakhlehLab/MaCroDNA
+- https://github.com/hayatlab/MASI
+- https://github.com/GfellerLab/MetacellAnalysisToolkit
+- https://github.com/KChen-lab/METAFlux
+- https://github.com/yi-zhang/MetaTiME
+- https://github.com/cistrome/MIRA
+- https://github.com/hannenhalli-lab/miRSCAPE
+- https://github.com/lixiangchun/Miscell
+- https://github.com/ConesaLab/MOSim
+- https://github.com/single-cell-genetics/MQuad
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/lingfeiwang/normalisr
+- https://github.com/CostaLab/PILOT
+- https://github.com/ding-lab/pollock
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/gifford-lab/prescient
+- https://github.com/carmonalab/ProjecTILs
+- https://github.com/JarningGau/ProjectSVR
+- https://github.com/jarninggau/ProjectSVR
+- https://github.com/marmarelis/QDiffusion.jl
+- https://github.com/FertigLab/RNAForecaster.jl
+- https://github.com/scottgigante/seurat
+- https://github.com/PavlopoulosLab/SCALA
+- https://github.com/xryanglab/SCASL
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/Thakar-Lab/scBONITA
+- https://github.com/xuyp-csu/scCAD
+- https://github.com/czythu/scCancer
+- https://github.com/ZJUFanLab/scCATCH
+- https://github.com/mcgilldinglab/scCobra
+- https://github.com/cantinilab/scconfluence
+- https://github.com/multitalk/scCrossTalk
+- https://github.com/MTreppner/scDBM-paper
+- https://github.com/MTreppner/scDBM.jl
+- https://github.com/ttgump/scDCC
+- https://github.com/MengQiuchen/scDecouple
+- https://github.com/satijalab/seurat-wrappers
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/duct317/scDHA
+- https://github.com/phillipnicol/scDist
+- https://github.com/bioinfocz/scdrake
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/Conan-Bian/scEFSC
+- https://github.com/hui2000ji/scETM
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/lcmmichielsen/scHPL
+- https://github.com/BatadaLab/scID
+- https://github.com/Vivianstats/scImpute
+- https://github.com/duct317/scISR
+- https://github.com/jr-leary7/SCISSORS
+- https://github.com/Mathbiomed/scLENS
+- https://github.com/Jonyyqn/scMalignantFinder
+- https://github.com/xianglin226/scMDC
+- https://github.com/bucky527/scME
+- https://github.com/satijalab/seurat (branch seurat5)
+- https://github.com/CostaLab/scMEGA
+- https://github.com/SydneyBioX/scMerge
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/NMikolajewicz/scMiko
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/jackbibby1/SCPA
+- https://github.com/dengchunyu/scPagwas
+- https://github.com/galelab/scPathoQuant
+- https://github.com/compbioNJU/scPlant
+- https://github.com/LD-Lyndee/scQA
+- https://github.com/ZJUFanLab/scRank
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/nicococo/scRNA
+- https://github.com/asif7adil/scSparkl
+- https://github.com/JiekaiLab/scTE
+- https://github.com/AkashCiel/scTopoGAN
+- https://github.com/IanevskiAleksandr/sc-type
+- https://github.com/LHBCB/scvalue
+- https://github.com/Dulab2020/scWizard
+- https://github.com/Ujjal-Mukherjee/secDrug
+- https://github.com/SELINA-team/SELINA.py
+- https://github.com/Patchouli-M/SequencingCancerFinder
+- https://github.com/alexisvdb/singleCellHaystack
+- https://github.com/ddiez/singleCellHaystack-py
+- https://github.com/yulijia/SnapCCESS
+- https://github.com/bvaldebenitom/SoloTE
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/BrainStOrmics/Spaco
+- https://github.com/zcang/SpaOTsc
+- https://github.com/YangLabHKUST/SpatialScope
+- https://github.com/Japrin/sscClust
+- https://github.com/carmonalab/STACAS
+- https://github.com/BMILAB/stAPAminer
+- https://github.com/WhirlFirst/STEM
+- https://github.com/seqscope/STtools
+- https://github.com/immunogenomics/symphony
+- https://github.com/YosefLab/SymSim
+- https://github.com/kbiharie/TACTiCS
+- https://github.com/fw262/TAR-scRNA-seq
+- https://github.com/micnngo/tauFisher
+- https://github.com/deeplearningplus/tGPT
+- https://github.com/carmonalab/TILPRED
+- https://github.com/ChengLiLab/TimeTalk
+- https://github.com/JackieHanLab/TOSICA
+- https://github.com/elolab/Totem
+- https://github.com/carmonalab/UCell
+- https://github.com/caokai1073/uniPort
+- https://github.com/minoda-lab/universc
+- https://github.com/ShobiStassen/VIA
+- https://github.com/YosefLab/VISION
+- https://github.com/BMILAB/vizAPA
+- https://github.com/ZJUDBlab/InterCellDB
+- https://github.com/WilsonImmunologyLab/LinQView
+- https://github.com/PUGEA/AE-TPGG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

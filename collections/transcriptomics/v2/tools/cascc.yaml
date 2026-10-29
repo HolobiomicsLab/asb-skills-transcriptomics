@@ -1,0 +1,19 @@
+name: CASCC
+slug: cascc
+version_used: null
+edam_topics: []
+evidence_spans:
+- res <- CASCC::run.CASCC(Data_PDAC_peng_2k)
+- devtools::install_github("LingyiC/CASCC")
+- library("CASCC")
+derived_from:
+- doi: 10.1093/bioinformatics/btae283
+  title: 'CASCC: a co-expression-assisted single-cell RNA-seq data clustering method'
+source_repos:
+- https://github.com/LingyiC/CASCC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LingyiC/CASCC

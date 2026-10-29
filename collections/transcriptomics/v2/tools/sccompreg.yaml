@@ -1,0 +1,18 @@
+name: scCompReg
+slug: sccompreg
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Use the following command to install scCompReg R package from source code:'
+- library(scCompReg)
+derived_from:
+- doi: 10.1038/s41467-021-25089-2
+  title: Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data
+source_repos:
+- https://github.com/SUwonglab/sc-compReg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SUwonglab/sc-compReg

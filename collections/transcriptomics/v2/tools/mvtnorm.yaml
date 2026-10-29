@@ -1,0 +1,21 @@
+name: mvtnorm
+slug: mvtnorm
+version_used: null
+edam_topics: []
+evidence_spans:
+- you will need to have the dplyr, mvtnorm, tensorflow, keras, ranger, devtools, liquidSVM, and xgboost libraries installed
+- install.packages(c("abind", "mvtnorm", "numDeriv", "softImpute", "tensor"))
+derived_from:
+- doi: 10.1093/bioadv/vbae002
+  title: Predicting evolutionary targets and parameters of gene deletion from expression data
+- doi: 10.1038/s41467-024-49242-9
+  title: A robust model for cell type-specific interindividual variation in single-cell RNA sequencing data
+source_repos:
+- https://github.com/anddssan/CLOUDe
+- https://github.com/Minhui-Chen/CTMM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/anddssan/CLOUDe

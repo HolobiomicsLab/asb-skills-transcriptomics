@@ -1,0 +1,29 @@
+name: Cutadapt
+slug: cutadapt
+version_used: null
+edam_topics: []
+evidence_spans:
+- trim adapters with [Cutadapt]
+- Constant regions are trimmed and reads are filtered for length and N bases using [cutadapt](https://cutadapt.readthedocs.io/en/stable/).
+- BARtab leverages widely used bioinformatics tools including fastp, FLASh, cutadapt, samtools, bowtie, starcode, umi-tools, and FastQC
+- Cutadapt removes adapter sequences from high-throughput sequencing reads
+derived_from:
+- doi: 10.1038/s41467-021-21894-x
+  title: Aptardi predicts polyadenylation sites in sample-specific transcriptomes using high-throughput RNA sequencing and DNA sequence
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1038/s41467-017-02391-6
+  title: Perturbation-response genes reveal signaling footprints in cancer gene expression
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+source_repos:
+- https://github.com/luskry/aptardi
+- https://github.com/DaneVass/BARtab
+- https://github.com/saezlab/progeny
+- https://github.com/equipeGST/RiboDoc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/luskry/aptardi

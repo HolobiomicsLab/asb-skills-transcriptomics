@@ -1,0 +1,21 @@
+name: utils
+slug: utils
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `utils (Imports)`'
+- '- `utils (Imports)`'
+derived_from:
+- doi: 10.1093/bioadv/vbac041
+  title: 'dipm: an R package implementing the Depth Importance in Precision Medicine (DIPM) tree and Forest-based method'
+- doi: 10.1038/s41598-021-03864-x
+  title: Integration of genome-wide association studies and gene coexpression networks unveils promising soybean resistance genes against five common fungal pathogens
+source_repos:
+- https://github.com/chenvict/dipm
+- https://github.com/almeidasilvaf/SoyFungiGCN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chenvict/dipm

@@ -1,0 +1,17 @@
+name: ontologySimilarity
+slug: ontologysimilarity
+version_used: '2.7'
+edam_topics: []
+evidence_spans:
+- This similarity was computed using the get_sim_grid function from the ontologySimilarity R package (version 2.7).
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

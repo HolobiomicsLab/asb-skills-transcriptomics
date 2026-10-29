@@ -1,0 +1,21 @@
+name: CaDRReS-Sc
+slug: cadrres-sc
+version_used: null
+edam_topics: []
+evidence_spans:
+- CaDRReS-Sc is a machine-learning framework for robust cancer drug response prediction based on scRNA-seq data
+- In the scDrug pipeline, we used the AnnData object generated in the first step (scRNA-seq data analysis) and applied CaDRReS-Sc [16] for drug response prediction.
+- applied CaDRReS-Sc [16] for drug response prediction. CaDRReS-Sc is a machine-learning framework for robust cancer drug response prediction based on scRNA-seq data
+derived_from:
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+source_repos:
+- https://github.com/CSB5/CaDRReS-SC
+- https://github.com/CSB5/CaDRReS-Sc
+- https://github.com/ailabstw/scDrug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CSB5/CaDRReS-SC

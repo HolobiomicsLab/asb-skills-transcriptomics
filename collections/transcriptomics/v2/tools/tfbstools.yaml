@@ -1,0 +1,17 @@
+name: TFBSTools
+slug: tfbstools
+version_used: null
+edam_topics: []
+evidence_spans:
+- suppressMessages(library(TFBSTools))
+derived_from:
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+source_repos:
+- https://github.com/CostaLab/scMEGA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CostaLab/scMEGA

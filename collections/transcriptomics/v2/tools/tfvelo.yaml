@@ -1,0 +1,18 @@
+name: TFvelo
+slug: tfvelo
+version_used: null
+edam_topics: []
+evidence_spans:
+- python TFvelo_run_demo.py --dataset_name pancreas
+- we propose TFvelo, which expands RNA velocity concept to various single-cell datasets without relying on splicing information
+derived_from:
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+source_repos:
+- https://github.com/xiaoyeye/TFvelo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaoyeye/TFvelo

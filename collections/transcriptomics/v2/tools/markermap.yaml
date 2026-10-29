@@ -1,0 +1,21 @@
+name: MarkerMap
+slug: markermap
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we introduce MarkerMap, a generative model for selecting minimal gene sets which are maximally informative of cell type origin
+- The easiest way to install is with pip from https://pypi.org/project/markermap/
+- Simply do `pip install markermap`
+- Here we introduce MarkerMap, a generative model for selecting minimal gene sets which are maximally informative of cell type origin and enable whole transcriptome reconstruction.
+derived_from:
+- doi: 10.1038/s41540-024-00339-3
+  title: 'MarkerMap: nonlinear marker selection for single-cell studies'
+source_repos:
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Computational-Morphogenomics-Group/MarkerMap

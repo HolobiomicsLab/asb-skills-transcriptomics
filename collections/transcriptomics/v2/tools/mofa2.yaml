@@ -1,0 +1,21 @@
+name: MOFA2
+slug: mofa2
+version_used: 1.6.0
+edam_topics: []
+evidence_spans:
+- MOFA2 (v1.6.0) which implements MOFA+ (Argelaguet et al. 2020) was used to generate multimodality embeddings of the six datasets.
+- LinQ-View, MOFA2, and Seurat 4 identified 7, 7, and 8 cell clusters from dataset 2, respectively (Figure S4A)
+derived_from:
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+source_repos:
+- https://github.com/yulijia/SnapCCESS
+- https://github.com/WilsonImmunologyLab/LinQView
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yulijia/SnapCCESS

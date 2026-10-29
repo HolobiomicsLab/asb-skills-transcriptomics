@@ -1,0 +1,37 @@
+name: cluster
+slug: cluster
+version_used: 2.1.3
+edam_topics: []
+evidence_spans:
+- CPPLS-MLP employs the k-means method to cluster the filtered coefficients of HVGs [38]. The optimal number of clusters k is determined using the Silhouette method
+- scoring metrics like silhouette or pixel class
+- '***cluster***'
+- 'library(cluster)         # clustering tools'
+- library(cluster)
+- using R packages kBET (version 0.99.6) and cluster (version 2.1.3), respectively
+derived_from:
+- doi: 10.1093/bib/bbae198
+  title: 'CPPLS-MLP: a method for constructing cell–cell communication networks and identifying related highly variable genes based on single-cell sequencing and spatial transcriptomics data'
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1038/s41467-017-00039-z
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+- doi: 10.1016/j.gpb.2023.01.003
+  title: 'stAPAminer: Mining Spatial Patterns of Alternative Polyadenylation for Spatially Resolved Transcriptomic Studies'
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+source_repos:
+- https://github.com/wuzhenao/CPPLS-MLP
+- https://github.com/mamouzgar/hsslda
+- https://github.com/tinglab/reCAT
+- https://github.com/jr-leary7/SCISSORS
+- https://github.com/BMILAB/stAPAminer
+- https://github.com/minoda-lab/universc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wuzhenao/CPPLS-MLP

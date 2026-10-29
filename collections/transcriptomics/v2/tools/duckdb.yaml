@@ -1,0 +1,19 @@
+name: DuckDB
+slug: duckdb
+version_used: null
+edam_topics: []
+evidence_spans:
+- AnnSQL converts the layers of an AnnData object into a relational [DuckDB](https://duckdb.org/) database
+derived_from:
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+source_repos:
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/duckdb/duckdb-go
+- https://github.com/marcboeker/go-duckdb
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ArpiarSaundersLab/annsql

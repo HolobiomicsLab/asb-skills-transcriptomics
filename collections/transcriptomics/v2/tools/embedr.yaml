@@ -1,0 +1,20 @@
+name: EMBEDR
+slug: embedr
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our results indicate that scDEED outperforms a competing method, EMBEDR, in terms of dubious embedding detection, hyperparameter optimization, and computational time.
+derived_from:
+- doi: 10.1016/j.patter.2022.100443
+  title: 'EMBEDR: Distinguishing signal from noise in single-cell omics data'
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+source_repos:
+- https://github.com/ejohnson643/EMBEDR
+- https://github.com/JSB-UCLA/scDEED
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ejohnson643/EMBEDR

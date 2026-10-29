@@ -1,0 +1,19 @@
+name: GNIAP
+slug: gniap
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'GNIAP
+
+  Gene Co-expression Network Inference and Assessment Package'
+derived_from:
+- doi: 10.1007/s12539-021-00440-9
+  title: The Performance Comparison of Gene Co-expression Networks of Breast and Prostate Cancer using Different Selection Criteria
+source_repos:
+- https://github.com/ozgurcingiz/GNIAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ozgurcingiz/GNIAP

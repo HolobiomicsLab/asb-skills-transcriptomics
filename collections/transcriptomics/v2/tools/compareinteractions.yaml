@@ -1,0 +1,17 @@
+name: compareInteractions
+slug: compareinteractions
+version_used: null
+edam_topics: []
+evidence_spans:
+- compareInteractions(object, measure, color.use, group, group.levels, group.facet, group.facet.levels, n.row, color.alpha, legend.title, width, title.name, digits, xlabel, ylabel
+derived_from:
+- doi: 10.1038/s41467-021-21246-9
+  title: Inference and analysis of cell-cell communication using CellChat
+source_repos:
+- https://github.com/jinworks/CellChat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jinworks/CellChat

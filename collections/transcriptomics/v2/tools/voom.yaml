@@ -1,0 +1,18 @@
+name: Voom
+slug: voom
+version_used: null
+edam_topics: []
+evidence_spans:
+- Voom [26] was further used for differential expression analysis
+- Voom [26] was further used for differential expression analysis.
+derived_from:
+- doi: 10.1016/j.gpb.2021.03.003
+  title: 'FunHoP: Enhanced Visualization and Analysis of Functionally Homologous Proteins in Complex Metabolic Networks'
+source_repos:
+- https://github.com/kjerstirise/FunHoP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kjerstirise/FunHoP

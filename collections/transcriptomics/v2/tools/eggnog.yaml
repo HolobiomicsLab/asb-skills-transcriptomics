@@ -1,0 +1,17 @@
+name: eggNOG
+slug: eggnog
+version_used: null
+edam_topics: []
+evidence_spans:
+- like homologous groups from eggNOG or PLAZA
+derived_from:
+- doi: 10.1093/bioinformatics/btad657
+  title: 'oggmap: a Python package to extract gene ages per orthogroup and link them with single-cell RNA data'
+source_repos:
+- https://github.com/kullrich/oggmap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kullrich/oggmap

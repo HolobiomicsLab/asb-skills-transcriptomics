@@ -1,0 +1,33 @@
+name: bowtie2
+slug: bowtie2
+version_used: null
+edam_topics: []
+evidence_spans:
+- -mt/-mapping_tool star/bowtie/bowtie2
+- The software uses outside software samtools, bowtie2, and htseq to quantify pathogen reads
+- -align = alignment tool bbmap (default) or bowtie2
+- or bowtie2 (Langmead and Salzberg 2012), (iii) quantification of the resulting unique molecular identifier (UMI) read counts with HTseq
+- they may additionally output a BAM file by aligning the synthetic reads to the reference genome by the alignment software bowtie2
+- they may additionally output a BAM file by aligning the synthetic reads to the reference genome by the alignment software bowtie240
+- aligning the synthetic reads to the reference genome by the alignment software bowtie240
+- against hg19 (1000 Genomes) and phiX phage (NC_001422) with Bowtie2
+derived_from:
+- doi: 10.1038/s41598-020-61495-0
+  title: 'COMPSRA: a COMprehensive Platform for Small RNA-Seq data Analysis'
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1038/s41467-023-36336-z
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+source_repos:
+- https://github.com/cougarlj/COMPSRA
+- https://github.com/galelab/scPathoQuant
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/AuslanderLab/virnatrap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cougarlj/COMPSRA

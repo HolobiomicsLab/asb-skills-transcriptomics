@@ -1,0 +1,22 @@
+name: gimVI
+slug: gimvi
+version_used: null
+edam_topics: []
+evidence_spans:
+- For gene expression imputation task, we compared SpatialScope with Tangram, gimVI, SpaGE, SpaOTsc, novoSpaRc, stPlus and Seurat.
+- MERFISH_predict
+derived_from:
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+source_repos:
+- https://github.com/scverse/scvi-tools
+- https://github.com/YangLabHKUST/SpatialScope
+- https://github.com/caokai1073/uniPort
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scverse/scvi-tools

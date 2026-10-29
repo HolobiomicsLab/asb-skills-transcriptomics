@@ -1,0 +1,18 @@
+name: scLENS
+slug: sclens
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we develop scLENS, a dimensionality reduction tool that circumvents the long-standing issues of signal distortion and manual input.
+- we utilize random matrix theory-based noise filtering and a signal robustness test to enable data-driven determination of the threshold for signal dimensions
+derived_from:
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mathbiomed/scLENS

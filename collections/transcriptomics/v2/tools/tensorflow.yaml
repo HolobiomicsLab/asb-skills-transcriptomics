@@ -1,0 +1,172 @@
+name: TensorFlow
+slug: tensorflow
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0)
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0) and a few other pacakges installed
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0) and a few other pacakges installed first
+- pip install --upgrade tensorflow
+- numpy, scikit-learn, tensorflow, matplotlib.
+- The Keras R interface uses the TensorFlow backend engine by default.
+- you will need to have the dplyr, mvtnorm, tensorflow, keras, ranger, devtools, liquidSVM, and xgboost libraries installed
+- the fitted neural network models in TensorFlow format to the files training_prefix.nn.num_layers.classifier.hdf5
+- using Keras (Chollet et al. 2017) with a TensorFlow backend (Abadi et al. 2016) for the NN
+- The Cyclum package is efficiently implemented in Python using Keras with TensorFlow and has been comprehensively tested.
+- DCA is implemented in Python 3 using Keras53 and its TensorFlow54 backend.
+- './DeepCycle_model/: TensorFlow model'
+- Because desc depend on `tensorflow`, you should make sure the version of `tensorflow` is lower than `2.0`
+- Because desc depend on `tensorflow`, you should make sure the version of `tensorflow` is lower than `2.0` if you want to get the same results as the results in our paper.
+- latest stable TensorFlow distribution
+- update to the current ``ivis`` master branch, as well as the latest stable TensorFlow distribution.
+- The model was implemented in Keras version 2.2.2 with a Tensorflow (1.10.1) backend
+- The model was implemented in Keras version 2.2.2 with a Tensorflow (1.10.1) backend [29].
+- implemented in Keras version 2.2.2 with a Tensorflow (1.10.1) backend
+- NeuCA uses keras as the application programming interface (API) to enable fast high-level neural network implementation.
+- pip install tensorflow==2.0
+- OnClass_test_obj.BuildModel(ngene = None, use_pretrain = model_path)
+- '[tensorflow 2.6.0]'
+- This package uses the tensorflow (>= 2.4) and tensorflow-probability (>=0.12) packages.
+- 'python module: tensorflow, keras, and numpy (version 2.8.0, 2.8.0, and 1.22.3, respectively)'
+- tensorflow --- 2.3.0
+- Please check the [Tensorflow Docker Help Page](https://www.tensorflow.org/install/docker?hl=en) for further information on how to use Tensorflow with docker.
+- for further information on how to use Tensorflow with docker.
+- Please check the [Tensorflow Docker Help Page](https://www.tensorflow.org/install/docker?hl=en) for further information
+- how to use Tensorflow with docker.
+- tensorflow
+- the core model is built on the Tensorflow framework
+- 'numpy
+
+  scipy
+
+  tensorflow
+
+  scikit-learn
+
+  pandas
+
+  scanpy
+
+  anndata'
+- the core model is built on the Tensorflow framework that is publicly available
+- the core model is built on the Tensorflow framework that is publicly available at https://pypi.org/project/scMGCA
+- '`scMGCA` mainly depends on the Python scientific stack.
+
+  numpy
+
+  scipy
+
+  tensorflow'
+- We used Tensorflow v1.14.0 for all analyses
+- SpatialDDLS makes use of the keras (Allaire and Chollet 2021) and tensorflow (Allaire and Tang 2021) R packages for all NN-related tasks
+- Temporally unified RNA velocity for single cell trajectory inference (UniTVelo) is implementated on Python 3 and TensorFlow 2.
+- (UniTVelo) is implementated on Python 3 and TensorFlow 2.
+- implementated on Python 3 and TensorFlow 2
+- Temporally unified RNA velocity for single cell trajectory inference (UniTVelo) is implementated on Python 3 and TensorFlow 2
+- + tensorflow 1.1.0
+- tensorflow (Abadi et al. 2015)
+- 'TensorFlow: Large-scale machine learning on heterogeneous systems, 2015. Software available from tensorflow.org.'
+- The neural network to predict viral sequnces based on 48bp reads is found in the `model` directory (`model/model_lr_0.005_pool_5_emb_25_l2_0.02_64.hdf5`)
+- Building a Tensorflow model to predict whether reads of a fixed length come from viruses or not; this has been precomputed based on 48bp reads.
+- Building a Tensorflow model to predict whether reads of a fixed length come from viruses or not
+- $ tensorflow gpu 1.4.0
+derived_from:
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41598-018-34688-x
+  title: 'AutoImpute: Autoencoder based imputation of single-cell RNA-seq data'
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1093/bioadv/vbae002
+  title: Predicting evolutionary targets and parameters of gene deletion from expression data
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1038/s41467-022-30545-8
+  title: Cell cycle gene regulation dynamics revealed by RNA velocity and deep-learning
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1038/s41598-019-45301-0
+  title: Structure-preserving visualisation of high dimensional single-cell datasets
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1038/s41467-021-25725-x
+  title: Leveraging the Cell Ontology to classify unseen cell types
+- doi: 10.1093/bib/bbaf107
+  title: 'REDInet: a temporal convolutional network-based classifier for A-to-I RNA editing detection harnessing million known events'
+- doi: 10.1093/bioinformatics/btad075
+  title: 'scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering'
+- doi: 10.1038/s41467-021-27150-6
+  title: scCODA is a Bayesian model for compositional single-cell data analysis
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-019-14018-z
+  title: Realistic in silico generation and augmentation of single-cell RNA-seq data using generative adversarial networks
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1016/j.patter.2022.100577
+  title: Single-cell multi-modal GAN reveals spatial patterns in single-cell data from triple-negative breast cancer
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1038/s41467-022-34188-7
+  title: 'UniTVelo: temporally unified RNA velocity reinforces single-cell trajectory inference'
+- doi: 10.1016/j.gpb.2018.08.003
+  title: 'VASC: Dimension Reduction and Visualization of Single-Cell RNA-Seq Data by Deep Variational Autoencoder'
+- doi: 10.1038/s41467-023-36336-z
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+- doi: 10.1007/s11704-022-2011-y
+  title: 'AE-TPGG: a novel autoencoder-based approach for single-cell RNA-seq data imputation and dimensionality reduction'
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+- doi: 10.1016/j.ab.2020.113767
+  title: 'LPI-CNNCP: Prediction of lncRNA-protein interactions by using convolutional neural network with the copy-padding trick'
+source_repos:
+- https://github.com/datapplab/AutoClass
+- https://github.com/divyanshu-talwar/AutoImpute
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/anddssan/CLOUDe
+- https://github.com/KChen-lab/cyclum
+- https://github.com/theislab/dca
+- https://github.com/andreariba/DeepCycle
+- https://github.com/eleozzr/desc
+- https://github.com/beringresearch/ivis
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/F0nz0/NanoSpeech_basecaller
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/wangshenguiuc/OnClass
+- https://github.com/BioinfoUNIBA/REDInet
+- https://github.com/wangyh082/scBGEDA
+- https://github.com/theislab/scCODA
+- https://github.com/XiDsLab/scFusion
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/imsb-uke/scGAN
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/KrishnaswamyLab/scMMGAN
+- https://github.com/klarman-cell-observatory/scPhere
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/StatBiomed/UniTVelo
+- https://github.com/wang-research/VASC
+- https://github.com/AuslanderLab/virnatrap
+- https://github.com/keras-team/keras
+- https://github.com/tensorflow/tensorflow
+- https://github.com/deargen/DearWXpub
+- https://github.com/PUGEA/AE-TPGG
+- https://github.com/audreyqyfu/LATE
+- https://github.com/NWPU-903PR/LPI-CNNCP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/datapplab/AutoClass

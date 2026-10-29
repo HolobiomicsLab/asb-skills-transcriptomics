@@ -1,0 +1,19 @@
+name: scMerge2
+slug: scmerge2
+version_used: null
+edam_topics: []
+evidence_spans:
+- through scMerge2, scMerge2-h and the seven baselines
+- Here, we present scMerge2, a scalable algorithm that allows data integration of atlas-scale multi-sample multi-condition single-cell studies.
+- we present scMerge2, a scalable, high-capacity algorithm that allows data integration of atlas-scale multi-sample multi-condition single-cell studies.
+derived_from:
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+source_repos:
+- https://github.com/SydneyBioX/scMerge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SydneyBioX/scMerge

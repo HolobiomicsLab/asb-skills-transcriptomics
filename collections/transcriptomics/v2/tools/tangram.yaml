@@ -1,0 +1,43 @@
+name: Tangram
+slug: tangram
+version_used: null
+edam_topics: []
+evidence_spans:
+- recent methods such as Tangram15 and CytoSpace16 have been developed.
+- recent methods such as Tangram15 and CytoSpace16 have been developed
+- recent methods such as Tangram15 and CytoSpace16 have been developed. Although these methods can be utilized to infer the location information for cells in scRNA-seq
+- Subsequently, Tangram12 and CytoSpace13 were introduced to establish mapping relationships from SC to ST.
+- deconvolute cell type composition for each spot on single ST slice.
+- three single-cell alignment (Tangram, CytoSPACE and StarDist+RCTD) and ten deconvolution (SpatialDWLS, RCTD, Cell2location, CARD, SpaOTsc, novoSpaRc, DestVI, STRIDE, SPOTlight, and DSTG) methods.
+- 'We followed the instructions of Tangram: https://tangram-sc.readthedocs.io/en/latest'
+- methods developed to infer unmeasured gene expressions, such as Tangram18, gimVI19 and SpaGE20 are not sufficiently accurate
+- For gene expression imputation task, we compared SpatialScope with Tangram, gimVI, SpaGE, SpaOTsc, novoSpaRc, stPlus and Seurat.
+- Tangram23 learns a mapping matrix to convert SC to ST, and the matrix is optimized by minimizing the cosine similarity
+- MERFISH_predict
+derived_from:
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+source_repos:
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/HKU-BAL/CellContrast
+- https://github.com/broadinstitute/Tangram
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/YangLabHKUST/SpatialScope
+- https://github.com/WhirlFirst/STEM
+- https://github.com/caokai1073/uniPort
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QihuangZhang/CeLEry

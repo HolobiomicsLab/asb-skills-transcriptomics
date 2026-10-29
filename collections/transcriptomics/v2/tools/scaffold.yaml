@@ -1,0 +1,16 @@
+name: Scaffold
+slug: scaffold
+version_used: 0.2.0
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+source_repos:
+- https://github.com/xiaorudong/Escort
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaorudong/Escort

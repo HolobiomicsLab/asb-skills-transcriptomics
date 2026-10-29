@@ -1,0 +1,24 @@
+name: freebayes
+slug: freebayes
+version_used: null
+edam_topics: []
+evidence_spans:
+- '* regions: /single-cell/input/reference/regions.txt #for parallel freebayes'
+- 'regions: /single-cell/input/reference/regions.txt #for parallel freebayes'
+- '#for parallel freebayes'
+- We compared the SNV call results from GATK to those from another SNV caller FreeBayes26
+derived_from:
+- doi: 10.1038/s42003-023-04557-z
+  title: Single-cell transcriptome sequencing allows genetic separation, characterization and identification of individuals in multi-person biological mixtures
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+source_repos:
+- https://github.com/nh13/freebayes
+- https://github.com/genid/de-goulash
+- https://github.com/lanagarmire/SSrGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nh13/freebayes

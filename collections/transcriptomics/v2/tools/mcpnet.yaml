@@ -1,0 +1,21 @@
+name: MCPNet
+slug: mcpnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- MCPNet can be downloaded directly from
+- '`mcpnet`:  this is the primary executable that runs the MCPNet pipeline, including MI computation, MCP score calculation, and AUPR and AUROC metrics if groundtruth is supplied.'
+- 'eval_mcpnet:  this executable is used for evaluating the performance of the ensemble method when only partial truth is provided.'
+- The compilation will generate a set of binaries in the `{MCPNet_build_dir}/bin` directory
+- '`eval_mcpnet`:  this executable is used for evaluating the performance of the ensemble method when only partial truth is provided.'
+derived_from:
+- doi: 10.1093/bioinformatics/btad373
+  title: 'MCPNet: a parallel maximum capacity-based genome-scale gene network construction framework'
+source_repos:
+- https://github.com/AluruLab/MCPNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AluruLab/MCPNet

@@ -1,0 +1,22 @@
+name: scBASE
+slug: scbase
+version_used: null
+edam_topics: []
+evidence_spans:
+- These methods are implemented in our \documentclass...scBASE software.
+- These methods are implemented in our ... scBASE software.
+- These methods are implemented in our scBASE software.
+- 'To use scBASE in a project::'
+- The scBASE software can be implemented as part of a scRNA-Seq analysis pipeline
+derived_from:
+- doi: 10.1038/s41467-019-13099-0
+  title: A Bayesian mixture model for the analysis of allelic expression in single cells
+source_repos:
+- https://github.com/churchill-lab/scBASE
+- https://github.com/kbchoi-jax/scbase
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/churchill-lab/scBASE

@@ -1,0 +1,18 @@
+name: timemachine
+slug: timemachine
+version_used: null
+edam_topics: []
+evidence_spans:
+- We recently did a comparison of BARtab with two other pipelines, [pycashier](https://github.com/brocklab/pycashier/tree/main) and [timemachine](https://github.com/arjunrajlaboratory/timemachine).
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+source_repos:
+- https://github.com/arjunrajlaboratory/timemachine
+- https://github.com/DaneVass/BARtab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/arjunrajlaboratory/timemachine

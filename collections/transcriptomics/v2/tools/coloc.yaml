@@ -1,0 +1,17 @@
+name: coloc
+slug: coloc
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run COLOC (approximate Bayes, priors p1=1e-4, p2=1e-4, p12=1e-6, PPH4>=0.5) pairwise across all 49 GTEx v8 tissues per gene locus
+derived_from:
+- doi: 10.1016/j.ajhg.2022.01.002
+  title: Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity
+source_repos:
+- https://github.com/karltayeb/cafeh
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/karltayeb/cafeh

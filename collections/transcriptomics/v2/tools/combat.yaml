@@ -1,0 +1,27 @@
+name: ComBat
+slug: combat
+version_used: 1.8.0
+edam_topics: []
+evidence_spans:
+- 'pbmc=BEER.combat(pbmc) #Adjust PCs using ComBat'
+- 'COMBAT: use ComBat to adjust expression value(default: TRUE)'
+- COMBAT=TRUE
+- such as Combat and the surrogate variable analysis (SVA), are designed for bulk experiments
+derived_from:
+- doi: 10.1038/s41421-019-0114-x
+  title: A novel approach to remove the batch effect of single-cell data
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/jumphone/BEER
+- https://github.com/songfd2018/BUSseq
+- https://github.com/Jfortin1/ComBatHarmonization
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jumphone/BEER

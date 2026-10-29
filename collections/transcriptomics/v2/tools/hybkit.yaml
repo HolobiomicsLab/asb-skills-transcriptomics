@@ -1,0 +1,23 @@
+name: Hybkit
+slug: hybkit
+version_used: null
+edam_topics: []
+evidence_spans:
+- Welcome to *hybkit*, a toolkit for analysis of hyb-format chimeric (hybrid) RNA sequence data defined with the Hyb software package
+- Welcome to *hybkit*, a toolkit for analysis of hyb-format chimeric
+- Here, we introduce Hybkit, a Python3 API, and command-line toolkit for analysis of hybrid sequence data
+- Welcome to *hybkit*, a toolkit for analysis of hyb-format chimeric (hybrid) RNA sequence data
+- Here, we introduce Hybkit, a Python3 API, and command-line toolkit for analysis of hybrid sequence data in the "hyb" file format
+- a toolkit for analysis of hyb-format chimeric
+- Integrated analysis of predicted secondary structure (fold) information for
+derived_from:
+- doi: 10.1093/bioinformatics/btad721
+  title: 'Hybkit: a Python API and command-line toolkit for hybrid sequence data from chimeric RNA methods'
+source_repos:
+- https://github.com/RenneLab/hybkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RenneLab/hybkit

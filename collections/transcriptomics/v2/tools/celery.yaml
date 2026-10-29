@@ -1,0 +1,25 @@
+name: CeLEry
+slug: celery
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present CeLEry (Cell Location recovEry), a supervised deep learning algorithm that leverages gene expression and spatial location relationships learned from spatial transcriptomics to recover the
+- pip install CeLEryPy
+- CeLEry allows users to specify the numbers of hidden layers and nodes. The default number of layers is 3
+- Here we present CeLEry, a supervised deep learning algorithm to recover the spatial origins of cells in scRNA-seq by leveraging gene expression and spatial location information
+- The [**CeLEry**](https://github.com/QihuangZhang/CeLEry) package is an implementation of a deep neural network in discovering location information for single cell RNA data
+- CeLEry represents another supervised deep neural network approach for recovering spatial information of SC data.
+derived_from:
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+source_repos:
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/HKU-BAL/CellContrast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QihuangZhang/CeLEry

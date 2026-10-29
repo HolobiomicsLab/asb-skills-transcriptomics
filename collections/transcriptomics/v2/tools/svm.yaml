@@ -1,0 +1,20 @@
+name: SVM
+slug: svm
+version_used: null
+edam_topics: []
+evidence_spans:
+- We repeated the evaluation with a different algorithm called support-vector machine (SVM)
+derived_from:
+- doi: 10.1016/j.omtn.2021.10.012
+  title: 'Staem5: A novel computational approach for accurate prediction of m5C site'
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+source_repos:
+- https://github.com/Cxd-626/Staem5
+- https://github.com/deargen/DearWXpub
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Cxd-626/Staem5

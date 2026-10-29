@@ -1,0 +1,20 @@
+name: CCIVR
+slug: ccivr
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'You can install CCIVR via a package manager `pip` by typing the following command:'
+- we developed a simple and convenient program termed CCIVR (comprehensive cis-NATs identifier via RNA-seq data)
+- '**CCIVR** (**C**omprehensive **C**is-NATs **I**dentifier **V**ia **R**NA-seq data) is a Python package tool'
+derived_from:
+- doi: 10.1038/s41598-022-19782-5
+  title: CCIVR facilitates comprehensive identification of cis-natural antisense transcripts with their structural characteristics and expression profiles
+source_repos:
+- https://github.com/CCIVR/ccivr
+- https://github.com/CCIVR/ccivr.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CCIVR/ccivr

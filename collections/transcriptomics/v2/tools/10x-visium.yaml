@@ -1,0 +1,17 @@
+name: 10x Visium
+slug: 10x-visium
+version_used: null
+edam_topics: []
+evidence_spans:
+- ST platforms, such as 10x Visium, SLIDE-seq9, and Stereo-seq10, provide information about the relationships between transcriptome-wide gene expression and spatial locations.
+derived_from:
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+source_repos:
+- https://github.com/QihuangZhang/CeLEry
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QihuangZhang/CeLEry

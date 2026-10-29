@@ -1,0 +1,18 @@
+name: dynverse/dyntoy
+slug: dynverse-dyntoy
+version_used: null
+edam_topics: []
+evidence_spans:
+- dynverse/dyntoy
+derived_from:
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+source_repos:
+- https://github.com/dynverse/dyntoy
+- https://github.com/ShobiStassen/VIA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dynverse/dyntoy

@@ -1,0 +1,24 @@
+name: h5py
+slug: h5py
+version_used: 2.9.0
+edam_topics: []
+evidence_spans:
+- h5py 2.9.0
+- + h5py 2.7.0
+derived_from:
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1016/j.gpb.2018.08.003
+  title: 'VASC: Dimension Reduction and Visualization of Single-Cell RNA-Seq Data by Deep Variational Autoencoder'
+source_repos:
+- https://github.com/xuyp-csu/scCAD
+- https://github.com/xianglin226/scMDC
+- https://github.com/wang-research/VASC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xuyp-csu/scCAD

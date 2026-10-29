@@ -1,0 +1,21 @@
+name: Canopy2
+slug: canopy2
+version_used: null
+edam_topics: []
+evidence_spans:
+- A sample pipeline that can be used to preprocess these data is located in our Zenodo repository at https://zenodo.org/record/7931384.
+- Here, we propose Canopy2, which extends our previous work, Canopy [21], to conduct joint inference utilizing SNVs obtained from bulk DNA-seq and scRNA-seq data
+- An R package that uses Bayesian and computational methods to infer the tumor phylogenetic tree from bulk DNA whole exome sequencing (WES) and single-cell RNA sequencing (scRNA-seq).
+- param.out<-get_burstiness_bpsc(counts=sims.out$G)
+- An R package that uses Bayesian and computational methods to infer the tumor phylogenetic tree from bulk DNA whole exome sequencing (WES)
+derived_from:
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+source_repos:
+- https://github.com/annweideman/canopy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/annweideman/canopy2

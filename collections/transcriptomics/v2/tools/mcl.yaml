@@ -1,0 +1,20 @@
+name: MCL
+slug: mcl
+version_used: null
+edam_topics: []
+evidence_spans:
+- favapy <path-to-data-file> <path-to-save-output>
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+source_repos:
+- https://github.com/MaShisongLab/CellGEP
+- https://github.com/mikelkou/fava
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MaShisongLab/CellGEP

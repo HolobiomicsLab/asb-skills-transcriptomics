@@ -1,0 +1,18 @@
+name: BASS
+slug: bass
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run iSC.MEB and the comparison methods (BASS, SC.MEB, BayesSpace, SpaGCN; Louvain excluded per the paper) on the six-section mouse embryo seqFISH dataset
+- Verify iSC.MEB is significantly faster than the MCMC-based BASS and BayesSpace and comparable to SC.MEB.
+derived_from:
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+source_repos:
+- https://github.com/XiaoZhangryy/iSC.MEB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiaoZhangryy/iSC.MEB

@@ -1,0 +1,59 @@
+name: MATLAB
+slug: matlab
+version_used: null
+edam_topics: []
+evidence_spans:
+- This repository contains a Matlab implementation of MAPiT
+- This repository contains a Matlab implementation of MAPiT for
+- This repository contains a Matlab implementation of MAPiT for the transformation of pseudotime data to meaningful scales.
+- 'This repository contains a Matlab implementation of MAPiT for
+
+  the transformation of pseudotime data to meaningful scales.'
+- MAPiT can be combined with pseudotime algorithms, and a MATLAB implementation is available through GitHub
+- All experiments were run on a desktop Windows 10 machine with an Intel i9-9900K CPU at 3.6 GHz with 64 GB RAM using MATLAB 2021b.
+- matlab -r "BC 'Adam' 100 2 40 [1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000]"
+- The computational speed of SERM implemented in Matlab was used to benchmark its computational efficiency against other methods.
+- This code has been tested on MATLAB R2014b and R2018a on Linux, MATLAB R2020a on macOS, and MATLAB R2018a on Windows.
+- The matlab and python implementations of SSRE are available at https://github.com/CSUBioGroup/SSRE.
+- solve the binary integer-programming problem using function “intlinprog” which is available in the Optimization ToolBox of MatLab version R2020b
+derived_from:
+- doi: 10.1016/j.isci.2021.103331
+  title: 'DCcov: Repositioning of drugs and drug combinations for SARS-CoV-2 infected lung through constraint-based modeling'
+- doi: 10.1016/j.crmeth.2023.100512
+  title: Characterization of cell-fate decision landscapes by estimating transcription factor dynamics
+- doi: 10.1038/s41598-020-60400-z
+  title: Reconstructing temporal and spatial dynamics from single-cell pseudotime using prior knowledge of real scale cell densities
+- doi: 10.1016/j.patter.2022.100471
+  title: 'Relevance, redundancy, and complementarity trade-off (RRCT): A principled, generic, robust feature-selection tool'
+- doi: 10.1093/bioinformatics/btad075
+  title: 'scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering'
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1016/j.celrep.2022.110333
+  title: Network inference with Granger causality ensembles on single-cell transcriptomics
+- doi: 10.1016/j.gpb.2020.09.004
+  title: 'SSRE: Cell Type Detection Based on Sparse Subspace Representation and Similarity Enhancement'
+- doi: 10.1093/bioinformatics/btad071
+  title: 'WMDS.net: a network control framework for identifying key players in transcriptome programs'
+- doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+source_repos:
+- https://github.com/sysbiolux/DCcov
+- https://github.com/sarajimenez/fatecompass
+- https://github.com/karstenkuritz/MAPiT
+- https://github.com/ThanasisTsanas/RRCT
+- https://github.com/wangyh082/scBGEDA
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/gitter-lab/SINGE
+- https://github.com/CSUBioGroup/SSRE
+- https://github.com/chaofen123/WMDS.net
+- https://github.com/Coffey-Lab/MIRIAM
+- https://github.com/BatzoglouLabSU/SIMLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sysbiolux/DCcov

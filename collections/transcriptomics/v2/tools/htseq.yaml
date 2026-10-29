@@ -1,0 +1,22 @@
+name: HTSeq
+slug: htseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- The software uses outside software samtools, bowtie2, and htseq to quantify pathogen reads
+- pathogen_al_sort_counts.sam - htseq output reads mapping to pathogen
+- UMI counts are quantified using HTSeq (Anders et al. 2015) first, counting any reads mapping to the pathogen genome
+derived_from:
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+source_repos:
+- https://github.com/equipeGST/RiboDoc
+- https://github.com/galelab/scPathoQuant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/equipeGST/RiboDoc

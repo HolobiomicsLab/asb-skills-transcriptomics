@@ -1,0 +1,20 @@
+name: scMDC
+slug: scmdc
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop a novel multimodal deep learning method, scMDC, for single-cell multi-omics data clustering analysis
+- All experiments of scMDC in this study are conducted on Nvidia Tesla P100 (16G) GPU.
+- a novel multimodal deep learning method, scMDC, for single-cell multi-omics data clustering analysis
+- scMDC takes about 3 minutes to cluster a dataset with 5000 cells.
+derived_from:
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+source_repos:
+- https://github.com/xianglin226/scMDC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xianglin226/scMDC

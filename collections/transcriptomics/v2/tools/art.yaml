@@ -1,0 +1,17 @@
+name: ART
+slug: art
+version_used: null
+edam_topics: []
+evidence_spans:
+- Simulate 500 mock ecDNAs (5 kb-10 Mb, 1-50 segments) from GRCh38 with ART
+derived_from:
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+source_repos:
+- https://github.com/suda-huanglab/circlehunter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/suda-huanglab/circlehunter

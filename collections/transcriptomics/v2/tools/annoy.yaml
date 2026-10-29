@@ -1,0 +1,17 @@
+name: Annoy
+slug: annoy
+version_used: null
+edam_topics: []
+evidence_spans:
+- '.. autofunction:: ivis.data.neighbour_retrieval.knn.build_annoy_index'
+derived_from:
+- doi: 10.1038/s41598-019-45301-0
+  title: Structure-preserving visualisation of high dimensional single-cell datasets
+source_repos:
+- https://github.com/beringresearch/ivis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/beringresearch/ivis

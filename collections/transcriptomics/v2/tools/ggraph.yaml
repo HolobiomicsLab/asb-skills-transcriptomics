@@ -1,0 +1,21 @@
+name: ggraph
+slug: ggraph
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(ggraph)
+- suppressMessages(library(ggraph))
+derived_from:
+- doi: 10.1093/bioinformatics/btad522
+  title: Coherent pathway enrichment estimation by modeling inter-pathway dependencies using regularized regression
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+source_repos:
+- https://github.com/cbg-ethz/pareg
+- https://github.com/CostaLab/scMEGA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cbg-ethz/pareg

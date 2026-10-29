@@ -1,0 +1,18 @@
+name: HiSeq 4000
+slug: hiseq-4000
+version_used: null
+edam_topics: []
+evidence_spans:
+- Libraries were sequenced on both the HiSeq 2500 and the HiSeq 4000.
+- Utilities for handling droplet-based single-cell RNA-seq data
+derived_from:
+- doi: 10.1038/s41467-018-05083-x
+  title: Detection and removal of barcode swapping in single-cell RNA-seq data
+source_repos:
+- https://github.com/MarioniLab/DropletUtils
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MarioniLab/DropletUtils

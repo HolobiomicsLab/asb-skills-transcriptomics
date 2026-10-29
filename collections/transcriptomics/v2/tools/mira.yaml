@@ -1,0 +1,23 @@
+name: MIRA
+slug: mira
+version_used: null
+edam_topics: []
+evidence_spans:
+- The CODAL model architecture extends MIRA28, our earlier method for variational topic modeling of single-cell RNA-seq and ATAC-seq data.
+- The CODAL generative model is based on the earlier MIRA28 method for variational autoencoder-based inference of topics from scRNA-seq
+- The CODAL topic model, an extension of the MIRA topic model, accounts for technical effect confounding biological signal in the analysis of multi-batch scRNA-seq, scATAC-seq, or multimodal data.
+- We benchmarked CODAL against the MIRA topic model28, scanpy principal component analysis (PCA), scVI20, scANVI18, scanpy PCA+Harmony19, and scanorama25.
+- We used the same MAP parameter inference procedure as MIRA.
+- The CODAL generative model is based on the earlier MIRA28 method for variational autoencoder-based inference of topics
+- The CODAL topic model is based on the earlier MIRA28 method for variational autoencoder-based inference of topics
+derived_from:
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+source_repos:
+- https://github.com/cistrome/MIRA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cistrome/MIRA

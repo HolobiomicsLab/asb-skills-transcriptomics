@@ -1,0 +1,127 @@
+name: edgeR
+slug: edger
+version_used: 3.30.3
+edam_topics: []
+evidence_spans:
+- Get differential genes from EdgeR
+- dge <- estimateDisp(dge, design = design)
+- We selected Limma, Seurat, DESeq2, and edgeR for DE methods, given that they were top-ranked methods in a benchmark study
+- By utilizing the edgeR DGEList framework, barcode count datasets can be read into bartools
+- In addition, `r Biocpkg("edgeR")` is needed for specific RNA-sequencing normalization methods
+- 'edger: a bioconductor package for differential expression analysis of digital gene expression data'
+- usually performed via well-known R Bioconductor packages such as DESeq2, edgeR, or limma-voom.
+- edgeR::cpm(x$dge, prior.count = 2, log = TRUE)
+- '## Assume you have obtained the DE results from i.e. zingeR, edgeR or MAST with the data frame res_DE (column: pvalue and LogFC)'
+- DESeq2 and edgeR employ negative binomial regression to assess differential expression
+- Differential expression analysis on the fibroblast dataset was performed using the quasi-likelihood F-test function from edgeR
+- negative log10 P-values (edgeR two-sided quasi-likelihood F-test) against log2-fold changes (FC)
+- pseudobulk counts were used as input to bulk RNA-seq differential engines, such as edgeR22, DESeq223, or limma-voom24,25.
+- produced by `edgeR::predFC`
+- pseudobulk counts were used as input to bulk RNA-seq differential engines, such as edgeR22, DESeq223, or limma-voom24,25
+- single-cell-specific attempts in DE could not outperform existing bulk methods such as edgeR
+- existing bulk methods such as edgeR8. Generalized linear models
+- standard normalization procedures using existing methods such as edgeR and DEseq2
+- Here cpm from edgeR was used for normalisation
+- '"/genes-scRNA-tcga-sorted.txt"'
+- across 14 cancer types using the edgeR (Robinson et al. 2010) package.
+- analysis pipeline (DEseq2 and edgeR) and Partek Flow software
+- DEG prediction approaches for bulk RNA-seq do not generally perform worse than methods designed specifically for single-cell RNA-seq
+- the 9 TEs with increased disease expression identified by the edgeR pseudobulk DE analysis
+- edgeR was used to statistically test for differences
+- logCPM <- edgeR::cpm(exprST, log = TRUE)
+- identified using a popular DEG analysis method called edgeR7
+- a popular DEG analysis method called edgeR
+- such as edgeR41
+derived_from:
+- doi: 10.1016/j.csbj.2021.08.009
+  title: 'ARMT: An automatic RNA-seq data mining tool based on comprehensive and integrative analysis in cancer research'
+- doi: 10.1038/s41467-023-36637-3
+  title: ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+- doi: 10.1038/s41598-017-16747-x
+  title: 'CMScaller: an R package for consensus molecular subtyping of colorectal cancer pre-clinical models'
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1016/j.isci.2021.103331
+  title: 'DCcov: Repositioning of drugs and drug combinations for SARS-CoV-2 infected lung through constraint-based modeling'
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+- doi: 10.1038/s41467-021-24152-2
+  title: Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells
+- doi: 10.1016/j.csbj.2023.03.035
+  title: "<i>f</i>\n                    RNC: Uncovering the dynamic and condition-specific RBP-ncRNA circuits from multi-omics data"
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1038/s41467-021-26682-1
+  title: Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+- doi: 10.1038/s41408-022-00636-2
+  title: 'secDrug: a pipeline to discover novel drug combinations to kill drug-resistant multiple myeloma cells using a greedy set cover algorithm and single-cell multi-omics'
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+- doi: 10.1002/sim.9430
+  title: Differential expression of single‐cell RNA‐seq data using Tweedie models
+source_repos:
+- https://github.com/Dulab2020/ARMT
+- https://github.com/lanagarmire/ASGARD
+- https://github.com/DaneVass/BARtab
+- https://github.com/MaShisongLab/CellGEP
+- https://github.com/Lothelab/CMScaller
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/sysbiolux/DCcov
+- https://github.com/elisabettasciacca/DEGGs
+- https://github.com/dynverse/dyngen
+- https://github.com/BioinformaticsSTU/fRNC
+- https://github.com/statOmics/zinbwaveZinger
+- https://github.com/xzhoulab/iDEA
+- https://github.com/BIGslu/kimma
+- https://github.com/lixiangchun/Miscell
+- https://github.com/single-cell-genetics/MQuad
+- https://github.com/HelenaLC/muscat
+- https://github.com/lingfeiwang/normalisr
+- https://github.com/tinglab/redPATH
+- https://github.com/sysbio-curie/rROMA
+- https://github.com/czythu/scCancer
+- https://github.com/jackbibby1/SCPA
+- https://github.com/cailab-tamu/scTenifoldNet
+- https://github.com/Ujjal-Mukherjee/secDrug
+- https://github.com/alexisvdb/singleCellHaystack
+- https://github.com/bvaldebenitom/SoloTE
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/deargen/DearWXpub
+- https://github.com/drisso/zinbwave
+- https://github.com/himelmallick/Tweedieverse
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Dulab2020/ARMT

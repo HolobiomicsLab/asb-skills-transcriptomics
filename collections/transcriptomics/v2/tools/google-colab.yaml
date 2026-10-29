@@ -1,0 +1,16 @@
+name: Google Colab
+slug: google-colab
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100071
+  title: A mixture-of-experts deep generative model for integrated analysis of single-cell multiomics data
+source_repos:
+- https://github.com/kodaim1115/scMM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kodaim1115/scMM

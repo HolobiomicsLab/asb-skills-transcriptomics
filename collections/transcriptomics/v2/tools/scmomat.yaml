@@ -1,0 +1,21 @@
+name: scMoMaT
+slug: scmomat
+version_used: null
+edam_topics: []
+evidence_spans:
+- model = scmomat.scmomat_model(counts = counts, K = K, device = device)
+- The connection matrix (`GxR.npz`) that is used to generate pseudo-count is also provided in advance (used the code in folder `calc_pseudo_count/calc_pseudo_count.R`)
+- scmomat.post_process(zs, n_neighbors, njobs = 8, r = r)
+- labels = labels_leiden, device = device)
+- pip install scmomat
+derived_from:
+- doi: 10.1038/s41467-023-36066-2
+  title: scMoMaT jointly performs single cell mosaic integration and multi-modal bio-marker detection
+source_repos:
+- https://github.com/PeterZZQ/scMoMaT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PeterZZQ/scMoMaT

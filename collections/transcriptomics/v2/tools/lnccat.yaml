@@ -1,0 +1,16 @@
+name: LncCat
+slug: lnccat
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2023.02.012
+  title: 'LncCat: An ORF attention model to identify LncRNA based on ensemble learning strategy and fused sequence information'
+source_repos:
+- https://github.com/a525076133/LncCat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/a525076133/LncCat

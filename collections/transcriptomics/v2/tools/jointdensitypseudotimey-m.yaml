@@ -1,0 +1,18 @@
+name: jointDensityPseudotimeY.m
+slug: jointdensitypseudotimey-m
+version_used: null
+edam_topics: []
+evidence_spans:
+- 3. Get joint distribution of pseudotime and markers with
+- The function [`jointDensityPseudotimeY.m`](jointDensityPseudotimeY.m) takes a `nx1` vector of pseudotime values from the pseudotime algorithm
+derived_from:
+- doi: 10.1038/s41598-020-60400-z
+  title: Reconstructing temporal and spatial dynamics from single-cell pseudotime using prior knowledge of real scale cell densities
+source_repos:
+- https://github.com/karstenkuritz/MAPiT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/karstenkuritz/MAPiT

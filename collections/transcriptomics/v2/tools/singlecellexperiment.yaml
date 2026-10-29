@@ -1,0 +1,42 @@
+name: SingleCellExperiment
+slug: singlecellexperiment
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `SingleCellExperiment (Imports)`'
+- dandelionR uses a SingleCellExperiment object already combined with vdj data
+- library(SingleCellExperiment)
+- library("SingleCellExperiment")
+- suppressMessages(library(SingleCellExperiment))
+- We create a `SingleCellExperiment` object and prepare it for `Totem` analysis.
+- Given a gene vs. cell matrix (either as sparse matrix or stored in a `SingleCellExperiment` object)
+- either as sparse matrix or stored in a `SingleCellExperiment` object
+derived_from:
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1016/j.csbj.2025.06.047
+  title: "<i>dandelionR</i>\n                    : Single-cell immune repertoire trajectory analysis in R"
+- doi: 10.1038/s41467-018-03282-0
+  title: Characterizing the replicability of cell types defined by single cell RNA-sequencing data using MetaNeighbor
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+- doi: 10.1016/j.csbj.2021.06.043
+  title: 'UCell: Robust and scalable single-cell gene signature scoring'
+source_repos:
+- https://github.com/songfd2018/BUSseq
+- https://github.com/tuonglab/dandelionR
+- https://github.com/gillislab/MetaNeighbor
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/carmonalab/TILPRED
+- https://github.com/elolab/Totem
+- https://github.com/carmonalab/UCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songfd2018/BUSseq

@@ -1,0 +1,37 @@
+name: Rtsne
+slug: rtsne
+version_used: '0.16'
+edam_topics: []
+evidence_spans:
+- '''igraph'',''ggplot2'',''mclust'',''grid'',''Rtsne'',''cccd'''
+- list.of.packages <- c('reshape','reshape2','pheatmap','tsne','igraph','ggplot2','mclust','grid','Rtsne','cccd')
+- We used the Rtsne R package with default settings.
+- tsne_true_counts <- PlotTsne(meta=true_counts_res[[3]], data=log2(true_counts_res[[1]]+1)
+- library(Rtsne)
+- y <- Rtsne(t(X.log))$Y
+derived_from:
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1038/s41598-018-35365-9
+  title: Detection of correlated hidden factors from single cell transcriptomes using Iteratively Adjusted-SVA (IA-SVA)
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+- doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+source_repos:
+- https://github.com/edroaldo/cellrouter
+- https://github.com/xiaorudong/Escort
+- https://github.com/UcarLab/iasva
+- https://github.com/YosefLab/SymSim
+- https://github.com/gongx030/tcm
+- https://github.com/Coffey-Lab/MIRIAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edroaldo/cellrouter

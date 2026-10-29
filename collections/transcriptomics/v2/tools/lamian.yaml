@@ -1,0 +1,19 @@
+name: Lamian
+slug: lamian
+version_used: null
+edam_topics: []
+evidence_spans:
+- suppressMessages(library(Lamian))
+- Here, we introduce Lamian, a comprehensive and statistically-rigorous computational framework for differential multi-sample pseudotime analysis.
+- We develop a systematic computational and statistical framework, Lamian, for multi-sample pseudotime analysis.
+derived_from:
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+source_repos:
+- https://github.com/Winnie09/Lamian
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Winnie09/Lamian

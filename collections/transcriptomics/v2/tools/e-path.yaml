@@ -1,0 +1,18 @@
+name: E.PATH
+slug: e-path
+version_used: null
+edam_topics: []
+evidence_spans:
+- The curated database and enrichment tool are available as R packages at https://github.com/AhmedMehdiLab/E.PATH
+derived_from:
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+source_repos:
+- https://github.com/AhmedMehdiLab/E.PATH
+- https://github.com/AhmedMehdiLab/E.PAGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AhmedMehdiLab/E.PATH

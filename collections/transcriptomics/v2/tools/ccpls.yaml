@@ -1,0 +1,17 @@
+name: CCPLS
+slug: ccpls
+version_used: null
+edam_topics: []
+evidence_spans:
+- By comparing with the commonly used method CCPLS for constructing intercellular communication networks
+derived_from:
+- doi: 10.1093/bib/bbae198
+  title: 'CPPLS-MLP: a method for constructing cell–cell communication networks and identifying related highly variable genes based on single-cell sequencing and spatial transcriptomics data'
+source_repos:
+- https://github.com/wuzhenao/CPPLS-MLP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wuzhenao/CPPLS-MLP

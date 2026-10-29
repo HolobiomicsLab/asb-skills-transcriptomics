@@ -1,0 +1,23 @@
+name: ProjecTILs
+slug: projectils
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# ProjecTILs - Functions'
+- we generate reference T cell atlases for cancer and viral infection by multi-study integration, and develop ProjecTILs, an algorithm for reference atlas projection
+- '`make.projection`   Project a single-cell RNA-seq dataset onto a reference map of cellular states.'
+- A wrapper for `make.projection` and `cellstate.predict` (see below). It returns the query embedded in the PCA and UMAP space of the reference
+derived_from:
+- doi: 10.1038/s41467-021-23324-4
+  title: Interpretation of T cell states from single-cell transcriptomics data using reference atlases
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+source_repos:
+- https://github.com/carmonalab/ProjecTILs
+- https://github.com/jarninggau/ProjectSVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/carmonalab/ProjecTILs

@@ -1,0 +1,26 @@
+name: scater
+slug: scater
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'sce<- logNormCounts(sce) # Obtain log-normalized counts'
+- library(scater)
+- library(scater)
+- using, for instance, the Bioconductor R package scater43 (see Fig. 2f)
+derived_from:
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+source_repos:
+- https://github.com/csglab/GEDI
+- https://github.com/HelenaLC/muscat
+- https://github.com/drisso/zinbwave
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/csglab/GEDI

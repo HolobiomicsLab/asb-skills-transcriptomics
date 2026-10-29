@@ -1,0 +1,16 @@
+name: multiset-multicover
+slug: multiset-multicover
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.crmeth.2022.100332
+  title: Multiset multicover methods for discriminative marker selection
+source_repos:
+- https://github.com/euxhenh/phenotype-cover
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/euxhenh/phenotype-cover

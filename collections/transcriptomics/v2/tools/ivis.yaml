@@ -1,0 +1,25 @@
+name: ivis
+slug: ivis
+version_used: null
+edam_topics: []
+evidence_spans:
+- Both ``ivis`` and PCA reliably recovered the random nature of our dataset.
+- We present a novel framework, ivis, for dimensionality reduction of single-cell expression data.
+- 'For all ``ivis`` runs, only two hyperparameters were set: ``k=15`` and ``model="maaten"``'
+- '``ivis`` is a machine learning library for reducing dimensionality of very large datasets using Siamese Neural Networks'
+- '.. autoclass:: ivis.data.neighbour_retrieval.AnnoyKnnMatrix'
+- Recently developed competitive methods include DCA7, scVI8, scDeepCluster9, PHATE10, SAUCIE11, scGNN12, ZINB-WaVE13 and Ivis14
+derived_from:
+- doi: 10.1038/s41598-019-45301-0
+  title: Structure-preserving visualisation of high dimensional single-cell datasets
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+source_repos:
+- https://github.com/beringresearch/ivis
+- https://github.com/ZixiangLuo1161/scGAE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/beringresearch/ivis

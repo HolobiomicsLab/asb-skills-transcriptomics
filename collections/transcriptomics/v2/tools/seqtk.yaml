@@ -1,0 +1,29 @@
+name: seqtk
+slug: seqtk
+version_used: '1.3'
+edam_topics: []
+evidence_spans:
+- which is then converted to a FASTQ file by the seqtk software39
+- '* seqtk (Click for instructions to install [seqtk](https://github.com/lh3/seqtk))'
+- The ICELL8 dataset was further down sampled to 250 K reads using seqtk17
+derived_from:
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1093/bioadv/vbac061
+  title: 'STtools: a comprehensive software pipeline for ultra-high-resolution spatial transcriptomics data'
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+source_repos:
+- https://github.com/yuntianf/Longcell
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/lh3/seqtk
+- https://github.com/seqscope/STtools
+- https://github.com/minoda-lab/universc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yuntianf/Longcell

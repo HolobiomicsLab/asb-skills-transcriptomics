@@ -1,0 +1,29 @@
+name: Jupyter Notebook
+slug: jupyter-notebook
+version_used: null
+edam_topics: []
+evidence_spans:
+- Execute the jupyter notebook [Pipeline.ipynb](https://github.com/DEIB-GECO/GeneNetFusion/blob/master/Pipeline.ipynb) until the part 'After extraction of communities with Gephi'
+- The jupyter notebook Pipeline.ipynb contains the complete pipeline for the construction of the fused co-expression networks
+- Knowledge-based evaluation of the results.ipynb
+- type `jupyter notebook` within `env_stream`
+derived_from:
+- doi: 10.1038/s41540-021-00175-9
+  title: Computational analysis of fused co-expression networks for the identification of candidate cancer gene biomarkers
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1038/s41467-019-09670-4
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+source_repos:
+- https://github.com/DEIB-GECO/GeneNetFusion
+- https://github.com/RabadanLab/randomly
+- https://github.com/pinellolab/stream
+- https://github.com/LXY1201/GSFM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DEIB-GECO/GeneNetFusion

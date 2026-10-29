@@ -1,0 +1,25 @@
+name: RandomForest
+slug: randomforest
+version_used: null
+edam_topics: []
+evidence_spans:
+- The pan-cancer model is generated using random forest.
+- rf_filter random forest variable importance using randomForest package
+- library(randomForest)
+derived_from:
+- doi: 10.1038/s41598-021-04015-y
+  title: Novel ratio-metric features enable the identification of new driver genes across cancer types
+- doi: 10.1093/bioadv/vbad048
+  title: 'nestedcv: an R package for fast implementation of nested cross-validation with embedded feature selection designed for transcriptomics and high-dimensional data'
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+source_repos:
+- https://github.com/RamanLab/cTaG
+- https://github.com/myles-lewis/nestedcv
+- https://github.com/abelson-lab/scATOMIC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RamanLab/cTaG

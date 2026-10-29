@@ -1,0 +1,17 @@
+name: Giotto
+slug: giotto
+version_used: null
+edam_topics: []
+evidence_spans:
+- Giotto was applied on SpatialScope outputs following the protocol
+derived_from:
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+source_repos:
+- https://github.com/YangLabHKUST/SpatialScope
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YangLabHKUST/SpatialScope

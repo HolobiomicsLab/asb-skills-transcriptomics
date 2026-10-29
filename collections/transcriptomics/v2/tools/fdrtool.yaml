@@ -1,0 +1,17 @@
+name: fdrtool
+slug: fdrtool
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[fdrtool](https://cran.r-project.org/web/packages/fdrtool/index.html) to perform pseudo-validation implemented in lassosum.'
+derived_from:
+- doi: 10.1038/s41467-023-36862-w
+  title: 'OTTERS: a powerful TWAS framework leveraging summary-level reference data'
+source_repos:
+- https://github.com/daiqile96/OTTERS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/daiqile96/OTTERS

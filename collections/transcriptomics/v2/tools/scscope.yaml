@@ -1,0 +1,21 @@
+name: scScope
+slug: scscope
+version_used: null
+edam_topics: []
+evidence_spans:
+- scScope uses a recurrent network layer to iteratively impute the zero-valued entries
+- AutoImpute21, DCA22, DeepImpute23, SAUCIE24, scScope25, scVI26
+derived_from:
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+source_repos:
+- https://github.com/duct317/scISR
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/duct317/scISR

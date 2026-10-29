@@ -1,0 +1,20 @@
+name: jellyfish
+slug: jellyfish
+version_used: 2.2.10
+edam_topics: []
+evidence_spans:
+- jellyfish (v2.2.10)
+derived_from:
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1016/j.isci.2021.102855
+  title: A reference-free approach for cell type classification with scRNA-seq
+source_repos:
+- https://github.com/Rashedul/CRIS
+- https://github.com/digi2002/scSimClassify
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rashedul/CRIS

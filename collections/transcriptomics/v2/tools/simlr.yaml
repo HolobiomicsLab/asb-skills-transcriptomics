@@ -1,0 +1,40 @@
+name: SIMLR
+slug: simlr
+version_used: null
+edam_topics: []
+evidence_spans:
+- scRNA-seq tailored unsupervised methods, such as SIMLR9, CellTree10, SC311, TSCAN12, and DIMM-SC13
+- The core clustering tool in rCASC is SIMLR
+- SIMLR failed to estimate the number of clusters and cluster cells on Shekhar dataset due to excessive memory usage
+- SnapCCESS can be coupled with various clustering algorithms for generating consensus clustering of cells
+- Multiple clustering algorithms have been developed, including Seurat [11], SC3 [12], SIMLR [13], ZIFA [14], CIDR [15], SNN-Cliq [16], and Corr [17].
+- 'We apply three different dimensionality reduction methods to cluster cells simulated from multiple discrete populations: PCA, scVI, and SIMLR.'
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1038/s41540-020-00162-6
+  title: Sparsely-connected autoencoder (SCA) for single cell RNAseq data mining
+- doi: 10.1016/j.csbj.2023.12.021
+  title: 'scQA: A dual-perspective cell type identification model for single cell transcriptome data'
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+- doi: 10.1016/j.gpb.2018.10.003
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-Scale Single Cell RNA-Seq Data'
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/kendomaniac/rCASC
+- https://github.com/LD-Lyndee/scQA
+- https://github.com/yulijia/SnapCCESS
+- https://github.com/BatzoglouLabSU/SIMLR
+- https://github.com/Japrin/sscClust
+- https://github.com/YosefLab/SymSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

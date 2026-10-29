@@ -1,0 +1,45 @@
+name: AUCell
+slug: aucell
+version_used: null
+edam_topics: []
+evidence_spans:
+- aertslab/AUCell
+- for each module and each cell, an activity score is calculated using AUCell
+- 'We further compared the pathway activity scoring speed among five methods: GSDensity, CelliD, AUCell, ssGSEA, and VAM'
+- closely related to AUCell PAS by setting the same max rank threshold
+- Existing single-cell pathway activity scoring methods, such as AddModuleScore7,8, UCell9, and AUCell10 can generate pathway activity scores (PAS) for individual cells
+- AUCell_buildRankings
+derived_from:
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1038/s41467-021-24152-2
+  title: Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+- doi: 10.1016/j.xpro.2022.101266
+  title: Processing single-cell RNA-seq datasets using SingCellaR
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+source_repos:
+- https://github.com/aertslab/AUCell
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/dynverse/dyngen
+- https://github.com/qingnanl/gsdensity
+- https://github.com/JarningGau/ProjectSVR
+- https://github.com/jarninggau/ProjectSVR
+- https://github.com/jackbibby1/SCPA
+- https://github.com/ZhuoliHuang/scPAFA
+- https://github.com/supatt-lab/SingCellaR
+- https://github.com/carmonalab/TILPRED
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aertslab/AUCell

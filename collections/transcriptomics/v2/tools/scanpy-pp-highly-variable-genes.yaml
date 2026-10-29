@@ -1,0 +1,17 @@
+name: scanpy.pp.highly_variable_genes
+slug: scanpy-pp-highly-variable-genes
+version_used: null
+edam_topics: []
+evidence_spans:
+- we selected the top 2000 highly variable genes using the function “scanpy.pp.highly_variable_genes” (with flavor parameter as “seurat”)
+derived_from:
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+source_repos:
+- https://github.com/Zafar-Lab/scDREAMER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Zafar-Lab/scDREAMER

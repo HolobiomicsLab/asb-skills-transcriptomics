@@ -1,0 +1,17 @@
+name: twoBitToFa
+slug: twobittofa
+version_used: null
+edam_topics: []
+evidence_spans:
+- We curate a database of HERVs that comprise intact retroviral genes in the human genome and survey the expression of these viruses across different cancer tissues
+derived_from:
+- doi: 10.1038/s41467-023-36336-z
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+source_repos:
+- https://github.com/AuslanderLab/virnatrap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AuslanderLab/virnatrap

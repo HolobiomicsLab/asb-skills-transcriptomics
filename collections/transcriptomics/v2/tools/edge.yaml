@@ -1,0 +1,23 @@
+name: EDGE
+slug: edge
+version_used: null
+edam_topics: []
+evidence_spans:
+- simu.endr <- endr(dat_log,custom_defs)
+- install_github("shawnstat/EDGE")
+- library("EDGE")
+- affinity(dat, n_wl, n_dm, nk, H, seed)
+derived_from:
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+source_repos:
+- https://github.com/shawnstat/EDGE
+- https://github.com/xuyp-csu/scCAD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shawnstat/EDGE

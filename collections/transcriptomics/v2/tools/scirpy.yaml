@@ -1,0 +1,17 @@
+name: Scirpy
+slug: scirpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- While previous tools such as Scirpy8 and scRepertoire9 offered utilities for TCR analysis and shared data structures
+derived_from:
+- doi: 10.1038/s41467-024-49806-9
+  title: Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data
+source_repos:
+- https://github.com/SchubertLab/mvTCR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SchubertLab/mvTCR

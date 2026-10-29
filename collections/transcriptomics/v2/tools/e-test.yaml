@@ -1,0 +1,17 @@
+name: E-test
+slug: e-test
+version_used: null
+edam_topics: []
+evidence_spans:
+- Both E-test and SciBet utilizes the fundamental concept that each cell type is represented by the simple mean expression vector
+derived_from:
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+source_repos:
+- https://github.com/PaulingLiu/scibet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PaulingLiu/scibet

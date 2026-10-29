@@ -1,0 +1,18 @@
+name: rflann
+slug: rflann
+version_used: null
+edam_topics: []
+evidence_spans:
+- K nearest neighbour computation (rflann)
+derived_from:
+- doi: 10.1038/s41467-021-24489-8
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+source_repos:
+- https://github.com/YeeJeremy/rflann
+- https://github.com/fabotao/GapClust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YeeJeremy/rflann

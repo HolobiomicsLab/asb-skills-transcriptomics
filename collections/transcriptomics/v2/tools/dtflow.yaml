@@ -1,0 +1,19 @@
+name: DTFLOW
+slug: dtflow
+version_used: null
+edam_topics: []
+evidence_spans:
+- This work proposes a new method, named DTFLOW, for inferring the pseudotime trajectories using single-cell data.
+- Y = z.get_Y(slover='svd',dim)
+- dftimes = z.get_dtflow_times(root_list)
+derived_from:
+- doi: 10.1016/j.gpb.2020.08.003
+  title: 'DTFLOW: Inference and Visualization of Single-Cell Pseudotime Trajectory Using Diffusion Propagation'
+source_repos:
+- https://github.com/statway/DTFLOW
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/statway/DTFLOW

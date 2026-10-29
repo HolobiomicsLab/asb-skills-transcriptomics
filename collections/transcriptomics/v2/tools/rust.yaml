@@ -1,0 +1,17 @@
+name: Rust
+slug: rust
+version_used: null
+edam_topics: []
+evidence_spans:
+- Simpleaf is written in Rust and released under a BSD 3-Clause license.
+derived_from:
+- doi: 10.1093/bioinformatics/btad614
+  title: "<tt>simpleaf</tt>\n                    : a simple, flexible, and scalable framework for single-cell data processing using alevin-fry"
+source_repos:
+- https://github.com/COMBINE-lab/simpleaf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/COMBINE-lab/simpleaf

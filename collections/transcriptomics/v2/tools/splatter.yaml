@@ -1,0 +1,96 @@
+name: Splatter
+slug: splatter
+version_used: 1.16.1
+edam_topics: []
+evidence_spans:
+- dataset_sizes = [1000, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 75000, 100000, 250000]
+- using Splatter13 with 1000 genes and 500 cells in six groups
+- we simulated a scRNA-Seq Dataset 1 (see “Methods” and Supplementary Table 2) using Splatter13 with 1000 genes and 500 cells in six groups
+- splatEstimate
+- Generate the two synthetic datasets with Splatter as described, run CellRouter and the baseline trajectory algorithms
+- '[scanpy standard workflow](https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html)'
+- Splatter75 simulates single-cell RNA sequencing data with various trajectory structures (e.g., linear, bifurcation, tree) using a gamma-Poisson hierarchical model
+- We will use the simulator, Splatter, to simulate a single cell RNA-seq dataset
+- Simulated scRNA-seq data were generated using the R package Splatter.
+- Estimate SymSim/Splatter parameters from the Perturb-seq (and optionally MARS-seq) data, simulate DE datasets
+- ound at Run_scGAE.ipynb
+- Run Splatter and SUGAR on the same PBMC training cells used for scGAN
+- using 25 real scRNA-seq datasets and 116 simulated datasets.
+- using the Splatter R package
+- scRNA-Seq simulation datasets were generated using Splatter version 1.16.1 with thesplatSimulateGroup function
+- Generate the 45 simulated scRNA-seq datasets with Splatter exactly as specified in Methods
+- Comparisons with existing DEG prediction approaches on artificial datasets show that singleCellHaystack has higher accuracy
+- Semi-supervised integration of single-cell transcriptomics data
+derived_from:
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1093/bioinformatics/btad435
+  title: <i>Cytocipher</i> determines significantly different populations of cells in single-cell RNA-seq data
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1038/s41467-021-26682-1
+  title: Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-019-14018-z
+  title: Realistic in silico generation and augmentation of single-cell RNA-seq data using generative adversarial networks
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1093/bioadv/vbae134
+  title: Batch-effect correction in single-cell RNA sequencing data using JIVE
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/LuyiTian/sc_mixology
+- https://github.com/datapplab/AutoClass
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/mandricigor/batman
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/edroaldo/cellrouter
+- https://github.com/BradBalderson/Cytocipher
+- https://github.com/jranek/delve_benchmark
+- https://github.com/jranek/delve
+- https://github.com/shawnstat/EDGE
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/lingfeiwang/normalisr
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/imsb-uke/scGAN
+- https://github.com/duct317/scISR
+- https://github.com/oconnell-statistics-lab/scJIVE
+- https://github.com/jackbibby1/SCPA
+- https://github.com/frankligy/scTriangulate
+- https://github.com/IanevskiAleksandr/sc-type
+- https://github.com/alexisvdb/singleCellHaystack
+- https://github.com/carmonalab/STACAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ArpiarSaundersLab/annsql

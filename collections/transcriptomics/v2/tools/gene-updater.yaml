@@ -1,0 +1,18 @@
+name: Gene Updater
+slug: gene-updater
+version_used: null
+edam_topics: []
+evidence_spans:
+- The web app is named Gene Updater, which is open source and can be either hosted locally
+- This should open a new tab with the Gene Updater app appearing in your default browser
+derived_from:
+- doi: 10.1038/s41598-022-17104-3
+  title: 'Gene Updater: a web tool that autocorrects and updates for Excel misidentified gene names'
+source_repos:
+- https://github.com/kuanrongchan/date-to-gene-converter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuanrongchan/date-to-gene-converter

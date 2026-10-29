@@ -1,0 +1,28 @@
+name: destiny
+slug: destiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- "leveraging on `destiny` for \ndiffusion map computation"
+- dm <- DiffusionMap(as.matrix(feature_space), n_pcs = 50, n_eigs = 10)
+- This is based on the R package [destiny]
+derived_from:
+- doi: 10.1016/j.csbj.2025.06.047
+  title: "<i>dandelionR</i>\n                    : Single-cell immune repertoire trajectory analysis in R"
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+source_repos:
+- https://github.com/tuonglab/dandelionR
+- https://github.com/aet21/DICE
+- https://github.com/CostaLab/scMEGA
+- https://github.com/ZJUFanLab/scTITANS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tuonglab/dandelionR

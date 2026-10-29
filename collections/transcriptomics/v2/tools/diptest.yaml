@@ -1,0 +1,21 @@
+name: diptest
+slug: diptest
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(diptest)
+- The subpopulations of cells within each time point are usually indistinguishable, due to minor expression differences compared with the more dominant temporal differences.
+derived_from:
+- doi: 10.1093/bib/bbae011
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+source_repos:
+- https://github.com/MengQiuchen/scDecouple
+- https://github.com/gongx030/tcm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MengQiuchen/scDecouple

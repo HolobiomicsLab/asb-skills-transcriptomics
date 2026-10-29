@@ -1,0 +1,16 @@
+name: Bowtie 2
+slug: bowtie-2
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+source_repos:
+- https://github.com/equipeGST/RiboDoc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/equipeGST/RiboDoc

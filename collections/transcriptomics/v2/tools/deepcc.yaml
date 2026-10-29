@@ -1,0 +1,29 @@
+name: DeepCC
+slug: deepcc
+version_used: null
+edam_topics: []
+evidence_spans:
+- Add parameter `geneSets = "MSigDBvx"` (x = 5/6/7) or `geneSets = MSigDBr` (MSigDBr attained from R package `msigdbr` with function get_msigdbr() in DeepCC)
+- 'fs <- getFunctionalSpectra(eps)
+
+
+  # train DeepCC model
+
+  deepcc_model <- train_DeepCC_model(fs, labels)'
+- deep cancer subtype classification (DeepCC), based on deep learning of functional spectra
+- df <- get_DeepCC_features(deepcc_model, fs)
+- new_fs_single <- getFunctionalSpectrum(new_ep, refExp = "COADREAD")
+- deepcc_model <- train_DeepCC_model(fs, labels)
+- pred_labels <- get_DeepCC_label(deepcc_model, new_fs)
+derived_from:
+- doi: 10.1038/s41389-019-0157-8
+  title: 'DeepCC: a novel deep learning-based framework for cancer molecular subtype classification'
+source_repos:
+- https://github.com/CityUHK-CompBio/DeepCC
+- https://github.com/zero19970/deepcc_model
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CityUHK-CompBio/DeepCC

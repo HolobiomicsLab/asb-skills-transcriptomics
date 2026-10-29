@@ -1,0 +1,22 @@
+name: dropClust
+slug: dropclust
+version_used: null
+edam_topics: []
+evidence_spans:
+- For clustering FiRE detected rare cells, in all our analyses, we adhered to dropClust24 that does not administer any special treatment to outliers.
+- For clustering FiRE detected rare cells, in all our analyses, we adhered to dropClust24
+- Of these tools, SC3 [12], Seurat [11], and dropClust [20] adopt a SCC strategy
+derived_from:
+- doi: 10.1038/s41467-018-07234-6
+  title: Discovery of rare cells from voluminous single cell expression data
+- doi: 10.1016/j.gpb.2018.10.003
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-Scale Single Cell RNA-Seq Data'
+source_repos:
+- https://github.com/princethewinner/FiRE
+- https://github.com/Japrin/sscClust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princethewinner/FiRE

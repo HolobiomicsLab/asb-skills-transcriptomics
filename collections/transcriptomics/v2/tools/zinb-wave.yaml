@@ -1,0 +1,26 @@
+name: ZINB-WaVE
+slug: zinb-wave
+version_used: null
+edam_topics: []
+evidence_spans:
+- run BUSseq and the six compared methods
+- Recently developed competitive methods include DCA7, scVI8, scDeepCluster9, PHATE10, SAUCIE11, scGNN12, ZINB-WaVE13 and Ivis14
+- We also examined ZINB-WaVE40, employing a model-based DR method, and scTransform23, using a model-based normalization method, as alternatives to log normalization.
+- We also examined ZINB-WaVE
+derived_from:
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/songfd2018/BUSseq
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songfd2018/BUSseq

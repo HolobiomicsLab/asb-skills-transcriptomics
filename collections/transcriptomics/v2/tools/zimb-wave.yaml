@@ -1,0 +1,16 @@
+name: ZIMB-WaVE
+slug: zimb-wave
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+source_repos:
+- https://github.com/RabadanLab/randomly
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RabadanLab/randomly

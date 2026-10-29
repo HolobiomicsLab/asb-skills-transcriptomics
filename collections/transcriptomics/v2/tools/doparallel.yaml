@@ -1,0 +1,41 @@
+name: doParallel
+slug: doparallel
+version_used: 1.0.14
+edam_topics: []
+evidence_spans:
+- '`cores` represents the number of cores to use for parallel execution.'
+- Two algorithms, namely SingleR and PreCanCell, were implemented with multiple workers for parallel execution
+- '***doParallel***'
+- 'the package list is as follows: ***ggplot2*** ***doParallel***'
+- '***ggplot2*** ***doParallel***'
+- redpath_pseudotime <- redpath(filtered_GO_data, threadnum = 4, base_path_range = c(4:8))
+- '#registerDoParallel(cores=6)'
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41467-017-00039-z
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1093/bib/bbae180
+  title: Single-cell multi-omics analysis identifies context-specific gene regulatory gates and mechanisms
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+source_repos:
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/tinglab/reCAT
+- https://github.com/tinglab/redPATH
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/CompBioIPM/scGATE
+- https://github.com/carmonalab/TILPRED
+- https://github.com/Xinglab/PAIRADISE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangX-Lab/PreCanCell

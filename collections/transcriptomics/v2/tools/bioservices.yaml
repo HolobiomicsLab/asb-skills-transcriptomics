@@ -1,0 +1,17 @@
+name: BioServices
+slug: bioservices
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used GOATOOLS63 and BioServices64 for GO and KEGG pathways, respectively
+derived_from:
+- doi: 10.1038/s41467-021-26682-1
+  title: Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr
+source_repos:
+- https://github.com/lingfeiwang/normalisr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lingfeiwang/normalisr

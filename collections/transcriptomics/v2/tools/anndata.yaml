@@ -1,0 +1,132 @@
+name: AnnData
+slug: anndata
+version_used: '4.4'
+edam_topics: []
+evidence_spans:
+- SQL-based queries on [AnnData](https://anndata.readthedocs.io/en/latest/) objects
+- The Python based AnnSQL package enables SQL-based queries on [AnnData](https://anndata.readthedocs.io/en/latest/) objects
+- 'import scanpy as sc
+
+  from memory_profiler import memory_usage'
+- comparing AnnData or AnnSQL operations on a 4.4 million cell single-nucleus RNA-seq dataset
+- the current standard :class:`anndata.AnnData`
+- using the Annotated Data object17 in memory-mapping mode which allows the analysis of large datasets
+- Internally, Cellar uses the [AnnData](https://anndata.readthedocs.io/en/latest/) data structure.
+- should be in [AnnData]
+- An AnnData object, *data*, that has been processed similarly to the
+- An AnnData object, *data*, that has been processed similarly to the [scanpy standard workflow]
+- An AnnData object, *data*
+- it supports h5ad-formatted HDF5 files (https://github.com/theislab/anndata)
+- '.. automodule:: autoencoder.io'
+- Dependencies * Python >= 3.9, sketchKH >= 0.1.4, anndata >= 0.7.6
+- adata = anndata.read_h5ad(os.path.join('data', 'adata_RPE.h5ad'))
+- FAVA functions within the scverse ecosystem, employing AnnData as its input source
+- GeneVector uses Scanpy AnnData objects with raw count data in ``.X``
+- Scanpy, AnnData
+- This package works with AnnData objects stored as h5ad files
+- This package is part of the [scverse ecosystem](https://scverse.org/packages/#ecosystem) and works with Scanpy AnnData objects stored as h5ad files.
+- This package works with AnnData objects stored as h5ad files.
+- associated `AnnData` data structure
+- ICAT makes heavy use of the excellent `scanpy` library along with the associated `AnnData` data structure.
+- the associated `AnnData` data structure
+- along with the associated `AnnData` data structure.
+- We then read in the data using scanpy which returns an AnnData object.
+- which saves data matrices into a format known as AnnData
+- To use Scanpro, import the module and run the scanpro function.
+- the [AnnData](https://anndata.readthedocs.io/en/latest/anndata.AnnData.html) object (.h5ad)
+- The expected output format of scDEAL is the [AnnData](https://anndata.readthedocs.io/en/latest/anndata.AnnData.html) object (.h5ad)
+- The expected output format of scDEAL is the [AnnData]
+- in the format of an AnnData object
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+- anndata
+- Integrates with AnnData and scanpy
+- STREAM is written using the class `anndata` [Wolf et al. Genome Biology (2018)]
+- STREAM is written using the class `anndata`
+- '- anndata'
+- pip install anndata==0.8.0
+derived_from:
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+- doi: 10.1038/s41467-020-17281-7
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1093/bioinformatics/btad435
+  title: <i>Cytocipher</i> determines significantly different populations of cells in single-cell RNA-seq data
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1093/bioadv/vbad150
+  title: Single-cell gene set scoring with nearest neighbor graph smoothed data (gssnng)
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1038/s41540-024-00339-3
+  title: 'MarkerMap: nonlinear marker selection for single-cell studies'
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1038/s41598-024-66381-7
+  title: Scanpro is a tool for robust proportion analysis of single-cell resolution data
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s41467-025-57047-7
+  title: Unveiling the cell-type-specific landscape of cellular senescence through single-cell transcriptomics using SenePy
+- doi: 10.1093/bib/bbae189
+  title: 'SpatialCells: automated profiling of tumor microenvironments with spatially resolved multiplexed single-cell data'
+- doi: 10.1038/s41467-019-09670-4
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+source_repos:
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/gao-lab/Cell_BLAST
+- https://github.com/euxhenh/cellar
+- https://github.com/HKU-BAL/CellContrast
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/BradBalderson/Cytocipher
+- https://github.com/theislab/anndata
+- https://github.com/theislab/dca
+- https://github.com/jranek/delve
+- https://github.com/mikelkou/fava
+- https://github.com/nceglia/genevector
+- https://github.com/IlyaLab/gssnng
+- https://github.com/BradhamLab/icat
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap
+- https://github.com/lixiangchun/Miscell
+- https://github.com/loosolab/scanpro
+- https://github.com/OSU-BMBL/scDEAL.git
+- https://github.com/OSU-BMBL/scDEAL
+- https://github.com/hui2000ji/scETM
+- https://github.com/bucky527/scME
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/jaleesr/senepy
+- https://github.com/SemenovLab/SpatialCells
+- https://github.com/pinellolab/STREAM
+- https://github.com/pinellolab/stream
+- https://github.com/bauerbach95/tempo
+- https://github.com/xiaoyeye/TFvelo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ArpiarSaundersLab/annsql

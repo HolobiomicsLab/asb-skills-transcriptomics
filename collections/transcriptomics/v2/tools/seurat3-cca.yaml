@@ -1,0 +1,17 @@
+name: Seurat3 CCA
+slug: seurat3-cca
+version_used: null
+edam_topics: []
+evidence_spans:
+- scPhere performed better than state-of-the-art batch-correction methods such as Harmony, Seurat3 CCA, LIGER
+derived_from:
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+source_repos:
+- https://github.com/klarman-cell-observatory/scPhere
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/klarman-cell-observatory/scPhere

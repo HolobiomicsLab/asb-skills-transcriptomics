@@ -1,0 +1,24 @@
+name: scNovel
+slug: scnovel
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'import scNovel as sr
+
+  pred_result = sr.scNovel(test_adata, train_adata, train_label, processing_unit)'
+- we propose an integrated neural network framework, scNovel, that leverages barcode preprocessing for the auto-detection task
+- we introduce scNovel, a powerful deep learning-based neural network that specifically focuses on novel rare cell discovery
+- we apply scNovel to a million-scale scRNA-seq dataset COVID-19 immune atlas [29](1 462 702 cells)
+- In this work, we introduce scNovel, a powerful deep learning-based neural network that specifically focuses on novel rare cell discovery.
+- Combining the results in Figure 6C and Figure 6D, we can find that B cell and T cell are less likely to be predicted to be novel
+derived_from:
+- doi: 10.1093/bib/bbae112
+  title: 'scNovel: a scalable deep learning-based network for novel rare cell discovery in single-cell transcriptomics'
+source_repos:
+- https://github.com/chuanyang-Zheng/scNovel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chuanyang-Zheng/scNovel

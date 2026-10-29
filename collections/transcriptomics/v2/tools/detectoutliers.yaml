@@ -1,0 +1,17 @@
+name: DetectOutliers
+slug: detectoutliers
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`DetectOutliers(GeneOutDetection, GeneOutThr, ModulePCACenter, CompatibleGenes, ExpressionData, PlotData, ModuleName, PrintInfo, Mode, ClusType, cl)`'
+derived_from:
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+source_repos:
+- https://github.com/sysbio-curie/rROMA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sysbio-curie/rROMA

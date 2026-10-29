@@ -1,0 +1,18 @@
+name: Spoint
+slug: spoint
+version_used: null
+edam_topics: []
+evidence_spans:
+- Spoint embedded a multiple-layer perceptron with a probabilistic model to deconvolute cell type composition for each spot on single ST slice.
+- Spoint embeds a multiple-layer perceptron with a probabilistic model to deconvolute cell type composition
+derived_from:
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+source_repos:
+- https://github.com/QuKunLab/SPACEL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QuKunLab/SPACEL

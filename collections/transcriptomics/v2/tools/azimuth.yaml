@@ -1,0 +1,25 @@
+name: Azimuth
+slug: azimuth
+version_used: null
+edam_topics: []
+evidence_spans:
+- Azimuth was run on the RNA signal of the dataset (using the Azimuth web tool and the PBMC
+- run the same benchmark with Azimuth/Seurat 4 and scmapCell/scmapCell2Cluster for comparison
+- Azimuth L2 annotations were derived from the filtered raw count data through the Azimuth PBMC online R-Shiny app
+derived_from:
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+- doi: 10.1038/s41467-021-23324-4
+  title: Interpretation of T cell states from single-cell transcriptomics data using reference atlases
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+source_repos:
+- https://github.com/cantinilab/mowgli
+- https://github.com/carmonalab/ProjecTILs
+- https://github.com/frankligy/scTriangulate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/mowgli

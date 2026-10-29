@@ -1,0 +1,17 @@
+name: NCBI SRA SRR7499348–SRR7499365
+slug: ncbi-sra-srr7499348-srr7499365
+version_used: null
+edam_topics: []
+evidence_spans:
+- Salamander RNA-seq data were obtained from NCBI’s SRA at sample accessions SRR7499348 - SRR7499365
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

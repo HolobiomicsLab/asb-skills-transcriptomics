@@ -1,0 +1,17 @@
+name: unzip
+slug: unzip
+version_used: null
+edam_topics: []
+evidence_spans:
+- unzip data/mmusculus/BMC.Mode/BMC.Mode_X_T.txt.zip -d data/mmusculus/BMC.Mode/
+derived_from:
+- doi: 10.1093/bioinformatics/btad273
+  title: Higher-order genetic interaction discovery with network-based biological priors
+source_repos:
+- https://github.com/BorgwardtLab/HOGImine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BorgwardtLab/HOGImine

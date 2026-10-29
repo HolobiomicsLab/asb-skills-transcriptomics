@@ -1,0 +1,22 @@
+name: scDD
+slug: scdd
+version_used: null
+edam_topics: []
+evidence_spans:
+- we applied well-known scRNA-seq methods, such as scDD33 and MAST34, although these methods were not specifically intended for the across-sample situation.
+- we applied well-known scRNA-seq methods, such as scDD33 and MAST34
+- Comparisons with existing DEG prediction approaches on artificial datasets show that singleCellHaystack has higher accuracy
+derived_from:
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+source_repos:
+- https://github.com/HelenaLC/muscat
+- https://github.com/alexisvdb/singleCellHaystack
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HelenaLC/muscat

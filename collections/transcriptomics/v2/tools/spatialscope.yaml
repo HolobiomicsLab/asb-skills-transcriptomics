@@ -1,0 +1,21 @@
+name: SpatialScope
+slug: spatialscope
+version_used: null
+edam_topics: []
+evidence_spans:
+- we introduce SpatialScope as a unified framework to integrate single-cell and ST data
+- For cell type identification task, we compared SpatialScope with three single-cell alignment (Tangram, CytoSPACE and StarDist+RCTD)
+- we present SpatialScope, a unified approach integrating scRNA-seq reference data and ST data using deep generative models
+- we used the slice, mouse1_slice180, from mouse1_sample4 to evaluate the imputation performance of SpatialScope and the compared methods
+- $ git clone https://github.com/YangLabHKUST/SpatialScope.git
+derived_from:
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+source_repos:
+- https://github.com/YangLabHKUST/SpatialScope
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YangLabHKUST/SpatialScope

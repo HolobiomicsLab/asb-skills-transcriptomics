@@ -1,0 +1,24 @@
+name: CIRCexplorer2
+slug: circexplorer2
+version_used: null
+edam_topics: []
+evidence_spans:
+- CircRNA lists containing back-spliced junctions can be obtained by CIRCexplorer2/CIRI2/UROBORUS
+- CIRCexplorer2 uses Cufflinks to detect AS events on circRNAs from RNA-seq data
+- '[CIRCexplorer2](https://github.com/YangLab/CIRCexplorer2/tree/master/circ2) (>=2.3.6)'
+- CIRCexplorer2
+derived_from:
+- doi: 10.1016/j.gpb.2019.03.004
+  title: 'CircAST: Full-Length Assembly and Quantification of Alternatively Spliced Isoforms in Circular RNAs'
+- doi: 10.1016/j.gpb.2019.11.004
+  title: 'CIRCexplorer3: A CLEAR Pipeline for Direct Comparison of Circular and Linear RNA Expression'
+source_repos:
+- https://github.com/xiaofengsong/CircAST
+- https://github.com/YangLab/CIRCexplorer2
+- https://github.com/YangLab/CLEAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaofengsong/CircAST

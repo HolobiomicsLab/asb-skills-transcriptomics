@@ -1,0 +1,20 @@
+name: DIEM
+slug: diem
+version_used: null
+edam_topics: []
+evidence_spans:
+- The `diem` package provides a lightweight solution to clean up single-nucleus or single-cell RNA-seq data during the pre-processing step.
+- The `diem` package provides a lightweight solution to clean up single-nucleus or
+- droplets that pass `diem` filtering
+- We present a novel approach to quantify contamination and filter droplets in snRNA-seq experiments, called Debris Identification using Expectation Maximization (DIEM).
+derived_from:
+- doi: 10.1038/s41598-020-67513-5
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+source_repos:
+- https://github.com/marcalva/diem
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marcalva/diem

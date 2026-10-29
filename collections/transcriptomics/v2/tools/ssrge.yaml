@@ -1,0 +1,19 @@
+name: SSrGE
+slug: ssrge
+version_used: null
+edam_topics: []
+evidence_spans:
+- docker pull opoirion/ssrge
+- SSrGE should be used as a python package, below are usage example.
+derived_from:
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+source_repos:
+- https://github.com/lanagarmire/SSrGE.git
+- https://github.com/lanagarmire/SSrGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/SSrGE.git

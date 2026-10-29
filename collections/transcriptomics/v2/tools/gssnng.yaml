@@ -1,0 +1,19 @@
+name: gssnng
+slug: gssnng
+version_used: null
+edam_topics: []
+evidence_spans:
+- from gssnng import score_cells
+- Gene Set Scoring on the Nearest Neighbor Graph (gssnng) for Single Cell RNA-seq (scRNA-seq)
+- python3 -m pip install gssnng
+derived_from:
+- doi: 10.1093/bioadv/vbad150
+  title: Single-cell gene set scoring with nearest neighbor graph smoothed data (gssnng)
+source_repos:
+- https://github.com/IlyaLab/gssnng
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IlyaLab/gssnng

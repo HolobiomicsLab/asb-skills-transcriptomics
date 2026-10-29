@@ -1,0 +1,17 @@
+name: PisCES
+slug: pisces
+version_used: null
+edam_topics: []
+evidence_spans:
+- Liu, F., Choi, D., Xie, L., Roeder, K. Global spectral clustering in dynamic networks. Proceedings of the National Academy of Sciences
+derived_from:
+- doi: 10.1093/bioinformatics/btad592
+  title: 'MuDCoD: multi-subject community detection in personalized dynamic gene networks from single-cell RNA sequencing'
+source_repos:
+- https://github.com/bo1929/MuDCoD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bo1929/MuDCoD

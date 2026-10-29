@@ -1,0 +1,21 @@
+name: TOSICA
+slug: tosica
+version_used: null
+edam_topics: []
+evidence_spans:
+- We created the python package called `TOSICA`
+- TOSICA.train(ref_adata, gmt_path,project=<my_project>,label_name=<label_key>)
+- called `TOSICA` that uses `scanpy` ans `torch`
+- We created the python package called `TOSICA` that uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data.
+- uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data
+derived_from:
+- doi: 10.1038/s41467-023-35923-4
+  title: Transformer for one stop interpretable cell type annotation
+source_repos:
+- https://github.com/JackieHanLab/TOSICA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JackieHanLab/TOSICA

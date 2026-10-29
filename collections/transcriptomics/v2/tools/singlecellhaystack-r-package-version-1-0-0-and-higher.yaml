@@ -1,0 +1,17 @@
+name: singleCellHaystack (R package, version 1.0.0 and higher)
+slug: singlecellhaystack-r-package-version-1-0-0-and-higher
+version_used: null
+edam_topics: []
+evidence_spans:
+- The new singleCellHaystack method is implemented as an R package and is available from CRAN (version 1.0.0 and higher) and GitHub
+derived_from:
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+source_repos:
+- https://github.com/ddiez/singleCellHaystack-py
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ddiez/singleCellHaystack-py

@@ -1,0 +1,81 @@
+name: Scanorama
+slug: scanorama
+version_used: 1.7.1
+edam_topics: []
+evidence_spans:
+- The mutual-nearest-neighbor (MNN) based approaches, including MNN14 and Scanorama15, allow each batch to contain some but not all cell types
+- Scanorama and Seurat calculate mutual nearest neighbors in a low-dimensional space
+- balances biological and technical differences between clusters, and reduces the influence of batch effect
+- (absent — flagged as missing)
+- To learn more about the algorithm, and how it compares to other methods, see the original paper at [Bioinformatics](https://doi.org/10.1093/bioinformatics/btad278)
+- we found that JOINTLY, scVI, and Scanorama retain biological variation across conditions, while removing batch effects
+- We benchmark MASI with other well-established methods and demonstrate that MASI outperforms other methods, in terms of integration, annotation, and speed.
+- Harmony and scanorama were tested with default parameters.
+- 'Batch correction using Scanorama::'
+- The most widely used methods include Seurat13, Harmony14, Scanorama15, scVI16, scDML17, and scDREAMER18.
+- we used Seurat, Harmony, Scanorama, scVI, scDML, and scDREAMER as benchmarking methods with default parameters
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- '[Scanorama](https://github.com/brianhie/scanorama)'
+- SAUCIE14 and Scanorama15
+- With the exception of Seurat13, SAUCIE14 and Scanorama15, several of these rapid procedures (deepMNN16, BBKNN17, Harmony18, scVI19, scANVI20 and DESC21)
+- a panorama-stitching algorithm Scanorama24;
+- a panorama-stitching algorithm Scanorama24
+- compares favorably to popular unsupervised methods such as Harmony, FastMNN, Seurat v4, scVI, and Scanorama
+derived_from:
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1038/s41467-022-33681-3
+  title: Alignment of single-cell trajectory trees with CAPITAL
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1038/s41467-021-25725-x
+  title: Leveraging the Cell Ontology to classify unseen cell types
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/mandricigor/batman
+- https://github.com/songfd2018/BUSseq
+- https://github.com/ykat0/capital
+- https://github.com/eleozzr/desc
+- https://github.com/BradhamLab/icat
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/hayatlab/MASI
+- https://github.com/cistrome/MIRA
+- https://github.com/brianhie/scanorama
+- https://github.com/wangshenguiuc/OnClass
+- https://github.com/mcgilldinglab/scCobra
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/hui2000ji/scETM
+- https://github.com/SydneyBioX/scMerge
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/carmonalab/STACAS
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mandricigor/batman

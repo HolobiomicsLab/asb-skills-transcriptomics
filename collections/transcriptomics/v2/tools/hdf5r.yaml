@@ -1,0 +1,17 @@
+name: hdf5r
+slug: hdf5r
+version_used: null
+edam_topics: []
+evidence_spans:
+- load the data in to your Seurat object using the **hdf5r** package
+derived_from:
+- doi: 10.1038/s41467-021-26085-2
+  title: DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data
+source_repos:
+- https://github.com/prabhakarlab/DUBStepR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/prabhakarlab/DUBStepR

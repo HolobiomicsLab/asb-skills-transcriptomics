@@ -1,0 +1,18 @@
+name: misvm
+slug: misvm
+version_used: null
+edam_topics: []
+evidence_spans:
+- The misvm package should be installed at first, which can be downloaded from https://github.com/garydoranjr/misvm.
+derived_from:
+- doi: 10.1007/s11103-019-00930-x
+  title: 'HLMethy: a machine learning-based model to identify the hidden labels of m6A candidates'
+source_repos:
+- https://github.com/garydoranjr/misvm
+- https://github.com/NWAFU-LiuLab/HLMethy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/garydoranjr/misvm

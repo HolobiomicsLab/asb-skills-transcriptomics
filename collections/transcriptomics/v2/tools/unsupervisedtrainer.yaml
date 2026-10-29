@@ -1,0 +1,17 @@
+name: UnsupervisedTrainer
+slug: unsupervisedtrainer
+version_used: null
+edam_topics: []
+evidence_spans:
+- trainer.train(n_epochs=12000, eval_every=1000, n_samplers=4)
+derived_from:
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+source_repos:
+- https://github.com/hui2000ji/scETM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hui2000ji/scETM

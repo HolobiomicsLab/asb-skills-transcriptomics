@@ -1,0 +1,17 @@
+name: spacexr
+slug: spacexr
+version_used: null
+edam_topics: []
+evidence_spans:
+- We followed the guidelines (https://raw.githack.com/dmcable/spacexr/master/vignettes/merfish_nonparametric.html)
+derived_from:
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+source_repos:
+- https://github.com/YangLabHKUST/SpatialScope
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YangLabHKUST/SpatialScope

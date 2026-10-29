@@ -1,0 +1,16 @@
+name: TSNAD v2.0
+slug: tsnad-v2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+source_repos:
+- https://github.com/jiujiezz/tsnad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jiujiezz/tsnad

@@ -1,0 +1,22 @@
+name: BisqueRNA
+slug: bisquerna
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'library(Biobase)
+
+  library(BisqueRNA)'
+- library(BisqueRNA)
+- BisqueRNA::ReferenceBasedDecomposition(bulk.eset, sc.eset, markers=NULL, use.overlap=TRUE)
+- res <- BisqueRNA::ReferenceBasedDecomposition(bulk.eset, sc.eset, markers=NULL, use.overlap=TRUE)
+derived_from:
+- doi: 10.1038/s41467-020-15816-6
+  title: Accurate estimation of cell composition in bulk expression through robust integration of single-cell information
+source_repos:
+- https://github.com/cozygene/bisque
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/bisque

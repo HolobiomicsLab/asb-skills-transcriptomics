@@ -1,0 +1,19 @@
+name: BEER
+slug: beer
+version_used: null
+edam_topics: []
+evidence_spans:
+- source('https://raw.githubusercontent.com/jumphone/BEER/master/BEER.R')
+- mybeer <- BEER(DATA, BATCH, GNUM=30, PCNUM=50, ROUND=1, GN=5000, SEED=1, COMBAT=TRUE)
+- umap=BEER.bbknn(pbmc, PCUSE, NB=3, NT=10)
+derived_from:
+- doi: 10.1038/s41421-019-0114-x
+  title: A novel approach to remove the batch effect of single-cell data
+source_repos:
+- https://github.com/jumphone/BEER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jumphone/BEER

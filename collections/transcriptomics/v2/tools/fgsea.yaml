@@ -1,0 +1,24 @@
+name: fGSEA
+slug: fgsea
+version_used: 1.19.4
+edam_topics: []
+evidence_spans:
+- GSE methods that do not explicitly account for gene-gene correlation (e.g. iDEA, PAGE, fGSEA and GSEA) appear to provide more calibrated p-values
+- gene set enrichment analysis (GSEA) is performed by the package fgsea (v1.19.4) and msigdbr (v7.4.1) in R
+derived_from:
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+source_repos:
+- https://github.com/xzhoulab/iDEA
+- https://github.com/xianglin226/scMDC
+- https://github.com/jackbibby1/SCPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xzhoulab/iDEA

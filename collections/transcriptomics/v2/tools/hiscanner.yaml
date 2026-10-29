@@ -1,0 +1,22 @@
+name: HiScanner
+slug: hiscanner
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install hiscanner --no-cache-dir
+- we introduce HiScanner (High-resolution Single-Cell Allelic copy Number callER), which combines read depth, B-allele frequency, and haplotype phasing to identify CNAs with high resolution
+- hiscanner run --step all
+- 'hiscanner run --step segment  # Segmentation'
+- Uses both read depth ratios and B-allele frequencies for comprehensive CNV analysis.
+- we introduce HiScanner (High-resolution Single-Cell Allelic copy Number callER)
+derived_from:
+- doi: 10.1038/s41467-025-60446-5
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+source_repos:
+- https://github.com/parklab/HiScanner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/parklab/HiScanner

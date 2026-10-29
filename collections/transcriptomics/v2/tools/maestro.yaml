@@ -1,0 +1,17 @@
+name: MAESTRO
+slug: maestro
+version_used: null
+edam_topics: []
+evidence_spans:
+- we converted the open chromatin profiles from scATAC-seq into a gene activity matrix utilizing the MAESTRO package
+derived_from:
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+source_repos:
+- https://github.com/mcgilldinglab/scCobra
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgilldinglab/scCobra

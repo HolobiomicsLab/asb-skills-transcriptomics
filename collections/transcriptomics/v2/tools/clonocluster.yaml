@@ -1,0 +1,21 @@
+name: ClonoCluster
+slug: clonocluster
+version_used: '0.1'
+edam_topics: []
+evidence_spans:
+- devtools::install_github("leeprichman/ClonoCluster")
+- clust <- clonocluster(pca, bt, alpha = seq(0, 1, by = 0.1), beta = 0.1, res = 1)
+- library(ClonoCluster)
+- '* Cluster marker analysis with `Find_Markers_ROC`'
+- We included ClonoCluster and Warp Factor into an open-source R package, ClonoCluster
+derived_from:
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+source_repos:
+- https://github.com/leeprichman/ClonoCluster
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/leeprichman/ClonoCluster

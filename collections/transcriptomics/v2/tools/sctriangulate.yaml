@@ -1,0 +1,23 @@
+name: scTriangulate
+slug: sctriangulate
+version_used: 0.9.0
+edam_topics: []
+evidence_spans:
+- We apply the scTriangulate lazy_run function in version 0.9.0 on these four conflicting annotation solutions
+- All the preprocessing and QC steps were conducted using scTriangulate version 0.9.0 and scanpy version 1.7.2.
+- The combined AnnData serves as the input for the downstream scTriangulate analysis (win_fraction_cutoff = 0.35, add_metrics = ’tfidf5’).
+- The processed AnnData was used as the input for running scTriangulate (win_fraction_cutoff = 0.4, add_metrics = 'tfidf5').
+- The processed AnnData was used as the input for running scTriangulate (win_fraction_cutoff = 0.3, add_metrics = ’tfidf5’).
+- The combined AnnData serves as the input for the downstream scTriangulate analysis (win_fraction_cutoff = 0.25).
+- The AnnData after Leiden clustering was subjected to scTriangulate (win_fraction_cutoff = 0.25, add_metrics = ’tfidf5’) as input.
+derived_from:
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+source_repos:
+- https://github.com/frankligy/scTriangulate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/frankligy/scTriangulate

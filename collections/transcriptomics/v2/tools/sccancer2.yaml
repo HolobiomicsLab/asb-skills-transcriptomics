@@ -1,0 +1,17 @@
+name: scCancer2
+slug: sccancer2
+version_used: null
+edam_topics: []
+evidence_spans:
+- In this updated package scCancer2, designed for integrative tumor scRNA-seq data analysis, we developed a supervised machine learning framework to annotate TME cells
+derived_from:
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+source_repos:
+- https://github.com/czythu/scCancer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/czythu/scCancer

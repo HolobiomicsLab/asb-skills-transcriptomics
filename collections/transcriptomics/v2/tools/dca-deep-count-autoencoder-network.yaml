@@ -1,0 +1,17 @@
+name: DCA (deep count autoencoder network)
+slug: dca-deep-count-autoencoder-network
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose a deep count autoencoder network (DCA) to denoise scRNA-seq datasets.
+derived_from:
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+source_repos:
+- https://github.com/theislab/dca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/dca

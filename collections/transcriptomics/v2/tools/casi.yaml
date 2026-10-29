@@ -1,0 +1,20 @@
+name: CASi
+slug: casi
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop CASi, a comprehensive framework for analyzing multiple timepoints' scRNA-seq data
+- l1 <- DetectNovelCells(l1)
+- FindTemporalDEGs(CASiList, metadata, pct.cutoff, p.cutoff)
+- CASi is a comprehensive framework for analyzing longitudinal scRNA-seq data
+derived_from:
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+source_repos:
+- https://github.com/yizhuo-wang/CASi
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yizhuo-wang/CASi

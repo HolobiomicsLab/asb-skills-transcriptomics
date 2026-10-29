@@ -1,0 +1,29 @@
+name: scGen
+slug: scgen
+version_used: 2.1.0
+edam_topics: []
+evidence_spans:
+- Existing methods for this task, such as scGen17 and scPreGAN18, do not account for batch effects between data matrices
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- semi-supervised STACAS outperforms state-of-the-art unsupervised methods, as well as supervised methods such as scANVI and scGen.
+derived_from:
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1038/s41467-024-45227-w
+  title: 'scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data'
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/ZhangLabGT/scDisInFact
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/carmonalab/STACAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Spencerfar/LatentVelo

@@ -1,0 +1,18 @@
+name: M3Drop
+slug: m3drop
+version_used: null
+edam_topics: []
+evidence_spans:
+- M3Drop, a more recent method, selects genes whose dropout rate (number of cells in which the gene is undetected) exceeds that of other genes with the same mean expression
+- M3Drop, a more recent method, selects genes whose dropout rate
+derived_from:
+- doi: 10.1038/s41467-021-26085-2
+  title: DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data
+source_repos:
+- https://github.com/prabhakarlab/DUBStepR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/prabhakarlab/DUBStepR

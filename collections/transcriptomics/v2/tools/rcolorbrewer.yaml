@@ -1,0 +1,21 @@
+name: RColorBrewer
+slug: rcolorbrewer
+version_used: null
+edam_topics: []
+evidence_spans:
+- for (pkg in c("enrichplot", "pheatmap", "RColorBrewer", "gridExtra")) {
+- RColorBrewer::brewer.pal(11,"RdYlBu")
+derived_from:
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1038/s41467-018-03282-0
+  title: Characterizing the replicability of cell types defined by single cell RNA-sequencing data using MetaNeighbor
+source_repos:
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/gillislab/MetaNeighbor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChangSuBiostats/CS-CORE

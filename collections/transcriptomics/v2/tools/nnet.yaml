@@ -1,0 +1,18 @@
+name: nnet
+slug: nnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- mod <- nnet::multinom(CT24_relevel ~ PC1 + PC2, data = pc_data, trace=T)
+- nnet::multinom(CT24_relevel ~ PC1 + PC2, data = pc_data, trace=T)
+derived_from:
+- doi: 10.1038/s41467-024-48041-6
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+source_repos:
+- https://github.com/micnngo/tauFisher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/micnngo/tauFisher

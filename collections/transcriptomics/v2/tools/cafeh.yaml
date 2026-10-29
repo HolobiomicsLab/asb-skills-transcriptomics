@@ -1,0 +1,22 @@
+name: CAFEH
+slug: cafeh
+version_used: null
+edam_topics: []
+evidence_spans:
+- code for class `CAFEHGenotype` for fitting CAFEH with individual level data
+- You can use CAFEH as a command line tool or a python package.
+- The `.model` file is a pickle of the CAFEH model.
+- 'git clone https://github.com/karltayeb/cafeh.git ... pip install .  # install package in cafeh environment'
+- python cafeh.py --mode z -R example/LD_example.tsv -z example/z_example.tsv -n example/n_example.tsv --out output --save-model
+- '`cafeh/cafeh_summary.py`: code for class `CAFEHSummary` for fitting CAFEH with summary stats'
+derived_from:
+- doi: 10.1016/j.ajhg.2022.01.002
+  title: Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity
+source_repos:
+- https://github.com/karltayeb/cafeh
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/karltayeb/cafeh

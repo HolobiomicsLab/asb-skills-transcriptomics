@@ -1,0 +1,17 @@
+name: graphviz
+slug: graphviz
+version_used: null
+edam_topics: []
+evidence_spans:
+- conda create -n capital python=3.8 graphviz
+derived_from:
+- doi: 10.1038/s41467-022-33681-3
+  title: Alignment of single-cell trajectory trees with CAPITAL
+source_repos:
+- https://github.com/ykat0/capital
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ykat0/capital

@@ -1,0 +1,27 @@
+name: git
+slug: git
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/JiangBioLab/DeepCCI.git
+- 'Start by grabbing this source codes:'
+- git clone https://github.com/wangshenguiuc/OnClass.git
+- git clone  https://github.com/canzarlab/Sphetcher
+- 'You can download and compile the latest code from github as follows:'
+derived_from:
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+- doi: 10.1038/s41467-021-25725-x
+  title: Leveraging the Cell Ontology to classify unseen cell types
+- doi: 10.1016/j.isci.2020.101126
+  title: 'Sphetcher: Spherical Thresholding Improves Sketching of Single-Cell Transcriptomic Heterogeneity'
+source_repos:
+- https://github.com/JiangBioLab/DeepCCI
+- https://github.com/wangshenguiuc/OnClass
+- https://github.com/canzarlab/Sphetcher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiangBioLab/DeepCCI

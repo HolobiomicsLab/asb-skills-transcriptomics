@@ -1,0 +1,23 @@
+name: scDCC
+slug: scdcc
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**[scDCC.py](https://github.com/ttgump/scDCC/blob/master/scDCC.py)** -- implementation of scDCC algorithm'
+- scDCC.py -- implementation of scDCC algorithm
+- Here we report a principled clustering method named scDCC, that integrates domain knowledge into the clustering step.
+- we proposed a single cell deep constrained clustering framework – scDCC that can integrate ADT information into the clustering analysis of scRNA-seq data
+derived_from:
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+source_repos:
+- https://github.com/ttgump/scDCC
+- https://github.com/xianglin226/scMDC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ttgump/scDCC

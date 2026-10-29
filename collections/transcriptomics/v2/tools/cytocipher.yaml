@@ -1,0 +1,19 @@
+name: cytocipher
+slug: cytocipher
+version_used: null
+edam_topics: []
+evidence_spans:
+- '!pip install cytocipher'
+- we developed Cytocipher, a bioinformatics method and scverse compatible software package that statistically determines significant clusters
+- cc.tl.merge_clusters(data, 'leiden')
+derived_from:
+- doi: 10.1093/bioinformatics/btad435
+  title: <i>Cytocipher</i> determines significantly different populations of cells in single-cell RNA-seq data
+source_repos:
+- https://github.com/BradBalderson/Cytocipher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BradBalderson/Cytocipher

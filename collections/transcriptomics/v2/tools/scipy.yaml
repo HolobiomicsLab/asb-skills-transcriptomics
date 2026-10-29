@@ -1,0 +1,142 @@
+name: scipy
+slug: scipy
+version_used: 1.4.1
+edam_topics: []
+evidence_spans:
+- JSD was calculated using the jensenshannon function in the Scipy package
+- '- scipy (>= 1.3.1)'
+- numpy==1.23.5 scipy pandas>=1.4.1
+- '* scipy'
+- scipy (tested on 1.5.2)
+- '* scipy'
+- The scipy package was used for sparse matrix acceleration
+- '- Python >= 3.9
+
+  - PyTorch
+
+  - Scanpy, AnnData
+
+  - NumPy, SciPy, Pandas'
+- '- NumPy, SciPy, Pandas'
+- Complete and Ward linkages were run using Scipy’s cluster.hierarchy.linkage method using default parameters
+- or any metric used by `scipy.spatial.distance.pdist`
+- We used Bonferroni-corrected p-values to assess the significance of enrichment.
+- '- [scipy 1.7.3](https://scipy.org)'
+- '[scipy 1.7.3](https://scipy.org)'
+- '[scipy 1.5.4]'
+- tensorflow, keras, numpy, and scipy (version 2.3.0, 2.4.3, 1.18.5, and 1.4.1, respectively)
+- _No usage/docs found._
+- we developed scGeneFit, a rigorous and efficient approach for marker selection
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+- scipy
+- scipy >= 1.3.0
+- '* scipy >= 1.3.0'
+- Pearson correlation coefficient (calculated using the Python package SciPy108)
+- we employed the CCC, Pearson correlation coefficient (calculated using the Python package SciPy108) and RMSE to assess the consistency with the ground truth.
+- import scipy.io as sio
+- scipy>=1.10.0
+- 'SpaOTsc depends on the following packages: pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.'
+- pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.
+- '* Scipy'
+- '- scipy'
+- scipy
+- implements the test utilizing SciPy’s binomial test45
+- '> scipy >= 0.19.0'
+derived_from:
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+- doi: 10.1038/s41467-022-30545-8
+  title: Cell cycle gene regulation dynamics revealed by RNA velocity and deep-learning
+- doi: 10.1016/j.patter.2022.100443
+  title: 'EMBEDR: Distinguishing signal from noise in single-cell omics data'
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+- doi: 10.1016/j.csbj.2022.06.010
+  title: 'MarkerCount: A stable, count-based cell type identifier for single-cell RNA-seq experiments'
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1038/s41467-023-36862-w
+  title: 'OTTERS: a powerful TWAS framework leveraging summary-level reference data'
+- doi: 10.1093/bioinformatics/btad075
+  title: 'scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering'
+- doi: 10.1038/s41467-024-51382-x
+  title: 'scConfluence: single-cell diagonal integration with regularized Inverse Optimal Transport on weakly connected features'
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1038/s41467-021-21453-4
+  title: Optimal marker gene selection for cell type discrimination in single cell analyses
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+- doi: 10.1038/s41467-024-50150-1
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and active learning'
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1016/j.patter.2023.100915
+  title: 'Spaco: A comprehensive tool for coloring spatial data at single-cell resolution'
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/HKU-BAL/CellContrast
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/MintaYLu/COT
+- https://github.com/aron0093/cytopath
+- https://github.com/SUwonglab/DC3
+- https://github.com/andreariba/DeepCycle
+- https://github.com/ejohnson643/EMBEDR
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/nceglia/genevector
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+- https://github.com/combio-dku/MarkerCount
+- https://github.com/cistrome/MIRA
+- https://github.com/daiqile96/OTTERS
+- https://github.com/wangyh082/scBGEDA
+- https://github.com/cantinilab/scconfluence
+- https://github.com/XiDsLab/scFusion
+- https://github.com/solevillar/scGeneFit
+- https://github.com/bucky527/scME
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/klarman-cell-observatory/scPhere
+- https://github.com/mcgilldinglab/scSemiProfiler
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/BrainStOrmics/Spaco
+- https://github.com/zcang/SpaOTsc
+- https://github.com/lanagarmire/SSrGE
+- https://github.com/bauerbach95/tempo
+- https://github.com/mjtiv/VADT
+- https://github.com/audreyqyfu/LATE
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinglab-ai/ccsf

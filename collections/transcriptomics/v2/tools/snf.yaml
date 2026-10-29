@@ -1,0 +1,17 @@
+name: SNF
+slug: snf
+version_used: null
+edam_topics: []
+evidence_spans:
+- Through comparison with existing multimodal methods on multiple public CITE-seq datasets
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+source_repos:
+- https://github.com/WilsonImmunologyLab/LinQView
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WilsonImmunologyLab/LinQView

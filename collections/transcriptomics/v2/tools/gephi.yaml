@@ -1,0 +1,21 @@
+name: Gephi
+slug: gephi
+version_used: null
+edam_topics: []
+evidence_spans:
+- gene communities in the fused network are extracted using the modularity method implemented in Gephi39
+- Graph analysis software such as Gephi36 or Cytoscape54 can be utilized to explore the bipartite relationships in an interactive manner.
+derived_from:
+- doi: 10.1038/s41540-021-00175-9
+  title: Computational analysis of fused co-expression networks for the identification of candidate cancer gene biomarkers
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+source_repos:
+- https://github.com/DEIB-GECO/GeneNetFusion
+- https://github.com/lanagarmire/SSrGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DEIB-GECO/GeneNetFusion

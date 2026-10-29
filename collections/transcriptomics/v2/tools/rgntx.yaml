@@ -1,0 +1,19 @@
+name: RgnTX
+slug: rgntx
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed it for the colocalization analysis of transcriptome elements
+- This vignette describes the Bioconductor RgnTX package.
+- Here, we developed RgnTX, an R/Bioconductor tool for the colocalization analysis of transcriptome elements with permutation tests.
+derived_from:
+- doi: 10.1016/j.csbj.2023.08.021
+  title: 'RgnTX: Colocalization analysis of transcriptome elements in the presence of isoform heterogeneity and ambiguity'
+source_repos:
+- https://github.com/yue-wang-biomath/RgnTX
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yue-wang-biomath/RgnTX

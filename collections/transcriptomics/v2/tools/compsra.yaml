@@ -1,0 +1,18 @@
+name: COMPSRA
+slug: compsra
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present COMPSRA, a comprehensive modular stand-alone platform for identifying and quantifying small RNAs from small RNA sequencing data.
+- 'composed of five functionally independent and customizable modules: Quality Control (QC), Alignment, Annotation, Microbe and Function'
+derived_from:
+- doi: 10.1038/s41598-020-61495-0
+  title: 'COMPSRA: a COMprehensive Platform for Small RNA-Seq data Analysis'
+source_repos:
+- https://github.com/cougarlj/COMPSRA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cougarlj/COMPSRA

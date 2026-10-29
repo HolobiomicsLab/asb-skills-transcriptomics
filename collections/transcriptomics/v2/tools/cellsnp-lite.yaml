@@ -1,0 +1,21 @@
+name: cellsnp-lite
+slug: cellsnp-lite
+version_used: 1.2.1
+edam_topics: []
+evidence_spans:
+- Firstly, we ran cellsnp-lite on the hematopoietic colony scRNA-seq dataset (536 cells)
+- raw reads from BAM files are piled up using cellSNP-lite (v1.2.1)23. This generates a SNP-by-cell matrix
+- raw reads from BAM files are piled up using cellSNP-lite (v1.2.1)23
+- raw reads from BAM files are piled up using cellSNP-lite (v1.2.1)
+derived_from:
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+source_repos:
+- https://github.com/single-cell-genetics/cellsnp-lite
+- https://github.com/single-cell-genetics/MQuad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/cellsnp-lite

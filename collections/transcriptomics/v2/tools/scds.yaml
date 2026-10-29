@@ -1,0 +1,20 @@
+name: scds
+slug: scds
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github('kostkalab/scds',ref="master")
+- 'scds: computational annotation of doublets in single-cell RNA sequencing data. Bioinformatics 36, 1150-1158.'
+- scds(sce, cxds.ntop, cxds.binThresh, bcds.ntop, bcds.srat)
+derived_from:
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+source_repos:
+- https://github.com/kostkalab/scds
+- https://github.com/13308204545/Chord
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kostkalab/scds

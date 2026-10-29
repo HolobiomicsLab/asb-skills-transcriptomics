@@ -1,0 +1,17 @@
+name: transition cell score (TCS)
+slug: transition-cell-score-tcs
+version_used: null
+edam_topics: []
+evidence_spans:
+- we define the transition cell score (TCS)
+derived_from:
+- doi: 10.1038/s41467-021-25548-w
+  title: Dissecting transition cells from single-cell transcriptome data through multiscale stochastic dynamics
+source_repos:
+- https://github.com/cliffzhou92/MuTrans-release
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cliffzhou92/MuTrans-release

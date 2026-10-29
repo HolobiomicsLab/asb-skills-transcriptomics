@@ -1,0 +1,18 @@
+name: Bellerophon
+slug: bellerophon
+version_used: null
+edam_topics: []
+evidence_spans:
+- To automate the process of filtering and optimizing the transcriptome assembly, the Bellerophon pipeline was developed.
+- To automate the process of filtering and optimizing the transcriptome assembly, the Bellerophon pipeline was developed
+derived_from:
+- doi: 10.1002/ece3.5571
+  title: The Bellerophon pipeline, improving de novo transcriptomes and removing chimeras
+source_repos:
+- https://github.com/JesseKerkvliet/Bellerophon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JesseKerkvliet/Bellerophon

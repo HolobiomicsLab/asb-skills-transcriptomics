@@ -1,0 +1,17 @@
+name: PreCanCell R package
+slug: precancell-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have developed an R package for the PreCanCell algorithm, which is available at https://github.com/WangX-Lab/PreCanCell.
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+source_repos:
+- https://github.com/WangX-Lab/PreCanCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangX-Lab/PreCanCell

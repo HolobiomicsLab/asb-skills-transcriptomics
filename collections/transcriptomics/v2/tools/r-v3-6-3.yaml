@@ -1,0 +1,17 @@
+name: R v3.6.3
+slug: r-v3-6-3
+version_used: '3.6'
+edam_topics: []
+evidence_spans:
+- R v3.6.3The R Foundationhttps://www.r-project.org/
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+source_repos:
+- https://github.com/WilsonImmunologyLab/LinQView
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WilsonImmunologyLab/LinQView

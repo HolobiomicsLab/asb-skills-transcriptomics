@@ -1,0 +1,17 @@
+name: typing_extensions
+slug: typing-extensions
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`typing_extensions <https://pypi.org/project/typing-extensions/>` >= 4.8.0'
+derived_from:
+- doi: 10.1093/bioinformatics/btad721
+  title: 'Hybkit: a Python API and command-line toolkit for hybrid sequence data from chimeric RNA methods'
+source_repos:
+- https://github.com/RenneLab/hybkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RenneLab/hybkit

@@ -1,0 +1,18 @@
+name: SPAdes
+slug: spades
+version_used: 3.13.1
+edam_topics: []
+evidence_spans:
+- SPAdes version 3.13.1 was released under GPLv2 on April 11, 2019
+- cloudrnaSPAdes is a feature release of a SPAdes assembler
+derived_from:
+- doi: 10.1093/bioinformatics/btad781
+  title: "<scp>cloudrna</scp>\n                    SP\n                    <scp>Ades</scp>\n                    : isoform assembly using bulk barcoded RNA sequencing data"
+source_repos:
+- https://github.com/1dayac/cloudrnaSPAdes-release
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/cloudrnaSPAdes-release

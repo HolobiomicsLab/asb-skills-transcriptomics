@@ -1,0 +1,20 @@
+name: NeuCA
+slug: neuca
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop a neural network-based cell annotation method called NeuCA
+- we develop a neural network-based cell annotation method called NeuCA (Neural network-based Cell Annotation) for scRNA-seq data
+- NeuCA will train a classifier using a feed-forward neural network or a hierarchical neural network, depending on the absence or presence of highly correlated cell types.
+- the goal of NeuCA is to predict the cell labels
+derived_from:
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+source_repos:
+- https://github.com/haoharryfeng/NeuCA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haoharryfeng/NeuCA

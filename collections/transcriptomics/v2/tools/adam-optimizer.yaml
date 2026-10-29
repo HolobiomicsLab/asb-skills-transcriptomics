@@ -1,0 +1,21 @@
+name: Adam (optimizer)
+slug: adam-optimizer
+version_used: null
+edam_topics: []
+evidence_spans:
+- The objective function was optimized stochastically with Adam46 with learning rate set to 10e–5 for 139 epochs
+- For training our model, we have adopted ADAM optimizer41.
+derived_from:
+- doi: 10.1038/s41467-020-14391-0
+  title: Surface protein imputation from single cell transcriptomes by deep neural networks
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+source_repos:
+- https://github.com/zhouzilu/cTPnet
+- https://github.com/Zafar-Lab/scDREAMER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhouzilu/cTPnet

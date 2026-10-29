@@ -1,0 +1,97 @@
+name: conda
+slug: conda
+version_used: '3.10'
+edam_topics: []
+evidence_spans:
+- conda create --name bidcell python=3.10
+- We create the conda environment from the environment.yml provided and install the package from git
+- conda create -n capital python=3.8 graphviz
+- 'Create a new environment for CAPITAL (recommended)::'
+- (Recommended) Use python virutal environment with conda（https://anaconda.org/）
+- conda create -n deepcciEnv python=3.7.4 pip
+- conda install -c bioconda -c conda-forge flexiplex
+- 'You can also install Flexiplex using Anaconda: `conda install -c bioconda -c conda-forge flexiplex`'
+- conda env create -f $FST_SAMPLE_DIR/forseti/envs/build_spliceu_r.yml
+- conda env create -f $FST_SAMPLE_DIR/forseti/envs/forseti.yml
+- Most of the software used in the default workflow can be installed in an automated fashion using Snakemake's [--use-conda]
+- Given conda is installed on your system the pipeline can be set up using `snakedeploy`
+- conda env create -n Metadensity --file environment.yaml
+- Pollock is available to run in a Docker image (see below) or can be installed with Conda.
+- Install the scBonita conda environment from the provided yml file OR the provided spec-file (PREFERRED)
+- conda install conda-pack
+- conda env create -n scing --file install/scing.environment.yml
+- 'Recommended conda version: 4.12.0'
+- conda env create -f environment.yml
+- '``conda create -n <env name> python=3.9``'
+- conda create -n <env name> python=3.9
+- we strongly recommend that Conda be upgraded to at least v23.11 which uses the faster `libmamba` solver
+- $ conda install -c bioconda stream
+- $ conda create -n env_stream python=3.7 stream=1.0 jupyter
+- conda create -n env_stream python=3.7 stream=1.0 jupyter
+- conda env create --file environment.yml
+- "conda env create --file environment.yml\n    conda activate twas_sim"
+- 'conda env create --file environment.yml  # create envrionment with dependencies'
+derived_from:
+- doi: 10.1038/s41467-023-44560-w
+  title: 'BIDCell: Biologically-informed self-supervised learning for segmentation of subcellular spatial transcriptomics data'
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/s41467-022-33681-3
+  title: Alignment of single-cell trajectory trees with CAPITAL
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+- doi: 10.1093/bioinformatics/btae102
+  title: 'Flexiplex: a versatile demultiplexer and search tool for omics data'
+- doi: 10.1093/bioinformatics/btae207
+  title: "<tt>Forseti</tt>\n                    : a mechanistic and predictive model of the splicing status of scRNA-seq reads"
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+- doi: 10.1093/bioadv/vbac083
+  title: 'Metadensity: a background-aware python pipeline for summarizing CLIP signals on various transcriptomic sites'
+- doi: 10.1093/bioadv/vbac028
+  title: 'Pollock: fishing for cell states'
+- doi: 10.1038/s41540-022-00246-5
+  title: Executable models of immune signaling pathways in HIV-associated atherosclerosis
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+- doi: 10.1016/j.isci.2023.107124
+  title: 'SCING: Inference of robust, interpretable gene regulatory networks from single cell and spatial transcriptomics'
+- doi: 10.1093/bioinformatics/btad594
+  title: 'ScribbleDom: using scribble-annotated histology images to identify domains in spatial transcriptomics data'
+- doi: 10.1093/bioinformatics/btad360
+  title: Consensus label propagation with graph convolutional networks for single-cell RNA sequencing cell type annotation
+- doi: 10.1038/s41467-024-48254-9
+  title: Quantifying 3′UTR length from scRNA-seq data reveals changes independent of gene expression
+- doi: 10.1038/s41467-019-09670-4
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+- doi: 10.1093/bioinformatics/btad288
+  title: twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis
+- doi: 10.1016/j.ajhg.2022.01.002
+  title: Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity
+source_repos:
+- https://github.com/SydneyBioX/BIDCell
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/ykat0/capital
+- https://github.com/JiangBioLab/DeepCCI
+- https://github.com/DavidsonGroup/flexiplex
+- https://github.com/COMBINE-lab/forseti
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+- https://github.com/YeoLab/Metadensity
+- https://github.com/ding-lab/pollock
+- https://github.com/Thakar-Lab/scBONITA
+- https://github.com/OSU-BMBL/scDEAL
+- https://github.com/XiaYangLabOrg/SCING
+- https://github.com/1alnoman/ScribbleDom
+- https://github.com/mperozek11/scSHARP_tool
+- https://github.com/conda-forge/miniforge
+- https://github.com/conda-forge/miniforge#miniforge
+- https://github.com/Mayrlab/scUTRquant
+- https://github.com/pinellolab/stream
+- https://github.com/mancusolab/twas_sim
+- https://github.com/karltayeb/cafeh
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SydneyBioX/BIDCell

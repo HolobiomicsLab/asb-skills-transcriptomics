@@ -1,0 +1,19 @@
+name: CIRCexplorer3-CLEAR
+slug: circexplorer3-clear
+version_used: null
+edam_topics: []
+evidence_spans:
+- we update the previously-reported CIRCexplorer pipeline to version 3 for circular and linear RNA expression analysis from ribosomal-RNA depleted RNA-seq (CIRCexplorer3-CLEAR)
+- git clone https://github.com/YangLab/CLEAR
+- A CLEAR pipeline for direct comparison of circular and linear RNA expression
+derived_from:
+- doi: 10.1016/j.gpb.2019.11.004
+  title: 'CIRCexplorer3: A CLEAR Pipeline for Direct Comparison of Circular and Linear RNA Expression'
+source_repos:
+- https://github.com/YangLab/CLEAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YangLab/CLEAR

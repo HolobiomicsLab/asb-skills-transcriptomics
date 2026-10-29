@@ -1,0 +1,34 @@
+name: scvi-tools
+slug: scvi-tools
+version_used: 0.15.0
+edam_topics: []
+evidence_spans:
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+- the totalVI procedure implemented in the scvi-tools package (v0.17.3) was used for generating multimodality embeddings
+- '`scvi-tools <https://docs.scvi-tools.org/en/stable/index.html#>`_ ecosystems'
+- Inspired by the differential gene expression procedure from ``scvi-tools``
+- '`scvi-tools <https://docs.scvi-tools.org/en/stable/index.html#>`_'
+- works around the scanpy and scvi-tools ecosystems
+derived_from:
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1093/bib/bbaf243
+  title: 'scaLR: a low-resource deep neural network-based platform for single cell analysis and biomarker discovery'
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+source_repos:
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/infocusp/scaLR
+- https://github.com/bucky527/scME
+- https://github.com/yulijia/SnapCCESS
+- https://github.com/LucasESBS/vega
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Spencerfar/LatentVelo

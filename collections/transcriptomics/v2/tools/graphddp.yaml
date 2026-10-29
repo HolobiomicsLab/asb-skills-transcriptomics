@@ -1,0 +1,18 @@
+name: GraphDDP
+slug: graphddp
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have presented GraphDDP, an informed visualization approach for the detection of differentiation pathways in single-cell transcriptome data.
+- Here we present GraphDDP, which integrates both viewpoints in an intuitive visualization.
+derived_from:
+- doi: 10.1038/s41467-018-05988-7
+  title: 'GraphDDP: a graph-embedding approach to detect differentiation pathways in single-cell-data using prior class knowledge'
+source_repos:
+- https://github.com/fabriziocosta/GraphEmbed
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fabriziocosta/GraphEmbed

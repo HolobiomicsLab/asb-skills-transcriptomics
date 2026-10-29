@@ -1,0 +1,24 @@
+name: inferCNV
+slug: infercnv
+version_used: 1.4.0
+edam_topics: []
+evidence_spans:
+- with CopyKAT v1.0.5 and inferCNV v1.4.0.
+- InferCNV is one of the first methods proposed for this purpose8 and remains widely used
+derived_from:
+- doi: 10.1038/s41467-023-36790-9
+  title: A variational algorithm to detect the clonal copy number substructure of tumors from scRNA-seq data
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+source_repos:
+- https://github.com/AntonioDeFalco/SCEVAN
+- https://github.com/Dulab2020/scWizard
+- https://github.com/single-cell-genetics/XClone
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AntonioDeFalco/SCEVAN

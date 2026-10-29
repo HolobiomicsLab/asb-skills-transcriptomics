@@ -1,0 +1,18 @@
+name: kb-python
+slug: kb-python
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install cellatlas kb-python seqspec gget
+- seqspec innovates beyond existing methods such as kb-python's technology string or the read geometry string in simpleaf
+derived_from:
+- doi: 10.1093/bioinformatics/btae168
+  title: A machine-readable specification for genomics assays
+source_repos:
+- https://github.com/cellatlas/cellatlas
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cellatlas/cellatlas

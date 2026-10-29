@@ -1,0 +1,22 @@
+name: IGV
+slug: igv
+version_used: null
+edam_topics: []
+evidence_spans:
+- We also provided a closer view of the read coverage (in the region chr1:86,425,858–86,443,378) using the IGV genome browser (Fig. 2a inset).
+- a closer view of the region chr1:86,425,858–86,443,378 using the IGV genome browser46
+- This figure was made using the Integrative Genomics Viewer (IGV)12.
+derived_from:
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JSB-UCLA/scReadSim

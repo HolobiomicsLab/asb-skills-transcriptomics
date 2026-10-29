@@ -1,0 +1,19 @@
+name: xCell
+slug: xcell
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1080/2162402x.2022.2043662
+  title: Deep learning using bulk RNA-seq data expands cell landscape identification in tumor microenvironment
+- doi: 10.1016/j.xcrm.2023.101121
+  title: 'TimiGP: Inferring cell-cell interactions and prognostic associations in the tumor immune microenvironment through gene pairs'
+source_repos:
+- https://github.com/xindd/DCNet
+- https://github.com/CSkylarL/TimiGP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xindd/DCNet

@@ -1,0 +1,57 @@
+name: xgboost
+slug: xgboost
+version_used: null
+edam_topics: []
+evidence_spans:
+- Census infers hierarchical cell-type relationships and uses gradient-boosted \decision trees that capitalize on nodal cell-type relationships to achieve high prediction speed and accuracy.
+- 'xgb: XGBoost;'
+- install.packages("xgboost")
+- you will need to have the dplyr, mvtnorm, tensorflow, keras, ranger, devtools, liquidSVM, and xgboost libraries installed
+- accurately predict lncRNAs with an XGBoost model using features extracted from RNA sequences
+- XGB_model_SIF_PF.pkl
+- 'Default: XGB_model_SIF_PF.pkl'
+- 'suppressMessages(library(Seurat))
+
+  suppressMessages(library(xgboost))'
+- Dominant classification methods include XGBoost19, Random Forest (RF)20, Deep Learning (DL)21, and Gradient Boosting Machine (GBM)22
+- an XGBoost model that reported robust performances on classification tasks for tabular data
+- The result showed that XGBoost achieved higher classification accuracy compared to SVM with the same UGCB set.
+derived_from:
+- doi: 10.1093/bioinformatics/btad714
+  title: Hierarchical and automated cell-type annotation and inference of cancer cell of origin with Census
+- doi: 10.1016/j.xpro.2022.101583
+  title: Protocol for using Ciclops to build models trained on cross-platform transcriptome data for clinical outcome prediction
+- doi: 10.1093/bioadv/vbae002
+  title: Predicting evolutionary targets and parameters of gene deletion from expression data
+- doi: 10.1038/s41598-022-22082-7
+  title: 'LncDC: a machine learning-based tool for long non-coding RNA detection from RNA-Seq data'
+- doi: 10.1016/j.isci.2022.104962
+  title: miRSCAPE - inferring miRNA expression from scRNA-seq data
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1038/s41467-024-51059-5
+  title: 'scTab: Scaling cross-tissue single-cell annotation models'
+- doi: 10.1016/j.omtn.2021.10.012
+  title: 'Staem5: A novel computational approach for accurate prediction of m5C site'
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+source_repos:
+- https://github.com/sjdlabgroup/Census
+- https://github.com/GuanLab/ciclops.git
+- https://github.com/GuanLab/ciclops
+- https://github.com/anddssan/CLOUDe
+- https://github.com/lim74/LncDC
+- https://github.com/hannenhalli-lab/miRSCAPE
+- https://github.com/czythu/scCancer
+- https://github.com/duct317/scDHA
+- https://github.com/theislab/scTab
+- https://github.com/Cxd-626/Staem5
+- https://github.com/deargen/DearWXpub
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sjdlabgroup/Census

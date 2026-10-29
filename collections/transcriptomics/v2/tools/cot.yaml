@@ -1,0 +1,20 @@
+name: COT
+slug: cot
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**COT** is a Python module for machine learning built on top of NumPy and Pandas, and is distributed under the MIT license.'
+- pip install git+https://github.com/MintaYLu/COT.git
+- is a Python module for machine learning built on top of NumPy and Pandas, and is distributed under the MIT license.
+- '**COT** is a Python module for machine learning built on top of NumPy and Pandas'
+derived_from:
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+source_repos:
+- https://github.com/MintaYLu/COT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MintaYLu/COT

@@ -1,0 +1,30 @@
+name: RaceID
+slug: raceid
+version_used: 0.2.2
+edam_topics: []
+evidence_spans:
+- Prominent among these are rare cell-type identification (RaceID)15 and GiniClust16.
+- rare cell-type identification (RaceID)13
+- eminent among these are rare cell-type identification (RaceID)13, GiniClust14
+- Detecting rare cells from expression profiles by single cell RNA-seq.
+derived_from:
+- doi: 10.1038/s41467-018-07234-6
+  title: Discovery of rare cells from voluminous single cell expression data
+- doi: 10.1038/s41467-021-24489-8
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+- doi: 10.1016/j.csbj.2022.04.023
+  title: 'scEFSC: Accurate single-cell RNA-seq data analysis via ensemble consensus clustering based on multiple feature selections'
+source_repos:
+- https://github.com/princethewinner/FiRE
+- https://github.com/fabotao/GapClust
+- https://github.com/dgrun/RaceID3_StemID2_package
+- https://github.com/xuyp-csu/scCAD
+- https://github.com/Conan-Bian/scEFSC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princethewinner/FiRE

@@ -1,0 +1,33 @@
+name: pheatmap
+slug: pheatmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- list.of.packages <- c('reshape','reshape2','pheatmap','tsne','igraph','ggplot2','mclust','grid','Rtsne','cccd')
+- '* Marker fidelity heatmaps with `pheatmap`'
+- for (pkg in c("enrichplot", "pheatmap", "RColorBrewer", "gridExtra")) {
+- library(pheatmap)
+- '- `pheatmap (Imports)`'
+derived_from:
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1016/j.patter.2023.100911
+  title: 'MDIC3: Matrix decomposition to infer cell-cell communication'
+- doi: 10.1038/s41467-023-36790-9
+  title: A variational algorithm to detect the clonal copy number substructure of tumors from scRNA-seq data
+source_repos:
+- https://github.com/edroaldo/cellrouter
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/LYxiaotai/MDIC3
+- https://github.com/AntonioDeFalco/SCEVAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edroaldo/cellrouter

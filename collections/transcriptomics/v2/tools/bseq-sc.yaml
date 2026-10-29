@@ -1,0 +1,24 @@
+name: BSEQ-sc
+slug: bseq-sc
+version_used: null
+edam_topics: []
+evidence_spans:
+- BSEQ-sc15 instead generates a reference profile from single-cell expression data that is used in the CIBERSORT model
+- BSEQ-sc15 instead generates a reference profile from single-cell expression data
+- '# Estimate via BSEQ-sc
+
+  B.EMTAB.full = bseqsc_basis(EMTAB.eset, pancreasMarkers[c(''alpha'', ''beta'', ''delta'', ''gamma'')]'
+derived_from:
+- doi: 10.1038/s41467-020-15816-6
+  title: Accurate estimation of cell composition in bulk expression through robust integration of single-cell information
+- doi: 10.1038/s41467-018-08023-x
+  title: Bulk tissue cell type deconvolution with multi-subject single-cell expression reference
+source_repos:
+- https://github.com/cozygene/bisque
+- https://github.com/xuranw/MuSiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/bisque

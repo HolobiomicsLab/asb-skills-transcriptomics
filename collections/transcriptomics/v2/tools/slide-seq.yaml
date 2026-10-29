@@ -1,0 +1,17 @@
+name: Slide-seq
+slug: slide-seq
+version_used: null
+edam_topics: []
+evidence_spans:
+- reconstructing cells onto a pseudo-space with spatial transcriptome references (Visium, STARmap, Slide-seq, etc.)
+derived_from:
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+source_repos:
+- https://github.com/ZJUFanLab/scSpace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZJUFanLab/scSpace

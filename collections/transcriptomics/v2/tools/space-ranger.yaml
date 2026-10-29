@@ -1,0 +1,25 @@
+name: Space Ranger
+slug: space-ranger
+version_used: null
+edam_topics: []
+evidence_spans:
+- a ```.cloupe``` file from [space ranger output]
+- '- Space Ranger: Spatial Transcriptomics'
+- Sequencing files were processed using 10X Genomics Space Ranger pipeline
+derived_from:
+- doi: 10.1093/bioinformatics/btad594
+  title: 'ScribbleDom: using scribble-annotated histology images to identify domains in spatial transcriptomics data'
+- doi: 10.1093/bioadv/vbac061
+  title: 'STtools: a comprehensive software pipeline for ultra-high-resolution spatial transcriptomics data'
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+source_repos:
+- https://github.com/1alnoman/ScribbleDom
+- https://github.com/seqscope/STtools
+- https://github.com/fw262/TAR-scRNA-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1alnoman/ScribbleDom

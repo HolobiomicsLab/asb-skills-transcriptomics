@@ -1,0 +1,17 @@
+name: hgu133plus2.db
+slug: hgu133plus2-db
+version_used: null
+edam_topics: []
+evidence_spans:
+- BiocManager::install(c("BiocGenerics", "org.Hs.eg.db", "hgu133plus2.db", "annotate"))
+derived_from:
+- doi: 10.1038/s41467-021-21244-x
+  title: Dissection of intercellular communication using the transcriptome-based framework ICELLNET
+source_repos:
+- https://github.com/soumelis-lab/ICELLNET
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soumelis-lab/ICELLNET

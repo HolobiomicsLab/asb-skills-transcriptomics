@@ -1,0 +1,26 @@
+name: peaks2utr
+slug: peaks2utr
+version_used: null
+edam_topics: []
+evidence_spans:
+- peaks2utr Tb927_01_v5.1.gff Tb927_01_v5.1.slice.bam -p 4 -o output.gff3
+- peaks2utr <GFF_IN> <BAM_IN> [options]
+- 'peaks2utr is called from the command line as:'
+- 'peaks2utr is called from the command line as:
+
+  ```
+
+  peaks2utr <GFF_IN> <BAM_IN> [options]
+
+  ```'
+derived_from:
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+source_repos:
+- https://github.com/haessar/peaks2utr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haessar/peaks2utr

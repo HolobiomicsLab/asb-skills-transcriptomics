@@ -1,0 +1,20 @@
+name: decoupleRBench
+slug: decouplerbench
+version_used: null
+edam_topics: []
+evidence_spans:
+- called decoupleRBench
+- a separate R package to benchmark decoupleR
+- In this manuscript we have built a separate R package to benchmark decoupleR, called decoupleRBench.
+derived_from:
+- doi: 10.1093/bioadv/vbac016
+  title: 'decoupleR: ensemble of computational methods to infer biological activities from omics data'
+source_repos:
+- https://github.com/saezlab/decoupleRBench
+- https://github.com/saezlab/decoupleR_manuscript
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/saezlab/decoupleRBench

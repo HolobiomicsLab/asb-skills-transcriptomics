@@ -1,0 +1,17 @@
+name: Oscope
+slug: oscope
+version_used: null
+edam_topics: []
+evidence_spans:
+- In addition, Oscope26 checks pairs of genes to identify circular patterns
+derived_from:
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+source_repos:
+- https://github.com/KChen-lab/cyclum
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KChen-lab/cyclum

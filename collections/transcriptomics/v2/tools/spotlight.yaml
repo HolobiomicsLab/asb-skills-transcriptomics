@@ -1,0 +1,30 @@
+name: SPOTlight
+slug: spotlight
+version_used: null
+edam_topics: []
+evidence_spans:
+- we assess the agreement of cell-cell communication methods with spatial colocalisation
+- deconvolute cell type composition for each spot on single ST slice.
+- used the recommended default parameter setting on the SPOTlight GitHub repository
+- SPOTlight3 uses cell-type marker genes derived from a single-cell RNA-sequencing (scRNA-seq) reference to seed a non-negative matrix factorization.
+derived_from:
+- doi: 10.1038/s41467-022-30755-0
+  title: Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+- doi: 10.1038/s41467-022-30033-z
+  title: Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data
+source_repos:
+- https://github.com/saezlab/liana
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/MarcElosua/SPOTlight
+- https://github.com/YangLabHKUST/SpatialScope
+- https://github.com/JEFworks-Lab/STdeconvolve
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/saezlab/liana

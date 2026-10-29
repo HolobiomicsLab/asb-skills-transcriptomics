@@ -1,0 +1,17 @@
+name: HoneyBADGER
+slug: honeybadger
+version_used: null
+edam_topics: []
+evidence_spans:
+- Another method is HoneyBADGER21, which detects CNVs from scRNA-seq data.
+derived_from:
+- doi: 10.1038/s41467-019-13779-x
+  title: CaSpER identifies and visualizes CNV events by integrative analysis of single-cell or bulk RNA-sequencing data
+source_repos:
+- https://github.com/akdess/CaSpER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/akdess/CaSpER

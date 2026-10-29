@@ -1,0 +1,22 @@
+name: redPATH
+slug: redpath
+version_used: null
+edam_topics: []
+evidence_spans:
+- redpath_pseudotime <- redpath(filtered_GO_data, threadnum = 4, base_path_range = c(4:8))
+- we developed a computational method, called redPATH, to reconstruct the pseudo developmental time of cell lineages using a consensus asymmetric Hamiltonian path algorithm
+- kmeans_clusters <- kmeans_clustering(sample_mean_score$mean_scores, k = 5)
+- After downloading the package, please extract and rename the folder to "redPATH"
+- calc_correlation(full_exprs_matrix = input_data, redpath_pseudotime, type = "mic")
+derived_from:
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+source_repos:
+- https://github.com/tinglabs/redPATH
+- https://github.com/tinglab/redPATH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tinglabs/redPATH

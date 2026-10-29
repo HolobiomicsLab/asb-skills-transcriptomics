@@ -1,0 +1,17 @@
+name: ggExtra
+slug: ggextra
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `ggExtra (Imports)`'
+derived_from:
+- doi: 10.1016/j.simpa.2021.100144
+  title: 'FeatureCorr: An R package to study feature correlations aided with data transformation for sequencing and microarray data'
+source_repos:
+- https://github.com/DKundnani/FeatureCorr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DKundnani/FeatureCorr

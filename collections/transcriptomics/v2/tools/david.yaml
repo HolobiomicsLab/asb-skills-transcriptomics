@@ -1,0 +1,21 @@
+name: DAVID
+slug: david
+version_used: null
+edam_topics: []
+evidence_spans:
+- over-representation analysis methods, such as DAVID9 and Fisher
+- One can also easily rank the eeSNVs and the genes harboring them, for the purpose of identifying robust eeSNVs as genetic markers for a variety of cancers.
+derived_from:
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+source_repos:
+- https://github.com/xzhoulab/iDEA
+- https://github.com/lanagarmire/SSrGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xzhoulab/iDEA

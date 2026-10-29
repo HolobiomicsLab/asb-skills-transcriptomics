@@ -1,0 +1,17 @@
+name: VASC
+slug: vasc
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'vasc.py: contains a class VASC and a function vase'
+derived_from:
+- doi: 10.1016/j.gpb.2018.08.003
+  title: 'VASC: Dimension Reduction and Visualization of Single-Cell RNA-Seq Data by Deep Variational Autoencoder'
+source_repos:
+- https://github.com/wang-research/VASC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wang-research/VASC

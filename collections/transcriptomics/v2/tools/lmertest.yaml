@@ -1,0 +1,19 @@
+name: lmerTest
+slug: lmertest
+version_used: null
+edam_topics: []
+evidence_spans:
+- νk is estimated using Satterthwaite’s approximation in lmerTest.
+- lmerTest (Imports)
+- estimated using Satterthwaite’s approximation in lmerTest.
+derived_from:
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+source_repos:
+- https://github.com/phillipnicol/scDist
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/phillipnicol/scDist

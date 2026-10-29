@@ -1,0 +1,41 @@
+name: velocyto
+slug: velocyto
+version_used: null
+edam_topics: []
+evidence_spans:
+- velocyto-team/velocyto-notebooks
+- Anndata input file preprocessed with velocyto and
+- Anndata input file preprocessed with velocyto, scvelo (moments) and DeepCycle.
+- velocyto9 is introduced as the vanilla approach with a steady state assumption
+- velocyto is introduced as the vanilla approach with a steady state assumption
+- Previous methods, including both velocyto and scVelo, determine the gene expression dynamics along with the order of data generation
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+- doi: 10.1038/s41467-022-30545-8
+  title: Cell cycle gene regulation dynamics revealed by RNA velocity and deep-learning
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1016/j.eng.2023.12.004
+  title: A Single-Cell Landscape of Human Liver Transplantation Reveals a Pathogenic Immune Niche Associated with Early Allograft Dysfunction
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+- doi: 10.1038/s41467-022-34188-7
+  title: 'UniTVelo: temporally unified RNA velocity reinforces single-cell trajectory inference'
+source_repos:
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/velocyto-team/velocyto-notebooks
+- https://github.com/aron0093/cytopath
+- https://github.com/andreariba/DeepCycle
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/multitalk/scCrossTalk
+- https://github.com/xiaoyeye/TFvelo
+- https://github.com/StatBiomed/UniTVelo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PeterZZQ/CellPath

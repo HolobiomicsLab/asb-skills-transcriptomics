@@ -1,0 +1,20 @@
+name: GoSemSim
+slug: gosemsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- The GO semantic similarity scores were calculated using GOSemSim [36], and the network construction was done using Cytoscape [37] and a ClueGO plugin [38].
+derived_from:
+- doi: 10.1016/j.omtn.2022.10.015
+  title: 'CRIT: Identifying RNA-binding protein regulator in circRNA life cycle via non-negative matrix factorization'
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+source_repos:
+- https://github.com/BioinformaticsSTU/CRIT
+- https://github.com/smk5g5/MU-PseUDeep
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioinformaticsSTU/CRIT

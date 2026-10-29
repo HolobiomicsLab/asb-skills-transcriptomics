@@ -1,0 +1,25 @@
+name: ConsensusClusterPlus
+slug: consensusclusterplus
+version_used: null
+edam_topics: []
+evidence_spans:
+- ConsensusClusterPlus (Imports)
+- RCC uses ConsensusClusterPlus7 (CCP) as the base algorithm for dividing the data.
+- '`RCC_clus(x, config_file)`'
+derived_from:
+- doi: 10.1080/2162402x.2022.2043662
+  title: Deep learning using bulk RNA-seq data expands cell landscape identification in tumor microenvironment
+- doi: 10.1038/s42003-023-04461-6
+  title: Open-source curation of a pancreatic ductal adenocarcinoma gene expression analysis platform (pdacR) supports a two-subtype model
+- doi: 10.1038/s41598-020-67016-3
+  title: Recursive Consensus Clustering for novel subtype discovery from transcriptome data
+source_repos:
+- https://github.com/xindd/DCNet
+- https://github.com/rmoffitt/pdacR
+- https://github.com/MSCTR/RecursiveConsensusClustering
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xindd/DCNet

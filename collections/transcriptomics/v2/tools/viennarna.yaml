@@ -1,0 +1,18 @@
+name: ViennaRNA
+slug: viennarna
+version_used: null
+edam_topics: []
+evidence_spans:
+- ViennaRNA (Optional, only required when using secondary structure features for prediction)
+- conda install -c bioconda viennarna
+derived_from:
+- doi: 10.1038/s41598-022-22082-7
+  title: 'LncDC: a machine learning-based tool for long non-coding RNA detection from RNA-Seq data'
+source_repos:
+- https://github.com/lim74/LncDC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lim74/LncDC

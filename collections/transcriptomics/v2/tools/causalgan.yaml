@@ -1,0 +1,17 @@
+name: CausalGAN
+slug: causalgan
+version_used: null
+edam_topics: []
+evidence_spans:
+- a causal implicit generative model for reference-based GRN-guided simulation of scRNA-seq data inspired by CausalGAN31
+derived_from:
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+source_repos:
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Emad-COMBINE-lab/GRouNdGAN

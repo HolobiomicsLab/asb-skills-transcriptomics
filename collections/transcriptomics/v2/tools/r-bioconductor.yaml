@@ -1,0 +1,25 @@
+name: R/Bioconductor
+slug: r-bioconductor
+version_used: null
+edam_topics: []
+evidence_spans:
+- The curated datasets are available as an R/Bioconductor experimental data package curatedAdipoArray.
+- the ExpHunter Suite, implemented as an R/Bioconductor package including auxiliary scripts for assessing performance and simulating RNA-seq data
+- We leverage the DESeq2 R/Bioconductor package to identify the differentially expressed (DE) genes46
+derived_from:
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+- doi: 10.1038/s41540-021-00175-9
+  title: Computational analysis of fused co-expression networks for the identification of candidate cancer gene biomarkers
+source_repos:
+- https://github.com/MahShaaban/curatedAdipoArray
+- https://github.com/seoanezonjic/ExpHunterSuite
+- https://github.com/DEIB-GECO/GeneNetFusion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MahShaaban/curatedAdipoArray

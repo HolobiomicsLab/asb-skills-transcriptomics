@@ -1,0 +1,23 @@
+name: ICELLNET
+slug: icellnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- an original expert-curated database of ligand-receptor interactions
+- install_github("soumelis-lab/ICELLNET",ref="master", subdir="icellnet")
+- '## New on ICELLNET v2 - corresponding paper [link](https://pubmed.ncbi.nlm.nih.gov/38490248/)'
+- 9 pairs from Supplementary Table 1 of ICELLNET21
+derived_from:
+- doi: 10.1038/s41467-021-21244-x
+  title: Dissection of intercellular communication using the transcriptome-based framework ICELLNET
+- doi: 10.1038/s41467-020-18873-z
+  title: Predicting cell-to-cell communication networks using NATMI
+source_repos:
+- https://github.com/soumelis-lab/ICELLNET
+- https://github.com/forrest-lab/NATMI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soumelis-lab/ICELLNET

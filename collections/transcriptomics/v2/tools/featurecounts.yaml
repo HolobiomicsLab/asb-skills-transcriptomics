@@ -1,0 +1,39 @@
+name: featureCounts
+slug: featurecounts
+version_used: null
+edam_topics: []
+evidence_spans:
+- counting methods such as SplAdder, sigcount (Canzar et al. 2016), htseq-count (Anders et al. 2015), or featureCounts (Liao et al. 2014).
+- Raw RNA-seq reads were mapped to the hg19 transcriptome using TopHat2 [24], and featureCounts [25] was used to assign the reads to each gene.
+- featureCounts was used to assign the reads to each gene
+- FeatureCount from UMI-tools is employed to filter out reads that not align properly to this target gene.
+- 'featureCounts: an efficient general purpose program for assigning sequence reads to genomic features'
+- The featureCounts45 tool, with strandedness option set to 1 (-s 1) and paired-end option set (-p), was used to generate a count of each TAR features
+- 'featureCounts: an efficient general purpose program for assigning sequence reads to genomic features'
+- tiny-count can quantify reads aligned to a genome or directly to small RNA or transcript sequences.
+derived_from:
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+- doi: 10.1016/j.gpb.2021.03.003
+  title: 'FunHoP: Enhanced Visualization and Analysis of Functionally Homologous Proteins in Complex Metabolic Networks'
+- doi: 10.1038/s42003-023-05351-7
+  title: GiRAFR improves gRNA detection and annotation in single-cell CRISPR screens
+- doi: 10.1038/s41467-017-02391-6
+  title: Perturbation-response genes reveal signaling footprints in cancer gene expression
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+- doi: 10.1093/bioadv/vbad065
+  title: 'tiny-count: a counting tool for hierarchical classification and quantification of small RNA-seq reads with single-nucleotide precision'
+source_repos:
+- https://github.com/canzarlab/fortuna
+- https://github.com/kjerstirise/FunHoP
+- https://github.com/FunctionalEpigeneticsLab/GiRAFR
+- https://github.com/saezlab/progeny
+- https://github.com/fw262/TAR-scRNA-seq
+- https://github.com/MontgomeryLab/tinyRNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/canzarlab/fortuna

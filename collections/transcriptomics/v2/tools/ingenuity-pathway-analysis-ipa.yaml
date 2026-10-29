@@ -1,0 +1,17 @@
+name: Ingenuity Pathway Analysis (IPA)
+slug: ingenuity-pathway-analysis-ipa
+version_used: null
+edam_topics: []
+evidence_spans:
+- as defined by Ingenuity Pathway Analysis (IPA)
+derived_from:
+- doi: 10.1038/ncomms11988
+  title: Mpath maps multi-branching single-cell trajectories revealing progenitor cell progression during development
+source_repos:
+- https://github.com/JinmiaoChenLab/Mpath
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JinmiaoChenLab/Mpath

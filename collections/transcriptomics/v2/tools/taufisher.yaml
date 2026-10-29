@@ -1,0 +1,22 @@
+name: tauFisher
+slug: taufisher
+version_used: null
+edam_topics: []
+evidence_spans:
+- We will train `tauFisher` on the bulk data set and test on the single cell.
+- Here we present tauFisher, a computational pipeline that accurately predicts circadian time from a single transcriptomic sample
+- library(tauFisher)
+- trained_JTK <- train_tauFisher(periodic_genes=genes$JTK,
+- We will use both `Lomb-Scargle` and `JTK_Cycle` to find the periodic genes.
+- test_tauFisher(chosen_genes=trained_JTK$Genes,
+derived_from:
+- doi: 10.1038/s41467-024-48041-6
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+source_repos:
+- https://github.com/micnngo/tauFisher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/micnngo/tauFisher

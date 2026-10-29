@@ -1,0 +1,18 @@
+name: BIRD
+slug: bird
+version_used: null
+edam_topics: []
+evidence_spans:
+- Currently, BIRD supports Linux/Unix and macOS system.
+- We develop BIRD, Big Data Regression for predicting DH, to handle this high-dimensional problem.
+derived_from:
+- doi: 10.1038/s41467-017-01188-x
+  title: Genome-wide prediction of DNase I hypersensitivity using gene expression
+source_repos:
+- https://github.com/WeiqiangZhou/BIRD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WeiqiangZhou/BIRD

@@ -1,0 +1,32 @@
+name: SeuratData
+slug: seuratdata
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(SeuratData)
+- library(SeuratData)
+- 'library(SeuratData)      # PBMC3k dataset'
+- 'library(Seurat)
+
+  library(SeuratData)'
+derived_from:
+- doi: 10.1038/s41598-022-07959-x
+  title: Computation and visualization of cell–cell signaling topologies in single-cell systems data using Connectome
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+source_repos:
+- https://github.com/msraredon/Connectome
+- https://github.com/qingnanl/gsdensity
+- https://github.com/jr-leary7/SCISSORS
+- https://github.com/satijalab/seurat-data
+- https://github.com/alexisvdb/singleCellHaystack
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/msraredon/Connectome

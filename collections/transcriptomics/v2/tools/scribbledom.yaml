@@ -1,0 +1,19 @@
+name: ScribbleDom
+slug: scribbledom
+version_used: null
+edam_topics: []
+evidence_spans:
+- we propose a potential avenue for enhancement through the development of a semi-supervised convolutional neural network based approach. Named "ScribbleDom"
+- Named "ScribbleDom"
+- we propose a potential avenue for enhancement through the development of a semi-supervised convolutional neural network based approach
+derived_from:
+- doi: 10.1093/bioinformatics/btad594
+  title: 'ScribbleDom: using scribble-annotated histology images to identify domains in spatial transcriptomics data'
+source_repos:
+- https://github.com/1alnoman/ScribbleDom
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1alnoman/ScribbleDom

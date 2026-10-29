@@ -1,0 +1,21 @@
+name: github.com/COMBINE-lab/simpleaf
+slug: github-com-combine-lab-simpleaf
+version_used: null
+edam_topics: []
+evidence_spans:
+- It is freely available from its GitHub repository https://github.com/COMBINE-lab/simpleaf, and via bioconda.
+- 'Source: github:github.com__COMBINE-lab__simpleaf'
+- '`simpleaf` requires [`alevin-fry`](https://github.com/COMBINE-lab/alevin-fry)'
+- before filing an issue on GitHub, please make sure you try to increase your file handle limit
+- as described [here](https://github.com/COMBINE-lab/cuttlefish/blob/master/README.md#note)
+derived_from:
+- doi: 10.1093/bioinformatics/btad614
+  title: "<tt>simpleaf</tt>\n                    : a simple, flexible, and scalable framework for single-cell data processing using alevin-fry"
+source_repos:
+- https://github.com/COMBINE-lab/simpleaf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/COMBINE-lab/simpleaf

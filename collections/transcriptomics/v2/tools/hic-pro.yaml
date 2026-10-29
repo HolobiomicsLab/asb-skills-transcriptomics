@@ -1,0 +1,17 @@
+name: HiC-Pro
+slug: hic-pro
+version_used: null
+edam_topics: []
+evidence_spans:
+- We recommend use HiC-pro and hichipper to preprocess the HiChIP data
+derived_from:
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+source_repos:
+- https://github.com/SUwonglab/DC3
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SUwonglab/DC3

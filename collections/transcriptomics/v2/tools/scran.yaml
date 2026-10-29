@@ -1,0 +1,54 @@
+name: scran
+slug: scran
+version_used: 1.12.1
+edam_topics: []
+evidence_spans:
+- mutual nearest neighbors16 (MNN) (implemented in scran)
+- The popular pipelines for these analyses include scran1, Seurat2, and SINCERA3.
+- CellContrast accepted log-normalized gene expressions, which were calculated by scran
+- The normalisation procedure was accomplished using the scran package44.
+- library(scran)
+- conducting a differential expression analysis between a cell line and all others using the findMarkers function from scran53
+- using the findMarkers function from scran
+- namely, scran (Lun et al., 2016), scater (McCarthy et al., 2017), scDblFinder (Germain et al., 2022)
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1038/s41467-021-24489-8
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-024-45198-y
+  title: The impacts of active and self-supervised learning on efficient annotation of single-cell expression data
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+- doi: 10.1002/sim.9430
+  title: Differential expression of single‐cell RNA‐seq data using Tweedie models
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/mandricigor/batman
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/HKU-BAL/CellContrast
+- https://github.com/xiaorudong/Escort
+- https://github.com/fabotao/GapClust
+- https://github.com/csglab/GEDI
+- https://github.com/camlab-bioml/leader
+- https://github.com/bioinfocz/scdrake
+- https://github.com/ZJUFanLab/scTITANS
+- https://github.com/himelmallick/Tweedieverse
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

@@ -1,0 +1,18 @@
+name: suffpcr
+slug: suffpcr
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(suffpcr)
+- out <- suffPCR(X, y, d=1:3)
+derived_from:
+- doi: 10.1093/bioadv/vbac033
+  title: Sufficient principal component regression for pattern discovery in transcriptomic data
+source_repos:
+- https://github.com/dajmcdon/suffpcr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dajmcdon/suffpcr

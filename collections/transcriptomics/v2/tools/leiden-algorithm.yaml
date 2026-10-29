@@ -1,0 +1,17 @@
+name: Leiden algorithm
+slug: leiden-algorithm
+version_used: null
+edam_topics: []
+evidence_spans:
+- we performed rough clustering across the whole dataset using the Leiden algorithm
+derived_from:
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+source_repos:
+- https://github.com/cistrome/MIRA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cistrome/MIRA

@@ -1,0 +1,19 @@
+name: uts
+slug: uts
+version_used: null
+edam_topics: []
+evidence_spans:
+- uts
+- "uts\n\noptional inputs:  \n\nK        -> number of features to be selected (integer value)"
+- features -> The selected features in descending order of importance (ranked by column index)
+derived_from:
+- doi: 10.1016/j.patter.2022.100471
+  title: 'Relevance, redundancy, and complementarity trade-off (RRCT): A principled, generic, robust feature-selection tool'
+source_repos:
+- https://github.com/ThanasisTsanas/RRCT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ThanasisTsanas/RRCT

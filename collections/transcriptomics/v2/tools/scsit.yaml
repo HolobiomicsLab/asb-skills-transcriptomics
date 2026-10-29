@@ -1,0 +1,16 @@
+name: SCSit
+slug: scsit
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2021.08.021
+  title: 'SCSit: A high-efficiency preprocessing tool for single-cell sequencing data from SPLiT-seq'
+source_repos:
+- https://github.com/shang-qian/SCSit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shang-qian/SCSit

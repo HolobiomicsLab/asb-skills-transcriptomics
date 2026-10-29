@@ -1,0 +1,18 @@
+name: flexiplex-filter
+slug: flexiplex-filter
+version_used: null
+edam_topics: []
+evidence_spans:
+- flexiplex-filter --whitelist 3M-february-2018.txt --outfile filtered.txt flexiplex_barcodes_counts.txt
+derived_from:
+- doi: 10.1093/bioinformatics/btae102
+  title: 'Flexiplex: a versatile demultiplexer and search tool for omics data'
+source_repos:
+- https://github.com/DavidsonGroup/flexiplex
+- https://github.com/davidsongroup/flexiplex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DavidsonGroup/flexiplex

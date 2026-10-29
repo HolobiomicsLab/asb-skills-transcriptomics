@@ -1,0 +1,45 @@
+name: Jupyter
+slug: jupyter
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'In a jupyter notebook, you can see documentation using, for example:'
+- In a jupyter notebook, you can see documentation using
+- Cell type prediction can be recomputed interactively within a Jupyter notebook within twenty seconds for even large datasets
+- 'Install: Jupyter in Anaconda'
+- '- Install: Jupyter in Anaconda'
+- Using Metadensity in Jupyter notebooks
+- please use the provided Jupyter notebook to convert the data to `.h5` or `.h5ad`
+- All python code and an accompanying Jupyter notebook with demonstrations are available
+- Welcome to scKINETICS's documentation!
+- '`jupyter <https://jupyter.org/>`_ for running RNA velocity within notebooks'
+derived_from:
+- doi: 10.1093/bioinformatics/btad435
+  title: <i>Cytocipher</i> determines significantly different populations of cells in single-cell RNA-seq data
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1016/j.csbj.2020.10.032
+  title: Accurate prediction of RNA 5-hydroxymethylcytosine modification by utilizing novel position-specific gapped k-mer descriptors
+- doi: 10.1093/bioadv/vbac083
+  title: 'Metadensity: a background-aware python pipeline for summarizing CLIP signals on various transcriptomic sites'
+- doi: 10.1038/s41467-019-14018-z
+  title: Realistic in silico generation and augmentation of single-cell RNA-seq data using generative adversarial networks
+- doi: 10.1093/bioinformatics/btad267
+  title: 'scKINETICS: inference of regulatory velocity with single-cell transcriptomics data'
+- doi: 10.1038/s41467-022-34188-7
+  title: 'UniTVelo: temporally unified RNA velocity reinforces single-cell trajectory inference'
+source_repos:
+- https://github.com/BradBalderson/Cytocipher
+- https://github.com/nceglia/genevector
+- https://github.com/zahid6454/iRNA5hmC-PS
+- https://github.com/algaebrown/Metadensity
+- https://github.com/YeoLab/Metadensity
+- https://github.com/imsb-uke/scGAN
+- https://github.com/dpeerlab/scKINETICS
+- https://github.com/StatBiomed/UniTVelo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BradBalderson/Cytocipher

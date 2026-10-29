@@ -1,0 +1,37 @@
+name: minimap2
+slug: minimap2
+version_used: '2.24'
+edam_topics: []
+evidence_spans:
+- minimap2 -d atac/ref.mmi reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+- Reads in the fastq files were aligned using minimap2 according to the ENCODE standard parameters
+- '[Minimap2](https://github.com/lh3/minimap2) if not using STARlong'
+- The last column performs the alignment using Minimap2.
+- Benchmark was also performed using minimap2 (Li 2018) as mapper with the options "-ax splice:hq -uf –secondary = no".
+derived_from:
+- doi: 10.1093/bioinformatics/btae168
+  title: A machine-readable specification for genomics assays
+- doi: 10.1093/bioinformatics/btad649
+  title: 'dsRID: <i>in silico</i> identification of dsRNA regions using long-read RNA-seq data'
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+- doi: 10.1007/s00439-023-02539-z
+  title: 'VIsoQLR: an interactive tool for the detection, quantification and fine-tuning of isoforms in selected genes using long-read sequencing'
+source_repos:
+- https://github.com/cellatlas/cellatlas
+- https://github.com/gxiaolab/dsRID
+- https://github.com/yuntianf/Longcell
+- https://github.com/F0nz0/NanoSpeech_basecaller
+- https://github.com/lh3/minimap2
+- https://github.com/noush-joglekar/scisorseqr
+- https://github.com/TBLabFJD/VIsoQLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cellatlas/cellatlas

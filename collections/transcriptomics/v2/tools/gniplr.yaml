@@ -1,0 +1,21 @@
+name: GNIPLR
+slug: gniplr
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used the [GNIPLR](https://github.com/zyllluck/GNIPLR) algorithm (Gene networks inference based on projection and lagged regression) to infer GRN in our paper
+- algorithm (Gene networks inference based on projection and lagged regression) to infer GRN in our paper
+- Here, we used the GNIPLR111 algorithm (gene network inference on the basis of projection and lagged regression) to investigate GRNs with high accuracy.
+- We used the [GNIPLR](https://github.com/zyllluck/GNIPLR) algorithm (Gene networks inference based on projection and lagged regression) to infer GRN in our paper.
+derived_from:
+- doi: 10.1016/j.patter.2023.100911
+  title: 'MDIC3: Matrix decomposition to infer cell-cell communication'
+source_repos:
+- https://github.com/zyllluck/GNIPLR
+- https://github.com/LYxiaotai/MDIC3
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zyllluck/GNIPLR

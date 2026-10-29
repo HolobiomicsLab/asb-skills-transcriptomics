@@ -1,0 +1,17 @@
+name: SparseArrays.jl
+slug: sparsearrays-jl
+version_used: null
+edam_topics: []
+evidence_spans:
+- we allocated only non-zero values and their indices in the data matrix to memory using SparseArrays.jl module
+derived_from:
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mathbiomed/scLENS

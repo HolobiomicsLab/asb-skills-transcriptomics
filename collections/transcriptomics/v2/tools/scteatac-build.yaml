@@ -1,0 +1,17 @@
+name: scTEATAC_build
+slug: scteatac-build
+version_used: null
+edam_topics: []
+evidence_spans:
+- $ scTEATAC_build -g mm10.te.bed -o mm10.te.atac
+derived_from:
+- doi: 10.1038/s41467-021-21808-x
+  title: Identifying transposable element expression dynamics and heterogeneity during development at the single-cell level with a processing pipeline scTE
+source_repos:
+- https://github.com/JiekaiLab/scTE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiekaiLab/scTE

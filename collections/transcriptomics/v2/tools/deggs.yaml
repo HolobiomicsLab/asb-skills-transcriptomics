@@ -1,0 +1,19 @@
+name: DEGGs
+slug: deggs
+version_used: null
+edam_topics: []
+evidence_spans:
+- The DEGGs package enables the exploration of differential gene-gene correlations in different phenotipical groups.
+- The DEGGs package enables the exploration of differential gene-gene correlations
+- 'you will need to use the `extract_sig_deggs` with `subnetworks_object` as input:'
+derived_from:
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+source_repos:
+- https://github.com/elisabettasciacca/DEGGs
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/elisabettasciacca/DEGGs

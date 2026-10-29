@@ -1,0 +1,23 @@
+name: AnnSQL
+slug: annsql
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Python based AnnSQL package enables SQL-based queries on AnnData objects
+- AnnSQL converts the layers of an AnnData object into a relational [DuckDB](https://duckdb.org/) database
+- asql = AnnSQL(adata=adata)
+- MakeDb(adata, db_path="../db/random/", db_name="random_data_"+str(i), create_all_indexes=False, convenience_view=False)
+- we introduce AnnSQL, a Python package that constructs an AnnData-inspired database using the in-process DuckDb engine
+- The Python based AnnSQL package enables SQL-based queries
+- from AnnSQL import AnnSQL
+derived_from:
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+source_repos:
+- https://github.com/ArpiarSaundersLab/annsql
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ArpiarSaundersLab/annsql

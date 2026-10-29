@@ -1,0 +1,19 @@
+name: GeneVector
+slug: genevector
+version_used: null
+edam_topics: []
+evidence_spans:
+- model = GeneVector(dataset, output_file="genes.vec", emb_dimension=100)
+- GeneVector is a Python library for single-cell RNA sequencing analysis that learns distributed gene representations using a neural embedding approach
+- GeneVector is a Python library for single-cell RNA sequencing analysis
+derived_from:
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+source_repos:
+- https://github.com/nceglia/genevector
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nceglia/genevector

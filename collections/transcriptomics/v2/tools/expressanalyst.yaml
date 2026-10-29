@@ -1,0 +1,18 @@
+name: ExpressAnalyst
+slug: expressanalyst
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed ExpressAnalyst ( www.expressanalyst.ca ), a web-based platform for processing, analyzing, and interpreting RNA-sequencing data from any eukaryotic species.
+- is the underlying R package synchronized with ExpressAnalyst web server
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

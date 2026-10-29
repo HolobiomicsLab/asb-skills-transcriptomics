@@ -1,0 +1,19 @@
+name: Dandelion
+slug: dandelion
+version_used: null
+edam_topics: []
+evidence_spans:
+- A python-based package, Dandelion , introduced the VDJ-feature space method
+- using the `palantir` package
+derived_from:
+- doi: 10.1016/j.csbj.2025.06.047
+  title: "<i>dandelionR</i>\n                    : Single-cell immune repertoire trajectory analysis in R"
+source_repos:
+- https://github.com/zktuong/dandelion
+- https://github.com/tuonglab/dandelionR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zktuong/dandelion

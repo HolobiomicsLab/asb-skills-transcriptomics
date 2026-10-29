@@ -1,0 +1,17 @@
+name: DeepViFi
+slug: deepvifi
+version_used: null
+edam_topics: []
+evidence_spans:
+- We compared the performance of this model to previous models trained to identify viruses, namely DeepViFi16, DeepVirFinder15, ViraMiner21
+derived_from:
+- doi: 10.1038/s41467-023-36336-z
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+source_repos:
+- https://github.com/AuslanderLab/virnatrap
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AuslanderLab/virnatrap

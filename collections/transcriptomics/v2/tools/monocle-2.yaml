@@ -1,0 +1,39 @@
+name: Monocle 2
+slug: monocle-2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Monocle 2 addresses many of these challenges but is not designed to reconstruct trajectories between any two chosen cell states
+- Limitations include reconstructing linear trajectories (Waterfall, Monocle 1)
+- Examples of such work provided early inspiration for single-cell pseudotime methods, e.g., Monocle2.
+- PhEMD required the use of Monocle 2 (Trapnell et al, 2014) to perform normalization, dimension reduction, and clustering of cells.
+- For the retinoic acid dataset, we apply Monocle 2
+- such as monocle 2 and Seurat7,8
+- Monocle 2 are widely used for scRNA-seq clustering and the inference of single-cell trajectories
+- we reconstruct the single-cell trajectory of HSMM differentiation using Monocle 2 (Qiu et al., 2017)
+derived_from:
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+- doi: 10.1016/j.celrep.2022.110333
+  title: Network inference with Granger causality ensembles on single-cell transcriptomics
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+- doi: 10.1016/j.isci.2020.101126
+  title: 'Sphetcher: Spherical Thresholding Improves Sketching of Single-Cell Transcriptomic Heterogeneity'
+source_repos:
+- https://github.com/edroaldo/cellrouter
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/CostaLab/PILOT
+- https://github.com/gitter-lab/SINGE
+- https://github.com/alexisvdb/singleCellHaystack
+- https://github.com/canzarlab/Sphetcher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edroaldo/cellrouter

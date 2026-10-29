@@ -1,0 +1,18 @@
+name: CombinationDrugMyeloma
+slug: combinationdrugmyeloma
+version_used: null
+edam_topics: []
+evidence_spans:
+- Declared exports parsed from the repository (NAMESPACE / __init__ / entry points).
+- '- `d (CombinationDrugMyeloma)`'
+derived_from:
+- doi: 10.1038/s41408-022-00636-2
+  title: 'secDrug: a pipeline to discover novel drug combinations to kill drug-resistant multiple myeloma cells using a greedy set cover algorithm and single-cell multi-omics'
+source_repos:
+- https://github.com/Ujjal-Mukherjee/secDrug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ujjal-Mukherjee/secDrug

@@ -1,0 +1,18 @@
+name: scdrake
+slug: scdrake
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`{scdrake}` offers two pipelines - one for single-sample, and second one for integration of multiple samples'
+- 'Stage `02_int_clustering`: post-integration clustering and cell annotation'
+derived_from:
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+source_repos:
+- https://github.com/bioinfocz/scdrake
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinfocz/scdrake

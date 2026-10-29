@@ -1,0 +1,19 @@
+name: dipm (R package)
+slug: dipm-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- R package for implementing the Depth Importance in Precision Medicine (DIPM) tree and forest based method
+- '`dipm(formula, data, types, nmin, nmin2, ntree, mtry, maxdepth, maxdepth2, ncores, print, dataframe, prune)`'
+- '- `node_dipm(obj, ...)`'
+derived_from:
+- doi: 10.1093/bioadv/vbac041
+  title: 'dipm: an R package implementing the Depth Importance in Precision Medicine (DIPM) tree and Forest-based method'
+source_repos:
+- https://github.com/chenvict/dipm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chenvict/dipm

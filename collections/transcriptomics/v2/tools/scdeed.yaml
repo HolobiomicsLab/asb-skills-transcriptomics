@@ -1,0 +1,19 @@
+name: scDEED
+slug: scdeed
+version_used: null
+edam_topics: []
+evidence_spans:
+- result = scDEED(data, K = K, reduction.method = 'tsne', perplexity = 40, rerun = F)
+- result = scDEED(data, K = K, reduction.method = 'tsne', perplexity = seq(from = 20, to = 410, by = 30))
+- result = scDEED(data, K = 12, pre_embedding = pre_embedding, permuted = data.permuted, reduction.method = 'tsne')
+derived_from:
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+source_repos:
+- https://github.com/JSB-UCLA/scDEED
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JSB-UCLA/scDEED

@@ -1,0 +1,35 @@
+name: sctransform
+slug: sctransform
+version_used: null
+edam_topics: []
+evidence_spans:
+- including ρ-sctransform and ρ-analytic PR
+- The normalization step (e.g., sctransform14, bayNorm15, and Sanity16) removes confounding technical noises from raw read counts
+- We recommend using scTransform13 to normalize, although the method is compatible with any normalization approach.
+- We also examined ZINB-WaVE40, employing a model-based DR method, and scTransform23, using a model-based normalization method, as alternatives to log normalization.
+- using a model-based normalization method
+- satijalab/sctransform
+derived_from:
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1038/s41467-021-26682-1
+  title: Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+- doi: 10.1038/s42003-022-04093-2
+  title: Multi-level cellular and functional annotation of single-cell transcriptomes using scPipeline
+source_repos:
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/lingfeiwang/normalisr
+- https://github.com/phillipnicol/scDist
+- https://github.com/Mathbiomed/scLENS
+- https://github.com/satijalab/sctransform
+- https://github.com/NMikolajewicz/scMiko
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChangSuBiostats/CS-CORE

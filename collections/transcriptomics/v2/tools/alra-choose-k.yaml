@@ -1,0 +1,17 @@
+name: ALRA choose_k
+slug: alra-choose-k
+version_used: null
+edam_topics: []
+evidence_spans:
+- k_choice <- choose_k(A_norm)
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+source_repos:
+- https://github.com/KlugerLab/ALRA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

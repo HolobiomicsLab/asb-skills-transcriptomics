@@ -1,0 +1,18 @@
+name: BREM-SC
+slug: brem-sc
+version_used: null
+edam_topics: []
+evidence_spans:
+- BREM-SC10, a hierarchical Bayesian mixture model, applies two multinomial models to jointly characterize scRNA-seq and ADT data.
+derived_from:
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+source_repos:
+- https://github.com/tarot0410/BREMSC
+- https://github.com/xianglin226/scMDC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tarot0410/BREMSC

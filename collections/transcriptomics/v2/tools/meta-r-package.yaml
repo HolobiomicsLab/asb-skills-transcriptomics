@@ -1,0 +1,17 @@
+name: meta R package
+slug: meta-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- The meta R package was used to assess heterogeneity between study datasets.
+derived_from:
+- doi: 10.1016/j.ebiom.2023.104472
+  title: Early peripheral blood MCEMP1 and HLA-DRA expression predicts COVID-19 prognosis
+source_repos:
+- https://github.com/kuanrongchan/COVID19-severity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuanrongchan/COVID19-severity

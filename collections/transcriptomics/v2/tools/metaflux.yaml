@@ -1,0 +1,21 @@
+name: METAFlux
+slug: metaflux
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(METAFlux)
+- flux<-compute_flux(mras=scores,medium = human_blood)#if data are human derived samples
+- Here, we present a computational framework METAFlux (METAbolic Flux balance analysis) to infer metabolic fluxes from bulk or single-cell transcriptomic data.
+- This vignette will cover a quick workflow and a step by step explanation of calculating metabolic fluxes using METAFlux(METAbolic Flux balance analysis)
+- calculating metabolic fluxes using METAFlux(METAbolic Flux balance analysis)
+derived_from:
+- doi: 10.1038/s41467-023-40457-w
+  title: Characterizing cancer metabolism from bulk and single-cell RNA-seq data using METAFlux
+source_repos:
+- https://github.com/KChen-lab/METAFlux
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KChen-lab/METAFlux

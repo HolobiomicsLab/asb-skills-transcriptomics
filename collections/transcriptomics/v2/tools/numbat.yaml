@@ -1,0 +1,17 @@
+name: Numbat
+slug: numbat
+version_used: null
+edam_topics: []
+evidence_spans:
+- Instead, Numbat was recently introduced to substantially resolve such challenge by aggregating multiple variants via population haplotype-based phasing12
+derived_from:
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+source_repos:
+- https://github.com/single-cell-genetics/XClone
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/XClone

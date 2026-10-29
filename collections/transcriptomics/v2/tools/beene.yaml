@@ -1,0 +1,20 @@
+name: BEENE
+slug: beene
+version_used: null
+edam_topics: []
+evidence_spans:
+- The class _beene_model_ has all the necessary functions for building the BEENE model, training the model
+- The class _beene_model_ has all the necessary functions for building the BEENE model, training the model, getting the embeddings
+- The class _beene_model_ has all the necessary functions for building the BEENE model
+- The class _beene_model_ has all the necessary functions for building the BEENE model, training the model, getting the embeddings, and as well as calculating iLISI values.
+derived_from:
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+source_repos:
+- https://github.com/ashiq24/BEENE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ashiq24/BEENE

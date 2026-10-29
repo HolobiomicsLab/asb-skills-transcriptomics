@@ -1,0 +1,23 @@
+name: dandelionR
+slug: dandelionr
+version_used: 4.4.1
+edam_topics: []
+evidence_spans:
+- The dandelionR::setupVdjPseudobulk function preprocessed the single-cell VDJ data by Suo et al. [24].
+- pb.milo <- vdjPseudobulk(milo_object,
+- "we implement the absorbing markov chain \napproach in dandelionR to infer the trajectory"
+- we present dandelionR, an R implementation of Dandelion’s trajectory analysis workflow,
+- we present dandelionR , an R implementation of Dandelion 's trajectory analysis workflow
+- library(dandelionR)
+- dandelionR is developed and tested in R v4.4.1 and is available through Bioconductor
+derived_from:
+- doi: 10.1016/j.csbj.2025.06.047
+  title: "<i>dandelionR</i>\n                    : Single-cell immune repertoire trajectory analysis in R"
+source_repos:
+- https://github.com/tuonglab/dandelionR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tuonglab/dandelionR

@@ -1,0 +1,19 @@
+name: q-diffusion
+slug: q-diffusion
+version_used: null
+edam_topics: []
+evidence_spans:
+- We introduce q-diffusion, a framework for capturing the coexpression structure of an entire library of genes
+- We introduce q-diffusion, a framework for capturing the coexpression structure of an entire library of genes, improving on state-of-the-art analysis tools.
+- We experimented with our q-diffused kernel and a more typical Gaussian baseline for MMD.
+derived_from:
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+source_repos:
+- https://github.com/marmarelis/QDiffusion.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marmarelis/QDiffusion.jl

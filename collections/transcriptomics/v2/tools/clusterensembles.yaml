@@ -1,0 +1,19 @@
+name: ClusterEnsembles
+slug: clusterensembles
+version_used: null
+edam_topics: []
+evidence_spans:
+- the HyperGraph Partitioning Algorithm (HGPA), Meta-Clustering Algorithm (MCLA) and Hybrid Bipartite Graph Formulation (HBGF), using the Python package ClusterEnsembles with default options
+- using the Python package ClusterEnsembles with default options (https://github.com/tsano430/ClusterEnsembles).
+derived_from:
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+source_repos:
+- https://github.com/tsano430/ClusterEnsembles
+- https://github.com/frankligy/scTriangulate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tsano430/ClusterEnsembles

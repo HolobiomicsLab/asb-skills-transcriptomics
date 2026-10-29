@@ -1,0 +1,19 @@
+name: STdeconvolve
+slug: stdeconvolve
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop STdeconvolve as a reference-free approach to deconvolve underlying cell types comprising such multi-cellular pixel resolution spatial transcriptomics (ST) datasets
+- remotes::install_github('JEFworks-Lab/STdeconvolve')
+- STdeconvolve applies LDA to infer the putative transcriptional profile for each cell type and the proportional representation of each cell type in each multi-cellular ST pixel
+derived_from:
+- doi: 10.1038/s41467-022-30033-z
+  title: Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data
+source_repos:
+- https://github.com/JEFworks-Lab/STdeconvolve
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JEFworks-Lab/STdeconvolve

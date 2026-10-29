@@ -1,0 +1,20 @@
+name: reshape2
+slug: reshape2
+version_used: null
+edam_topics: []
+evidence_spans:
+- install.packages("reshape2")
+derived_from:
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1016/j.ailsci.2021.100025
+  title: 'OmicInt package: Exploring omics data and regulatory networks using integrative analyses and machine learning'
+source_repos:
+- https://github.com/bsml320/deCS
+- https://github.com/AusteKan/OmicInt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bsml320/deCS

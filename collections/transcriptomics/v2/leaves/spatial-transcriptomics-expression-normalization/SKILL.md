@@ -1,0 +1,135 @@
+---
+name: spatial-transcriptomics-expression-normalization
+description: Use when analyzing Space Ranger count matrices from 10X Visium spots
+  (e.g., 747 day-4 chicken heart spots from 5 hearts, 1995 day-14 spots) where spatial
+  uTAR expression must be compared on a common log scale with gene markers such as
+  TNNT2, COL1A1, or HBZ.
+when_to_use_negative:
+- Input is already a normalized feature-by-spot expression table or a non-spatial
+  (dissociated) scRNA-seq matrix, where the Visium spot-level normalization is unnecessary
+  or inapplicable
+- Starting from raw FASTQs that have not been aligned with Space Ranger, since this
+  skill assumes Space-Ranger-processed count matrices and alignment files
+- The genome annotation-derived gene matrix alone is sufficient (no uTAR/transcriptionally
+  active region analysis is intended)
+edam_operation: http://edamontology.org/operation_3227
+edam_topics:
+- http://edamontology.org/topic_3308
+- http://edamontology.org/topic_0203
+tools:
+- name: Seurat
+  role: Loads Space Ranger Visium count matrices via its spatial transcriptome tools
+    and performs Log-e-normalization of the spatial feature expression matrices
+  repo: https://github.com/satijalab/seurat
+- name: groHMM
+  role: Hidden Markov model run on Space-Ranger-derived alignment files to call spatial
+    transcriptionally active regions (TARs) that become normalized features; must
+    be manually installed or HMM bed files fail to generate
+  repo: https://bioconductor.org/packages/release/bioc/html/groHMM.html
+- name: Space Ranger
+  role: Produces the 10X Visium count matrices and alignment files that serve as the
+    normalization input
+- name: rtracklayer
+  role: Loads the groHMM-generated bed/TAR annotation tracks into R for building the
+    spatial uTAR feature set
+  repo: https://bioconductor.org/packages/release/bioc/html/rtracklayer.html
+- name: Snakemake
+  role: Wraps the from_fastqs/from_cellranger TAR-scRNA-seq workflow rules, including
+    the groHMM HMM step, that feed the spatial normalization
+  repo: https://github.com/fw262/TAR-scRNA-seq
+provenance:
+  source_task_ids:
+  - task_004
+  source_papers:
+  - doi: 10.1038/s41467-021-22496-3
+    title: Uncovering transcriptional dark matter via gene annotation independent
+      single-cell RNA sequencing analysis
+  source_content_hash: sha256:e933fcf973ad9077b1d1d911d63a8cce1668237eb4c6ea60f1e472b56aa5352b
+schema_version: 0.2.0
+metadata:
+  license_tier: open
+  repo_url: https://github.com/satijalab/seurat
+  tools:
+  - Seurat
+  - Snakemake
+  - Space Ranger
+  - groHMM
+  - rtracklayer
+  edam_operation: http://edamontology.org/operation_3227
+  edam_topics:
+  - http://edamontology.org/topic_3308
+  - http://edamontology.org/topic_0203
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 0.8571428571428571
+n_claims: 7
+---
+
+# spatial-transcriptomics-expression-normalization
+
+## Summary
+
+Log-e-normalize Space Ranger-processed 10X Visium spatial feature matrices with Seurat so that uTAR (transcriptionally active region) expression can be directly correlated and hierarchically clustered against canonical cell-type marker genes across tissue sections.
+
+## When to use
+
+Use when analyzing Space Ranger count matrices from 10X Visium spots (e.g., 747 day-4 chicken heart spots from 5 hearts, 1995 day-14 spots) where spatial uTAR expression must be compared on a common log scale with gene markers such as TNNT2, COL1A1, or HBZ.
+
+## When NOT to use
+
+- Input is already a normalized feature-by-spot expression table or a non-spatial (dissociated) scRNA-seq matrix, where the Visium spot-level normalization is unnecessary or inapplicable
+- Starting from raw FASTQs that have not been aligned with Space Ranger, since this skill assumes Space-Ranger-processed count matrices and alignment files
+- The genome annotation-derived gene matrix alone is sufficient (no uTAR/transcriptionally active region analysis is intended)
+
+## Inputs
+
+- Space Ranger-processed 10X Visium spatial count matrices (747 day-4 spots from 5 chicken hearts; 1995 day-14 spots from 1 heart)
+- Combined TAR + GRCg6a Ensembl v96 genome annotation (GTF)
+- groHMM spatial TAR annotations derived from Space-Ranger-derived alignment (BAM) files
+- Differentially expressed scRNA-seq uTAR list with chromosome position and strandedness
+
+## Outputs
+
+- Log-e-normalized spot-by-feature (uTAR + gene) Seurat spatial expression matrix
+- uTAR-by-marker Pearson correlation matrix for day-4 and day-14 sections (spatial_utar_marker_correlations.csv)
+- Hierarchical clustering dendrogram of correlation values (analogous to Fig. 4b)
+
+## How to apply
+
+Load the Space Ranger-processed 10X Visium count matrices together with the combined TAR + GRCg6a Ensembl v96 genome annotation using Seurat's spatial transcriptome tools, then Log-e-normalize the spatial feature expression matrices (Seurat's LogNormalize with scale.factor 1e4) before any downstream processing. Spatial uTARs are generated by running groHMM — a hidden Markov model that divides the genome into transcribed and untranscribed states — on the Space-Ranger-derived alignment files, keeping spatial uTARs that overlap differentially expressed scRNA-seq uTARs in chromosome position and strandedness (highest-total-expression uTAR wins on multi-mapping). On the log-normalized spot-by-feature matrix, compute Pearson correlations between the 11 day-4 spatial uTARs and canonical markers HBZ (red blood cells), TNNT2 (myocytes), and COL1A1 (epicardial progenitors) for both day-4 and day-14 sections. Hierarchical clustering of the correlation values builds a dendrogram analogous to Fig. 4b, and the full uTAR-by-marker correlation matrix is written to spatial_utar_marker_correlations.csv. Rationale: log normalization puts spots of varying total UGI on a comparable scale so Pearson correlations of marker-uTAR colocalization reflect spatial co-expression rather than sequencing depth.
+
+## Related tools
+
+- **Seurat** (Loads Space Ranger Visium count matrices via its spatial transcriptome tools and performs Log-e-normalization of the spatial feature expression matrices) — https://github.com/satijalab/seurat
+- **groHMM** (Hidden Markov model run on Space-Ranger-derived alignment files to call spatial transcriptionally active regions (TARs) that become normalized features; must be manually installed or HMM bed files fail to generate) — https://bioconductor.org/packages/release/bioc/html/groHMM.html
+- **Space Ranger** (Produces the 10X Visium count matrices and alignment files that serve as the normalization input)
+- **rtracklayer** (Loads the groHMM-generated bed/TAR annotation tracks into R for building the spatial uTAR feature set) — https://bioconductor.org/packages/release/bioc/html/rtracklayer.html
+- **Snakemake** (Wraps the from_fastqs/from_cellranger TAR-scRNA-seq workflow rules, including the groHMM HMM step, that feed the spatial normalization) — https://github.com/fw262/TAR-scRNA-seq
+
+## Examples
+
+```
+library(Seurat);seur <- Load10X_Spatial(data.dir="spaceranger_out/");seur <- SCTransform OR exp <- LogNormalize(GetAssayData(seur, assay="Spatial"), scale.factor = 10000)
+```
+
+## Evaluation signals
+
+- A uTAR-by-marker Pearson correlation matrix is produced for both day-4 and day-14 sections and written to spatial_utar_marker_correlations.csv
+- The SH3BGR-related uTAR shows a positive Pearson correlation with the cardiomyocyte marker TNNT2 at both day 4 and day 14 (sign/magnitude check)
+- The RUNX1T1 uTAR correlates with COL1A1+ epicardial spots at day 4 but shows no comparable colocalization at day 14, matching the reported day-4-only pattern
+- Normalized expression values are on the log-e scale (Seurat LogNormalize, scale.factor 1e4), so spot depths are comparable before correlation
+- Hierarchical clustering of the correlation values yields a dendrogram whose uTAR-marker groupings reproduce the Fig. 4b colocalization structure
+
+## Limitations
+
+- groHMM and rtracklayer must be manually installed and loadable in R; otherwise the calcHMMrefFlat rule fails with 'chr*_HMM.bed: No such file or directory' and no groHMM bed files are produced
+- The day-14 spatial data come from a single heart (1995 spots) versus five hearts at day 4 (747 spots), limiting day-14 biological replication
+- The RUNX1T1 day-14 colocalization check is qualitative (absence of signal), verified only via the sign/magnitude of Pearson correlation entries
+
+## Evidence
+
+- [other] Log-e-normalize the spatial feature expression matrices with Seurat before further processing.: [evidence span withheld — anchor status: not_found]
+- [intro] groHMM divides the genome into transcribed/untranscribed states: "groHMM uses a hidden Markov model to divide the genome into two states (transcribed and untranscribed) based on read coverage in each bin"
+- [abstract] TAR expression matrix generation: "Our tool generates a single-cell expression matrix for all transcriptionally active regions (TARs)"
+- [readme] groHMM manual installation required: "Please manually install [groHMM](https://bioconductor.org/packages/release/bioc/html/groHMM.html) and [rtracklayer](https://bioconductor.org/packages/release/bioc/html/rtracklayer.html) and make sure"

@@ -1,0 +1,21 @@
+name: htseq-count
+slug: htseq-count
+version_used: null
+edam_topics: []
+evidence_spans:
+- counting methods such as SplAdder, sigcount (Canzar et al. 2016), htseq-count (Anders et al. 2015), or featureCounts (Liao et al. 2014).
+- tiny-count can quantify reads aligned to a genome or directly to small RNA or transcript sequences.
+derived_from:
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+- doi: 10.1093/bioadv/vbad065
+  title: 'tiny-count: a counting tool for hierarchical classification and quantification of small RNA-seq reads with single-nucleotide precision'
+source_repos:
+- https://github.com/canzarlab/fortuna
+- https://github.com/MontgomeryLab/tinyRNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/canzarlab/fortuna

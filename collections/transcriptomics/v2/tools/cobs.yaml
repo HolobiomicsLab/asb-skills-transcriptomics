@@ -1,0 +1,22 @@
+name: Cobs
+slug: cobs
+version_used: null
+edam_topics: []
+evidence_spans:
+- PAC is an AMQ (Approximate membership Query) structure based on bloom filters like Cobs
+- The same group followed up with a newer approach called COBS (Bingmann et al., 2019).
+derived_from:
+- doi: 10.1093/bioinformatics/btad225
+  title: Scalable sequence database search using partitioned aggregated Bloom comb trees
+- doi: 10.1016/j.isci.2021.102782
+  title: 'Raptor: A fast and space-efficient pre-filter for querying very large collections of nucleotide sequences'
+source_repos:
+- https://github.com/Malfoy/PAC
+- https://github.com/bingmann/cobs
+- https://github.com/seqan/raptor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Malfoy/PAC

@@ -1,0 +1,21 @@
+name: imbalanced-learn
+slug: imbalanced-learn
+version_used: 0.9.1
+edam_topics: []
+evidence_spans:
+- imbalanced-learn == 0.9.1
+- down sampling strategy proposed by python package imbalanced-learn22 (under_sampling.RandomUnderSampler)
+derived_from:
+- doi: 10.1038/s41598-022-22082-7
+  title: 'LncDC: a machine learning-based tool for long non-coding RNA detection from RNA-Seq data'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+source_repos:
+- https://github.com/lim74/LncDC
+- https://github.com/PaulingLiu/scibet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lim74/LncDC

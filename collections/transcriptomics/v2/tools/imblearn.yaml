@@ -1,0 +1,17 @@
+name: imblearn
+slug: imblearn
+version_used: null
+edam_topics: []
+evidence_spans:
+- "- matplotlib\n  - imblearn\n  - tabulate"
+derived_from:
+- doi: 10.1016/j.csbj.2020.10.032
+  title: Accurate prediction of RNA 5-hydroxymethylcytosine modification by utilizing novel position-specific gapped k-mer descriptors
+source_repos:
+- https://github.com/zahid6454/iRNA5hmC-PS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zahid6454/iRNA5hmC-PS

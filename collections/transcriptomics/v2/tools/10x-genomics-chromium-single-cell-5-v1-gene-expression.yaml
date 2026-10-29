@@ -1,0 +1,17 @@
+name: 10x Genomics Chromium Single Cell 5' (v1) Gene Expression
+slug: 10x-genomics-chromium-single-cell-5-v1-gene-expression
+version_used: null
+edam_topics: []
+evidence_spans:
+- In working with the 10x Genomics Chromium Single Cell 3′ (v2) and 5′ (v1) Gene Expression workflows
+derived_from:
+- doi: 10.1038/s41467-019-11591-1
+  title: A general approach for detecting expressed mutations in AML cells using single cell RNA-sequencing
+source_repos:
+- https://github.com/sridnona/cb_sniffer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sridnona/cb_sniffer

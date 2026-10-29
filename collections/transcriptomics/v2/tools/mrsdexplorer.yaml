@@ -1,0 +1,19 @@
+name: MRSDexplorer
+slug: mrsdexplorer
+version_used: null
+edam_topics: []
+evidence_spans:
+- users are invited and encouraged to generate their own MRSD scores using the scripts provided in the `bin/` subdirectory of the above GitHub toolkit, named **MRSDexplorer**
+- The `MRSDexplorer.py` script can then be used to generate MRSD scores
+- users are invited and encouraged to generate their own MRSD scores using the scripts provided in the `bin/` subdirectory of the above GitHub toolkit
+derived_from:
+- doi: 10.1016/j.ajhg.2021.12.014
+  title: 'MRSD: A quantitative approach for assessing suitability of RNA-seq in the investigation of mis-splicing in Mendelian disease'
+source_repos:
+- https://github.com/mcgm-mrsd/mrsd-explorer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgm-mrsd/mrsd-explorer

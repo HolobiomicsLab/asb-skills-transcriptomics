@@ -1,0 +1,17 @@
+name: lme4qtl
+slug: lme4qtl
+version_used: null
+edam_topics: []
+evidence_spans:
+- lme4qtl (Imports)
+derived_from:
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+source_repos:
+- https://github.com/BIGslu/kimma
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BIGslu/kimma

@@ -1,0 +1,22 @@
+name: DoubletFinder
+slug: doubletfinder
+version_used: null
+edam_topics: []
+evidence_spans:
+- remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')
+- 'DoubletFinder: Doublet Detection in Single-Cell RNA Sequencing Data Using Artificial Nearest Neighbors.'
+derived_from:
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+- doi: 10.1016/j.xpro.2022.101729
+  title: Protocol for fast scRNA-seq raw data processing using scKB and non-arbitrary quality control with COPILOT
+source_repos:
+- https://github.com/chris-mcginnis-ucsf/DoubletFinder
+- https://github.com/13308204545/Chord
+- https://github.com/ohlerlab/COPILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chris-mcginnis-ucsf/DoubletFinder

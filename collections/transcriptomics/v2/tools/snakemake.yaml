@@ -1,0 +1,88 @@
+name: Snakemake
+slug: snakemake
+version_used: null
+edam_topics: []
+evidence_spans:
+- the first one is a Snakemake-based37 workflow that processes, annotates and generates the data in the correct format
+- bacLIFE was built and written in Python and R, is organized using a Snakemake workflow manager
+- snakemake --snakefile ../Snakefile -j 16 --configfile config.yaml
+- The circlehunter pipeline was constructed using snakemake [43].
+- '[Snakefile](Snakefile) contains steps for perform simulations and iPSCs analyses'
+- '* [Snakefile](Snakefile) contains steps for perform simulations and iPSCs analyses'
+- You can execute de-goulash Snakemake pipeline throught docker image-container
+- --snakefile Snakefile_analysis --configfile config.yaml --cores 1
+- '> snakemake --snakefile Snakefile_analysis --configfile config.yaml  --cores 1'
+- '> snakemake output/iter2/cells_merge_clusters.vcf --snakefile Snakefile --configfile config.yaml --cores 1'
+- You can execute de-goulash Snakemake pipeline throught docker image-container.
+- gExcite is a start-to-end workflow embedded in Snakemake
+- snakemake --use-conda --printshellcmds --cores 1
+- All steps of the workflow are embedded into the Snakemake workflow manager (Mölder et al. 2021), following the latest Snakemake best practices.
+- Scripts to perform simulated data generation and benchmark comparisons are available as a SnakeMake workflow at (github.com/BradhamLab/ICAT_manuscript).
+- a Snakemake35 workflow was built to run simulation replicates.
+- All methods tested are available within the muscat R package and a Snakemake35 workflow was built to run simulation replicates.
+- a Snakemake35 workflow was built to run simulation replicates
+- The GitHub repository also contains the Snakemake workflows needed to reproduce all results presented here.
+- The benchmarking workflow we implement is written in the workflow management system Snakemake (Mölder et al. 2021)
+- CWL (Crusoe et al., 2021) and Snakemake (Köster and Rahmann, 2012)
+- Snakemake–a scalable bioinformatics workflow engine
+- By default `snakemake --cores all --sdm conda` runs every job locally
+- We took advantage of those tools and developed a snakemake-based workflow for the detection of neoantigens from multiple sources, termed ScanNeo2
+- '`snakemake --cores all --sdm conda` runs every job locally, in one machine or one interactive allocation.'
+- One `snakemake` invocation processes **many samples in parallel**
+- Snakemake can use Conda to install the needed software
+- provides an example Snakemake
+- The snakemake46 pipeline along with the bash and R scripts used in the TAR-scRNA-seq tool is available at https://github.com/fw262/TAR-scRNA-seq
+- The snakemake46 pipeline along with the bash and R scripts used in the TAR-scRNA-seq tool
+- We have written Snakemake workflows to perform this analysis.
+- The snakemake46 pipeline along with the bash and R scripts used in the TAR-scRNA-seq tool is available
+- We have written Snakemake workflows to perform this analysis
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+- doi: 10.1038/s41467-024-49242-9
+  title: A robust model for cell type-specific interindividual variation in single-cell RNA sequencing data
+- doi: 10.1038/s42003-023-04557-z
+  title: Single-cell transcriptome sequencing allows genetic separation, characterization and identification of individuals in multi-person biological mixtures
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1093/bioinformatics/btad522
+  title: Coherent pathway enrichment estimation by modeling inter-pathway dependencies using regularized regression
+- doi: 10.1093/bioadv/vbac028
+  title: 'Pollock: fishing for cell states'
+- doi: 10.1038/s41467-017-02391-6
+  title: Perturbation-response genes reveal signaling footprints in cancer gene expression
+- doi: 10.1093/bioinformatics/btad659
+  title: 'ScanNeo2: a comprehensive workflow for neoantigen detection and immunogenicity prediction from diverse genomic and transcriptomic alterations'
+- doi: 10.1038/s41467-024-48254-9
+  title: Quantifying 3′UTR length from scRNA-seq data reveals changes independent of gene expression
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+- https://github.com/suda-huanglab/circlehunter
+- https://github.com/Minhui-Chen/CTMM
+- https://github.com/genid/de-goulash.git
+- https://github.com/genid/de-goulash
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+- https://github.com/BradhamLab/icat
+- https://github.com/HelenaLC/muscat
+- https://github.com/cbg-ethz/pareg
+- https://github.com/ding-lab/pollock
+- https://github.com/saezlab/progeny
+- https://github.com/ylab-hi/ScanNeo2
+- https://github.com/Mayrlab/mca-utrome
+- https://github.com/Mayrlab/scUTRquant
+- https://github.com/Mayrlab/txcutr-db
+- https://github.com/fw262/TAR-scRNA-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

@@ -1,0 +1,21 @@
+name: CellPath
+slug: cellpath
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'We also include a comparison with Monocle316 as well as two approaches accounting for RNA velocity information: VeTra11 and Cellpath.12'
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+source_repos:
+- https://github.com/PeterZZQ/CellPaths.git
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/aron0093/cytopath
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PeterZZQ/CellPaths.git

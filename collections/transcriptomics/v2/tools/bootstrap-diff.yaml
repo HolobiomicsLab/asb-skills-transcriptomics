@@ -1,0 +1,17 @@
+name: bootstrap_diff
+slug: bootstrap-diff
+version_used: null
+edam_topics: []
+evidence_spans:
+- Take a random sample with replacement of |A| rows from XA and another |B| rows from XB
+derived_from:
+- doi: 10.1038/srep33892
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+source_repos:
+- https://github.com/cran/ccRemover
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cran/ccRemover

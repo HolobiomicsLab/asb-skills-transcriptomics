@@ -1,0 +1,20 @@
+name: JupyterLab
+slug: jupyterlab
+version_used: null
+edam_topics: []
+evidence_spans:
+- We implemented CAPITAL in Python, which can also be used in the interactive development environment JupyterLab
+derived_from:
+- doi: 10.1038/s41467-022-33681-3
+  title: Alignment of single-cell trajectory trees with CAPITAL
+- doi: 10.1016/j.xpro.2022.101729
+  title: Protocol for fast scRNA-seq raw data processing using scKB and non-arbitrary quality control with COPILOT
+source_repos:
+- https://github.com/ykat0/capital
+- https://github.com/ohlerlab/COPILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ykat0/capital

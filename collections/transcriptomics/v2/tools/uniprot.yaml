@@ -1,0 +1,20 @@
+name: UniProt
+slug: uniprot
+version_used: null
+edam_topics: []
+evidence_spans:
+- Molecular function was collected from the Uniprot database
+derived_from:
+- doi: 10.1002/advs.202200045
+  title: 'InterCellDB: A User‐Defined Database for Inferring Intercellular Networks'
+- doi: 10.1016/j.ailsci.2021.100025
+  title: 'OmicInt package: Exploring omics data and regulatory networks using integrative analyses and machine learning'
+source_repos:
+- https://github.com/ZJUDBlab/InterCellDB
+- https://github.com/AusteKan/OmicInt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZJUDBlab/InterCellDB

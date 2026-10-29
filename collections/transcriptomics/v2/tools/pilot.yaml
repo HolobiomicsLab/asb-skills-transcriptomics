@@ -1,0 +1,21 @@
+name: PILOT
+slug: pilot
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we propose PatIent Level analysis with Optimal Transport (PILOT). PILOT uses optimal transport to compute the Wasserstein distance between two individual single-cell samples.
+- pl.pl.fit_pricipla_graph(adata, source_node = 7)
+- import pilotpy as pl
+- PILOT uses optimal transport to compute the Wasserstein distance between two individual single-cell samples.
+- pl.tl.wasserstein_distance(
+derived_from:
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+source_repos:
+- https://github.com/CostaLab/PILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CostaLab/PILOT

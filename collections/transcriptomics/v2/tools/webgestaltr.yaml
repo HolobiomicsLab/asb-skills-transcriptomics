@@ -1,0 +1,18 @@
+name: WebGestaltR
+slug: webgestaltr
+version_used: null
+edam_topics: []
+evidence_spans:
+- The genes most strongly associated with the rearrangements in hybrid clusters were ribosomal function and extracellular matrix genes.
+derived_from:
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+source_repos:
+- https://github.com/arjunrajlaboratory/ClonoCluster_paper
+- https://github.com/leeprichman/ClonoCluster
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/arjunrajlaboratory/ClonoCluster_paper

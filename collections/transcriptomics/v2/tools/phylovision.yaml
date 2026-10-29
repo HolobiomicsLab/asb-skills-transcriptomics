@@ -1,0 +1,21 @@
+name: PhyloVision
+slug: phylovision
+version_used: '10.5281'
+edam_topics: []
+evidence_spans:
+- PhyloVision was run with default parameters, except for setting num_neighbors
+- PhyloVision additionally supports a phylogenetic analysis with Hotspot, which can be invoked with the runHotspot function
+- PhyloVision clusters cells on a phylogeny by performing a breadth-first search over internal nodes
+- PhyloVision enables users to quantify the plasticity of a particular categorical metadata for each leaf on the tree
+- "PhyloVision\tThis study\tZenodo: https://doi.org/10.5281/zenodo.3345984"
+derived_from:
+- doi: 10.1016/j.crmeth.2022.100200
+  title: Interactive, integrated analysis of single-cell transcriptomic and phylogenetic data with PhyloVision
+source_repos:
+- https://github.com/YosefLab/VISION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YosefLab/VISION

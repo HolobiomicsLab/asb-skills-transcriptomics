@@ -1,0 +1,20 @@
+name: OTTERS
+slug: otters
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/daiqile96/OTTERS.git
+- python3 ${OTTERS_DIR}/testing.py
+- python3 ${OTTERS_DIR}/training.py
+derived_from:
+- doi: 10.1038/s41467-023-36862-w
+  title: 'OTTERS: a powerful TWAS framework leveraging summary-level reference data'
+source_repos:
+- https://github.com/daiqile96/OTTERS
+- https://github.com/daiqile96/OTTERS.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/daiqile96/OTTERS

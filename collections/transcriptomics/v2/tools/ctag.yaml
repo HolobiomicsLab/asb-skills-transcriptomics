@@ -1,0 +1,19 @@
+name: cTaG
+slug: ctag
+version_used: null
+edam_topics: []
+evidence_spans:
+- This study defines new features and builds a pan-cancer model, cTaG, to identify new driver genes.
+- The pan-cancer model is generated using random forest.
+- Our model (cTaG) presents a significant improvement in recall for TSGs.
+derived_from:
+- doi: 10.1038/s41598-021-04015-y
+  title: Novel ratio-metric features enable the identification of new driver genes across cancer types
+source_repos:
+- https://github.com/RamanLab/cTaG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RamanLab/cTaG

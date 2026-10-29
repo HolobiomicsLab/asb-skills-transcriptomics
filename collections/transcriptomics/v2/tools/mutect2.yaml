@@ -1,0 +1,24 @@
+name: Mutect2
+slug: mutect2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Only variants with “PASS” flag were kept
+- obtained by following the workflows outlined in the methods on somatic variant calling in the main text
+derived_from:
+- doi: 10.1038/s41467-025-60446-5
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+source_repos:
+- https://github.com/parklab/HiScanner
+- https://github.com/jiujiezz/tsnad
+- https://github.com/annweideman/canopy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/parklab/HiScanner

@@ -1,0 +1,29 @@
+name: FiRE
+slug: fire
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose Finder of Rare Entities (FiRE), an algorithm that, in a matter of seconds, assigns a rareness score to every individual expression profile under study.
+- This file is part of FiRE.
+- While RaceID15 and GiniClust16 offer binary predictions, FiRE gives a rareness score to every individual expression profile.
+- finder of rare entities (FiRE)16
+- and finder of rare entities (FiRE)16
+- Detecting rare cells from expression profiles by single cell RNA-seq.
+- eminent among these are rare cell-type identification (RaceID)13, GiniClust14, cell subtype identification from up-regulated gene sets (CellSIUS)15 and finder of rare entities (FiRE)16
+derived_from:
+- doi: 10.1038/s41467-018-07234-6
+  title: Discovery of rare cells from voluminous single cell expression data
+- doi: 10.1038/s41467-021-24489-8
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+source_repos:
+- https://github.com/princethewinner/FiRE
+- https://github.com/fabotao/GapClust
+- https://github.com/xuyp-csu/scCAD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princethewinner/FiRE

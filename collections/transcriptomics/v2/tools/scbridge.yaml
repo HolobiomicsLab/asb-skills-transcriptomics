@@ -1,0 +1,19 @@
+name: scBridge
+slug: scbridge
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`--target_preprocess=["Standard", "TFIDF"]` (Default="TFIDF") the preprocessing strategy for target data'
+- scBridge would be a reliable tool in single-cell multi-omics analysis.
+- git clone https://github.com/XLearning-SCU/scBridge
+derived_from:
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+source_repos:
+- https://github.com/XLearning-SCU/scBridge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XLearning-SCU/scBridge

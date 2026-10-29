@@ -1,0 +1,36 @@
+name: SCINA
+slug: scina
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- Annotation performance was compared against five automatic annotation tools, ScType40, SCINA19, clustifyR12, scCATCH41, scSorter17.
+- Popular methods in this category include SCINA16, Garnett17, scSorter18, transfer-learning based method ItClust19
+- seven other algorithms, including CHETAH [7], SciBet [8], SCINA [9], scmap-cell [10], scmap-cluster [10], SingleR [11] and ikarus [12]
+- Our unsupervised approach outperformed the prior knowledge-based methods scSorter30, SCINA33, and scCATCH34
+- a prior knowledge-based methods that require either a marker gene set or a pre-trained classifier for the selected cell populations (e.g. scSorter30, SCINA33, and scCATCH34)
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+source_repos:
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/IanevskiAleksandr/sc-type
+- https://github.com/SELINA-team/SELINA.py
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification

@@ -1,0 +1,18 @@
+name: scib-pipeline
+slug: scib-pipeline
+version_used: null
+edam_topics: []
+evidence_spans:
+- carmonalab/scib-pipeline
+derived_from:
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/carmonalab/scib-pipeline
+- https://github.com/carmonalab/STACAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/carmonalab/scib-pipeline

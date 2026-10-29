@@ -1,0 +1,27 @@
+name: ALRA
+slug: alra
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'install.packages("devtools")
+
+  devtools::install_github("KlugerLab/ALRA")'
+- '# github.com__KlugerLab__ALRA'
+- The rank selected by ALRA was k = 14.
+- '- `alra(A_norm, k, q, quantile.prob, use.mkl, mkl.seed)`'
+- To check if ALRA is preserving the signal, we computed the top k PCs (where k was chosen using the jackstraw method, see methods)
+- We sampled random subsets of sizes 5000, 10,000, 20,000, 30,000, 40,000, and 50,000 cells from Hrvatin et al. and compared the runtime of ALRA and other imputation methods on each subset.
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+source_repos:
+- https://github.com/KlugerLab/ALRA
+- https://github.com/audreyqyfu/LATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

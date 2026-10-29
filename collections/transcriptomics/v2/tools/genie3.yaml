@@ -1,0 +1,37 @@
+name: GENIE3
+slug: genie3
+version_used: null
+edam_topics: []
+evidence_spans:
+- Using GRouNdGAN, we benchmark eight GRN inference methods
+- We used two regulatory network inference tools (GENIE3118 and GRNBoost119) to replace the GRN from GNIPLR
+- present simulation results to validate the methodology
+- GENIE3 decomposes the prediction of a gene network between p genes into p different regression problems, and uses tree-based ensemble methods
+- It uses a random forest, a weak learner ensemble method, to predict the expression profile of each target gene from profiles of all the other genes.
+- We use all default parameters and choose 100 trees for computational feasibility reasons.
+derived_from:
+- doi: 10.1016/j.csbj.2024.01.013
+  title: 'Augusta: From RNA‐Seq to gene regulatory networks and Boolean models'
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+- doi: 10.1016/j.patter.2023.100911
+  title: 'MDIC3: Matrix decomposition to infer cell-cell communication'
+- doi: 10.1038/s41467-021-25089-2
+  title: Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data
+- doi: 10.1016/j.gpb.2020.11.006
+  title: 'scLink: Inferring Sparse Gene Co-Expression Networks from Single-Cell Expression Data'
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+source_repos:
+- https://github.com/WanluLiuLab/CRISPRTE
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+- https://github.com/LYxiaotai/MDIC3
+- https://github.com/SUwonglab/sc-compReg
+- https://github.com/Vivianstats/scLink
+- https://github.com/cantinilab/scPRINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WanluLiuLab/CRISPRTE

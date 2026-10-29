@@ -1,0 +1,29 @@
+name: PLINK
+slug: plink
+version_used: '1.9'
+edam_topics: []
+evidence_spans:
+- '- [PLINK 1.9](https://www.cog-genomics.org/plink/)'
+- OTTERS is based on [PLINK 1.9](https://www.cog-genomics.org/plink/)
+- '[PLINK 1.9](https://www.cog-genomics.org/plink/)'
+- OTTERS is based on [PLINK 1.9]
+- 'Optional prefix to PLINK-formatted data for eQTL LD information. Otherwise use GWAS LD. (default: None)'
+- Optional prefix to PLINK-formatted data for eQTL LD
+- The scripts rely on PLINK-formatted genotype data.
+- "Optional prefix to PLINK-formatted data for eQTL LD\n                              information. Otherwise use GWAS LD."
+- "Optional prefix to PLINK-formatted data for eQTL LD\n                              information. Otherwise use GWAS LD. (default: None)"
+- The scripts rely on PLINK-formatted genotype data
+derived_from:
+- doi: 10.1038/s41467-023-36862-w
+  title: 'OTTERS: a powerful TWAS framework leveraging summary-level reference data'
+- doi: 10.1093/bioinformatics/btad288
+  title: twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis
+source_repos:
+- https://github.com/daiqile96/OTTERS
+- https://github.com/mancusolab/twas_sim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/daiqile96/OTTERS

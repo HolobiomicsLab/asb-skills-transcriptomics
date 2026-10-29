@@ -1,0 +1,17 @@
+name: connectomeDB2020
+slug: connectomedb2020
+version_used: null
+edam_topics: []
+evidence_spans:
+- NATMI uses connectomeDB2020 (a database of 2293 manually curated ligand-receptor pairs with literature support)
+derived_from:
+- doi: 10.1038/s41467-020-18873-z
+  title: Predicting cell-to-cell communication networks using NATMI
+source_repos:
+- https://github.com/forrest-lab/NATMI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/forrest-lab/NATMI

@@ -1,0 +1,21 @@
+name: DeepCycle
+slug: deepcycle
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run DeepCycle.
+- we propose a deep learning approach (DeepCycle) to fit these patterns and build a high-resolution map of the entire cell cycle transcriptome
+- $ python DeepCycle.py --help
+- "--hotelling [HOTELLING]\n                        Use Hotelling filter."
+- The preprocessed Anndata can then be used as input to DeepCycle.
+derived_from:
+- doi: 10.1038/s41467-022-30545-8
+  title: Cell cycle gene regulation dynamics revealed by RNA velocity and deep-learning
+source_repos:
+- https://github.com/andreariba/DeepCycle
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/andreariba/DeepCycle

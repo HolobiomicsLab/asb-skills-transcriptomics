@@ -1,0 +1,136 @@
+---
+name: single-cell-ontology-based-annotation
+description: Use when annotating single-cell RNA-seq data against a controlled vocabulary
+  (Cell Ontology), especially when the query data may contain cell types absent from
+  the training annotations.
+when_to_use_negative:
+- You need to distinguish topologically identical unseen cell types (siblings sharing
+  the same parents in the Cell Ontology graph) — OnClass cannot separate them
+- The cell type of interest is absent from the Cell Ontology, since the ontology was
+  not developed specifically for scRNA-seq and likely misses some cell types and cell
+  states
+- A non-ontology label space is required (e.g., dataset-specific free-text labels
+  without mapping to controlled vocabulary)
+edam_operation: http://edamontology.org/operation_1777
+edam_topics:
+- http://edamontology.org/topic_3170
+- http://edamontology.org/topic_0621
+tools:
+- name: OnClass
+  role: 'Core algorithm and package: ontology-embedded neural classifier that extends
+    scores to unseen Cell Ontology terms and computes marker genes'
+  repo: https://github.com/wangshenguiuc/OnClass
+- name: Python
+  role: Implementation language; Python 3.6 required to run the OnClass training and
+    prediction scripts
+  repo: https://github.com/wangshenguiuc/OnClass
+- name: tensorflow 2.0
+  role: Deep-learning backend used to build and train the OnClass neural model
+  repo: https://github.com/wangshenguiuc/OnClass
+- name: Scanorama
+  role: Optional batch correction applied to training/test features before ProcessTrainFeature
+  repo: https://github.com/brianhie/scanorama
+- name: pip
+  role: Installation channel for OnClass (pip install OnClass==1.2) and TensorFlow
+    dependencies
+provenance:
+  source_task_ids:
+  - task_007
+  source_papers:
+  - doi: 10.1038/s41467-021-25725-x
+    title: Leveraging the Cell Ontology to classify unseen cell types
+  source_content_hash: sha256:a26ce51cf8d87e3f7a128c9508fae614ecc8501d90e4243337ffe7513d66b948
+schema_version: 0.2.0
+metadata:
+  license_tier: open
+  repo_url: https://github.com/wangshenguiuc/OnClass
+  tools:
+  - OnClass
+  - Python
+  - Scanorama
+  - TensorFlow
+  - pip
+  - tensorflow 2.0
+  edam_operation: http://edamontology.org/operation_1777
+  edam_topics:
+  - http://edamontology.org/topic_3170
+  - http://edamontology.org/topic_0621
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 0.7777777777777778
+n_claims: 9
+---
+
+# single-cell-ontology-based-annotation
+
+## Summary
+
+OnClass classifies scRNA-seq cells into Cell Ontology terms, extending prediction scores through the ontology graph so that even cell types with no annotated cells in the training data (unseen terms) receive accurate labels and marker genes.
+
+## When to use
+
+Use when annotating single-cell RNA-seq data against a controlled vocabulary (Cell Ontology), especially when the query data may contain cell types absent from the training annotations.
+
+## When NOT to use
+
+- You need to distinguish topologically identical unseen cell types (siblings sharing the same parents in the Cell Ontology graph) — OnClass cannot separate them
+- The cell type of interest is absent from the Cell Ontology, since the ontology was not developed specifically for scRNA-seq and likely misses some cell types and cell states
+- A non-ontology label space is required (e.g., dataset-specific free-text labels without mapping to controlled vocabulary)
+
+## Inputs
+
+- Single-cell gene expression matrix (training and test), e.g., all FACS cells from Tabula Muris Senis
+- Cell type label annotations (controlled Cell Ontology terms; free-text labels can be mapped via the NLP char-level LSTM)
+- Cell Ontology files from the figshare deposits
+- Pre-trained OnClass model file (optional, for ProcessTestFeature use_pretrain)
+- Intermediate prediction matrices pred_Y_seen.released.npy and pred_Y_all.released.npy (for marker gene identification)
+
+## Outputs
+
+- Per-cell cell type probability scores over all Cell Ontology terms, including unseen terms
+- Per-cell Cell Ontology term annotations
+- Ranked marker gene lists (top 20 genes per cell type)
+- Marker-gene-based cell type predictions (Figure 5d,e,f, Extended Data Figure 7)
+- Per-cell-type AUROC values against curated marker gene sets
+
+## How to apply
+
+Train the OnClass neural model by reading training/test expression matrices and labels, then calling OnClass_train_obj.EmbedCellTypes(train_label), ProcessTrainFeature (optionally after Scanorama batch correction), BuildModel(ngene=len(cor_train_genes), nhidden=NHIDDEN), and Train(...) with a saved model path. For prediction, run ProcessTestFeature with use_pretrain set to the model file and log_transform=False; OnClass then extends probability scores to unseen cell types based on the Cell Ontology graph. For marker gene identification, load the intermediate prediction matrices (pred_Y_seen.released.npy and pred_Y_all.released.npy) generated by run_generate_pretrained_model.py, compute Spearman correlation between each cell type's predicted probability vector and each gene's expression profile using run_marker_genes_identification.py, and select the top 20 marker genes per cell type. Evaluate by computing AUROC per cell type against curated marker gene sets, stratifying seen versus unseen Cell Ontology terms. Use Python 3.6 with OnClass==1.2 and tensorflow==2.0 (or tensorflow-gpu==2.0) installed via pip.
+
+## Related tools
+
+- **OnClass** (Core algorithm and package: ontology-embedded neural classifier that extends scores to unseen Cell Ontology terms and computes marker genes) — https://github.com/wangshenguiuc/OnClass
+- **Python** (Implementation language; Python 3.6 required to run the OnClass training and prediction scripts) — https://github.com/wangshenguiuc/OnClass
+- **tensorflow 2.0** (Deep-learning backend used to build and train the OnClass neural model) — https://github.com/wangshenguiuc/OnClass
+- **Scanorama** (Optional batch correction applied to training/test features before ProcessTrainFeature) — https://github.com/brianhie/scanorama
+- **pip** (Installation channel for OnClass (pip install OnClass==1.2) and TensorFlow dependencies)
+
+## Examples
+
+```
+pip install OnClass==1.2 tensorflow==2.0; python run_generate_pretrained_model.py; python script/run_marker_genes_identification.py
+```
+
+## Evaluation signals
+
+- AUROC for seen cell types falls within the reported 0.87–0.97 range
+- AUROC for unseen Cell Ontology terms is ~0.87 in Muris FACS and ~0.82 in Muris droplet
+- Each cell type receives exactly 20 ranked marker genes from the Spearman correlation ranking
+- Predictions are produced for all Cell Ontology categories, including terms with no annotated cells in the training set
+- Script chain completes: run_generate_pretrained_model.py produces pred_Y_seen.released.npy and pred_Y_all.released.npy consumed by run_marker_genes_identification.py
+
+## Limitations
+
+- OnClass cannot distinguish topologically identical unseen cell types, such as siblings with the same parents in the Cell Ontology graph
+- The Cell Ontology was not developed specifically for scRNA-seq and therefore likely misses cell types and cell states
+- Methods to correct batch effects in the presence of many unseen cell types are not yet developed
+- Automated NLP mapping of free-text annotations to the ontology and data-driven ontology refinement remain preliminary/future work (Supplementary Table 1)
+
+## Evidence
+
+- [abstract] A key advantage of OnClass is its capability to classify cells into cell types not present in the training data because it uses the Cell Ontology graph to infer cell type relationships.: "A key advantage of OnClass is its capability to classify cells into cell types not present in the training data because it uses the Cell Ontology graph to infer cell type relationships."
+- [methods] Install commands from methods: "pip install OnClass==1.2"
+- [methods] Marker gene precomputation basis: "Marker genes are precomputed based on all FACS cells from Tabula Muris Senis."
+- [discussion] Ontology-graph extension of scores in discussion: "OnClass will then perform the third step to extend these scores to unseen cell types based on the Cell Ontology graph."
+- [readme] README version note: "Update on July 4th, 2021. OnClass is now upgraded to 1.2 version!"

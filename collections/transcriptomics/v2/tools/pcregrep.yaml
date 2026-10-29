@@ -1,0 +1,18 @@
+name: pcregrep
+slug: pcregrep
+version_used: null
+edam_topics: []
+evidence_spans:
+- '| pcregrep ''\tgene\t'' > umi_bed_intersection_gff.txt'
+- bedtools intersect -a position_umi_counts.bed -b file.gff -wa -wb | pcregrep '\tgene\t' > umi_bed_intersection_gff.txt
+derived_from:
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ncgr/UMI-analysis

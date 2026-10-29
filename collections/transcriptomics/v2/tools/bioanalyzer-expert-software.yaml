@@ -1,0 +1,17 @@
+name: BioAnalyzer Expert software
+slug: bioanalyzer-expert-software
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used the BioAnalyzer Expert software on the traces collected during library preparation, considering the area under the curve between DNA lengths 45 to 70 base pairs
+derived_from:
+- doi: 10.1038/s41467-018-05083-x
+  title: Detection and removal of barcode swapping in single-cell RNA-seq data
+source_repos:
+- https://github.com/MarioniLab/DropletUtils
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MarioniLab/DropletUtils

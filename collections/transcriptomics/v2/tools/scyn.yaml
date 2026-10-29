@@ -1,0 +1,18 @@
+name: SCYN
+slug: scyn
+version_used: null
+edam_topics: []
+evidence_spans:
+- HiScanner outperforms four representative single-cell CNA methods—CHISEL (BAF-aware), Ginkgo, SCOPE, and SCYN (all BAF-agnostic methods)19,22–24—in real and simulated data with greater sensitivity
+- Ginkgo, SCOPE, and SCYN (all BAF-agnostic methods)
+derived_from:
+- doi: 10.1038/s41467-025-60446-5
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+source_repos:
+- https://github.com/parklab/HiScanner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/parklab/HiScanner

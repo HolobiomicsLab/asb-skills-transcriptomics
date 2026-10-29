@@ -1,0 +1,32 @@
+name: BBKNN
+slug: bbknn
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'please install BBKNN: https://github.com/Teichlab/bbknn'
+- 'For batch-effect removal enhancement, please install BBKNN: https://github.com/Teichlab/bbknn'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- deepMNN16, BBKNN17
+- several of these rapid procedures (deepMNN16, BBKNN17, Harmony18, scVI19, scANVI20 and DESC21) focus on extracting the joint embedding
+derived_from:
+- doi: 10.1038/s41421-019-0114-x
+  title: A novel approach to remove the batch effect of single-cell data
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/Teichlab/bbknn
+- https://github.com/jumphone/BEER
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/SydneyBioX/scMerge
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Teichlab/bbknn

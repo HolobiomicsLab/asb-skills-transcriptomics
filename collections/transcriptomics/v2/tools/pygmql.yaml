@@ -1,0 +1,17 @@
+name: PyGMQL
+slug: pygmql
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[PyGMQL](https://pygmql.readthedocs.io/en/latest/)'
+derived_from:
+- doi: 10.1038/s41540-021-00175-9
+  title: Computational analysis of fused co-expression networks for the identification of candidate cancer gene biomarkers
+source_repos:
+- https://github.com/DEIB-GECO/GeneNetFusion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DEIB-GECO/GeneNetFusion

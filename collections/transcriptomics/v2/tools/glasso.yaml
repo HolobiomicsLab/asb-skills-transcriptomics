@@ -1,0 +1,17 @@
+name: glasso
+slug: glasso
+version_used: null
+edam_topics: []
+evidence_spans:
+- scLink adapts the Gaussian graphical model [29] to distinguish direct associations between genes from indirect ones and leads to sparse networks
+derived_from:
+- doi: 10.1016/j.gpb.2020.11.006
+  title: 'scLink: Inferring Sparse Gene Co-Expression Networks from Single-Cell Expression Data'
+source_repos:
+- https://github.com/Vivianstats/scLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Vivianstats/scLink

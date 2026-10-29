@@ -1,0 +1,24 @@
+name: GitHub
+slug: github
+version_used: null
+edam_topics: []
+evidence_spans:
+- Source code can be found at Zenodo (https://doi.org/10.5281/zenodo.7081864) and GitHub (https://github.com/SchlitzerLab/IntestLine).
+- scHiCDiff is implemented in R and freely available at GitHub (https://github.com/wmalab/scHiCDiff)
+derived_from:
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1093/bioinformatics/btad625
+  title: 'scHiCDiff: detecting differential chromatin interactions in single-cell Hi-C data'
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+source_repos:
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/wmalab/scHiCDiff
+- https://github.com/BatzoglouLabSU/SIMLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiangyanYu/IntestLine

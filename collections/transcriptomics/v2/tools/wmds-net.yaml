@@ -1,0 +1,19 @@
+name: WMDS.net
+slug: wmds-net
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed a weighted MDS network model (WMDS.net) to find the drive nodes of differential gene co-expression networks.
+- we predicted personal driver genes for each cancer patient on their personalized differential co-expression network using WMDS
+- we developed a weighted MDS network model (WMDS.net) to find the driver nodes of differential gene co-expression networks
+derived_from:
+- doi: 10.1093/bioinformatics/btad071
+  title: 'WMDS.net: a network control framework for identifying key players in transcriptome programs'
+source_repos:
+- https://github.com/chaofen123/WMDS.net
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chaofen123/WMDS.net

@@ -1,0 +1,31 @@
+name: fastp
+slug: fastp
+version_used: null
+edam_topics: []
+evidence_spans:
+- Reads are quality filtered using [fastp](https://github.com/OpenGene/fastp).
+- BARtab leverages widely used bioinformatics tools including fastp, FLASh, cutadapt, samtools, bowtie, starcode, umi-tools, and FastQC
+- Input FASTQ files were processed by fastp [44] to remove adapter and low-quality bases.
+- '[fastp](https://github.com/OpenGene/fastp) writes the trimmed reads'
+- which includes quality filtering or removal of adapter sequences. For that, fastp (Chen et al. 2018) is applied
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+- doi: 10.1093/bioinformatics/btad659
+  title: 'ScanNeo2: a comprehensive workflow for neoantigen detection and immunogenicity prediction from diverse genomic and transcriptomic alterations'
+source_repos:
+- https://github.com/OpenGene/fastp
+- https://github.com/DaneVass/BARtab
+- https://github.com/suda-huanglab/circlehunter
+- https://github.com/F0nz0/NanoSpeech_basecaller
+- https://github.com/ylab-hi/ScanNeo2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OpenGene/fastp

@@ -1,0 +1,20 @@
+name: scGeneFit
+slug: scgenefit
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run the hierarchical variant of scGeneFit and the one-vs-all baseline
+- Given single cell RNA-seq data and a set of cellular labels to discriminate, scGeneFit selects gene markers that jointly optimize cell label recovery
+- we developed scGeneFit, a rigorous and efficient approach for marker selection in the context of scRNA-seq data with a given hierarchical partition of labels.
+- scGeneFit selects gene markers that jointly optimize cell label recovery
+derived_from:
+- doi: 10.1038/s41467-021-21453-4
+  title: Optimal marker gene selection for cell type discrimination in single cell analyses
+source_repos:
+- https://github.com/solevillar/scGeneFit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/solevillar/scGeneFit

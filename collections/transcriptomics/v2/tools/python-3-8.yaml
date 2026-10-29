@@ -1,0 +1,26 @@
+name: Python 3.8
+slug: python-3-8
+version_used: '3.8'
+edam_topics: []
+evidence_spans:
+- The scAce package is implemented in python 3.8
+- pip install scace
+- A functioning python environment (>=3.8) is necessary to run this package.
+- '[![python >=3.8](https://img.shields.io/badge/python-%3E%3D3.8-brightgreen)](https://www.python.org/)'
+derived_from:
+- doi: 10.1093/bioinformatics/btad546
+  title: 'scAce: an adaptive embedding and clustering method for single-cell gene expression data'
+- doi: 10.1038/s41467-021-27150-6
+  title: scCODA is a Bayesian model for compositional single-cell data analysis
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+source_repos:
+- https://github.com/sldyns/scAce
+- https://github.com/theislab/scCODA
+- https://github.com/ZJUFanLab/scSpace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sldyns/scAce

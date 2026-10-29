@@ -1,0 +1,17 @@
+name: SRA SRP073767
+slug: sra-srp073767
+version_used: null
+edam_topics: []
+evidence_spans:
+- Single-cell RNA-seq data have been deposited in the Short Read Archive under accession number SRP073767.
+derived_from:
+- doi: 10.1038/ncomms14049
+  title: Massively parallel digital transcriptional profiling of single cells
+source_repos:
+- https://github.com/10XGenomics/cellranger
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/10XGenomics/cellranger

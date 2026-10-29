@@ -1,0 +1,17 @@
+name: SCANCell
+slug: scancell
+version_used: null
+edam_topics: []
+evidence_spans:
+- More recently, SCANCell (Zhang et al, 2022), which uses PhEMD to generate non-linear embeddings followed by the use of association networks across cell clusters, was proposed
+derived_from:
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+source_repos:
+- https://github.com/CostaLab/PILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CostaLab/PILOT

@@ -1,0 +1,25 @@
+name: scDREAMER
+slug: scdreamer
+version_used: null
+edam_topics: []
+evidence_spans:
+- The most widely used methods include Seurat13, Harmony14, Scanorama15, scVI16, scDML17, and scDREAMER18.
+- we used Seurat, Harmony, Scanorama, scVI, scDML, and scDREAMER as benchmarking methods with default parameters
+- The adversarial variational autoencoder of scDREAMER consists of three multi-layer neural networks
+- we present scDREAMER ( https://github.com/Zafar-Lab/scDREAMER ), a data-integration framework that employs deep generative models and adversarial training
+- '*scDREAMER* for an unsupervised integration of multiple batches'
+- scDREAMER employs an adversarial variational autoencoder for learning a lower-dimensional representation of cells
+derived_from:
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+source_repos:
+- https://github.com/mcgilldinglab/scCobra
+- https://github.com/Zafar-Lab/scDREAMER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgilldinglab/scCobra

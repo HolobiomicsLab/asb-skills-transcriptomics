@@ -1,0 +1,17 @@
+name: DEsingle
+slug: desingle
+version_used: null
+edam_topics: []
+evidence_spans:
+- Comparisons with existing DEG prediction approaches on artificial datasets show that singleCellHaystack has higher accuracy
+derived_from:
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+source_repos:
+- https://github.com/alexisvdb/singleCellHaystack
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/alexisvdb/singleCellHaystack

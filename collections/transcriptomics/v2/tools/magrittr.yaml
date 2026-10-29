@@ -1,0 +1,29 @@
+name: magrittr
+slug: magrittr
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(magrittr)
+- magrittr (Imports)
+- 'library(magrittr)        # piping'
+derived_from:
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1016/j.mex.2023.102179
+  title: 'Cell annotation using scRNA-seq data: A protein-protein interaction network approach'
+- doi: 10.1016/j.mex.2022.101778
+  title: 'ORIGINS: A protein network-based approach to quantify cell pluripotency from scRNA-seq data'
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+source_repos:
+- https://github.com/arjunrajlaboratory/ClonoCluster_paper
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/danielasenraoka/ORIGINS2
+- https://github.com/danielasenraoka/ORIGINS
+- https://github.com/jr-leary7/SCISSORS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/arjunrajlaboratory/ClonoCluster_paper

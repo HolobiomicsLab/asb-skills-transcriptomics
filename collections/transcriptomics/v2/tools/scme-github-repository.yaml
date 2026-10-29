@@ -1,0 +1,17 @@
+name: scME GitHub repository
+slug: scme-github-repository
+version_used: null
+edam_topics: []
+evidence_spans:
+- The code is public for academic use and available on the GitHub site (https://github.com/bucky527/scME)
+derived_from:
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+source_repos:
+- https://github.com/bucky527/scME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bucky527/scME

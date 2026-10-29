@@ -1,0 +1,21 @@
+name: random forest
+slug: random-forest
+version_used: null
+edam_topics: []
+evidence_spans:
+- with random forest (n_estimator = 50) and nearest neighbor classifiers
+- Random forest is used to build multiple classifiers for each fold (Block A) and overfitting is avoided by identification of stable hyper-parameters (Block B).
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+- doi: 10.1038/s41598-021-04015-y
+  title: Novel ratio-metric features enable the identification of new driver genes across cancer types
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+- https://github.com/RamanLab/cTaG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

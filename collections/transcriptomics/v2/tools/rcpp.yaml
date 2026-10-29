@@ -1,0 +1,49 @@
+name: Rcpp
+slug: rcpp
+version_used: 1.0.1
+edam_topics: []
+evidence_spans:
+- install_github("lichen-lab/BAMMSC")
+- '- `Rcpp (Imports)`'
+- Rcpp (Imports)
+- Rcpp >= 1.0.1
+- The installation also requires Rcpp-1.0.7 and has been tested on R-4.4.0.
+- car, combinat, doParallel, dplyr, energy, ggplot2, GOsummaries, gplots, MASS, mclust, minerva, plotly, Rcpp, RcppArmadillo, scater
+- install.packages("Rcpp")
+- '- `Rcpp (Imports)`'
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1038/s41598-017-13665-w
+  title: Controlling for Confounding Effects in Single Cell RNA Sequencing Studies Using both Control and Target Genes
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1038/s42003-021-02146-6
+  title: NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+- doi: 10.1093/bioadv/vbae134
+  title: Batch-effect correction in single-cell RNA sequencing data using JIVE
+- doi: 10.1016/j.celrep.2020.108589
+  title: Overcoming Expressional Drop-outs in Lineage Reconstruction from Single-Cell RNA-Sequencing Data
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/ChenMengjie/Citrus
+- https://github.com/shawnstat/EDGE
+- https://github.com/lhe17/nebula
+- https://github.com/tinglabs/redPATH
+- https://github.com/tinglab/redPATH
+- https://github.com/PaulingLiu/scibet
+- https://github.com/oconnell-statistics-lab/scJIVE
+- https://github.com/inmybrain/SClineager
+- https://github.com/cailab-tamu/scTenifoldNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

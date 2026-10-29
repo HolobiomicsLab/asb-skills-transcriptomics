@@ -1,0 +1,17 @@
+name: Seurat integration anchors
+slug: seurat-integration-anchors
+version_used: null
+edam_topics: []
+evidence_spans:
+- Short-read clustering across two hippocampal replicates revealed no need for integration anchors27 to correct for batch effects
+derived_from:
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+source_repos:
+- https://github.com/noush-joglekar/scisorseqr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/noush-joglekar/scisorseqr

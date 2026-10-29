@@ -1,0 +1,23 @@
+name: Vision
+slug: vision
+version_used: null
+edam_topics: []
+evidence_spans:
+- Informative genes were found using the filterGenesFano function in VISION with default parameters
+- we computed module scores for every cell using the signature-scoring procedure in VISION
+- PhyloVision builds on the VISION analysis toolkit for signature autocorrelation analysis
+- Our interactive web-based report is built on our VISION front-end (DeTomaso et al., 2019)
+derived_from:
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1016/j.crmeth.2022.100200
+  title: Interactive, integrated analysis of single-cell transcriptomic and phylogenetic data with PhyloVision
+source_repos:
+- https://github.com/jackbibby1/SCPA
+- https://github.com/YosefLab/VISION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jackbibby1/SCPA

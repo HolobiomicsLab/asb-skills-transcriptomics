@@ -1,0 +1,17 @@
+name: preprocessCore
+slug: preprocesscore
+version_used: 1.48.0
+edam_topics: []
+evidence_spans:
+- Quantile normalization was performed with the function “normalize.quantiles” from R package preprocessCore (version 1.48.0).
+derived_from:
+- doi: 10.1038/s42003-023-05283-2
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+source_repos:
+- https://github.com/ChengLiLab/TimeTalk
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChengLiLab/TimeTalk

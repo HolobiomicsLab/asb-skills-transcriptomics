@@ -1,0 +1,17 @@
+name: DRIMSeq
+slug: drimseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- we applied DRIMSeq to conduct differential transcript usage analysis between control and LPS stimulated group
+derived_from:
+- doi: 10.1038/s41467-024-46875-8
+  title: 'InPACT: a computational method for accurate characterization of intronic polyadenylation from RNA sequencing data'
+source_repos:
+- https://github.com/YY-TMU/InPACT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YY-TMU/InPACT

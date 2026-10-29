@@ -1,0 +1,36 @@
+name: scANVI
+slug: scanvi
+version_used: null
+edam_topics: []
+evidence_spans:
+- We benchmarked CODAL against the MIRA topic model28, scanpy principal component analysis (PCA), scVI20, scANVI18, scanpy PCA+Harmony19, and scanorama25.
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- Inspired by the deep generative semi-supervised learner43 and scANVI30, scDREAMER-Sup employs a hierarchical structure
+- scVI19, scANVI20
+- several of these rapid procedures (deepMNN16, BBKNN17, Harmony18, scVI19, scANVI20 and DESC21) focus on extracting the joint embedding
+- Overall, scANVI, scVI and SeuratV4 methods achieve a balance between species-mixing and biology conservation.
+- semi-supervised STACAS outperforms state-of-the-art unsupervised methods, as well as supervised methods such as scANVI and scGen.
+derived_from:
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/cistrome/MIRA
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/SydneyBioX/scMerge
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/carmonalab/STACAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cistrome/MIRA

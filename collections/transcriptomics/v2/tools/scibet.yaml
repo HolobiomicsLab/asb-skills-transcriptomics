@@ -1,0 +1,37 @@
+name: SciBet
+slug: scibet
+version_used: null
+edam_topics: []
+evidence_spans:
+- many automatic annotation tools have recently been developed, including SingleR [7], CHETAH [8], CellAssign [9], scMatch [10], scCATCH [11], scPred [12], SciBet [13], scVI [14], and Cell BLAST [15]
+- seven other algorithms, including CHETAH [7], SciBet [8], SCINA [9], scmap-cell [10], scmap-cluster [10], SingleR [11] and ikarus [12]
+- t.results <- predCellType(expr@assays[["RNA"]]@data)
+- '- `SelectGene(expr, k, r)`'
+- We present SciBet, a supervised cell type identifier that accurately predicts cell identity for newly sequenced cells with order-of-magnitude speed advantage.
+- devtools::install_github("PaulingLiu/scibet")
+- We present SciBet, a single-cell classifier that accurately predicts cell identity for newly sequenced cells or cell clusters.
+- '- `SciBet(train, test, k, result)`'
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+source_repos:
+- https://github.com/zwj-tina/scibetR
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/bsml320/deCS
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/czythu/scCancer
+- https://github.com/PaulingLiu/scibet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zwj-tina/scibetR

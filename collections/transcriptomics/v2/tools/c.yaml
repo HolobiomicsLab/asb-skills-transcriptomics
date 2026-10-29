@@ -1,0 +1,32 @@
+name: C++
+slug: c
+version_used: null
+edam_topics: []
+evidence_spans:
+- C++ 17 compliant compiler (gcc/clang)
+- A modern c++ compiler with c++11 support.
+- A modern c++ compiler with c++11 support. Supports Gnu g++, clang++ and Intel icpc.
+- Use the C project src/c/fastq\_umi\_clipper.
+- Next step is to find all of the positions where a UMI maps in the genome. You do with with the C project in src/c/umi_analyzer_uthash.
+- The compiled program takes a FASTQ file and filters on any substring of your choice.
+- using a scripting language for this task is far too slow. Fortunately there are C implementations of hashes.
+derived_from:
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+- doi: 10.1093/bioinformatics/btad373
+  title: 'MCPNet: a parallel maximum capacity-based genome-scale gene network construction framework'
+- doi: 10.1016/j.crmeth.2022.100332
+  title: Multiset multicover methods for discriminative marker selection
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/SFGLab/cudaMMC
+- https://github.com/AluruLab/MCPNet
+- https://github.com/euxhenh/phenotype-cover
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/cudaMMC

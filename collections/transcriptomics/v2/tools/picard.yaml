@@ -1,0 +1,31 @@
+name: picard
+slug: picard
+version_used: 2.20.3
+edam_topics: []
+evidence_spans:
+- picard (v2.20.3)
+- picard (v2.20.3), trinity (v2.1.1), blast (v2.9.0), seqkit (v0.12.0), sambamba (v0.7.0)
+- duplicates were marked and removed from the raw BAM files using MarkDuplicates from Picard (v2.18.9)
+- using MarkDuplicates from Picard (v2.18.9)
+- create the reference dictionary with function `CreateSequenceDictionary` using software Picard
+- duplicate reads were marked using Picard (version 2.8.1)
+derived_from:
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/Rashedul/CRIS
+- https://github.com/single-cell-genetics/MQuad
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rashedul/CRIS

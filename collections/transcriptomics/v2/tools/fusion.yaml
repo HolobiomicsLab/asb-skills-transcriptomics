@@ -1,0 +1,18 @@
+name: FUSION
+slug: fusion
+version_used: null
+edam_topics: []
+evidence_spans:
+- we observe that OTTERS outperforms the popular FUSION20 approach across all simulation settings considered
+- a variety of training tools exist for fitting GReX regression models using reference expression and genetic data, including PrediXcan19, FUSION20, and TIGAR22
+derived_from:
+- doi: 10.1038/s41467-023-36862-w
+  title: 'OTTERS: a powerful TWAS framework leveraging summary-level reference data'
+source_repos:
+- https://github.com/daiqile96/OTTERS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/daiqile96/OTTERS

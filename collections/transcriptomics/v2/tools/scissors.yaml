@@ -1,0 +1,21 @@
+name: SCISSORS
+slug: scissors
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'library(SCISSORS)        # reclustering'
+- we present a carefully designed framework, SCISSORS, which accurately profiles subclusters within broad cluster(s) for the identification of rare cell types in scRNA-seq data
+derived_from:
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+source_repos:
+- https://github.com/xuyp-csu/scCAD
+- https://github.com/jr-leary7/SCISSORS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xuyp-csu/scCAD

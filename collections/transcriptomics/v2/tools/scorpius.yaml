@@ -1,0 +1,21 @@
+name: SCORPIUS
+slug: scorpius
+version_used: 1.0.9
+edam_topics: []
+evidence_spans:
+- including Monocle2 [17], TSCAN [18], SCORPIUS [19], and for cell cycle processes such as reCAT [20]
+- including Monocle2 [17], TSCAN [18], and SCORPIUS [19], and for cell cycle processes such as reCAT [20]
+derived_from:
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+source_repos:
+- https://github.com/xiaorudong/Escort
+- https://github.com/tinglab/redPATH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaorudong/Escort

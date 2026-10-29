@@ -1,0 +1,16 @@
+name: URSA
+slug: ursa
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2020.101913
+  title: 'CellO: comprehensive and hierarchical cell type classification of human cells with the Cell Ontology'
+source_repos:
+- https://github.com/deweylab/CellO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/deweylab/CellO

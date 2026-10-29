@@ -1,0 +1,20 @@
+name: ComplexHeatmap
+slug: complexheatmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- BiocManager::install("ComplexHeatmap")
+derived_from:
+- doi: 10.1093/bib/bbae198
+  title: 'CPPLS-MLP: a method for constructing cell–cell communication networks and identifying related highly variable genes based on single-cell sequencing and spatial transcriptomics data'
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+source_repos:
+- https://github.com/wuzhenao/CPPLS-MLP
+- https://github.com/jackbibby1/SCPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wuzhenao/CPPLS-MLP

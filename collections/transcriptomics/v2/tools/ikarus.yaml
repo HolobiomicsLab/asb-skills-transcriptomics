@@ -1,0 +1,26 @@
+name: ikarus
+slug: ikarus
+version_used: null
+edam_topics: []
+evidence_spans:
+- seven other algorithms, including CHETAH [7], SciBet [8], SCINA [9], scmap-cell [10], scmap-cluster [10], SingleR [11] and ikarus [12]
+- Cancer-Finder, CaSee14, CopyKAT13, SCEVAN35 and ikarus17 were evaluated on the 10 external validation datasets via the default parameters for fairness.
+- CopyKAT, SCEVAN and ikarus were evaluated on a CPU platform, whereas CaSee and Cancer-Finder were examined on a GPU platform.
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s42003-025-07942-y
+  title: scMalignantFinder distinguishes malignant cells in single-cell and spatial transcriptomics by leveraging cancer signatures
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+source_repos:
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/BIMSBbioinfo/ikarus
+- https://github.com/Jonyyqn/scMalignantFinder
+- https://github.com/Patchouli-M/SequencingCancerFinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangX-Lab/PreCanCell

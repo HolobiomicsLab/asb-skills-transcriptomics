@@ -1,0 +1,17 @@
+name: BFF
+slug: bff
+version_used: null
+edam_topics: []
+evidence_spans:
+- HTOdemux (Seurat), Multi-seq, GMM_Demux, BFF, and DropletUtils have been shown to work well with benchmark datasets
+derived_from:
+- doi: 10.1093/bib/bbae254
+  title: A hybrid demultiplexing strategy that improves performance and robustness of cell hashing
+source_repos:
+- https://github.com/WilsonImmunologyLab/HTOreader
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WilsonImmunologyLab/HTOreader

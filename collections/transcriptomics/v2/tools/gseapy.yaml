@@ -1,0 +1,48 @@
+name: gseapy
+slug: gseapy
+version_used: 1.0.4
+edam_topics: []
+evidence_spans:
+- enrichr/gseapy KEGG enrichment
+- enrichment analysis via the package gseapy (https://github.com/zqfang/GSEApy) which uses the GSEA method27
+- zqfang/GSEApy
+- gene set enrichment analysis was performed using the enrichr function in gseapy v1.0.4 package in python
+- The identified markers were subsequently employed for enrichment analysis with the Python package GSEApy109.
+- run KEGG pathway enrichment (gseapy.enrichr, Fisher exact test)
+- For basic usage of VEGA on training the model and analyzing pathway activities (including differential tests)
+derived_from:
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1016/j.crmeth.2022.100332
+  title: Multiset multicover methods for discriminative marker selection
+- doi: 10.1038/s41467-024-50150-1
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and active learning'
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+source_repos:
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/zqfang/GSEApy
+- https://github.com/euxhenh/cellar
+- https://github.com/suda-huanglab/circlehunter
+- https://github.com/jranek/delve
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/euxhenh/phenotype-cover
+- https://github.com/mcgilldinglab/scSemiProfiler
+- https://github.com/xiaoyeye/TFvelo
+- https://github.com/LucasESBS/vega
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/boostdiff_inference

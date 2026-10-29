@@ -1,0 +1,42 @@
+name: CopyKAT
+slug: copykat
+version_used: 1.0.5
+edam_topics: []
+evidence_spans:
+- Some approaches, such as SCEVAN and CopyKAT, attempt to distinguish malignant cancer cells in single-cell RNA-seq through CNV calling
+- To calculate inferred CNV status we offer a built in argument to run CopyKAT CNV inference.
+- with CopyKAT v1.0.5 and inferCNV v1.4.0.
+- how to accurately distinguish between multiple malignant and non-malignant cell populations for targeted treatments remains a translational challenge
+- Cancer-Finder, CaSee14, CopyKAT13, SCEVAN35 and ikarus17 were evaluated on the 10 external validation datasets via the default parameters for fairness.
+- CopyKAT, SCEVAN and ikarus were evaluated on a CPU platform, whereas CaSee and Cancer-Finder were examined on a GPU platform.
+- CopyKAT is another recently proposed method that leverages a polynomial dynamic programming model to smooth the transformed data along genomic coordinates
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1038/s41467-023-36790-9
+  title: A variational algorithm to detect the clonal copy number substructure of tumors from scRNA-seq data
+- doi: 10.1038/s42003-025-07942-y
+  title: scMalignantFinder distinguishes malignant cells in single-cell and spatial transcriptomics by leveraging cancer signatures
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/AntonioDeFalco/SCEVAN
+- https://github.com/navinlabcode/copykat
+- https://github.com/Jonyyqn/scMalignantFinder
+- https://github.com/IanevskiAleksandr/sc-type
+- https://github.com/Patchouli-M/SequencingCancerFinder
+- https://github.com/single-cell-genetics/XClone
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

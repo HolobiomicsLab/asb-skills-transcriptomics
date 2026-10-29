@@ -1,0 +1,41 @@
+name: SummarizedExperiment
+slug: summarizedexperiment
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(SummarizedExperiment)
+- The processed datasets were packaged in `R`/`Bioconductor``SummarizedExperiment` object individually.
+- summ_exp <- SummarizedExperiment(assays = counts)
+- library(SummarizedExperiment)
+- SummarizedExperiment (Imports)
+- library(SummarizedExperiment)
+- 'library(tcm)
+
+  library(SummarizedExperiment)'
+- X <- assays(iPSC)$count
+derived_from:
+- doi: 10.1038/s41467-021-24584-w
+  title: Development of a fixed module repertoire for the analysis and interpretation of blood transcriptome data
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+- doi: 10.1038/s41598-018-35365-9
+  title: Detection of correlated hidden factors from single cell transcriptomes using Iteratively Adjusted-SVA (IA-SVA)
+- doi: 10.1038/s41467-018-03282-0
+  title: Characterizing the replicability of cell types defined by single cell RNA-sequencing data using MetaNeighbor
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+source_repos:
+- https://github.com/Drinchai/BloodGen3Module
+- https://github.com/MahShaaban/curatedAdipoArray
+- https://github.com/UcarLab/iasva
+- https://github.com/gillislab/MetaNeighbor
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/gongx030/tcm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Drinchai/BloodGen3Module

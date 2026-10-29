@@ -1,0 +1,30 @@
+name: CellTypist
+slug: celltypist
+version_used: null
+edam_topics: []
+evidence_spans:
+- we use the CellTypist method, which similarly performs de-novo prediction of cell type labels given its precomputed databases of cell type markers.
+- automated cell type prediction models
+derived_from:
+- doi: 10.1093/bib/bbaf243
+  title: 'scaLR: a low-resource deep neural network-based platform for single cell analysis and biomarker discovery'
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+- doi: 10.1038/s41467-024-51059-5
+  title: 'scTab: Scaling cross-tissue single-cell annotation models'
+- doi: 10.1093/bib/bbaf279
+  title: 'scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+source_repos:
+- https://github.com/infocusp/scaLR
+- https://github.com/cantinilab/scPRINT
+- https://github.com/theislab/scTab
+- https://github.com/LHBCB/scvalue
+- https://github.com/SELINA-team/SELINA.py
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/infocusp/scaLR

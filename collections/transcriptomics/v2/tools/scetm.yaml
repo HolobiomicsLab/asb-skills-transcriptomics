@@ -1,0 +1,19 @@
+name: scETM
+slug: scetm
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present single-cell Embedded Topic Model (scETM).
+- model = scETM(mp.n_vars, mp.obs.batch_indices.nunique(), enable_batch_bias=True)
+- pip install scETM
+derived_from:
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+source_repos:
+- https://github.com/hui2000ji/scETM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hui2000ji/scETM

@@ -1,0 +1,17 @@
+name: Monocle 1
+slug: monocle-1
+version_used: null
+edam_topics: []
+evidence_spans:
+- Limitations include reconstructing linear trajectories (Waterfall, Monocle 1)
+derived_from:
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+source_repos:
+- https://github.com/edroaldo/cellrouter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edroaldo/cellrouter

@@ -1,0 +1,17 @@
+name: filterCommunication
+slug: filtercommunication
+version_used: null
+edam_topics: []
+evidence_spans:
+- filterCommunication(object, min.cells, min.samples, rare.keep, nonFilter.keep)
+derived_from:
+- doi: 10.1038/s41467-021-21246-9
+  title: Inference and analysis of cell-cell communication using CellChat
+source_repos:
+- https://github.com/jinworks/CellChat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jinworks/CellChat

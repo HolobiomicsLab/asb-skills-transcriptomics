@@ -1,0 +1,23 @@
+name: deCS
+slug: decs
+version_used: '3.5'
+edam_topics: []
+evidence_spans:
+- deCS relies on R (>= 3.5), reshape2 (>= 1.4.4), ggplot2 (>= 3.3.2).
+- Here, we present decoding Cell type Specificity (deCS), an automatic cell type annotation method
+- we provide function `deCS.fisher()`, implement with Fisher’s exact test to identify query gene set enriched in cell type-specific genes (CTgenes)
+- Here, we present decoding Cell type Specificity (deCS), an automatic cell type annotation method augmented by a comprehensive collection of human cell type expression profiles and marker genes.
+- pbmc_deCS_cor_panel_A <- deCS.correlation(pbmc_cluster_marker_z_score, MonacoImmune_main_t_score)
+- pbmc_deCS_FET_panel_A <- deCS.fisher(pbmc_top10_markers_list, MonacoImmune_main_t_score)
+- we provide function `deCS.correlation()` for cell type enrichment analysis
+derived_from:
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+source_repos:
+- https://github.com/bsml320/deCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bsml320/deCS

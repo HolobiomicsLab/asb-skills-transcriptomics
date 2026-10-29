@@ -1,0 +1,23 @@
+name: scFusion
+slug: scfusion
+version_used: null
+edam_topics: []
+evidence_spans:
+- Download all scripts, unzip the hg19mappability file in the data folder, and run scFusion.py.
+- Here, we present a computational tool, scFusion, for gene fusion detection based on scRNA-seq.
+- scFusion employs a statistical model and a deep-learning model to control for false positives.
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+source_repos:
+- https://github.com/XiDsLab/scFusion
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/ZijieJin/scFusion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiDsLab/scFusion

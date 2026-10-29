@@ -1,0 +1,19 @@
+name: DCLEAR
+slug: dclear
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(DCLEAR)
+- 'the best performers are: DCLEAR17, a distance-based method that first calculates the pairwise distance'
+- 'the best performers are: DCLEAR17, a distance-based method that first calculates the pairwise distance between cells'
+derived_from:
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+source_repos:
+- https://github.com/ZhangLabGT/LinRace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhangLabGT/LinRace

@@ -1,0 +1,17 @@
+name: Seq2Fun
+slug: seq2fun
+version_used: 2.0.2
+edam_topics: []
+evidence_spans:
+- quantification based on Kallisto (version 0.46.1) or Seq2Fun (version 2.0.2)
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

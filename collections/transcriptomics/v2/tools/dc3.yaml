@@ -1,0 +1,19 @@
+name: DC3
+slug: dc3
+version_used: '2.7'
+edam_topics: []
+evidence_spans:
+- DC3 is implemented in Python 2.7 and freely available at https://github.com/SUwonglab/DC3
+- we introduce DC3 (De-Convolution and Coupled-Clustering) as a method for the joint analysis of various bulk and single-cell data
+- we introduce DC3 (De-Convolution and Coupled-Clustering)
+derived_from:
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+source_repos:
+- https://github.com/SUwonglab/DC3
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SUwonglab/DC3

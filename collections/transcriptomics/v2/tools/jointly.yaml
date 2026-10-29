@@ -1,0 +1,19 @@
+name: JOINTLY
+slug: jointly
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present JOINTLY, an algorithm enabling joint clustering of sxRNA-seq datasets across batches.
+- liver <- jointly(liver, batch.var = "batch_label")
+- remotes::install_github("madsen-lab/rJOINTLY")
+derived_from:
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+source_repos:
+- https://github.com/madsen-lab/rJOINTLY
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/madsen-lab/rJOINTLY

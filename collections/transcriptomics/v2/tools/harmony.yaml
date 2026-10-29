@@ -1,0 +1,149 @@
+name: Harmony
+slug: harmony
+version_used: 0.1.6
+edam_topics: []
+evidence_spans:
+- integrates the recent batch-correction tool Harmony32 with ACTIONet reduction step
+- Harmony takes as input a low dimensional embedding, generally principal components, of gene expressions and returns a batch corrected embedding
+- Dimension reduction of single cell data with corral
+- corralm+Harmony, corralm+MNN, and multibatch PCA baselines
+- Single cell RNA-sequencing of peripheral blood mononuclear cells from publicly available datasets was then used to determine the immune cell subsets involved.
+- The Harmony algorithm R package was used to remove batch effects between individual samples.
+- we used the integrated space identified by Harmony41 for the samples in cohort 1 of the COVID-19 dataset
+- However, in contrast to batch correction using Harmony34 (Fig. 4C), not all variation is lost between the interferon beta stimulated and control cells.
+- (absent — flagged as missing)
+- To learn more about the algorithm, and how it compares to other methods, see the original paper at [Bioinformatics](https://doi.org/10.1093/bioinformatics/btad278)
+- 'we tested three state-of-the-art integration methods: Seurat (Satija et al. 2015; Stuart and Satija 2019), Scanorama (Hie et al. 2019), and Harmony (Korsunsky et al. 2019)'
+- statistical (e.g., Harmony2)
+- There are many well-established integration methods available to address batch effects in scRNA-seq datasets, for example, Seurat, Harmony, and LIGER
+- Symphony is built upon an extensively examined integration method, Harmony5. So, we also included it in our benchmark.
+- adjusted principal components (Harmony)22, or generative deep learning models using variational autoencoders (scVI)23
+- Harmony and scanorama were tested with default parameters.
+- correcting for donor effects using Harmony integration
+- The most widely used methods include Seurat13, Harmony14, Scanorama15, scVI16, scDML17, and scDREAMER18.
+- we used Seurat, Harmony, Scanorama, scVI, scDML, and scDREAMER as benchmarking methods with default parameters
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- adjusted the principal components (PCs) with the Harmony algorithm to eliminate batch effects if needed
+- adjusted the principal components (PCs) with the Harmony algorithm to eliminate batch effects
+- '[Harmony](https://github.com/immunogenomics/harmony)'
+- We benchmarked the results against four popular tools, Seurat v5, Harmony, LIGER, and Combat-seq, which were developed for this purpose.
+- suppressMessages(library(harmony))
+- In case of batch effects are present, the method Harmony (Korsunsky et al., 2019) can be applied for batch correction.
+- BBKNN17, Harmony18
+- several of these rapid procedures (deepMNN16, BBKNN17, Harmony18, scVI19, scANVI20 and DESC21) focus on extracting the joint embedding
+- iterative clustering based Harmony21;
+- iterative clustering based Harmony21
+- scPhere performed better than state-of-the-art batch-correction methods such as Harmony, Seurat3 CCA, LIGER
+- latent spaces returned by batch correction methods (such as Harmony, Scanorama, and scVI)
+- compares favorably to popular unsupervised methods such as Harmony, FastMNN, Seurat v4, scVI, and Scanorama
+- library(harmony)
+- Our group previously developed Harmony15, a fast, accurate, and well-reviewed method20
+- Our group previously developed Harmony15, a fast, accurate, and well-reviewed method20 that is able to explicitly model complex study design
+- Run Harmony integration. It is important to set `return_object = TRUE`.
+- reference = buildReferenceFromHarmonyObj(
+- Our group previously developed Harmony, a fast, accurate, and well-reviewed method that is able to explicitly model complex study design
+- Harmony12 iterated between maximum diversity clustering and a mixture model-based linear batch correction
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+- doi: 10.1038/s41598-022-26434-1
+  title: Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data
+- doi: 10.1016/j.ebiom.2023.104472
+  title: Early peripheral blood MCEMP1 and HLA-DRA expression predicts COVID-19 prognosis
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-023-38333-8
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1038/s41467-024-49806-9
+  title: Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+- doi: 10.1093/bioadv/vbae134
+  title: Batch-effect correction in single-cell RNA sequencing data using JIVE
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-021-25957-x
+  title: Efficient and precise single-cell reference atlas mapping with Symphony
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/mandricigor/batman
+- https://github.com/ashiq24/BEENE
+- https://github.com/MaShisongLab/CellGEP
+- https://github.com/laurenhsu1/corral
+- https://github.com/kuanrongchan/COVID19-severity
+- https://github.com/csglab/GEDI
+- https://github.com/nceglia/genevector
+- https://github.com/BradhamLab/icat
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/hayatlab/MASI
+- https://github.com/yi-zhang/MetaTiME
+- https://github.com/cistrome/MIRA
+- https://github.com/lixiangchun/Miscell
+- https://github.com/SchubertLab/mvTCR
+- https://github.com/mcgilldinglab/scCobra
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/ailabstw/scDrug
+- https://github.com/immunogenomics/harmony
+- https://github.com/hui2000ji/scETM
+- https://github.com/oconnell-statistics-lab/scJIVE
+- https://github.com/CostaLab/scMEGA
+- https://github.com/SydneyBioX/scMerge
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/klarman-cell-observatory/scPhere
+- https://github.com/Dulab2020/scWizard
+- https://github.com/SELINA-team/SELINA.py
+- https://github.com/ddiez/singleCellHaystack-py
+- https://github.com/carmonalab/STACAS
+- https://github.com/immunogenomics/singlecellmethods
+- https://github.com/immunogenomics/symphony
+- https://github.com/deeplearningplus/tGPT
+- https://github.com/caokai1073/uniPort
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

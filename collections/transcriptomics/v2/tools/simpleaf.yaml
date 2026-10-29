@@ -1,0 +1,20 @@
+name: simpleaf
+slug: simpleaf
+version_used: null
+edam_topics: []
+evidence_spans:
+- '``simpleaf`` is a program to simplify and customize the running and configuration of single-cell processing with `alevin-fry'
+- '`simpleaf` encapsulates the process of creating an expanded reference for quantification into a single command (`index`) and the quantification of a sample into a single command (`quant`)'
+- The ``--chemistry`` option can take either a string describing the specific chemisty, or a string describing the geometry of the barcode, umi and mappable read
+- The ``simpleaf workflow get`` command helps fetch the files of a registered simpleaf workflow to a local directory.
+derived_from:
+- doi: 10.1093/bioinformatics/btad614
+  title: "<tt>simpleaf</tt>\n                    : a simple, flexible, and scalable framework for single-cell data processing using alevin-fry"
+source_repos:
+- https://github.com/COMBINE-lab/simpleaf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/COMBINE-lab/simpleaf

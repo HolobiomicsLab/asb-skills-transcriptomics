@@ -1,0 +1,48 @@
+name: irlba
+slug: irlba
+version_used: null
+edam_topics: []
+evidence_spans:
+- pca <- irlba_wrap(cm, npc = 25)
+- mb_small <- get_pcs(mb_small,
+- 'Reconstruct the fixed first architecture step of GapClust: vst feature selection, PCA (irlba)'
+- pc1 <- irlba(lcounts - rowMeans(lcounts), 1)$v[, 1]
+- augmented implicitly restarted Lanczos bidiagonalization algorithm (IRLBA) (https://bwlewis.github.io/irlba/)
+- rROMA uses the R irlba package36,37
+- rROMA uses the R irlba package36,37, which allows to focus on the first principal component
+- rRoma uses the R irlba package36,37, which allows to focus on the first principal component
+- rROMA uses the R irlba package
+- Use the matrix of PCA loadings as a plug in estimator for U. Then Uzij is the vector of PC scores for cell i in sample j.
+- '- `irlba (Imports)`'
+- 'dim(sim$Y) #Normalized counts'
+- irlba (Imports)
+- s = irlba(ref_exp_scaled, nv = 20)
+derived_from:
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1038/s41598-020-67513-5
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+- doi: 10.1038/s41467-021-24489-8
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+- doi: 10.1038/s41598-018-35365-9
+  title: Detection of correlated hidden factors from single cell transcriptomes using Iteratively Adjusted-SVA (IA-SVA)
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+- doi: 10.1038/s41467-021-25957-x
+  title: Efficient and precise single-cell reference atlas mapping with Symphony
+source_repos:
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/marcalva/diem
+- https://github.com/fabotao/GapClust
+- https://github.com/UcarLab/iasva
+- https://github.com/sysbio-curie/rROMA
+- https://github.com/phillipnicol/scDist
+- https://github.com/immunogenomics/symphony
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/leeprichman/ClonoCluster

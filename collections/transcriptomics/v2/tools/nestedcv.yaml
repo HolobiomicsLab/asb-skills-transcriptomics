@@ -1,0 +1,22 @@
+name: nestedcv
+slug: nestedcv
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(nestedcv)
+- 'Nested cross-validation (CV) for the glmnet and caret packages. With glmnet this
+
+  includes cross-validation of elastic net alpha parameter.'
+- The nestedcv R package implements fully nested k × l-fold CV for lasso and elastic-net regularized linear models
+- filt <- ttest_filter(y, x, nfilter = 100)
+derived_from:
+- doi: 10.1093/bioadv/vbad048
+  title: 'nestedcv: an R package for fast implementation of nested cross-validation with embedded feature selection designed for transcriptomics and high-dimensional data'
+source_repos:
+- https://github.com/myles-lewis/nestedcv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/myles-lewis/nestedcv

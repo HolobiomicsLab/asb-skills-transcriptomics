@@ -1,0 +1,17 @@
+name: Cyclops
+slug: cyclops
+version_used: null
+edam_topics: []
+evidence_spans:
+- existing methods yield poor circadian phase estimates, and do not quantify estimation uncertainty
+derived_from:
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+source_repos:
+- https://github.com/bauerbach95/tempo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bauerbach95/tempo

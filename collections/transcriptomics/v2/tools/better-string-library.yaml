@@ -1,0 +1,19 @@
+name: Better String Library
+slug: better-string-library
+version_used: null
+edam_topics: []
+evidence_spans:
+- This requires the Better String Library (https://github.com/msteinert/bstring) shared object to be in your LD_LIBRARY_PATH
+- This requires the Better String Library (https://github.com/msteinert/bstring) shared object to be in your LD\_LIBRARY\_PATH and bstring.h should be somewhere sensible.
+derived_from:
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/msteinert/bstring
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/msteinert/bstring

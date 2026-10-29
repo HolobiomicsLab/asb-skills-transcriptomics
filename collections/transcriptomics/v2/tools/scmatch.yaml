@@ -1,0 +1,22 @@
+name: scMatch
+slug: scmatch
+version_used: null
+edam_topics: []
+evidence_spans:
+- many automatic annotation tools have recently been developed, including SingleR [7], CHETAH [8], CellAssign [9], scMatch [10], scCATCH [11], scPred [12], SciBet [13], scVI [14], and Cell BLAST [15]
+- and cell-type annotation by scMatch [24]
+derived_from:
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+source_repos:
+- https://github.com/bsml320/deCS
+- https://github.com/asrhou/scMatch
+- https://github.com/ailabstw/scDrug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bsml320/deCS

@@ -1,0 +1,19 @@
+name: LinTIMaT
+slug: lintimat
+version_used: null
+edam_topics: []
+evidence_spans:
+- LinTIMaT22 develops a combined likelihood function and uses a local search framework to search for the tree with the maximum likelihood
+- tree_Lintimat <- read.tree("./inst/extdata/data_zebrafish/tree_LinTIMaT_ZF1_F3.newick")
+- LinTIMaT22 develops a combined likelihood function and uses a local search framework
+derived_from:
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+source_repos:
+- https://github.com/ZhangLabGT/LinRace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhangLabGT/LinRace

@@ -1,0 +1,24 @@
+name: SingCellaR
+slug: singcellar
+version_used: null
+edam_topics: []
+evidence_spans:
+- a comprehensive analytical protocol to interrogate multiple datasets on SingCellaR, an analysis package in R
+- '`filter_cells_and_genes(object, min_UMIs, max_UMIs, min_detected_genes, max_detected_genes, min_percent_mito, max_percent_mito, genes_with_expressing_cells, isRemovedDoublets)`'
+- SingCellaR, an analysis package in R
+- identifyGSEAPrerankedGenes_for_all_clusters(object, cluster.type, fishers_exact_test, min.expFraction, min.log2FC)
+- '`Build_AUCell_Rankings(object, AUCell_buildRankings.file, nCores, plotStats, splitByBlocks)`'
+- Declared exports parsed from the repository (NAMESPACE / __init__ / entry points).
+- get_umap.result(object)
+- identifyClusters(object, dim_reduction_method, useIntegrativeEmbeddings, integrative_method, n.dims.use, n.neighbors, knn.n_trees, knn.metric, knn.n_threads)
+derived_from:
+- doi: 10.1016/j.xpro.2022.101266
+  title: Processing single-cell RNA-seq datasets using SingCellaR
+source_repos:
+- https://github.com/supatt-lab/SingCellaR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/supatt-lab/SingCellaR

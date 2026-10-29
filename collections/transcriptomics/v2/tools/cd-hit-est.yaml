@@ -1,0 +1,23 @@
+name: cd-hit-est
+slug: cd-hit-est
+version_used: null
+edam_topics: []
+evidence_spans:
+- removed within the test set using cd-hit-est at the above-defined sequence identity threshold and word size
+- Bellerophon then uses CDHIT‐EST to filter redundant contigs, using a default cut‐off of 95% identity.
+- Bellerophon then uses CDHIT‐EST to filter redundant contigs, using a default cut‐off of 95% identity
+- (d) Bellerophon then uses CDHIT‐EST to filter redundant contigs, using a default cut‐off of 95% identity.
+derived_from:
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1002/ece3.5571
+  title: The Bellerophon pipeline, improving de novo transcriptomes and removing chimeras
+source_repos:
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/JesseKerkvliet/Bellerophon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smk5g5/MU-PseUDeep

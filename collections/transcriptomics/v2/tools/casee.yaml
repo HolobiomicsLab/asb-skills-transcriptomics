@@ -1,0 +1,18 @@
+name: CaSee
+slug: casee
+version_used: null
+edam_topics: []
+evidence_spans:
+- Cancer-Finder, CaSee14, CopyKAT13, SCEVAN35 and ikarus17 were evaluated on the 10 external validation datasets via the default parameters for fairness.
+derived_from:
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+source_repos:
+- https://github.com/yuansh3354/CaSee
+- https://github.com/Patchouli-M/SequencingCancerFinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yuansh3354/CaSee

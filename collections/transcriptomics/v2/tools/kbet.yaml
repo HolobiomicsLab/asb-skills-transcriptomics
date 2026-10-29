@@ -1,0 +1,32 @@
+name: kBET
+slug: kbet
+version_used: 0.99.6
+edam_topics: []
+evidence_spans:
+- does not have any python implementation available and is available only in R
+- Follow the instructions given [here](https://github.com/theislab/kBET/) for installation
+- kBET (Follow the instructions given [here](https://github.com/theislab/kBET/) for installation)
+- The [kBET](https://github.com/theislab/kBET/) does not have any python implementation available and is available only in R
+- This issue can be solved by setting the seed number prior to running kBET using the 'set.seed' function.
+- using R packages kBET (version 0.99.6) and cluster (version 2.1.3), respectively
+derived_from:
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+- doi: 10.1016/j.xpro.2022.101266
+  title: Processing single-cell RNA-seq datasets using SingCellaR
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+source_repos:
+- https://github.com/theislab/kBET
+- https://github.com/ashiq24/BEENE
+- https://github.com/supatt-lab/SingCellaR
+- https://github.com/deeplearningplus/tGPT
+- https://github.com/minoda-lab/universc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/kBET

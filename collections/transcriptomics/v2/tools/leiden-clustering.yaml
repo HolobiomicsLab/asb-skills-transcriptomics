@@ -1,0 +1,21 @@
+name: Leiden clustering
+slug: leiden-clustering
+version_used: null
+edam_topics: []
+evidence_spans:
+- Clustering analysis can be performed by providing W as input to a Leiden clustering algorithm (Traag et al, 2019).
+- labels_leiden = scmomat.leiden_cluster(X = None, knn_indices = knn_indices, knn_dists = knn_dists, resolution = resolution)
+derived_from:
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+- doi: 10.1038/s41467-023-36066-2
+  title: scMoMaT jointly performs single cell mosaic integration and multi-modal bio-marker detection
+source_repos:
+- https://github.com/CostaLab/PILOT
+- https://github.com/PeterZZQ/scMoMaT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CostaLab/PILOT

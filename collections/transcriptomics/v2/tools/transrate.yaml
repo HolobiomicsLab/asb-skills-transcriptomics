@@ -1,0 +1,22 @@
+name: TransRate
+slug: transrate
+version_used: null
+edam_topics: []
+evidence_spans:
+- (e) TransRate is executed to use TransRate's filtering capabilities and to assess the quality of the assembly after TPM and CDHIT-EST filtering.
+- Busco and Transrate are used to establish a ground quality score of the unfiltered assembly
+- (e) TransRate is executed to use TransRate's filtering capabilities and to assess the quality of the assembly after TPM and CDHIT‐EST filtering.
+- (e) TransRate is executed to use TransRate's filtering capabilities
+- Bellerophon first uses the quality assessment tool TransRate to indicate the quality
+- (e) TransRate is executed to use TransRate's filtering capabilities and to assess the quality of the assembly
+derived_from:
+- doi: 10.1002/ece3.5571
+  title: The Bellerophon pipeline, improving de novo transcriptomes and removing chimeras
+source_repos:
+- https://github.com/JesseKerkvliet/Bellerophon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JesseKerkvliet/Bellerophon

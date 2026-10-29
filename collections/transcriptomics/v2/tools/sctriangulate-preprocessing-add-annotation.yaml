@@ -1,0 +1,17 @@
+name: scTriangulate.preprocessing.add_annotation
+slug: sctriangulate-preprocessing-add-annotation
+version_used: null
+edam_topics: []
+evidence_spans:
+- The obtained annotations and umap coordinates were added to the existing AnnData by scTriangulate.preprocessing.add_annotation and scTriangulate.preprocessing.add_umap functions
+derived_from:
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+source_repos:
+- https://github.com/frankligy/scTriangulate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/frankligy/scTriangulate

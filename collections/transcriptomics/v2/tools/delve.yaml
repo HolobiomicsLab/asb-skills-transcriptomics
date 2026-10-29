@@ -1,0 +1,19 @@
+name: DELVE
+slug: delve
+version_used: null
+edam_topics: []
+evidence_spans:
+- constructed a weighted k-nearest neighbor affinity graph of cells (k = 10), and 1000 neighborhoods were sketched to identify dynamic seed feature clusters (c = 3 for the Splatter simulated datasets
+- we present DELVE, an unsupervised feature selection method for identifying a representative subset of molecular features which robustly recapitulate cellular trajectories
+- we present DELVE, an unsupervised feature selection method for identifying a representative subset of molecular features
+derived_from:
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+source_repos:
+- https://github.com/jranek/delve
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jranek/delve

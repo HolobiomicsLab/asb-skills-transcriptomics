@@ -1,0 +1,30 @@
+name: scmap-cell
+slug: scmap-cell
+version_used: null
+edam_topics: []
+evidence_spans:
+- seven other algorithms, including CHETAH [7], SciBet [8], SCINA [9], scmap-cell [10], scmap-cluster [10], SingleR [11] and ikarus [12]
+- scATOMIC is comparable to or outperforms other existing automatic cell type annotators when classifying blood and stromal cells using our training reference.
+- including scmap-cell and scmap-cluster [25], scPred [26] and scLearn [27].
+- scmap-cell uses an approximate nearest neighbor search method to efficiently find the K-nearest neighbors between the reference and query datasets
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1093/bib/bbae112
+  title: 'scNovel: a scalable deep learning-based network for novel rare cell discovery in single-cell transcriptomics'
+source_repos:
+- https://github.com/hemberg-lab/scmap
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/chuanyang-Zheng/scNovel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hemberg-lab/scmap

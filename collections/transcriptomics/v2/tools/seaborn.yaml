@@ -1,0 +1,31 @@
+name: seaborn
+slug: seaborn
+version_used: 0.11.1
+edam_topics: []
+evidence_spans:
+- import seaborn as sns
+- '- seaborn (>= 0.11.1)'
+- conda install seaborn
+derived_from:
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1016/j.patter.2022.100443
+  title: 'EMBEDR: Distinguishing signal from noise in single-cell omics data'
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+source_repos:
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/MintaYLu/COT
+- https://github.com/ejohnson643/EMBEDR
+- https://github.com/WhirlFirst/STEM
+- https://github.com/audreyqyfu/LATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/boostdiff_inference

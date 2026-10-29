@@ -1,0 +1,26 @@
+name: cell2cell
+slug: cell2cell
+version_used: null
+edam_topics: []
+evidence_spans:
+- This documentation is for our *cell2cell* suite, which includes the [regular cell2cell](https://doi.org/10.1371/journal.pcbi.1010715)
+- This documentation is for our cell2cell suite, which includes the regular cell2cell and Tensor-cell2cell tools
+- pip install cell2cell
+- '*cell2cell*
+
+
+  This documentation is for our *cell2cell* suite, which includes the [regular'
+- our *cell2cell* suite, which includes the [regular cell2cell]
+- This documentation is for our *cell2cell* suite
+- This documentation is for our cell2cell suite, which includes the [regular cell2cell](https://doi.org/10.1371/journal.pcbi.1010715)
+derived_from:
+- doi: 10.1038/s41467-022-31369-2
+  title: Context-aware deconvolution of cell–cell communication with Tensor-cell2cell
+source_repos:
+- https://github.com/earmingol/cell2cell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/earmingol/cell2cell

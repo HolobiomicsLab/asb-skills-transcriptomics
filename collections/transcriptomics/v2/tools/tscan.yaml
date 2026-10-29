@@ -1,0 +1,62 @@
+name: TSCAN
+slug: tscan
+version_used: null
+edam_topics: []
+evidence_spans:
+- scRNA-seq tailored unsupervised methods, such as SIMLR9, CellTree10, SC311, TSCAN12, and DIMM-SC13
+- including pseudotime-based methods like TSCAN and Monocle2, as well as k-nearest neighbor approaches like SPRING
+- By default, Lamian takes pseudotime values output from TSCAN which are integers.
+- By default, Lamian takes pseudotime values output from TSCAN
+- In Lamian, TSCAN is used as the default method to construct pseudotime due to its flexibility and scalability.
+- Many single cell clustering methods were proposed, including Seurat10, SC311, TSCAN12
+- including Monocle2 [17], TSCAN [18], SCORPIUS [19], and for cell cycle processes such as reCAT [20]
+- Monocle25, TSCAN26, Slingshot27, and SCANPY13 are considered state-of-the-art
+- Tscan applies principal component analysis (PCA) on the scRNA-seq data and then performs the Gaussian mixture model (GMM) clustering
+- Twenty publicly available scRNA-seq datasets used for performance evaluation and analysis with annotated cell types are collected from
+- Monocle, Slingshot, and TSCAN methods were applied to
+- Additional methods such as diffusion pseudotime16, Wishbone17, Monocle8 and TSCAN12
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41467-018-05988-7
+  title: 'GraphDDP: a graph-embedding approach to detect differentiation pathways in single-cell-data using prior class knowledge'
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1016/j.csbj.2023.12.021
+  title: 'scQA: A dual-perspective cell type identification model for single cell transcriptome data'
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/zji90/TSCAN
+- https://github.com/fabriziocosta/GraphEmbed
+- https://github.com/Winnie09/Lamian
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/tinglab/redPATH
+- https://github.com/duct317/scDHA
+- https://github.com/xianglin226/scMDC
+- https://github.com/LD-Lyndee/scQA
+- https://github.com/ZJUFanLab/scTITANS
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/gongx030/tcm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

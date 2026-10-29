@@ -1,0 +1,19 @@
+name: scButterfly
+slug: scbutterfly
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'scButterfly is available on PyPI, and could be installed using::'
+- Here, we proposed scButterfly, a versatile single-cell cross-modality translation method based on dual-aligned variational autoencoders
+- butterfly.Butterfly.augmentation
+derived_from:
+- doi: 10.1038/s41467-024-47418-x
+  title: 'scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders'
+source_repos:
+- https://github.com/BioX-NKU/scButterfly
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioX-NKU/scButterfly

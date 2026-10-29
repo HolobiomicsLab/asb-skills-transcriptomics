@@ -1,0 +1,21 @@
+name: BoostDiff
+slug: boostdiff
+version_used: null
+edam_topics: []
+evidence_spans:
+- BoostDiff modifies regression trees to use differential variance improvement (DVI) as the novel splitting criterion.
+- BoostDiff is a tree-based method for inferring differential networks from large-scale transcriptomics data
+- 'sys.path.insert(1, "../filtering_visualization")
+
+  from postprocessing import *'
+derived_from:
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+source_repos:
+- https://github.com/scibiome/boostdiff_inference
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/boostdiff_inference

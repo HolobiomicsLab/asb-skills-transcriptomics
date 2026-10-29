@@ -1,0 +1,24 @@
+name: slurm
+slug: slurm
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'This pipeline currently supports [slurm](https://slurm.schedmd.com) for
+
+  parallel batch jobs.'
+- scBONITA is currently designed to be run on SLURM systems
+- scBONITA is currently designed to be run on SLURM systems, with minimally complicated transfer to other distributed computing systems.
+derived_from:
+- doi: 10.1016/j.celrep.2019.10.131
+  title: Single-Cell Profiling Defines Transcriptomic Signatures Specific to Tumor-Reactive versus Virus-Responsive CD4+ T Cells
+- doi: 10.1038/s41540-022-00246-5
+  title: Executable models of immune signaling pathways in HIV-associated atherosclerosis
+source_repos:
+- https://github.com/asmagen/robustSingleCell
+- https://github.com/Thakar-Lab/scBONITA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/asmagen/robustSingleCell

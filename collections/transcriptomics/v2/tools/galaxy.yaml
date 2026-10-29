@@ -1,0 +1,17 @@
+name: Galaxy
+slug: galaxy
+version_used: null
+edam_topics: []
+evidence_spans:
+- The source codes of the modules and their dependencies are fully organized within the Galaxy framework.
+derived_from:
+- doi: 10.1016/j.gpb.2021.02.010
+  title: Interactive Web-Based Annotation of Plant MicroRNAs with iwa-miRNA
+source_repos:
+- https://github.com/cma2015/iwa-miRNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cma2015/iwa-miRNA

@@ -1,0 +1,101 @@
+name: Monocle
+slug: monocle
+version_used: 2.9.0
+edam_topics: []
+evidence_spans:
+- trajectory inference methods such as Monocle [22], TSCAN [23], and DPT [24] can be used to order cells
+- performed using scripting, primarily using packages for the R/Python languages such as monocle (Trapnell et al., 2014)
+- Reversed graph embedding resolves complex single-cell trajectories. Nat Methods 14, 979-982.
+- Although there exist pseudotime analysis methods to detect changes in gene expression along pseudotime (e.g. Monocle20–22, TSCAN23, Slingshot24)
+- (e.g. Monocle2, Monocle3, PhenoPath)
+- technical complications in implementation (e.g. Monocle2, Monocle3, PhenoPath)
+- compared to the neighborhood graph methods in Seurat7, Monocle8, Scanpy9, and optimal transport
+- run Monocle (v2.9.0, max_components = 2, method = DDRTree)
+- was performed using Monocle (version 2.9.0, parameters max_components = 2, method = DDRTree)
+- the pseudotime inferred by Cytotrace or Monocle
+- we reconstructed the cell differentiation trajectory using monocle39
+- Monocle25, TSCAN26, Slingshot27, and SCANPY13 are considered state-of-the-art
+- Among a number of trajectory inference tools, Monocle25, TSCAN26, Slingshot27, and SCANPY13 are considered state-of-the-art
+- highly consistent with known biology and with those obtained by previous algorithms such as Monocle14 and MPath15
+- use the Monocle (Qiu et al., 2017) to infer the trajectory of cell development
+- Seurat (Hao et al. 2021) or Monocle (Qiu et al. 2017), or any other standard scRNAseq analysis pipeline
+- We built a Minimum Spanning Tree, similarly to the Monocle algorithm39, to reconstruct the pseudo-time ordering of the single cells
+- getTrajectoryGenes( ) returns the simulated trajectory information of cells
+- Additional methods such as diffusion pseudotime16, Wishbone17, Monocle8 and TSCAN12
+- many trajectory inference (TI) approaches, like PAGA, Monocle, Slingshot and Palantir
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1016/j.gpb.2020.05.005
+  title: 'c-CSN: Single-Cell RNA Sequencing Data Analysis by Conditional Cell-Specific Network'
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+- doi: 10.1016/j.stemcr.2022.11.010
+  title: Gene regulatory network reconfiguration in direct lineage reprogramming
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+- doi: 10.1016/j.celrep.2019.10.131
+  title: Single-Cell Profiling Defines Transcriptomic Signatures Specific to Tumor-Reactive versus Virus-Responsive CD4+ T Cells
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1016/j.csbj.2022.04.023
+  title: 'scEFSC: Accurate single-cell RNA-seq data analysis via ensemble consensus clustering based on multiple feature selections'
+- doi: 10.1038/ncomms15599
+  title: Single-cell entropy for accurate estimation of differentiation potency from a cell’s transcriptome
+- doi: 10.1093/bioinformatics/btad098
+  title: 'scGCL: an imputation method for scRNA-seq data based on graph contrastive learning'
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+source_repos:
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/LinLi-0909/c-CSN
+- https://github.com/sonejilab/cellexalvr
+- https://github.com/morris-lab/CellOracle
+- https://github.com/13308204545/Chord
+- https://github.com/Winnie09/Lamian
+- https://github.com/marmarelis/QDiffusion.jl
+- https://github.com/asmagen/robustSingleCell
+- https://github.com/PavlopoulosLab/SCALA
+- https://github.com/xryanglab/SCASL
+- https://github.com/XLearning-SCU/scBridge
+- https://github.com/cole-trapnell-lab/monocle3
+- https://github.com/duct317/scDHA
+- https://github.com/cole-trapnell-lab/monocle-release
+- https://github.com/Conan-Bian/scEFSC
+- https://github.com/aet21/SCENT
+- https://github.com/zehaoxiong123/scGCL
+- https://github.com/galelab/scPathoQuant
+- https://github.com/ZJUFanLab/scTITANS
+- https://github.com/Dulab2020/scWizard
+- https://github.com/lanagarmire/SSrGE
+- https://github.com/YosefLab/SymSim
+- https://github.com/gongx030/tcm
+- https://github.com/xiaoyeye/TFvelo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/maiziezhoulab/Bfimpute

@@ -1,0 +1,63 @@
+name: igraph
+slug: igraph
+version_used: 1.5.1
+edam_topics: []
+evidence_spans:
+- '''igraph'',''ggplot2'',''mclust'',''grid'',''Rtsne'',''cccd'''
+- list.of.packages <- c('reshape','reshape2','pheatmap','tsne','igraph','ggplot2','mclust','grid','Rtsne','cccd')
+- install.packages("igraph")
+- library(igraph)
+- gr.o <- graph.adjacency(adj.m,mode="undirected");
+- igraph::igraph.options(sparsematrices = FALSE)
+- 'Following libraries are needed to run the shiny app: igraph,tidyr,dplyr,ggplot2,plotly,ggtext,data.table,readr.'
+- suppressMessages(library(igraph))
+- '[![igraph 0.10.2](https://img.shields.io/badge/igraph-0.10.2-blue)](https://pypi.org/project/igraph/)'
+- '[![igraph 0.10.2](https://img.shields.io/badge/igraph-0.10.2-blue)]'
+- Interchangeable model representation as either an **igraph** object or
+- Interchangeable model representation as either an **igraph** object or the corresponding SEM in **lavaan** syntax
+- Interchangeable model representation as either an **igraph** object
+derived_from:
+- doi: 10.1016/j.stemcr.2022.11.010
+  title: Gene regulatory network reconfiguration in direct lineage reprogramming
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+- doi: 10.1038/s41467-023-39017-z
+  title: Cell-attribute aware community detection improves differential abundance testing from single-cell RNA-Seq data
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+- doi: 10.1093/bioinformatics/btad377
+  title: 'SEMtree: tree-based structure learning methods with structural equation models'
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+source_repos:
+- https://github.com/igraph/rigraph
+- https://github.com/morris-lab/CellOracle
+- https://github.com/edroaldo/cellrouter
+- https://github.com/JiangBioLab/DeepCCI
+- https://github.com/aet21/ELVAR
+- https://github.com/qingnanl/gsdensity
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/yuntianf/Longcell
+- https://github.com/CostaLab/scMEGA
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/cailab-tamu/scTenifoldNet
+- https://github.com/fernandoPalluzzi/SEMgraph
+- https://github.com/BatzoglouLabSU/SIMLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/igraph/rigraph

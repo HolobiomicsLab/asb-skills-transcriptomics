@@ -1,0 +1,22 @@
+name: scCobra
+slug: sccobra
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we present scCobra, a deep generative neural network designed to overcome these challenges through contrastive learning with domain adaptation.
+- scCobra is a deep learning-based model for single-cell data batch correction and data harmonization.
+- scCobra, a deep generative neural network designed to overcome these challenges through contrastive learning with domain adaptation
+- single-cell data batch correction and data harmonization
+- scCobra** is a deep learning-based model for single-cell data batch correction and data harmonization
+- git clone https://github.com/mcgilldinglab/scCobra.git
+derived_from:
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+source_repos:
+- https://github.com/mcgilldinglab/scCobra
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgilldinglab/scCobra

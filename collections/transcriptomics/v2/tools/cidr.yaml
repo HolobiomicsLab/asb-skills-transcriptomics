@@ -1,0 +1,33 @@
+name: CIDR
+slug: cidr
+version_used: 0.1.5
+edam_topics: []
+evidence_spans:
+- VCCRI/CIDR
+- Widely-used methods in this category include SC39, SEURAT10, SINCERA11, CIDR12, and SCANPY13
+- CIDR (clustering through imputation and dimensionality reduction) [12] employs PCA while considering dropout events
+- Multiple clustering algorithms have been developed, including Seurat [11], SC3 [12], SIMLR [13], ZIFA [14], CIDR [15], SNN-Cliq [16], and Corr [17].
+derived_from:
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1016/j.csbj.2022.04.023
+  title: 'scEFSC: Accurate single-cell RNA-seq data analysis via ensemble consensus clustering based on multiple feature selections'
+- doi: 10.1016/j.csbj.2023.12.021
+  title: 'scQA: A dual-perspective cell type identification model for single cell transcriptome data'
+- doi: 10.1016/j.gpb.2018.10.003
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-Scale Single Cell RNA-Seq Data'
+source_repos:
+- https://github.com/VCCRI/CIDR
+- https://github.com/ttgump/scDCC
+- https://github.com/duct317/scDHA
+- https://github.com/Conan-Bian/scEFSC
+- https://github.com/LD-Lyndee/scQA
+- https://github.com/Japrin/sscClust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/VCCRI/CIDR

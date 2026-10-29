@@ -1,0 +1,18 @@
+name: dynamicTreeCut
+slug: dynamictreecut
+version_used: null
+edam_topics: []
+evidence_spans:
+- memb = dynamicTreeCut::cutreeDynamic(dendro = hclust_dist,
+- memb <- dynamicTreeCut::cutreeDynamic(dendro = hclust_dist,
+derived_from:
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+source_repos:
+- https://github.com/ChangSuBiostats/CS-CORE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChangSuBiostats/CS-CORE

@@ -1,0 +1,66 @@
+name: mclust
+slug: mclust
+version_used: 6.0.1
+edam_topics: []
+evidence_spans:
+- library(mclust)
+- adjustedRandIndex(unlist(Zpred),unlist(Z))
+- mclust (Depends)
+- '''igraph'',''ggplot2'',''mclust'',''grid'',''Rtsne'',''cccd'''
+- list.of.packages <- c('reshape','reshape2','pheatmap','tsne','igraph','ggplot2','mclust','grid','Rtsne','cccd')
+- cluster on CD16/CD56 protein levels with a two-component Gaussian mixture (mclust)
+- dsb fits a Gaussian mixture model through the expectation-maximization algorithm implemented with the mclust51 R package
+- suppressMessages(library(mclust))
+- ARI <- function(x,y) mclust::adjustedRandIndex(x,y)
+- '***mclust***'
+- popular clustering methods like k-means, hierarchical clustering, pam, mclust3, etc.
+- '`RCC_clus(x, config_file)`'
+- car, combinat, doParallel, dplyr, energy, ggplot2, GOsummaries, gplots, MASS, mclust, minerva, plotly, Rcpp, RcppArmadillo, scater
+- Also runs ```Mclust``` algorithm to create a automated scribble.
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1038/s41467-019-13779-x
+  title: CaSpER identifies and visualizes CNV events by integrative analysis of single-cell or bulk RNA-sequencing data
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1038/s41467-022-29356-8
+  title: Normalizing and denoising protein expression data from droplet-based single cell profiling
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+- doi: 10.1038/s41467-017-00039-z
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+- doi: 10.1038/s41598-020-67016-3
+  title: Recursive Consensus Clustering for novel subtype discovery from transcriptome data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1016/j.isci.2020.100914
+  title: scID Uses Discriminant Analysis to Identify Transcriptionally Equivalent Cell Types across Single-Cell RNA-Seq Data with Batch Effect
+- doi: 10.1093/bioinformatics/btad594
+  title: 'ScribbleDom: using scribble-annotated histology images to identify domains in spatial transcriptomics data'
+- doi: 10.1016/j.ailsci.2021.100025
+  title: 'OmicInt package: Exploring omics data and regulatory networks using integrative analyses and machine learning'
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/akdess/CaSpER
+- https://github.com/edroaldo/cellrouter
+- https://github.com/theislab/dca
+- https://github.com/niaid/dsb
+- https://github.com/xiaorudong/Escort
+- https://github.com/XiaoZhangryy/iSC.MEB
+- https://github.com/tinglab/reCAT
+- https://github.com/MSCTR/RecursiveConsensusClustering
+- https://github.com/tinglab/redPATH
+- https://github.com/BatadaLab/scID
+- https://github.com/1alnoman/ScribbleDom
+- https://github.com/AusteKan/OmicInt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

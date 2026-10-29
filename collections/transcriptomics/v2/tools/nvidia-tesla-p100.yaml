@@ -1,0 +1,17 @@
+name: Nvidia Tesla P100
+slug: nvidia-tesla-p100
+version_used: null
+edam_topics: []
+evidence_spans:
+- Nvidia Tesla P100
+derived_from:
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+source_repos:
+- https://github.com/ttgump/scDCC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ttgump/scDCC

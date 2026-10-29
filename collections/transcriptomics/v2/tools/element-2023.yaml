@@ -1,0 +1,18 @@
+name: ElemeNT 2023
+slug: element-2023
+version_used: null
+edam_topics: []
+evidence_spans:
+- run ElemeNT 2023 to detect TATA, dInr, PB, DPE, GAGA, Motif 1 and dTCT
+- Here, we introduce ElemeNT 2023-a new and enhanced version of the Elements Navigation Tool
+derived_from:
+- doi: 10.1093/bioinformatics/btae110
+  title: 'ElemeNT 2023: an enhanced tool for detection and curation of core promoter elements'
+source_repos:
+- https://github.com/OritAdato/ElemeNT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OritAdato/ElemeNT

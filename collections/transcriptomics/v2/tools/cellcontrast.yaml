@@ -1,0 +1,17 @@
+name: CellContrast
+slug: cellcontrast
+version_used: null
+edam_topics: []
+evidence_spans:
+- we introduce CellContrast, a computational method for reconstructing spatial relationships among SC cells from spatial transcriptomics (ST) reference
+derived_from:
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+source_repos:
+- https://github.com/HKU-BAL/CellContrast
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HKU-BAL/CellContrast

@@ -1,0 +1,22 @@
+name: CUDA
+slug: cuda
+version_used: '11.4'
+edam_topics: []
+evidence_spans:
+- All experiments are conducted on an Nvidia RTX 3090 GPU with CUDA 11.4, on the Ubuntu 20.04 OS.
+- 'using CUDA: has_cuda'
+- scLENS supports both GPU and CPU execution, and if CUDA is not available, the package will automatically use the CPU.
+derived_from:
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/XLearning-SCU/scBridge
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XLearning-SCU/scBridge

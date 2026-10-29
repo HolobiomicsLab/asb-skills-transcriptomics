@@ -1,0 +1,33 @@
+name: GiniClust
+slug: giniclust
+version_used: null
+edam_topics: []
+evidence_spans:
+- GiniClust uses a modified Gini index to identify genes whose expression is concentrated in a relatively small number of cells
+- GiniClust uses a modified Gini index to identify genes
+- Prominent among these are rare cell-type identification (RaceID)15 and GiniClust16.
+- GiniClust14
+- eminent among these are rare cell-type identification (RaceID)13, GiniClust14
+- Detecting rare cells from expression profiles by single cell RNA-seq.
+- eminent among these are rare cell-type identification (RaceID)13, GiniClust14, cell subtype identification from up-regulated gene sets (CellSIUS)15 and finder of rare entities (FiRE)16
+derived_from:
+- doi: 10.1038/s41467-021-26085-2
+  title: DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data
+- doi: 10.1038/s41467-018-07234-6
+  title: Discovery of rare cells from voluminous single cell expression data
+- doi: 10.1038/s41467-021-24489-8
+  title: GapClust is a light-weight approach distinguishing rare cells from voluminous single cell expression profiles
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+source_repos:
+- https://github.com/prabhakarlab/DUBStepR
+- https://github.com/princethewinner/FiRE
+- https://github.com/fabotao/GapClust
+- https://github.com/dtsoucas/GiniClust2
+- https://github.com/xuyp-csu/scCAD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/prabhakarlab/DUBStepR

@@ -1,0 +1,18 @@
+name: INTEGRATE-Vis
+slug: integrate-vis
+version_used: null
+edam_topics: []
+evidence_spans:
+- INTEGRATE-vis tool developed by the Chris Maher Lab
+derived_from:
+- doi: 10.1093/bioinformatics/btad569
+  title: 'INTEGRATE-Circ and INTEGRATE-Vis: unbiased detection and visualization of fusion-derived circular RNA'
+source_repos:
+- https://github.com/ChrisMaherLab/INTEGRATE-Vis
+- https://github.com/ChrisMaherLab/INTEGRATE-CIRC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChrisMaherLab/INTEGRATE-Vis

@@ -1,0 +1,18 @@
+name: udocker
+slug: udocker
+version_used: null
+edam_topics: []
+evidence_spans:
+- the workflow is provided as a docker (and udocker) container and as a Singularity Image File (SIF)
+derived_from:
+- doi: 10.1016/j.xpro.2022.102038
+  title: Computational approach to evaluate scRNA-seq data quality and gene body coverage with SkewC
+source_repos:
+- https://github.com/indigo-dc/udocker
+- https://github.com/LSBDT/SkewC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/indigo-dc/udocker

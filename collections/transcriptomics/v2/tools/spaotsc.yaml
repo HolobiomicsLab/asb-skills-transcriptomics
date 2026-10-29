@@ -1,0 +1,37 @@
+name: spaOTsc
+slug: spaotsc
+version_used: null
+edam_topics: []
+evidence_spans:
+- Other methods, such as spaOTsc17, aim at inferring cell-cell communications from scRNA-seq data.
+- Other methods, such as spaOTsc17, aim at inferring cell-cell communications from scRNA-seq data. It employs an optimal transport algorithm to construct the spatial mapping of cells.
+- Other methods, such as spaOTsc17, aim at inferring cell-cell communications from scRNA-seq data
+- spsc.transport_plan(cost_matrix)
+- from spaotsc import SpaOTsc
+- Full details of the theoretical background and implementation of SpaOTsc can be found in Supplementary Methods.
+- spsc.cell_cell_distance(use_landmark=True)
+- spsc.infer_signal_range_ml(['Wnt5'],['fz'],['CycD','dpp'], effect_ranges=[10,50,100])
+- intercellular_grn=spsc.spatial_grn_range(['Wnt5','fz','CycD','dpp'], effect_range=50)
+- We used the gamma_mapping mapping matrix to multiply the scRNA-seq gene expression matrix
+- For gene expression imputation task, we compared SpatialScope with Tangram, gimVI, SpaGE, SpaOTsc, novoSpaRc, stPlus and Seurat.
+- Spaotsc24 uses the optimal transport theory with spatial constraints to learn the SC-ST mapping matrix.
+derived_from:
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+source_repos:
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/zcang/SpaOTsc
+- https://github.com/YangLabHKUST/SpatialScope
+- https://github.com/WhirlFirst/STEM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QihuangZhang/CeLEry

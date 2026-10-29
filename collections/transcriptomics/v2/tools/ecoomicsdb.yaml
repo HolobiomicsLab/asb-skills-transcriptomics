@@ -1,0 +1,18 @@
+name: EcoOmicsDB
+slug: ecoomicsdb
+version_used: null
+edam_topics: []
+evidence_spans:
+- EcoOmicsDB currently consists of 29 taxonomic sub-group databases based on the NCBI taxonomy system
+- All modules are integrated with EcoOmicsDB, an ortholog database that enables comprehensive analysis for species without a reference transcriptome.
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

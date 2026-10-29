@@ -1,0 +1,34 @@
+name: BWA
+slug: bwa
+version_used: 0.7.17
+edam_topics: []
+evidence_spans:
+- In the case of DNA-seq, the reads are directly aligned using BWA
+- In the case of DNA-seq, the reads are directly aligned using BWA.
+- obtained by following the workflows outlined in the methods on somatic variant calling in the main text
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1093/bioinformatics/btad659
+  title: 'ScanNeo2: a comprehensive workflow for neoantigen detection and immunogenicity prediction from diverse genomic and transcriptomic alterations'
+- doi: 10.1016/j.csbj.2021.08.021
+  title: 'SCSit: A high-efficiency preprocessing tool for single-cell sequencing data from SPLiT-seq'
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+- doi: 10.1007/978-1-4939-7710-9_15
+  title: Single-Cell Transcriptome Analysis Using SINCERA Pipeline
+source_repos:
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/ylab-hi/ScanNeo2
+- https://github.com/shang-qian/SCSit
+- https://github.com/jiujiezz/tsnad
+- https://github.com/annweideman/canopy2
+- https://github.com/xu-lab/SINCERA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion

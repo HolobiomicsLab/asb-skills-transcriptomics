@@ -1,0 +1,45 @@
+name: Cytoscape
+slug: cytoscape
+version_used: 3.7.1
+edam_topics: []
+evidence_spans:
+- 'Cytoscape: A software environment for integrated models of biomolecular interaction networks'
+- loading original KEGG XML files into Cytoscape (v. 3.4.) via the KEGGScape app
+- The initial pathway analysis was performed by loading original KEGG XML files into Cytoscape (v. 3.4.) via the KEGGScape app
+- Cytoscape is a common tool for pathway visualization and analysis, often with data from KEGG
+- Cytoscape is often used for visualization and analysis of metabolic pathways.
+- The GO semantic similarity scores were calculated using GOSemSim [36], and the network construction was done using Cytoscape [37] and a ClueGO plugin [38].
+- the network construction was done using Cytoscape and a ClueGO plugin
+- Graph analysis software such as Gephi36 or Cytoscape54 can be utilized to explore the bipartite relationships in an interactive manner.
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+- doi: 10.1038/s41598-024-62850-1
+  title: Unveiling gene regulatory networks during cellular state transitions without linkage across time points
+- doi: 10.1016/j.csbj.2022.07.047
+  title: 'dsCellNet: A new computational tool to infer cell–cell communication networks in the developing and aging brain'
+- doi: 10.1016/j.csbj.2023.03.035
+  title: "<i>f</i>\n                    RNC: Uncovering the dynamic and condition-specific RBP-ncRNA circuits from multi-omics data"
+- doi: 10.1016/j.gpb.2021.03.003
+  title: 'FunHoP: Enhanced Visualization and Analysis of Functionally Homologous Proteins in Complex Metabolic Networks'
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+source_repos:
+- https://github.com/MaShisongLab/CellGEP
+- https://github.com/Ge-lab-pku/COSLIR
+- https://github.com/songzh523/dsCellNet
+- https://github.com/BioinformaticsSTU/fRNC
+- https://github.com/kjerstirise/FunHoP
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/lanagarmire/SSrGE
+- https://github.com/skbinfo/tncRNA-Toolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MaShisongLab/CellGEP

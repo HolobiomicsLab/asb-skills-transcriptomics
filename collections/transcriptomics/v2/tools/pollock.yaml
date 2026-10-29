@@ -1,0 +1,19 @@
+name: Pollock
+slug: pollock
+version_used: null
+edam_topics: []
+evidence_spans:
+- Pollock uses deep learning to make cell type predictions. At it's core, pollock is a variational autoencoder (VAE) with a linear classification head.
+- Pollock uses deep learning to make cell type predictions.
+- At it's core, pollock is a variational autoencoder (VAE) with a linear classification head.
+derived_from:
+- doi: 10.1093/bioadv/vbac028
+  title: 'Pollock: fishing for cell states'
+source_repos:
+- https://github.com/ding-lab/pollock
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ding-lab/pollock

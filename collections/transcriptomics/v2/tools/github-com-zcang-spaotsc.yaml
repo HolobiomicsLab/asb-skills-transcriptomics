@@ -1,0 +1,17 @@
+name: github.com/zcang/SpaOTsc
+slug: github-com-zcang-spaotsc
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# github.com__zcang__SpaOTsc'
+derived_from:
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+source_repos:
+- https://github.com/zcang/SpaOTsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zcang/SpaOTsc

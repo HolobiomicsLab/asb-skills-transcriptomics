@@ -1,0 +1,18 @@
+name: scSTEM
+slug: scstem
+version_used: null
+edam_topics: []
+evidence_spans:
+- You can also install STEM from PYPI:`pip install scSTEM`.
+- You can also install STEM from PYPI:`pip install scSTEM`
+derived_from:
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+source_repos:
+- https://github.com/WhirlFirst/STEM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WhirlFirst/STEM

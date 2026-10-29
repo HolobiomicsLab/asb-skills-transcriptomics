@@ -1,0 +1,21 @@
+name: Mowgli
+slug: mowgli
+version_used: null
+edam_topics: []
+evidence_spans:
+- Mowgli is implemented as a Python package seamlessly integrated within the scverse ecosystem
+- We use the entropic regularization of OT as a
+- The code is implemented in Python
+- Mowgli is a novel method for the integration of paired multi-omics data with any type and number of omics, combining integrative Nonnegative Matrix Factorization and Optimal Transport.
+derived_from:
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+source_repos:
+- https://github.com/cantinilab/Mowgli
+- https://github.com/cantinilab/mowgli
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/Mowgli

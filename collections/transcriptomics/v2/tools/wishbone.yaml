@@ -1,0 +1,21 @@
+name: Wishbone
+slug: wishbone
+version_used: null
+edam_topics: []
+evidence_spans:
+- identifying only a single branch point (Wishbone)
+- Additional methods such as diffusion pseudotime16, Wishbone17, Monocle8 and TSCAN12
+derived_from:
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+source_repos:
+- https://github.com/edroaldo/cellrouter
+- https://github.com/gongx030/tcm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edroaldo/cellrouter

@@ -1,0 +1,24 @@
+name: Bowtie
+slug: bowtie
+version_used: 1.0.0
+edam_topics: []
+evidence_spans:
+- Bowtie (Langmead, et al., 2009. Genome Biol)
+- We constructed a bowtie (v1.0.0) index to represent the diploid transcriptome
+derived_from:
+- doi: 10.1093/bioinformatics/btad676
+  title: 'PhasiHunter: a robust phased siRNA regulatory cascade mining tool based on multiple reference sequences'
+- doi: 10.1038/s41467-019-13099-0
+  title: A Bayesian mixture model for the analysis of allelic expression in single cells
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+source_repos:
+- https://github.com/HuangLab-CBI/PhasiHunter
+- https://github.com/churchill-lab/scBASE
+- https://github.com/skbinfo/tncRNA-Toolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuangLab-CBI/PhasiHunter

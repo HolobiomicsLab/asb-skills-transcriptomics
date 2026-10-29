@@ -1,0 +1,17 @@
+name: diamond
+slug: diamond
+version_used: null
+edam_topics: []
+evidence_spans:
+- aligned to each other with a blast all vs all using diamond89 with an e-value cutoff of 1e−5
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

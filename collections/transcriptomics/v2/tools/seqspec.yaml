@@ -1,0 +1,26 @@
+name: seqspec
+slug: seqspec
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install git+https://github.com/IGVF/seqspec.git
+- 'seqspec index \
+
+  -t kb -m rna \
+
+  -r fastqs/rna_R1_SRR18677638.fastq.gz'
+- 'pip install cellatlas kb-python seqspec gget # cellatlas has dependencies that must be installed'
+- We present seqspec, a machine-readable specification for libraries produced by genomics assays
+- pip install cellatlas kb-python seqspec gget
+derived_from:
+- doi: 10.1093/bioinformatics/btae168
+  title: A machine-readable specification for genomics assays
+source_repos:
+- https://github.com/IGVF/seqspec
+- https://github.com/cellatlas/cellatlas
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IGVF/seqspec

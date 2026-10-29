@@ -1,0 +1,22 @@
+name: Forseti
+slug: forseti
+version_used: null
+edam_topics: []
+evidence_spans:
+- Forseti is implemented in Python and you could easily import the `forseti` package
+- the `mlp model` for binding affinity prediction
+- git clone https://github.com/COMBINE-lab/forseti.git .
+- Download the Forseti package
+- call the master function named `forseti_predictor` for the splicing status prediction
+- you could easily import the `forseti` package
+derived_from:
+- doi: 10.1093/bioinformatics/btae207
+  title: "<tt>Forseti</tt>\n                    : a mechanistic and predictive model of the splicing status of scRNA-seq reads"
+source_repos:
+- https://github.com/COMBINE-lab/forseti
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/COMBINE-lab/forseti

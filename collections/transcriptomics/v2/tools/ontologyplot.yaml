@@ -1,0 +1,17 @@
+name: ontologyPlot
+slug: ontologyplot
+version_used: null
+edam_topics: []
+evidence_spans:
+- plotOntoTree(ont = ont,
+derived_from:
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+source_repos:
+- https://github.com/Papatheodorou-Group/scOntoMatch
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Papatheodorou-Group/scOntoMatch

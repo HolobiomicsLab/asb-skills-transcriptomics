@@ -1,0 +1,51 @@
+name: SAVER
+slug: saver
+version_used: null
+edam_topics: []
+evidence_spans:
+- Huang et al. (2018) applied SAVER to the Drop-seq data and demonstrated that, as compared to the raw data, the estimated distribution of expression values is more consistent with the FISH
+- While other methods such as SAVER and scImpute do preserve biological zeros
+- Notably, SAVER’s option of ‘do.fast’ was set to true.
+- SAVER10 assumes negative binomial distribution
+- '## https://github.com/mohuangx/SAVER'
+- library(SAVER)
+- MAGIC20 and SAVER21, on the other hand, denoise single-cell gene expression data and generate a denoised output for each gene and cell entry
+- we also noticed another imputation method SAVER17, which borrows information across genes using a Bayesian approach
+- SAVER17 models read counts as a mixture of Poisson-Gamma distribution and then uses a Bayesian approach
+- SAVER12, SAVER-X16, bayNorm17, scImpute13, and VIPER18 are the prominent methods of this group.
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41467-019-10216-x
+  title: Model-based understanding of single-cell CRISPR screening
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1038/s41467-018-03405-7
+  title: An accurate and robust imputation method scImpute for single-cell RNA-seq data
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+source_repos:
+- https://github.com/KlugerLab/ALRA
+- https://github.com/mohuangx/SAVER
+- https://github.com/datapplab/AutoClass
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/bm2-lab/MUSIC
+- https://github.com/theislab/dca
+- https://github.com/Vivianstats/scImpute
+- https://github.com/duct317/scISR
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/audreyqyfu/LATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

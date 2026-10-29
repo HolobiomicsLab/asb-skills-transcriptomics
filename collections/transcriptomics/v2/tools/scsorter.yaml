@@ -1,0 +1,23 @@
+name: scSorter
+slug: scsorter
+version_used: null
+edam_topics: []
+evidence_spans:
+- Running for over 3 h without completion, scSorter was labeled with “Timeout” and excluded from further benchmarks.
+- Annotation performance was compared against five automatic annotation tools, ScType40, SCINA19, clustifyR12, scCATCH41, scSorter17.
+- Our unsupervised approach outperformed the prior knowledge-based methods scSorter30, SCINA33, and scCATCH34
+- a prior knowledge-based methods that require either a marker gene set or a pre-trained classifier for the selected cell populations (e.g. scSorter30, SCINA33, and scCATCH34)
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/IanevskiAleksandr/sc-type
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

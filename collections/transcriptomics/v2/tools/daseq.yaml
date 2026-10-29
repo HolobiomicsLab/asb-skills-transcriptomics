@@ -1,0 +1,21 @@
+name: DAseq
+slug: daseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- milo16 and DAseq17 rely on a common low-dimensional representation of all observations and define data-driven local neighborhoods
+- in cell abundance along pseudotime (e.g. milo25, DAseq26)
+derived_from:
+- doi: 10.1038/s41467-024-44823-0
+  title: Trajectory inference across multiple conditions with condiments
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+source_repos:
+- https://github.com/HectorRDB/condiments
+- https://github.com/Winnie09/Lamian
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HectorRDB/condiments

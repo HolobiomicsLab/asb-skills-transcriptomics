@@ -1,0 +1,102 @@
+name: keras
+slug: keras
+version_used: 2.2.2
+edam_topics: []
+evidence_spans:
+- CASi uses an artificial neural network built on Keras to annotate cells of $t_{1}$ data.
+- library(keras)
+- you will need to have the dplyr, mvtnorm, tensorflow, keras, ranger, devtools, liquidSVM, and xgboost libraries installed
+- The Cyclum package is efficiently implemented in Python using Keras with TensorFlow and has been comprehensively tested.
+- DCA is implemented in Python 3 using Keras53 and its TensorFlow54 backend.
+- '.. automodule:: autoencoder.loss'
+- classifer <- keras::load_model_hdf5(filepath =paste0(prefix, ".hdf5"))
+- We use Keras to train our model.
+- Using TensorFlow backend.
+- The model was implemented in Keras version 2.2.2 with a Tensorflow (1.10.1) backend
+- The model was implemented in Keras version 2.2.2 with a Tensorflow (1.10.1) backend [29].
+- NeuCA uses keras as the application programming interface (API) to enable fast high-level neural network implementation.
+- '[keras 2.6.0]'
+- 'python module: tensorflow, keras, and numpy (version 2.8.0, 2.8.0, and 1.22.3, respectively)'
+- train a neural network using the training subset and evaluate the model by predicting cell type proportions on the test subset
+- It relies on calculating the predicted classes/loss function gradients with respect to the input variables, a method popularly known as Vanilla Gradient.
+- + keras 2.0.6
+- keras (Chollet et al. 2015)
+- 'Among the publicly available packages or modules used in viRNAtrap are: * ctypes (https://docs.python.org/3/library/ctypes.html) * keras (Chollet et al. 2015) * numpy (Harris et al. 2020)'
+- $ keras 2.1.2
+- $ pip install keras
+- '$ pip install tensorflow-gpu
+
+  $ pip install keras'
+- Keras version=2.2.4 and its backend is TensorFlow
+derived_from:
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1093/bioadv/vbae002
+  title: Predicting evolutionary targets and parameters of gene deletion from expression data
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1038/s41389-019-0157-8
+  title: 'DeepCC: a novel deep learning-based framework for cancer molecular subtype classification'
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1016/j.patter.2021.100311
+  title: 'EmptyNN: A neural network based on positive and unlabeled learning to remove cell-free droplets and recover lost cells in scRNA-seq data'
+- doi: 10.1016/j.isci.2022.105530
+  title: 'layerUMAP: A tool for visualizing and understanding deep learning models in biological sequence classification using UMAP'
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1093/bioinformatics/btad075
+  title: 'scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering'
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1016/j.isci.2021.102855
+  title: A reference-free approach for cell type classification with scRNA-seq
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1016/j.gpb.2018.08.003
+  title: 'VASC: Dimension Reduction and Visualization of Single-Cell RNA-Seq Data by Deep Variational Autoencoder'
+- doi: 10.1038/s41467-023-36336-z
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+- doi: 10.1007/s11704-022-2011-y
+  title: 'AE-TPGG: a novel autoencoder-based approach for single-cell RNA-seq data imputation and dimensionality reduction'
+- doi: 10.1016/j.ab.2020.113767
+  title: 'LPI-CNNCP: Prediction of lncRNA-protein interactions by using convolutional neural network with the copy-padding trick'
+source_repos:
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/anddssan/CLOUDe
+- https://github.com/KChen-lab/cyclum
+- https://github.com/theislab/dca
+- https://github.com/CityUHK-CompBio/DeepCC
+- https://github.com/zero19970/deepcc_model
+- https://github.com/eleozzr/desc
+- https://github.com/lkmklsmn/empty_nn
+- https://github.com/jingry/autoBioSeqpy
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/keras-team/keras-io
+- https://github.com/F0nz0/NanoSpeech_basecaller
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/wangyh082/scBGEDA
+- https://github.com/XiDsLab/scFusion
+- https://github.com/digi2002/scSimClassify
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/keras-team/keras
+- https://github.com/wang-research/VASC
+- https://github.com/fchollet/keras
+- https://github.com/AuslanderLab/virnatrap
+- https://github.com/deargen/DearWXpub
+- https://github.com/PUGEA/AE-TPGG
+- https://github.com/NWPU-903PR/LPI-CNNCP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yizhuo-wang/CASi

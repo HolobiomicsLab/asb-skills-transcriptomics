@@ -1,0 +1,26 @@
+name: DropletUtils
+slug: dropletutils
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(DropletUtils)
+- MarioniLab/DropletUtils
+- 'package: DropletUtils'
+- HTOdemux (Seurat), Multi-seq, GMM_Demux, BFF, and DropletUtils have been shown to work well with benchmark datasets
+derived_from:
+- doi: 10.1016/j.xpro.2022.101729
+  title: Protocol for fast scRNA-seq raw data processing using scKB and non-arbitrary quality control with COPILOT
+- doi: 10.1038/s41467-018-05083-x
+  title: Detection and removal of barcode swapping in single-cell RNA-seq data
+- doi: 10.1093/bib/bbae254
+  title: A hybrid demultiplexing strategy that improves performance and robustness of cell hashing
+source_repos:
+- https://github.com/ohlerlab/COPILOT
+- https://github.com/MarioniLab/DropletUtils
+- https://github.com/WilsonImmunologyLab/HTOreader
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ohlerlab/COPILOT

@@ -1,0 +1,23 @@
+name: Sphetcher
+slug: sphetcher
+version_used: null
+edam_topics: []
+evidence_spans:
+- A compiler that supports C++11 is needed to build sphetcher.
+- we propose algorithm Sphetcher that makes use of the thresholding technique to efficiently pick representative cells within spheres
+- sphetcher expression_matrix.csv sketch_size class_labels.csv l_min sketch_indicator_output.csv
+- sphetcher expression_matrix.csv sketch_size sketch_indicator_output.csv
+derived_from:
+- doi: 10.1093/bib/bbaf279
+  title: 'scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks'
+- doi: 10.1016/j.isci.2020.101126
+  title: 'Sphetcher: Spherical Thresholding Improves Sketching of Single-Cell Transcriptomic Heterogeneity'
+source_repos:
+- https://github.com/LHBCB/scvalue
+- https://github.com/canzarlab/Sphetcher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LHBCB/scvalue

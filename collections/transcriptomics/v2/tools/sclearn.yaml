@@ -1,0 +1,22 @@
+name: scLearn
+slug: sclearn
+version_used: null
+edam_topics: []
+evidence_spans:
+- including scmap-cell and scmap-cluster [25], scPred [26] and scLearn [27].
+- scLearn [27] achieves the best performance on novel class detection, compared to the other previous methods
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1093/bib/bbae112
+  title: 'scNovel: a scalable deep learning-based network for novel rare cell discovery in single-cell transcriptomics'
+source_repos:
+- https://github.com/bm2-lab/scLearn
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/chuanyang-Zheng/scNovel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bm2-lab/scLearn

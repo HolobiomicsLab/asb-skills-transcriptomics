@@ -1,0 +1,26 @@
+name: scSHARP
+slug: scsharp
+version_used: null
+edam_topics: []
+evidence_spans:
+- scSHARP and its dependencies can be installed in a few simple steps
+- 'Install with Pip if you plan on running R4scSHARP from Python.
+
+
+  ``pip install scSHARP``'
+- Welcome to scSHARP's documentation!
+- scSHARP is a software package used to classify single cells by cell type based on their transcriptomic profile
+- '``pip install scSHARP``'
+- ".. automodule:: scSHARP.interpret\n    :members:"
+derived_from:
+- doi: 10.1093/bioinformatics/btad360
+  title: Consensus label propagation with graph convolutional networks for single-cell RNA sequencing cell type annotation
+source_repos:
+- https://github.com/lewinsohndp/scSHARP
+- https://github.com/mperozek11/scSHARP_tool
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lewinsohndp/scSHARP

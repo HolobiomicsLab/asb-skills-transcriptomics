@@ -1,0 +1,26 @@
+name: BayesSpace
+slug: bayesspace
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run iSC.MEB and the comparison methods (BASS, SC.MEB, BayesSpace, SpaGCN; Louvain excluded per the paper) on the six-section mouse embryo seqFISH dataset
+- Verify iSC.MEB is significantly faster than the MCMC-based BASS and BayesSpace and comparable to SC.MEB.
+- such as SpaGCN35, BayesSpace37, DR-SC38, etc., we highlight the fundamental difference between the methods
+- such as STARSolo, Seurat, BayesSpace, and Seqtk
+derived_from:
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1093/bioadv/vbac061
+  title: 'STtools: a comprehensive software pipeline for ultra-high-resolution spatial transcriptomics data'
+source_repos:
+- https://github.com/XiaoZhangryy/iSC.MEB
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/seqscope/STtools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiaoZhangryy/iSC.MEB

@@ -1,0 +1,17 @@
+name: SCAN-ATAC-Sim
+slug: scan-atac-sim
+version_used: null
+edam_topics: []
+evidence_spans:
+- For the other parameters, we used the default values suggested in the SCAN-ATAC-Sim paper20.
+derived_from:
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+source_repos:
+- https://github.com/JSB-UCLA/scReadSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JSB-UCLA/scReadSim

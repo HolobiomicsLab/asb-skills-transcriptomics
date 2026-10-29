@@ -1,0 +1,18 @@
+name: SoyFungiGCN
+slug: soyfungigcn
+version_used: null
+edam_topics: []
+evidence_spans:
+- You can install the released version of SoyFungiGCN from GitHub with
+- 'You can install the released version of SoyFungiGCN from GitHub with:'
+derived_from:
+- doi: 10.1038/s41598-021-03864-x
+  title: Integration of genome-wide association studies and gene coexpression networks unveils promising soybean resistance genes against five common fungal pathogens
+source_repos:
+- https://github.com/almeidasilvaf/SoyFungiGCN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/almeidasilvaf/SoyFungiGCN

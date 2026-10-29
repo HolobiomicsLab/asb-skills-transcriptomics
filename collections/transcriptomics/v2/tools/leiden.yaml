@@ -1,0 +1,38 @@
+name: Leiden
+slug: leiden
+version_used: null
+edam_topics: []
+evidence_spans:
+- We then applied the Leiden graph-clustering algorithms over this pattern graph to define equivalent patterns classes
+- clustered using the Leiden community detection algorithm for graphs13 with a default resolution of 1.
+- we performed community detection on the basis of the state-of-the-art Leiden algorithm optimizing for modularity26,42
+- Leiden is used to obtain initial cluster labels
+- With *de novo* initialization, Leiden is used to obtain initial cluster labels
+- We apply the leiden graph partitioning algorithm to identify GRN subnetworks
+- labels_leiden = scmomat.leiden_cluster(X = None, knn_indices = knn_indices, knn_dists = knn_dists, resolution = resolution)
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+- doi: 10.1093/bioinformatics/btad546
+  title: 'scAce: an adaptive embedding and clustering method for single-cell gene expression data'
+- doi: 10.1016/j.isci.2023.107124
+  title: 'SCING: Inference of robust, interpretable gene regulatory networks from single cell and spatial transcriptomics'
+- doi: 10.1038/s41467-023-36066-2
+  title: scMoMaT jointly performs single cell mosaic integration and multi-modal bio-marker detection
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/euxhenh/cellar
+- https://github.com/marmarelis/QDiffusion.jl
+- https://github.com/sldyns/scAce
+- https://github.com/XiaYangLabOrg/SCING
+- https://github.com/PeterZZQ/scMoMaT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

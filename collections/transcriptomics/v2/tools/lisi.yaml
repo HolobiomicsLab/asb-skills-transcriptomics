@@ -1,0 +1,19 @@
+name: LISI
+slug: lisi
+version_used: null
+edam_topics: []
+evidence_spans:
+- LISI is a batch effect estimation metric [Link](https://github.com/immunogenomics/LISI)
+- LISI is a batch effect estimation metric [Link](https://github.com/immunogenomics/LISI).
+derived_from:
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+source_repos:
+- https://github.com/immunogenomics/LISI
+- https://github.com/ashiq24/BEENE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/immunogenomics/LISI

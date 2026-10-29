@@ -1,0 +1,17 @@
+name: scanpy Ingest
+slug: scanpy-ingest
+version_used: null
+edam_topics: []
+evidence_spans:
+- Label transfer between HBMP2-spleen-2 and HBMP3-spleen-CC3 was performed using scanpy’s Ingest
+derived_from:
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+source_repos:
+- https://github.com/euxhenh/cellar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/euxhenh/cellar

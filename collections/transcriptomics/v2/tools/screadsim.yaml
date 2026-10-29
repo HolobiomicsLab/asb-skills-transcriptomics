@@ -1,0 +1,22 @@
+name: scReadSim
+slug: screadsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- We first deployed scReadSim to the mouse 10x single-cell Multiome dataset21 (the RNA modality only) to generate synthetic reads in a BAM file.
+- We used the sci-ATAC-seq dataset23 to train scReadSim and SCAN-ATAC-Sim.
+- We deployed scReadSim with the default setting (generating scRNA-seq reads from the genome instead of the collapsed transcriptome
+- Taking the three inputs, scReadSim generated synthetic scATAC-seq reads in FASTQ and BAM files
+- we introduce scReadSim, a single-cell RNA-seq and ATAC-seq read simulator that allows user-specified ground truths and generates synthetic sequencing reads
+- Use function `GenerateSyntheticCount.scRNA_GenerateSyntheticCount` to generate synthetic count matrix with following paramters
+derived_from:
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+source_repos:
+- https://github.com/JSB-UCLA/scReadSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JSB-UCLA/scReadSim

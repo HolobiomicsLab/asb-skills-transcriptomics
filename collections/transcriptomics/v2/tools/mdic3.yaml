@@ -1,0 +1,21 @@
+name: MDIC3
+slug: mdic3
+version_used: null
+edam_topics: []
+evidence_spans:
+- We proposed a new method MDIC3 (Matrix Decomposition to Infer Cell-Cell Communication) to reveal cell-cell communication
+- Here, we propose MDIC3 (matrix decomposition to infer cell-cell communication), an unsupervised tool to investigate cell-cell communication in any species
+- We proposed a new method MDIC3 (Matrix Decomposition to Infer Cell-Cell Communication)
+- We proposed a new method MDIC3 (Matrix Decomposition to Infer Cell-Cell Communication) to reveal cell-cell communication from cooperation of gene regulatory network (GRN) and matrix decomposition
+- We provide two choices to use MDIC3
+derived_from:
+- doi: 10.1016/j.patter.2023.100911
+  title: 'MDIC3: Matrix decomposition to infer cell-cell communication'
+source_repos:
+- https://github.com/LYxiaotai/MDIC3
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LYxiaotai/MDIC3

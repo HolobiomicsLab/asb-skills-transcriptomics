@@ -1,0 +1,21 @@
+name: GenomicRanges
+slug: genomicranges
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `GenomicRanges (Imports)`'
+- '* `GenomicRanges`'
+derived_from:
+- doi: 10.1038/s42003-021-01938-0
+  title: 'mmsig: a fitting approach to accurately identify somatic mutational signatures in hematological malignancies'
+- doi: 10.1038/s41467-020-20593-3
+  title: 'SCISSOR: a framework for identifying structural changes in RNA transcripts'
+source_repos:
+- https://github.com/evenrus/mmsig
+- https://github.com/hyochoi/SCISSOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/evenrus/mmsig
