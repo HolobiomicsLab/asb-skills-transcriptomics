@@ -19497,5 +19497,5 @@
     "pair_scope": "same_run_full_pairwise",
     "suggest": 0.9
   },
-  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/transcriptomics/corpus"
+  "view": "outputs/asbb_classA_papers_2026-09-17_filtered/transcriptomics/corpus"
 }
