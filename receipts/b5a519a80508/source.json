@@ -4,7 +4,7 @@
   "cut_id": "b5a519a80508",
   "domain": "transcriptomics",
   "model": "BAAI/bge-small-en-v1.5",
-  "output_tree_sha256": "07bbf28131e4aa136f3b9f17e5f66733ae9a6ef0e40509bae5a663205bce5eb5",
+  "output_tree_sha256": "e0ac81f779af2513f433ecc0a2560d2a46607611e2a0dd56e3c32cc91f5fa4cf",
   "receipts": [
     "bootstrap.txt",
     "bootstrap_receipt.json",
@@ -32,11 +32,11 @@
   "stage_script_sha256": {
     "bootstrap_indexes.py": "165852aecced776cdcbae98ca76f21419c9d6cec870c0b4e692311850fd1d122",
     "check_release_surface.py": "8455d96b609e44040f1138b80245ab2f4aa34cc0cccb809205a18d13b90d07ef",
-    "collect_from_cut.py": "8513da7ab40033f444c19b1baa301d003bf9b313e58420c7fbc6c99d1c287ad6",
-    "join_corpus_records.py": "36ff3dc4c45c9ed459fb9ebdfe7431f17254e4fabd208b3849031476692bc209",
+    "collect_from_cut.py": "8bf1541bcda8e336b2fad1b3945d3678a577665622fec982e93bd26ea0b52093",
+    "join_corpus_records.py": "5f7dd6fc6cb6ed0b9bc7c0af43efd61bd9b865ce8191af4208747480d11773c7",
     "release_surface_rules.yaml": "fd05ca0fd5811bc7c76518d2fe33305e4da746de897c9020645c5ff6cb463352",
     "run_candidate_gates.py": "ddaca83961a63c06464504794794bde18062e77294b09fc3318268ed7637f831",
-    "same_paper_pairs.py": "8928c667d8056115035c77d59b22c458a8828811105f2a1defe69f92f2ef9941"
+    "same_paper_pairs.py": "4932386ffcc4a5376b01134959459a95b128848925975f0c6ac280b6d84d706c"
   },
   "status": "complete",
   "thresholds": {
@@ -44,8 +44,8 @@
     "embed_view": "name_tools",
     "suggest": 0.9
   },
-  "tooling_commit": "93da0f829",
+  "tooling_commit": "b8c22a6bc",
   "version": "v2",
-  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/transcriptomics/corpus",
+  "view": "outputs/asbb_classA_papers_2026-09-17_filtered/transcriptomics/corpus",
   "view_source_sha256": "7ff0a9f8628bea1d8b689368a360bfb864bfa58cb37cdb070e7ac70c411d8c70"
 }

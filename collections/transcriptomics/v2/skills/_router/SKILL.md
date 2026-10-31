@@ -1,6 +1,6 @@
 ---
 name: transcriptomics-router
-description: Use when a task needs a skill from ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval — search this unit's 11,256 evidence-grounded skills, then apply and optionally ground the one that fits.
+description: 'Use when a task needs a skill from ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval — search this unit''s 11,256 evidence-grounded skills, then apply and optionally ground the one that fits.'
 license: CC-BY-4.0
 metadata:
   skills_count: 11256
@@ -13,8 +13,8 @@ schema_version: 0.2.0
 
 # ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval — router
 
-Entry point for **11,256 evidence-grounded skills**, each distilled from a
-peer-reviewed method paper and its public code repository.
+Entry point for **11,256 evidence-grounded skills**, each derived from a
+method paper (journal article or preprint) and its code.
 
 ## How this unit is laid out
 

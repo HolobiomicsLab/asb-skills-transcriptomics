@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/builds/transcriptomics",
+  "builds_root": "transcriptomics",
   "counts": {
     "builds": 450,
     "input_files": 35121,
@@ -35133,7 +35133,7 @@
     "corpus/skills/zinq-reconstruction-loss-optimization/tools.json": "5f8c6d55128e646dafedae3d0160ffcdc1242e4209f2dfcee3dd8a6e743c7fe0",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "b63c414b0d13bc4354eaf51255a8dbb9f2b253cf3bfb0a6f24c11bcb96b44376",
+  "output_tree_sha256": "a0b10f1411ff95685e74c3b630d366c036c033a7aedc7def340be6bf92578e61",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v2"
