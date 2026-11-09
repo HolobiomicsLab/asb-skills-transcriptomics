@@ -10,7 +10,7 @@ when_to_use_negative:
   labels, not the clustering step itself
 - Outcome data are non-time-to-event (e.g., binary response) — survival analysis is
   inapplicable
-edam_operation: http://edamontology.org/operation_2418
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   - ConsensusClusterPlus
   - DCNet
   - Python
-  edam_operation: http://edamontology.org/operation_2418
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

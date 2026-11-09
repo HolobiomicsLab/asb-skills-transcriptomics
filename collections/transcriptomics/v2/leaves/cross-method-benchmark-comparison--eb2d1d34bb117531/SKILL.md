@@ -9,7 +9,7 @@ when_to_use_negative:
   — there is no benchmark contrast to tabulate
 - The downstream question is differential bursting kinetics between two samples rather
   than a method-comparison benchmark (use a dedicated differential test instead)
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -39,7 +39,7 @@ metadata:
   - EMASE
   - SCALE
   - scBASE
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

@@ -10,7 +10,7 @@ when_to_use_negative:
   kallisto-bustools compatibility is stated for 3'-end tag scRNA-seq libraries
 - De novo mapping of mRNA 3' cleavage sites from 10x data is the goal, since most
   10x reads do not span cleavage sites
-edam_operation: http://edamontology.org/operation_3580
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -47,7 +47,7 @@ metadata:
   - Snakemake
   - kallisto-bustools
   - scUTRquant
-  edam_operation: http://edamontology.org/operation_3580
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

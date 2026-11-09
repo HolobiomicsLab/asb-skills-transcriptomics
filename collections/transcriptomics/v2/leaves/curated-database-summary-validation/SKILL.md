@@ -8,7 +8,7 @@ when_to_use_negative:
   than auditing the database's own summary statistics
 - The database files are custom annotations with a different schema — import may succeed
   but the 237/522/25,789 reference values will not apply
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -40,7 +40,7 @@ metadata:
   - E.PATH
   - R
   - tidyverse
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

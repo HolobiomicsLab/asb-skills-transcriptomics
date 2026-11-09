@@ -12,7 +12,7 @@ when_to_use_negative:
   (33 cell types were discarded for lacking detected marker genes)
 edam_operation: http://edamontology.org/operation_0564
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3170
 tools:
 - name: DCNet
@@ -42,7 +42,7 @@ metadata:
   - mxnet
   edam_operation: http://edamontology.org/operation_0564
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

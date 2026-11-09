@@ -11,7 +11,7 @@ when_to_use_negative:
   table requires a well-defined background of all remaining modeled genes).
 - You need batch-corrected latent representations or batch-confounded cell-state detection
   rather than set-enrichment statistics — use CODAL's disentangling workflow instead.
-edam_operation: http://edamontology.org/operation_3684
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3053
 - http://edamontology.org/topic_3308
@@ -43,7 +43,7 @@ metadata:
   - CODAL
   - MIRA
   - SciPy
-  edam_operation: http://edamontology.org/operation_3684
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3053
   - http://edamontology.org/topic_3308

@@ -12,7 +12,6 @@ when_to_use_negative:
 - Analyses requiring spatially aware feature attribution — the paper notes Cancer-Finder
   overlooks the spatial relationships among spots in ST data.
 edam_topics:
-- http://edamontology.org/topic_3270
 - http://edamontology.org/topic_0203
 tools:
 - name: Cancer-Finder
@@ -36,7 +35,6 @@ metadata:
   - Cancer-Finder
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3270
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

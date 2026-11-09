@@ -13,7 +13,6 @@ when_to_use_negative:
   artefacts — doublet removal addresses a droplet-microfluidics-specific problem
 edam_operation: http://edamontology.org/operation_3800
 edam_topics:
-- http://edamontology.org/topic_2228
 - http://edamontology.org/topic_3170
 tools:
 - name: Chord
@@ -56,7 +55,6 @@ metadata:
   - scds
   edam_operation: http://edamontology.org/operation_3800
   edam_topics:
-  - http://edamontology.org/topic_2228
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

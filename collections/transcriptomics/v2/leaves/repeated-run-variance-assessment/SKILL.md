@@ -10,7 +10,7 @@ when_to_use_negative:
   computed per run
 - You only need a single qualitative clustering result, not a benchmark comparison
   against other methods
-edam_operation: http://edamontology.org/operation_2948
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -46,7 +46,7 @@ metadata:
   - git
   - igraph
   - pip
-  edam_operation: http://edamontology.org/operation_2948
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

@@ -12,7 +12,7 @@ when_to_use_negative:
 - You want to predict real biological TF knockout outcomes in the reference dataset
   — GRouNdGAN is a generative model, not a predictive one, and such prediction would
   require a high-quality GRN plus data modalities like scATAC-seq or TF ChIP-seq.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0085
 tools:
@@ -45,7 +45,7 @@ metadata:
   - GRNBoost2
   - GRouNdGAN
   - yazdanz/groundgan:4b98686 (Docker image)
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0085
   provenance_tier: literature

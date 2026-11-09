@@ -14,7 +14,6 @@ when_to_use_negative:
   requires pre-existing conflicting annotation columns in adata.obs
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
-- http://edamontology.org/topic_4040
 - http://edamontology.org/topic_3308
 tools:
 - name: scTriangulate
@@ -50,7 +49,6 @@ metadata:
   - scanpy
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
-  - http://edamontology.org/topic_4040
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

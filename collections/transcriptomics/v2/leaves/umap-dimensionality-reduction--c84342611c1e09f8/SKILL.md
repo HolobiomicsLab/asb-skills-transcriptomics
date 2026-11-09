@@ -10,7 +10,7 @@ when_to_use_negative:
 - When evaluating synthetic data quality by per-gene distribution statistics or cluster
   proportions rather than clustering metrics — UMAP mapping is specific to the DBI/ARI
   label-transfer workflow
-edam_operation: http://edamontology.org/operation_3810
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_3170
@@ -52,7 +52,7 @@ metadata:
   - UMAP
   - scDBM.jl
   - scvi-tools
-  edam_operation: http://edamontology.org/operation_3810
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_3170

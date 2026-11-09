@@ -11,7 +11,7 @@ when_to_use_negative:
   Module (TimiGP-Response) is the appropriate module.
 - The input is already a deconvolved cell-type abundance table or single-cell data
   rather than bulk transcriptomic profiles with cell-type marker pairs.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 tools:
@@ -51,7 +51,7 @@ metadata:
   - devtools
   - glmnet
   - survival
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   provenance_tier: literature

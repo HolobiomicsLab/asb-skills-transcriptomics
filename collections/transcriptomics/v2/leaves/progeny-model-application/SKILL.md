@@ -14,7 +14,7 @@ when_to_use_negative:
 - You want to quantify the expression level (abundance) of pathway members rather
   than pathway activity — the article warns the expression level of a pathway should
   not be interpreted as its activity
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3523
@@ -51,7 +51,7 @@ metadata:
   - PROGENy
   - decoupler
   - progeny
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3523

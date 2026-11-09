@@ -10,7 +10,7 @@ when_to_use_negative:
   multiDEGGs package with get_diffNetworks is the maintained route
 - When metadata and count matrix columns/rows are not sample-aligned (identical(colnames,
   rownames) fails) — correct alignment first
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3518
@@ -49,7 +49,7 @@ metadata:
   - R
   - org.Hs.eg.db
   - qvalue
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3518

@@ -12,7 +12,7 @@ when_to_use_negative:
   fusion events with known breakpoints to compute coverage limits
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0085
 tools:
 - name: Anchored-fusion
@@ -74,7 +74,7 @@ metadata:
   - scikit-learn
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0085
   provenance_tier: literature
 license: CC-BY-4.0

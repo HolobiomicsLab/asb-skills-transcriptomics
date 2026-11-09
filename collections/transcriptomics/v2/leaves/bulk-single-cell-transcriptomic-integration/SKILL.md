@@ -12,7 +12,7 @@ when_to_use_negative:
   denoising improves scRNA-seq data' in general.
 - Data are full-length bulk-like or already aggregated profiles rather than sparse
   single-cell counts, where ZINB/NB denoising assumptions do not apply.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3518
@@ -64,7 +64,7 @@ metadata:
   - Scanpy
   - anndata
   - scImpute
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3518

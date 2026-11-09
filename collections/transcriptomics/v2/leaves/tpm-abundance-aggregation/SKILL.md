@@ -12,7 +12,7 @@ when_to_use_negative:
 - Gene-level abundance estimates are required — this workflow deliberately quantifies
   at the transcript/isoform level to preserve the isoform switching definitions used
   in CanIsoNet
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - CanIsoNet
   - Kallisto
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

@@ -12,7 +12,7 @@ when_to_use_negative:
 - The dataset is not a gene-expression matrix with human gene symbols as rows (e.g.
   methylation or mutation data), making reconstruction RMSE over the marker-gene layer
   meaningless
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3577
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - DCNet
   - Python
   - mxnet
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3577
   - http://edamontology.org/topic_0203

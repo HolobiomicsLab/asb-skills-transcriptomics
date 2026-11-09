@@ -17,7 +17,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2403
 edam_topics:
 - http://edamontology.org/topic_2229
-- http://edamontology.org/topic_6170
 tools:
 - name: BIDCell
   role: Runs the preannotate step that consumes the single-cell reference and marker
@@ -50,7 +49,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2403
   edam_topics:
   - http://edamontology.org/topic_2229
-  - http://edamontology.org/topic_6170
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

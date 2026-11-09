@@ -11,8 +11,7 @@ when_to_use_negative:
 - You need marker fidelity or marker AUC analysis (use Find_Markers_ROC / Plot_alluvia_track
   instead of cast_confusion)
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3630
+edam_topics: []
 tools:
 - name: ClonoCluster
   role: Provides the clonocluster clustering call that generates the hybrid cluster
@@ -43,8 +42,7 @@ metadata:
   - R (version >=)
   - data.table
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3630
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

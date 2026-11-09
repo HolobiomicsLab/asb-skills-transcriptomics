@@ -10,7 +10,7 @@ when_to_use_negative:
   undirected statistical dependencies
 - Gene list is very large — the article suggests instead dividing genes into modules
   based on scLink's correlation and applying scLink separately to each module
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -43,7 +43,7 @@ metadata:
   - R
   - scImpute
   - scLink
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

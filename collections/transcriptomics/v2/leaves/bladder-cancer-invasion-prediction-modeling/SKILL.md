@@ -11,7 +11,7 @@ when_to_use_negative:
 - Variables number in the hundred thousands and penalized regression alone is attempted
   without FDR screening — the article recommends FDR in that regime because penalized
   models fall short
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_0622
@@ -45,7 +45,7 @@ metadata:
   - R
   - Shiny
   - selectiveInference
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_0622

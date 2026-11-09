@@ -12,7 +12,6 @@ when_to_use_negative:
   ambient mRNA removal) is the dominant error source not addressed by this evaluation.
 edam_operation: http://edamontology.org/operation_3223
 edam_topics:
-- http://edamontology.org/topic_6170
 - http://edamontology.org/topic_0203
 tools:
 - name: Chord
@@ -60,7 +59,6 @@ metadata:
   - scds
   edam_operation: http://edamontology.org/operation_3223
   edam_topics:
-  - http://edamontology.org/topic_6170
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

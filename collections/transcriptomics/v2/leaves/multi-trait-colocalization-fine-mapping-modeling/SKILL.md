@@ -11,7 +11,7 @@ when_to_use_negative:
   are present in all tested datasets
 - Loci whose effects are mediated via coding variants with no eQTL signal, which cannot
   be explored with CAFEH
-edam_operation: http://edamontology.org/operation_3452
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3263
 - http://edamontology.org/topic_0625
@@ -49,7 +49,7 @@ metadata:
   - Python
   - conda
   - pip
-  edam_operation: http://edamontology.org/operation_3452
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3263
   - http://edamontology.org/topic_0625

@@ -10,7 +10,7 @@ when_to_use_negative:
   on a single shared LD matrix
 - Datasets with missing effect-size entries, because CAFEH does not handle missing
   data and implicitly assumes causal variants are present in all tested studies
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3517
@@ -44,7 +44,7 @@ metadata:
   - Python
   - conda
   - pip
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3517

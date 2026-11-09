@@ -10,7 +10,7 @@ when_to_use_negative:
   must exist before an MST can be estimated per clustering
 - You need correct pseudotime for multi-root (converging) trajectories — dynplot will
   not generate the correct pseudotime for multi-root trajectories
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Slingshot
   - Totem
   - ape
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

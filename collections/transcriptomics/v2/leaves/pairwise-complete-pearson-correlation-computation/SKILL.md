@@ -17,7 +17,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 tools:
 - name: scLink
   role: R package providing sclink_norm for normalization, sclink_cor for the Gamma-Normal
@@ -45,7 +45,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

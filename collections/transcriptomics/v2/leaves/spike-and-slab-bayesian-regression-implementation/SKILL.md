@@ -11,7 +11,7 @@ when_to_use_negative:
   version of CAFEH relies on a single LD matrix
 - Locus effects are mediated via coding variants with no demonstrable eQTL effects
   — such loci cannot be explored with CAFEH
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3053
@@ -45,7 +45,7 @@ metadata:
   - Python
   - conda
   - pip
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3053

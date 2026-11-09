@@ -11,7 +11,7 @@ when_to_use_negative:
   walkthrough, not the multi-condition comparison.
 - The analysis requires programming-heavy custom statistics — InterCellar is designed
   for interactive analysis without programming skills, not scripted re-implementations.
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -45,7 +45,7 @@ metadata:
   - R
   - R/Shiny
   - Shiny
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

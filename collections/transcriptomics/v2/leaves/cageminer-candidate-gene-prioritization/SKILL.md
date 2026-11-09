@@ -8,7 +8,7 @@ when_to_use_negative:
   requires both evidence sources.
 - You are exploring the published network interactively rather than reproducing candidate-gene
   counts; the SoyFungiGCN Shiny app (run_app()) is the better entry point for exploration.
-edam_operation: http://edamontology.org/operation_3224
+edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0203
@@ -39,7 +39,7 @@ metadata:
   - R
   - SoyFungiGCN
   - remotes
-  edam_operation: http://edamontology.org/operation_3224
+  edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0203

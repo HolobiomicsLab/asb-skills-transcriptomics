@@ -11,8 +11,7 @@ when_to_use_negative:
 - Your analysis goal is doublet classification accuracy (precision/recall vs labels),
   not downstream trajectory robustness
 edam_operation: http://edamontology.org/operation_3891
-edam_topics:
-- http://edamontology.org/topic_3611
+edam_topics: []
 tools:
 - name: Chord
   role: Ensemble doublet scorer (GBM boosting of scds cxds/bcds and DoubletFinder)
@@ -60,8 +59,7 @@ metadata:
   - monocle
   - scds
   edam_operation: http://edamontology.org/operation_3891
-  edam_topics:
-  - http://edamontology.org/topic_3611
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

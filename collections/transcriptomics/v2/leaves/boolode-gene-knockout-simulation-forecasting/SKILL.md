@@ -12,7 +12,7 @@ when_to_use_negative:
   — the paper explicitly leaves mechanistic network inference as future work
 - You require predictions only within a lower-dimensional embedding space; the value
   of this skill is precisely extrapolation in gene-dimensional space
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -53,7 +53,7 @@ metadata:
   - Flux
   - RNAForecaster
   - Seurat
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

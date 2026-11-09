@@ -12,7 +12,7 @@ when_to_use_negative:
 - Your annotation contains no alternative splicing events, so no held-out truth events
   can be derived via AStalavista
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 - http://edamontology.org/topic_3308
 tools:
 - name: fortuna
@@ -58,7 +58,7 @@ metadata:
   - sigcount
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

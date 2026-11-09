@@ -13,7 +13,7 @@ when_to_use_negative:
 - The input is already normalized or batch-corrected expression data rather than raw
   read counts, since BUSseq models the count nature, overdispersion, and dropouts
   of raw scRNA-seq counts directly
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_2229
@@ -58,7 +58,7 @@ metadata:
   - Scanorama
   - Seurat
   - scMerge
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_2229

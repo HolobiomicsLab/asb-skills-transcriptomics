@@ -11,7 +11,7 @@ when_to_use_negative:
   cannot be aligned — TOSICA requires identical, same-order var_names.
 - The goal is absolute annotation accuracy on known labels rather than open-set recognition
   / 'Unknown' detection behavior.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -52,7 +52,7 @@ metadata:
   - TOSICA
   - scanpy
   - torch
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

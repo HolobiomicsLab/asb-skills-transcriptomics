@@ -12,7 +12,7 @@ when_to_use_negative:
   not characterization of trajectory branching structure itself.
 - Data are single-sample per condition without sample-to-sample replication, since
   branch proportion variability is interpreted across biological samples.
-edam_operation: http://edamontology.org/operation_2264
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -43,7 +43,7 @@ metadata:
   - branchPropTest
   - evaluate_uncertainty
   - plotmclust
-  edam_operation: http://edamontology.org/operation_2264
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

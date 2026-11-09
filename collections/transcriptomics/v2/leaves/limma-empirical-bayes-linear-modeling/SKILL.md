@@ -11,7 +11,7 @@ when_to_use_negative:
   node, edge, or path perturbation models instead of gene-level DE testing)
 - The downstream method needs seed genes only (a curated disease-gene list) rather
   than genome-wide P-values
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -49,7 +49,7 @@ metadata:
   - SEMtree()
   - limma
   - org.Hs.eg.db
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

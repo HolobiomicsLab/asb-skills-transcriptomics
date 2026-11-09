@@ -14,7 +14,6 @@ when_to_use_negative:
   thus distort the BH ranking)
 edam_operation: http://edamontology.org/operation_0370
 edam_topics:
-- http://edamontology.org/topic_0057
 - http://edamontology.org/topic_3308
 tools:
 - name: PAIRADISE
@@ -65,7 +64,6 @@ metadata:
   - rPGA pipeline
   edam_operation: http://edamontology.org/operation_0370
   edam_topics:
-  - http://edamontology.org/topic_0057
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

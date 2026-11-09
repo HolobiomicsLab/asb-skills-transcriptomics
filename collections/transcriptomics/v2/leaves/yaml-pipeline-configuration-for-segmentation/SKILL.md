@@ -10,8 +10,7 @@ when_to_use_negative:
 - Nuclei images are separated into fields of view (e.g. CosMx) and only FOV stitching
   is needed — that is handled by model.stitch_nuclei(), not by config parameters.
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_6398
+edam_topics: []
 tools:
 - name: BIDCell
   role: Provides BIDCellModel.get_example_config() to copy platform .yaml templates
@@ -38,8 +37,7 @@ metadata:
   - BIDCell
   - Cellpose
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_6398
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

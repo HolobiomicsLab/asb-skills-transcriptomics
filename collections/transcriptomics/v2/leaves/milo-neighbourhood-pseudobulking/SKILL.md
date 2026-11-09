@@ -10,7 +10,7 @@ when_to_use_negative:
   'likely insufficient even for miloR neighbourhood construction'.
 - The trajectory of interest is cyclic (e.g. B cell receptor editing), which the downstream
   absorbing Markov chain pseudotime cannot represent.
-edam_operation: http://edamontology.org/operation_3934
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2830
@@ -49,7 +49,7 @@ metadata:
   - dandelionR
   - miloR
   - scRepertoire
-  edam_operation: http://edamontology.org/operation_3934
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2830

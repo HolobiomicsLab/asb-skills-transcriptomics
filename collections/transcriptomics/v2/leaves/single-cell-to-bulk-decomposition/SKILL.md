@@ -10,7 +10,7 @@ when_to_use_negative:
 - Very few individuals have single-cell data, making the reference profile and gene-specific
   transformations unreliable.
 - Input is already cell-type-level single-cell data with no bulk cohort to decompose.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3518
@@ -49,7 +49,7 @@ metadata:
   - BisqueMarker
   - BisqueRNA
   - MuSiC
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3518

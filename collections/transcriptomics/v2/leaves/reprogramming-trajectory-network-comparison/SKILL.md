@@ -12,7 +12,7 @@ when_to_use_negative:
   expression changes rather than graph-theoretic network comparison
 - When clusters do not form an ordered trajectory — centrality trajectory and early-vs-late
   comparisons require cluster ordering along reprogramming progress
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0203
@@ -57,7 +57,7 @@ metadata:
   - R
   - igraph
   - rnetcarto
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0203

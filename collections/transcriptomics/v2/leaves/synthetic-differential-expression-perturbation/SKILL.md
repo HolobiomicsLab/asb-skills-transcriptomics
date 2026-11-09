@@ -11,7 +11,7 @@ when_to_use_negative:
   not interpretable.
 - When comparing pipelines that require bulk-RNA signatures only, since this simulation
   design is specific to single-cell case-control inputs.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - CLUE
   - Seurat
   - pROC
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

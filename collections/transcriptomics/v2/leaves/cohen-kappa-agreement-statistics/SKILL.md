@@ -13,8 +13,7 @@ when_to_use_negative:
 - When clone barcode data are absent or unreliable, since kappa against barcode membership
   is undefined or meaningless
 edam_operation: http://edamontology.org/operation_0564
-edam_topics:
-- http://edamontology.org/topic_3630
+edam_topics: []
 tools:
 - name: ClonoCluster
   role: Generates hybrid cluster assignments across the alpha sweep whose concordance
@@ -46,8 +45,7 @@ metadata:
   - R (version >=)
   - data.table
   edam_operation: http://edamontology.org/operation_0564
-  edam_topics:
-  - http://edamontology.org/topic_3630
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

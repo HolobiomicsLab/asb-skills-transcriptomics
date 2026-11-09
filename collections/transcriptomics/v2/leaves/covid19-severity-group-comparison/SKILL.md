@@ -13,7 +13,6 @@ when_to_use_negative:
   differential abundance of cell states across severity groups
 edam_operation: http://edamontology.org/operation_3660
 edam_topics:
-- http://edamontology.org/topic_3270
 - http://edamontology.org/topic_3308
 tools:
 - name: scMerge2
@@ -42,7 +41,6 @@ metadata:
   - scMerge2
   edam_operation: http://edamontology.org/operation_3660
   edam_topics:
-  - http://edamontology.org/topic_3270
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

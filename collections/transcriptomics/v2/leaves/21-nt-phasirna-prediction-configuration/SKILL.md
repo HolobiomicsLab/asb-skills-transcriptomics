@@ -11,7 +11,7 @@ when_to_use_negative:
   integration capability
 - When raw sRNA reads have not been preprocessed — the phase module expects .map files
   and the filtered sRNA fasta, not FASTQ input
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0659
 - http://edamontology.org/topic_3170
@@ -42,7 +42,7 @@ metadata:
   - PhasiHunter
   - PhasiRNAnalyzer
   - unitas
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0659
   - http://edamontology.org/topic_3170

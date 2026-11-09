@@ -11,7 +11,6 @@ when_to_use_negative:
 - Input data has not been converted to CellexalVR input files via cellexalvrR (no
   DR coordinates available to index)
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3308
 tools:
 - name: CellexalVR
@@ -51,7 +50,6 @@ metadata:
   - cellexalvrR
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

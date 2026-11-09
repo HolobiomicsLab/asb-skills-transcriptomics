@@ -11,8 +11,7 @@ when_to_use_negative:
 - The downstream analysis does not require a pseudotemporal ordering (gating quality
   specifically supports trajectory inference for MAPiT-style transformations)
 edam_operation: http://edamontology.org/operation_3695
-edam_topics:
-- http://edamontology.org/topic_3282
+edam_topics: []
 tools:
 - name: MATLAB
   role: Environment in which gated FCS data are loaded, root cells are selected, and
@@ -47,8 +46,7 @@ metadata:
   - Wanderlust
   - cyt3 / Sight
   edam_operation: http://edamontology.org/operation_3695
-  edam_topics:
-  - http://edamontology.org/topic_3282
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

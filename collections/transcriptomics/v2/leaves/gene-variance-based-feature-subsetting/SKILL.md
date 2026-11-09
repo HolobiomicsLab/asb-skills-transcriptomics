@@ -15,7 +15,7 @@ edam_operation: http://edamontology.org/operation_2939
 edam_topics:
 - http://edamontology.org/topic_2640
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 tools:
 - name: DeepCC
   role: Provides getFunctionalSpectra to compute functional spectra from each gene
@@ -53,7 +53,7 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_2640
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3232
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3117
 tools:
 - name: scisorseqr
   role: R package providing MapAndFilter and downstream collapse into novel intron-chain
@@ -56,7 +55,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3232
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3117
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

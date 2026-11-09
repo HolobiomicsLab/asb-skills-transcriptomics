@@ -10,7 +10,7 @@ when_to_use_negative:
   the system, so simulated transitions cannot be compared to a reference vector field
 - The candidates of interest are not transcription factors; the study scope was mainly
   focused on TFs associated with installing new cell identities (KO or overexpression)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -42,7 +42,7 @@ metadata:
   tools:
   - CellOracle
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

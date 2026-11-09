@@ -10,7 +10,7 @@ when_to_use_negative:
   which hinge on statistically sound and biologically meaningful clustering assignments
 - The relationship between covariates and abundance is expected to be strongly non-log-linear
   — scCODA assumes a log-linear relationship which may be mis-specified
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -58,7 +58,7 @@ metadata:
   - scanpy
   - tensorflow-probability
   - tensorflow-probability (>=0.12)
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

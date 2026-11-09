@@ -10,7 +10,7 @@ when_to_use_negative:
   drug response prediction is limited to experimentally screened compounds
 - You need de novo drug sensitivity prediction for untested compounds, which is explicitly
   not yet implemented in scDrug
-edam_operation: http://edamontology.org/operation_4001
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0208
@@ -44,7 +44,7 @@ metadata:
   - Python
   - Scanpy
   - scDrug
-  edam_operation: http://edamontology.org/operation_4001
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0208

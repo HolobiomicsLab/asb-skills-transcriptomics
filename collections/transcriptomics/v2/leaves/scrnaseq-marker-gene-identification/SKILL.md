@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2935
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3270
 tools:
 - name: scCATCH
   role: Provides createscCATCH, findmarkergene, and findcelltype to identify per-cluster
@@ -65,7 +64,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2935
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3270
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

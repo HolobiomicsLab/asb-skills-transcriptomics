@@ -12,7 +12,7 @@ when_to_use_negative:
   domain-loss intersection can be performed
 - The goal is generic PPI network analysis on full proteomes rather than networks
   disrupted by disease isoforms
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - CanIsoNet
   - STRING
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

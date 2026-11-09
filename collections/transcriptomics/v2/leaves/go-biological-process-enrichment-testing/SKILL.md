@@ -12,7 +12,7 @@ when_to_use_negative:
 - The lineage question spans long time scales (weeks/months) beyond GEMLI's ~1–5 cell
   division scope, so predicted lineages are not a valid basis for defining memory
   genes
-edam_operation: http://edamontology.org/operation_3667
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0085
 - http://edamontology.org/topic_0203
@@ -48,7 +48,7 @@ metadata:
   - R
   - devtools
   - topGO
-  edam_operation: http://edamontology.org/operation_3667
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0085
   - http://edamontology.org/topic_0203

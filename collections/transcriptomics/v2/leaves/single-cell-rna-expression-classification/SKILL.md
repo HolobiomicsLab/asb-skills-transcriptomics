@@ -12,7 +12,7 @@ when_to_use_negative:
   annotation
 - Metadata such as sequencing technology or cell line must be integrated into the
   model — this is a proposed future direction and is not implemented
-edam_operation: http://edamontology.org/operation_2991
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3474
@@ -52,7 +52,7 @@ metadata:
   - SIMS
   - Scanpy
   - TabNet
-  edam_operation: http://edamontology.org/operation_2991
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3474

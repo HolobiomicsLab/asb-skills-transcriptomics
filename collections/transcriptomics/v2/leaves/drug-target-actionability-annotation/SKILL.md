@@ -11,7 +11,7 @@ when_to_use_negative:
 - The input is differential-expression gene counts rather than extracted IC gene symbol
   lists — drug actionability annotation is only meaningful on curated gene symbol
   sets.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0208
 - http://edamontology.org/topic_0154
@@ -40,7 +40,7 @@ metadata:
   tools:
   - Jupyter Notebook
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0208
   - http://edamontology.org/topic_0154

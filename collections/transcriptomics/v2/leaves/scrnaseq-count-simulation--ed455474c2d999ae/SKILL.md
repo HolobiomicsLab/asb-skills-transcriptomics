@@ -12,7 +12,7 @@ when_to_use_negative:
 - Cell-cycle activity is very low in the target setting (e.g. glioblastoma, where
   the paper uses a smaller cutoff C_delta = 2), so the default simulation and cutoff=3
   parameters would not reflect the analysis conditions
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Python
   - ccRemover
   - scLVM
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

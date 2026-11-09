@@ -12,7 +12,7 @@ when_to_use_negative:
   use the forecast-vs-simulated MSE comparison against a non-KO control ensemble instead
 - Prediction and observation matrices do not share the same gene set, normalization
   (log1p Float32), or scale, since joint UMAP requires a common expression space
-edam_operation: http://edamontology.org/operation_3843
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -51,7 +51,7 @@ metadata:
   - Flux
   - RNAForecaster
   - Seurat
-  edam_operation: http://edamontology.org/operation_3843
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

@@ -12,7 +12,7 @@ when_to_use_negative:
   Fosb, Fos, Eno1, Klf4 still require experimental validation)
 - When cell states are not annotated into discrete clusters/states — the workflow
   simulates KO per Monocle state and aggregates across states
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -54,7 +54,7 @@ metadata:
   - Cell Ranger 6.0.1
   - CellOracle
   - igraph
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

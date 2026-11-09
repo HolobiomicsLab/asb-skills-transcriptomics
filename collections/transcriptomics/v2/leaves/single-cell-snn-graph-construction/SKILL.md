@@ -10,7 +10,7 @@ when_to_use_negative:
   for the epigenomic modality, not PCA-based SNN on gene expression)
 - The goal is only cluster annotation/label transfer (e.g., CIPR) rather than de novo
   graph-based partitioning of cells
-edam_operation: http://edamontology.org/operation_3626
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0092
@@ -46,7 +46,7 @@ metadata:
   - R
   - SCALA
   - Seurat
-  edam_operation: http://edamontology.org/operation_3626
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0092

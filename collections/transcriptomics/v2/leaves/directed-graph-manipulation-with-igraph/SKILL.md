@@ -13,7 +13,7 @@ when_to_use_negative:
 - The goal is differential-expression testing rather than structure recovery — node/edge
   perturbation statistics from SEMrun (16 DRNs, 3 DREs at p<0.05 in the ALS model)
   do not require rebuilding the digraph.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3366
@@ -55,7 +55,7 @@ metadata:
   - SEMtree()
   - igraph
   - mgcv
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3366

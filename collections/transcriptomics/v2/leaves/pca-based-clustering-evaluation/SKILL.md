@@ -12,7 +12,7 @@ when_to_use_negative:
   needing time-series analysis rather than subpopulation separation)
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 - http://edamontology.org/topic_0203
 tools:
 - name: scImpute
@@ -35,7 +35,7 @@ metadata:
   - scImpute
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

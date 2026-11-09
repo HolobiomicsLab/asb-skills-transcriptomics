@@ -12,7 +12,7 @@ when_to_use_negative:
 - The goal is definitive biological validation of cell identity rather than transcriptomic
   replicability — the article notes orthogonal data will be required and current estimates
   are optimistic
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -59,7 +59,7 @@ metadata:
   - SummarizedExperiment
   - beanplot
   - gplots
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

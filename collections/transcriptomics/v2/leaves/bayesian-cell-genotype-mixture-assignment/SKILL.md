@@ -10,7 +10,7 @@ when_to_use_negative:
   only indicates the mixture fraction is below the method's detection level
 - Bulk (non-single-cell) sequencing data, as the method requires per-cell barcode-resolved
   SNV fractions
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2885
@@ -46,7 +46,7 @@ metadata:
   - Freebayes 1.0.2
   - STAR
   - Seurat
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2885

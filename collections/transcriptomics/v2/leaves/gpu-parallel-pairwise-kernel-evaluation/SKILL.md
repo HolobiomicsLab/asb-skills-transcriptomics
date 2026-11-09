@@ -10,7 +10,7 @@ when_to_use_negative:
 - The data matrix has already undergone feature selection or dimensionality reduction
   — the kernel design assumes the full log-normalized transcriptome, so GPU-accelerated
   full-pairwise evaluation would bake in discarded high-order gene interactions.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_3308
@@ -35,7 +35,7 @@ metadata:
   tools:
   - q-Diffusion.jl
   - q-diffusion
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_3308

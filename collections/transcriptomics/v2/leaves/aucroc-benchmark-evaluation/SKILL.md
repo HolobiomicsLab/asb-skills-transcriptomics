@@ -9,7 +9,7 @@ when_to_use_negative:
 - The goal is to run differential proportion analysis on a user dataset rather than
   benchmark method parameters — call scanpro/run_scanpro directly with a fixed pseudo-replicate
   count
-edam_operation: http://edamontology.org/operation_2948
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3316
 - http://edamontology.org/topic_2229
@@ -41,7 +41,7 @@ metadata:
   - Python
   - Scanpro
   - Scanpy
-  edam_operation: http://edamontology.org/operation_2948
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3316
   - http://edamontology.org/topic_2229

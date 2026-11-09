@@ -11,7 +11,7 @@ when_to_use_negative:
 - A no-marker-seed approach is required when no known marker gene is available to
   seed findAttractor.adaptive — use the unsupervised adaptive variant or run.CASCC
   defaults instead
-edam_operation: http://edamontology.org/operation_3620
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -47,7 +47,7 @@ metadata:
   - cafr
   - devtools/remotes
   - ggplot2
-  edam_operation: http://edamontology.org/operation_3620
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

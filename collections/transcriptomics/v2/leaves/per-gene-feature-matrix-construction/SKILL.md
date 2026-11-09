@@ -11,8 +11,7 @@ when_to_use_negative:
   entropy and frequency could not be calculated)
 - The goal is background-mutation-rate-based driver detection (e.g. MutSigCV-style),
   which this feature-matrix approach deliberately avoids
-edam_topics:
-- http://edamontology.org/topic_2648
+edam_topics: []
 tools:
 - name: cTaG
   role: Provides the code (identifyTSGOG.py module) that builds the 37-feature matrix
@@ -33,8 +32,7 @@ metadata:
   tools:
   - cTaG
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2648
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

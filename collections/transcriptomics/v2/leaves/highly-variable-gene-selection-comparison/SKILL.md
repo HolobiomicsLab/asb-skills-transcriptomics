@@ -10,7 +10,7 @@ when_to_use_negative:
   inclusion cannot be built on confident sequence-based homologs
 - Only whole-body atlas integration with challenging gene homology annotation is needed,
   where SAMap rather than HVG-set comparison is the recommended approach
-edam_operation: http://edamontology.org/operation_3934
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3308
@@ -51,7 +51,7 @@ metadata:
   - SeuratV4
   - scANVI
   - scVI
-  edam_operation: http://edamontology.org/operation_3934
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3308

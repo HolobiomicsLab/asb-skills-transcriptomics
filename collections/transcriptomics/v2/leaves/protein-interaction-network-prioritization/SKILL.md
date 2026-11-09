@@ -10,7 +10,7 @@ when_to_use_negative:
   — ligand-receptor scoring requires annotated cell populations as input
 - The goal is basic exploratory single-cell analysis (QC, normalization, clustering)
   rather than intercellular communication inference between defined populations
-edam_operation: http://edamontology.org/operation_3739
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0203
@@ -52,7 +52,7 @@ metadata:
   - SCALA
   - Seurat
   - nichenetr
-  edam_operation: http://edamontology.org/operation_3739
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0203

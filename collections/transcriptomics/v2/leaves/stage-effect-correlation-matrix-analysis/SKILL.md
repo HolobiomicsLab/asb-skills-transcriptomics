@@ -10,7 +10,7 @@ when_to_use_negative:
   such pairs, so the skill is limited to common cell types
 - Cell types expressed as continuous trajectories that cannot be meaningfully discretized
   into pseudobulk stages, since CTMM assumes discrete cell types
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2269
@@ -50,7 +50,7 @@ metadata:
   - Snakemake
   - ctmm
   - rpy2
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2269

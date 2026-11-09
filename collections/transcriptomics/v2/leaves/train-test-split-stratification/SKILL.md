@@ -12,7 +12,7 @@ when_to_use_negative:
 - Pathway selection is supervised — if pathway features are chosen using the full
   dataset before splitting, the held-out test AUROC is no longer an honest estimate
   of generalization
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - Python
   - scPAFA
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0203

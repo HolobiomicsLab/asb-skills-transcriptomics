@@ -13,9 +13,8 @@ when_to_use_negative:
   over the Louvain benchmark
 - When the analysis goal is differential expression rather than differential abundance
   of cell-type/community counts
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_3630
 - http://edamontology.org/topic_2229
 tools:
 - name: ELVAR
@@ -50,9 +49,8 @@ metadata:
   - dplyr
   - ggplot2
   - igraph
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3630
   - http://edamontology.org/topic_2229
   provenance_tier: literature
 license: CC-BY-4.0

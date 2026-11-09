@@ -11,7 +11,7 @@ when_to_use_negative:
   feature tables), so no interval intersection can produce the reported statistic.
 - No published numeric target or deposited interval file exists to validate against
   — the reproduction invariant would be unverifiable.
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -38,7 +38,7 @@ metadata:
   - Python
   - Python 3.x
   - dsRID
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

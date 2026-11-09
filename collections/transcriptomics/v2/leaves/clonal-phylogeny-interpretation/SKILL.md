@@ -15,7 +15,6 @@ edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_2640
 - http://edamontology.org/topic_3173
-- http://edamontology.org/topic_3685
 tools:
 - name: SCEVAN
   role: Runs the end-to-end pipelineCNA that segments CNA jointly across cells, infers
@@ -42,7 +41,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_2640
   - http://edamontology.org/topic_3173
-  - http://edamontology.org/topic_3685
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

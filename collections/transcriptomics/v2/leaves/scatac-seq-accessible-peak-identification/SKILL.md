@@ -13,8 +13,7 @@ when_to_use_negative:
 - Gene identifiers in the parquet base GRN cannot be made consistent with the paired
   scRNA-seq expression matrix
 edam_operation: http://edamontology.org/operation_0362
-edam_topics:
-- http://edamontology.org/topic_0120
+edam_topics: []
 tools:
 - name: scGATE
   role: Consumes the parquet base GRN via read_base_GRN() to summarize it into the
@@ -46,8 +45,7 @@ metadata:
   - arrow
   - scGATE
   edam_operation: http://edamontology.org/operation_0362
-  edam_topics:
-  - http://edamontology.org/topic_0120
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

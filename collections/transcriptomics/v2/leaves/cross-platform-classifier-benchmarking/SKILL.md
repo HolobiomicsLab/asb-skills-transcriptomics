@@ -15,7 +15,6 @@ edam_operation: http://edamontology.org/operation_2995
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_2648
 tools:
 - name: DeepCC
   role: 'Core R package: getFunctionalSpectra() projects each cohort into the MSigDB
@@ -54,7 +53,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3474
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

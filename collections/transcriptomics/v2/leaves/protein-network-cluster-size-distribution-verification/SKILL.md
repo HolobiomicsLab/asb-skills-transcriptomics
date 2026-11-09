@@ -12,7 +12,7 @@ when_to_use_negative:
   downstream enrichment to clusters with five or more nodes.
 - The clustering target is a co-expression network from raw scRNA-seq rather than
   a FAVA-inferred protein association network in latent-space correlation form.
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_0602
@@ -47,7 +47,7 @@ metadata:
   - MCL
   - Python
   - favapy
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_0602

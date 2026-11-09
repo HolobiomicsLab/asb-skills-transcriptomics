@@ -11,7 +11,7 @@ when_to_use_negative:
   fate selection.
 - No trajectory has been inferred yet (raw counts without a fitted slingshot object)
   — curve weights do not exist until slingshot lineages are fitted.
-edam_operation: http://edamontology.org/operation_2264
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -38,7 +38,7 @@ metadata:
   - R
   - condiments
   - slingshot
-  edam_operation: http://edamontology.org/operation_2264
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

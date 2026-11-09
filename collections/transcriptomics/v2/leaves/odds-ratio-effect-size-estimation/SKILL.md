@@ -12,7 +12,7 @@ when_to_use_negative:
 - The class labels come from samples with a human stromal component unlike primary
   CRCs (e.g., metastatic biopsies), where CMScaller predictions are unreliable and
   any downstream association is confounded
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -43,7 +43,7 @@ metadata:
   - Biobase
   - CMScaller
   - R
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

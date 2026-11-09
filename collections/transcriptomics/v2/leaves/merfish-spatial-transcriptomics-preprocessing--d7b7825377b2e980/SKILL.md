@@ -11,7 +11,6 @@ when_to_use_negative:
   directly apply
 edam_operation: http://edamontology.org/operation_2939
 edam_topics:
-- http://edamontology.org/topic_3567
 - http://edamontology.org/topic_3170
 tools:
 - name: Seurat
@@ -44,7 +43,6 @@ metadata:
   - scSorter
   edam_operation: http://edamontology.org/operation_2939
   edam_topics:
-  - http://edamontology.org/topic_3567
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

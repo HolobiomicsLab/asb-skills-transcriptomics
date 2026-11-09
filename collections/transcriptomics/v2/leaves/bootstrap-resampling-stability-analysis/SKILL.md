@@ -11,7 +11,7 @@ when_to_use_negative:
   rather than compare clustering stability across feature types
 - The input is already a stability/agreement summary table; no further bootstrap resampling
   is warranted
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - Scipy
   - scikit-learn
   - scikit-learn 0.18
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

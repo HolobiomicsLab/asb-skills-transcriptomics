@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than quantifying splicing-count coverage
 - You only need trajectory visualization (pseudotime/streamplot) from an already-fitted
   TFvelo.h5ad via TFvelo_analysis_demo.py
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -40,7 +40,7 @@ metadata:
   - TFvelo
   - anndata
   - scanpy
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

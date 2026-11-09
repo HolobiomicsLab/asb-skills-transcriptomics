@@ -10,7 +10,7 @@ when_to_use_negative:
 - No curated disease gene sets (e.g., DisGeNET categories) are available for the phenotype
   of interest
 - The network's null comparison requires preserving structure beyond node degree attributes
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_3170
@@ -49,7 +49,7 @@ metadata:
   - SCING
   - conda
   - ppcor
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_3170

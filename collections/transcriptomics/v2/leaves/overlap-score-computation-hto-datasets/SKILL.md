@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
 - http://edamontology.org/topic_3542
-- http://edamontology.org/topic_6390
 tools:
 - name: demuxmix
   role: Fits negative binomial regression mixture models to HTO counts and computes
@@ -39,7 +38,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
   - http://edamontology.org/topic_3542
-  - http://edamontology.org/topic_6390
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -11,7 +11,7 @@ when_to_use_negative:
   the TILPRED README recommends ProjecTILs instead, since TILPRED is no longer maintained
 - Cell types of interest fall outside CD8 T cell states / curated T-cell signatures
   — non-CD8 cells will only be labeled Treg, CD4T, NKT or Non-Tcell, not further resolved
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -67,7 +67,7 @@ metadata:
   - doRNG
   - glmnet
   - remotes
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

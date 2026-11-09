@@ -13,8 +13,7 @@ when_to_use_negative:
 - Input is raw UMI counts without prior ambient correction and log transformation
   — the mixture model and PC1 assume step-I standardized values
 edam_operation: http://edamontology.org/operation_2939
-edam_topics:
-- http://edamontology.org/topic_3557
+edam_topics: []
 tools:
 - name: dsb
   role: R package whose DSBNormalizeProtein() implements the technical component regression
@@ -45,8 +44,7 @@ metadata:
   - limma
   - mclust
   edam_operation: http://edamontology.org/operation_2939
-  edam_topics:
-  - http://edamontology.org/topic_3557
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

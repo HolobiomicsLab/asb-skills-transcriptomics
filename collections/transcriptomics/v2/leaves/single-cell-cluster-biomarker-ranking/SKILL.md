@@ -11,7 +11,7 @@ when_to_use_negative:
   cluster biology through pathway enrichment.
 - You have only bulk RNA-seq or pre-aggregated gene signatures without per-cell cluster
   structure — the skill depends on cluster-resolved ranked gene lists.
-edam_operation: http://edamontology.org/operation_3940
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -44,7 +44,7 @@ metadata:
   - Python
   - SCANPY
   - scNovel
-  edam_operation: http://edamontology.org/operation_3940
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

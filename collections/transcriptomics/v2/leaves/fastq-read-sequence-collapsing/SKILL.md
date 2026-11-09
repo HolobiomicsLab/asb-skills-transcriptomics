@@ -11,7 +11,7 @@ when_to_use_negative:
   sequence and its total count.
 - The FASTQ file is not demultiplexed — the tinyRNA pipeline requires demultiplexed
   sequencing data as input.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3169
 tools:
@@ -45,7 +45,7 @@ metadata:
   - Python
   - tiny-collapse
   - tinyRNA
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3169
   provenance_tier: literature

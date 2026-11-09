@@ -11,7 +11,7 @@ when_to_use_negative:
   on a single-cell neighborhood graph is not applicable
 - A curated reference atlas projection (e.g. ProjecTILs) is preferred over de novo
   clustering, e.g. when mapping query cells onto a stable annotated reference
-edam_operation: http://edamontology.org/operation_3611
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -58,7 +58,7 @@ metadata:
   - SingleCellExperiment
   - TILPRED
   - smart-seq2
-  edam_operation: http://edamontology.org/operation_3611
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

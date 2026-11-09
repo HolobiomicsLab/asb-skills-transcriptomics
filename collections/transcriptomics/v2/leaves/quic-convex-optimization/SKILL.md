@@ -12,7 +12,7 @@ when_to_use_negative:
   assumes the preprocessed matrix
 - A simple co-expression strength measure suffices — use sclink_cor correlations rather
   than the penalized network step
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -45,7 +45,7 @@ metadata:
   - QUIC
   - R
   - scLink
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

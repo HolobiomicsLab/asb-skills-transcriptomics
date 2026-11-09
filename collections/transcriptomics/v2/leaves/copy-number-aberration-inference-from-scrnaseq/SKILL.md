@@ -13,11 +13,10 @@ when_to_use_negative:
 - No CNV segment definitions and no control dataset are available and the BAM-based
   CONICS workflow cannot be configured (Python, Perl, samtools, bedtools >2.2.5 requirements
   unmet)
-edam_operation: http://edamontology.org/operation_3224
+edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0199
-- http://edamontology.org/topic_2648
 tools:
 - name: CONICSmat
   role: 'Core tool: infers per-cell CNV presence/absence directly from the scRNA-seq
@@ -52,11 +51,10 @@ metadata:
   - dplyr
   - ggplot2
   - magrittr
-  edam_operation: http://edamontology.org/operation_3224
+  edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0199
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -10,7 +10,7 @@ when_to_use_negative:
 - No ChIP-seq data exist for the TF in the relevant cell-state context; binding must
   then be inferred from other cell lines and treated cautiously (as with GR for CXCL13+
   Tfh).
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 tools:
 - name: MetaTiME
   role: Provides the pretrained MeC gene-weight table (mecs module) whose top genes
@@ -33,7 +33,7 @@ metadata:
   tools:
   - Lisa
   - MetaTiME
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,6 @@ when_to_use_negative:
   and cell-level clustering
 edam_operation: http://edamontology.org/operation_2935
 edam_topics:
-- http://edamontology.org/topic_2228
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0099
 tools:
@@ -51,7 +50,6 @@ metadata:
   - cmapR
   edam_operation: http://edamontology.org/operation_2935
   edam_topics:
-  - http://edamontology.org/topic_2228
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0099
   provenance_tier: literature

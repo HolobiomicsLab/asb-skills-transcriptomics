@@ -13,7 +13,6 @@ when_to_use_negative:
   expression.
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
-- http://edamontology.org/topic_2648
 - http://edamontology.org/topic_0091
 tools:
 - name: DeepCC
@@ -49,7 +48,6 @@ metadata:
   - keras
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
-  - http://edamontology.org/topic_2648
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

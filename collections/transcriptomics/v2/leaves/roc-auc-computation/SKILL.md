@@ -11,7 +11,7 @@ when_to_use_negative:
   with no verified status), since AUC cannot be computed without labels
 - When probability calibration rather than ranking quality is the question — AUC is
   rank-based and cannot assess calibration of splice_prob values
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Forseti
   - Python
   - samtools
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

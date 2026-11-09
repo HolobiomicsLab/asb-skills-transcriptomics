@@ -9,7 +9,7 @@ when_to_use_negative:
   the final refined GRN
 - A fully curated, simulation-ready Boolean model already exists in Cell Collective
   for the organism, making draft BN generation unnecessary
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0204
@@ -45,7 +45,7 @@ metadata:
   - Cell Collective database
   - CellNOpt
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0204

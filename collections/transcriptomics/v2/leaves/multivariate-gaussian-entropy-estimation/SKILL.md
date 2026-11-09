@@ -13,7 +13,7 @@ when_to_use_negative:
 - The candidate RF set has not been filtered (e.g. by frequency of expression in the
   MPP population via FindCandidateFactors / type1fth='Mean'), so the dCov matrix would
   be dominated by sparsely expressed factors.
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3512
@@ -44,7 +44,7 @@ metadata:
   tools:
   - DICE
   - R
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3512

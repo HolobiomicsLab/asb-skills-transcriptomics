@@ -8,7 +8,7 @@ when_to_use_negative:
   no survival stratification is possible
 - The goal is unsupervised grouping of patients — DeepCC and this validation workflow
   are designed for classification, not clustering of cancer patients
-edam_operation: http://edamontology.org/operation_0218
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0625
@@ -39,7 +39,7 @@ metadata:
   - DeepCC
   - PAM50
   - R
-  edam_operation: http://edamontology.org/operation_0218
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0625

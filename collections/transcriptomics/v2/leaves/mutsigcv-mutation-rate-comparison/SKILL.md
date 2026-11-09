@@ -12,7 +12,6 @@ when_to_use_negative:
   entropy and frequency features could not be calculated for that data in the original
   study
 edam_topics:
-- http://edamontology.org/topic_2648
 - http://edamontology.org/topic_0622
 tools:
 - name: cTaG
@@ -51,7 +50,6 @@ metadata:
   - cTaG
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_2648
   - http://edamontology.org/topic_0622
   provenance_tier: literature
 license: CC-BY-4.0

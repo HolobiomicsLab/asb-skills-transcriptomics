@@ -13,7 +13,6 @@ when_to_use_negative:
   scope
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0099
 - http://edamontology.org/topic_3523
 tools:
@@ -44,7 +43,6 @@ metadata:
   - conda
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0099
   - http://edamontology.org/topic_3523
   provenance_tier: literature

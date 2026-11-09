@@ -11,7 +11,7 @@ when_to_use_negative:
   Spark setup overhead outweighs scalability gains
 - Operations require optimized Spark cluster mode — the discussion notes cluster mode
   operations are not yet optimized and deferred to future development
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -45,7 +45,7 @@ metadata:
   - Apache Parquet
   - Apache Spark
   - scSPARKL
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

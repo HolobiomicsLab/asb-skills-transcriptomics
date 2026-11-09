@@ -12,7 +12,7 @@ when_to_use_negative:
 - The data are UMI counts from a single experiment where the question is differential
   bursting between two samples (txburstTEST.py territory), not within-cell allelic
   burst association
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -43,7 +43,7 @@ metadata:
   - EMASE
   - SCALE
   - scBASE
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

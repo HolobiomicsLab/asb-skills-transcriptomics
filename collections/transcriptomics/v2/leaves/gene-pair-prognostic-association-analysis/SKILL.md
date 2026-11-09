@@ -11,7 +11,7 @@ when_to_use_negative:
 - The goal is cell-cell interaction inference or immunotherapy response prediction
   (TimiGP-Response modules) rather than quantifying prognostic bias of cell types/marker
   genes
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -53,7 +53,7 @@ metadata:
   - devtools
   - survival
   - xCell
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

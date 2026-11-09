@@ -10,7 +10,7 @@ when_to_use_negative:
   least two studies to compare
 - Genes in the gene sets do not match the expression matrix row names, or gene sets
   contain fewer than two genes — MetaNeighbor will not run correctly
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3308
@@ -46,7 +46,7 @@ metadata:
   - SingleCellExperiment
   - SummarizedExperiment
   - gplots
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3308

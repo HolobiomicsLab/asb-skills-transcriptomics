@@ -10,7 +10,7 @@ when_to_use_negative:
   accepts only these two formats
 - Multi-omics data (CITE-seq, scATAC-seq, scBS-seq) — Spark-based pipelines for these
   are not yet developed
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_3308
@@ -48,7 +48,7 @@ metadata:
   - Apache Parquet
   - Apache Spark
   - scSPARKL
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_3308

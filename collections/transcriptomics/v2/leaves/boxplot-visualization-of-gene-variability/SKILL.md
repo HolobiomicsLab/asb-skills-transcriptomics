@@ -10,7 +10,7 @@ when_to_use_negative:
   (cell-to-cell) variance to stabilize
 - Cell-type annotations are unavailable, making it impossible to isolate a single
   subpopulation for the CV calculation
-edam_operation: http://edamontology.org/operation_0572
+edam_operation: http://edamontology.org/operation_3925
 edam_topics:
 - http://edamontology.org/topic_3577
 - http://edamontology.org/topic_3170
@@ -43,7 +43,7 @@ metadata:
   - matplotlib
   - numpy
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_0572
+  edam_operation: http://edamontology.org/operation_3925
   edam_topics:
   - http://edamontology.org/topic_3577
   - http://edamontology.org/topic_3170

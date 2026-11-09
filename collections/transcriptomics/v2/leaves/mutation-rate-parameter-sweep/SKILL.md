@@ -13,8 +13,7 @@ when_to_use_negative:
   the sweep's value is demonstrating consistent outperformance across rates and dropout
   conditions
 edam_operation: http://edamontology.org/operation_0323
-edam_topics:
-- http://edamontology.org/topic_0662
+edam_topics: []
 tools:
 - name: TedSim
   role: Simulates cell identity fields and lineage barcodes on the true tree (SimulateCIFs)
@@ -72,8 +71,7 @@ metadata:
   - ggplot2
   - phangorn
   edam_operation: http://edamontology.org/operation_0323
-  edam_topics:
-  - http://edamontology.org/topic_0662
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -13,7 +13,6 @@ when_to_use_negative:
   which the benchmark construction requires
 edam_topics:
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_3869
 tools:
 - name: im6A-TS-CNN
   role: 'The CNN model being constructed and trained: one-hot encoded input, 200 filters
@@ -52,7 +51,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
-  - http://edamontology.org/topic_3869
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

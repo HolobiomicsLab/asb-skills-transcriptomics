@@ -11,7 +11,7 @@ when_to_use_negative:
 - Only raw, unfiltered counts are available — cells must first be filtered (expressed
   genes <200 or mitochondrial counts >30% removed) and mitochondrial/ribosomal/non-protein-coding
   genes discarded before rank construction
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_3308
@@ -47,7 +47,7 @@ metadata:
   - PyTorch
   - Transformers
   - tGPT
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_3308

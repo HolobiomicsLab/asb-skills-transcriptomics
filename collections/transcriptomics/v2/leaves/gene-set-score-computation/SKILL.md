@@ -11,7 +11,7 @@ when_to_use_negative:
   reference mapping against a pre-built embedding
 - Only a small number of highly variable genes (not curated gene sets) are intended
   as model features — ProjectSVR is designed around gene signature score matrices
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -52,7 +52,7 @@ metadata:
   - Seurat
   - UCell
   - cNMF
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

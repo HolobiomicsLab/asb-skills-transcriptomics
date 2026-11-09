@@ -11,7 +11,7 @@ when_to_use_negative:
   context
 - You need kinetic parameter estimation via MCMC (kon, koff, s with RJAGS Gibbs sampling,
   2000 iterations) rather than grid-based best-match search
-edam_operation: http://edamontology.org/operation_3575
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -38,7 +38,7 @@ metadata:
   tools:
   - SymSim
   - ggplot2
-  edam_operation: http://edamontology.org/operation_3575
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

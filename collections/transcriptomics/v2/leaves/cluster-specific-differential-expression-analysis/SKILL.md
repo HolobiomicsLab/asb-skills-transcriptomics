@@ -11,7 +11,7 @@ when_to_use_negative:
   marker discovery — use a dedicated framework such as NicheNet instead
 - Analysis is on organisms other than human or mouse — SCALA currently supports only
   human and mouse datasets
-edam_operation: http://edamontology.org/operation_3748
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -50,7 +50,7 @@ metadata:
   - SCALA
   - Seurat
   - presto
-  edam_operation: http://edamontology.org/operation_3748
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   for parameter estimation in a simulation.
 - Simulation requires spatial resolution or omics layers like proteomics and metabolomics,
   which MOSim does not support.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3170
@@ -47,7 +47,7 @@ metadata:
   - dplyr
   - purrr
   - stats
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3170

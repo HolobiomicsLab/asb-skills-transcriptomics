@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2238
 edam_topics:
 - http://edamontology.org/topic_3577
-- http://edamontology.org/topic_3062
 tools:
 - name: nestedcv
   role: Provides nestcv.train/nestcv.glmnet with the cv.cores argument that parallelises
@@ -49,7 +48,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2238
   edam_topics:
   - http://edamontology.org/topic_3577
-  - http://edamontology.org/topic_3062
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

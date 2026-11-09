@@ -12,7 +12,7 @@ when_to_use_negative:
   be infeasible
 - The covariate set is small and standard (unpenalized) logistic regression with conventional
   p-values is applicable
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0203
@@ -49,7 +49,7 @@ metadata:
   - R
   - Shiny
   - selectiveInference
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0203

@@ -10,7 +10,7 @@ when_to_use_negative:
 - No experimentally identified ground-truth connectivity (e.g., retrograde labeling)
   is available for the region being inferred, so no AUROC/AUPRC can be computed
 - Input data lacks cell_subclass group labels needed to define cell groups for createNeuronChat
-edam_operation: http://edamontology.org/operation_3875
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_2229
@@ -37,7 +37,7 @@ metadata:
   tools:
   - CellChat
   - NeuronChat
-  edam_operation: http://edamontology.org/operation_3875
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_2229

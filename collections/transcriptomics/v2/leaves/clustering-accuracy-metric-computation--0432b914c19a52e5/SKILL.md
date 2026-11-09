@@ -11,7 +11,7 @@ when_to_use_negative:
 - The goal is choosing best hyperparameters for new datasets — the SnapCCESS tutorial
   explicitly does not recommend parameters and defers to the publication's dataset-specific
   settings
-edam_operation: http://edamontology.org/operation_0342
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -47,7 +47,7 @@ metadata:
   - SIMLR
   - scikit-learn
   - snapccess
-  edam_operation: http://edamontology.org/operation_0342
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

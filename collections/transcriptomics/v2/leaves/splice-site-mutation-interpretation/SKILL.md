@@ -13,7 +13,7 @@ when_to_use_negative:
   is nothing to cross-reference.
 - The cohort is much smaller than ~30 samples, the smallest cohort the SCISSOR authors
   report analyzing successfully.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3676
@@ -41,7 +41,7 @@ metadata:
   tools:
   - Integrative Genomic Viewer (IGV)
   - SCISSOR
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3676

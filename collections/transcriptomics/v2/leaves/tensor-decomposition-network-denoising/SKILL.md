@@ -11,7 +11,7 @@ when_to_use_negative:
   populations of cells of the same type'
 - Input is normalized or QC-processed expression data rather than the raw counts matrix
   expected by the scTenifoldNet pipeline
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -51,7 +51,7 @@ metadata:
   - Rcpp
   - igraph
   - scTenifoldNet
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   drug–target interactions in DrugBank/DrugCentral-derived databases.
 - Strict bitwise reproducibility of the drug list is required and no pinned Drugst.One/NeDRex
   database version can be used, since the databases update weekly.
-edam_operation: http://edamontology.org/operation_4001
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0208
 - http://edamontology.org/topic_0602
@@ -48,7 +48,7 @@ metadata:
   - Drugst.One
   - NeDRex
   - SCANet
-  edam_operation: http://edamontology.org/operation_4001
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0208
   - http://edamontology.org/topic_0602

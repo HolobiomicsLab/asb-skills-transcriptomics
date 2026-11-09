@@ -10,7 +10,7 @@ when_to_use_negative:
   than an aggregated database reference (PolyASite 2.0 / PolyA_DB 3)
 - No interval-overlap ground truth exists (e.g., expression-only filtering tasks like
   removing transcripts with <1 count in 2/3 of samples)
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3512
@@ -42,7 +42,7 @@ metadata:
   - BEDtools
   - StringTie
   - aptardi
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3512

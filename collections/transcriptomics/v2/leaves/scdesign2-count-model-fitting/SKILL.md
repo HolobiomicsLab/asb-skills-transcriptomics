@@ -13,7 +13,7 @@ when_to_use_negative:
 - Input is raw sequencing reads or a BAM file without a prior count-matrix construction
   step (Utility.scRNA_bam2countmat) — the simulator requires UMI count matrices for
   training
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_3170
@@ -49,7 +49,7 @@ metadata:
   - scDesign2
   - scDesign3
   - scReadSim
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_3170

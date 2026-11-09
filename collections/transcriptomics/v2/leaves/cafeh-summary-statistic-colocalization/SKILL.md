@@ -11,7 +11,7 @@ when_to_use_negative:
   on a single LD matrix and cannot explore such loci
 - Causal variants are missing from some tested datasets — CAFEH does not handle missing
   data in the effect size matrix
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3517
@@ -47,7 +47,7 @@ metadata:
   - Python
   - conda
   - pip
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3517

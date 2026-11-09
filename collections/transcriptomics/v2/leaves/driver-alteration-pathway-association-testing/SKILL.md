@@ -10,7 +10,7 @@ when_to_use_negative:
   annotation — use perturbation-recall or drug-association analyses instead
 - The pathway of interest is not among the 11 PROGENy pathways (EGFR, Hypoxia, JAK-STAT,
   MAPK, NFkB, p53/DDR, PI3K, TGFb, Trail, VEGF/PDGF)
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -42,7 +42,7 @@ metadata:
   - decoupler
   - knitr
   - progeny
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

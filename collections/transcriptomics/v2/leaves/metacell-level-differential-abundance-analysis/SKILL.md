@@ -10,7 +10,7 @@ when_to_use_negative:
   separation, INV) rather than using pre-built metacells for downstream comparison
 - Metacells in your dataset are highly homogeneous in size (uniform cell counts),
   where weighting has little effect and single-cell-level analysis may be simpler
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - MetacellAnalysisToolkit
   - Seurat
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

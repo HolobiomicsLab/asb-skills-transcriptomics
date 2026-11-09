@@ -12,7 +12,7 @@ when_to_use_negative:
   are final inputs to stAPAminer
 - The task is filtering poly(A) sites (read support >= 3 reads, >= 3 spots) or genes
   (>= 2 3' UTR poly(A) sites), not spots
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -44,7 +44,7 @@ metadata:
   - scAPAtrap
   - stAPAminer
   - umi_tools
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

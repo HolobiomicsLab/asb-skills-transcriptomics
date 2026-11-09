@@ -11,7 +11,7 @@ when_to_use_negative:
   reference labels
 - Labels are continuous scores or predicted probabilities rather than discrete categorical
   cell types
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2229
@@ -45,7 +45,7 @@ metadata:
   - SnapCCESS
   - remotes
   - snapccess
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2229

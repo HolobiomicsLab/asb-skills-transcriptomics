@@ -12,7 +12,7 @@ when_to_use_negative:
 - For branching trajectories where branch-specific networks are required without combining
   results, run Aggregate per-branch on separately stored GLG results rather than letting
   v0.5.0 combine all branches
-edam_operation: http://edamontology.org/operation_2497
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0602
@@ -45,7 +45,7 @@ metadata:
   - MATLAB
   - SINGE
   - glmnet_matlab
-  edam_operation: http://edamontology.org/operation_2497
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0602

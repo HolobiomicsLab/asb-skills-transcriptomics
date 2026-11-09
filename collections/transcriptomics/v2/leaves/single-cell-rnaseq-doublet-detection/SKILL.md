@@ -11,8 +11,7 @@ when_to_use_negative:
 - When experimental doublet labeling (cell hashing, MULTI-seq, demuxlet) is already
   available, which labels doublets directly rather than computationally
 edam_operation: http://edamontology.org/operation_3891
-edam_topics:
-- http://edamontology.org/topic_6170
+edam_topics: []
 tools:
 - name: Chord
   role: Ensemble GBM framework whose expandable port (addmethods1/addmethods2 parameters)
@@ -51,8 +50,7 @@ metadata:
   - remotes
   - scds
   edam_operation: http://edamontology.org/operation_3891
-  edam_topics:
-  - http://edamontology.org/topic_6170
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -12,7 +12,6 @@ when_to_use_negative:
   benchmarks inapplicable (RDR-only evaluation would be required)
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3178
 tools:
 - name: XClone
   role: Primary CNA caller whose RDR and BAF modules are combined via run_combine
@@ -53,7 +52,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3178
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

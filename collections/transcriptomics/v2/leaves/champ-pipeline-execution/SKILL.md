@@ -11,7 +11,7 @@ when_to_use_negative:
 - Host runs ARM64 (e.g. Apple Silicon) — methylR does not support the ARM64 chipset
   architecture
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 tools:
 - name: methylR
   role: Shiny GUI wrapper that launches and drives the ChAMP analysis module on uploaded
@@ -44,7 +44,7 @@ metadata:
   - methylR
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

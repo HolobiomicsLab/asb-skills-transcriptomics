@@ -10,7 +10,7 @@ when_to_use_negative:
   scope
 - When the goal is to assign directionality or edge type (regulatory vs co-regulatory)
   — scLink edges are undirected statistical dependencies
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_3170
@@ -41,7 +41,7 @@ metadata:
   - PIDC
   - R
   - scLink
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_3170

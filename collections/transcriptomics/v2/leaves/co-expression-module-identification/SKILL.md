@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3766
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0121
 tools:
 - name: PyWGCNA
@@ -52,7 +51,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3766
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0121
   provenance_tier: literature
 license: CC-BY-4.0

@@ -15,7 +15,6 @@ edam_operation: http://edamontology.org/operation_3233
 edam_topics:
 - http://edamontology.org/topic_3173
 - http://edamontology.org/topic_2640
-- http://edamontology.org/topic_2228
 tools:
 - name: CaSpER
   role: R package performing multiscale smoothing, HMM-based CNV calling integrated
@@ -54,7 +53,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3173
   - http://edamontology.org/topic_2640
-  - http://edamontology.org/topic_2228
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

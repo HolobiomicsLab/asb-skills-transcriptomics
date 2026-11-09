@@ -11,7 +11,7 @@ when_to_use_negative:
   first; attractor analysis consumes the learned rules)
 - The expression data are not single-cell states to be mapped — bulk state vectors
   are not the intended input for per-cell attractor assignment
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -49,7 +49,7 @@ metadata:
   - SLURM
   - conda
   - scBONITA
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

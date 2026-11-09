@@ -10,7 +10,7 @@ when_to_use_negative:
   on the pooled environment instead)
 - Input data are bulk RNA-seq or already-aggregated feature tables rather than per-cell
   10X count matrices
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   - R
   - limma
   - robustSingleCell
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

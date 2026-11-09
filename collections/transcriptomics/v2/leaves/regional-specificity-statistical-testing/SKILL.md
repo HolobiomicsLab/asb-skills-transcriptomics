@@ -11,7 +11,7 @@ when_to_use_negative:
   unavailable, since regional specificity and correlation tests require them
 - Single-cell (non-spatial) data with no anatomical region or spatial phenotype annotations,
   where regional specificity testing is not meaningful
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -37,7 +37,7 @@ metadata:
   tools:
   - SCENIC
   - SCING
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

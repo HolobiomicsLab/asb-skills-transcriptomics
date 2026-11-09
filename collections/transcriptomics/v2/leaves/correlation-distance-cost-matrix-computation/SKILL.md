@@ -10,7 +10,7 @@ when_to_use_negative:
   would lose biological information; prefer keeping complete feature sets in the autoencoders
 - The input is already a distance/cost matrix between cells and only the OT plan needs
   to be computed
-edam_operation: http://edamontology.org/operation_3289
+edam_operation: http://edamontology.org/operation_2422
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -49,7 +49,7 @@ metadata:
   - SciPy
   - Signac
   - scConfluence
-  edam_operation: http://edamontology.org/operation_3289
+  edam_operation: http://edamontology.org/operation_2422
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

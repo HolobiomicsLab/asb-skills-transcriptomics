@@ -11,7 +11,7 @@ when_to_use_negative:
   decoupleRBench.
 - Paired differences are plausibly normal — a paired t-test would be the more appropriate
   parametric choice.
-edam_operation: http://edamontology.org/operation_2262
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -42,7 +42,7 @@ metadata:
   - R
   - decoupleR
   - decoupleRBench
-  edam_operation: http://edamontology.org/operation_2262
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

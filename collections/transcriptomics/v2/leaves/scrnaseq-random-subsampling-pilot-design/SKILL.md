@@ -11,7 +11,7 @@ when_to_use_negative:
   settings), since extrapolation from small to larger datasets assumes representativeness
 - 'Goals requiring detection of rare cell types from very small pilots: all approaches
   overrepresented highly abundant cell types and missed less abundant ones'
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3474
@@ -47,7 +47,7 @@ metadata:
   - UMAP
   - scDBM
   - scVI
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3474

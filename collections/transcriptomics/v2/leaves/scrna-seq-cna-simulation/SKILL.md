@@ -12,7 +12,6 @@ when_to_use_negative:
   (e.g. copy-neutral events cannot be resolved by inferCNV/CopyKAT)
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_2642
 - http://edamontology.org/topic_0091
 tools:
 - name: scCNASimulator
@@ -52,7 +51,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_2642
   - http://edamontology.org/topic_0091
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   requires pseudotemporal ordering for Granger regression
 - Regulator identities cannot be justified (e.g., no known transcription factor list),
   as an arbitrary subset will bias the ranked interaction list
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -36,7 +36,7 @@ metadata:
   tools:
   - MATLAB
   - SINGE
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

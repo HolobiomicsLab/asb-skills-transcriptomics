@@ -12,7 +12,7 @@ when_to_use_negative:
 - When sensitivity to noise is critical — leave-one-out correlation differencing yields
   correlation differences that are mostly noise (SSN performed worse than LIONESS
   and pySCENIC)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_3170
@@ -46,7 +46,7 @@ metadata:
   - R + tidyverse
   - dyngen
   - tidyverse
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_3170

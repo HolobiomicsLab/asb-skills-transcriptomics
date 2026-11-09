@@ -12,7 +12,7 @@ when_to_use_negative:
   F1)
 - No held-out ground-truth labels exist for the unlabeled cells, so F1 per cell type
   cannot be computed
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -46,7 +46,7 @@ metadata:
   - scANVI
   - scDREAMER
   - scDREAMER-Sup
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

@@ -13,7 +13,7 @@ when_to_use_negative:
 - The perturbation targets are non-TFs such as signaling pathway effectors — the published
   screen was limited to TFs, so positive controls and expected-effect priors exist
   only for TFs
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -53,7 +53,7 @@ metadata:
   - UMAP
   - prescient-analysis
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

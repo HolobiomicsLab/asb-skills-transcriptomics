@@ -10,7 +10,7 @@ when_to_use_negative:
   tailored methodologies not yet developed in scRank
 - You need paired disease-treatment datasets analyzed by differential expression or
   separability-based methods (e.g., Augur) rather than target-informed in silico perturbation
-edam_operation: http://edamontology.org/operation_3804
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - rTensor
   - scRank
   - tensorly
-  edam_operation: http://edamontology.org/operation_3804
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

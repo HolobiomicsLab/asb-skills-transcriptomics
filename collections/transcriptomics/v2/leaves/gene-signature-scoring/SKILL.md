@@ -11,7 +11,7 @@ when_to_use_negative:
   Geary's C phylogenetic autocorrelation is undefined without a cell metric
 - You only need phylogeny visualization with overlays — tools like iTOL or CeLaVi
   suffice and offer no joint expression/lineage analysis
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -49,7 +49,7 @@ metadata:
   - PhyloVision
   - R
   - VISION
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

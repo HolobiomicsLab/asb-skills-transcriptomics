@@ -11,7 +11,7 @@ when_to_use_negative:
   cannot be constructed
 - The downstream analysis discards multi-reads entirely by design (unique-reads counting),
   for which a strain-informed diploid index is unnecessary
-edam_operation: http://edamontology.org/operation_0395
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3170
@@ -45,7 +45,7 @@ metadata:
   - bowtie v1.0.0
   - g2gtools
   - scBASE
-  edam_operation: http://edamontology.org/operation_0395
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3170

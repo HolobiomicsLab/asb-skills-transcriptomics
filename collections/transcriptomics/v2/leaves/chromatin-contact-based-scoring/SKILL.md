@@ -12,7 +12,7 @@ when_to_use_negative:
   scoring — STARE's TF-affinity part or TEPIC is the appropriate component instead
 - When interactions beyond ~5 MB from the TSS must be considered, since STARE uses
   a default 5 MB window around the TSS
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_0602
@@ -57,7 +57,7 @@ metadata:
   - bedtools
   - pROC
   - stare-abc
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_0602

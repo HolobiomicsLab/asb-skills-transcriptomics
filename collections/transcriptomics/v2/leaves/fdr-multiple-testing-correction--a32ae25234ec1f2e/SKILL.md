@@ -9,7 +9,7 @@ when_to_use_negative:
   pre-specified hypothesis test
 - 'For bbhw specifically: when no independent bulk RNA-seq dataset is available to
   create the bulk-data evidence bins that bbhw requires'
-edam_operation: http://edamontology.org/operation_3812
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -41,7 +41,7 @@ metadata:
   - edgeR
   - limma-voom
   - muscat
-  edam_operation: http://edamontology.org/operation_3812
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

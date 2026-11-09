@@ -11,7 +11,7 @@ when_to_use_negative:
   the method is sensitive to high dimensionality and limited by the curse of dimensionality.
 - You need exact all-pairs distances for >1 million points; the article notes representing
   such distance matrices is computationally expensive and requires the KNN approximation.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -52,7 +52,7 @@ metadata:
   - scanpy
   - scikit-learn (sklearn)
   - scipy
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

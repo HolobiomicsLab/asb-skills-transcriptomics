@@ -10,7 +10,7 @@ when_to_use_negative:
   so differential co-expression between subgroups cannot be defined
 - Input data are not normalised counts compatible with generate_subnetworks' expected
   count/design matrices
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3360
@@ -39,7 +39,7 @@ metadata:
   tools:
   - DEGGs
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3360

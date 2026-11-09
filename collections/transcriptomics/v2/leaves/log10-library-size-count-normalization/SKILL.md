@@ -8,7 +8,7 @@ when_to_use_negative:
   count matrix
 - The counts have not been generated genome-wide — a heavy prior gene filtering removes
   most genes, undermining robust dropout identification
-edam_operation: http://edamontology.org/operation_3231
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -31,7 +31,7 @@ metadata:
   repo_url: https://github.com/Vivianstats/scImpute
   tools:
   - scImpute
-  edam_operation: http://edamontology.org/operation_3231
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

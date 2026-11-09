@@ -11,7 +11,7 @@ when_to_use_negative:
   markers, so no per-sample cell-abundance score can be computed
 - Only the original discovery cohort is available and no independent samples exist,
   making validation circular
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2229
@@ -51,7 +51,7 @@ metadata:
   - Seurat
   - ggplot2
   - scCrossTalk
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2229

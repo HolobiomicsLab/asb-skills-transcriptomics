@@ -15,7 +15,7 @@ when_to_use_negative:
 - When input is a raw COSMIC mutation file — this skill starts from the already-built
   37-feature matrix (FeatureMat.tsv); building features from mutation data is a separate
   step (identifyTSGOG.py)
-edam_operation: http://edamontology.org/operation_3948
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2640
 - http://edamontology.org/topic_0622
@@ -50,7 +50,7 @@ metadata:
   - IdentifyTSGOG
   - Random Forest
   - cTaG
-  edam_operation: http://edamontology.org/operation_3948
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2640
   - http://edamontology.org/topic_0622

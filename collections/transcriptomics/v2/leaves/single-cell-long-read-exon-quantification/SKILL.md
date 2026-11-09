@@ -11,7 +11,7 @@ when_to_use_negative:
   counts per cell require long-read exon traversals
 - When cell-type labels are absent — ExonQuant groups by a groupingFactor (e.g. 'Celltype')
   that must already exist in the AllInfo file
-edam_operation: http://edamontology.org/operation_3181
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -46,7 +46,7 @@ metadata:
   - R
   - STARlong
   - scisorseqr
-  edam_operation: http://edamontology.org/operation_3181
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

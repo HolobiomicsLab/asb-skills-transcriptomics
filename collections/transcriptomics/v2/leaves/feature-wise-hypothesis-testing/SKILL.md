@@ -10,7 +10,7 @@ when_to_use_negative:
   need NMF clustering output to define the regulator vs non-regulator split
 - Features are not approximately continuous/normal within groups, where a non-parametric
   alternative (e.g. Wilcoxon rank-sum) would be more defensible than a Welch t test
-edam_operation: http://edamontology.org/operation_2234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_0622
@@ -46,7 +46,7 @@ metadata:
   - CRIT
   - GoSemSim
   - R
-  edam_operation: http://edamontology.org/operation_2234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_0622

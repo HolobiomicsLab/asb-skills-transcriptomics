@@ -10,7 +10,7 @@ when_to_use_negative:
   sci-ATAC-seq Atlas base GRN), making the simulated transition field meaningless.
 - The goal is cell-type classification or identity-continuum measurement (use Capybara
   instead) rather than perturbation-effect scoring via vector-field inner products.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   tools:
   - CellOracle
   - Python
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

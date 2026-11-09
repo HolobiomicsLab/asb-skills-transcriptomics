@@ -9,8 +9,7 @@ when_to_use_negative:
 - 'The rate should not be copied across samples: it depends on the number of cells
   in the sample, so recompute it per sample rather than reusing a previous value'
 edam_operation: http://edamontology.org/operation_3802
-edam_topics:
-- http://edamontology.org/topic_6170
+edam_topics: []
 tools:
 - name: Chord
   role: Consumes the estimated doubletrate to control simulated doublet generation
@@ -42,8 +41,7 @@ metadata:
   - gbm
   - remotes
   edam_operation: http://edamontology.org/operation_3802
-  edam_topics:
-  - http://edamontology.org/topic_6170
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

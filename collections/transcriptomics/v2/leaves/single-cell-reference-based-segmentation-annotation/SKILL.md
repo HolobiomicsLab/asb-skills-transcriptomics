@@ -13,7 +13,7 @@ when_to_use_negative:
   loss terms — thresholding or pretrained models such as Cellpose or Mesmer may suffice
 edam_operation: http://edamontology.org/operation_3629
 edam_topics:
-- http://edamontology.org/topic_3521
+- http://edamontology.org/topic_3520
 tools:
 - name: BIDCell
   role: Biologically-informed self-supervised segmentation model; provides get_example_config,
@@ -53,7 +53,7 @@ metadata:
   - scClassify
   edam_operation: http://edamontology.org/operation_3629
   edam_topics:
-  - http://edamontology.org/topic_3521
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

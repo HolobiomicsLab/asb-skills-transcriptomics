@@ -11,7 +11,7 @@ when_to_use_negative:
   parameter cannot map entries to known genes)
 - The goal is raw expression quantification rather than data-driven extraction of
   extreme or moderate fold-change variations across multiple experimental conditions
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3673
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - Python
   - TRANSIT
   - scorecard_functions
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3673
   - http://edamontology.org/topic_0203

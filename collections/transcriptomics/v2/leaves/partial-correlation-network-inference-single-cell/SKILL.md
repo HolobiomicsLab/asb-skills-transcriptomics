@@ -10,7 +10,7 @@ when_to_use_negative:
   proteomics) — SingleCellGGM relies exclusively on transcriptome data
 - Dropout-imputation or metacell-based co-expression approaches (MAGIC, scImpute,
   MetaCell, scCorr) are the intended analysis route rather than GGM/pcor network inference
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -51,7 +51,7 @@ metadata:
   - SILGGM
   - SingleCellGGM
   - ppcor
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

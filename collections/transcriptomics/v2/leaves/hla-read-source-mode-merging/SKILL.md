@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_3168
-- http://edamontology.org/topic_3933
 tools:
 - name: ScanNeo2
   role: Snakemake workflow implementing the hlatyping block, class-conditional dispatch,
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_3168
-  - http://edamontology.org/topic_3933
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

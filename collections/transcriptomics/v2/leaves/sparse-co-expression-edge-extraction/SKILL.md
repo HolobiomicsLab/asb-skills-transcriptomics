@@ -15,7 +15,7 @@ when_to_use_negative:
 - 'Data are bulk rather than single-cell: imputed single-cell data may still be much
   sparser than bulk data, so bulk-data network methods (and this skill''s assumptions)
   may not transfer'
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -52,7 +52,7 @@ metadata:
   - R
   - scLink
   - scLink (R package)
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

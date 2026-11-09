@@ -13,7 +13,7 @@ when_to_use_negative:
 - Only LeafCutter intron excision ratios without matched per-gene transcript expression
   and metadata/covariates are available, since the pipeline requires genotype, trexp,
   metadata and gene location files per tissue.
-edam_operation: http://edamontology.org/operation_3236
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0203
@@ -52,7 +52,7 @@ metadata:
   - Nextflow
   - sQTLseekeR2
   - sqtlseeker2-nf
-  edam_operation: http://edamontology.org/operation_3236
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0203

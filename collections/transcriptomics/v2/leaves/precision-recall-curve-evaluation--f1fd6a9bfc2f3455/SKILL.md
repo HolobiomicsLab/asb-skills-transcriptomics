@@ -10,7 +10,7 @@ when_to_use_negative:
   interactions (e.g., <= 96 kb for Enformer ISM) can be fairly ranked and compared
 - The scored interactions come from the candidate-enhancer discovery stage rather
   than from STARE_ABCpp ABC/gABC scoring, making the CRISPRi-labeled evaluation mismatched
-edam_operation: http://edamontology.org/operation_1826
+edam_operation: http://edamontology.org/operation_0249
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -44,7 +44,7 @@ metadata:
   - STARE
   - pROC
   - stare-abc
-  edam_operation: http://edamontology.org/operation_1826
+  edam_operation: http://edamontology.org/operation_0249
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

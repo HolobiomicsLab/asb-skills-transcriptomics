@@ -8,8 +8,7 @@ when_to_use_negative:
   characterizing ontology structure itself (use OnClass prediction workflow instead)
 - When the cell type vocabulary has no formal ontology (e.g., free-text labels only)
   — traversal requires the cl.obo graph structure
-edam_topics:
-- http://edamontology.org/topic_0266
+edam_topics: []
 tools:
 - name: OnClass
   role: Provides the Cell Ontology files (cl.obo, cl.ontology.nlp.emb) and the ontology
@@ -38,8 +37,7 @@ metadata:
   - git
   - pip
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0266
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

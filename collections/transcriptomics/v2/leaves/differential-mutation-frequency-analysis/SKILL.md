@@ -12,7 +12,6 @@ when_to_use_negative:
   data (no common-sample integration possible)
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
-- http://edamontology.org/topic_3272
 - http://edamontology.org/topic_3474
 tools:
 - name: ARMT
@@ -52,7 +51,6 @@ metadata:
   - maftools
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
-  - http://edamontology.org/topic_3272
   - http://edamontology.org/topic_3474
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,7 +11,7 @@ when_to_use_negative:
 - The representation is high-dimensional — validation inherits the clustering's sensitivity
   to high dimensionality, so nonlinear dimensionality reduction (UMAP, t-SNE, PHATE)
   should precede it
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -51,7 +51,7 @@ metadata:
   - numpy
   - scanpy
   - scipy
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

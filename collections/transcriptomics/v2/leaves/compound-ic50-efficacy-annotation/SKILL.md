@@ -10,7 +10,7 @@ when_to_use_negative:
   rankings with literature/ChEMBL efficacy data
 - No ranked reversal-score list exists (e.g., input is a raw gene expression matrix
   not yet processed through GSFM transformation and RS scoring)
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3370
 tools:
@@ -55,7 +55,7 @@ metadata:
   - dplyr
   - readr
   - signatureSearch
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3370
   provenance_tier: literature

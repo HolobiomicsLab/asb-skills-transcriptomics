@@ -11,7 +11,7 @@ when_to_use_negative:
   question to verify
 - KEGG-supplied enzyme kinetics or isoform-level activity data is required, since
   FunHoP limits analysis to the gene level
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0605
@@ -50,7 +50,7 @@ metadata:
   - FunHoP
   - KEGGScape
   - Voom
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0605

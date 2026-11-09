@@ -10,7 +10,7 @@ when_to_use_negative:
   with the pretrained xgboost model (threshold 0.5), not TLS composition mapping
 - Data has no plausible immune compartment (e.g. homogeneous cell lines) where marker-based
   subtype classifiers cannot be estimated
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0622
@@ -47,7 +47,7 @@ metadata:
   - dplyr
   - scCancer
   - scCancer2
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0622

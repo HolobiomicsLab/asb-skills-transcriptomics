@@ -11,8 +11,7 @@ when_to_use_negative:
 - The spatial platform lacks subcellular resolution or a compatible BIDCell .yaml
   config (Xenium, CosMx, MERSCOPE, Stereo-seq)
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_6170
+edam_topics: []
 tools:
 - name: BIDCell
   role: Runs the self-supervised segmentation pipeline (preprocess/train/predict)
@@ -47,8 +46,7 @@ metadata:
   - BIDCell
   - scClassify
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_6170
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

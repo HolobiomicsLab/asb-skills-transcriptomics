@@ -12,7 +12,7 @@ when_to_use_negative:
   and avoids the G-fold computational cost of per-sample CCSNs.
 - Input is single-cell scRNA-seq where trajectory/entropy analyses (NFE, CNDM-based
   clustering) rather than bulk per-sample pathway density is the goal.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3523
@@ -36,7 +36,7 @@ metadata:
   repo_url: https://github.com/LinLi-0909/c-CSN
   tools:
   - c-CSN
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3523

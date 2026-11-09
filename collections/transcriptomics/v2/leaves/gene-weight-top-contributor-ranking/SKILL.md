@@ -10,7 +10,7 @@ when_to_use_negative:
   0.05) rather than identifying individual gene drivers within a module.
 - The expression matrix is not normalized (rRoma requires cpm, vst, or equivalent
   normalized data).
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3523
@@ -38,7 +38,7 @@ metadata:
   - edgeR
   - irlba
   - rROMA
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3523

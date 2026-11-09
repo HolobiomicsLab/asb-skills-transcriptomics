@@ -10,7 +10,7 @@ when_to_use_negative:
   or dilation from nuclei suffices; MIRIAM targets irregular columnar epithelial morphologies
 - No pixel-classification probability maps or watershed label mask are available —
   this skill is a downstream resegmentation step, not a stand-alone segmenter
-edam_operation: http://edamontology.org/operation_3684
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3382
 tools:
@@ -51,7 +51,7 @@ metadata:
   - MIRIAM
   - Matlab
   - Python
-  edam_operation: http://edamontology.org/operation_3684
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3382
   provenance_tier: literature

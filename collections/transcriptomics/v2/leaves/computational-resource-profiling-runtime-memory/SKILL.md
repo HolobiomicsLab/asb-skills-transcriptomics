@@ -11,7 +11,7 @@ when_to_use_negative:
 - Input is not a large-scale scRNA-seq clustering problem (the paper's motivation
   is that existing algorithms' high computational complexity impedes extension to
   large-scale datasets)
-edam_operation: http://edamontology.org/operation_3843
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2269
@@ -49,7 +49,7 @@ metadata:
   - SSCC
   - dropClust
   - sscClust (SSCC)
-  edam_operation: http://edamontology.org/operation_3843
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2269

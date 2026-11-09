@@ -10,7 +10,7 @@ when_to_use_negative:
   cell-type biomarker recall — use the DGE Pseudo bulk/LMEM modules instead
 - When no curated reference markers exist for the cell types of interest (e.g. condition-specific
   genes such as COVID-19/normal), recall against CellMarker2.0 is not well defined
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -47,7 +47,7 @@ metadata:
   - CellTypist
   - Python
   - scaLR
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

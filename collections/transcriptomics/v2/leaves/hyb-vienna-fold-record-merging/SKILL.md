@@ -9,7 +9,7 @@ when_to_use_negative:
 - The analysis goal is only type/miRNA quantification or target counting without any
   secondary-structure component — plain HybFile iteration without HybFoldIter suffices
 - Input records are raw sequencing reads rather than processed hyb-format hybrid records
-edam_operation: http://edamontology.org/operation_0274
+edam_operation: http://edamontology.org/operation_2464
 edam_topics:
 - http://edamontology.org/topic_0097
 - http://edamontology.org/topic_0092
@@ -43,7 +43,7 @@ metadata:
   - Hybkit
   - Python3
   - matplotlib
-  edam_operation: http://edamontology.org/operation_0274
+  edam_operation: http://edamontology.org/operation_2464
   edam_topics:
   - http://edamontology.org/topic_0097
   - http://edamontology.org/topic_0092

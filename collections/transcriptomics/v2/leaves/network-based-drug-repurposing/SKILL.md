@@ -13,7 +13,7 @@ when_to_use_negative:
   mapping.
 - Strict bit-for-bit reproducibility across runs is required — Drugst.One drug–target
   databases update weekly, so result sets may drift across database versions.
-edam_operation: http://edamontology.org/operation_4001
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0202
 - http://edamontology.org/topic_0154
@@ -54,7 +54,7 @@ metadata:
   - NeDRex
   - Python
   - SCANet
-  edam_operation: http://edamontology.org/operation_4001
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0202
   - http://edamontology.org/topic_0154

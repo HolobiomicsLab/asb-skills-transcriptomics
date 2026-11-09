@@ -10,7 +10,7 @@ when_to_use_negative:
   — scCODA does not model response variability within a condition
 - The relationship between covariates and cell abundance is strongly non-log-linear,
   which may mis-specify scCODA's log-linear model
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -45,7 +45,7 @@ metadata:
   - scCODA
   - scanpy
   - tensorflow-probability (>=0.12)
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

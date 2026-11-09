@@ -15,7 +15,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3223
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3526
+- http://edamontology.org/topic_0128
 tools:
 - name: GSFM
   role: Framework implementing the Z-score-based gene-level quantifiers (GSFM_Up,
@@ -56,7 +56,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3223
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3526
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -12,7 +12,7 @@ when_to_use_negative:
   (trId/geneId), so splicing ratios cannot be computed
 - The goal is annotating coding variant consequences (LoF/splice-site effects), which
   is the role of tools like LOFTEE, not sQTL mapping
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - Nextflow
   - sQTLseekeR2
   - sqtlseeker2-nf
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0203

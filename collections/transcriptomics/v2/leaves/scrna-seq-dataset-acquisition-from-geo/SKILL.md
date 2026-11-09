@@ -10,8 +10,7 @@ when_to_use_negative:
 - A dataset lacks provided cell-type annotations, since the benchmark's ARI-vs-annotations
   comparison cannot be computed.
 - The analysis targets simulated rather than the seven annotated real scRNA-seq datasets.
-edam_topics:
-- http://edamontology.org/topic_3270
+edam_topics: []
 tools:
 - name: scanpy
   role: Wraps each retrieved GEO dataset as sc.AnnData and performs the standard preprocessing
@@ -38,8 +37,7 @@ metadata:
   - scAce
   - scanpy
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_3270
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

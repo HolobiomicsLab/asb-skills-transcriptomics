@@ -12,7 +12,7 @@ when_to_use_negative:
   the pipeline explicitly keeps only pathways with more than 5 genes
 - The scRNA-seq gene set has minimal overlap with the pathDIP4 pathway matrix genes,
   since the trainable gene set is restricted to their intersection
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -35,7 +35,7 @@ metadata:
   license_tier: open
   tools:
   - scETM
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

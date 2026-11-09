@@ -10,7 +10,7 @@ when_to_use_negative:
   scCODA does not model response variability within a condition or donor variability.'
 - 'When cell-type definitions are uncertain: scCODA requires pre-specified cell-type
   definitions that hinge on statistically sound clustering assignments.'
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -49,7 +49,7 @@ metadata:
   - scCODA
   - scanpy
   - tensorflow-probability
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

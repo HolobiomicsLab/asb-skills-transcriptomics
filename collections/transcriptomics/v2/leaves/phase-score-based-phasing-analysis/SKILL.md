@@ -12,7 +12,7 @@ when_to_use_negative:
   or 'phasiHunter deg' instead of the phase module).
 - Reads outside the 19–25 nt window or with abundance below the CPM cutoff of 1 —
   preprocess filtering will remove them before phasing is meaningful.
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0659
 - http://edamontology.org/topic_0099
@@ -46,7 +46,7 @@ metadata:
   - Perl5
   - PhasiHunter
   - Trim_galore
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0659
   - http://edamontology.org/topic_0099

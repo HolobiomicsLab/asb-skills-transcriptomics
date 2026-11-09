@@ -14,7 +14,7 @@ when_to_use_negative:
 - When input is not droplet-based UMI count data from multiple individuals - BAMM-SC
   is designed for 10x Chromium-style population data; single-individual data routes
   to DIMMSC instead
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -61,7 +61,7 @@ metadata:
   - SIMLR
   - TSCAN
   - scran
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

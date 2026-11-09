@@ -11,7 +11,7 @@ when_to_use_negative:
   since extraneous or missing connections are bounded by the ground-truth list
 - The dataset is already an edgelist/connectome output; this step operates upstream
   on raw expression data
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -44,7 +44,7 @@ metadata:
   - Seurat
   - cowplot
   - ggplot2
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

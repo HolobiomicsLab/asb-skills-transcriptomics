@@ -11,7 +11,7 @@ when_to_use_negative:
   bulk DE analysis)
 - Only marker-based annotation without enrichment is needed — marker set intersection
   may be more appropriate than a ranked fold-change gene list
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -49,7 +49,7 @@ metadata:
   - Python
   - diffxpy
   - scanpy
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

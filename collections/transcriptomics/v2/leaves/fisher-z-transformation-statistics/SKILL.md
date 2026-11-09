@@ -11,7 +11,7 @@ when_to_use_negative:
   the test is applied only to gene pairs connected in Gene_Net, not genome-wide
 - The expression data are raw counts rather than FPKM-normalized, since Pearson correlations
   are computed on FPKM-normalized values
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -42,7 +42,7 @@ metadata:
   - DawnRank
   - Matlab R2020b
   - WMDS.net
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

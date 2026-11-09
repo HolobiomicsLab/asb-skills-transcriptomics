@@ -12,7 +12,7 @@ when_to_use_negative:
   T-test on per-sample differences would be invalid.
 - The goal is de novo signature extraction (e.g., NMF) rather than statistically comparing
   fits of COSMIC v3.1 reference signatures across sequencing contexts.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0199
 - http://edamontology.org/topic_2269
@@ -55,7 +55,7 @@ metadata:
   - R
   - devtools
   - mmsig
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0199
   - http://edamontology.org/topic_2269

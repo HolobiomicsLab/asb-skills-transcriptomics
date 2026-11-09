@@ -8,7 +8,7 @@ when_to_use_negative:
   to bulk tumor transcriptomes with survival/genomic-alteration annotations.
 - Actual expression levels are required rather than expression rankings — tGPT consumes
   top-expressing gene rankings and neglects fold changes among genes.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -40,7 +40,7 @@ metadata:
   tools:
   - PreTrainedTokenizerFast
   - tGPT
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

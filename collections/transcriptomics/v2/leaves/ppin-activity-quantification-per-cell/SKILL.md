@@ -10,7 +10,7 @@ when_to_use_negative:
   edge set — build_ppin requires a gene ID list plus the full Human PPIN
 - The goal is standard cell-type marker-gene annotation (e.g. gene-set scoring with
   Seurat/AddModuleScore) rather than PPIN-based activity quantification
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -45,7 +45,7 @@ metadata:
   - R
   - dplyr
   - remotes
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

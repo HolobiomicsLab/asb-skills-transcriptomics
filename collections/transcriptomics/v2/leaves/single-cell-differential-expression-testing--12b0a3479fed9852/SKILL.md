@@ -11,7 +11,7 @@ when_to_use_negative:
   than unsupervised cluster annotation via enrichment
 - Cells are unfiltered or unnormalized (e.g. not CPM-normalized/log1p-transformed),
   making t-test assumptions on log-scale expression invalid
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - Python 3
   - diffxpy
   - scanpy
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

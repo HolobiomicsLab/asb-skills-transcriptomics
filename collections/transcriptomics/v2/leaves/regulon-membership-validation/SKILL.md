@@ -12,7 +12,7 @@ when_to_use_negative:
   more predictive model for the target condition, so hub ranking would be misleading.
 - The goal is differential expression testing rather than network-structure validation
   — standard differential expression analysis is a complementary but distinct check.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - Python
   - R
   - dplyr
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0203

@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3659
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_2648
 tools:
 - name: Python
   role: Implements the per-cell-type fold-change computation, statistical tests, and
@@ -43,7 +42,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3659
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

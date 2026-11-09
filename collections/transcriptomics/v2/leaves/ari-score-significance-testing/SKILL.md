@@ -10,7 +10,7 @@ when_to_use_negative:
   breakdown, leaving nothing to pair across datasets
 - The goal is clustering itself (e.g. running CASCC::run.CASCC or predictClusterK)
   rather than post-hoc benchmark significance analysis
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -35,7 +35,7 @@ metadata:
   tools:
   - CASCC_benchmark
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

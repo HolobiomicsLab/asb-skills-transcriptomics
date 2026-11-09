@@ -11,7 +11,7 @@ when_to_use_negative:
   annotation membership
 - When the variant sets cannot be validly matched/controlled — unbalanced MAF or LD
   structure between cases and controls can inflate Fisher's exact odds ratios spuriously
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0622
@@ -41,7 +41,7 @@ metadata:
   - Docker
   - Nextflow
   - sQTLseekeR2
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0622

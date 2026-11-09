@@ -12,7 +12,7 @@ when_to_use_negative:
   exist
 - Reference profile or gene-specific transformations are unreliable because too few
   individuals have single-cell data (a stated Bisque limitation)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_3170
@@ -51,7 +51,7 @@ metadata:
   - Bisque
   - BisqueMarker
   - BisqueRNA
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_3170

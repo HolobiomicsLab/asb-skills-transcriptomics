@@ -11,7 +11,6 @@ when_to_use_negative:
   be grounded in cell-type-specific expression.
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
-- http://edamontology.org/topic_6170
 - http://edamontology.org/topic_2229
 tools:
 - name: BIDCell
@@ -44,7 +43,6 @@ metadata:
   - TISCH2
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
-  - http://edamontology.org/topic_6170
   - http://edamontology.org/topic_2229
   provenance_tier: literature
 license: CC-BY-4.0

@@ -14,7 +14,7 @@ when_to_use_negative:
   (Mesmer) is preferred
 - The input is a per-cell quantification table rather than image data — segmentation
   is not applicable
-edam_operation: http://edamontology.org/operation_3556
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3382
 tools:
@@ -51,7 +51,7 @@ metadata:
   - Matlab
   - Mesmer
   - Python
-  edam_operation: http://edamontology.org/operation_3556
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3382
   provenance_tier: literature

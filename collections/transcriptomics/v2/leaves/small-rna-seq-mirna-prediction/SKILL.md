@@ -11,7 +11,7 @@ when_to_use_negative:
   limited downstream analysis capability
 - Only a single small dataset with prior confident annotation exists and no genome-wide
   candidate selection is needed
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0659
 - http://edamontology.org/topic_3170
@@ -72,7 +72,7 @@ metadata:
   - miRNATranslate
   - psRNAtarget
   - sRNAanno
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0659
   - http://edamontology.org/topic_3170

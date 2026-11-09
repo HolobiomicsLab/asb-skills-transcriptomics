@@ -11,7 +11,7 @@ when_to_use_negative:
 - Small-scale datasets where simpler co-expression methods suffice — prior pcor methods
   like SILGGM and scLink were only tested on small datasets, whereas this skill targets
   large datasets such as MCA (61,637 cells) and Mouse Brain (292,495 cells)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -50,7 +50,7 @@ metadata:
   - SingleCellGGM
   - adjust_cutoff
   - fdr_control
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

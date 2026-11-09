@@ -10,7 +10,7 @@ when_to_use_negative:
   on GRCh38) — this skill checks edge coverage completeness, not correctness of assembled
   transcripts.
 - Long-read RNA-seq data (PacBio/ONT) — Tiglon is not compatible with long-read datasets.
-edam_operation: http://edamontology.org/operation_0251
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3308
@@ -43,7 +43,7 @@ metadata:
   - Hisat2
   - Star
   - Tiglon
-  edam_operation: http://edamontology.org/operation_0251
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3308

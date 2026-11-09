@@ -12,7 +12,7 @@ when_to_use_negative:
 - The gene list is not in the same identifier space as the full_human_ppin adjacency
   list — mapping/identifier harmonization must be done first, otherwise no or incorrect
   edges will be retained.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0128
@@ -51,7 +51,7 @@ metadata:
   - dplyr
   - magrittr
   - remotes
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0128

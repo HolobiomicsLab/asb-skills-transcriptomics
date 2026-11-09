@@ -10,7 +10,7 @@ when_to_use_negative:
   filtering presumes both disease-target and control-target runs
 - The goal is a full, unfiltered association network rather than a condition-specific
   differential edge set
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0203
@@ -52,7 +52,7 @@ metadata:
   - pygraphviz
   - python-louvain
   - seaborn
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0203

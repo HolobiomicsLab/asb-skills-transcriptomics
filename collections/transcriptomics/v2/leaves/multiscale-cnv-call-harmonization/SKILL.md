@@ -16,7 +16,6 @@ edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0199
-- http://edamontology.org/topic_2648
 tools:
 - name: CaSpER
   role: Performs the multiscale HMM segmentation, BAF-shift integration (assignStates),
@@ -51,7 +50,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0199
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

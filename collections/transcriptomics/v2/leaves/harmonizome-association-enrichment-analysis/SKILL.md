@@ -12,7 +12,6 @@ when_to_use_negative:
   — permutation-based p-values require a defined random-sampling background
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0659
 - http://edamontology.org/topic_0203
 tools:
@@ -50,7 +49,6 @@ metadata:
   - R
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0659
   - http://edamontology.org/topic_0203
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   table) or cannot be log2(x+1)-transformed.
 - You need hyperparameter tuning beyond the fixed adam/relu/L2loss, lr 1e-4, 600-iteration,
   batch-256 CPU recipe; the paper reports no seed or tuning controls.
-edam_operation: http://edamontology.org/operation_3983
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3474
@@ -41,7 +41,7 @@ metadata:
   - DCNet
   - Python
   - mxnet
-  edam_operation: http://edamontology.org/operation_3983
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3474

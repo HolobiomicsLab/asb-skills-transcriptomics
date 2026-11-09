@@ -9,7 +9,7 @@ when_to_use_negative:
   ranked data instead of thresholded expression.
 - The input is bulk expression data rather than per-cell single-cell data — this diagnostic
   is defined per cell on a scRNA-seq AnnData object.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -39,7 +39,7 @@ metadata:
   - Python
   - Scanpy
   - gssnng
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

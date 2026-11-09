@@ -11,7 +11,7 @@ when_to_use_negative:
   so there is no second network to compare against
 - The two networks were built from non-overlapping gene sets, making membership contingency
   tables and Jaccard coefficients uninterpretable
-edam_operation: http://edamontology.org/operation_2449
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - PyWGCNA
   - Python
-  edam_operation: http://edamontology.org/operation_2449
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

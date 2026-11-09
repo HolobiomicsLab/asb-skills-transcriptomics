@@ -12,8 +12,7 @@ when_to_use_negative:
 - You need to consolidate strands after the inner code instead — FrameD provides an
   alternative decode mode for post-inner-code consolidation
 edam_operation: http://edamontology.org/operation_0492
-edam_topics:
-- http://edamontology.org/topic_3486
+edam_topics: []
 tools:
 - name: FrameD
   role: Provides the decode pipeline skeleton where clustering and MSA steps are inserted
@@ -41,8 +40,7 @@ metadata:
   - DNArSim
   - FrameD
   edam_operation: http://edamontology.org/operation_0492
-  edam_topics:
-  - http://edamontology.org/topic_3486
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

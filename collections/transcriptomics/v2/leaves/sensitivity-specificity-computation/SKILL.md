@@ -12,7 +12,7 @@ when_to_use_negative:
   cells from cancerous lineages only.
 - Analyzing cancers with unknown or controversial origins (e.g., synovial sarcoma,
   certain brain tumors), where the tool's capabilities are explicitly untested.
-edam_operation: http://edamontology.org/operation_3917
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -58,7 +58,7 @@ metadata:
   - PreCanCell
   - ikarus
   - scMalignantFinder
-  edam_operation: http://edamontology.org/operation_3917
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

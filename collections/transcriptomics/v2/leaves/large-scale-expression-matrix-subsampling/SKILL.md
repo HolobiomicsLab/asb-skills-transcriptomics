@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2928
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3272
 tools:
 - name: NumPy
   role: Used for accumulation-based computation of per-cell-type/per-donor mean expression
@@ -44,7 +43,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2928
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -11,7 +11,7 @@ when_to_use_negative:
   rank_biased_overlap) rather than a simple sum of counts/ranks
 - Cells lack a meaningful groupby grouping for neighbor recomputation, or the neighborhood
   graph should not be built within biological groups
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - Python
   - Scanpy
   - gssnng
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

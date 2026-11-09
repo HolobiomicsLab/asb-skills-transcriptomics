@@ -9,7 +9,7 @@ when_to_use_negative:
   Gene_Net hub network).
 - The analysis goal is driver-node identification rather than network topology validation
   — use WMDS.net controllability ranking instead once the scale-free check has passed.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Matlab R2020b
   - WMDS.net
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

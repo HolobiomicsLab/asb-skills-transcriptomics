@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2935
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3557
 - http://edamontology.org/topic_0121
 tools:
 - name: favapy
@@ -49,7 +48,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2935
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3557
   - http://edamontology.org/topic_0121
   provenance_tier: literature
 license: CC-BY-4.0

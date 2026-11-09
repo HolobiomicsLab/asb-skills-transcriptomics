@@ -10,7 +10,7 @@ when_to_use_negative:
 - When losing majority-class data is unacceptable (under-sampling discards cells);
   consider alternatives rather than discarding samples when the majority class is
   very small overall.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3308
@@ -41,7 +41,7 @@ metadata:
   - SciBet
   - imbalanced-learn
   - scikit-learn (sklearn)
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3308

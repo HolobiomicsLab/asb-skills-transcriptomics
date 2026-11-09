@@ -11,9 +11,8 @@ when_to_use_negative:
 - Calls come from a non-RNA-seq caller or are already in the same modality as the
   gold standard, making TPR/FPR benchmarking against genotyping arrays redundant
 - The goal is CNV detection itself rather than accuracy assessment of existing calls
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_0120
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0622
 tools:
@@ -44,9 +43,8 @@ metadata:
   - BAFExtract
   - CaSpER
   - TCGABiolinks
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0120
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0622
   provenance_tier: literature

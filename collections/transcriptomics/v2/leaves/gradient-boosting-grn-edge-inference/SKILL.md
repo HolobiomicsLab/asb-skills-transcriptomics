@@ -12,7 +12,7 @@ when_to_use_negative:
   when building GRNs
 - Only a small pre-selected gene panel (thousands of genes) is needed; simpler benchmarked
   methods like GRNBOOST2, GENIE3, ppcor, or PIDC may suffice
-edam_operation: http://edamontology.org/operation_3957
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -46,7 +46,7 @@ metadata:
   - GRNBOOST2
   - SCING
   - conda
-  edam_operation: http://edamontology.org/operation_3957
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

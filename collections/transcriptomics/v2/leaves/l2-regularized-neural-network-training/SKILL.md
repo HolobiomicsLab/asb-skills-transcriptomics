@@ -15,7 +15,6 @@ when_to_use_negative:
   violates the model''s expectations'
 edam_operation: http://edamontology.org/operation_3937
 edam_topics:
-- http://edamontology.org/topic_3862
 - http://edamontology.org/topic_3517
 tools:
 - name: Cyclum
@@ -46,7 +45,6 @@ metadata:
   - TensorFlow
   edam_operation: http://edamontology.org/operation_3937
   edam_topics:
-  - http://edamontology.org/topic_3862
   - http://edamontology.org/topic_3517
   provenance_tier: literature
 license: CC-BY-4.0

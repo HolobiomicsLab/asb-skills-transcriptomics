@@ -12,7 +12,7 @@ when_to_use_negative:
   instead
 - When the input is not a CommPath S4 object with pathway statistics integrated (pathway.net
   slot); CommPath chain functions cannot run on raw expression matrices alone
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0089
@@ -45,7 +45,7 @@ metadata:
   tools:
   - CommPath
   - R
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0089

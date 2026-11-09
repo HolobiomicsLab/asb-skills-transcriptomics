@@ -12,7 +12,7 @@ when_to_use_negative:
   objects (objectA and objectB)
 - The goal is gene-level rather than cell-population-level differential analysis —
   use identifyDifferentialGenes directly instead
-edam_operation: http://edamontology.org/operation_3732
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - R
   - SingCellaR
-  edam_operation: http://edamontology.org/operation_3732
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

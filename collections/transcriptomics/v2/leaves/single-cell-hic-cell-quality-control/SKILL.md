@@ -12,7 +12,6 @@ when_to_use_negative:
   contacts-per-cell threshold is defined for single-cell libraries
 edam_operation: http://edamontology.org/operation_3218
 edam_topics:
-- http://edamontology.org/topic_3688
 - http://edamontology.org/topic_0602
 tools:
 - name: scHiCDiff
@@ -40,7 +39,6 @@ metadata:
   - scHiCDiff
   edam_operation: http://edamontology.org/operation_3218
   edam_topics:
-  - http://edamontology.org/topic_3688
   - http://edamontology.org/topic_0602
   provenance_tier: literature
 license: CC-BY-4.0

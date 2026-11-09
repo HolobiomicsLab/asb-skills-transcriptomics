@@ -9,8 +9,7 @@ when_to_use_negative:
 - Seq-based ST data (e.g., 10X Visium) without a preceding cell type deconvolution
   step — Splane requires cell type composition input, so run Spoint first
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_4045
+edam_topics: []
 tools:
 - name: SPACEL
   role: Python package providing the Splane GCN module with adversarial learning for
@@ -48,8 +47,7 @@ metadata:
   - Splane
   - Spoint
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_4045
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

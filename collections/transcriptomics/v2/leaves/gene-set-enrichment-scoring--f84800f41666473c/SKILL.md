@@ -11,7 +11,7 @@ when_to_use_negative:
   dataset
 - The marker sets are derived from the same atlas being annotated — the workflow explicitly
   excludes such sets to avoid circularity
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -43,7 +43,7 @@ metadata:
   - Seurat
   - scMiko
   - scPipeline
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

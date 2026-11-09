@@ -10,7 +10,7 @@ when_to_use_negative:
   genes have not been filtered out first
 - The goal is integrative multimodal analysis (e.g. ATAC-seq or proteomics); SingleCellGGM
   relies exclusively on transcriptome data
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -45,7 +45,7 @@ metadata:
   tools:
   - ModuleEnrichmentAnalysis
   - SingleCellGGM
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

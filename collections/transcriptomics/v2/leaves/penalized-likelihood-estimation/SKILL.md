@@ -11,7 +11,7 @@ when_to_use_negative:
 - The input is bulk-RNA-seq-like or already densely measured data, where bulk network
   methods may suffice; imputed single-cell data can also still be too sparse for reliable
   graphical model fitting.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -42,7 +42,7 @@ metadata:
   - QUIC
   - R
   - scLink
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

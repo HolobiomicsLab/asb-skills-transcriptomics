@@ -10,7 +10,7 @@ when_to_use_negative:
   path with a CustomDataList instead of the five-dataset ensemble
 - The input matrix is raw counts, not library-depth normalized (TPM/CPM) — PreCanCell_data()
   expects a normalized expression matrix
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2640
@@ -50,7 +50,7 @@ metadata:
   - fastknn
   - foreach
   - foreach / doParallel
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2640

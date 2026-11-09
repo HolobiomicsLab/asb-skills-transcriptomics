@@ -11,7 +11,7 @@ when_to_use_negative:
   complete — skip re-engineering of SIFs/SSFs/PFs from raw FASTA
 - Transcripts cannot be aligned to training data or lack CDS annotations for the mRNA
   class (cds.fa must match mrna.fa in order and number for lncDC-train.py)
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -52,7 +52,7 @@ metadata:
   - XGBoost
   - imbalanced-learn
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

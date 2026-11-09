@@ -10,7 +10,7 @@ when_to_use_negative:
   that RNA dropout obscures (e.g. single-marker, no known CD16/CD56-like dichotomy)
 - The goal is general clustering of the whole dataset rather than validating a denoising
   step against protein-derived labels in a small marker-gene space
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -48,7 +48,7 @@ metadata:
   - anndata
   - cluster
   - mclust
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

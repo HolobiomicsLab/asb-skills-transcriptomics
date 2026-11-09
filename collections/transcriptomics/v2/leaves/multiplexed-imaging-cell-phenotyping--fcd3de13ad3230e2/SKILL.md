@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3443
 edam_topics:
 - http://edamontology.org/topic_3382
-- http://edamontology.org/topic_2648
 tools:
 - name: SpatialCells
   role: 'Core package: setGate/setGates for marker-intensity gating, getMPI for proliferation
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3443
   edam_topics:
   - http://edamontology.org/topic_3382
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

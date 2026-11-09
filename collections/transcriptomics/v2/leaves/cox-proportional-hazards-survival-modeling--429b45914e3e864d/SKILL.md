@@ -9,7 +9,7 @@ when_to_use_negative:
   cannot produce coefficient pairs to contrast for differential effects
 - Patients requiring distinct treatment protocols (e.g. MSI-H colorectal cancer) are
   not excluded, since they confound the treatment-effect contrast
-edam_operation: http://edamontology.org/operation_3509
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2229
@@ -40,7 +40,7 @@ metadata:
   - PHATE
   - q-Diffusion.jl
   - q-diffusion
-  edam_operation: http://edamontology.org/operation_3509
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2229

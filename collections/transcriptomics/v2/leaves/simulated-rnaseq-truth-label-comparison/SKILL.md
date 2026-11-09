@@ -11,7 +11,7 @@ when_to_use_negative:
   than benchmarking DEG method-combination strategies
 - When extrapolating a single optimum threshold as a general rule — the authors note
   the optimum may differ for other organisms, tissues and experimental designs
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - ExpHunter Suite Examples
   - R
   - R/Bioconductor
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_0203

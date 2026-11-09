@@ -13,7 +13,7 @@ when_to_use_negative:
 - If the target analysis is differential expression or allele-specific expression
   rather than splice-junction coverage, since MRSD (and hence this filtered VUS cohort)
   is validated only for bulk short-read poly-A splice-junction coverage
-edam_operation: http://edamontology.org/operation_3678
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3577
 tools:
@@ -41,7 +41,7 @@ metadata:
   tools:
   - MRSD
   - Python
-  edam_operation: http://edamontology.org/operation_3678
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3577
   provenance_tier: literature

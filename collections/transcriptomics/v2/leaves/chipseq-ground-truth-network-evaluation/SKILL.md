@@ -12,7 +12,7 @@ when_to_use_negative:
 - Evaluating a network inferred by a supervised framework such as GENELink trained
   directly on ground-truth labels, where AUPRC/EPR benchmarking against the same labels
   would be circular
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -56,7 +56,7 @@ metadata:
   - networkx
   - scanpy
   - torch-geometric
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

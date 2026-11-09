@@ -8,7 +8,7 @@ when_to_use_negative:
   transcription-level workflow (interStringency type='transcription') instead
 - The goal is a locally seeded module around a user-defined node — use runmodule(method='local',
   maxsize=..., seletN=...) rather than the global search
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3523
@@ -45,7 +45,7 @@ metadata:
   - R
   - edgeR
   - fRNC
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3523

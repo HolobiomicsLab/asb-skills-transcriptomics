@@ -10,7 +10,7 @@ when_to_use_negative:
   fusions rather than runtime comparison on real scRNA-seq data
 - Computational resources fall below the recommended 64 GB memory and 8 CPU cores
   per task, making runtime comparisons across methods incomparable
-edam_operation: http://edamontology.org/operation_2934
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0080
@@ -69,7 +69,7 @@ metadata:
   - samtools
   - scFusion
   - stringr
-  edam_operation: http://edamontology.org/operation_2934
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0080

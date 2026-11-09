@@ -10,7 +10,7 @@ when_to_use_negative:
 - The two tools being compared were run on different samples or with mismatched parameters,
   making the overlap analysis invalid
 - No independent external dataset is available to validate tool-unique miRNA calls
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -46,7 +46,7 @@ metadata:
   - STAR
   - exceRpt
   - miRBase
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

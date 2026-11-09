@@ -11,7 +11,7 @@ when_to_use_negative:
   is a major concern beyond k=5 candidate TFs
 - The expression data are pseudotime-sorted along differentiation trajectories or
   require modeling of temporal delays — scGATE does not handle these
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0749
@@ -56,7 +56,7 @@ metadata:
   - foreach
   - scGATE
   - truncnorm
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0749

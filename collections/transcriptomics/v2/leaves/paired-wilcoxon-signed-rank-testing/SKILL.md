@@ -10,7 +10,7 @@ when_to_use_negative:
   — SCENT must first be run to estimate signalling entropy before testing
 - The data are known to be normally distributed and pairing is informative enough
   that a paired t-test would have substantially more power
-edam_operation: http://edamontology.org/operation_3224
+edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -38,7 +38,7 @@ metadata:
   - CCAT
   - R
   - SCENT
-  edam_operation: http://edamontology.org/operation_3224
+  edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

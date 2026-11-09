@@ -10,7 +10,7 @@ when_to_use_negative:
   debug duckdb memory leak on daabases with >30k genes) makes this risky
 - You need a performance-optimized schema; AnnSQL tables deliberately mirror the AnnData
   object structure instead
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -45,7 +45,7 @@ metadata:
   - DuckDB
   - Pandas
   - Python
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

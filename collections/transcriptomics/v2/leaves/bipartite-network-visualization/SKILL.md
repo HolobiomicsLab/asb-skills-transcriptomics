@@ -8,7 +8,7 @@ when_to_use_negative:
   graph without bipartite structure is more appropriate
 - When quantitative enrichment statistics alone suffice and no interactive exploration
   of gene-pathway membership is needed
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0092
@@ -44,7 +44,7 @@ metadata:
   - Gephi
   - Python
   - SSrGE
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0092

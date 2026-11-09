@@ -12,7 +12,7 @@ when_to_use_negative:
   cannot be assumed to share a scale across experiments
 - The background distribution has little or no increased genes relative to cells,
   undermining profile-based filtering assumptions
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -48,7 +48,7 @@ metadata:
   - EmptyDrops
   - Matrix
   - R
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

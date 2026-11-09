@@ -10,7 +10,7 @@ when_to_use_negative:
   aggregation), where per-subunit complex composition is not the target quantity
 - The expression matrix is raw counts without per-cell-group normalization; trimean
   aggregation on unnormalized counts will not match CellChat's probabilities
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -38,7 +38,7 @@ metadata:
   - CellChatDB
   - computeCommunProb
   - computeCommunProbPathway
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

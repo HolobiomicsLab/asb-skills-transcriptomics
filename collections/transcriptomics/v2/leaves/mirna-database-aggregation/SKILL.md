@@ -12,7 +12,7 @@ when_to_use_negative:
   wet-lab validation
 - You only need annotations from a single database rather than a cross-database consolidated
   candidate list
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0780
 - http://edamontology.org/topic_0659
@@ -67,7 +67,7 @@ metadata:
   - miRNATranslate
   - psRNAtarget
   - sRNAanno
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0780
   - http://edamontology.org/topic_0659

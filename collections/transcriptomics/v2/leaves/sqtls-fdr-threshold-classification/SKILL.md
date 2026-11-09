@@ -8,7 +8,7 @@ when_to_use_negative:
   — thresholding raw p-values is not the paper's multiple-testing scheme
 - Your question concerns eQTL/eGene classification or gene expression, not splicing
   phenotypes; this skill only labels splicing QTLs from sQTLseekeR2 output
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3517
@@ -42,7 +42,7 @@ metadata:
   - Nextflow
   - sQTLseekeR2
   - sqtlseeker2-nf
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3517

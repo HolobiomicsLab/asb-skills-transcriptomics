@@ -10,7 +10,7 @@ when_to_use_negative:
   IDs in 'rn', since the clone and transcriptome graphs cannot be aligned edge-wise
 - You need to validate hybrid cluster quality or marker fidelity at intermediate α;
   the paper recommends marker fidelity analysis or ground-truth comparison instead
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0091
@@ -45,7 +45,7 @@ metadata:
   - Seurat
   - data.table
   - irlba
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0091

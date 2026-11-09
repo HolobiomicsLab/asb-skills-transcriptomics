@@ -12,7 +12,7 @@ when_to_use_negative:
 - The species has gene-level IDs and a reference transcriptome that map cleanly; the
   ortholog-mapping route is mainly needed when native IDs cannot be searched against
   model-organism gene sets
-edam_operation: http://edamontology.org/operation_3673
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0085
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - ExpressAnalyst (ExpressAnalystR)
   - Gene Ontology (GO)
   - KEGG
-  edam_operation: http://edamontology.org/operation_3673
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0085
   - http://edamontology.org/topic_0203

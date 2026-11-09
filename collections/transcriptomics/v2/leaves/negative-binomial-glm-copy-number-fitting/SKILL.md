@@ -8,7 +8,7 @@ when_to_use_negative:
   module alone cannot resolve — the BAF module and combine step are required.
 - Input is already a CNA state matrix or per-gene-per-cell copy-number call table
   rather than raw read/UMI counts.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_0622
@@ -40,7 +40,7 @@ metadata:
   - scanpy
   - statsmodels
   - xcltk
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_0622

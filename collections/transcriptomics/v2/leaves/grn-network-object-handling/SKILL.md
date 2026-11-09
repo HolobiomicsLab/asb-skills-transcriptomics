@@ -10,7 +10,7 @@ when_to_use_negative:
   matrix (need scPRINT inference first)
 - When benchmarking inferred networks against ChIP-seq/perturb-seq ground truths —
   use the BenGRN benchmarking workflow instead
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 - http://edamontology.org/topic_0203
@@ -44,7 +44,7 @@ metadata:
   - GRnnData
   - Python
   - scPRINT
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   - http://edamontology.org/topic_0203

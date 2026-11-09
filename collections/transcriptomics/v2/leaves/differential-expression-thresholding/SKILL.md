@@ -10,7 +10,7 @@ when_to_use_negative:
   statistical testing requires raw count data
 - The goal is continuous expression quantification rather than binary expressed/not-expressed
   classification for model pruning
-edam_operation: http://edamontology.org/operation_3224
+edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -51,7 +51,7 @@ metadata:
   - R
   - edgeR
   - rFASTCORMICS
-  edam_operation: http://edamontology.org/operation_3224
+  edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

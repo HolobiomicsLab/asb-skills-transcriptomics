@@ -9,7 +9,7 @@ when_to_use_negative:
 - You need only exploratory plots (MDS/PCA/volcano) that consume beta-value matrices
   (testDataFile2), not DMC-derived gene lists
 - You are running on ARM64 chipset architecture, which methylR does not support
-edam_operation: http://edamontology.org/operation_3667
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -43,7 +43,7 @@ metadata:
   - R
   - methylR
   - minfi
-  edam_operation: http://edamontology.org/operation_3667
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

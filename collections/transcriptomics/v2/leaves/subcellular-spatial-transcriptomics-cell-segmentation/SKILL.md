@@ -12,7 +12,6 @@ when_to_use_negative:
   annotation of individual pixels is unattainable for SST data
 edam_operation: http://edamontology.org/operation_3680
 edam_topics:
-- http://edamontology.org/topic_3279
 - http://edamontology.org/topic_0625
 tools:
 - name: BIDCell
@@ -58,7 +57,6 @@ metadata:
   - scClassify
   edam_operation: http://edamontology.org/operation_3680
   edam_topics:
-  - http://edamontology.org/topic_3279
   - http://edamontology.org/topic_0625
   provenance_tier: literature
 license: CC-BY-4.0

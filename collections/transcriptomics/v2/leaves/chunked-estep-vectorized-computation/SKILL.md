@@ -10,7 +10,7 @@ when_to_use_negative:
   biological effects (Lambda_u u_i), not the factors, due to model identifiability
 - The data require a count-based model — the article states that extending the framework
   to modeling count data is left as future work
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - Rcpp
   - RcppArmadillo
   - scPLS
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_0203

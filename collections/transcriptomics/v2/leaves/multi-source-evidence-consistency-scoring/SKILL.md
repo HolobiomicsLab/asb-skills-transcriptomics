@@ -11,7 +11,7 @@ when_to_use_negative:
 - Non-marker-based annotation is required (e.g. reference-mapping tools); the article
   notes no direct comparison was conducted with annotation tools that do not rely
   on marker genes
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0605
@@ -44,7 +44,7 @@ metadata:
   - R
   - Seurat
   - ontologyIndex
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0605

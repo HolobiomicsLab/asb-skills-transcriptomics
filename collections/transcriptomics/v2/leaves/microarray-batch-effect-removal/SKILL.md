@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the goal is to quantify, not remove, batch structure; this skill applies a
   known-covariate adjustment, not de novo latent-factor discovery (e.g. sva's surrogate
   variable estimation)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 - http://edamontology.org/topic_0203
@@ -57,7 +57,7 @@ metadata:
   - curatedAdipoArray
   - limma
   - sva
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   - http://edamontology.org/topic_0203

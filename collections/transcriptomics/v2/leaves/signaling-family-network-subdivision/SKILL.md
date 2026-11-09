@@ -11,7 +11,7 @@ when_to_use_negative:
 - 'Spatial context matters: suspension-based scRNA-seq connectomes do not preserve
   spatial histologic information, so centrality ranks cannot verify spatial proximity
   of candidate interactions'
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 tools:
@@ -47,7 +47,7 @@ metadata:
   - R
   - Seurat
   - SeuratData
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   provenance_tier: literature

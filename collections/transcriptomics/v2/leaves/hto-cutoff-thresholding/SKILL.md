@@ -10,7 +10,7 @@ when_to_use_negative:
   labels — that is the HybridDemultiplexing step, not cutoff calling
 - The experiment is not a cell hashing (hashtag oligo) design, e.g. MULTI-seq lipid-tag
   barcodes with a different assay structure
-edam_operation: http://edamontology.org/operation_3485
+edam_operation: null
 tools:
 - name: HTOreader
   role: Provides HTOClassification, PlotHTO, HTOcutoff and HTOIdAssign for cutoff-based
@@ -39,7 +39,7 @@ metadata:
   - Seurat
   - cellhashR
   - scSplit
-  edam_operation: http://edamontology.org/operation_3485
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

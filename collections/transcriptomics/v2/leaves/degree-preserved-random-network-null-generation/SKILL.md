@@ -9,7 +9,7 @@ when_to_use_negative:
   subnetwork modeling relative to degree-matched nulls
 - When the input is a raw scRNA-seq expression matrix rather than an already-inferred
   GRN; network inference (e.g., SCING BuildNetwork.ipynb) must happen first
-edam_operation: http://edamontology.org/operation_3948
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -47,7 +47,7 @@ metadata:
   - SCING
   - conda
   - ppcor
-  edam_operation: http://edamontology.org/operation_3948
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

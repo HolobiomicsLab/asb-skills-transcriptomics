@@ -10,7 +10,7 @@ when_to_use_negative:
   output, not raw RNA-Seq count tables
 - The organism's curated Boolean models must be fully accurate from the start without
   manual editing — the draft requires subsequent manual curation in SBML form
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - Cell Collective database
   - CellNOpt
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_0203

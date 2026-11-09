@@ -10,7 +10,7 @@ when_to_use_negative:
   scCODA assumes a log-linear relationship which may be mis-specified
 - When modeling dependency structure among cell compositions beyond compositional
   effects is required
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3308
@@ -52,7 +52,7 @@ metadata:
   - scCODA
   - scanpy
   - tensorflow-probability
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3308

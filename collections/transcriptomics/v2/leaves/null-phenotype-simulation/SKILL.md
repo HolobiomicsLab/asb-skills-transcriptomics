@@ -8,7 +8,7 @@ when_to_use_negative:
   should include causal effects instead of N(0,1) null phenotypes
 - No LD reference panel or trained eQTL weights are available, so Stage II testing.py
   cannot be run on the simulated null GWAS
-edam_operation: http://edamontology.org/operation_3578
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3517
@@ -50,7 +50,7 @@ metadata:
   - lassosum
   - numpy
   - scipy
-  edam_operation: http://edamontology.org/operation_3578
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3517

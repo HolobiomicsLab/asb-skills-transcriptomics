@@ -8,7 +8,7 @@ when_to_use_negative:
   — agreement is only expected when both use the same threshold and pathways.
 - You need a differential-expression or pathway-enrichment test rather than a numerical
   equivalence check between two PAS matrices.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -44,7 +44,7 @@ metadata:
   - UCell
   - scPAFA
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

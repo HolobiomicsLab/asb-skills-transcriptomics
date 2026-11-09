@@ -11,7 +11,7 @@ when_to_use_negative:
 - The data contain variables at the magnitude of a hundred thousand, where the article
   notes penalized regression models fall short and FDR screening is explicitly recommended
   first
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0625
@@ -54,7 +54,7 @@ metadata:
   - RStudio
   - Shiny
   - selectiveInference
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0625

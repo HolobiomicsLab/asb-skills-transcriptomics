@@ -10,7 +10,7 @@ when_to_use_negative:
   barcode discovery first
 - The chemistry preset (e.g. 10x3v3) already enforces a whitelist, making an inflection-point
   cutoff redundant
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Python 3.9
   - flexiplex-filter
   - uv
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

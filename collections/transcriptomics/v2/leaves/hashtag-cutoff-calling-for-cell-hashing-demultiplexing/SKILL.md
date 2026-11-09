@@ -10,7 +10,7 @@ when_to_use_negative:
   and SNP-based methods additionally require distinct genetic backgrounds.
 - The goal is correlating cell hashing labels with SNP clustering results (HybridDemultiplexing)
   rather than deriving per-hashtag cutoffs from hashtag distributions alone.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3308
@@ -40,7 +40,7 @@ metadata:
   - HTOreader
   - Seurat
   - flexmix
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3308

@@ -10,7 +10,7 @@ when_to_use_negative:
   anchor the simulation
 - 'When the data are bulk RNA-seq: dyngen''s profiling emulation targets single-cell
   characteristics such as low library sizes and high dropout rates'
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3512
@@ -48,7 +48,7 @@ metadata:
   - dyngen
   - edgeR
   - ggplot2
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3512

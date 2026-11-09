@@ -15,7 +15,6 @@ when_to_use_negative:
   DoubletFinder's), so it is not optimal in terms of time efficiency
 edam_operation: http://edamontology.org/operation_3802
 edam_topics:
-- http://edamontology.org/topic_6394
 - http://edamontology.org/topic_3170
 tools:
 - name: DoubletFinder
@@ -58,7 +57,6 @@ metadata:
   - scds
   edam_operation: http://edamontology.org/operation_3802
   edam_topics:
-  - http://edamontology.org/topic_6394
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

@@ -8,7 +8,7 @@ when_to_use_negative:
   instead of disease subnetwork modeling
 - When comparing methods on datasets without disease gene set overlap — degree-preserved
   nulls and DisGeNET random walks require gene-set membership in the GRN
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0605
@@ -45,7 +45,7 @@ metadata:
   - SCING
   - conda
   - ppcor
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0605
