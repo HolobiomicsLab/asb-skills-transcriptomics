@@ -1,0 +1,30 @@
+name: Domain content gates
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  released-collections:
+    name: ${{ matrix.collection.collection_path }}
+    strategy:
+      fail-fast: false
+      matrix:
+        collection:
+# candidate stage: rendered before the first registry release; re-render after registration
+            - domain: transcriptomics
+              collection_path: collections/transcriptomics/v2
+              receipts_path: ""
+    # Pin the tooling commit recorded in collections.yaml for the release.
+    # Bump this full commit SHA deliberately when adopting newer gate tooling.
+    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@2d97e89b47771d373e4b3ecd09256296240bb636
+    with:
+      domain: ${{ matrix.collection.domain }}
+      collection_path: ${{ matrix.collection.collection_path }}
+      receipts_path: ${{ matrix.collection.receipts_path }}
+      strict: true
