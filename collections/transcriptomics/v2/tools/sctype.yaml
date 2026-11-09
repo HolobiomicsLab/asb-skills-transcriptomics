@@ -1,0 +1,26 @@
+name: ScType
+slug: sctype
+version_used: null
+edam_topics: []
+evidence_spans:
+- Annotation performance was compared against five automatic annotation tools, ScType40, SCINA19, clustifyR12, scCATCH41, scSorter17.
+- scATOMIC is comparable to or outperforms other existing automatic cell type annotators when classifying blood and stromal cells using our training reference.
+- we developed a computational platform, ScType, which enables a fully-automated and ultra-fast cell-type identification
+- es.max <- sctype_score(scRNAseqData = scRNAseqData, scaled = TRUE, gs = gs_list$gs_positive, gs2 = gs_list$gs_negative)
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/IanevskiAleksandr/sc-type
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

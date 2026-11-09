@@ -1,0 +1,17 @@
+name: Get_topics
+slug: get-topics
+version_used: null
+edam_topics: []
+evidence_spans:
+- Get_topics(crop_seq_vargene$expression_profile,crop_seq_vargene$perturb_information,topic_number=c(4:6))
+derived_from:
+- doi: 10.1038/s41467-019-10216-x
+  title: Model-based understanding of single-cell CRISPR screening
+source_repos:
+- https://github.com/bm2-lab/MUSIC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bm2-lab/MUSIC

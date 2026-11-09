@@ -1,0 +1,17 @@
+name: netAnalysis_diff_signalingRole_scatter
+slug: netanalysis-diff-signalingrole-scatter
+version_used: null
+edam_topics: []
+evidence_spans:
+- netAnalysis_diff_signalingRole_scatter(object, color.use, comparison, signaling, signaling.exclude, idents.exclude, slot.name, group, dot.size, point.shape, label.size, dot.alpha
+derived_from:
+- doi: 10.1038/s41467-021-21246-9
+  title: Inference and analysis of cell-cell communication using CellChat
+source_repos:
+- https://github.com/jinworks/CellChat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jinworks/CellChat

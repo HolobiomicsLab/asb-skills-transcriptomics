@@ -1,0 +1,19 @@
+name: gene set enrichment analysis
+slug: gene-set-enrichment-analysis
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used the GSEA approach to do the annotation.
+- gene set enrichment analysis(GSEA) and a modified Fisher's exact test.
+- The package provides two statistical tests, gene set enrichment analysis and a modified version of Fisher’s exact test
+derived_from:
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+source_repos:
+- https://github.com/rx-li/EasyCellType
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rx-li/EasyCellType

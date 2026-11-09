@@ -1,0 +1,17 @@
+name: sciPENN
+slug: scipenn
+version_used: null
+edam_topics: []
+evidence_spans:
+- sciPENN integrates a sequence of feed-forward blocks with a recurrent neural network and performs end-to-end training
+derived_from:
+- doi: 10.1038/s41467-024-47418-x
+  title: 'scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders'
+source_repos:
+- https://github.com/BioX-NKU/scButterfly
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioX-NKU/scButterfly

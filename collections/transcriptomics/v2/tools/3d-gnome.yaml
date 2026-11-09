@@ -1,0 +1,19 @@
+name: 3D-GNOME
+slug: 3d-gnome
+version_used: null
+edam_topics: []
+evidence_spans:
+- between the previous version of the software, 3D-GNOME, and cudaMMC.
+- We provide scripts to compare time performance and modeling quality between the previous version of the software, 3D-GNOME, and cudaMMC
+- We provide scripts to compare time performance and modeling quality between the previous version of the software, 3D-GNOME, and cudaMMC.
+derived_from:
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+source_repos:
+- https://github.com/SFGLab/cudaMMC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/cudaMMC

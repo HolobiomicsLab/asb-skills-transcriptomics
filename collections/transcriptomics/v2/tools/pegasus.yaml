@@ -1,0 +1,21 @@
+name: pegasus
+slug: pegasus
+version_used: 1.4.3
+edam_topics: []
+evidence_spans:
+- using the pegasus package in Python with the “pg.infer_cell_types" function and the “human_immune" marker gene set
+derived_from:
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/lilab-bcb/pegasus
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gersteinlab/forest-fire-clustering

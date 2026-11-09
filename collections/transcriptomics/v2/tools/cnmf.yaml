@@ -1,0 +1,20 @@
+name: cNMF
+slug: cnmf
+version_used: null
+edam_topics: []
+evidence_spans:
+- A priori selection of the number of underlying dominant patterns to be learned is required but not trivial to determine
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/MaShisongLab/CellGEP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

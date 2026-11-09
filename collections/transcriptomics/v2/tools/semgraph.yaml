@@ -1,0 +1,21 @@
+name: SEMgraph
+slug: semgraph
+version_used: null
+edam_topics: []
+evidence_spans:
+- SEMtree() function is implemented in the R package SEMgraph, easily available at https://CRAN.R-project.org/package=SEMgraph.
+- We propose SEMtree(), a set of tree-based structure discovery algorithms
+- SEMtree() function is implemented in the R package SEMgraph
+- estimates networks and causal relations in complex systems
+- R package version 1.2.4
+derived_from:
+- doi: 10.1093/bioinformatics/btad377
+  title: 'SEMtree: tree-based structure learning methods with structural equation models'
+source_repos:
+- https://github.com/fernandoPalluzzi/SEMgraph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fernandoPalluzzi/SEMgraph

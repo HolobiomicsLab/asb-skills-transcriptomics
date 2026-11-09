@@ -1,0 +1,18 @@
+name: https://github.com/SFGLab/cudaMMC
+slug: https-github-com-sfglab-cudammc
+version_used: null
+edam_topics: []
+evidence_spans:
+- Open-source software and manual and sample data are freely available on https://github.com/SFGLab/cudaMMC.
+- 'Source: github:github.com__SFGLab__cudaMMC'
+derived_from:
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+source_repos:
+- https://github.com/SFGLab/cudaMMC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/cudaMMC

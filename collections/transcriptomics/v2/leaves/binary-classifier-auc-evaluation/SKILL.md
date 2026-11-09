@@ -1,0 +1,140 @@
+---
+name: binary-classifier-auc-evaluation
+description: Use when benchmarking a trained fusion-read filter (e.g., HVLD retrained
+  per dataset on artificial chimeric negatives and PCAWG positives) and comparing
+  its AUC to competing models on held-out single-cell RNA-seq test samples.
+when_to_use_negative:
+- The dataset provided by the user is too small — the article recommends using the
+  default model parameters provided on GitHub rather than retraining and re-evaluating
+  an HVLD filter
+- Detection on single-end RNA-seq, whole-genome, or whole-exome sequencing data —
+  Anchored-fusion and this evaluation only apply to paired-end RNA-seq
+- The goal is detection of fusion genes not including the user-provided anchored target
+  gene — the anchored search and its filter model cannot score such events
+edam_operation: http://edamontology.org/operation_3919
+edam_topics:
+- http://edamontology.org/topic_0091
+- http://edamontology.org/topic_3520
+tools:
+- name: Anchored-fusion
+  role: Hosts the HVLD filter model being evaluated; retrained model is saved to its
+    'data' folder and specified via --model_file
+  repo: https://github.com/ShenLab-Genomics/Anchored-Fusion
+- name: BWA-MEM
+  role: Aligns reads to generate artificial chimeric negative training samples
+- name: scFusion
+  role: Competing scRNA-seq fusion method trained on the same chimeric-read samples
+    for AUC benchmarking
+  repo: https://github.com/XiDsLab/scFusion
+- name: PyTorch
+  role: Training framework for the HVLD hierarchical view learning and distillation
+    model (>= 1.10.2)
+- name: scikit-learn
+  role: Provides AUC evaluation metrics for the binary classifier (>= 1.3)
+- name: Biopython
+  role: Sequence handling during model training and evaluation (>= 1.79)
+provenance:
+  source_task_ids:
+  - task_002
+  source_papers:
+  - doi: 10.1016/j.crmeth.2024.100733
+    title: Anchored-fusion enables targeted fusion search in bulk and single-cell
+      RNA sequencing data
+  source_content_hash: sha256:1f9c57f865e6b8640e534814c47bc2bad0837c75c74abc1d277a3dd1d24aa019
+schema_version: 0.2.0
+metadata:
+  license_tier: noncommercial
+  tool_license:
+    tier: noncommercial
+    requires_ack: true
+    ref: CC-BY-NC-ND-4.0
+    url: https://github.com/ShenLab-Genomics/Anchored-Fusion
+  repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion
+  tools:
+  - Anchored-fusion
+  - BLAT
+  - BWA-MEM
+  - Biopython
+  - PyTorch
+  - scFusion
+  - scikit-learn
+  edam_operation: http://edamontology.org/operation_3919
+  edam_topics:
+  - http://edamontology.org/topic_0091
+  - http://edamontology.org/topic_3520
+  provenance_tier: literature
+license: CC-BY-4.0
+evidence_trimmed: true
+triage_status: promoted
+yes_rate: 0.7333333333333333
+n_claims: 15
+---
+
+# binary-classifier-auc-evaluation
+
+> **License: noncommercial** — confirm your use is a permitted (noncommercial) purpose before applying; commercial use requires a separate license (see `metadata.tool_license`). <!-- asb-license-banner -->
+## Summary
+
+Evaluates the HVLD deep learning filter of Anchored-fusion as a binary classifier distinguishing true fusion reads from artificial chimeric reads on scRNA-seq data, reporting AUC on K562 and multiple-myeloma datasets against competitors such as scFusion.
+
+## When to use
+
+Use when benchmarking a trained fusion-read filter (e.g., HVLD retrained per dataset on artificial chimeric negatives and PCAWG positives) and comparing its AUC to competing models on held-out single-cell RNA-seq test samples.
+
+## When NOT to use
+
+- The dataset provided by the user is too small — the article recommends using the default model parameters provided on GitHub rather than retraining and re-evaluating an HVLD filter
+- Detection on single-end RNA-seq, whole-genome, or whole-exome sequencing data — Anchored-fusion and this evaluation only apply to paired-end RNA-seq
+- The goal is detection of fusion genes not including the user-provided anchored target gene — the anchored search and its filter model cannot score such events
+
+## Inputs
+
+- Paired-end scRNA-seq FASTQ data for K562 (SRA:SRP291312) and multiple myeloma (SRA:SRP158590)
+- 3540 PCAWG fusion genes as positive training samples
+- Artificial chimeric reads generated as negative samples via BWA-MEM alignment with homologous-gene filtering
+- Homologous gene file (provided in the Anchored-fusion 'data' folder)
+- Trained HVLD model file (e.g., saved into the 'data' folder and passed via --model_file)
+
+## Outputs
+
+- AUC value for the HVLD filter on held-out scRNA-seq test samples (target: 91.0% K562, 94.5% MM)
+- Comparative AUC table versus competing models (Transformer, scFusion)
+- Retrained per-dataset filter model file for Anchored-fusion
+
+## How to apply
+
+Train the HVLD hierarchical view learning and distillation (self-distillation) model per dataset using the 3540 PCAWG fusion genes as positive samples and dataset-specific artificial chimeric reads (generated by BWA-MEM alignment, with reads aligned to homologous genes and all negatives containing the anchored gene removed) as negatives. Retrain the filter separately for the K562 scRNA-seq data (SRA:SRP291312) and the multiple-myeloma cohort (SRA:SRP158590), and train the competing scFusion model on the same chimeric-read samples. Save the retrained model to the 'data' folder of Anchored-fusion as the file given by --model_file, evaluate on held-out test samples, and report AUC, expecting roughly 91.0% (K562) and 94.5% (MM), i.e., improvements of 5.45% and 4.80% over the Transformer model. Implement with PyTorch (>=1.10.2), numpy, and scikit-learn (>=1.3), using Biopython (>=1.79) for sequence handling.
+
+## Related tools
+
+- **Anchored-fusion** (Hosts the HVLD filter model being evaluated; retrained model is saved to its 'data' folder and specified via --model_file) — https://github.com/ShenLab-Genomics/Anchored-Fusion
+- **BWA-MEM** (Aligns reads to generate artificial chimeric negative training samples)
+- **scFusion** (Competing scRNA-seq fusion method trained on the same chimeric-read samples for AUC benchmarking) — https://github.com/XiDsLab/scFusion
+- **PyTorch** (Training framework for the HVLD hierarchical view learning and distillation model (>= 1.10.2))
+- **scikit-learn** (Provides AUC evaluation metrics for the binary classifier (>= 1.3))
+- **Biopython** (Sequence handling during model training and evaluation (>= 1.79))
+
+## Examples
+
+```
+python Anchored_Fusion.py --file_anchored_cds=test/target_gene.fasta --fastq1=test/test_sample_1.fastq.gz --fastq2=test/test_sample_1.fastq.gz --out_folder=output_dir --file_ref_seq=reference.genome.fa --file_ref_ann=genome.annotation.gtf --model_file=data/hvld_k562.model
+```
+
+## Evaluation signals
+
+- AUC on held-out K562 scRNA-seq test samples reproduces the reported 91.0% (± a few points), a 5.45% improvement over the Transformer model
+- AUC on held-out multiple-myeloma test samples reproduces the reported 94.5%, a 4.80% improvement over the Transformer model
+- Negative training samples contain no reads aligned to homologous genes and no samples containing the anchored gene X
+- Positive training set equals the 3540 PCAWG fusion genes used in the paper
+- The retrained model file is present in the 'data' folder of Anchored-fusion and loadable via --model_file
+
+## Limitations
+
+- If the user's input dataset is too small, retraining the filter per dataset is unreliable; the default model parameters on GitHub should be used instead, so per-dataset AUC re-evaluation is not meaningful
+- AUC was measured against artificial chimeric reads as negatives, which may deviate from real false-positive distributions on new datasets
+- The value of the loss-balancing hyperparameter alpha in the HVLD loss function is not specified, hindering exact reimplementation
+- Only paired-end RNA-seq data are supported; single-end, WGS, and WES data are out of scope
+
+## Evidence
+
+- [other] the HVLD model achieved the best performance with AUC values of 91.0% and 94.5%, representing improvements of 5.45% and 4.80% over the Transformer model, respectively.: [evidence span withheld — anchor status: not_found]

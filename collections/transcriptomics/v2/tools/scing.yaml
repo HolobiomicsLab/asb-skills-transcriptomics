@@ -1,0 +1,22 @@
+name: SCING
+slug: scing
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/XiaYangLabOrg/SCING.git
+- Here, we present Single Cell INtegrative gene regulatory network inference (SCING), a gradient boosting based approach to efficiently identify GRNs in full single cell transcriptomes
+- We apply SCING to human prefrontal cortex snRNAseq data with AD and Control patients
+- Here, we present Single Cell INtegrative gene regulatory network inference (SCING), a gradient boosting based approach to efficiently identify GRNs in full single cell transcriptomes.
+- and to the mouse cell atlas in 33 tissues and 106 cell types (f).
+- We apply SCING to human prefrontal cortex snRNAseq data with AD and Control patients, whole brain visium data
+derived_from:
+- doi: 10.1016/j.isci.2023.107124
+  title: 'SCING: Inference of robust, interpretable gene regulatory networks from single cell and spatial transcriptomics'
+source_repos:
+- https://github.com/XiaYangLabOrg/SCING
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XiaYangLabOrg/SCING

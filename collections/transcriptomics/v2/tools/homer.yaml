@@ -1,0 +1,30 @@
+name: Homer
+slug: homer
+version_used: null
+edam_topics: []
+evidence_spans:
+- We performed motif enrichment analysis on those open peaks by Homer.
+- call peaks with HOMER
+- (absent — flagged as missing)
+- '* Homer (Linux)'
+- HOMER was run under the -region mode with the parameter -minDist 150
+derived_from:
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+- doi: 10.1093/bioinformatics/btae110
+  title: 'ElemeNT 2023: an enhanced tool for detection and curation of core promoter elements'
+- doi: 10.1038/s41467-021-25089-2
+  title: Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+source_repos:
+- https://github.com/SUwonglab/DC3
+- https://github.com/OritAdato/ElemeNT
+- https://github.com/SUwonglab/sc-compReg
+- https://github.com/JSB-UCLA/scReadSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SUwonglab/DC3

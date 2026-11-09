@@ -1,0 +1,18 @@
+name: scEMAIL
+slug: scemail
+version_used: null
+edam_topics: []
+evidence_spans:
+- The entire workflow of scEMAIL is displayed in Algorithm 1 and more implementation details can be seen in File S1.
+- 'we adopt an expert ensemble system including three components: entropy (EN), confidence (CF), and consistency (CS).'
+derived_from:
+- doi: 10.1016/j.gpb.2022.12.008
+  title: 'scEMAIL: Universal and Source-Free Annotation Method for scRNA-Seq Data with Novel Cell-Type Perception'
+source_repos:
+- https://github.com/aster-ww/scEMAIL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aster-ww/scEMAIL

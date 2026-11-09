@@ -1,0 +1,18 @@
+name: entropy_2dvs3d
+slug: entropy-2dvs3d
+version_used: null
+edam_topics: []
+evidence_spans:
+- Code for this method can be obtained at https://github.com/sonejilab/entropy_2dvs3d
+derived_from:
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+source_repos:
+- https://github.com/sonejilab/entropy_2dvs3d
+- https://github.com/sonejilab/cellexalvr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sonejilab/entropy_2dvs3d

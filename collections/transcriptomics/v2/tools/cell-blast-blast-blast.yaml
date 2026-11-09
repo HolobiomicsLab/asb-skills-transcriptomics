@@ -1,0 +1,17 @@
+name: Cell_BLAST.blast.BLAST
+slug: cell-blast-blast-blast
+version_used: null
+edam_topics: []
+evidence_spans:
+- :class:`Cell_BLAST.blast.BLAST`
+derived_from:
+- doi: 10.1038/s41467-020-17281-7
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+source_repos:
+- https://github.com/gao-lab/Cell_BLAST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gao-lab/Cell_BLAST

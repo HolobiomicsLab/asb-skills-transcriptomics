@@ -1,0 +1,19 @@
+name: CHISEL
+slug: chisel
+version_used: null
+edam_topics: []
+evidence_spans:
+- CHISEL’s bioconda package was downloaded from https://github.com/raphael-group/chisel
+- Two recently developed single-cell callers, CHISEL19 and Alleloscope20, leverage phasing and BAF for identifying allele-specific CNAs in low-coverage scWGS
+derived_from:
+- doi: 10.1038/s41467-025-60446-5
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+source_repos:
+- https://github.com/raphael-group/chisel
+- https://github.com/parklab/HiScanner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/raphael-group/chisel

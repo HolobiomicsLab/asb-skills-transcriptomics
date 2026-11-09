@@ -1,0 +1,25 @@
+name: MNN
+slug: mnn
+version_used: 1.8.0
+edam_topics: []
+evidence_spans:
+- The mutual-nearest-neighbor (MNN) based approaches, including MNN14 and Scanorama15, allow each batch to contain some but not all cell types
+- corralm+Harmony, corralm+MNN, and multibatch PCA baselines
+derived_from:
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1038/s41598-022-26434-1
+  title: Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/songfd2018/BUSseq
+- https://github.com/laurenhsu1/corral
+- https://github.com/MarioniLab/MNN2017
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songfd2018/BUSseq

@@ -1,0 +1,114 @@
+name: bedtools
+slug: bedtools
+version_used: 2.30.0
+edam_topics: []
+evidence_spans:
+- BEDtools (v.2.29.2)
+- BEDTools31, written in C + +, allows identification of overlapped cis-NAT pairs based on genome annotation
+- cat atac/genome.bed | bedtools sort | bedtools merge > atac/peaks.bed
+- 'BEDTools: a flexible suite of utilities for comparing genomic features'
+- 'bedtools intersect \
+
+  -a $STAR_OUT_DIR/filtered_Aligned.sortedByCoord.out.bam'
+- '# find the reads 100% mapped in a exonic region (i.e. ambiguous reads)'
+- First, we used bedtools (Quinlan and Hall 2010) to mark all alignment positions for biological read 1 and read 2
+- we extracted the Ψ and surrounding 25 bases upstream and downstream nucleotides using BEDTools [24]
+- obtained using BedTools from the hg19 genome and gencode gtf file
+- we extracted the Ψ and surrounding 25 bases upstream and downstream nucleotides using BEDTools
+- apt-get install bedtools
+- '#### Required
+
+  [bedtools](https://bedtools.readthedocs.io/en/latest/content/installation.html)'
+- Bedtools (Quinlan and Hall, 2010. Bioinformatics)
+- the coordinate system transform which is achieved by the bedtools (Quinlan and Hall 2010) and the dictionary data structure in python3
+- such as BEDTools [15], HyperBrowser [16], MULTOVL [17], IntervalStats [18], GenometriCorr [19], GAT [20]
+- '* Bedtools (Linux)'
+- Bedtools (Linux)
+- bedtools (tested on version 2.29.2)
+- '* bedtools'
+- Then scReadSim uses the bedtools38 getfasta function to extract every synthetic read’s sequence from the reference genome
+- Then scReadSim uses the bedtools38 getfasta function to extract every synthetic read’s sequence
+- the overlap with the TE annotation is assessed using BEDtools66
+- BEDTools v2.29.2 or higher (https://github.com/arq5x/bedtools2/releases)
+- '`bedtools <https://github.com/arq5x/bedtools2>`_ Please make sure to add the bedtools installation to your path'
+- uTAR pseudo-bulk coverage was calculated using bedtools coverage on the merged alignment files for each experiment.
+- 'Predicted transcribed regions within 500 bp were merged using bedtools43 merge (parameters: -s -d 500).'
+- Read fragments from the paired-end sequencing data are collected using bedtools bamtobed with the “-bedpe” option set.
+- Predicted transcribed regions within 500 bp were merged using bedtools merge
+- 'Run bedtools thus:'
+- This is done by taking the positions of the UMI in the previous step and finding the corresponding annotations in a GFF file. Run bedtools thus
+- 'This is done by taking the positions of the UMI in the previous step and finding the corresponding annotations in a GFF file. Run bedtools thus:'
+- The global vcf file was then used to mask the reference genome using Bedtools36
+- The global vcf file was then used to mask the reference genome using Bedtools
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1038/s41467-021-21894-x
+  title: Aptardi predicts polyadenylation sites in sample-specific transcriptomes using high-throughput RNA sequencing and DNA sequence
+- doi: 10.1038/s41598-022-19782-5
+  title: CCIVR facilitates comprehensive identification of cis-natural antisense transcripts with their structural characteristics and expression profiles
+- doi: 10.1093/bioinformatics/btae168
+  title: A machine-readable specification for genomics assays
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+- doi: 10.1093/bioinformatics/btae207
+  title: "<tt>Forseti</tt>\n                    : a mechanistic and predictive model of the splicing status of scRNA-seq reads"
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+- doi: 10.1093/bioinformatics/btad676
+  title: 'PhasiHunter: a robust phased siRNA regulatory cascade mining tool based on multiple reference sequences'
+- doi: 10.1016/j.csbj.2023.08.021
+  title: 'RgnTX: Colocalization analysis of transcriptome elements in the presence of isoform heterogeneity and ambiguity'
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+- doi: 10.1038/s41467-021-25089-2
+  title: Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+- doi: 10.1093/bioinformatics/btad062
+  title: The adapted Activity-By-Contact model for enhancer–gene assignment and its application to single-cell data
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/luskry/aptardi
+- https://github.com/CCIVR/ccivr
+- https://github.com/cellatlas/cellatlas
+- https://github.com/SUwonglab/DC3
+- https://github.com/COMBINE-lab/forseti
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/haessar/peaks2utr
+- https://github.com/HuangLab-CBI/PhasiHunter
+- https://github.com/yue-wang-biomath/RgnTX
+- https://github.com/equipeGST/RiboDoc
+- https://github.com/SUwonglab/sc-compReg
+- https://github.com/XiDsLab/scFusion
+- https://github.com/noush-joglekar/scisorseqr
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/arq5x/bedtools2
+- https://github.com/bvaldebenitom/SoloTE
+- https://github.com/schulzlab/STARE
+- https://github.com/fw262/TAR-scRNA-seq
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/ncgr/UMI-analysis
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion

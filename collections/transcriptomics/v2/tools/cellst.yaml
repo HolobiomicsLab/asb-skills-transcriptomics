@@ -1,0 +1,17 @@
+name: CellST
+slug: cellst
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ailsci.2023.100068
+  title: Elucidating dynamic cell lineages and gene networks in time-course single cell differentiation
+source_repos:
+- https://github.com/zhangzmr/CellST
+- https://github.com/zhanzmr/CellST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhangzmr/CellST

@@ -1,0 +1,35 @@
+name: fastMNN
+slug: fastmnn
+version_used: null
+edam_topics: []
+evidence_spans:
+- a method called fastMNN 5 detects mutual nearest neighbors (MNN) of cells in different batches
+- graph-based (e.g., fastMNN1)
+- This class includes popular methods such as Seurat v324, FastMNN17, and Scanorama25.
+- 'including: mutual nearest neighbours based fastMNN20;'
+- mutual nearest neighbours based fastMNN20
+- compares favorably to popular unsupervised methods such as Harmony, FastMNN, Seurat v4, scVI, and Scanorama
+derived_from:
+- doi: 10.1038/s41421-019-0114-x
+  title: A novel approach to remove the batch effect of single-cell data
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/jumphone/BEER
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/cistrome/MIRA
+- https://github.com/LTLA/batchelor
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/carmonalab/STACAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jumphone/BEER

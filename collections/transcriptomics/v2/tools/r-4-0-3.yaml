@@ -1,0 +1,18 @@
+name: R 4.0.3
+slug: r-4-0-3
+version_used: null
+edam_topics: []
+evidence_spans:
+- was written in R version 4.0.313 and developed using RStudio14
+- was written in R version 4.0.3
+derived_from:
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+source_repos:
+- https://github.com/AhmedMehdiLab/E.PAGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AhmedMehdiLab/E.PAGE

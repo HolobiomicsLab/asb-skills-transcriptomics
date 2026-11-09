@@ -1,0 +1,17 @@
+name: RMBase v2.0
+slug: rmbase-v2-0
+version_used: '2.0'
+edam_topics: []
+evidence_spans:
+- The Ψ site information was downloaded from RMBase v2.0
+derived_from:
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+source_repos:
+- https://github.com/smk5g5/MU-PseUDeep
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smk5g5/MU-PseUDeep

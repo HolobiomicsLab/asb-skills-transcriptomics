@@ -1,0 +1,17 @@
+name: NEAT-genReads
+slug: neat-genreads
+version_used: '3.038'
+edam_topics: []
+evidence_spans:
+- Mitochondria reads were synthesized in silico with NEAT-genReads v3.038 and SomatoSim (v1.0.0)39
+derived_from:
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+source_repos:
+- https://github.com/single-cell-genetics/MQuad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/MQuad

@@ -1,0 +1,17 @@
+name: RANN
+slug: rann
+version_used: null
+edam_topics: []
+evidence_spans:
+- el <- compute.nn.edges(coembed = ce, nn.use = 300)
+derived_from:
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+source_repos:
+- https://github.com/qingnanl/gsdensity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qingnanl/gsdensity

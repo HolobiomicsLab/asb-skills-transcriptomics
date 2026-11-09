@@ -1,0 +1,17 @@
+name: SingleCellGGM
+slug: singlecellggm
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+source_repos:
+- https://github.com/MaShisongLab/SingleCellGGM
+- https://github.com/MaShisongLab/CellGEP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MaShisongLab/SingleCellGGM

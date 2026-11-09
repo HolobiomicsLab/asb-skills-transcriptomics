@@ -1,0 +1,47 @@
+name: BLAST
+slug: blast
+version_used: 2.9.0
+edam_topics: []
+evidence_spans:
+- Using BLAST, we mapped the hrc and hrp genes (10 and 16 genes, respectively) to the bacLIFE gene clusters
+- are aligned to the nucleotide (nt) database27 from UCSC using BLAST
+- It currently uses STAR16 and BLAST17 for alignment and sequence comparison
+- aligned to the nucleotide (nt) database27 from UCSC using BLAST
+- blast (v2.9.0)
+- the scale of databases, such as SRA makes BLAST and any alignment-based method ill-suited
+- de-novo basic local alignment search tool (BLAST) analysis
+- our gene matching method results in better cell type matches than BLAST in our model
+- We then feed these sequences into BLASTn against the nucleotide collection (nt) database
+- annotated based on nucleotide sequence homology using BLAST
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+- doi: 10.1038/s41598-020-61495-0
+  title: 'COMPSRA: a COMprehensive Platform for Small RNA-Seq data Analysis'
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1093/bioinformatics/btad225
+  title: Scalable sequence database search using partitioned aggregated Bloom comb trees
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1016/j.csbj.2021.08.021
+  title: 'SCSit: A high-efficiency preprocessing tool for single-cell sequencing data from SPLiT-seq'
+- doi: 10.1093/bioinformatics/btad248
+  title: Cell type matching across species using protein embeddings and transfer learning
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+- https://github.com/cougarlj/COMPSRA
+- https://github.com/Rashedul/CRIS
+- https://github.com/Malfoy/PAC
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/shang-qian/SCSit
+- https://github.com/kbiharie/TACTiCS
+- https://github.com/fw262/TAR-scRNA-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

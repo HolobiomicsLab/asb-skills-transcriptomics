@@ -1,0 +1,19 @@
+name: demuxmix
+slug: demuxmix
+version_used: null
+edam_topics: []
+evidence_spans:
+- Demultiplexing oligonucleotide-labeled scRNA-seq data with demuxmix
+- 'package: demuxmix'
+- The *demuxmix* package implements a method to demultiplex droplets based on HTO counts using negative binomial regression mixture models.
+derived_from:
+- doi: 10.1093/bioinformatics/btad481
+  title: 'demuxmix: demultiplexing oligonucleotide-barcoded single-cell RNA sequencing data with regression mixture models'
+source_repos:
+- https://github.com/huklein/demuxmix
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/huklein/demuxmix

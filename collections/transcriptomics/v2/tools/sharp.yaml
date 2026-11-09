@@ -1,0 +1,27 @@
+name: SHARP
+slug: sharp
+version_used: 1.1.0
+edam_topics: []
+evidence_spans:
+- we use weighted-based meta-clustering (wMetaC) implemented in SHARP13
+- weighted-based meta-clustering (wMetaC) implemented in SHARP
+- DR methods implementing matrix factorization (ACTIONet)33, random projection (SHARP)38, and autoencoder (scDHA and scVI)27,39 rather than PCA generally exclude the gene scaling step in log
+- random projection (SHARP)
+derived_from:
+- doi: 10.1038/s41598-022-14218-6
+  title: 'scCAN: single-cell clustering using autoencoder and network fusion'
+- doi: 10.1016/j.csbj.2022.04.023
+  title: 'scEFSC: Accurate single-cell RNA-seq data analysis via ensemble consensus clustering based on multiple feature selections'
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/cran/scCAN
+- https://github.com/shibiaowan/SHARP
+- https://github.com/Conan-Bian/scEFSC
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cran/scCAN

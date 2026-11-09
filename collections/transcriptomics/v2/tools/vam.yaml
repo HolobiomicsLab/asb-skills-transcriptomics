@@ -1,0 +1,17 @@
+name: VAM
+slug: vam
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'We further compared the pathway activity scoring speed among five methods: GSDensity, CelliD, AUCell, ssGSEA, and VAM'
+derived_from:
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+source_repos:
+- https://github.com/qingnanl/gsdensity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qingnanl/gsdensity

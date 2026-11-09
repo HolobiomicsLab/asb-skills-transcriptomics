@@ -1,0 +1,45 @@
+name: parallel
+slug: parallel
+version_used: null
+edam_topics: []
+evidence_spans:
+- parallel (Imports)
+- 'parallelisation of the outer CV loop using `mclapply` from the
+
+  `parallel` package on unix/mac'
+- Two algorithms, namely SingleR and PreCanCell, were implemented with multiple workers for parallel execution
+- '- `parallel (Imports)`'
+- We highly recommend using parallel computing with `scImpute`, which will significantly reduce the computation time.
+- '## Loading required package: parallel'
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1093/bioadv/vbad048
+  title: 'nestedcv: an R package for fast implementation of nested cross-validation with embedded feature selection designed for transcriptomics and high-dimensional data'
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41467-023-36790-9
+  title: A variational algorithm to detect the clonal copy number substructure of tumors from scRNA-seq data
+- doi: 10.1038/s41467-018-03405-7
+  title: An accurate and robust imputation method scImpute for single-cell RNA-seq data
+- doi: 10.1016/j.gpb.2020.11.006
+  title: 'scLink: Inferring Sparse Gene Co-Expression Networks from Single-Cell Expression Data'
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+source_repos:
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/myles-lewis/nestedcv
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/AntonioDeFalco/SCEVAN
+- https://github.com/Vivianstats/scImpute
+- https://github.com/Vivianstats/scLink
+- https://github.com/BatzoglouLabSU/SIMLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/maiziezhoulab/Bfimpute

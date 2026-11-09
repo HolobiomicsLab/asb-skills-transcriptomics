@@ -1,0 +1,17 @@
+name: graphite
+slug: graphite
+version_used: null
+edam_topics: []
+evidence_spans:
+- query Gene Ontology through Ensembl via biomaRt and pathway databases (KEGG, Reactome, Biocarta, PID:NCI-Nature, Panther, PharmGKB) via graphite
+derived_from:
+- doi: 10.1038/s42003-021-02986-2
+  title: InterCellar enables interactive analysis and exploration of cell−cell communication in single-cell transcriptomic data
+source_repos:
+- https://github.com/martaint/InterCellar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/martaint/InterCellar

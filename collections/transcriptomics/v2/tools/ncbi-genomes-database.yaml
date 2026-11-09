@@ -1,0 +1,17 @@
+name: NCBI genomes database
+slug: ncbi-genomes-database
+version_used: null
+edam_topics: []
+evidence_spans:
+- Information of gene‐protein correspondence was collected from the Ensembl and NCBI gene database
+derived_from:
+- doi: 10.1002/advs.202200045
+  title: 'InterCellDB: A User‐Defined Database for Inferring Intercellular Networks'
+source_repos:
+- https://github.com/ZJUDBlab/InterCellDB
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZJUDBlab/InterCellDB

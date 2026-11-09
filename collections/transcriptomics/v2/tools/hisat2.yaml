@@ -1,0 +1,49 @@
+name: HISAT2
+slug: hisat2
+version_used: 2.0.5
+edam_topics: []
+evidence_spans:
+- Ex. Using HISAT2 with paired end, stranded reads generated from Illumina's protocol (i.e. firststrand)
+- Ex. Using HISAT2 with paired end, stranded reads
+- '[HISAT2](https://ccb.jhu.edu/software/hisat2/index.shtml) (>=2.0.5)'
+- HISAT2
+- 'ribo− RNA-seq fragments were first mapped by HISAT2 [17] (version 2.0.5; parameters: hisat2 --no-softclip --score-min L,-16,0'
+- The raw RNA-seq data were aligned to human reference genome (GRCh38) using HISAT2
+- aligned to the human reference genome (GRCh38) using HISAT2
+- we mapped the simulated reads to the reference genome by using Hisat2 and Star
+- We evaluate Tiglon on a simulated dataset and 12 real datasets under the Hisat2 and Star mappings
+- two alignments files produced by Hisat2 and Star (Hisat.bam and Star.bam)
+- At this website you will see two alignments files produced by Hisat2 and Star (Hisat.bam and Star.bam)
+- Hisat2 was run with the option --dta (in the Hisat2 manual, it means “reports alignments tailored for transcript assemblers”)
+- Align your reads to a genomic reference sequence
+- Figure 5Mapping shifts of reads aligned to the genome with three algorithms... (a) STAR. (b) GSNAP. (c) HISAT2.
+derived_from:
+- doi: 10.1038/s41467-021-21894-x
+  title: Aptardi predicts polyadenylation sites in sample-specific transcriptomes using high-throughput RNA sequencing and DNA sequence
+- doi: 10.1016/j.gpb.2019.11.004
+  title: 'CIRCexplorer3: A CLEAR Pipeline for Direct Comparison of Circular and Linear RNA Expression'
+- doi: 10.1038/s41467-024-46875-8
+  title: 'InPACT: a computational method for accurate characterization of intronic polyadenylation from RNA sequencing data'
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+- doi: 10.1016/j.isci.2022.104067
+  title: Tiglon enables accurate transcriptome assembly via integrating mappings of different aligners
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/luskry/aptardi
+- https://github.com/YangLab/CLEAR
+- https://github.com/YY-TMU/InPACT
+- https://github.com/equipeGST/RiboDoc
+- https://github.com/DaehwanKimLab/hisat2
+- https://github.com/yutingsdu/Tiglon-v.1.1
+- https://github.com/jiujiezz/tsnad
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/luskry/aptardi

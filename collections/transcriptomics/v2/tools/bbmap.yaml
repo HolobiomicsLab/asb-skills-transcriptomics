@@ -1,0 +1,17 @@
+name: bbmap
+slug: bbmap
+version_used: null
+edam_topics: []
+evidence_spans:
+- -align = alignment tool bbmap (default) or bowtie2
+derived_from:
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+source_repos:
+- https://github.com/galelab/scPathoQuant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/galelab/scPathoQuant

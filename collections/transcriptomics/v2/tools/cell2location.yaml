@@ -1,0 +1,29 @@
+name: Cell2location
+slug: cell2location
+version_used: null
+edam_topics: []
+evidence_spans:
+- deconvolute cell type composition for each spot on single ST slice.
+- Deconvolution of mouse lymph node samples
+- The cell2location model was trained with parameters max_epochs = 30,000.
+derived_from:
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1093/bib/bbae189
+  title: 'SpatialCells: automated profiling of tumor microenvironments with spatially resolved multiplexed single-cell data'
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+source_repos:
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/SemenovLab/SpatialCells
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/BayraktarLab/cell2location
+- https://github.com/YangLabHKUST/SpatialScope
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QuKunLab/SPACEL

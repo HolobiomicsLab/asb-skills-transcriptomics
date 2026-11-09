@@ -1,0 +1,22 @@
+name: InPACT
+slug: inpact
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'InPACT is a computational method that could be used to identify IPA sites by combining two modules: the sequence module'
+- we propose a computational method called InPACT, which allows for the precise characterization of IPA from conventional RNA-seq data
+- the IPA sites identified by InPACT, APAIQ, and IPAFinder from RNA-seq data were compared with those captured in the 3’ end sequencing data
+- Subsequently, InPACT, APAIQ and IPAFinder were employed to predict IPA sites for each simulated RNA-seq data.
+- InPACT is a computational method that could be used to identify IPA sites by combining two modules
+- we applied InPACT to identify novel IPA sites and assemble novel IPA isoforms from these RNA-seq data
+derived_from:
+- doi: 10.1038/s41467-024-46875-8
+  title: 'InPACT: a computational method for accurate characterization of intronic polyadenylation from RNA sequencing data'
+source_repos:
+- https://github.com/YY-TMU/InPACT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YY-TMU/InPACT

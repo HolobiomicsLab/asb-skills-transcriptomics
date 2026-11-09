@@ -1,0 +1,25 @@
+name: SCCAF
+slug: sccaf
+version_used: null
+edam_topics: []
+evidence_spans:
+- In scRNA-seq clustering of cells, SCCAF11 uses a self-projection machine learning approach on a pre-clustered dataset
+- If query data has unseen cell types not in reference, MASI in combination with SCCAF can be used to identify subtypes within major cell types.
+- We also develop a new biology conservation metric to address the maintenance of cell type distinguishability.
+derived_from:
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+source_repos:
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+- https://github.com/hayatlab/MASI
+- https://github.com/Papatheodorou-Group/scOntoMatch
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KaplanLab/KMDHierarchicalClustering

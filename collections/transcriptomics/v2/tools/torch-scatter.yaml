@@ -1,0 +1,22 @@
+name: torch-scatter
+slug: torch-scatter
+version_used: 2.0.6
+edam_topics: []
+evidence_spans:
+- torch-scatter and torch-sparse are required for dealing with sparse graph
+- pip install torch-scatter==2.0.6 -f https://pytorch-geometric.com/whl/torch-1.7.1+cu110.html
+- 'torch-scatter version: 2.0.9'
+derived_from:
+- doi: 10.1016/j.gpb.2022.11.004
+  title: 'DGMP: Identifying Cancer Driver Genes by Jointing DGCN and MLP from Multi-Omics Genomic Data'
+- doi: 10.1093/bioinformatics/btad098
+  title: 'scGCL: an imputation method for scRNA-seq data based on graph contrastive learning'
+source_repos:
+- https://github.com/NWPU-903PR/DGMP
+- https://github.com/zehaoxiong123/scGCL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NWPU-903PR/DGMP

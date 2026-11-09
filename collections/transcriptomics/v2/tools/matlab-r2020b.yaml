@@ -1,0 +1,19 @@
+name: Matlab R2020b
+slug: matlab-r2020b
+version_used: null
+edam_topics: []
+evidence_spans:
+- we implement the algorithm using the Matlab program language
+- solve the binary integer-programming problem using function “intlinprog” which is available in the Optimization ToolBox of MatLab version R2020b
+- In this study, we implement the algorithm using the Matlab program language
+derived_from:
+- doi: 10.1093/bioinformatics/btad071
+  title: 'WMDS.net: a network control framework for identifying key players in transcriptome programs'
+source_repos:
+- https://github.com/chaofen123/WMDS.net
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chaofen123/WMDS.net

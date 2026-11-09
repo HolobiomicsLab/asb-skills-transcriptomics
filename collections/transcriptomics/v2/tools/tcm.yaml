@@ -1,0 +1,21 @@
+name: TCM
+slug: tcm
+version_used: null
+edam_topics: []
+evidence_spans:
+- We provide the R implementation of TCM as a Supplementary Software Program.
+- The recommended installation method for `tcm` is using `install_github` command from `devtools` library.
+- mf <- tcm(X, time.table = time.table)
+- library(tcm)
+- mf <- tcm(X, time.table = time.table, ls = ls, init = list(method = 'backward', update.beta = TRUE))
+derived_from:
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+source_repos:
+- https://github.com/gongx030/tcm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gongx030/tcm

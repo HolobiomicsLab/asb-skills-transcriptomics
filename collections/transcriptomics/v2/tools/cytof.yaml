@@ -1,0 +1,21 @@
+name: CyTOF
+slug: cytof
+version_used: null
+edam_topics: []
+evidence_spans:
+- Mass cytometry (CyTOF) facilitates the quantification of ∼50 parameters on millions of cells in a single experiment
+- Cytometry by Time-Of-Flight (CyTOF)2 and imaging mass cytometry3 have exploded in recent years
+derived_from:
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+source_repos:
+- https://github.com/mamouzgar/hsslda
+- https://github.com/SydneyBioX/scMerge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mamouzgar/hsslda

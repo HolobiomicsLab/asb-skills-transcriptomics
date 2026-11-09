@@ -1,0 +1,17 @@
+name: TensorFlow >=2.0
+slug: tensorflow-2-0
+version_used: null
+edam_topics: []
+evidence_spans:
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0) and a few other pacakges installed first(as below).
+derived_from:
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+source_repos:
+- https://github.com/datapplab/AutoClass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/datapplab/AutoClass

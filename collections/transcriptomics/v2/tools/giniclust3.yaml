@@ -1,0 +1,17 @@
+name: giniclust3
+slug: giniclust3
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'import giniclust3 as gc  # GiniClust3'
+derived_from:
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+source_repos:
+- https://github.com/jr-leary7/SCISSORS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jr-leary7/SCISSORS

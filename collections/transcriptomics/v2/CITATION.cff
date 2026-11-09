@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: If you use this collection, please cite it as below.
+title: ASB Transcriptomics Skill Collection v2
+abstract: 'ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
+version: '2'
+license: CC-BY-4.0
+url: https://github.com/HolobiomicsLab/asb-skills-transcriptomics
+type: dataset
+authors:
+- family-names: Nothias
+  given-names: Louis-Félix
+  orcid: https://orcid.org/0000-0001-6711-6719
+  affiliation: Holobiomics Lab, Institut de Chimie de Nice (ICN), CNRS UMR 7272 / Université Côte d'Azur
+- name: AgenticScienceBuilder AI framework (from the scientific literature)
+keywords:
+- transcriptomics
+- scientific skills

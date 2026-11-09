@@ -1,0 +1,28 @@
+name: limma-voom
+slug: limma-voom
+version_used: null
+edam_topics: []
+evidence_spans:
+- usually performed via well-known R Bioconductor packages such as DESeq2, edgeR, or limma-voom.
+- pseudobulk counts were used as input to bulk RNA-seq differential engines, such as edgeR22, DESeq223, or limma-voom24,25.
+- pseudobulk counts were used as input to bulk RNA-seq differential engines, such as edgeR22, DESeq223, or limma-voom24,25
+- limma-voom and edgeR operate naturally on pseudobulk counts
+- we have also used limma-trend on the mean of log-transformed library-size-normalized counts (log counts)
+- genes 7 and 8 show differential expression, pseudotime dependence and pseudotime-covariate interactions
+derived_from:
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+source_repos:
+- https://github.com/elisabettasciacca/DEGGs
+- https://github.com/HelenaLC/muscat
+- https://github.com/kieranrcampbell/phenopath
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/elisabettasciacca/DEGGs

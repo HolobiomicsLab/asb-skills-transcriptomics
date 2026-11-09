@@ -1,0 +1,24 @@
+name: ppcor
+slug: ppcor
+version_used: null
+edam_topics: []
+evidence_spans:
+- Using GRouNdGAN, we benchmark eight GRN inference methods
+- Top-performing single cell GRN methods based on a recent benchmark study like ppcor,16 PIDC,17 and GRNBOOST2,18 present diverse approaches to GRN construction
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+- doi: 10.1016/j.isci.2023.107124
+  title: 'SCING: Inference of robust, interpretable gene regulatory networks from single cell and spatial transcriptomics'
+source_repos:
+- https://github.com/MaShisongLab/CellGEP
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+- https://github.com/XiaYangLabOrg/SCING
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MaShisongLab/CellGEP

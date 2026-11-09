@@ -1,0 +1,22 @@
+name: ExperimentHub
+slug: experimenthub
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(ExperimentHub)
+- res = query(dat , "GSE13015")
+- Access to the clean and the processed data `SummarizedExperiment` objects through `ExperimentHub`.
+derived_from:
+- doi: 10.1038/s41467-021-24584-w
+  title: Development of a fixed module repertoire for the analysis and interpretation of blood transcriptome data
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+source_repos:
+- https://github.com/Drinchai/BloodGen3Module
+- https://github.com/MahShaaban/curatedAdipoArray
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Drinchai/BloodGen3Module

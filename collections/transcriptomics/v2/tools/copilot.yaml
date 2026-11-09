@@ -1,0 +1,17 @@
+name: COPILOT
+slug: copilot
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.xpro.2022.101729
+  title: Protocol for fast scRNA-seq raw data processing using scKB and non-arbitrary quality control with COPILOT
+source_repos:
+- https://github.com/Hsu-Che-Wei/COPILOT
+- https://github.com/ohlerlab/COPILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Hsu-Che-Wei/COPILOT

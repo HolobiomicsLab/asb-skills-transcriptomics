@@ -1,0 +1,17 @@
+name: Multi-scale PHATE
+slug: multi-scale-phate
+version_used: null
+edam_topics: []
+evidence_spans:
+- Multi-scale PHATE (Kuchroo et al, 2022) is based on non-linear embeddings and multi-resolution representation to cluster cells at distinct resolutions.
+derived_from:
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+source_repos:
+- https://github.com/CostaLab/PILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CostaLab/PILOT

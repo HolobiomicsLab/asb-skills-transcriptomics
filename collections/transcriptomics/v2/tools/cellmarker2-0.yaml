@@ -1,0 +1,16 @@
+name: CellMarker2.0
+slug: cellmarker2-0
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbaf243
+  title: 'scaLR: a low-resource deep neural network-based platform for single cell analysis and biomarker discovery'
+source_repos:
+- https://github.com/infocusp/scaLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/infocusp/scaLR

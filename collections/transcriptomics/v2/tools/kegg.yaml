@@ -1,0 +1,29 @@
+name: KEGG
+slug: kegg
+version_used: null
+edam_topics: []
+evidence_spans:
+- All protein-coding genes (n = 12,828,537) from 687 organisms covering all major phyla of eukaryotes were downloaded from KEGG
+- functions as defined by several widely used pathway libraries and ontologies such as Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO)
+- were downloaded with human genes from the KEGG pathway database [27]
+- It downloads the KEGG pathways hsa00010 and hsa00020 for rule inference.
+derived_from:
+- doi: 10.1016/j.isci.2021.103331
+  title: 'DCcov: Repositioning of drugs and drug combinations for SARS-CoV-2 infected lung through constraint-based modeling'
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+- doi: 10.1016/j.gpb.2021.03.003
+  title: 'FunHoP: Enhanced Visualization and Analysis of Functionally Homologous Proteins in Complex Metabolic Networks'
+- doi: 10.1038/s41540-022-00246-5
+  title: Executable models of immune signaling pathways in HIV-associated atherosclerosis
+source_repos:
+- https://github.com/sysbiolux/DCcov
+- https://github.com/xia-lab/ExpressAnalystR
+- https://github.com/kjerstirise/FunHoP
+- https://github.com/Thakar-Lab/scBONITA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sysbiolux/DCcov

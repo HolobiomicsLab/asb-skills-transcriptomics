@@ -1,0 +1,28 @@
+name: CIBERSORT
+slug: cibersort
+version_used: null
+edam_topics: []
+evidence_spans:
+- CIBERSORT14 is a SVM-regression-based approach, originally designed for microarray data that utilizes a reference generated from purified cell populations
+- CIBERSORT14 is a SVM-regression-based approach, originally designed for microarray data
+- cell type definitions in reference databases such as CIBERSORT, Azimuth, and Human Primary Cell Atlas
+derived_from:
+- doi: 10.1038/s41467-020-15816-6
+  title: Accurate estimation of cell composition in bulk expression through robust integration of single-cell information
+- doi: 10.1038/s41467-023-38333-8
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+- doi: 10.1016/j.crmeth.2022.100332
+  title: Multiset multicover methods for discriminative marker selection
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+source_repos:
+- https://github.com/cozygene/bisque
+- https://github.com/yi-zhang/MetaTiME
+- https://github.com/euxhenh/phenotype-cover
+- https://github.com/compbioNJU/scPlant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/bisque

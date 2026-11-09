@@ -1,0 +1,88 @@
+{
+  "workflows": {
+    "bulk_rnaseq_differential_expression": {
+      "workflow_id": "bulk_rnaseq_differential_expression",
+      "prefer": [
+        {
+          "stage": "trim_bulk_reads",
+          "pin": "rna-seq-adapter-quality-trimming",
+          "status": "resolved",
+          "resolved_slug": "rna-seq-adapter-quality-trimming"
+        },
+        {
+          "stage": "quantify_raw_gene_counts",
+          "pin": "kallisto-reference-assembly-pseudoalignment",
+          "status": "resolved",
+          "resolved_slug": "kallisto-reference-assembly-pseudoalignment"
+        },
+        {
+          "stage": "test_differential_expression",
+          "pin": "rna-seq-differential-expression-analysis--864ee06faecb526b",
+          "status": "resolved",
+          "resolved_slug": "rna-seq-differential-expression-analysis--864ee06faecb526b"
+        },
+        {
+          "stage": "test_pathway_enrichment",
+          "pin": "gsea-prerank-pathway-enrichment-analysis",
+          "status": "resolved",
+          "resolved_slug": "gsea-prerank-pathway-enrichment-analysis"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 4,
+        "prefer_resolved": 4,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "single_cell_clustering_annotation": {
+      "workflow_id": "single_cell_clustering_annotation",
+      "prefer": [
+        {
+          "stage": "filter_cells_and_genes",
+          "pin": "single-cell-rna-seq-quality-filtering",
+          "status": "resolved",
+          "resolved_slug": "single-cell-rna-seq-quality-filtering"
+        },
+        {
+          "stage": "normalize_expression",
+          "pin": "scrna-cpm-normalization-log1p-scaling",
+          "status": "resolved",
+          "resolved_slug": "scrna-cpm-normalization-log1p-scaling"
+        },
+        {
+          "stage": "compute_pca_embedding",
+          "pin": "pca-dimensionality-reduction-scrna--260081bc53a44a5a",
+          "status": "resolved",
+          "resolved_slug": "pca-dimensionality-reduction-scrna--260081bc53a44a5a"
+        },
+        {
+          "stage": "cluster_cells",
+          "pin": "leiden-clustering-of-low-dimensional-embeddings",
+          "status": "resolved",
+          "resolved_slug": "leiden-clustering-of-low-dimensional-embeddings"
+        },
+        {
+          "stage": "identify_cluster_markers",
+          "pin": "marker-gene-identification-across-clusters",
+          "status": "resolved",
+          "resolved_slug": "marker-gene-identification-across-clusters"
+        },
+        {
+          "stage": "annotate_cell_types",
+          "pin": "tissue-specific-marker-database-matching",
+          "status": "resolved",
+          "resolved_slug": "tissue-specific-marker-database-matching"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 6,
+        "prefer_resolved": 6,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+name: pLDA
+slug: plda
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s12561-021-09304-8
+  title: Penalized Latent Dirichlet Allocation Model in Single-Cell RNA Sequencing
+source_repos:
+- https://github.com/wuxiaotiankevin/pLDA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wuxiaotiankevin/pLDA

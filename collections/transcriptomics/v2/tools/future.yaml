@@ -1,0 +1,26 @@
+name: future
+slug: future
+version_used: null
+edam_topics: []
+evidence_spans:
+- '"future": uses the `{future}` as the backend. This backend should work by simply installing the `{future}` package.'
+- or in parallel through the future package [10] (minimizing execution time)
+- or in parallel through the future package [10] (minimizing execution time) depending on the available computational resources.
+- or in parallel through the future package
+derived_from:
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1016/j.csbj.2021.06.043
+  title: 'UCell: Robust and scalable single-cell gene signature scoring'
+source_repos:
+- https://github.com/yuntianf/Longcell
+- https://github.com/bioinfocz/scdrake
+- https://github.com/carmonalab/UCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yuntianf/Longcell

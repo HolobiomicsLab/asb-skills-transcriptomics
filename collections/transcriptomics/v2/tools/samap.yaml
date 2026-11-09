@@ -1,0 +1,23 @@
+name: SAMap
+slug: samap
+version_used: null
+edam_topics: []
+evidence_spans:
+- SAMap outperforms when integrating whole-body atlases between species with challenging gene homology annotation.
+- atarashansky/SAMap
+- our model outperforms Seurat and the state-of-the-art method SAMap
+derived_from:
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1093/bioinformatics/btad248
+  title: Cell type matching across species using protein embeddings and transfer learning
+source_repos:
+- https://github.com/atarashansky/SAMap
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/kbiharie/TACTiCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/atarashansky/SAMap

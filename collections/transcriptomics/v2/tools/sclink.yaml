@@ -1,0 +1,19 @@
+name: scLink
+slug: sclink
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(scLink)
+- Here we introduce the `scLink` package, which uses statistical network modeling to understand the co-expression relationships among genes
+- we use the function `sclink_net` to calculate the robust correlation matrix and identifed sparse co-expression network of scLink
+derived_from:
+- doi: 10.1016/j.gpb.2020.11.006
+  title: 'scLink: Inferring Sparse Gene Co-Expression Networks from Single-Cell Expression Data'
+source_repos:
+- https://github.com/Vivianstats/scLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Vivianstats/scLink

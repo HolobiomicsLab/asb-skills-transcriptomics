@@ -1,0 +1,299 @@
+name: scikit-learn
+slug: scikit-learn
+version_used: '1.3'
+edam_topics: []
+evidence_spans:
+- pip install numpy pandas sklearn matplotlib
+- numpy, scikit-learn, tensorflow, matplotlib.
+- '> numpy, scikit-learn, tensorflow, matplotlib.'
+- "For Python (2.7):\n    > numpy, scikit-learn, tensorflow, matplotlib."
+- a chi2 feature selection with scikit-learn 1.0.2
+- with random forest (n_estimator = 50) and nearest neighbor classifiers (n_neighbors = 1 and metric = 'jaccard') using scikit-learn 1.0.2
+- from sklearn.model_selection import train_test_split
+- 'from sklearn.preprocessing import OneHotEncoder
+
+  import numpy as np
+
+  from sklearn.model_selection import train_test_split'
+- 'from numpy import random
+
+  from sklearn.preprocessing import OneHotEncoder
+
+  import numpy as np
+
+  from sklearn.model_selection import train_test_split'
+- numpy, scipy, pandas, scikit-learn, tqdm
+- sklearn
+- We used the PCA implementation of the scikit-learn package with a randomized SVD solver.
+- scikit-learn (>=1.0.2) Pedregosa et al. (2011) https://scikit-learn.org/stable/scikit-learn.org/stable/
+- '- scikit-learn (>= 0.21.3)'
+- We used the implementation of Random forest from the Python package Sci-Kit Learn23.
+- python>=3.8 numpy==1.23.5 scipy pandas>=1.4.1 anndata scvelo>=0.1.25 joblib fastdtw hausdorff scikit-learn>=1.3.0 numba tqdm
+- '* sklearn'
+- k-nearest neighbors classification was implemented using the scikit-learn v0.23.2 package in python
+- We performed random forest classification using the scikit-learn v0.23.2 package in python.
+- features are clustered according to the transpose of their average pairwise change in expression across the representative cellular neighborhoods, ΔT, using the KMeans ++ algorithm105
+- using the KMeans + + algorithm105
+- The scikit-learn software package was used to train the random forest classifier
+- the higher the resolution (increased value of k), the easier to minimize grouping of functional proteins but the harder to group
+- '* scikit-learn'
+- 'Scikit-learn: machine learning in Python'
+- For all other parameters we use the defaults of the SVM SGD implementation provided by scikit-learn31.
+- "numpy\n  - sklearn"
+- '- sklearn'
+- we tested the performance of different classification models available in scikit-learn library [58]
+- sklearn
+- We have used LR implementation from the machine learning package scikit-learn
+- from sklearn.datasets import fetch_openml
+- 'Usage follows scikit-learn interface:'
+- All simulated datasets were generated using scikit-learn random sample generators with 1000 objects and seed = 1.
+- scikit-learn == 1.1.3
+- metatime.mecmapper module
+- Silhouette widths77 for each cell were calculated using the Scikit-learn74 python package.
+- We used Scikit-learn ' s implementation silhouette_score87
+- We used Scikit-learn's implementation silhouette_score87.
+- using pandas and Scikit-learn [25]
+- 'data_pt["pca"]: sklearn.decomposition.PCA object fit to normalized expression and used to produce PCs.'
+- sklearn.decomposition.PCA object fit to normalized expression and used to produce PCs
+- sklearn.decomposition.PCA object fit to normalized expression and used to produce PCs.
+- conda create -n scasl -c conda-forge scikit-learn python=3.9
+- '> conda create -n scasl -c conda-forge scikit-learn python=3.9'
+- We adopted the Gaussian Mixture Model provided in the Scikit-learn Python package42, v.1.1.1.
+- 'Scikit-learn: machine learning in Python'
+- predict.label <- predict(model.ref, testdata)
+- Confusion matrix, prediction accuracy, and AUC score were calculated through scikit-learn (Pedregosa et al. 2011)
+- For each node in the tree either a linear SVM, kNN, or one-class SVM is trained.
+- We implemented the hold-out validation strategy proposed by the python package sklearn9 (function model_selection.train_test_split)
+- SKlearn 0.22.1
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+- scikit-learn
+- 'numpy
+
+  scipy
+
+  tensorflow
+
+  scikit-learn
+
+  pandas
+
+  scanpy
+
+  anndata'
+- compute per-cell pairwise cosine similarities between the fast_ucell PAS vectors and AUCell PAS vectors using scikit-learn
+- disease-related multicellular pathway modules (latent factor and its corresponding weights of pathways across cell types) can be identified by statistical analysis
+- we use a linear classifier RidgeClassifier from scikit-learn130 (with an L2 penalty set to 1, a positivity constraint on the coefficients
+- we use a linear classifier RidgeClassifier from scikit-learn130
+- Classifiers like logistic regression and xgboost were run according to the openproblem process, using the 25 principal components
+- Utilizing the annotated single-cell data from the representatives, we trained an MLP classifier available in the Scikit-learn package86.
+- implemented in the Python package Scikit-learn86
+- we employ Principal Component Analysis (PCA)83–85, implemented in the Python package Scikit-learn86
+- '[![scikit-learn 1.1.2](https://img.shields.io/badge/scikit--learn-1.1.2-yellow)](https://pypi.org/project/scikit-learn/)'
+- '[![scikit-learn 1.1.2](https://img.shields.io/badge/scikit--learn-1.1.2-yellow)]'
+- Here, the mathematical notation is consistent with conventions applied in the sklearn python library.
+- 'SpaOTsc depends on the following packages: pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.'
+- pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.
+- '[Scikit-learn](http://scikit-learn.org/) (version = 0.18)'
+- It is based on the Scikit-Learn library and is easy to re-implement.
+- 'Scikit-learn: machine learning in Python'
+- '- scikit-learn'
+- scikit-learn
+- we trained a k-Nearest-Neighbor (kNN) classifier by the sklearn.neighbors.KNeighborsClassifier function based on cell-type annotations and UMAP coordinates
+- We normalized values of each gene to the range of 0-1 within each dataset by the MaxAbsScaler function
+- we trained a k-Nearest-Neighbor (kNN) classifier by the sklearn.neighbors.KNeighborsClassifier function
+- + sklearn 0.18.1
+- 'Scikit-learn: machine learning in Python'
+- Sklearn, scikit-learn version=0.21.3
+- '> scikit-learn >= 0.18.1'
+- scikit-learn >= 0.18.1
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41598-018-34688-x
+  title: 'AutoImpute: Autoencoder based imputation of single-cell RNA-seq data'
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1016/j.xpro.2022.101583
+  title: Protocol for using Ciclops to build models trained on cross-platform transcriptome data for clinical outcome prediction
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1038/s41598-021-04015-y
+  title: Novel ratio-metric features enable the identification of new driver genes across cancer types
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1093/bioinformatics/btad649
+  title: 'dsRID: <i>in silico</i> identification of dsRNA regions using long-read RNA-seq data'
+- doi: 10.1016/j.patter.2022.100443
+  title: 'EMBEDR: Distinguishing signal from noise in single-cell omics data'
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1038/s41467-018-05988-7
+  title: 'GraphDDP: a graph-embedding approach to detect differentiation pathways in single-cell-data using prior class knowledge'
+- doi: 10.1016/j.csbj.2020.10.032
+  title: Accurate prediction of RNA 5-hydroxymethylcytosine modification by utilizing novel position-specific gapped k-mer descriptors
+- doi: 10.1038/s41598-019-45301-0
+  title: Structure-preserving visualisation of high dimensional single-cell datasets
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+- doi: 10.1038/s41598-022-22082-7
+  title: 'LncDC: a machine learning-based tool for long non-coding RNA detection from RNA-Seq data'
+- doi: 10.1016/j.csbj.2022.06.010
+  title: 'MarkerCount: A stable, count-based cell type identifier for single-cell RNA-seq experiments'
+- doi: 10.1038/s41467-023-38333-8
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+- doi: 10.1016/j.crmeth.2022.100332
+  title: Multiset multicover methods for discriminative marker selection
+- doi: 10.1038/s41467-021-23518-w
+  title: Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions
+- doi: 10.1093/bib/bbaf107
+  title: 'REDInet: a temporal convolutional network-based classifier for A-to-I RNA editing detection harnessing million known events'
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1038/s41467-021-23196-8
+  title: Hierarchical progressive learning of cell identities in single-cell data
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+- doi: 10.1038/s41467-024-50150-1
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and active learning'
+- doi: 10.1016/j.isci.2021.102855
+  title: A reference-free approach for cell type classification with scRNA-seq
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+- doi: 10.1093/bib/bbaf279
+  title: 'scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks'
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+- doi: 10.1016/j.omtn.2021.10.012
+  title: 'Staem5: A novel computational approach for accurate prediction of m5C site'
+- doi: 10.1038/s41467-019-09670-4
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+- doi: 10.1016/j.gpb.2018.08.003
+  title: 'VASC: Dimension Reduction and Visualization of Single-Cell RNA-Seq Data by Deep Variational Autoencoder'
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+- doi: 10.1016/j.ab.2020.113767
+  title: 'LPI-CNNCP: Prediction of lncRNA-protein interactions by using convolutional neural network with the copy-padding trick'
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/datapplab/AutoClass
+- https://github.com/divyanshu-talwar/AutoImpute
+- https://github.com/Carrion-lab/bacLIFE
+- https://github.com/ashiq24/BEENE
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/euxhenh/cellar
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/GuanLab/ciclops
+- https://github.com/MintaYLu/COT
+- https://github.com/RamanLab/cTaG
+- https://github.com/aron0093/cytopath
+- https://github.com/SUwonglab/DC3
+- https://github.com/jranek/delve
+- https://github.com/gxiaolab/dsRID
+- https://github.com/ejohnson643/EMBEDR
+- https://github.com/xia-lab/ExpressAnalystR
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/fabriziocosta/GraphEmbed
+- https://github.com/zahid6454/iRNA5hmC-PS
+- https://github.com/beringresearch/ivis
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+- https://github.com/lim74/LncDC
+- https://github.com/combio-dku/MarkerCount
+- https://github.com/yi-zhang/MetaTiME
+- https://github.com/cistrome/MIRA
+- https://github.com/lixiangchun/Miscell
+- https://github.com/cantinilab/mowgli
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/F0nz0/NanoSpeech_basecaller
+- https://github.com/euxhenh/phenotype-cover
+- https://github.com/gifford-lab/prescient
+- https://github.com/BioinfoUNIBA/REDInet
+- https://github.com/xryanglab/SCASL
+- https://github.com/XLearning-SCU/scBridge
+- https://github.com/xuyp-csu/scCAD
+- https://github.com/czythu/scCancer
+- https://github.com/lcmmichielsen/scHPL
+- https://github.com/PaulingLiu/scibet
+- https://github.com/xianglin226/scMDC
+- https://github.com/bucky527/scME
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/ZhuoliHuang/scPAFA
+- https://github.com/cantinilab/scPRINT
+- https://github.com/mcgilldinglab/scSemiProfiler
+- https://github.com/digi2002/scSimClassify
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/frankligy/scTriangulate
+- https://github.com/LHBCB/scvalue
+- https://github.com/zcang/SpaOTsc
+- https://github.com/lanagarmire/SSrGE
+- https://github.com/Cxd-626/Staem5
+- https://github.com/pinellolab/stream
+- https://github.com/bauerbach95/tempo
+- https://github.com/caokai1073/uniPort
+- https://github.com/wang-research/VASC
+- https://github.com/LucasESBS/vega
+- https://github.com/NWPU-903PR/LPI-CNNCP
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion

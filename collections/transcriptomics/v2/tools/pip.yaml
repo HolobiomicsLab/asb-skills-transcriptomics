@@ -1,0 +1,104 @@
+name: pip
+slug: pip
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'conda activate bdenv
+
+
+  pip install .'
+- pip install .
+- pip install git+https://github.com/CCIVR/ccivr.git
+- 'Install this package via pip:
+
+
+  ```
+
+  pip install'
+- pip install -r requirements.txt
+- pip install -r requirements.txt
+- conda create -n deepcciEnv python=3.7.4 pip
+- install the required packages using pip
+- 'ensure that `python3.9`, and `python-pip` are installed, then run: `make install`'
+- Simply do `pip install markermap`
+- pip install -e .
+- or simply use `pip install mudcod`
+- 'OnClass is available through the `Python Package Index`_ and thus can be installed
+
+  using pip.'
+- 'Install latest release with:
+
+  ```
+
+  pip install peaks2utr
+
+  ```'
+- pip install peaks2utr
+- pip install conda-pack
+- Install with Pip if you plan on running R4scSHARP from Python.
+- '``pip install scSHARP``'
+- 'Through **pip**::'
+- "Through **pip**::\n\n    pip install sift-sc"
+- pip install sift-sc
+- 'pip install .  # install package in cafeh environment'
+derived_from:
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/s41598-022-19782-5
+  title: CCIVR facilitates comprehensive identification of cis-natural antisense transcripts with their structural characteristics and expression profiles
+- doi: 10.1016/j.xpro.2022.101583
+  title: Protocol for using Ciclops to build models trained on cross-platform transcriptome data for clinical outcome prediction
+- doi: 10.1016/j.ebiom.2023.104472
+  title: Early peripheral blood MCEMP1 and HLA-DRA expression predicts COVID-19 prognosis
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+- doi: 10.1093/bioinformatics/btad649
+  title: 'dsRID: <i>in silico</i> identification of dsRNA regions using long-read RNA-seq data'
+- doi: 10.1093/bioinformatics/btae102
+  title: 'Flexiplex: a versatile demultiplexer and search tool for omics data'
+- doi: 10.1038/s41540-024-00339-3
+  title: 'MarkerMap: nonlinear marker selection for single-cell studies'
+- doi: 10.1093/bioadv/vbac083
+  title: 'Metadensity: a background-aware python pipeline for summarizing CLIP signals on various transcriptomic sites'
+- doi: 10.1093/bioinformatics/btad592
+  title: 'MuDCoD: multi-subject community detection in personalized dynamic gene networks from single-cell RNA sequencing'
+- doi: 10.1038/s41467-021-25725-x
+  title: Leveraging the Cell Ontology to classify unseen cell types
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+- doi: 10.1093/bioinformatics/btad360
+  title: Consensus label propagation with graph convolutional networks for single-cell RNA sequencing cell type annotation
+- doi: 10.1038/s41467-024-44757-7
+  title: 'SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data'
+- doi: 10.1016/j.ajhg.2022.01.002
+  title: Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity
+source_repos:
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/CCIVR/ccivr
+- https://github.com/GuanLab/ciclops.git
+- https://github.com/GuanLab/ciclops
+- https://github.com/kuanrongchan/COVID19-severity
+- https://github.com/JiangBioLab/DeepCCI
+- https://github.com/gxiaolab/dsRID
+- https://github.com/DavidsonGroup/flexiplex
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap
+- https://github.com/YeoLab/Metadensity
+- https://github.com/bo1929/MuDCoD
+- https://github.com/wangshenguiuc/OnClass
+- https://github.com/haessar/peaks2utr
+- https://github.com/luisaparicio/randomly
+- https://github.com/RabadanLab/randomly
+- https://github.com/OSU-BMBL/scDEAL
+- https://github.com/mperozek11/scSHARP_tool
+- https://github.com/nitzanlab/sift-sc
+- https://github.com/karltayeb/cafeh
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/boostdiff_inference

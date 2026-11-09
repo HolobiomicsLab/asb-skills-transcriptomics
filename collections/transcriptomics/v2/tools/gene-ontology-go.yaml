@@ -1,0 +1,17 @@
+name: Gene Ontology (GO)
+slug: gene-ontology-go
+version_used: null
+edam_topics: []
+evidence_spans:
+- functions as defined by several widely used pathway libraries and ontologies such as Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO)
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

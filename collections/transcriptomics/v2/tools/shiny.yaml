@@ -1,0 +1,33 @@
+name: Shiny
+slug: shiny
+version_used: null
+edam_topics: []
+evidence_spans:
+- with the help of Shiny, an R package that facilitates the building of interactive web Apps straight from R
+- Implemented in R/Shiny, InterCellar is distributed as an open-source Bioconductor36 package
+- Ctrl+C in command terminal to close shiny app
+- MethylR has graphical user interface to support and understand the various options used in the DNA methylation analysis
+- Here, in *methylR*, we presented a shiny-based web server approach to minimize the above-mentioned difficulties.
+- we presented a shiny-based web server approach to minimize the above-mentioned difficulties.
+- shiny-based web server approach
+derived_from:
+- doi: 10.1038/s41598-020-60791-z
+  title: 'HDMAC: A Web-Based Interactive Program for High-Dimensional Analysis of Molecular Alterations in Cancer'
+- doi: 10.1038/s42003-021-02986-2
+  title: InterCellar enables interactive analysis and exploration of cell−cell communication in single-cell transcriptomic data
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1093/bioinformatics/btad184
+  title: 'methylR: a graphical interface for comprehensive DNA methylation array data analysis'
+source_repos:
+- https://github.com/chung-R/HD-MAC
+- https://github.com/martaint/InterCellar
+- https://github.com/SchlitzerLab/IntestLine
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/JD2112/methylr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chung-R/HD-MAC

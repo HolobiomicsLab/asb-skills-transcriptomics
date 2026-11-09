@@ -1,0 +1,28 @@
+name: IsoQuant
+slug: isoquant
+version_used: '3.3'
+edam_topics: []
+evidence_spans:
+- cloudrnaSPAdes accurately assembles isoforms, even for genes with high isoform diversity
+- to compare statistics for multiple assemblies of the same data set
+- QUAST may be used to generate summary statistics (N50, maximum contig length, GC %
+- (absent — flagged as missing)
+- "IsoQuant(AllInfoFile = 'LongReadInfo/AllInfo',\n          Iso = TRUE, TSS = TRUE, PolyA = TRUE)"
+derived_from:
+- doi: 10.1093/bioinformatics/btad781
+  title: "<scp>cloudrna</scp>\n                    SP\n                    <scp>Ades</scp>\n                    : isoform assembly using bulk barcoded RNA sequencing data"
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+source_repos:
+- https://github.com/1dayac/cloudrnaSPAdes-release
+- https://github.com/yuntianf/Longcell
+- https://github.com/ablab/isoquant
+- https://github.com/noush-joglekar/scisorseqr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/cloudrnaSPAdes-release

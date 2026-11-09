@@ -1,0 +1,227 @@
+name: Pandas
+slug: pandas
+version_used: 1.2.0
+edam_topics: []
+evidence_spans:
+- returning results as either a [Pandas](https://pandas.pydata.org/) DataFrame
+- a [Pandas](https://pandas.pydata.org/) DataFrame
+- the query method interfaces with the database to return a pandas dataframe (default), AnnData, or Parquet file
+- pip install numpy pandas sklearn matplotlib
+- import pandas as pd
+- df_map = pd.read_csv(file_mapping, sep="\t")
+- numpy, scipy, pandas, scikit-learn, tqdm
+- '- pandas (>= 1.2.0)'
+- The Python package is open source at GitHub, built using NumPy and Pandas, and is distributed under the MIT license.
+- scipy pandas>=1.4.1 anndata
+- '* pandas'
+- import pandas as pd
+- Using the computational power of the Pandas library in Python, we build a Python library to meet the requirements of normalization and internal reference gene screening.
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- Using the computational power of the Pandas library in Python, we build a Python library
+- pip install pandas
+- 'The recommended versions are as follows: pandas >= 1.2.5'
+- 'python >=3.7, <4
+
+  pysam
+
+  Bio
+
+  sklearn
+
+  pandas
+
+  numpy'
+- "- python\n  - pandas\n  - numpy"
+- "python\n  - pandas"
+- '- pandas'
+- "- Using \"pip\" install the following packages: (Command: pip install <package name>)\n  - python\n  - pandas"
+- pandas
+- pandas == 1.5
+- "the input should be two dataframes `dna_df` and \n`rna_df`"
+- the input should be two dataframes `dna_df` and
+- using pandas and Scikit-learn [25]
+- Install the dependency package PyEMMA >=2.5.6, Scanpy, Numpy, Pandas and Seaborn
+- pandas DataFrame objects (McKinney et al. 2011), and the Scanpy toolkit
+- '- [pandas 1.4.4](https://pandas.pydata.org)'
+- 'import pilotpy as pl
+
+  import scanpy as sc
+
+  import pandas as pd'
+- a table of cells with annotations in Pandas format is supported
+- conda install -c conda-forge pandas pyyaml seaborn tqdm easydict umap-learn
+- You can either import data directly from a pandas DataFrame via ``from_pandas``
+- '`meta_cells` (`pandas.dataframe` of the shape `(ncells, xx)`'
+- "* python version >= 3.7 with the following libraries\n   * pandas"
+- '* pandas'
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+- pandas
+- '* pandas >= 0.21.0'
+- pandas >= 0.21.0
+- import pandas as pd
+- '[![pandas 1.5.0](https://img.shields.io/badge/pandas-1.5.0-yellowgreen)](https://pypi.org/project/pandas/)'
+- '[![pandas 1.5.0](https://img.shields.io/badge/pandas-1.5.0-yellowgreen)]'
+- Pandas v1.5.0 or higher (https://pandas.pydata.org/)
+- pandas>=0.25.1
+- pandas DataFrame for single-cell data ``df_sc``
+- 'SpaOTsc depends on the following packages: pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.'
+- pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.
+- scdata = pd.read_csv('./data/mousedata_2020/E1z2/simu_sc_counts.csv',index_col=0)
+- '- pandas'
+- pandas
+- data = pd.read_csv('./Bcell_200PCs.csv')
+- df_counts = pd.read_csv(foldername + "toy_disconnected_M9_n1000d1000.csv", 'rt', delimiter=",")
+- import pandas as pd
+- Now load the CSV data into the computer memory as Pandas Dataframe by typing
+- which will be imported as a Pandas DataFrame
+- '> pandas >= 0.20.1'
+- pandas >= 0.20.1
+derived_from:
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1038/s41598-020-75586-5
+  title: 'ERgene: Python library for screening endogenous reference genes'
+- doi: 10.1038/s41598-022-17104-3
+  title: 'Gene Updater: a web tool that autocorrects and updates for Excel misidentified gene names'
+- doi: 10.1038/s42003-023-05351-7
+  title: GiRAFR improves gRNA detection and annotation in single-cell CRISPR screens
+- doi: 10.1016/j.csbj.2020.10.032
+  title: Accurate prediction of RNA 5-hydroxymethylcytosine modification by utilizing novel position-specific gapped k-mer descriptors
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1038/s41598-022-22082-7
+  title: 'LncDC: a machine learning-based tool for long non-coding RNA detection from RNA-Seq data'
+- doi: 10.1038/s41467-023-44014-3
+  title: Accurate integration of single-cell DNA and RNA for analyzing intratumor heterogeneity using MaCroDNA
+- doi: 10.1016/j.csbj.2022.06.010
+  title: 'MarkerCount: A stable, count-based cell type identifier for single-cell RNA-seq experiments'
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1038/s41467-021-25548-w
+  title: Dissecting transition cells from single-cell transcriptome data through multiscale stochastic dynamics
+- doi: 10.1093/bioinformatics/btad657
+  title: 'oggmap: a Python package to extract gene ages per orthogroup and link them with single-cell RNA data'
+- doi: 10.1038/s41467-023-36862-w
+  title: 'OTTERS: a powerful TWAS framework leveraging summary-level reference data'
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+- doi: 10.1093/bib/bbaf107
+  title: 'REDInet: a temporal convolutional network-based classifier for A-to-I RNA editing detection harnessing million known events'
+- doi: 10.1038/s41598-024-66381-7
+  title: Scanpro is a tool for robust proportion analysis of single-cell resolution data
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+- doi: 10.1038/s41467-021-27150-6
+  title: scCODA is a Bayesian model for compositional single-cell data analysis
+- doi: 10.1038/s41467-024-45227-w
+  title: 'scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data'
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+- doi: 10.1016/j.isci.2021.102855
+  title: A reference-free approach for cell type classification with scRNA-seq
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1093/bib/bbaf279
+  title: 'scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks'
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+- doi: 10.1016/j.patter.2023.100915
+  title: 'Spaco: A comprehensive tool for coloring spatial data at single-cell resolution'
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+- doi: 10.1007/s00284-025-04435-3
+  title: 'A Scorecard for Information Synthesis in Multiple Experimental Conditions: Application to Bacterial Biofilm Matrix Transcriptomics'
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/datapplab/AutoClass
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/MintaYLu/COT
+- https://github.com/aron0093/cytopath
+- https://github.com/SUwonglab/DC3
+- https://github.com/eleozzr/desc
+- https://github.com/Starlitnightly/ERgene
+- https://github.com/kuanrongchan/date-to-gene-converter
+- https://github.com/FunctionalEpigeneticsLab/GiRAFR
+- https://github.com/zahid6454/iRNA5hmC-PS
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/lim74/LncDC
+- https://github.com/NakhlehLab/MaCroDNA
+- https://github.com/combio-dku/MarkerCount
+- https://github.com/lixiangchun/Miscell
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/cliffzhou92/MuTrans-release
+- https://github.com/kullrich/oggmap
+- https://github.com/daiqile96/OTTERS
+- https://github.com/CostaLab/PILOT
+- https://github.com/BioinfoUNIBA/REDInet
+- https://github.com/loosolab/scanpro
+- https://github.com/xryanglab/SCASL
+- https://github.com/xuyp-csu/scCAD
+- https://github.com/theislab/scCODA
+- https://github.com/ZhangLabGT/scDisInFact
+- https://github.com/noush-joglekar/scisorseqr
+- https://github.com/bucky527/scME
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/klarman-cell-observatory/scPhere
+- https://github.com/digi2002/scSimClassify
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/LHBCB/scvalue
+- https://github.com/bvaldebenitom/SoloTE
+- https://github.com/BrainStOrmics/Spaco
+- https://github.com/zcang/SpaOTsc
+- https://github.com/WhirlFirst/STEM
+- https://github.com/bauerbach95/tempo
+- https://github.com/deeplearningplus/tGPT
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/ShobiStassen/VIA
+- https://github.com/audreyqyfu/LATE
+- https://github.com/m89p067/Scorecard
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ArpiarSaundersLab/annsql

@@ -1,0 +1,17 @@
+name: Mark Ziemann's gene name errors dashboard
+slug: mark-ziemann-s-gene-name-errors-dashboard
+version_used: null
+edam_topics: []
+evidence_spans:
+- we leveraged on Mark Ziemann's dashboard (http://ziemann-lab.net/public/gene_name_errors/Report_2022-05.html#journals-affected) to extract text and Excel files from various journals
+derived_from:
+- doi: 10.1038/s41598-022-17104-3
+  title: 'Gene Updater: a web tool that autocorrects and updates for Excel misidentified gene names'
+source_repos:
+- https://github.com/kuanrongchan/date-to-gene-converter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuanrongchan/date-to-gene-converter

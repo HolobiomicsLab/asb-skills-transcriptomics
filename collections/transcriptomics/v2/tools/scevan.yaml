@@ -1,0 +1,34 @@
+name: SCEVAN
+slug: scevan
+version_used: null
+edam_topics: []
+evidence_spans:
+- Some approaches, such as SCEVAN and CopyKAT, attempt to distinguish malignant cancer cells in single-cell RNA-seq through CNV calling
+- results <- SCEVAN::pipelineCNA(count_mtx, sample = "MGH106", par_cores = 20, SUBCLONES = TRUE, plotTree = TRUE)
+- Single CEll Variational ANeuploidy analysis (SCEVAN), a fast variational algorithm for the deconvolution of the clonal substructure of tumors from single-cell RNA-seq data
+- Single CEll Variational ANeuploidy analysis (SCEVAN), a fast variational algorithm
+- SCEVAN::pipelineCNA(count_mtx, sample = "MGH106", par_cores = 20, SUBCLONES = TRUE, plotTree = TRUE)
+- Here we report Single CEll Variational ANeuploidy analysis (SCEVAN), a fast variational algorithm for the deconvolution of the clonal substructure of tumors from single-cell RNA-seq data
+- library(SCEVAN)
+- 'library(SCEVAN)
+
+  results <- SCEVAN::pipelineCNA(count_mtx, sample = "MGH106", par_cores = 20, SUBCLONES = TRUE, plotTree = TRUE)'
+- Cancer-Finder, CaSee14, CopyKAT13, SCEVAN35 and ikarus17 were evaluated on the 10 external validation datasets via the default parameters for fairness.
+- CopyKAT, SCEVAN and ikarus were evaluated on a CPU platform, whereas CaSee and Cancer-Finder were examined on a GPU platform.
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1038/s41467-023-36790-9
+  title: A variational algorithm to detect the clonal copy number substructure of tumors from scRNA-seq data
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/AntonioDeFalco/SCEVAN
+- https://github.com/Patchouli-M/SequencingCancerFinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

@@ -1,0 +1,23 @@
+name: scHPL
+slug: schpl
+version_used: null
+edam_topics: []
+evidence_spans:
+- scHPL (single-cell Hierarchical Progressive Learning) is a method that automatically finds relationships between cell populations across multiple datasets
+- For each node in the tree either a linear SVM, kNN, or one-class SVM is trained.
+- Here, we present scHPL, a hierarchical progressive learning method which allows continuous learning from single-cell data
+- scHPL is available at https://github.com/lcmmichielsen/scHPL
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1038/s41467-021-23196-8
+  title: Hierarchical progressive learning of cell identities in single-cell data
+source_repos:
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/lcmmichielsen/scHPL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification

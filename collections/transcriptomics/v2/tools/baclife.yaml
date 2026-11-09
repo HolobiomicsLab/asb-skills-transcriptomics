@@ -1,0 +1,22 @@
+name: bacLIFE
+slug: baclife
+version_used: null
+edam_topics: []
+evidence_spans:
+- Using a set of custom scripts, an absence/presence matrix of the individual GCFs at 0.70 BiG-SCAPE distance in the input genomes is generated.
+- the second is a lifestyle prediction module that allows to test the predictability of the metadata
+- a lifestyle prediction module that allows to test the predictability of the metadata
+- the second is a lifestyle prediction module that allows to test the predictability of the metadata and uses the trained machine learning models for prediction in genomes with poor metadata
+- It generates an interactive table featuring Fisher test p-values and the relative abundance of each gene cluster in each group.
+- The non-redundant genomes were used as input for the bacLIFE clustering module
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

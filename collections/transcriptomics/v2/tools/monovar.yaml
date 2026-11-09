@@ -1,0 +1,17 @@
+name: Monovar
+slug: monovar
+version_used: null
+edam_topics: []
+evidence_spans:
+- For comparison with Monovar on the simulated dataset, we ran Monovar with recommended parameters.
+derived_from:
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+source_repos:
+- https://github.com/single-cell-genetics/MQuad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/MQuad

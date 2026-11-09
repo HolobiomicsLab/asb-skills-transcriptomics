@@ -1,0 +1,20 @@
+name: pybedtools
+slug: pybedtools
+version_used: 0.8.0
+edam_topics: []
+evidence_spans:
+- '[pybedtools](http://daler.github.io/pybedtools/)'
+derived_from:
+- doi: 10.1016/j.gpb.2019.11.004
+  title: 'CIRCexplorer3: A CLEAR Pipeline for Direct Comparison of Circular and Linear RNA Expression'
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+source_repos:
+- https://github.com/YangLab/CLEAR
+- https://github.com/Xinglab/PAIRADISE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YangLab/CLEAR

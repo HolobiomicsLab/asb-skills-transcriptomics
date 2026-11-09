@@ -1,0 +1,32 @@
+name: Trinity
+slug: trinity
+version_used: 2.1.1
+edam_topics: []
+evidence_spans:
+- to compare statistics for multiple assemblies of the same data set
+- (absent — flagged as missing)
+- we ran the most popular RNA assemblers—Trinity (Grabherr et al. 2011), RNA-Bloom (Nip et al. 2020), and rnaSPAdes
+- trinity (v2.1.1)
+- These resultant paired-end reads originated from the putative Ig loci were used as input for Trinity (v2.1.1; Grabherr et al., 2011) for de novo transcriptome assembly
+- The third experiment used a Trinity assembly generated from simulated RNA‐Seq experiment
+- These reads were assembled using Trinity (Grabherr et al., 2011).
+- The transcriptome was assembled following the same protocol as above.
+- Trinity uses an algorithm to find possible isoforms, which occasionally produces more isoforms than actually occur in vivo.
+- The most commonly used de novo transcriptome assembler is Trinity (Haas et al., 2013).
+derived_from:
+- doi: 10.1093/bioinformatics/btad781
+  title: "<scp>cloudrna</scp>\n                    SP\n                    <scp>Ades</scp>\n                    : isoform assembly using bulk barcoded RNA sequencing data"
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1002/ece3.5571
+  title: The Bellerophon pipeline, improving de novo transcriptomes and removing chimeras
+source_repos:
+- https://github.com/1dayac/cloudrnaSPAdes-release
+- https://github.com/Rashedul/CRIS
+- https://github.com/JesseKerkvliet/Bellerophon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/cloudrnaSPAdes-release

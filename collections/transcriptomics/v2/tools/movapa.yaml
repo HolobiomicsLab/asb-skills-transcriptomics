@@ -1,0 +1,27 @@
+name: movAPA
+slug: movapa
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(movAPA)
+- 'library(vizAPA)
+
+  library(movAPA)'
+- movAPA::summary(scPACds)
+- utilizes `movAPA::movAPAindex` to calculate the RUD index
+- '`getAPAindexPACds` utilizes `movAPA::movAPAindex` to calculate the RUD index for each 3''UTR-APA gene'
+derived_from:
+- doi: 10.1016/j.gpb.2023.01.003
+  title: 'stAPAminer: Mining Spatial Patterns of Alternative Polyadenylation for Spatially Resolved Transcriptomic Studies'
+- doi: 10.1093/bioinformatics/btae099
+  title: 'vizAPA: visualizing dynamics of alternative polyadenylation from bulk and single-cell data'
+source_repos:
+- https://github.com/BMILAB/stAPAminer
+- https://github.com/BMILAB/movAPA
+- https://github.com/BMILAB/vizAPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BMILAB/stAPAminer

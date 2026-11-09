@@ -1,0 +1,21 @@
+name: MSigDB
+slug: msigdb
+version_used: null
+edam_topics: []
+evidence_spans:
+- it is often necessary to test many different gene sets available in large reference databases such as KEGG41 or MSigDB42.
+- GMT file(s) with the gene module membership, such as provided by databases like `MSigDB
+derived_from:
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+source_repos:
+- https://github.com/sysbio-curie/rROMA
+- https://github.com/LucasESBS/vega
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sysbio-curie/rROMA

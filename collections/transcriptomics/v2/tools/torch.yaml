@@ -1,0 +1,21 @@
+name: torch
+slug: torch
+version_used: 1.7.1
+edam_topics: []
+evidence_spans:
+- torch == 1.7.1
+- that uses `scanpy` ans `torch`
+- called `TOSICA` that uses `scanpy` ans `torch`
+- uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data
+- 'with the following packages: torch (version 1.7.1)'
+derived_from:
+- doi: 10.1038/s41467-023-35923-4
+  title: Transformer for one stop interpretable cell type annotation
+source_repos:
+- https://github.com/JackieHanLab/TOSICA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JackieHanLab/TOSICA

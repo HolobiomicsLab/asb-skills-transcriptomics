@@ -1,0 +1,21 @@
+name: scME
+slug: scme
+version_used: null
+edam_topics: []
+evidence_spans:
+- Install scME package
+- python setup.py install
+- we develop a dual-modality factor model named scME by using deep factor modeling
+- You can use scme.py to easily obtain cell embeddings for CITE-seq data
+- python scme.py --rna [your rna gene counts csv file path] --protein [your protein ADTs counts csv file path]
+derived_from:
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+source_repos:
+- https://github.com/bucky527/scME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bucky527/scME

@@ -1,0 +1,22 @@
+name: scUTRquant
+slug: scutrquant
+version_used: 0.5.0
+edam_topics: []
+evidence_spans:
+- The pipeline includes code to download prebuilt **hg38** and **mm10** UTRome GTFs and
+- scUTRquant v0.5.0 adds support for
+- We incorporate the CS annotations into a computational pipeline, called scUTRquant, for rapid, accurate, and simultaneous quantification of gene and 3'UTR isoform expression from single-cell RNA
+- simultaneous quantification of gene and 3'UTR isoform expression from single-cell RNA
+- a computational pipeline, called scUTRquant, for rapid, accurate, and simultaneous quantification of gene and 3'UTR isoform expression from single-cell RNA
+- We applied our quantification pipeline, called scUTRquant
+derived_from:
+- doi: 10.1038/s41467-024-48254-9
+  title: Quantifying 3′UTR length from scRNA-seq data reveals changes independent of gene expression
+source_repos:
+- https://github.com/Mayrlab/scUTRquant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mayrlab/scUTRquant

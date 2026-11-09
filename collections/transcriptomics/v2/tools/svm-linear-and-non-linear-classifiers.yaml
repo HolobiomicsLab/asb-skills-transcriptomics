@@ -1,0 +1,17 @@
+name: SVM (linear and non-linear classifiers)
+slug: svm-linear-and-non-linear-classifiers
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used the same cell-type markers that were used for MASI to train both linear and non-linear SVM classifiers
+derived_from:
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/hayatlab/MASI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hayatlab/MASI

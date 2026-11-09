@@ -1,0 +1,30 @@
+name: Perl
+slug: perl
+version_used: null
+edam_topics: []
+evidence_spans:
+- ElemeNT is an interactive tool (implemented in Perl) for rapid and convenient detection of core promoter elements within any given sequences.
+- ElemeNT is an interactive tool (implemented in Perl)
+- geneBodyCoverage.pl is a perl script to imitate process of RSeQC 'geneBody_coverage.py'
+- SkewC is implemented in the R and Perl computational languages.
+- perl bin/split10XbyBarcode.pl
+- Run the Perl script umi\_counterizer.pl on your sorted SAM file.
+- Run the Perl script umi\_clusterizer.pl using the umi\_positions.txt file from the previous step as input.
+derived_from:
+- doi: 10.1093/bioinformatics/btae110
+  title: 'ElemeNT 2023: an enhanced tool for detection and curation of core promoter elements'
+- doi: 10.1016/j.xpro.2022.102038
+  title: Computational approach to evaluate scRNA-seq data quality and gene body coverage with SkewC
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/OritAdato/ElemeNT
+- https://github.com/LSBDT/SkewC.git
+- https://github.com/LSBDT/SkewC
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OritAdato/ElemeNT

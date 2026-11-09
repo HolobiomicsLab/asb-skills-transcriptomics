@@ -1,0 +1,17 @@
+name: CIForm
+slug: ciform
+version_used: null
+edam_topics: []
+evidence_spans:
+- we benchmarked against CIForm35 - another transformer-based model for cell type annotation
+derived_from:
+- doi: 10.1038/s41467-024-51059-5
+  title: 'scTab: Scaling cross-tissue single-cell annotation models'
+source_repos:
+- https://github.com/theislab/scTab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/scTab

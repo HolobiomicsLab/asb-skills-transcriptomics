@@ -1,0 +1,28 @@
+name: Biopython
+slug: biopython
+version_used: '1.79'
+edam_topics: []
+evidence_spans:
+- '* `BioPython <https://biopython.org/>`_ >= 1.79 (|Cock2009|_)'
+- '`BioPython <https://biopython.org/>`_ >= 1.79'
+- Biopython (Cock, et al., 2009. Bioinformatics)
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1093/bioinformatics/btad721
+  title: 'Hybkit: a Python API and command-line toolkit for hybrid sequence data from chimeric RNA methods'
+- doi: 10.1093/bioinformatics/btad676
+  title: 'PhasiHunter: a robust phased siRNA regulatory cascade mining tool based on multiple reference sequences'
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+source_repos:
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/RenneLab/hybkit
+- https://github.com/HuangLab-CBI/PhasiHunter
+- https://github.com/skbinfo/tncRNA-Toolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion

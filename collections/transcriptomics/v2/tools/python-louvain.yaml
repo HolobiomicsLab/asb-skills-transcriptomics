@@ -1,0 +1,18 @@
+name: python-louvain
+slug: python-louvain
+version_used: null
+edam_topics: []
+evidence_spans:
+- taynaud/python-louvain
+derived_from:
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+source_repos:
+- https://github.com/taynaud/python-louvain
+- https://github.com/scibiome/boostdiff_inference
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/taynaud/python-louvain

@@ -1,0 +1,18 @@
+name: scCAEs
+slug: sccaes
+version_used: null
+edam_topics: []
+evidence_spans:
+- other deep embedding models have been proposed to enhance the clustering results from diverse perspectives such as, DESC18, scVI19, scCAEs20, scDHA21 and SCA22
+derived_from:
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+source_repos:
+- https://github.com/gushenweiz/scCAEs
+- https://github.com/Philyzh8/scMGCA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gushenweiz/scCAEs

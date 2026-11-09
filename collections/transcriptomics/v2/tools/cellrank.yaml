@@ -1,0 +1,23 @@
+name: CellRank
+slug: cellrank
+version_used: null
+edam_topics: []
+evidence_spans:
+- which shares a similar philosophy of CellRank by combining transcriptome similarity and velocity-based transition28.
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1016/j.crmeth.2023.100512
+  title: Characterization of cell-fate decision landscapes by estimating transcription factor dynamics
+- doi: 10.1038/s41467-022-34188-7
+  title: 'UniTVelo: temporally unified RNA velocity reinforces single-cell trajectory inference'
+source_repos:
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/sarajimenez/fatecompass
+- https://github.com/StatBiomed/UniTVelo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PeterZZQ/CellPath

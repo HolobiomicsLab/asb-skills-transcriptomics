@@ -1,0 +1,16 @@
+name: scTenifoldNet
+slug: sctenifoldnet
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+source_repos:
+- https://github.com/cailab-tamu/scTenifoldNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cailab-tamu/scTenifoldNet

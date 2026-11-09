@@ -1,0 +1,22 @@
+name: dsRID
+slug: dsrid
+version_used: null
+edam_topics: []
+evidence_spans:
+- To get started with dsRID, you will need the following prerequisites
+- git clone https://github.com/gxiaolab/dsRID.git
+- 'Run the dsRID script to include the training process with the following command:'
+- Run the dsRID script to include the training process with the following command
+- 'To predict dsRNA regions using dsRID, follow these steps:'
+- bash dsRID.sh <input_file> <output_dir>
+derived_from:
+- doi: 10.1093/bioinformatics/btad649
+  title: 'dsRID: <i>in silico</i> identification of dsRNA regions using long-read RNA-seq data'
+source_repos:
+- https://github.com/gxiaolab/dsRID
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gxiaolab/dsRID

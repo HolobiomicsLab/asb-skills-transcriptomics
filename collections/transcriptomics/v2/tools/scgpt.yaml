@@ -1,0 +1,24 @@
+name: scGPT
+slug: scgpt
+version_used: null
+edam_topics: []
+evidence_spans:
+- We run scGPT following the examples given in their “Tutorial_Attention_GRN.ipynb” notebook.
+- scGPT is a transformer-based model of roughly 100 M parameters
+- We extract cell embeddings from scGPT by directly using the cell embedding token of the model without fine-tuning it
+- the single-cell transformer model scGPT without fine-tuning
+derived_from:
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+- doi: 10.1038/s41467-024-51059-5
+  title: 'scTab: Scaling cross-tissue single-cell annotation models'
+source_repos:
+- https://github.com/jkobject/scGPT
+- https://github.com/cantinilab/scPRINT
+- https://github.com/theislab/scTab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jkobject/scGPT

@@ -1,0 +1,19 @@
+name: Kernel Density Estimation with Linked BCs
+slug: kernel-density-estimation-with-linked-bcs
+version_used: null
+edam_topics: []
+evidence_spans:
+- kernel density estmation with linked boundary conditions (https://github.com/MColbrook/Kernel-Density-Estimation-with-Linked-BCs.git) is used to obtain distribution in pseudotime for the cell cycle
+- kernel density estmation with linked boundary conditions
+derived_from:
+- doi: 10.1038/s41598-020-60400-z
+  title: Reconstructing temporal and spatial dynamics from single-cell pseudotime using prior knowledge of real scale cell densities
+source_repos:
+- https://github.com/MColbrook/Kernel-Density-Estimation-with-Linked-BCs.git
+- https://github.com/karstenkuritz/MAPiT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MColbrook/Kernel-Density-Estimation-with-Linked-BCs.git

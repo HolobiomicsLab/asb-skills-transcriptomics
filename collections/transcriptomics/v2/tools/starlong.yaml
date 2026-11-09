@@ -1,0 +1,18 @@
+name: STARlong
+slug: starlong
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[STARlong](https://github.com/alexdobin/STAR/) (and corresponding genome index file)'
+derived_from:
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+source_repos:
+- https://github.com/alexdobin/STAR
+- https://github.com/noush-joglekar/scisorseqr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/alexdobin/STAR

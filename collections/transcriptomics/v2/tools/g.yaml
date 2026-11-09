@@ -1,0 +1,21 @@
+name: g++
+slug: g
+version_used: null
+edam_topics: []
+evidence_spans:
+- recommend version >12 of g++
+- A modern, C++17 ready compiler such as `g++` version 8 or higher.
+derived_from:
+- doi: 10.1093/bioinformatics/btad569
+  title: 'INTEGRATE-Circ and INTEGRATE-Vis: unbiased detection and visualization of fusion-derived circular RNA'
+- doi: 10.1093/bioinformatics/btad225
+  title: Scalable sequence database search using partitioned aggregated Bloom comb trees
+source_repos:
+- https://github.com/ChrisMaherLab/INTEGRATE-CIRC
+- https://github.com/Malfoy/PAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChrisMaherLab/INTEGRATE-CIRC

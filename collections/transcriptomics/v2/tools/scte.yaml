@@ -1,0 +1,27 @@
+name: scTE
+slug: scte
+version_used: null
+edam_topics: []
+evidence_spans:
+- scTE makes BAM/SAM file as input, highly recommend to use unfiltered alignment file as input.
+- $ scTE -i inp.bam -o out -x mm10.exclusive.idx --hdf5 True -CB CR -UMI UR
+- $ scTE -i inp.bam -o out -x mm10.exclusive.idx -CB False -UMI False
+- the only tool developed for the analysis of TEs in scRNA-Seq datasets is scTE14, which summarizes TE expression on metagenes corresponding to TE families
+- We found that our tool is faster and uses less computational resources than scTE.
+derived_from:
+- doi: 10.1038/s41467-024-53114-7
+  title: 'MATES: a deep learning-based model for locus-specific quantification of transposable elements in single cell'
+- doi: 10.1038/s41467-021-21808-x
+  title: Identifying transposable element expression dynamics and heterogeneity during development at the single-cell level with a processing pipeline scTE
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+source_repos:
+- https://github.com/mcgilldinglab/MATES
+- https://github.com/JiekaiLab/scTE
+- https://github.com/bvaldebenitom/SoloTE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgilldinglab/MATES

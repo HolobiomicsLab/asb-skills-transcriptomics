@@ -1,0 +1,64 @@
+name: Bioconductor
+slug: bioconductor
+version_used: '3.6'
+edam_topics: []
+evidence_spans:
+- an R/Bioconductor package which interfaces directly with single cell classes in Bioconductor
+- corral, an R/Bioconductor package that interfaces directly with Bioconductor classes (including SingleCellExperiment)
+- decoupleR, a Bioconductor and Python package containing computational methods to extract these activities within a unified framework.
+- interfaces easily with existing single cell software platforms such as Seurat, Bioconductor, and Scanpy
+- '**Bioconductor version**: `r BiocManager::version()`'
+- ExpHunter Suite is implemented as an R/Bioconductor package available from https://bioconductor.org/packages/ExpHunterSuite
+- '`r BiocManager::version()`'
+- Bioconductor version
+- 'Bioconductor: open software development for computational biology and bioinformatics'
+- A software implementation is available at https://bioconductor.org/packages/nnSVG
+- BiocStyle::html_document
+- freely available from Bioconductor at https://bioconductor.org/packages/nnSVG
+- Our methodology is implemented in the nnSVG R package within the Bioconductor framework
+- using the current state-of-the-art packages from the Bioconductor project (Huber et al., 2015)
+- Note that `zinbwave` requires R (>=3.4) and Bioconductor (>=3.6).
+derived_from:
+- doi: 10.1038/s41598-022-26434-1
+  title: Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data
+- doi: 10.1093/bioadv/vbac016
+  title: 'decoupleR: ensemble of computational methods to infer biological activities from omics data'
+- doi: 10.1038/s41467-022-29356-8
+  title: Normalizing and denoising protein expression data from droplet-based single cell profiling
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+- doi: 10.1038/s42003-021-02986-2
+  title: InterCellar enables interactive analysis and exploration of cell−cell communication in single-cell transcriptomic data
+- doi: 10.1038/s41467-023-39748-z
+  title: nnSVG for the scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+- doi: 10.1007/978-1-4939-9004-7_11
+  title: Pipeline for Integrated Microarray Expression Normalization Tool Kit (PIMENTo) for Tumor Microarray Profiling Experiments
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+- doi: 10.1007/978-1-4939-7710-9_15
+  title: Single-Cell Transcriptome Analysis Using SINCERA Pipeline
+- doi: 10.1002/sim.9430
+  title: Differential expression of single‐cell RNA‐seq data using Tweedie models
+source_repos:
+- https://github.com/laurenhsu1/corral
+- https://github.com/saezlab/decoupleR_manuscript
+- https://github.com/niaid/dsb
+- https://github.com/seoanezonjic/ExpHunterSuite
+- https://github.com/martaint/InterCellar
+- https://github.com/lmweber/nnSVG
+- https://github.com/bioinfocz/scdrake
+- https://github.com/drisso/zinbwave
+- https://github.com/MUSC-CGM/PIMENTo
+- https://github.com/BatzoglouLabSU/SIMLR
+- https://github.com/xu-lab/SINCERA
+- https://github.com/himelmallick/Tweedieverse
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/laurenhsu1/corral

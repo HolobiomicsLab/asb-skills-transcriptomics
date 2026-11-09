@@ -1,0 +1,20 @@
+name: rtracklayer
+slug: rtracklayer
+version_used: null
+edam_topics: []
+evidence_spans:
+- Please manually install [groHMM](https://bioconductor.org/packages/release/bioc/html/groHMM.html) and [rtracklayer](https://bioconductor.org/packages/release/bioc/html/rtracklayer.html) and make sure
+- and [rtracklayer](https://bioconductor.org/packages/release/bioc/html/rtracklayer.html) and make sure you can load these packages in R.
+- Please manually install [groHMM](https://bioconductor.org/packages/release/bioc/html/groHMM.html) and [rtracklayer]
+- and make sure you can load these packages in R. This error indicates that the groHMM R script did not finish running
+derived_from:
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+source_repos:
+- https://github.com/fw262/TAR-scRNA-seq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fw262/TAR-scRNA-seq

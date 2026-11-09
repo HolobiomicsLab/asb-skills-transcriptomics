@@ -1,0 +1,18 @@
+name: g2gtools
+slug: g2gtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- We reconstructed the CAST genome by incorporating known SNPs and short indels (Sanger REL-1505) into the reference mouse genome sequence using g2gtools
+- We reconstructed the CAST genome by incorporating known SNPs and short indels (Sanger REL-1505) into the reference mouse genome sequence
+derived_from:
+- doi: 10.1038/s41467-019-13099-0
+  title: A Bayesian mixture model for the analysis of allelic expression in single cells
+source_repos:
+- https://github.com/churchill-lab/scBASE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/churchill-lab/scBASE

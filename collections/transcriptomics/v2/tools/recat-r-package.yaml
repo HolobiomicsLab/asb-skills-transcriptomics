@@ -1,0 +1,17 @@
+name: reCAT R package
+slug: recat-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- We developed an R based software package which is easy to use.
+derived_from:
+- doi: 10.1038/s41467-017-00039-z
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+source_repos:
+- https://github.com/tinglab/reCAT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tinglab/reCAT

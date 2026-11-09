@@ -1,0 +1,18 @@
+name: Topological Autoencoder
+slug: topological-autoencoder
+version_used: null
+edam_topics: []
+evidence_spans:
+- get_TopoAE_Embeddings which obtains the low-dimensional manifold of each dataset separately using Topological Autoencoder
+- obtains the low-dimensional manifold of each dataset separately using Topological Autoencoder
+derived_from:
+- doi: 10.1093/bioadv/vbad171
+  title: 'scTopoGAN: unsupervised manifold alignment of single-cell data'
+source_repos:
+- https://github.com/AkashCiel/scTopoGAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AkashCiel/scTopoGAN

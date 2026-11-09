@@ -1,0 +1,25 @@
+name: Streamlit
+slug: streamlit
+version_used: null
+edam_topics: []
+evidence_spans:
+- https://share.streamlit.io/kuanrongchan/covid19-severity/main/app.py
+- streamlit run app.py
+- streamlit run date_gene_tool.py
+- Herein, we developed a web tool with Streamlit that can convert old gene names and dates back into the new gene names recommended by HGNC
+- 'To install Streamlit, run the following code in terminal:'
+- pip install streamlit
+derived_from:
+- doi: 10.1016/j.ebiom.2023.104472
+  title: Early peripheral blood MCEMP1 and HLA-DRA expression predicts COVID-19 prognosis
+- doi: 10.1038/s41598-022-17104-3
+  title: 'Gene Updater: a web tool that autocorrects and updates for Excel misidentified gene names'
+source_repos:
+- https://github.com/kuanrongchan/COVID19-severity
+- https://github.com/kuanrongchan/date-to-gene-converter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kuanrongchan/COVID19-severity

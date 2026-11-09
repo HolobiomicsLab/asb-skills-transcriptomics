@@ -1,0 +1,17 @@
+name: sRNAanno
+slug: srnaanno
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- miRNA precursors annotated in miRBase (v22.1), PmiREN (v1.0), sRNAanno (v1.0), and PsRNA (v1.0) databases
+derived_from:
+- doi: 10.1016/j.gpb.2021.02.010
+  title: Interactive Web-Based Annotation of Plant MicroRNAs with iwa-miRNA
+source_repos:
+- https://github.com/cma2015/iwa-miRNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cma2015/iwa-miRNA

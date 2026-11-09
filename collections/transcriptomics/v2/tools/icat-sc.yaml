@@ -1,0 +1,19 @@
+name: icat-sc
+slug: icat-sc
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`pip install icat-sc`'
+- pip install icat-sc
+- 'ICAT can be installed on linux machines using `pip` with the following command: `pip install icat-sc`'
+derived_from:
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+source_repos:
+- https://github.com/BradhamLab/icat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BradhamLab/icat

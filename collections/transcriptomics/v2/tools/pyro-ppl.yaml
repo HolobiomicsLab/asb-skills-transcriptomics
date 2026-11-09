@@ -1,0 +1,17 @@
+name: pyro-ppl
+slug: pyro-ppl
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+derived_from:
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+source_repos:
+- https://github.com/bucky527/scME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bucky527/scME

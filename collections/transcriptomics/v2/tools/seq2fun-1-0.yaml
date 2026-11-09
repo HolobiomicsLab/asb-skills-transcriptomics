@@ -1,0 +1,17 @@
+name: Seq2Fun 1.0
+slug: seq2fun-1-0
+version_used: null
+edam_topics: []
+evidence_spans:
+- We previously developed a command-line algorithm, Seq2Fun for mapping RNA-seq reads from eukaryotic species to KEGG ortholog (KO) databases with a translated search
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

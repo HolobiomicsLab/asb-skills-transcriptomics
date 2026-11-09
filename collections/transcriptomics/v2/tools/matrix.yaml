@@ -1,0 +1,62 @@
+name: Matrix
+slug: matrix
+version_used: null
+edam_topics: []
+evidence_spans:
+- The raw counts are stored in a column-wise sparse matrix using the implementation from the R package [Matrix]
+- column-wise sparse matrix using the implementation from the R package
+- The raw counts are stored in a column-wise sparse matrix using the implementation from the R package
+- '- `Matrix (Imports)`'
+- library(Matrix)
+- 'library(Seurat)
+
+  library(Matrix)'
+- library(Matrix)
+- library(Matrix)
+- The count matrix can be a matrix object or a sparse dgCMatrix object (the same format as in ```Seurat```). The elements should be integers.
+- library(Matrix)
+- '- `Matrix (Imports)`'
+derived_from:
+- doi: 10.1038/s41598-020-67513-5
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+- doi: 10.1038/s41467-021-26085-2
+  title: DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data
+- doi: 10.1038/s41467-023-39017-z
+  title: Cell-attribute aware community detection improves differential abundance testing from single-cell RNA-Seq data
+- doi: 10.1016/j.patter.2021.100311
+  title: 'EmptyNN: A neural network based on positive and unlabeled learning to remove cell-free droplets and recover lost cells in scRNA-seq data'
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-018-03282-0
+  title: Characterizing the replicability of cell types defined by single cell RNA-sequencing data using MetaNeighbor
+- doi: 10.1038/s42003-021-02146-6
+  title: NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+- doi: 10.1093/bioadv/vbac033
+  title: Sufficient principal component regression for pattern discovery in transcriptomic data
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+source_repos:
+- https://github.com/marcalva/diem
+- https://github.com/prabhakarlab/DUBStepR
+- https://github.com/aet21/ELVAR
+- https://github.com/lkmklsmn/empty_nn
+- https://github.com/csglab/GEDI
+- https://github.com/gillislab/MetaNeighbor
+- https://github.com/lhe17/nebula
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/ZJUFanLab/scCATCH
+- https://github.com/cailab-tamu/scTenifoldNet
+- https://github.com/dajmcdon/suffpcr
+- https://github.com/BatzoglouLabSU/SIMLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marcalva/diem

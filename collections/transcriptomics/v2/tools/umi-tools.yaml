@@ -1,0 +1,27 @@
+name: umi-tools
+slug: umi-tools
+version_used: null
+edam_topics: []
+evidence_spans:
+- cell barcodes are identified in R1 using [umi-tools whitelist](https://umi-tools.readthedocs.io/en/latest/reference/whitelist.html).
+- Error correct UMIs and count UMIs per barcode using `umi-tools` [UMITOOLS_COUNT](#umitools_count)
+- 'to benchmark four UMI deduplication tools: UMI-tools, STARsolo, and cellranger (gene-level), as well as Alevin (transcript-level)'
+- umi_tools [63] was adopted to append the barcode and UMI information to the sequence header of read 2
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1016/j.gpb.2023.01.003
+  title: 'stAPAminer: Mining Spatial Patterns of Alternative Polyadenylation for Spatially Resolved Transcriptomic Studies'
+source_repos:
+- https://github.com/CGATOxford/UMI-tools
+- https://github.com/DaneVass/BARtab
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/BMILAB/stAPAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CGATOxford/UMI-tools

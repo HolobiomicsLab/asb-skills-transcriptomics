@@ -1,0 +1,17 @@
+name: scCNASimulator
+slug: sccnasimulator
+version_used: null
+edam_topics: []
+evidence_spans:
+- Its high accuracy will be demonstrated through comprehensive benchmarking with four cancer data sets and one simulated data set
+derived_from:
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+source_repos:
+- https://github.com/single-cell-genetics/XClone
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/XClone

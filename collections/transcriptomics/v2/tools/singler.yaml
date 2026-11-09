@@ -1,0 +1,64 @@
+name: SingleR
+slug: singler
+version_used: '3.15'
+edam_topics: []
+evidence_spans:
+- hpca.se <- HumanPrimaryCellAtlasData()
+- pred.hpca <- SingleR(test = data, ref = hpca.se, assay.type.test=1, labels = hpca.se$label.main)
+- including scmap4, CHETAH5, and singleR and CAMLU6
+- many automatic annotation tools have recently been developed, including SingleR [7], CHETAH [8], CellAssign [9], scMatch [10], scCATCH [11], scPred [12], SciBet [13], scVI [14], and Cell BLAST [15]
+- For all transcriptomic methods we implemented singleR23 and SingleCellNet56 using default parameters
+- what performance boost do active learning approaches deliver when combined with a range of popular single-cell annotation algorithms such as SingleR23 and scmap22?
+- cell type definitions in reference databases such as CIBERSORT, Azimuth, and Human Primary Cell Atlas
+- seven other algorithms, including CHETAH [7], SciBet [8], SCINA [9], scmap-cell [10], scmap-cluster [10], SingleR [11] and ikarus [12]
+- scATOMIC is comparable to or outperforms other existing automatic cell type annotators when classifying blood and stromal cells using our training reference.
+- 'Automatic cell type annotation ([SingleR](http://bioconductor.org/books/3.15/SingleRBook/)) using two reference datasets:'
+derived_from:
+- doi: 10.1038/s41467-023-36637-3
+  title: ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1038/s41467-024-45198-y
+  title: The impacts of active and self-supervised learning on efficient annotation of single-cell expression data
+- doi: 10.1038/s41467-023-38333-8
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+source_repos:
+- https://github.com/lanagarmire/Asgard
+- https://github.com/lanagarmire/ASGARD
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/bsml320/deCS
+- https://github.com/camlab-bioml/leader
+- https://github.com/yi-zhang/MetaTiME
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/ZJUFanLab/scCATCH_performance_comparison
+- https://github.com/ZJUFanLab/scCATCH
+- https://github.com/bioinfocz/scdrake
+- https://github.com/compbioNJU/scPlant
+- https://github.com/Dulab2020/scWizard
+- https://github.com/SELINA-team/SELINA.py
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/Asgard

@@ -1,0 +1,17 @@
+name: 10.5281/zenodo.7790754
+slug: 10-5281-zenodo-7790754
+version_used: '10.5281'
+edam_topics: []
+evidence_spans:
+- '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7790754.svg)](https://doi.org/10.5281/zenodo.7790754)'
+derived_from:
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+source_repos:
+- https://github.com/ZJUFanLab/scSpace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZJUFanLab/scSpace

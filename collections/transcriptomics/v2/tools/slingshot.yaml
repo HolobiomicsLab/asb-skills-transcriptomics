@@ -1,0 +1,84 @@
+name: Slingshot
+slug: slingshot
+version_used: 2.1.1
+edam_topics: []
+evidence_spans:
+- Pseudotime trajectories are calculated by partitioning the selected cells into four clusters which are used for a slingshot analysis.
+- 'Slingshot: cell lineage and pseudotime inference for single-cell transcriptomics. BMC Genomics 19, 477.'
+- sds <- slingshot(rd, df$cl)
+- library(slingshot)
+- Slingshot9 for tree-like topology, Angle14 for cell cycle, and partition-based graph abstraction (PAGA; directionality enabled by velocity pseudotime)8,15 for graph models
+- Slingshot was implemented using the slingshot v2.1.1 package in R v4.1.1
+- 'suppressMessages(library(slingshot)) ## install it from Bioconductor if encounter an R version issue'
+- library("slingshot")
+- Monocle25, TSCAN26, Slingshot27, and SCANPY13 are considered state-of-the-art
+- Monocle, Slingshot, and TSCAN methods were applied to
+- getTrajectoryGenes( ) returns the simulated trajectory information of cells
+- In trajectory inference methods like `Slingshot`[2] that require a clustering to construct the Minimum Spanning Tree (`MST`) as the backbone of the trajectory
+- one or several clusterings that are used to construct the Minimum Spanning Trees (MSTs) with Slingshot
+- even the few algorithms which automate cell fate detection (e.g., SlingShot1, Palantir2, STREAM3, and Monocle34) exhibit low sensitivity to cell fates
+- SlingShot1, Palantir2, STREAM3, and Monocle34
+- The recommended way to install the `zinbwave` package is
+derived_from:
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+- doi: 10.1038/s41467-024-44823-0
+  title: Trajectory inference across multiple conditions with condiments
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+source_repos:
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/sonejilab/cellexalvr
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/13308204545/Chord
+- https://github.com/HectorRDB/condiments
+- https://github.com/aron0093/cytopath
+- https://github.com/jranek/delve
+- https://github.com/xiaorudong/Escort
+- https://github.com/Winnie09/Lamian
+- https://github.com/ZhangLabGT/LinRace
+- https://github.com/PavlopoulosLab/SCALA
+- https://github.com/duct317/scDHA
+- https://github.com/ZJUFanLab/scTITANS
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/YosefLab/SymSim
+- https://github.com/elolab/Totem
+- https://github.com/ShobiStassen/VIA
+- https://github.com/kstreet13/slingshot
+- https://github.com/drisso/zinbwave
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinglab-ai/ccsf

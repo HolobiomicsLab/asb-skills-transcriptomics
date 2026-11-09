@@ -1,0 +1,23 @@
+name: AutoClass
+slug: autoclass
+version_used: null
+edam_topics: []
+evidence_spans:
+- To address these issues, we developed AutoClass, a neural network-based method.
+- You can download AutoClass module from GitHub
+- Here we design and develop the AutoClass model, integrating two deep neural network components, an autoencoder, and a classifier
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0) and a few other pacakges installed
+- git clone https://github.com/datapplab/AutoClass
+- Example analysis with real scRNA-Seq data (Baron Dataset in the paper)
+- 'Download or clone AutoClass module (replace with your own local directory):'
+derived_from:
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+source_repos:
+- https://github.com/datapplab/AutoClass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/datapplab/AutoClass

@@ -1,0 +1,17 @@
+name: Ensembl Variant Effect Predictor (VEP)
+slug: ensembl-variant-effect-predictor-vep
+version_used: null
+edam_topics: []
+evidence_spans:
+- The VEP results were then further parsed by Ensembl gene ID and overlapping genes between tissues examined
+derived_from:
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mjtiv/VADT

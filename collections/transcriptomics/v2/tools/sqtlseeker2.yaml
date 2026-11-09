@@ -1,0 +1,21 @@
+name: sQTLseekeR2
+slug: sqtlseeker2
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run sQTLseekeR2 on a set of data.
+- we have developed a pipeline for efficient and reproducible sQTL mapping
+- guigolab/sQTLseekeR2
+- sqtlseeker2-nf ~ A pipeline for splicing QTL mapping
+derived_from:
+- doi: 10.1038/s41467-020-20578-2
+  title: Identification and analysis of splicing quantitative trait loci across multiple tissues in the human genome
+source_repos:
+- https://github.com/guigolab/sQTLseekeR2
+- https://github.com/guigolab/sqtlseeker2-nf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/guigolab/sQTLseekeR2

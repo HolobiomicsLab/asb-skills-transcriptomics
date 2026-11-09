@@ -1,0 +1,18 @@
+name: GLUE
+slug: glue
+version_used: 0.3.2
+edam_topics: []
+evidence_spans:
+- we adopted the official code released in https://github.com/gao-lab/GLUE, v0.3.2.
+derived_from:
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+source_repos:
+- https://github.com/gao-lab/GLUE
+- https://github.com/XLearning-SCU/scBridge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gao-lab/GLUE

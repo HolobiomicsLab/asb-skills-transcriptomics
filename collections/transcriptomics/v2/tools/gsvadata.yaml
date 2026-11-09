@@ -1,0 +1,19 @@
+name: GSVAdata
+slug: gsvadata
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2021.08.009
+  title: 'ARMT: An automatic RNA-seq data mining tool based on comprehensive and integrative analysis in cancer research'
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+source_repos:
+- https://github.com/Dulab2020/ARMT
+- https://github.com/Dulab2020/scWizard
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Dulab2020/ARMT

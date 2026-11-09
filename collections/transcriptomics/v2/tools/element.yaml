@@ -1,0 +1,18 @@
+name: ElemeNT
+slug: element
+version_used: null
+edam_topics: []
+evidence_spans:
+- ElemeNT is an interactive tool (implemented in Perl) for rapid and convenient detection of core promoter elements within any given sequences.
+- ElemeNT's CORE database, which contains predicted core promoter elements around annotated TSSs, is now expanded to cover 10 species
+derived_from:
+- doi: 10.1093/bioinformatics/btae110
+  title: 'ElemeNT 2023: an enhanced tool for detection and curation of core promoter elements'
+source_repos:
+- https://github.com/OritAdato/ElemeNT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OritAdato/ElemeNT

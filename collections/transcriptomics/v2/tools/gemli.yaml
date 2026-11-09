@@ -1,0 +1,19 @@
+name: GEMLI
+slug: gemli
+version_used: null
+edam_topics: []
+evidence_spans:
+- We can then identify cell lineages through repeated iterative clustering (this may take 2-3min). The `predict_lineages` function takes our GEMLI_items as input
+- GEMLI is now installed and can be used via `library(GEMLI)`.
+- GEMLI is now installed and can be used via `library(GEMLI)`
+derived_from:
+- doi: 10.1038/s41467-024-47158-y
+  title: Gene-expression memory-based prediction of cell lineages from scRNA-seq datasets
+source_repos:
+- https://github.com/UPSUTER/GEMLI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/UPSUTER/GEMLI

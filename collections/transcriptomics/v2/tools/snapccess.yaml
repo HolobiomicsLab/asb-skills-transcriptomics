@@ -1,0 +1,21 @@
+name: snapccess
+slug: snapccess
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install snapccess  --index-url https://pypi.org/simple
+- an_example_of_generate_embedding_using_SnapCCESS_python_version
+- SnapCCESS is implemented as a Python package
+- SnapCCESS is implemented as a Python package and is freely available from https://github.com/PYangLab/SnapCCESS
+derived_from:
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+source_repos:
+- https://github.com/PYangLab/SnapCCESS
+- https://github.com/yulijia/SnapCCESS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PYangLab/SnapCCESS

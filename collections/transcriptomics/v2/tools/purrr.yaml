@@ -1,0 +1,16 @@
+name: purrr
+slug: purrr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbaf110
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+source_repos:
+- https://github.com/ConesaLab/MOSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ConesaLab/MOSim

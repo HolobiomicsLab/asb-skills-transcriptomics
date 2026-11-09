@@ -1,0 +1,17 @@
+name: sigcount
+slug: sigcount
+version_used: null
+edam_topics: []
+evidence_spans:
+- fortuna was around 7× faster than traditional align and count approaches
+derived_from:
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+source_repos:
+- https://github.com/canzarlab/fortuna
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/canzarlab/fortuna

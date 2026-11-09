@@ -1,0 +1,21 @@
+name: github.com/KaplanLab/KMDHierarchicalClustering
+slug: github-com-kaplanlab-kmdhierarchicalclustering
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# github.com__KaplanLab__KMDHierarchicalClustering'
+- pip install git+https://github.com/KaplanLab/KMDHierarchicalClustering
+- we first optimized the Python implementation of DBCV from https://github.com/christopherjenness/DBCV.
+- Our implementation is available at https://github.com/hkariti/DBCV.
+- created according to the data simulation procedure in https://github.com/willtownes/glmpca/blob/master/vignettes/glmpca.Rmd
+derived_from:
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+source_repos:
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KaplanLab/KMDHierarchicalClustering

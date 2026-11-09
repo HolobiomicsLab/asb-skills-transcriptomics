@@ -1,0 +1,35 @@
+name: Enrichr
+slug: enrichr
+version_used: null
+edam_topics: []
+evidence_spans:
+- we performed gene set enrichment analysis on the set of significant genes from either highly variable gene, DELVE, Hotspot, Laplacian score, or RNA velocity feature selection using Enrichr124
+- many of the pathway enrichment tools such as Enrichr2, Gene set enrichment analysis (GSEA)3,4 and Ingenuity Pathway Analysis5 rely on gene symbols
+- library(enrichr)
+- install R and enrichr
+derived_from:
+- doi: 10.1016/j.isci.2021.103331
+  title: 'DCcov: Repositioning of drugs and drug combinations for SARS-CoV-2 infected lung through constraint-based modeling'
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1038/s41598-022-17104-3
+  title: 'Gene Updater: a web tool that autocorrects and updates for Excel misidentified gene names'
+- doi: 10.1093/bib/bbae011
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+- doi: 10.1016/j.isci.2023.107124
+  title: 'SCING: Inference of robust, interpretable gene regulatory networks from single cell and spatial transcriptomics'
+source_repos:
+- https://github.com/sysbiolux/DCcov
+- https://github.com/jranek/delve
+- https://github.com/xiaorudong/Escort
+- https://github.com/kuanrongchan/date-to-gene-converter
+- https://github.com/MengQiuchen/scDecouple
+- https://github.com/XiaYangLabOrg/SCING
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sysbiolux/DCcov

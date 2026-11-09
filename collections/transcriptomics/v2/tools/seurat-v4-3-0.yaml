@@ -1,0 +1,16 @@
+name: Seurat v4.3.0
+slug: seurat-v4-3-0
+version_used: 4.3.0
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-024-51382-x
+  title: 'scConfluence: single-cell diagonal integration with regularized Inverse Optimal Transport on weakly connected features'
+source_repos:
+- https://github.com/cantinilab/scconfluence
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/scconfluence

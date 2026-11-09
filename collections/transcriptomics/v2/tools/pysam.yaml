@@ -1,0 +1,55 @@
+name: pysam
+slug: pysam
+version_used: '0.8'
+edam_topics: []
+evidence_spans:
+- pysam
+- 'python3
+
+  pysam'
+- '[pysam](http://pysam.readthedocs.org/en/latest/) (>=0.8.4)'
+- '[pysam](http://pysam.readthedocs.org/en/latest/)'
+- a tool based on pysam
+- 'python >=3.7, <4
+
+  pysam
+
+  Bio'
+- a tool based on pysam (https://github.com/pysam-developers/pysam)
+- aligned reads in BAM format
+- 'python module: pysam (tested on version 0.18.0)'
+- Pysam (https://pysam.readthedocs.io/en/latest/installation.html)
+derived_from:
+- doi: 10.1038/s41467-019-11591-1
+  title: A general approach for detecting expressed mutations in AML cells using single cell RNA-sequencing
+- doi: 10.1016/j.gpb.2019.11.004
+  title: 'CIRCexplorer3: A CLEAR Pipeline for Direct Comparison of Circular and Linear RNA Expression'
+- doi: 10.1038/s42003-023-05351-7
+  title: GiRAFR improves gRNA detection and annotation in single-cell CRISPR screens
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+- doi: 10.1093/bib/bbaf107
+  title: 'REDInet: a temporal convolutional network-based classifier for A-to-I RNA editing detection harnessing million known events'
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+source_repos:
+- https://github.com/genome/scrna_mutations
+- https://github.com/sridnona/cb_sniffer
+- https://github.com/YangLab/CLEAR
+- https://github.com/pysam-developers/pysam
+- https://github.com/FunctionalEpigeneticsLab/GiRAFR
+- https://github.com/haessar/peaks2utr
+- https://github.com/BioinfoUNIBA/REDInet
+- https://github.com/XiDsLab/scFusion
+- https://github.com/bvaldebenitom/SoloTE
+- https://github.com/Xinglab/PAIRADISE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genome/scrna_mutations

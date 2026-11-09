@@ -1,0 +1,525 @@
+name: scanpy
+slug: scanpy
+version_used: 1.8.2
+edam_topics: []
+evidence_spans:
+- import scanpy as sc
+- sc.pp.normalize_total(adata)
+- import scanpy as sc
+- R- and Python-based single-cell analysis packages including Seurat, SingleCellExperiment and Scanpy
+- '- [scanpy(>=1.8.2)](https://scanpy.readthedocs.io/en/stable/installation.html)'
+- scanpy(>=1.8.2)
+- differentially expressed genes are selected using the rank_genes_groups function in the Scanpy package
+- scanpy>=1.5
+- differentially expressed genes are selected using the rank_genes_groups function in the Scanpy package (for spatial domain recovery)
+- Preprocessing of the data was done via scanpy
+- Ingest projects the query dataset to a latent space fit on reference data using PCA with 40 components
+- we can use the `Cell ID Based` label transfer method
+- 'Scanpy: large-scale single-cell gene expression data analysis'
+- Seurat (Stuart et al., 2019) and SCANPY (Wolf et al., 2018) among others
+- Those using Seurat and AnnData objects can use our “as_cellexalvrR” function
+- Two popular software packages for classifying cells by transcriptome information alone are Seurat and scanpy
+- processed similarly to the [scanpy standard workflow]
+- processed similarly to the [scanpy standard workflow](https://scanpy-tutorials.readthedocs.io/en/latest/pbmc3k.html)
+- log-cpm normalised data with tentative cluster labels
+- An AnnData object, *data*, that has been processed similarly to the
+- integrates within the Python Scanpy (Alexander Wolf et al. 2018) ecosystem for single-cell analysis
+- the Python API is compatible with the Scanpy33 package.
+- '.. automodule:: autoencoder.api'
+- Alternatively, Scanpy33 users can directly use the “dca” method in the preprocessing
+- the top 1000 highly variable genes are selected using “filter_genes_dispersion” function of Scanpy
+- Diffusion pseudotime was implemented using the dpt function in Scanpy v1.9.3 in python
+- We selected the top p features using the highly variable genes function in Scanpy v1.9.3
+- sc.pp.filter_genes_dispersion(adata,n_top_genes=1000)
+- Highly variable genes are selected using the filter_genes_dispersion function from the Scanpy package25
+- scanpy.api
+- the filter_genes_dispersion function from the Scanpy package25 (https://github.com/theislab/scanpy)
+- interfaces easily with existing single cell software platforms such as Seurat, Bioconductor, and Scanpy
+- 10 genes with corrupted names are removed from our analysis based on the pre-processing of Scanpy.
+- making it compatible with the most popular single-cell analysis pipelines in Python [e.g. SCANPY (Wolf et al. 2018)]
+- the scanpy package in Python has a highly efficient and stable function called “sc.pp.neighbors”
+- The RNA gene expression count data for both PBMC datasets were preprocessed using the “zheng17” recipe in the scanpy package
+- 'Scanpy: large-scale single-cell gene expression data analysis'
+- GeneVector uses Scanpy AnnData objects with raw count data in ``.X``
+- The raw count matrix was subset to 1000 highly variable genes using the Seurat V3 method32 as implemented in Scanpy7.
+- including the widely used Seurat (Hao et al. 2021) and Scanpy (Wolf et al. 2018) suites
+- scverse/scanpy-tutorials
+- We used the diffusion pseudotime algorithm39 (in scanpy45) to infer the progression of cells through geodesic distance
+- Read in an AnnData object using scanpy (an h5ad file)
+- Read in an AnnData object using scanpy (an h5ad file).
+- The gssnng software is available using the python package index (PyPI) and works with Scanpy AnnData objects.
+- ICAT makes heavy use of the excellent `scanpy` library along with the associated `AnnData` data structure.
+- import scanpy as sc
+- ICAT makes heavy use of the excellent `scanpy` library
+- each dataset was preprocessed by normalizing cell counts and selecting highly variable genes using Scanpy.
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- other implementations include Scanpy14 Louvain and Seurat15 Louvain and Bluster16 Louvain
+- The Scanpy Louvain and Leiden algorithms were executed with randomization seed of 0 and default parameters
+- Data is handled with numpy and with scanpy which is used for many computational biology datasets.
+- We then read in the data using scanpy which returns an AnnData object.
+- which were calculated using the function “pp.highly_variable_genes” in Scanpy
+- Raw gene expression counts data were ‘LogNormalized’, which divides the total count in that cell and multiplies it by a scale factor of 10,000
+- common DE tests implemented in Scanpy47 and Seurat7
+- We preprocessed gene expression data for the NEURIPS bone marrow33 using the scanpy72 python package standard workflow.
+- using the scanpy72 python package standard workflow
+- The mouse embryonic differentiation dataset8 was preprocessed using the standard scanpy workflow.
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- in particular Muon and Scanpy
+- matrix operations on the GPU and on Muon47 and Scanpy46 to
+- All preprocessing was performed using the Scanpy46 and Muon47
+- Users can thus take advantage of scverse tools like Scanpy and Muon for preprocessing and downstream analysis
+- on Muon47 and Scanpy46 to handle single-cell multimodal data
+- The code is implemented in Python and relies on PyTorch81 for matrix operations on the GPU and on Muon47 and Scanpy46 to handle single-cell multimodal data.
+- selected top 3000 highly variable genes using the function pp.filter_genes_dispersion from Python package Scanpy
+- Install the dependency package PyEMMA >=2.5.6, Scanpy, Numpy, Pandas and Seaborn
+- Install the dependency package [PyEMMA >=2.5.6], [Scanpy], Numpy, Pandas and Seaborn.
+- Scanpy
+- Install the dependency package PyEMMA >=2.5.6, Scanpy, Numpy, Pandas and Seaborn.
+- Install the dependency package [PyEMMA >=2.5.6](http://emma-project.org/latest/INSTALL.html), [Scanpy]
+- mvTCR’s representation seamlessly integrates into standard single-cell analysis workflows over the Scanpy-format51
+- 'Scanpy: large-scale single-cell gene expression data analysis'
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- using the Python Scanpy toolkit
+- calculate gene age-weighted expression data from scRNA sequencing objects using the Python Scanpy toolkit
+- 'import pilotpy as pl
+
+  import scanpy as sc'
+- import scanpy as sc
+- A saved .h5ad file to use as input. scanpy expression matrix (.X attribute in the anndata object) must be raw expression counts (i.e. not normalized)
+- conda create -n pollock -c pytorch -c conda-forge -y pytorch torchvision torchaudio cpuonly captum scanpy umap-learn r-base
+- pytorch torchvision torchaudio cpuonly captum scanpy umap-learn r-base
+- cpuonly captum scanpy umap-learn r-base
+- two popular reference-based approaches, Seurat and Scanpy
+- For pre-processing, we recommend using Seurat or scanpy.
+- compared to the neighborhood graph methods in Seurat7, Monocle8, Scanpy9, and optimal transport
+- import scanpy as sc
+- The scAce package is implemented in python 3.8, using Scanpy version 1.9.1 (Wolf et al. 2018) for preprocessing
+- Input data can be any scRNA-seq data format (e.g. HDF5, H5ad, or loom) that can be read by Scanpy (Wolf et al. 2018).
+- Input data can be any scRNA-seq data format (e.g. HDF5, H5ad, or loom) that can be read by Scanpy (Wolf et al. 2018)
+- We have integrated the essential pre-processing functions from Scanpy
+- any scRNA-seq data format (e.g. HDF5, H5ad, or loom) that can be read by Scanpy (Wolf et al. 2018)
+- One of the most commonly used tools for analysis of single-cell data is the Python-based Scanpy toolkit
+- integrated into the Scanpy (scRNAseq), Episcanpy (scATAC), and MUON (multiomics) ecosystems in Python
+- '[scanpy 1.7.2]'
+- the top m highly variable genes are chosen by the filter_genes_dispersion function in single-cell analysis in python (Scanpy) package
+- 'Scanpy: large-scale single-cell gene expression data analysis'
+- we used one-sided Wilcoxon rank-sum test in Scanpy27 to find the top 40 differentially expressed genes (DEGs)
+- we preprocessed the data through scanpy (Wolf et al. 2018) and concatenated the expression matrices based on common genes.
+- pip install scanpy torch scib
+- This was followed by a log1p transformation to stabilize the variance
+- get the count data from single-cell expression data used in `scanpy <https://scanpy.readthedocs.io>`_
+- the framework offers access to other well-established compositional test statistics and is fully integrated into the Scanpy12 ecosystem
+- Scanpy --- 1.0.4 (https://scanpy.readthedocs.io/en/stable)
+- we applied the Python package SCANPY (version 1.4.4) to preprocess the raw scRNA-seq read count data
+- applied by the scanpy package
+- The expected output format of scDEAL is the [AnnData](https://anndata.readthedocs.io/en/latest/anndata.AnnData.html) object (.h5ad) applied by the scanpy package
+- Further analysis for the output can be processed by the package [Scanpy]
+- 'The object can be loaded into python through the function: [scanpy.read_h5ad]'
+- object (.h5ad) applied by the scanpy package
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- Widely-used methods in this category include SC39, SEURAT10, SINCERA11, CIDR12, and SCANPY13
+- Monocle25, TSCAN26, Slingshot27, and SCANPY13 are considered state-of-the-art
+- The scRNA-seq datasets were preprocessed using the standard pipeline of Scanpy44
+- The scRNA-seq datasets were preprocessed using the standard pipeline of Scanpy44.
+- including data preprocessing by Scanpy [19], imputation by MAGIC [37], batch correction by Harmony [20]
+- The first step in the pipeline is scRNA-seq data analysis, including data preprocessing by Scanpy
+- Single cell data preprocessing can be done with Seurat R package and scanpy python package
+- select the top t=2048 highly variable genes with scanpy
+- we select the top t highly variable genes based on the normalized discrete values computed by the scanpy package (Wolf et al., 2018)
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- the graph-based Louvain modularity optimization clustering algorithm as implemented in Seurat and Scanpy has been shown to be very accurate
+- well-known packages like Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing and Principal Component Analysis (PCA) with 50 principal components (PCs) by default for DR
+- well-known packages like Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing
+- Seurat, Scanpy, and Monocle3 employ log normalization for preprocessing and Principal Component Analysis (PCA) with 50 principal components (PCs) by default
+- The raw CITE-seq data is preprocessed and normalized by the Python package SCANPY48. mRNA and ADT data are normalized separately but using the same method.
+- Scanpy 1.6.0
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+- scanpy
+- 'numpy
+
+  scipy
+
+  tensorflow
+
+  scikit-learn
+
+  pandas
+
+  scanpy
+
+  anndata'
+- SCANPY is a scalable toolkit for analyzing single-cell gene expression data built jointly with anndata
+- The development of computational toolboxes like Seurat4–7, Scanpy8, and Cell Ranger (10X Genomics, commercial) facilitates scRNA-seq analyses
+- 'sc.pp.normalize_total(train_adata, target_sum=1e4)
+
+  sc.pp.log1p(train_adata)'
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- sc.pp.normalize_total(train_adata, target_sum=1e4)
+- also known as ‘score_genes’ in Scanpy
+- We run MAGIC using the Scanpy implementation with default parameters and the approximate solver for computational speed.
+- chosen using the ‘pp.highly_variable_genes’ tool in SCANPY.
+- For making the RRHO plots, we used SCANPY to identify each cell type
+- '[![scanpy 1.9.1](https://img.shields.io/badge/scanpy-1.9.1-red)](https://github.com/scverse/scanpy)'
+- '[![scanpy 1.9.1](https://img.shields.io/badge/scanpy-1.9.1-red)]'
+- scverse/scanpy
+- its output is designed to be easily integrated into downstream analysis pipelines including, but not limited to, Seurat and SCANPY
+- All the preprocessing and QC steps were conducted using scTriangulate version 0.9.0 and scanpy version 1.7.2.
+- adjusted the resolution arguments in scanpy.tl.leiden function to obtain results for a range of clustering resolutions
+- The RNA raw UMI count was normalized to logarithmic CPTT.
+- All the preprocessing and QC were run in scTriangulate version 0.9.0 and scanpy version 1.7.2.
+- scTriangulate is integrated seamlessly into the highly adopted scanpy python framework
+- '# scanpy.pp.normalize_total(adata)
+
+  # sc.pp.log1p(adata)'
+- Integrates with AnnData and scanpy
+- log-transformed the global scaling normalized expression matrix using SCANPY
+- log-transformed the global scaling normalized expression matrix using SCANPY 1.9.1’s ‘pp.normalize_total’ and ‘log1p’ functions.
+- log-transformed the global scaling normalized expression matrix using SCANPY 1.9.1’s ‘pp.normalize_total’ and ‘log1p’ functions
+- ‘pp.normalize_total’ function of SCANPY68
+- import scanpy as sc
+- users can simply use single-cell analysis tools (e.g., Seurat42 and Scanpy43) to cluster cells
+- 'import scanpy as sc # For visualization'
+- popular data analysis frameworks like Seurat,14 Giotto,15 Scanpy,16 and Squidpy17 derive their colorization approaches from widely used data visualization libraries
+- import scanpy as sc
+- We used Scanpy60 to select highly variable genes for downstream analysis
+- The 39 clusters of the scRNA-seq data were identified using the Scanpy package (PCA + Louvain)60.
+- conda install -c conda-forge scanpy python-igraph leidenalg
+- we calculated the top 2000 highly variable genes per species using Scanpy highly_variable_genes
+- '- scanpy>=1.6'
+- pip install scanpy==1.8.2
+- uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data
+- that uses `scanpy` ans `torch`
+- that uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data
+- called `TOSICA` that uses `scanpy` ans `torch`
+- We created the python package called `TOSICA` that uses `scanpy` ans `torch`
+- scanpy (version 1.7.1), Seurat (version 4.1.0)
+- 'SCANPY: large-scale single-cell gene expression data analysis'
+- import scanpy as sc
+- We normalized total counts of each cell using the scanpy.pp.normalize_total function in the scanpy package
+- 'import uniport as up
+
+  import scanpy as sc'
+- 'Scanpy: large-scale single-cell gene expression data analysis'
+- works around the `scanpy <https://scanpy.readthedocs.io/en/stable/index.html>`_ and
+- works around the `scanpy <https://scanpy.readthedocs.io/en/stable/index.html>`_ and `scvi-tools
+- VEGA is implemented in Pytorch and works around the `scanpy <https://scanpy.readthedocs.io/en/stable/index.html>`_
+- '`scanpy <https://scanpy.readthedocs.io/en/stable/index.html>`_'
+- import scanpy as sc
+- "adata = sc.AnnData(data_genes)\n\tadata.obsm['X_pca'] = data.values"
+- adata = sc.AnnData(data_genes)
+- for a few pre- and post-processing analysis
+- '- `scanpy <https://scanpy-tutorials.readthedocs.io/>`_ for a few pre- and post-processing analysis'
+- '`scanpy <https://scanpy-tutorials.readthedocs.io/>`_ for a few pre- and post-processing analysis'
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+- doi: 10.1016/j.crmeth.2024.100813
+  title: SingleCellGGM enables gene expression program identification from single-cell transcriptomes and facilitates universal cell label transfer
+- doi: 10.1016/j.isci.2020.101913
+  title: 'CellO: comprehensive and hierarchical cell type classification of human cells with the Cell Ontology'
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1093/bioinformatics/btad435
+  title: <i>Cytocipher</i> determines significantly different populations of cells in single-cell RNA-seq data
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1038/s41467-022-29356-8
+  title: Normalizing and denoising protein expression data from droplet-based single cell profiling
+- doi: 10.1016/j.gpb.2020.08.003
+  title: 'DTFLOW: Inference and Visualization of Single-Cell Pseudotime Trajectory Using Diffusion Propagation'
+- doi: 10.1016/j.crmeth.2023.100512
+  title: Characterization of cell-fate decision landscapes by estimating transcription factor dynamics
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+- doi: 10.1038/s41467-025-61337-5
+  title: Unveiling causal regulatory mechanisms through cell-state parallax
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+- doi: 10.1093/bioadv/vbad150
+  title: Single-cell gene set scoring with nearest neighbor graph smoothed data (gssnng)
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1016/j.csbj.2022.06.010
+  title: 'MarkerCount: A stable, count-based cell type identifier for single-cell RNA-seq experiments'
+- doi: 10.1038/s41540-024-00339-3
+  title: 'MarkerMap: nonlinear marker selection for single-cell studies'
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+- doi: 10.1093/bioinformatics/btad592
+  title: 'MuDCoD: multi-subject community detection in personalized dynamic gene networks from single-cell RNA sequencing'
+- doi: 10.1038/s41467-021-25548-w
+  title: Dissecting transition cells from single-cell transcriptome data through multiscale stochastic dynamics
+- doi: 10.1038/s41467-024-49806-9
+  title: Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data
+- doi: 10.1038/s41467-020-18873-z
+  title: Predicting cell-to-cell communication networks using NATMI
+- doi: 10.1093/bioinformatics/btad657
+  title: 'oggmap: a Python package to extract gene ages per orthogroup and link them with single-cell RNA data'
+- doi: 10.1016/j.crmeth.2022.100332
+  title: Multiset multicover methods for discriminative marker selection
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+- doi: 10.1093/bioadv/vbac028
+  title: 'Pollock: fishing for cell states'
+- doi: 10.1038/s41467-021-23518-w
+  title: Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+- doi: 10.1093/bioinformatics/btad546
+  title: 'scAce: an adaptive embedding and clustering method for single-cell gene expression data'
+- doi: 10.1093/bioinformatics/btad644
+  title: Inference of differential key regulatory networks and mechanistic drug repurposing candidates from scRNA-seq data with SCANet
+- doi: 10.1038/s41598-024-66381-7
+  title: Scanpro is a tool for robust proportion analysis of single-cell resolution data
+- doi: 10.1093/bioinformatics/btad075
+  title: 'scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering'
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+- doi: 10.1038/s41467-024-47418-x
+  title: 'scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders'
+- doi: 10.1038/s41467-024-51891-9
+  title: 'scCAD: Cluster decomposition-based anomaly detection for rare cell identification in single-cell expression data'
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+- doi: 10.1038/s41467-021-27150-6
+  title: scCODA is a Bayesian model for compositional single-cell data analysis
+- doi: 10.1038/s41467-024-51382-x
+  title: 'scConfluence: single-cell diagonal integration with regularized Inverse Optimal Transport on weakly connected features'
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1093/bib/bbae180
+  title: Single-cell multi-omics analysis identifies context-specific gene regulatory gates and mechanisms
+- doi: 10.1093/bioinformatics/btad098
+  title: 'scGCL: an imputation method for scRNA-seq data based on graph contrastive learning'
+- doi: 10.1038/s41467-021-23196-8
+  title: Hierarchical progressive learning of cell identities in single-cell data
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s42003-022-04093-2
+  title: Multi-level cellular and functional annotation of single-cell transcriptomes using scPipeline
+- doi: 10.1093/bib/bbae112
+  title: 'scNovel: a scalable deep learning-based network for novel rare cell discovery in single-cell transcriptomics'
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+- doi: 10.1038/s41467-024-50150-1
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and active learning'
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1038/s41598-025-12897-5
+  title: Enabling scalable single-cell transcriptomic analysis through distributed computing with Apache spark
+- doi: 10.1038/s41467-021-21808-x
+  title: Identifying transposable element expression dynamics and heterogeneity during development at the single-cell level with a processing pipeline scTE
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+- doi: 10.1093/bib/bbaf279
+  title: 'scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks'
+- doi: 10.1038/s41467-025-57047-7
+  title: Unveiling the cell-type-specific landscape of cellular senescence through single-cell transcriptomics using SenePy
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+- doi: 10.1016/j.xgen.2024.100581
+  title: 'SIMS: A deep-learning label transfer tool for single-cell RNA sequencing analysis'
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1016/j.patter.2023.100915
+  title: 'Spaco: A comprehensive tool for coloring spatial data at single-cell resolution'
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1093/bib/bbae189
+  title: 'SpatialCells: automated profiling of tumor microenvironments with spatially resolved multiplexed single-cell data'
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+- doi: 10.1093/bioinformatics/btad248
+  title: Cell type matching across species using protein embeddings and transfer learning
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+- doi: 10.1038/s41467-023-35923-4
+  title: Transformer for one stop interpretable cell type annotation
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+- doi: 10.1007/s11704-022-2011-y
+  title: 'AE-TPGG: a novel autoencoder-based approach for single-cell RNA-seq data imputation and dimensionality reduction'
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/DaneVass/BARtab
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/euxhenh/cellar
+- https://github.com/sonejilab/cellexalvr
+- https://github.com/MaShisongLab/CellGEP
+- https://github.com/deweylab/CellO
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/BradBalderson/Cytocipher
+- https://github.com/theislab/dca
+- https://github.com/jranek/delve_benchmark
+- https://github.com/jranek/delve
+- https://github.com/theislab/scanpy
+- https://github.com/eleozzr/desc
+- https://github.com/niaid/dsb
+- https://github.com/statway/DTFLOW
+- https://github.com/sarajimenez/fatecompass
+- https://github.com/mikelkou/fava
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/nceglia/genevector
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+- https://github.com/alexw16/gridnet
+- https://github.com/scverse/scanpy
+- https://github.com/scverse/scanpy-tutorials
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+- https://github.com/IlyaLab/gssnng
+- https://github.com/BradhamLab/icat
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/combio-dku/MarkerCount
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap.git
+- https://github.com/hayatlab/MASI
+- https://github.com/cistrome/MIRA
+- https://github.com/lixiangchun/Miscell
+- https://github.com/cantinilab/mowgli
+- https://github.com/bo1929/MuDCoD
+- https://github.com/cliffzhou92/MuTrans-release
+- https://github.com/SchubertLab/mvTCR
+- https://github.com/forrest-lab/NATMI
+- https://github.com/kullrich/oggmap
+- https://github.com/euxhenh/phenotype-cover
+- https://github.com/CostaLab/PILOT
+- https://github.com/ding-lab/pollock
+- https://github.com/gifford-lab/prescient
+- https://github.com/marmarelis/QDiffusion.jl
+- https://github.com/sldyns/scAce
+- https://github.com/oubounyt/SCANet
+- https://github.com/loosolab/scanpro
+- https://github.com/wangyh082/scBGEDA
+- https://github.com/XLearning-SCU/scBridge
+- https://github.com/BioX-NKU/scButterfly
+- https://github.com/xuyp-csu/scCAD
+- https://github.com/czythu/scCancer
+- https://github.com/mcgilldinglab/scCobra
+- https://github.com/theislab/scCODA
+- https://github.com/cantinilab/scconfluence
+- https://github.com/ttgump/scDCC
+- https://github.com/OSU-BMBL/scDEAL.git
+- https://github.com/OSU-BMBL/scDEAL
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/duct317/scDHA
+- https://github.com/Zafar-Lab/scDREAMER-reproducibility
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/ailabstw/scDrug
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/CompBioIPM/scGATE
+- https://github.com/zehaoxiong123/scGCL
+- https://github.com/lcmmichielsen/scHPL
+- https://github.com/jr-leary7/SCISSORS
+- https://github.com/Mathbiomed/scLENS
+- https://github.com/xianglin226/scMDC
+- https://github.com/bucky527/scME
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/NMikolajewicz/scMiko
+- https://github.com/chuanyang-Zheng/scNovel
+- https://github.com/ZhuoliHuang/scPAFA
+- https://github.com/cantinilab/scPRINT
+- https://github.com/mcgilldinglab/scSemiProfiler
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/asif7adil/scSparkl
+- https://github.com/JiekaiLab/scTE
+- https://github.com/frankligy/scTriangulate
+- https://github.com/LHBCB/scvalue
+- https://github.com/jaleesr/senepy
+- https://github.com/Patchouli-M/SequencingCancerFinder
+- https://github.com/braingeneers/SIMS
+- https://github.com/jlehrer1/sims
+- https://github.com/ddiez/singleCellHaystack-py
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/BrainStOrmics/Spaco
+- https://github.com/zcang/SpaOTsc
+- https://github.com/SemenovLab/SpatialCells
+- https://github.com/WhirlFirst/STEM
+- https://github.com/kbiharie/TACTiCS
+- https://github.com/bauerbach95/tempo
+- https://github.com/xiaoyeye/TFvelo
+- https://github.com/deeplearningplus/tGPT
+- https://github.com/JackieHanLab/TOSICA
+- https://github.com/caokai1073/uniPort
+- https://github.com/LucasESBS/vega
+- https://github.com/ShobiStassen/VIA
+- https://github.com/single-cell-genetics/XClone
+- https://github.com/PUGEA/AE-TPGG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

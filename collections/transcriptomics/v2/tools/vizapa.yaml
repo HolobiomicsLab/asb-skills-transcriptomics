@@ -1,0 +1,22 @@
+name: vizAPA
+slug: vizapa
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(vizAPA)
+- data(scPACds, package='vizAPA')
+- One unique feature of vizAPA is plotting a genome-browser-like plot, including gene models, pA positions and BAM coverages.
+- 'annoSource=new("annoHub")
+
+  gff<-useGff("./PBMC/Homo_sapiens.GRCh38.109.gtf.gz")'
+derived_from:
+- doi: 10.1093/bioinformatics/btae099
+  title: 'vizAPA: visualizing dynamics of alternative polyadenylation from bulk and single-cell data'
+source_repos:
+- https://github.com/BMILAB/vizAPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BMILAB/vizAPA

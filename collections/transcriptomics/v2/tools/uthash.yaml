@@ -1,0 +1,19 @@
+name: uthash
+slug: uthash
+version_used: null
+edam_topics: []
+evidence_spans:
+- One of these is [uthash](http://troydhanson.github.io/uthash/userguide.html), which is implemented entirely as preprocessor macros.
+- which is implemented entirely as preprocessor macros.
+derived_from:
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/troydhanson/uthash
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/troydhanson/uthash

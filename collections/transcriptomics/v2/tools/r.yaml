@@ -1,0 +1,839 @@
+name: R
+slug: r
+version_used: 4.1.0
+edam_topics: []
+evidence_spans:
+- R package, stable | Recommended for R users
+- install.packages("devtools")
+- The [tidyverse package](https://www.tidyverse.org/)
+- '[R](https://www.r-project.org/)'
+- we developed bartools, a flexible open-source R package that incorporates workflows for population-level cellular barcoding data analysis
+- and bartools, an open-source R package
+- R >= 4.1.0
+- It is required that **R** is installed and make sure the **Rscript** command is executable
+- The **BloodGen3Module** package provides functions for R users to perform module repertoire analyses
+- The custom resources that have been developed include an R package which permit to run analysis workflows for group comparison and individual molecular fingerprinting
+- The custom resources that have been developed include an R package which permit to run analysis workflows
+- an R package which permit to run analysis workflows for group comparison and individual molecular fingerprinting
+- You can install the **MUSIC** package from Github using **devtools** packages with R>=3.4.1.
+- with R>=3.4.1
+- packages with R>=3.4.1
+- you can also use the GEOquery package in R
+- Before installing the `BUSseq` package, users should have installed `R` with version 3.6.3 or higher.
+- '# R version 4.0.5 (2021-03-31)'
+- R version 4.0.5 (2021-03-31)
+- Make sure at least [R 4.0.0](https://cran.r-project.org/src/base/R-4/) is installed.
+- primarily using packages for the R/Python languages
+- an interactive R Shiny web application and an R package designed to automatically identify and easily interpret single-cell populations
+- using Seurat (version 5.0.3) in the R environment (version 4.2.3)
+- Single-cell datasets were analyzed employing a standard pre-processing pipeline for single-cell RNA-seq data, using Seurat (version 5.0.3) in the R environment (version 4.2.3).
+- encompassing an interactive R Shiny web application and an R package designed to automatically identify and easily interpret single-cell populations
+- list.of.packages <- c('reshape','reshape2','pheatmap','tsne','igraph','ggplot2','mclust','grid','Rtsne','cccd')
+- To use CellRouter, clone/download this repository. You also need to install several packages
+- source the CellRouter class and make sure you provide the correct directory for the Java libraries inside the folder "CellRouter"
+- remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')
+- CLOUDe is an R implementation of Campelo dos Santos, DeGiorgio and Assis' (2023) suite of machine learning methods
+- Within the R environment
+- 'CMScaller: an R package for tumor microenvironment-independent colorectal cancer consensus molecular subtyping'
+- set.seed(2071)
+- Connectome is an R package to automate ligand-receptor mapping and visualization in single-cell data.
+- an R/Bioconductor package which interfaces directly with single cell classes in Bioconductor
+- knitr::rmarkdown
+- The open source Python/R tool will allow biologists to efficiently detect MG
+- Source codes for the CPPLS_MLP R, python packages
+- 'dependence: R version <= 4.2.3.'
+- CTMM calls R routines through [rpy2](https://rpy2.github.io/), so a working R installation is required.
+- The cTP-net package is available both in Python and R at https://github.com/zhouzilu/cTPnet.
+- cTP-net R notebook with step-by-step demonstration and rich display is available
+- The processed datasets were packaged in `R`/`Bioconductor``SummarizedExperiment` object individually.
+- dandelionR is developed and tested in R v4.4.1 and is available through Bioconductor
+- dandelionR is developed and tested in R v4.4.1
+- However, no R-based equivalent or similar methods currently exist
+- '* R 3.6.1 -- "Action of the toes"'
+- '#### rule for clustering Rscript'
+- decoupleR's open-source code is available in Bioconductor (https://www.bioconductor.org/packages/release/bioc/html/decoupleR.html) for R
+- decoupleR's open-source code is available in Bioconductor
+- MSigDBr attained from R package `msigdbr` with function get_msigdbr() in DeepCC
+- conda install r-base
+- because data processing and result visualization require R and then also install the following in R
+- Shiny typically locks the R console until the user presses escape to close the shiny app.
+- DEGGs is implemented in R and available on GitHub
+- sessionInfo()
+- '%\VignetteEngine{knitr::rmarkdown}'
+- knitr::rmarkdown
+- R/Bioconductor package demuxmix (https://doi.org/doi:10.18129/B9.bioc.demuxmix)
+- The raw counts are stored in a column-wise sparse matrix using the implementation from the R package [Matrix]
+- library(diem)
+- The raw counts are stored in a column-wise sparse matrix using the implementation from the R package
+- column-wise sparse matrix using the implementation from the R package
+- The raw counts are stored in a
+- we introduce, dipm, a novel R package that implements the DIPM method using R code that calls a program in C
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- call library(<dep>) explicitly before using their functions
+- using the R packages scran16 and Rtsne17
+- require(knitr)
+- library(DropletUtils)
+- loading vectors in equation III calculated by the R function prcomp() are multiplied by the noise matrix
+- loading vectors in equation III calculated by the R function prcomp()
+- type ?limma::removeBatchEffect into R console
+- DUBStepR requires your R version to be >= 3.5.0
+- we implemented SSN in R using basic R and tidyverse functions54
+- was written in R version 4.0.313 and developed using RStudio14
+- was written in R version 4.0.3
+- Using publicly available packages tidyverse15 , Seurat16 as dependencies, the package performs enrichment analysis as previously described by Mehdi and colleagues17.
+- We utilized the R package Splatter to simulate scRNA-seq datasets
+- install_github("shawnstat/EDGE")
+- ELVAR is an R-package for differential abundance (DA) testing of cell-types in single-cell RNA-Seq data.
+- library(Seurat)
+- library(ELVAR)
+- We implement the whole DA-testing pipeline (including the cell-attribute-aware clustering and NBR steps) in the programming language R
+- we developed a pipeline for DA-testing called ELVAR (Extended LouVain Algorithm in R)
+- ELVAR is available as an open-source R-package.
+- '**R version**: `r R.version.string`'
+- It can be applied to model and non-model organisms and can be run modularly in R
+- R version
+- 'library(FeatureCorr) #Loading the library'
+- '# install.packages("devtools")'
+- if R CMD build FiRE; then
+- '--R                        : R             : Install FiRE in R environment.'
+- Simulated scRNA-seq data were generated using the R package Splatter.
+- Rscript $FST_SAMPLE_DIR/forseti/preprocess/build_spliceu.R $REF_DIR/fasta/genome.fa
+- library(scuttle)
+- 'library(scuttle)
+
+  library(scran)
+
+  library(scater)'
+- library(HDF5Array)
+- GEMLI is now installed and can be used via `library(GEMLI)`
+- Simply run `library(devtools)` and then `install_github("UPSUTER/GEMLI", subdir="GEMLI_package_v0")`.
+- Simply run `library(devtools)` and then `install_github("UPSUTER/GEMLI", subdir="GEMLI_package_v0")`
+- If `devtools` is not installed yet, you can do so with `install.packages("devtools")`
+- you can do so with `install.packages("devtools")`
+- all statistical analysis was performed with the statistical computing and graphic drawing language, R
+- The platform was written and all statistical analysis was performed with the statistical computing and graphic drawing language, R
+- r-base "r-mgcv>=1.8"
+- You can use this final model to apply the same dimensionality reduction to new data using makeAxes.
+- The final HSS-LDA model is also saved, and can be used like any R model.
+- ICELLNET v2.0.0 requires R version < 4.1.
+- ICELLNET v2.0.0 requires R version < 4.1. For latest R versions (> 4.1.x), please use ICELLNET v2.2.x.
+- iDEA is implemented as an R package
+- The nestedcv R package implements fully nested k × l-fold CV
+- The nestedcv R package implements fully nested k × l-fold CV for lasso and elastic-net regularized linear models
+- knitr::opts_chunk$set(
+- Implemented in R/Shiny, InterCellar is distributed as an open-source Bioconductor36 package
+- iSC.MEB is implemented in an open-source R package
+- 'The package can be installed with the following command from [Github](https://github.com/XiaoZhangryy/iSC.MEB):'
+- library(iSC.MEB)
+- ivis is made publicly available through Python and R interfaces on https://github.com/beringresearch/ivis
+- Declared exports parsed from the repository (NAMESPACE / __init__ / entry points)
+- an open-source R package for flexible linear mixed effects modeling of RNA-seq
+- kmFit(dat, kin, patientID, libraryID, counts, meta, genes, weights, subset_var, subset_lvl
+- an open-source R package for flexible linear mixed effects modeling
+- 'output: rmarkdown::html_vignette'
+- library(METAFlux)
+- simply load the package from the above link into your R session
+- Require an R package, rmd2jupyter
+- devtools::install_github("evenrus/mmsig")
+- '# install.packages("devtools")'
+- Mpath reference manual provides detailed documentation of Mpath R package.
+- _No usage/docs found._
+- 'package: "`r BiocStyle::pkg_ver(''muscat'')`"'
+- provide robust tools for multi-condition analysis within the muscat R package
+- library(dplyr)
+- '`MuSiC` is implemented as an
+
+  R package'
+- '`MuSiC` is implemented as an
+
+  R package, `r BiocStyle::Githubpkg(''xuranw'', ''MuSiC'')`'
+- R package, `r BiocStyle::Githubpkg('xuranw', 'MuSiC')`
+- Starting from version 1.5.7, *nebula* requires R-4.4.0+
+- The installation also requires Rcpp-1.0.7 and has been tested on R-4.4.0.
+- NeuCA is freely available as an R/Bioconductor package
+- The Zheng_8ct_PBMC data were downloaded from the R/Bioconductor package DuoClustering2018
+- '%\VignetteEngine{knitr::rmarkdown}'
+- R package that provides a function to compute activity of a Protein-protein Interaction Network (PPIN)
+- ORIGINS is freely available as an open source R package from the GitHub repository
+- remotes::install_github("danielasenraoka/ORIGINS")
+- 'The remotes package is needed, if you don''t have it type: install.packages("remotes")'
+- pareg is freely available as an R package on Bioconductor
+- BiocManager::install("pareg")
+- library(tidyverse)
+- we have created an R package, termed pdacR, for public use
+- man/, as in all R packages, holds help files called using ?function
+- R/ holds all wrapper functions used in the application
+- We provide an R implementation of our method PhenoPath at https://bioconductor.org/packages/release/bioc/html/phenopath.html.
+- We have developed an R package for the PreCanCell algorithm
+- library(PreCanCell)
+- in the R package “Seurat” (v4.0.6)
+- We implemented survival analyses with the function “survfit()” in the R package “survival.”
+- normalized gene expression values using the “NormalizeData()” function in the R package “Seurat” (v4.0.6)
+- We have implemented ProjecTILs as an R package
+- Find more information, syntax and examples using the R help function e.g. `?Run.ProjecTILs`
+- The following commands allow the rCASC installation in [*R*](https://cran.r-project.org/) environment
+- environment
+- The following commands allow the rCASC installation in
+- reCAT is achieved in R and is easy to use
+- We have developed Recursive Consensus Clustering (RCC), a user-friendly R package that allows a researcher to find novel and biologically meaningful subtypes
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- We have developed Recursive Consensus Clustering (RCC), a user-friendly R package
+- RCC_clus(x, config_file)
+- require(devtools)
+- an R/Bioconductor tool for the colocalization analysis
+- library(RgnTX)
+- This vignette describes the Bioconductor RgnTX package.
+- Here, we developed RgnTX, an R/Bioconductor tool for the colocalization analysis of transcriptome elements with permutation tests.
+- We developed it for the colocalization analysis of transcriptome elements, where permutation test is performed
+- We first download the raw 10X data from GEO using `GEOquery`, which can be obtained using the following command if not already installed
+- We first download the raw 10X data from GEO using `GEOquery`
+- install.packages("tidyverse")
+- rRoma requires a gene expression matrix, with column names indicating samples and row names indicating gene names.
+- library(rRoma)
+- RSCanner requires pre-installation of the R computing language and three R packages.
+- 'runibic: UniBic in R Tutorial'
+- '* R (>= 3.6.0)'
+- '## R version 4.3.2 (2023-10-31)'
+- R version 4.3.2 (2023-10-31)
+- 'suppressMessages(library(scCancer))
+
+  suppressMessages(library(dplyr))'
+- suppressMessages(library(scCancer))
+- we develop an R package named `scCancer` which focuses on processing and analyzing scRNA-seq data for cancer research
+- 'To load the installed **`scDecouple`** in R:'
+- You can install scDEED from GitHub using devtools.
+- library(devtools)
+- which is fully implemented in the R language and built within the drake framework
+- run_single_sample_r()
+- 'date: "`r Sys.Date()`"'
+- '`r Sys.Date()`'
+- R >= 3.5
+- '- R >= 3.5'
+- 'To install and load the developmental version of scHiCDiff in R:'
+- scHiCDiff is implemented in R and freely available at GitHub
+- count.table <- readRDS(paste("path/sampledata/sim 1 .rds")
+- '{r makeBCfile, eval=FALSE, echo=TRUE}
+
+  library(Seurat)'
+- The software generated here is employable in a much larger setting and available as an R-package.
+- DiffSplicingAnalysis(configFile = config,
+- library(Seurat)
+- In our implementation, we adopt the lm function that is available in the stats R package.
+- '`SCISSOR` is an R package containing tools for statistical analysis and visualization of base-level RNA-seq data.'
+- "library(dplyr)           # tidy data \nlibrary(Seurat)          # single cell infrastructure"
+- 'library(dplyr)           # tidy data'
+- 'library(Seurat)          # single cell infrastructure'
+- '{r}'
+- 'library(cluster)         # clustering tools'
+- 'install.packages("r.jive")
+
+  library(r.jive)'
+- install.packages("r.jive")
+- library(scLink)
+- we also implement the methods in the R package scLink (https://github.com/Vivianstats/scLink)
+- count.norm = sclink_norm(count, scale.factor = 1e6, filter.genes = FALSE, gene.names = genes)
+- 'output: rmarkdown::github_document'
+- The scLink R package is available at https://github.com/Vivianstats/scLink.
+- scMEGA is implemented in R, released under the MIT license
+- suppressMessages(library(ArchR))
+- Rscript get_genex_data_from_10x_h5.R config_mclust.json
+- Install with Conda if you do not plan on running R4scSHARP from Python. ``conda install -c lewinsohndp scsharp -c pyg -c conda-forge -c r``
+- 'Note: the R tools are necessary for running scSHARP'
+- as an open-source R implementation (https://github.com/IanevskiAleksandr/sc-type)
+- as an open-source R-package
+- gs_list <- gene_sets_prepare(db_, tissue)
+- HGNChelper_0.8.1        SeuratObject_4.0.2      Seurat_4.0.3     dplyr_1.0.6
+- we developed a universally applicable R-software package for predicting novel secondary therapies in chemotherapy-resistant cancers
+- Declared exports parsed from the repository (NAMESPACE / __init__ / entry points).
+- outputs a list of the top drug combination candidates with rank and confidence scores
+- library(SeedMatchR)
+- SeedMatchR is an R package developed to provide users a single, unified resource for detecting and visualizing seed-mediated off-target effects of siRNA
+- '''SeedMatchR'' is an R package developed to provide users a single, unified resource'
+- SEMtree() function is implemented in the R package SEMgraph
+- SEMtree() function is implemented in the R package SEMgraph, easily available at https://CRAN.R-project.org/package=SEMgraph.
+- library(SEMgraph)
+- SingCellaR, an analysis package in R
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- Declared exports parsed from the repository (NAMESPACE / __init__ / entry points).
+- clustering_KMeansOnKNN_Graph(object, k, iter.max)
+- library(singleCellHaystack)
+- the original implementation of `singleCellHaystack` for R ([version 0.3.4](https://github.com/alexisvdb/singleCellHaystack/tree/binary))
+- singleCellHaystack is available as packages in both R and Python.
+- python implementation of [singleCellHaystack](https://github.com/alexisvdb/singleCellHaystack) (version >= 1.0.0).
+- The most important functionality in the R package works
+- ├── SkewC.r
+- SkewC is implemented in the R and Perl computational languages.
+- coverage.r - sample data for SkewC Rmarkdown
+- remotes::install_github(repo='yulijia/SnapCCESS',branch='main',subdir='snapccess-r/SnapCCESS')
+- '### R'
+- R v4 or higher (https://www.r-project.org/)
+- an R/Shiny package ( https://github.com/almeidasilvaf/SoyFungiGCN )
+- The **SpatialDDLS** R package provides a neural network-based solution for cell type deconvolution of spatial transcriptomics data.
+- library("SpatialDDLS")
+- '{r setup, include=FALSE}'
+- An R implementation of SSCC is available at https://github.com/Japrin/sscClust
+- r Sys.Date()
+- STdeconvolve is available as an open-source R software package with the source code available at https://github.com/JEFworks-Lab/STdeconvolve
+- BiocManager::install("STdeconvolve")
+- "if(!requireNamespace(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")"
+- STdeconvolve is available as an open-source R software package
+- remotes::install_github("dajmcdon/suffpcr")
+- library(suffpcr)
+- out <- suffPCR(X, y, d=1:3)
+- 'r
+
+  remotes::install_github("dajmcdon/suffpcr")'
+- R version 3.4.3 (2017-11-30)
+- TimeTalk is an R package that is available at https://github.com/ChengLiLab/TimeTalk.
+- devtools::install_github("shenorrLab/cellAlign")
+- All statistical analyses were performed using R (version 3.6.3).
+- library(TimeTalk)
+- tiny-count and other tinyRNA tools are implemented in Python, C++, Cython, and R, and the workflow is coordinated with CWL.
+- We introduce Totem, an open-source, easy-to-use R package designed to facilitate inference of tree-shaped trajectories from single-cell data.
+- We introduce Totem, an open-source, easy-to-use R package designed to facilitate inference of tree-shaped trajectories from single-cell data
+- Totem, an open-source, easy-to-use R package designed to facilitate inference of tree-shaped trajectories from single-cell data
+- twas_sim supports dynamically loading custom code (e.g., Python, R, Julia)
+- calls [external.R](https://github.com/mancusolab/twas_sim/blob/master/external.R) to call susieR on the simulated data
+- Find more information, syntax and examples using the R help function e.g. `?ScoreSignatures_UCell`.
+- UCell is an R package for evaluating gene signatures in single-cell datasets.
+- within R (version 4.1.2)
+- our implementation of PhyloVision in the R programming language
+- the R programming language
+- our implementation of PhyloVision in the R programming language may provide challenges
+- our implementation of PhyloVision in the R programming language may provide challenges for utilizing separate software available in Python
+- We developed an R package called vizAPA for visualizing APA dynamics from bulk and single-cell data.
+- library(vizAPA)
+- We developed an R package called vizAPA
+- install.packages('curl')
+- '> install.packages(''curl'')'
+- Note that `zinbwave` requires R (>=3.4) and Bioconductor (>=3.6).
+- Data calculation and visualization are available in InterCellDB by running the R software.
+- R v3.6.3The R Foundationhttps://www.r-project.org/
+- An R package that uses Bayesian and computational methods to infer the tumor phylogenetic tree from bulk DNA whole exome sequencing (WES) and single-cell RNA sequencing (scRNA-seq).
+- Canopy2 is an open-source R package available at https://github.com/annweideman/canopy2.
+- This is a demo for the Canopy2 package in `R`.
+- '`Canopy2` is available on `CRAN`'
+- Canopy2 is an open source R package available at https://github.com/annweideman/canopy2.
+- INFORMATION ABOUT GNIAP R PACKAGE
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1016/j.csbj.2021.08.009
+  title: 'ARMT: An automatic RNA-seq data mining tool based on comprehensive and integrative analysis in cancer research'
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+- doi: 10.1038/s41467-017-01188-x
+  title: Genome-wide prediction of DNase I hypersensitivity using gene expression
+- doi: 10.1038/s41467-021-24584-w
+  title: Development of a fixed module repertoire for the analysis and interpretation of blood transcriptome data
+- doi: 10.1038/s41467-019-10216-x
+  title: Model-based understanding of single-cell CRISPR screening
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1093/bioinformatics/btae283
+  title: 'CASCC: a co-expression-assisted single-cell RNA-seq data clustering method'
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1016/j.stemcr.2022.11.010
+  title: Gene regulatory network reconfiguration in direct lineage reprogramming
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+- doi: 10.1093/bioadv/vbae002
+  title: Predicting evolutionary targets and parameters of gene deletion from expression data
+- doi: 10.1038/s41598-017-16747-x
+  title: 'CMScaller: an R package for consensus molecular subtyping of colorectal cancer pre-clinical models'
+- doi: 10.1016/j.csbj.2022.10.028
+  title: 'CommPath: An R package for inference and analysis of pathway-mediated cell-cell communication chain from single-cell transcriptomics'
+- doi: 10.1038/s41467-024-44823-0
+  title: Trajectory inference across multiple conditions with condiments
+- doi: 10.1038/s41598-022-07959-x
+  title: Computation and visualization of cell–cell signaling topologies in single-cell systems data using Connectome
+- doi: 10.1038/s41598-022-26434-1
+  title: Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1093/bib/bbae198
+  title: 'CPPLS-MLP: a method for constructing cell–cell communication networks and identifying related highly variable genes based on single-cell sequencing and spatial transcriptomics data'
+- doi: 10.1016/j.omtn.2022.10.015
+  title: 'CRIT: Identifying RNA-binding protein regulator in circRNA life cycle via non-negative matrix factorization'
+- doi: 10.1038/s41467-024-49242-9
+  title: A robust model for cell type-specific interindividual variation in single-cell RNA sequencing data
+- doi: 10.1038/s41467-020-14391-0
+  title: Surface protein imputation from single cell transcriptomes by deep neural networks
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+- doi: 10.1016/j.csbj.2025.06.047
+  title: "<i>dandelionR</i>\n                    : Single-cell immune repertoire trajectory analysis in R"
+- doi: 10.1016/j.isci.2021.103331
+  title: 'DCcov: Repositioning of drugs and drug combinations for SARS-CoV-2 infected lung through constraint-based modeling'
+- doi: 10.1038/s42003-023-04557-z
+  title: Single-cell transcriptome sequencing allows genetic separation, characterization and identification of individuals in multi-person biological mixtures
+- doi: 10.1093/bioadv/vbac016
+  title: 'decoupleR: ensemble of computational methods to infer biological activities from omics data'
+- doi: 10.1038/s41389-019-0157-8
+  title: 'DeepCC: a novel deep learning-based framework for cancer molecular subtype classification'
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+- doi: 10.1093/bioinformatics/btad481
+  title: 'demuxmix: demultiplexing oligonucleotide-barcoded single-cell RNA sequencing data with regression mixture models'
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+- doi: 10.1038/s41598-020-67513-5
+  title: Enhancing droplet-based single-nucleus RNA-seq resolution using the semi-supervised machine learning classifier DIEM
+- doi: 10.1093/bioadv/vbac041
+  title: 'dipm: an R package implementing the Depth Importance in Precision Medicine (DIPM) tree and Forest-based method'
+- doi: 10.1038/s41467-018-05083-x
+  title: Detection and removal of barcode swapping in single-cell RNA-seq data
+- doi: 10.1038/s41467-022-29356-8
+  title: Normalizing and denoising protein expression data from droplet-based single cell profiling
+- doi: 10.1016/j.csbj.2022.07.047
+  title: 'dsCellNet: A new computational tool to infer cell–cell communication networks in the developing and aging brain'
+- doi: 10.1038/s41467-021-26085-2
+  title: DUBStepR is a scalable correlation-based feature selection method for accurately clustering single-cell data
+- doi: 10.1038/s41467-021-24152-2
+  title: Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1038/s41467-023-39017-z
+  title: Cell-attribute aware community detection improves differential abundance testing from single-cell RNA-Seq data
+- doi: 10.1093/bib/bbae216
+  title: Data-driven selection of analysis decisions in single-cell RNA-seq trajectory inference
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+- doi: 10.1016/j.simpa.2021.100144
+  title: 'FeatureCorr: An R package to study feature correlations aided with data transformation for sequencing and microarray data'
+- doi: 10.1038/s41467-018-07234-6
+  title: Discovery of rare cells from voluminous single cell expression data
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1093/bioinformatics/btae207
+  title: "<tt>Forseti</tt>\n                    : a mechanistic and predictive model of the splicing status of scRNA-seq reads"
+- doi: 10.1016/j.csbj.2023.03.035
+  title: "<i>f</i>\n                    RNC: Uncovering the dynamic and condition-specific RBP-ncRNA circuits from multi-omics data"
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-024-47158-y
+  title: Gene-expression memory-based prediction of cell lineages from scRNA-seq datasets
+- doi: 10.1038/s41598-020-60791-z
+  title: 'HDMAC: A Web-Based Interactive Program for High-Dimensional Analysis of Molecular Alterations in Cancer'
+- doi: 10.1038/s41467-025-60446-5
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1038/s41467-021-21244-x
+  title: Dissection of intercellular communication using the transcriptome-based framework ICELLNET
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+- doi: 10.1093/bioadv/vbad048
+  title: 'nestedcv: an R package for fast implementation of nested cross-validation with embedded feature selection designed for transcriptomics and high-dimensional data'
+- doi: 10.1038/s42003-021-02986-2
+  title: InterCellar enables interactive analysis and exploration of cell−cell communication in single-cell transcriptomic data
+- doi: 10.1016/j.isci.2023.107945
+  title: 'InterOpt: Improved gene expression quantification in qPCR experiments using weighted aggregation of reference genes'
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+- doi: 10.1038/s41598-019-45301-0
+  title: Structure-preserving visualisation of high dimensional single-cell datasets
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+- doi: 10.1038/s41467-023-40457-w
+  title: Characterizing cancer metabolism from bulk and single-cell RNA-seq data using METAFlux
+- doi: 10.1038/s41467-018-03282-0
+  title: Characterizing the replicability of cell types defined by single cell RNA-sequencing data using MetaNeighbor
+- doi: 10.1093/bioinformatics/btad184
+  title: 'methylR: a graphical interface for comprehensive DNA methylation array data analysis'
+- doi: 10.1016/j.isci.2022.104962
+  title: miRSCAPE - inferring miRNA expression from scRNA-seq data
+- doi: 10.1038/s42003-021-01938-0
+  title: 'mmsig: a fitting approach to accurately identify somatic mutational signatures in hematological malignancies'
+- doi: 10.1093/bib/bbaf110
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+- doi: 10.1038/ncomms11988
+  title: Mpath maps multi-branching single-cell trajectories revealing progenitor cell progression during development
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1038/s41467-018-08023-x
+  title: Bulk tissue cell type deconvolution with multi-subject single-cell expression reference
+- doi: 10.1038/s42003-021-02146-6
+  title: NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1038/s41467-023-39748-z
+  title: nnSVG for the scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
+- doi: 10.1016/j.mex.2023.102179
+  title: 'Cell annotation using scRNA-seq data: A protein-protein interaction network approach'
+- doi: 10.1016/j.mex.2022.101778
+  title: 'ORIGINS: A protein network-based approach to quantify cell pluripotency from scRNA-seq data'
+- doi: 10.1093/bioinformatics/btad522
+  title: Coherent pathway enrichment estimation by modeling inter-pathway dependencies using regularized regression
+- doi: 10.1038/s42003-023-04461-6
+  title: Open-source curation of a pancreatic ductal adenocarcinoma gene expression analysis platform (pdacR) supports a two-subtype model
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41467-021-23324-4
+  title: Interpretation of T cell states from single-cell transcriptomics data using reference atlases
+- doi: 10.1038/s41540-020-00162-6
+  title: Sparsely-connected autoencoder (SCA) for single cell RNAseq data mining
+- doi: 10.1038/s41467-017-00039-z
+  title: Reconstructing cell cycle pseudo time-series via single-cell transcriptome data
+- doi: 10.1038/s41598-020-67016-3
+  title: Recursive Consensus Clustering for novel subtype discovery from transcriptome data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1016/j.csbj.2023.08.021
+  title: 'RgnTX: Colocalization analysis of transcriptome elements in the presence of isoform heterogeneity and ambiguity'
+- doi: 10.1016/j.celrep.2019.10.131
+  title: Single-Cell Profiling Defines Transcriptomic Signatures Specific to Tumor-Reactive versus Virus-Responsive CD4+ T Cells
+- doi: 10.1038/s41467-020-16904-3
+  title: An entropy-based metric for assessing the purity of single cell populations
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+- doi: 10.1093/bioinformatics/btad111
+  title: 'RSCanner: rapid assessment and visualization of RNA structure content'
+- doi: 10.1038/srep23466
+  title: 'UniBic: Sequential row-based biclustering algorithm for analysis of gene expression data'
+- doi: 10.1038/s41467-021-25089-2
+  title: Sc-compReg enables the comparison of gene regulatory networks between conditions using single-cell data
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1016/j.eng.2023.12.004
+  title: A Single-Cell Landscape of Human Liver Transplantation Reveals a Pathogenic Immune Niche Associated with Early Allograft Dysfunction
+- doi: 10.1093/bib/bbae011
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1038/ncomms15599
+  title: Single-cell entropy for accurate estimation of differentiation potency from a cell’s transcriptome
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1093/bib/bbae180
+  title: Single-cell multi-omics analysis identifies context-specific gene regulatory gates and mechanisms
+- doi: 10.1093/bioinformatics/btad625
+  title: 'scHiCDiff: detecting differential chromatin interactions in single-cell Hi-C data'
+- doi: 10.1016/j.isci.2020.100914
+  title: scID Uses Discriminant Analysis to Identify Transcriptionally Equivalent Cell Types across Single-Cell RNA-Seq Data with Batch Effect
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1038/s41467-020-20593-3
+  title: 'SCISSOR: a framework for identifying structural changes in RNA transcripts'
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+- doi: 10.1093/bioadv/vbae134
+  title: Batch-effect correction in single-cell RNA sequencing data using JIVE
+- doi: 10.1016/j.celrep.2020.108589
+  title: Overcoming Expressional Drop-outs in Lineage Reconstruction from Single-Cell RNA-Sequencing Data
+- doi: 10.1016/j.gpb.2020.11.006
+  title: 'scLink: Inferring Sparse Gene Co-Expression Networks from Single-Cell Expression Data'
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+- doi: 10.1016/j.crmeth.2021.100071
+  title: A mixture-of-experts deep generative model for integrated analysis of single-cell multiomics data
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+- doi: 10.1016/j.xcrm.2024.101568
+  title: scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network
+- doi: 10.1093/bioinformatics/btad594
+  title: 'ScribbleDom: using scribble-annotated histology images to identify domains in spatial transcriptomics data'
+- doi: 10.1093/bioinformatics/btad360
+  title: Consensus label propagation with graph convolutional networks for single-cell RNA sequencing cell type annotation
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+- doi: 10.1038/s41408-022-00636-2
+  title: 'secDrug: a pipeline to discover novel drug combinations to kill drug-resistant multiple myeloma cells using a greedy set cover algorithm and single-cell multi-omics'
+- doi: 10.1093/bioinformatics/btae011
+  title: 'SeedMatchR: identify off-target effects mediated by siRNA seed regions in RNA-seq experiments'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+- doi: 10.1093/bioinformatics/btad377
+  title: 'SEMtree: tree-based structure learning methods with structural equation models'
+- doi: 10.1016/j.xpro.2022.101266
+  title: Processing single-cell RNA-seq datasets using SingCellaR
+- doi: 10.1038/s41467-020-17900-3
+  title: A clustering-independent method for finding differentially expressed genes in single-cell transcriptome data
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+- doi: 10.1016/j.xpro.2022.102038
+  title: Computational approach to evaluate scRNA-seq data quality and gene body coverage with SkewC
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+- doi: 10.1038/s41598-021-03864-x
+  title: Integration of genome-wide association studies and gene coexpression networks unveils promising soybean resistance genes against five common fungal pathogens
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1016/j.gpb.2018.10.003
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-Scale Single Cell RNA-Seq Data'
+- doi: 10.1038/s41467-022-30033-z
+  title: Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data
+- doi: 10.1093/bioadv/vbac033
+  title: Sufficient principal component regression for pattern discovery in transcriptomic data
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1038/s42003-023-05283-2
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+- doi: 10.1016/j.xcrm.2023.101121
+  title: 'TimiGP: Inferring cell-cell interactions and prognostic associations in the tumor immune microenvironment through gene pairs'
+- doi: 10.1093/bioadv/vbad065
+  title: 'tiny-count: a counting tool for hierarchical classification and quantification of small RNA-seq reads with single-nucleotide precision'
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+- doi: 10.1093/bioinformatics/btad288
+  title: twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis
+- doi: 10.1016/j.csbj.2021.06.043
+  title: 'UCell: Robust and scalable single-cell gene signature scoring'
+- doi: 10.1038/s41467-022-34681-z
+  title: A flexible cross-platform single-cell data processing pipeline
+- doi: 10.1016/j.crmeth.2022.100200
+  title: Interactive, integrated analysis of single-cell transcriptomic and phylogenetic data with PhyloVision
+- doi: 10.1093/bioinformatics/btae099
+  title: 'vizAPA: visualizing dynamics of alternative polyadenylation from bulk and single-cell data'
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+- doi: 10.1002/advs.202200045
+  title: 'InterCellDB: A User‐Defined Database for Inferring Intercellular Networks'
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+- doi: 10.1016/j.ailsci.2023.100068
+  title: Elucidating dynamic cell lineages and gene networks in time-course single cell differentiation
+- doi: 10.1007/s12539-021-00440-9
+  title: The Performance Comparison of Gene Co-expression Networks of Breast and Prostate Cancer using Different Selection Criteria
+- doi: 10.1016/j.ailsci.2021.100025
+  title: 'OmicInt package: Exploring omics data and regulatory networks using integrative analyses and machine learning'
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+- doi: 10.1007/978-1-4939-9004-7_11
+  title: Pipeline for Integrated Microarray Expression Normalization Tool Kit (PIMENTo) for Tumor Microarray Profiling Experiments
+- doi: 10.1007/s12561-021-09304-8
+  title: Penalized Latent Dirichlet Allocation Model in Single-Cell RNA Sequencing
+- doi: 10.1002/pmic.201700232
+  title: 'SIMLR: A Tool for Large‐Scale Genomic Analyses by Multi‐Kernel Learning'
+- doi: 10.1002/pst.2075
+  title: '<scp>TSNP</scp>: A <scp>two‐stage</scp> nonparametric phase I/<scp>II</scp> clinical trial design for immunotherapy'
+- doi: 10.1002/sim.9430
+  title: Differential expression of single‐cell RNA‐seq data using Tweedie models
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/Dulab2020/ARMT
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/DaneVass/bartools
+- https://github.com/DaneVass/BARtab
+- https://github.com/ashiq24/BEENE
+- https://github.com/WeiqiangZhou/BIRD
+- https://github.com/Drinchai/BloodGen3Module
+- https://github.com/bm2-lab/MUSIC
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/songfd2018/BUSseq
+- https://github.com/LingyiC/CASCC_benchmark
+- https://github.com/LingyiC/CASCC
+- https://github.com/sonejilab/cellexalvr
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/morris-lab/CellOracle
+- https://github.com/edroaldo/cellrouter
+- https://github.com/13308204545/Chord
+- https://github.com/anddssan/CLOUDe
+- https://github.com/Lothelab/CMScaller
+- https://github.com/yingyonghui/CommPath
+- https://github.com/HectorRDB/condiments
+- https://github.com/msraredon/Connectome
+- https://github.com/laurenhsu1/corral
+- https://github.com/MintaYLu/COT
+- https://github.com/wuzhenao/CPPLS-MLP
+- https://github.com/BioinformaticsSTU/CRIT
+- https://github.com/Minhui-Chen/CTMM
+- https://github.com/zhouzilu/cTPnet
+- https://github.com/MahShaaban/curatedAdipoArray
+- https://github.com/tuonglab/dandelionR
+- https://github.com/sysbiolux/DCcov
+- https://github.com/genid/de-goulash
+- https://github.com/saezlab/decoupleR_manuscript
+- https://github.com/CityUHK-CompBio/DeepCC
+- https://github.com/JiangBioLab/DeepCCI
+- https://github.com/elisabettasciacca/DEGGs
+- https://github.com/huklein/demuxmix
+- https://github.com/aet21/DICE
+- https://github.com/marcalva/diem
+- https://github.com/chenvict/dipm
+- https://github.com/MarioniLab/BarcodeSwapping2017
+- https://github.com/MarioniLab/DropletUtils
+- https://github.com/niaid/dsb
+- https://github.com/songzh523/dsCellNet
+- https://github.com/prabhakarlab/DUBStepR
+- https://github.com/dynverse/dyngen
+- https://github.com/AhmedMehdiLab/E.PAGE
+- https://github.com/shawnstat/EDGE
+- https://github.com/aet21/ELVAR
+- https://github.com/xiaorudong/Escort
+- https://github.com/seoanezonjic/ExpHunterSuite
+- https://github.com/DKundnani/FeatureCorr
+- https://github.com/princethewinner/FiRE
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/COMBINE-lab/forseti
+- https://github.com/BioinformaticsSTU/fRNC
+- https://github.com/leiming8886/fRNC
+- https://github.com/csglab/GEDI
+- https://github.com/csglab/GEDI_manuscript
+- https://github.com/UPSUTER/GEMLI
+- https://github.com/chung-R/HD-MAC
+- https://github.com/parklab/HiScanner
+- https://github.com/mamouzgar/hsslda
+- https://github.com/soumelis-lab/ICELLNET
+- https://github.com/xzhoulab/iDEA
+- https://github.com/myles-lewis/nestedcv
+- https://github.com/martaint/InterCellar
+- https://github.com/asalimih/InterOpt
+- https://github.com/XiaoZhangryy/iSC.MEB
+- https://github.com/beringresearch/ivis
+- https://github.com/BIGslu/kimma
+- https://github.com/ZhangLabGT/LinRace
+- https://github.com/KChen-lab/METAFlux
+- https://github.com/gillislab/MetaNeighbor
+- https://github.com/JD2112/methylr
+- https://github.com/hannenhalli-lab/miRSCAPE
+- https://github.com/evenrus/mmsig
+- https://github.com/ConesaLab/MOSim
+- https://github.com/JinmiaoChenLab/Mpath
+- https://github.com/HelenaLC/muscat
+- https://github.com/xuranw/MuSiC
+- https://github.com/lhe17/nebula
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/lmweber/nnSVG
+- https://github.com/danielasenraoka/ORIGINS2
+- https://github.com/danielasenraoka/ORIGINS
+- https://github.com/cbg-ethz/pareg
+- https://github.com/rmoffitt/pdacR
+- https://github.com/rmoffitt/pdacR.git
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/carmonalab/ProjecTILs
+- https://github.com/kendomaniac/rCASC
+- https://github.com/tinglab/reCAT
+- https://github.com/MSCTR/RecursiveConsensusClustering
+- https://github.com/tinglab/redPATH
+- https://github.com/yue-wang-biomath/RgnTX
+- https://github.com/asmagen/robustSingleCell
+- https://github.com/PaulingLiu/ROGUE
+- https://github.com/sysbio-curie/rROMA
+- https://github.com/pylelab/RSCanner
+- https://github.com/athril/runibic
+- https://github.com/SUwonglab/sc-compReg
+- https://github.com/PavlopoulosLab/SCALA
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/czythu/scCancer
+- https://github.com/multitalk/scCrossTalk
+- https://github.com/MengQiuchen/scDecouple
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/bioinfocz/scdrake
+- https://github.com/aet21/SCENT
+- https://github.com/XiDsLab/scFusion
+- https://github.com/CompBioIPM/scGATE
+- https://github.com/wmalab/scHiCDiff
+- https://github.com/BatadaLab/scID
+- https://github.com/noush-joglekar/scisorseqr
+- https://github.com/duct317/scISR
+- https://github.com/hyochoi/SCISSOR
+- https://github.com/jr-leary7/SCISSORS
+- https://github.com/oconnell-statistics-lab/scJIVE
+- https://github.com/inmybrain/SClineager
+- https://github.com/Vivianstats/scLink
+- https://github.com/CostaLab/scMEGA
+- https://github.com/kodaim1115/scMM
+- https://github.com/jackbibby1/SCPA
+- https://github.com/compbioNJU/scPlant
+- https://github.com/ZJUFanLab/scRank
+- https://github.com/1alnoman/ScribbleDom
+- https://github.com/mperozek11/scSHARP_tool
+- https://github.com/cailab-tamu/scTenifoldNet
+- https://github.com/IanevskiAleksandr/sc-type
+- https://github.com/Ujjal-Mukherjee/secDrug
+- https://github.com/tacazares/SeedMatchR
+- https://github.com/SELINA-team/SELINA.py
+- https://github.com/fernandoPalluzzi/SEMgraph
+- https://github.com/supatt-lab/SingCellaR
+- https://github.com/alexisvdb/singleCellHaystack
+- https://github.com/ddiez/singleCellHaystack-py
+- https://github.com/LSBDT/SkewC.git
+- https://github.com/LSBDT/SkewC
+- https://github.com/PYangLab/SnapCCESS
+- https://github.com/yulijia/SnapCCESS
+- https://github.com/bvaldebenitom/SoloTE
+- https://github.com/almeidasilvaf/SoyFungiGCN
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/Japrin/sscClust
+- https://github.com/JEFworks-Lab/STdeconvolve
+- https://github.com/dajmcdon/suffpcr
+- https://github.com/gongx030/tcm
+- https://github.com/carmonalab/TILPRED
+- https://github.com/ChengLiLab/TimeTalk
+- https://github.com/CSkylarL/MSofTimiGP
+- https://github.com/CSkylarL/TimiGP
+- https://github.com/r-lib/devtools
+- https://github.com/MontgomeryLab/tinyRNA
+- https://github.com/elolab/Totem
+- https://github.com/mancusolab/twas_sim
+- https://github.com/carmonalab/UCell
+- https://github.com/minoda-lab/universc
+- https://github.com/YosefLab/VISION
+- https://github.com/BMILAB/vizAPA
+- https://github.com/deargen/DearWXpub
+- https://github.com/drisso/zinbwave
+- https://github.com/LXY1201/GSFM
+- https://github.com/ZJUDBlab/InterCellDB
+- https://github.com/WilsonImmunologyLab/LinQView
+- https://github.com/annweideman/canopy2
+- https://github.com/zhangzmr/CellST
+- https://github.com/ozgurcingiz/GNIAP
+- https://github.com/AusteKan/OmicInt
+- https://github.com/Xinglab/PAIRADISE
+- https://github.com/MUSC-CGM/PIMENTo
+- https://github.com/wuxiaotiankevin/pLDA
+- https://github.com/BatzoglouLabSU/SIMLR
+- https://github.com/yongzang2020/TSNP
+- https://github.com/himelmallick/Tweedieverse
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

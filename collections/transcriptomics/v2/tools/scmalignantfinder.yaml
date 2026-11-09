@@ -1,0 +1,16 @@
+name: scMalignantFinder
+slug: scmalignantfinder
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s42003-025-07942-y
+  title: scMalignantFinder distinguishes malignant cells in single-cell and spatial transcriptomics by leveraging cancer signatures
+source_repos:
+- https://github.com/Jonyyqn/scMalignantFinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Jonyyqn/scMalignantFinder

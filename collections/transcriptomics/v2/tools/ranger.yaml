@@ -1,0 +1,21 @@
+name: ranger
+slug: ranger
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used the R package ranger54 with default settings and compared the out-of-bag error before and after imputation.
+- you will need to have the dplyr, mvtnorm, tensorflow, keras, ranger, devtools, liquidSVM, and xgboost libraries installed
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1093/bioadv/vbae002
+  title: Predicting evolutionary targets and parameters of gene deletion from expression data
+source_repos:
+- https://github.com/KlugerLab/ALRA
+- https://github.com/anddssan/CLOUDe
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

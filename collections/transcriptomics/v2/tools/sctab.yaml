@@ -1,0 +1,18 @@
+name: scTab
+slug: sctab
+version_used: null
+edam_topics: []
+evidence_spans:
+- we propose scTab, an automated cell type prediction model specific to tabular data
+- we propose scTab, an automated cell type prediction model specific to tabular data, and train it using a novel data augmentation scheme
+derived_from:
+- doi: 10.1038/s41467-024-51059-5
+  title: 'scTab: Scaling cross-tissue single-cell annotation models'
+source_repos:
+- https://github.com/theislab/scTab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/scTab

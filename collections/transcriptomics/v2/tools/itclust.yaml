@@ -1,0 +1,17 @@
+name: ItClust
+slug: itclust
+version_used: null
+edam_topics: []
+evidence_spans:
+- ItClust [9] is an iterative deep transfer learning-based model that trains well-annotated source data as the initialization to annotate target cells.
+derived_from:
+- doi: 10.1016/j.gpb.2022.12.008
+  title: 'scEMAIL: Universal and Source-Free Annotation Method for scRNA-Seq Data with Novel Cell-Type Perception'
+source_repos:
+- https://github.com/aster-ww/scEMAIL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aster-ww/scEMAIL

@@ -1,0 +1,21 @@
+name: MuTrans
+slug: mutrans
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present MuTrans, a method based on multiscale reduction technique to identify the underlying stochastic dynamics that prescribes cell-fate transitions
+- MuTrans performs the Transcendental (transition cells and relevant analysis) procedure on each transition process
+- we present MuTrans, a method based on multiscale reduction technique to identify the underlying stochastic dynamics
+- MuTrans performs three major tasks in order to reveal the dynamics underneath single-cell transcriptome data
+- '%% Run the multi-scale analysis, returns the attractor basins, coarse-grained transition probabilities and membership assignment'
+derived_from:
+- doi: 10.1038/s41467-021-25548-w
+  title: Dissecting transition cells from single-cell transcriptome data through multiscale stochastic dynamics
+source_repos:
+- https://github.com/cliffzhou92/MuTrans-release
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cliffzhou92/MuTrans-release

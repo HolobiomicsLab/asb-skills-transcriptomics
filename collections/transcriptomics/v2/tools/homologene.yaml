@@ -1,0 +1,20 @@
+name: homologene
+slug: homologene
+version_used: 1.4.68
+edam_topics: []
+evidence_spans:
+- We used the HomoloGene databases provided by NCBI (Build 68) to identify homologous genes between human and mouse
+derived_from:
+- doi: 10.1016/j.csbj.2022.07.047
+  title: 'dsCellNet: A new computational tool to infer cell–cell communication networks in the developing and aging brain'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+source_repos:
+- https://github.com/songzh523/dsCellNet
+- https://github.com/PaulingLiu/scibet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songzh523/dsCellNet

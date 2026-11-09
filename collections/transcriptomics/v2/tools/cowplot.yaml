@@ -1,0 +1,25 @@
+name: cowplot
+slug: cowplot
+version_used: null
+edam_topics: []
+evidence_spans:
+- plot_grid(p1,p2,ncol=1)
+- library(cowplot)
+- suppressMessages(library(cowplot))
+derived_from:
+- doi: 10.1038/s41598-022-07959-x
+  title: Computation and visualization of cell–cell signaling topologies in single-cell systems data using Connectome
+- doi: 10.1038/s41389-019-0157-8
+  title: 'DeepCC: a novel deep learning-based framework for cancer molecular subtype classification'
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+source_repos:
+- https://github.com/msraredon/Connectome
+- https://github.com/CityUHK-CompBio/DeepCC
+- https://github.com/elolab/Totem
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/msraredon/Connectome

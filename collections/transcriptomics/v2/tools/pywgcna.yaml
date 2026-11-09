@@ -1,0 +1,17 @@
+name: PyWGCNA
+slug: pywgcna
+version_used: null
+edam_topics: []
+evidence_spans:
+- PyWGCNA is a Python library designed to do Weighted correlation network analysis (WGCNA)
+derived_from:
+- doi: 10.1093/bioinformatics/btad415
+  title: 'PyWGCNA: a Python package for weighted gene co-expression network analysis'
+source_repos:
+- https://github.com/mortazavilab/PyWGCNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mortazavilab/PyWGCNA

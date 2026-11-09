@@ -1,0 +1,19 @@
+name: gExcite
+slug: gexcite
+version_used: null
+edam_topics: []
+evidence_spans:
+- gExcite is a start-to-end workflow embedded in Snakemake
+- provides both, gene expression and CITE-seq analysis, as well as hashing deconvolution
+- we designed gExcite, a start-to-end workflow that provides both gene and antibody expression analysis, as well as hashing deconvolution
+derived_from:
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+source_repos:
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ETH-NEXUS/gExcite_pipeline

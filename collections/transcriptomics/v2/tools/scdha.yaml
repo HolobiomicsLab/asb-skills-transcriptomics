@@ -1,0 +1,29 @@
+name: scDHA
+slug: scdha
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'title: "scDHA package manual"'
+- we introduce an analysis framework, named single-cell Decomposition using Hierarchical Autoencoder (scDHA), that reliably extracts representative information of each cell
+- single-cell Decomposition using Hierarchical Autoencoder (scDHA)
+- we introduce an analysis framework, named single-cell Decomposition using Hierarchical Autoencoder (scDHA)
+- scDHA package manual
+- DR methods implementing matrix factorization (ACTIONet)33, random projection (SHARP)38, and autoencoder (scDHA and scVI)27,39 rather than PCA generally exclude the gene scaling step in log
+- autoencoder (scDHA and scVI)
+derived_from:
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1016/j.csbj.2022.04.023
+  title: 'scEFSC: Accurate single-cell RNA-seq data analysis via ensemble consensus clustering based on multiple feature selections'
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/duct317/scDHA
+- https://github.com/Conan-Bian/scEFSC
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/duct317/scDHA

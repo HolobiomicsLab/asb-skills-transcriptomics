@@ -1,0 +1,17 @@
+name: ensembldb
+slug: ensembldb
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`rnor6` and `mm10` cannot be used with the `ensembldb::TxIsCanonicalFilter`'
+derived_from:
+- doi: 10.1093/bioinformatics/btae011
+  title: 'SeedMatchR: identify off-target effects mediated by siRNA seed regions in RNA-seq experiments'
+source_repos:
+- https://github.com/tacazares/SeedMatchR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tacazares/SeedMatchR

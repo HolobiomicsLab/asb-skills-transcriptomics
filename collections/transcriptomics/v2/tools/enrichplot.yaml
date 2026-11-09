@@ -1,0 +1,22 @@
+name: enrichplot
+slug: enrichplot
+version_used: null
+edam_topics: []
+evidence_spans:
+- for (pkg in c("enrichplot", "pheatmap", "RColorBrewer", "gridExtra")) {
+- the result can be transformed into an object which is understood by the functions of the [enrichplot](https://github.com/YuLab-SMU/enrichplot) package
+derived_from:
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1093/bioinformatics/btad522
+  title: Coherent pathway enrichment estimation by modeling inter-pathway dependencies using regularized regression
+source_repos:
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/YuLab-SMU/enrichplot
+- https://github.com/cbg-ethz/pareg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChangSuBiostats/CS-CORE

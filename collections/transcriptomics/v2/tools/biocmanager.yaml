@@ -1,0 +1,30 @@
+name: BiocManager
+slug: biocmanager
+version_used: null
+edam_topics: []
+evidence_spans:
+- "if(!requireNamespace(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")"
+- if(!requireNamespace("BiocManager", quietly = TRUE))
+- BiocManager::install("STdeconvolve")
+- if(!requireNamespace("BiocManager", quietly = TRUE))
+- BiocManager::install("zinbwave")
+derived_from:
+- doi: 10.1038/s41467-022-30033-z
+  title: Reference-free cell type deconvolution of multi-cellular pixel-resolution spatially resolved transcriptomics data
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+source_repos:
+- https://github.com/JEFworks-Lab/STdeconvolve
+- https://github.com/carmonalab/TILPRED
+- https://github.com/elolab/Totem
+- https://github.com/drisso/zinbwave
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JEFworks-Lab/STdeconvolve

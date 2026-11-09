@@ -1,0 +1,20 @@
+name: scMM
+slug: scmm
+version_used: 1.0.0
+edam_topics: []
+evidence_spans:
+- scMM (v1.0.0, https://github.com/kodaim1115/scMM)27
+derived_from:
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1016/j.crmeth.2021.100071
+  title: A mixture-of-experts deep generative model for integrated analysis of single-cell multiomics data
+source_repos:
+- https://github.com/kodaim1115/scMM
+- https://github.com/xianglin226/scMDC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kodaim1115/scMM

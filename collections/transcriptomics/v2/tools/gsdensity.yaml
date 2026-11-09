@@ -1,0 +1,19 @@
+name: GSDensity
+slug: gsdensity
+version_used: null
+edam_topics: []
+evidence_spans:
+- remotes::install_github("https://github.com/qingnanl/gsdensity")
+- Here, we present GSDensity, a graph-modeling approach that allows users to obtain pathway-centric interpretation and dissection of single-cell and spatial transcriptomics (ST) data
+- compute.mca(object = pbmc3k)
+derived_from:
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+source_repos:
+- https://github.com/qingnanl/gsdensity
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qingnanl/gsdensity

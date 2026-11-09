@@ -1,0 +1,22 @@
+name: cellexalvrR
+slug: cellexalvrr
+version_used: null
+edam_topics: []
+evidence_spans:
+- the resulting object is converted to a set of CellexalVR input files using our accompanying R package called cellexalvrR
+- Install the [CellexalVR R package](https://www.github.com/sonejilab/cellexalvrr) by running `devtools::install_github("sonejilab/cellexalvrr")` in an R terminal.
+- Install the [CellexalVR R package](https://www.github.com/sonejilab/cellexalvrr)
+- converted to a set of CellexalVR input files using our accompanying R package called cellexalvrR
+- converted to a set of CellexalVR input files using our accompanying R package called cellexalvrr
+derived_from:
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+source_repos:
+- https://github.com/sonejilab/cellexalvrR
+- https://github.com/sonejilab/cellexalvr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sonejilab/cellexalvrR

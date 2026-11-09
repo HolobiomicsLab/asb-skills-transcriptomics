@@ -1,0 +1,17 @@
+name: fRNC
+slug: frnc
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2023.03.035
+  title: "<i>f</i>\n                    RNC: Uncovering the dynamic and condition-specific RBP-ncRNA circuits from multi-omics data"
+source_repos:
+- https://github.com/BioinformaticsSTU/fRNC
+- https://github.com/leiming8886/fRNC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioinformaticsSTU/fRNC

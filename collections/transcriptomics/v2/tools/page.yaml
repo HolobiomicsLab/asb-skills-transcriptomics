@@ -1,0 +1,17 @@
+name: PAGE
+slug: page
+version_used: null
+edam_topics: []
+evidence_spans:
+- competitive test methods such as PAGE13, GSEA14, and CAMERA15
+derived_from:
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+source_repos:
+- https://github.com/xzhoulab/iDEA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xzhoulab/iDEA

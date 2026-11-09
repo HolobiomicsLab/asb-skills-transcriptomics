@@ -1,0 +1,17 @@
+name: LIBD
+slug: libd
+version_used: null
+edam_topics: []
+evidence_spans:
+- For the analysis of cortical layers in the LIBD data that involve multiple training tissue sections
+derived_from:
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+source_repos:
+- https://github.com/QihuangZhang/CeLEry
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QihuangZhang/CeLEry

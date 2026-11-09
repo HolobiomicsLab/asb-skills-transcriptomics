@@ -1,0 +1,18 @@
+name: DEXSeq
+slug: dexseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- transform (--trans```) signature counts to subexon counts as used by DEXSeq
+- The differential usage of individual exons, on the other hand, can be detected by methods such as DEXSeq (Anders et al. 2012)
+derived_from:
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+source_repos:
+- https://github.com/canzarlab/fortuna
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/canzarlab/fortuna

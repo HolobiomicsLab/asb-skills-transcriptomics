@@ -1,0 +1,25 @@
+name: Ciclops
+slug: ciclops
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install ciclops
+- 'Install this package via pip:
+
+
+  ```
+
+  pip install'
+- python ciclops [-h] [--train_path TRAIN_PATH] [--valid_path VALID_PATH]
+derived_from:
+- doi: 10.1016/j.xpro.2022.101583
+  title: Protocol for using Ciclops to build models trained on cross-platform transcriptome data for clinical outcome prediction
+source_repos:
+- https://github.com/GuanLab/ciclops.git
+- https://github.com/GuanLab/ciclops
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GuanLab/ciclops.git

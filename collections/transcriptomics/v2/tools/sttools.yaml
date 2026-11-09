@@ -1,0 +1,20 @@
+name: STtools
+slug: sttools
+version_used: null
+edam_topics: []
+evidence_spans:
+- STtools workflow currently performs three major tasks – alignment, clustering, and visualization – consisting of eight individual steps
+- STtools is able to process spatial transcriptomics (ST) data from various platforms including, but not limited to, Seq-Scope, Slide-seq, and VISIUM.
+- STtools also generates high resolution (<1μm2/pixel) images where RGB colors quantify specific arbitrary marker gene sets
+- 'STtools employs two different spatial aggregation (i.e., binning) algorithms: simple aggregation and multi-scale sliding-window (MSSW) aggregation.'
+derived_from:
+- doi: 10.1093/bioadv/vbac061
+  title: 'STtools: a comprehensive software pipeline for ultra-high-resolution spatial transcriptomics data'
+source_repos:
+- https://github.com/seqscope/STtools
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/seqscope/STtools

@@ -1,0 +1,18 @@
+name: leader
+slug: leader
+version_used: null
+edam_topics: []
+evidence_spans:
+- An R package implementing the heuristic approaches introduced in this work may be found at https://github.com/camlab-bioml/leader
+- 'title: "Adaptive reweighting package"'
+derived_from:
+- doi: 10.1038/s41467-024-45198-y
+  title: The impacts of active and self-supervised learning on efficient annotation of single-cell expression data
+source_repos:
+- https://github.com/camlab-bioml/leader
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/camlab-bioml/leader

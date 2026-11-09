@@ -1,0 +1,17 @@
+name: scatterpie
+slug: scatterpie
+version_used: null
+edam_topics: []
+evidence_spans:
+- "library(scatterpie)\n    library(RColorBrewer)"
+derived_from:
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+source_repos:
+- https://github.com/caokai1073/uniPort
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/caokai1073/uniPort

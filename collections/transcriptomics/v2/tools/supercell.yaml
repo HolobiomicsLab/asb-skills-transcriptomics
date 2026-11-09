@@ -1,0 +1,19 @@
+name: SuperCell
+slug: supercell
+version_used: null
+edam_topics: []
+evidence_spans:
+- projection (SuperCell)
+- SuperCell (Imports)
+derived_from:
+- doi: 10.1038/s44320-024-00045-6
+  title: Building and analyzing metacells in single-cell genomics data
+source_repos:
+- https://github.com/GfellerLab/SuperCell
+- https://github.com/GfellerLab/MetacellAnalysisToolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GfellerLab/SuperCell

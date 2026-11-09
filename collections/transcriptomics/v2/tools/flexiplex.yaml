@@ -1,0 +1,20 @@
+name: Flexiplex
+slug: flexiplex
+version_used: null
+edam_topics: []
+evidence_spans:
+- flexiplex -x "CACTCTTGCCTACGCCACTAGC" -d grep -f 3 reads.fasta
+- flexiplex -d 10x3v3 -k barcode_list.txt reads.fastq > new_reads.fastq
+- flexiplex -f 0 reads.fastq
+- we developed Flexiplex, a versatile and fast sequence searching and demultiplexing tool for omics data
+derived_from:
+- doi: 10.1093/bioinformatics/btae102
+  title: 'Flexiplex: a versatile demultiplexer and search tool for omics data'
+source_repos:
+- https://github.com/DavidsonGroup/flexiplex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DavidsonGroup/flexiplex

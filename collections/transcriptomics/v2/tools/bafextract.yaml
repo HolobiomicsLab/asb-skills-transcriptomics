@@ -1,0 +1,20 @@
+name: BAFExtract
+slug: bafextract
+version_used: null
+edam_topics: []
+evidence_spans:
+- BAF shift signal information is extracted directly from the mapped RNA-Seq reads using an optimized BAF generation algorithm.
+- download BAFExtract C++ source or binary code from https://github.com/akdess/BAFExtract
+- download BAFExtract C++ source or binary code from
+derived_from:
+- doi: 10.1038/s41467-019-13779-x
+  title: CaSpER identifies and visualizes CNV events by integrative analysis of single-cell or bulk RNA-sequencing data
+source_repos:
+- https://github.com/akdess/BAFExtract
+- https://github.com/akdess/CaSpER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/akdess/BAFExtract

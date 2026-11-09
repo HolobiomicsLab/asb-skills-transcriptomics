@@ -1,0 +1,38 @@
+name: Monocle2
+slug: monocle2
+version_used: null
+edam_topics: []
+evidence_spans:
+- These methods include Wanderlust [6], Wishbone [7], TSCAN [8], Monocle [5], Monocle2 [9], Waterfall [10], SCOUT [11], DensityPath [12], and SoptSC [13].
+- including pseudotime-based methods like TSCAN and Monocle2, as well as k-nearest neighbor approaches like SPRING
+- including Monocle2 [17], TSCAN [18], SCORPIUS [19], and for cell cycle processes such as reCAT [20]
+- so far very few trajectory inference methods (Monocle2 and STREAM) have been applied to analyze single-cell chromatin accessibility
+- so far very few trajectory inference methods (Monocle2 and STREAM) have been applied
+- the differential expressed genes were used to perform DDRTree dimension reduction to reconstruct the development trajectory by the “reduceDimension” function.
+derived_from:
+- doi: 10.1016/j.gpb.2020.08.003
+  title: 'DTFLOW: Inference and Visualization of Single-Cell Pseudotime Trajectory Using Diffusion Propagation'
+- doi: 10.1038/s41467-018-05988-7
+  title: 'GraphDDP: a graph-embedding approach to detect differentiation pathways in single-cell-data using prior class knowledge'
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+- doi: 10.1038/s41467-019-09670-4
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+- doi: 10.1038/s42003-023-05283-2
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+source_repos:
+- https://github.com/statway/DTFLOW
+- https://github.com/fabriziocosta/GraphEmbed
+- https://github.com/tinglab/redPATH
+- https://github.com/ZJUFanLab/scTITANS
+- https://github.com/pinellolab/stream
+- https://github.com/cole-trapnell-lab/monocle3
+- https://github.com/ChengLiLab/TimeTalk
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/statway/DTFLOW

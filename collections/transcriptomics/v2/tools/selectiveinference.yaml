@@ -1,0 +1,18 @@
+name: selectiveInference
+slug: selectiveinference
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we used the 'selectiveInference' R package29,30 to implement the algorithm by Lee et al. to compute the correct p-values
+- Here we used the ‘selectiveInference’ R package29,30 to implement the algorithm by Lee et al. to compute the correct p-values
+derived_from:
+- doi: 10.1038/s41598-020-60791-z
+  title: 'HDMAC: A Web-Based Interactive Program for High-Dimensional Analysis of Molecular Alterations in Cancer'
+source_repos:
+- https://github.com/chung-R/HD-MAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chung-R/HD-MAC

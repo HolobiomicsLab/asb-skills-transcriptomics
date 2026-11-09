@@ -1,0 +1,17 @@
+name: LOF
+slug: lof
+version_used: null
+edam_topics: []
+evidence_spans:
+- FiRE
+derived_from:
+- doi: 10.1038/s41467-018-07234-6
+  title: Discovery of rare cells from voluminous single cell expression data
+source_repos:
+- https://github.com/princethewinner/FiRE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/princethewinner/FiRE

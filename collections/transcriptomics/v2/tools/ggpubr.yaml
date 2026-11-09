@@ -1,0 +1,29 @@
+name: ggpubr
+slug: ggpubr
+version_used: null
+edam_topics: []
+evidence_spans:
+- kassambara/ggpubr
+- '- `ggpubr (Imports)`'
+- library("ggpubr")
+derived_from:
+- doi: 10.1093/bioinformatics/btad714
+  title: Hierarchical and automated cell-type annotation and inference of cancer cell of origin with Census
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+source_repos:
+- https://github.com/kassambara/ggpubr
+- https://github.com/sjdlabgroup/Census
+- https://github.com/aet21/DICE
+- https://github.com/phillipnicol/scDist
+- https://github.com/diegommcc/SpatialDDLS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kassambara/ggpubr

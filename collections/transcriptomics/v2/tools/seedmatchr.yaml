@@ -1,0 +1,21 @@
+name: SeedMatchR
+slug: seedmatchr
+version_used: null
+edam_topics: []
+evidence_spans:
+- '''SeedMatchR'' provides tools for exploring and detecting potential seed-mediated off-target effects of siRNA in RNA-seq experiments.'
+- '''SeedMatchR'' provides tools for exploring and detecting potential seed-mediated off-target effects of siRNA in RNA-seq'
+- You can perform a seed match for a single seed using the `SeedMatchR()` function.
+- The function `deseq_fc_ecdf` is designed to work directly with a DESeq2 results data frame.
+- SeedMatchR is an R package developed to provide users a single, unified resource for detecting and visualizing seed-mediated off-target effects of siRNA using RNA-seq experiments.
+derived_from:
+- doi: 10.1093/bioinformatics/btae011
+  title: 'SeedMatchR: identify off-target effects mediated by siRNA seed regions in RNA-seq experiments'
+source_repos:
+- https://github.com/tacazares/SeedMatchR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tacazares/SeedMatchR

@@ -1,0 +1,17 @@
+name: NVIDIA CUDA Toolkit
+slug: nvidia-cuda-toolkit
+version_used: '11.0'
+edam_topics: []
+evidence_spans:
+- NVIDIA CUDA Toolkit 11.0 or higher with compatible NVIDIA driver
+derived_from:
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+source_repos:
+- https://github.com/SFGLab/cudaMMC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/cudaMMC

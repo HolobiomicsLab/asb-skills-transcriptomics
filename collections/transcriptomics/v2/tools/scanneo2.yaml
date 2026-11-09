@@ -1,0 +1,18 @@
+name: ScanNeo2
+slug: scanneo2
+version_used: null
+edam_topics: []
+evidence_spans:
+- In the following Scanneo2 needs to be deployed
+- In the prioritization, the output files are generated in `results/<name/of/sample>/prioritization/`.
+derived_from:
+- doi: 10.1093/bioinformatics/btad659
+  title: 'ScanNeo2: a comprehensive workflow for neoantigen detection and immunogenicity prediction from diverse genomic and transcriptomic alterations'
+source_repos:
+- https://github.com/ylab-hi/ScanNeo2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ylab-hi/ScanNeo2

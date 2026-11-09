@@ -1,0 +1,73 @@
+name: clusterProfiler
+slug: clusterprofiler
+version_used: '4.0'
+edam_topics: []
+evidence_spans:
+- library(clusterProfiler)
+- "BiocManager::install(\"clusterProfiler\")\n  library(clusterProfiler)"
+- 'clusterprofiler 4.0: a universal enrichment tool for interpreting omics data'
+- run gene set enrichment analysis with clusterProfiler (mouse GO annotation from Org.Mm.eg.db and GO.db)
+- Gene set enrichment analysis (GSEA) was applied to the list of genes using clusterProfiler [22,23].
+- function in `clusterProfiler` package[@clusterProfiler]
+- 'we use `GSEA`
+
+  function in `clusterProfiler` package[@clusterprofiler] to conduct the enrichment analysis.'
+- 'we use `GSEA`
+
+  function in `clusterProfiler` package[@clusterProfiler] to conduct the enrichment analysis.'
+- function in `clusterProfiler` package[@clusterprofiler] to conduct the enrichment analysis.
+- 'In our package, we use `GSEA`
+
+  function in `clusterProfiler` package[@clusterprofiler] to conduct the enrichment analysis.'
+- Gene Ontology enrichment analyses were performed on the genes with differentially used IPA sites using ClusterProfiler (version 3.18.1)
+- The GO, pathway, and disease enrichment was performed for genes containing the predicted sites using clusterProfiler [35].
+- The GO, pathway, and disease enrichment was performed for genes containing the predicted sites using clusterProfiler
+- we conducted gene set enrichment analysis of the discovered modules of each donor at each time point with clusterProfiler (Yu et al. 2012)
+- 'clusterProfiler: an R package for comparing biological themes among gene clusters'
+derived_from:
+- doi: 10.1016/j.csbj.2021.08.009
+  title: 'ARMT: An automatic RNA-seq data mining tool based on comprehensive and integrative analysis in cancer research'
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41467-019-10216-x
+  title: Model-based understanding of single-cell CRISPR screening
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+- doi: 10.1016/j.csbj.2022.07.047
+  title: 'dsCellNet: A new computational tool to infer cell–cell communication networks in the developing and aging brain'
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+- doi: 10.1038/s41467-024-46875-8
+  title: 'InPACT: a computational method for accurate characterization of intronic polyadenylation from RNA sequencing data'
+- doi: 10.1016/j.isci.2022.104962
+  title: miRSCAPE - inferring miRNA expression from scRNA-seq data
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1093/bioinformatics/btad592
+  title: 'MuDCoD: multi-subject community detection in personalized dynamic gene networks from single-cell RNA sequencing'
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1038/s42003-023-05283-2
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+source_repos:
+- https://github.com/Dulab2020/ARMT
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/bm2-lab/MUSIC
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/MahShaaban/curatedAdipoArray
+- https://github.com/songzh523/dsCellNet
+- https://github.com/rx-li/EasyCellType
+- https://github.com/YY-TMU/InPACT
+- https://github.com/hannenhalli-lab/miRSCAPE
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/bo1929/MuDCoD
+- https://github.com/carmonalab/TILPRED
+- https://github.com/ChengLiLab/TimeTalk
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Dulab2020/ARMT

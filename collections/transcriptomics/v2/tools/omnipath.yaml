@@ -1,0 +1,25 @@
+name: OmniPath
+slug: omnipath
+version_used: null
+edam_topics: []
+evidence_spans:
+- it leverages OmniPath, a meta-resource comprising over 100 databases of prior knowledge
+- We generate the Omnipath network using all the interactions from the Omnipath Python package
+derived_from:
+- doi: 10.1016/j.csbj.2024.01.013
+  title: 'Augusta: From RNA‐Seq to gene regulatory networks and Boolean models'
+- doi: 10.1093/bioadv/vbac016
+  title: 'decoupleR: ensemble of computational methods to infer biological activities from omics data'
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+source_repos:
+- https://github.com/WanluLiuLab/CRISPRTE
+- https://github.com/saezlab/decoupler-py
+- https://github.com/saezlab/decoupleR_manuscript
+- https://github.com/cantinilab/scPRINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WanluLiuLab/CRISPRTE

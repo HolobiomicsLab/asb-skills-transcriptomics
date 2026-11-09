@@ -1,0 +1,18 @@
+name: clonealign
+slug: clonealign
+version_used: null
+edam_topics: []
+evidence_spans:
+- We assessed MaCroDNA’s performance against clonealign21
+- such as clonealign21, Cardelino22, CCNMF23, and SCATrEx24
+derived_from:
+- doi: 10.1038/s41467-023-44014-3
+  title: Accurate integration of single-cell DNA and RNA for analyzing intratumor heterogeneity using MaCroDNA
+source_repos:
+- https://github.com/NakhlehLab/MaCroDNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NakhlehLab/MaCroDNA

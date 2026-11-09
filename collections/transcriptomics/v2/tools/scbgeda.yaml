@@ -1,0 +1,20 @@
+name: scBGEDA
+slug: scbgeda
+version_used: null
+edam_topics: []
+evidence_spans:
+- we propose a single-cell deep clustering model via a dual denoising autoencoder with bipartite graph ensemble clustering called scBGEDA
+- scBGEDA outperforms other state-of-the-art methods on these datasets
+- scBGEDA was able to identify cell-type specific marker genes and provide functional genomic analysis by quantifying the influence of genes on cell clusters
+- a bipartite graph ensemble clustering algorithm is designed to exploit the relationships between cells and the learned latent embedded space
+derived_from:
+- doi: 10.1093/bioinformatics/btad075
+  title: 'scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering'
+source_repos:
+- https://github.com/wangyh082/scBGEDA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wangyh082/scBGEDA

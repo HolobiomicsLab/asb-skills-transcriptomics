@@ -1,0 +1,17 @@
+name: STAligner
+slug: staligner
+version_used: null
+edam_topics: []
+evidence_spans:
+- this approach does not utilize complete information on each spot of the whole slice
+derived_from:
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+source_repos:
+- https://github.com/QuKunLab/SPACEL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QuKunLab/SPACEL

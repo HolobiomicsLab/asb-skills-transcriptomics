@@ -1,0 +1,19 @@
+name: KEGGScape
+slug: keggscape
+version_used: null
+edam_topics: []
+evidence_spans:
+- loading original KEGG XML files into Cytoscape (v. 3.4.) via the KEGGScape app
+- The initial pathway analysis was performed by loading original KEGG XML files into Cytoscape (v. 3.4.) via the KEGGScape app
+- imported into Cytoscape using one of the many apps, such as KEGGscape [13]
+derived_from:
+- doi: 10.1016/j.gpb.2021.03.003
+  title: 'FunHoP: Enhanced Visualization and Analysis of Functionally Homologous Proteins in Complex Metabolic Networks'
+source_repos:
+- https://github.com/kjerstirise/FunHoP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kjerstirise/FunHoP

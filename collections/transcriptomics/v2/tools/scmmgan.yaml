@@ -1,0 +1,16 @@
+name: scMMGAN
+slug: scmmgan
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.patter.2022.100577
+  title: Single-cell multi-modal GAN reveals spatial patterns in single-cell data from triple-negative breast cancer
+source_repos:
+- https://github.com/KrishnaswamyLab/scMMGAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KrishnaswamyLab/scMMGAN

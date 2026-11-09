@@ -1,0 +1,21 @@
+name: chromVAR
+slug: chromvar
+version_used: null
+edam_topics: []
+evidence_spans:
+- computing deviation scores using [chromVAR]
+derived_from:
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+source_repos:
+- https://github.com/GreenleafLab/chromVAR
+- https://github.com/aet21/DICE
+- https://github.com/CostaLab/scMEGA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GreenleafLab/chromVAR

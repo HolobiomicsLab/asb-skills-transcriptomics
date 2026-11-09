@@ -1,0 +1,57 @@
+name: data.table
+slug: data-table
+version_used: null
+edam_topics: []
+evidence_spans:
+- data.table (Imports)
+- cm <- data.table::fread("mycountmatrix.tsv")
+- bt <- data.table::fread("mybarcodetable.tsv")
+- data.table (Imports)
+- umap <- list(umap_wf0, umap_wf5, umap_wf10) %>% data.table::rbindlist()
+- library(data.table)
+- install.packages(c("devtools", "jetset", "readxl", "psych", "GGally", "gplots", "ggplot2", "RColorBrewer", "data.table", "grid", "gridExtra", "ggthemes", "scales","rlist"))
+- 'Following libraries are needed to run the shiny app: igraph,tidyr,dplyr,ggplot2,plotly,ggtext,data.table,readr.'
+- data.table (Imports)
+- data.table (Imports)
+- Internally, UCell uses the frank function from the data.table package [9] for efficient ranks computations.
+- Internally, UCell uses the frank function from the data.table package
+- "library(Seurat)\n    library(data.table)"
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+- doi: 10.1016/j.xgen.2022.100247
+  title: 'ClonoCluster: A method for using clonal origin to inform transcriptome clustering'
+- doi: 10.1038/s41467-021-21244-x
+  title: Dissection of intercellular communication using the transcriptome-based framework ICELLNET
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+- doi: 10.1016/j.isci.2020.100914
+  title: scID Uses Discriminant Analysis to Identify Transcriptionally Equivalent Cell Types across Single-Cell RNA-Seq Data with Batch Effect
+- doi: 10.1016/j.xgen.2023.100383
+  title: Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data
+- doi: 10.1016/j.csbj.2021.06.043
+  title: 'UCell: Robust and scalable single-cell gene signature scoring'
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+- https://github.com/arjunrajlaboratory/ClonoCluster_paper
+- https://github.com/leeprichman/ClonoCluster
+- https://github.com/soumelis-lab/ICELLNET
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/BIGslu/kimma
+- https://github.com/phillipnicol/scDist
+- https://github.com/BatadaLab/scID
+- https://github.com/dengchunyu/scPagwas
+- https://github.com/carmonalab/UCell
+- https://github.com/caokai1073/uniPort
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

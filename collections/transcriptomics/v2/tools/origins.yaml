@@ -1,0 +1,20 @@
+name: ORIGINS
+slug: origins
+version_used: null
+edam_topics: []
+evidence_spans:
+- diff_activity <- activity(expression_matrix, differentiation_edges)
+- R package that provides a function to compute activity of a Protein-protein Interaction Network (PPIN) asociated with differentiation for scRNA-seq data.
+- remotes::install_github("danielasenraoka/ORIGINS")
+- library(ORIGINS)
+derived_from:
+- doi: 10.1016/j.mex.2022.101778
+  title: 'ORIGINS: A protein network-based approach to quantify cell pluripotency from scRNA-seq data'
+source_repos:
+- https://github.com/danielasenraoka/ORIGINS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/danielasenraoka/ORIGINS

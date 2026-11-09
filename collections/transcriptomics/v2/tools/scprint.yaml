@@ -1,0 +1,21 @@
+name: scPRINT
+slug: scprint
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present scPRINT, a large cell model for the inference of gene networks pre-trained on more than 50 million cells from the cellxgene database
+- we propose scPRINT, a foundation model designed for gene network inference
+- we propose scPRINT, a foundation model designed for gene network inference.
+- To validate the denoising ability of scPRINT, MAGIC72, and KNNsmoothing273, our test function, available in the scPRINT package
+- scPrint outputs cell type-specific genome-wide gene networks but also generates predictions on many related tasks, such as cell annotations, batch effect correction, and denoising
+derived_from:
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+source_repos:
+- https://github.com/cantinilab/scPRINT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/scPRINT

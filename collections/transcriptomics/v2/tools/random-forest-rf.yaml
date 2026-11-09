@@ -1,0 +1,17 @@
+name: Random Forest (RF)
+slug: random-forest-rf
+version_used: null
+edam_topics: []
+evidence_spans:
+- Dominant classification methods include XGBoost19, Random Forest (RF)20, Deep Learning (DL)21, and Gradient Boosting Machine (GBM)22
+derived_from:
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+source_repos:
+- https://github.com/duct317/scDHA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/duct317/scDHA

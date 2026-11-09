@@ -1,0 +1,17 @@
+name: Vizgen MERSCOPE
+slug: vizgen-merscope
+version_used: null
+edam_topics: []
+evidence_spans:
+- the collection of Subcellular Spatial Transcriptomics (SST) technologies (e.g. 10x Genomics Xenium1; NanoString CosMx2; BGI Stereo-seq3; and Vizgen MERSCOPE)
+derived_from:
+- doi: 10.1038/s41467-023-44560-w
+  title: 'BIDCell: Biologically-informed self-supervised learning for segmentation of subcellular spatial transcriptomics data'
+source_repos:
+- https://github.com/SydneyBioX/BIDCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SydneyBioX/BIDCell

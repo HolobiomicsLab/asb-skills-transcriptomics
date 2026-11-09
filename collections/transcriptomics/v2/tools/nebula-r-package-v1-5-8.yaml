@@ -1,0 +1,18 @@
+name: nebula (R package v1.5.8)
+slug: nebula-r-package-v1-5-8
+version_used: null
+edam_topics: []
+evidence_spans:
+- The *nebula* package is an R package that provides fast algorithms for fitting negative binomial and Poisson mixed models for analyzing large-scale, multi-subject single-cell data.
+- The *nebula* package is an R package that provides fast algorithms for fitting negative binomial and Poisson mixed models
+derived_from:
+- doi: 10.1038/s42003-021-02146-6
+  title: NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data
+source_repos:
+- https://github.com/lhe17/nebula
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lhe17/nebula

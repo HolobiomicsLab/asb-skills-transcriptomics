@@ -1,0 +1,17 @@
+name: entropy
+slug: entropy
+version_used: null
+edam_topics: []
+evidence_spans:
+- scoring metrics like silhouette or pixel class
+derived_from:
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+source_repos:
+- https://github.com/mamouzgar/hsslda
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mamouzgar/hsslda

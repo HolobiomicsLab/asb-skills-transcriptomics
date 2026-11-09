@@ -1,0 +1,17 @@
+name: NOISeq
+slug: noiseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- In general, NOISeq and DESeq2 showed high recall
+derived_from:
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+source_repos:
+- https://github.com/seoanezonjic/ExpHunterSuite
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/seoanezonjic/ExpHunterSuite

@@ -1,0 +1,19 @@
+name: HDMAC
+slug: hdmac
+version_used: null
+edam_topics: []
+evidence_spans:
+- We constructed a package of high-dimensional analysis of molecular alterations in cancer, HDMAC
+- we developed a web-based interactive and user-friendly platform for high-dimensional analysis of molecular alterations in cancer (HDMAC)
+- All the analyses for the simulation were performed using the online version of HDMAC.
+derived_from:
+- doi: 10.1038/s41598-020-60791-z
+  title: 'HDMAC: A Web-Based Interactive Program for High-Dimensional Analysis of Molecular Alterations in Cancer'
+source_repos:
+- https://github.com/chung-R/HD-MAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chung-R/HD-MAC

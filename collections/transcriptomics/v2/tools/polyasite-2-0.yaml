@@ -1,0 +1,17 @@
+name: PolyASite 2.0
+slug: polyasite-2-0
+version_used: null
+edam_topics: []
+evidence_spans:
+- By integrating our MWS-derived CS with available GENCODE annotations, we provide the most comprehensive CS catalog for human and mouse to date
+derived_from:
+- doi: 10.1038/s41467-024-48254-9
+  title: Quantifying 3′UTR length from scRNA-seq data reveals changes independent of gene expression
+source_repos:
+- https://github.com/Mayrlab/scUTRquant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mayrlab/scUTRquant

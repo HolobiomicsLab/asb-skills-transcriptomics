@@ -1,0 +1,20 @@
+name: CEFCON
+slug: cefcon
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install git+https://github.com/WPZgithub/CEFCON.git
+- We present CEFCON, a network-based framework that first uses a graph neural network with attention mechanism to infer a cell-lineage-specific gene regulatory network (GRN) from single-cell
+- cefcon_results.driver_regulators()
+- cefcon_GRN_model = cf.NetModel(epochs=350, repeats=3, cuda='0')
+derived_from:
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+source_repos:
+- https://github.com/WPZgithub/CEFCON
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WPZgithub/CEFCON

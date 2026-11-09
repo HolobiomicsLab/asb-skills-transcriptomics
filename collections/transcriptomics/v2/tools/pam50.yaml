@@ -1,0 +1,22 @@
+name: PAM50
+slug: pam50
+version_used: null
+edam_topics: []
+evidence_spans:
+- here we analyzed the possible limits of the standard PAM50 algorithm when applied to RNA-seq profiles
+- intrinsic subtyping for breast cancer (implemented by PAM5031), to train a DeepCC classifier
+- we effectively applied DeepCC to breast cancer, and demonstrated a better performance over PAM50, which is a widely used classification system in breast cancer
+derived_from:
+- doi: 10.1038/s41598-020-70832-2
+  title: Machine learning for RNA sequencing-based intrinsic subtyping of breast cancer
+- doi: 10.1038/s41389-019-0157-8
+  title: 'DeepCC: a novel deep learning-based framework for cancer molecular subtype classification'
+source_repos:
+- https://github.com/DEIB-GECO/BC_Intrinsic_subtyping
+- https://github.com/CityUHK-CompBio/DeepCC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DEIB-GECO/BC_Intrinsic_subtyping

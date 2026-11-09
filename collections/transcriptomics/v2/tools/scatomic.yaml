@@ -1,0 +1,22 @@
+name: scATOMIC
+slug: scatomic
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(scATOMIC)
+- if(!require(scATOMIC)) devtools::install_github("abelson-lab/scATOMIC")
+- Here we present scATOMIC; a modular annotation tool for malignant and non-malignant cells.
+- To run scATOMIC we use the run_scATOMIC() function to generate a detailed annotation object.
+- If you are using scATOMIC in your research please cite the corresponding manuscript
+- devtools::install_github("abelson-lab/scATOMIC")
+derived_from:
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+source_repos:
+- https://github.com/abelson-lab/scATOMIC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/abelson-lab/scATOMIC

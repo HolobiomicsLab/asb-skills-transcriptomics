@@ -1,0 +1,54 @@
+name: LIGER
+slug: liger
+version_used: 1.0.0
+edam_topics: []
+evidence_spans:
+- Seurat16,17, LIGER18, and scMerge19 attempt to identify shared variations across batches
+- which was inspired by the methodology used by LIGER40 for inter-sample harmonization
+- There are already interpretable batch integration methods, such as LIGER7, which is based on non-negative matrix factorisation-based (NMF)
+- There are many well-established integration methods available to address batch effects in scRNA-seq datasets, for example, Seurat, Harmony, and LIGER
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- '[LIGER](https://github.com/welch-lab/liger)'
+- We benchmarked the results against four popular tools, Seurat v5, Harmony, LIGER, and Combat-seq, which were developed for this purpose.
+- LIGER which utilises integrative non-negative matrix factorization (iNMF)22
+- scPhere performed better than state-of-the-art batch-correction methods such as Harmony, Seurat3 CCA, LIGER
+derived_from:
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-024-51382-x
+  title: 'scConfluence: single-cell diagonal integration with regularized Inverse Optimal Transport on weakly connected features'
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+- doi: 10.1093/bioadv/vbae134
+  title: Batch-effect correction in single-cell RNA sequencing data using JIVE
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+source_repos:
+- https://github.com/songfd2018/BUSseq
+- https://github.com/csglab/GEDI
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/hayatlab/MASI
+- https://github.com/cantinilab/scconfluence
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/welch-lab/liger
+- https://github.com/hui2000ji/scETM
+- https://github.com/oconnell-statistics-lab/scJIVE
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/klarman-cell-observatory/scPhere
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songfd2018/BUSseq

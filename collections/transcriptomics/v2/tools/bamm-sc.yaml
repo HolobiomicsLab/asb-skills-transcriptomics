@@ -1,0 +1,19 @@
+name: BAMM-SC
+slug: bamm-sc
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop a Bayesian mixture model for single-cell sequencing (BAMM-SC) method to cluster scRNA-seq data from multiple individuals simultaneously
+- result=BAMMSC(data_BAMMSC,K=4)
+- install_github("lichen-lab/BAMMSC")
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

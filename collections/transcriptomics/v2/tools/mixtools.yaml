@@ -1,0 +1,17 @@
+name: mixtools
+slug: mixtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(mixtools)
+derived_from:
+- doi: 10.1093/bib/bbae011
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+source_repos:
+- https://github.com/MengQiuchen/scDecouple
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MengQiuchen/scDecouple

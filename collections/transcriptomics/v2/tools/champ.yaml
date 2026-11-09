@@ -1,0 +1,19 @@
+name: ChAMP
+slug: champ
+version_used: null
+edam_topics: []
+evidence_spans:
+- after one complete analysis (either with *ChAMP* or *minfi*), close the browser (to clear the temporary memory) and start again.
+- after one complete analysis (either with *ChAMP* or *minfi*), close the browser
+- The first section is called methylysis and hosts the two main pipelines to perform the methylation arrays analysis, ChAMP
+derived_from:
+- doi: 10.1093/bioinformatics/btad184
+  title: 'methylR: a graphical interface for comprehensive DNA methylation array data analysis'
+source_repos:
+- https://github.com/JD2112/methylr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JD2112/methylr

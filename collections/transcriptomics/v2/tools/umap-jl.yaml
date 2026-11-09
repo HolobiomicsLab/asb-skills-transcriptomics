@@ -1,0 +1,17 @@
+name: UMAP.jl
+slug: umap-jl
+version_used: null
+edam_topics: []
+evidence_spans:
+- We employed the Julia package (UMAP.jl) using parameters with the number of nearest neighbors of 15
+derived_from:
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Mathbiomed/scLENS

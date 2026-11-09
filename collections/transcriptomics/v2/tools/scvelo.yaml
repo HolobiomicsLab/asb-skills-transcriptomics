@@ -1,0 +1,74 @@
+name: scvelo
+slug: scvelo
+version_used: 0.2.3
+edam_topics: []
+evidence_spans:
+- To enable RNA velocity visualization users should supply coordinates denoting the destination of each cell alongside the coordinates of the DR method used
+- Reproduce the Scvelo UMAP on the E15.5 pancreas data, over-cluster at Leiden resolution 3.5
+- downloaded as per the 'Scvelo' (Bergen et al. 2020) v0.2.4 RNA Velocity Basics tutorial
+- cytopath depends on *scvelo* to process the data and may require additional dependencies of scvelo to be installed manually.
+- We also assessed the performance of PAGA with velocity-pseudotime-based directionality and scvelo latent time.
+- cytopath depends on *scvelo* to process the data
+- cytopath depends on *scvelo* to process the data and may require additional dependencies of scvelo to be installed manually
+- you need to run pp.moments from scVelo
+- the layers 'Ms' and 'Mu' from scVelo
+- The moments from scVelo have to be computed, i.e. you need to run pp.moments from scVelo
+- Bergen et al.19 developed an extension of the original model to include intermediate states and more flexible dynamical parameters (scVelo)
+- RNA velocity125,126 was calculated using the dynamical model implementation in ScVelo v0.2.5
+- expression objects such as [Seurat](https://github.com/satijalab/seurat), [SingleCellExperiment](https://github.com/drisso/SingleCellExperiment)
+- we applied JOINTLY and scVelo27 to three batches of cells undergoing erythropoiesis
+- pip install scvelo==0.2.4
+- ScVelo10 models the dynamics without the steady state assumption and employs an Expectation-Maximization (EM) approach
+- ScVelo models the dynamics without the steady state assumption and employs an Expectation-Maximization (EM) approach
+- scv.pl.velocity_embedding_stream(adata, color=label, dpi=100, title='')
+- '- `scvelo <https://scvelo.readthedocs.io/>`_ for a few pre- and post-processing analysis'
+- '`scvelo <https://scvelo.readthedocs.io/>`_ for a few pre- and post-processing analysis'
+- for a few pre- and post-processing analysis
+- introduced the scVelo package which contains the covariance-based 'stochastic' mode and the likelihood-based 'dynamical' mode
+- 'Only required when using RNA velocity to guide direction. Matrix from scVelo with RNA velocities from: *adata.layers[''velocity'']*'
+derived_from:
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1093/bioinformatics/btad435
+  title: <i>Cytocipher</i> determines significantly different populations of cells in single-cell RNA-seq data
+- doi: 10.1016/j.crmeth.2022.100359
+  title: Simulation-based inference of differentiation trajectories from RNA velocity fields
+- doi: 10.1038/s41467-022-30545-8
+  title: Cell cycle gene regulation dynamics revealed by RNA velocity and deep-learning
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1016/j.crmeth.2023.100512
+  title: Characterization of cell-fate decision landscapes by estimating transcription factor dynamics
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+- doi: 10.1038/s41467-022-34188-7
+  title: 'UniTVelo: temporally unified RNA velocity reinforces single-cell trajectory inference'
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+source_repos:
+- https://github.com/sonejilab/cellexalvr
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/BradBalderson/Cytocipher
+- https://github.com/aron0093/cytopath-notebooks
+- https://github.com/aron0093/cytopath
+- https://github.com/andreariba/DeepCycle
+- https://github.com/theislab/scvelo
+- https://github.com/jranek/delve
+- https://github.com/sarajimenez/fatecompass
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/xiaoyeye/TFvelo
+- https://github.com/StatBiomed/UniTVelo
+- https://github.com/ShobiStassen/VIA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sonejilab/cellexalvr

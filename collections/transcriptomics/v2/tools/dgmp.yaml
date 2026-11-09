@@ -1,0 +1,19 @@
+name: DGMP
+slug: dgmp
+version_used: null
+edam_topics: []
+evidence_spans:
+- Training and testing our DGMP model with the following commands
+- we propose a novel method (called DGMP) to identify cancer driver genes by jointing directed graph convolutional network (DGCN) and multilayer perceptron (MLP)
+- python DGMP.py --gpu-no 0 --dataset DawnNet
+derived_from:
+- doi: 10.1016/j.gpb.2022.11.004
+  title: 'DGMP: Identifying Cancer Driver Genes by Jointing DGCN and MLP from Multi-Omics Genomic Data'
+source_repos:
+- https://github.com/NWPU-903PR/DGMP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NWPU-903PR/DGMP

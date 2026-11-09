@@ -1,0 +1,19 @@
+name: E.PAGE
+slug: e-page
+version_used: null
+edam_topics: []
+evidence_spans:
+- The statistical analysis package E.PAGE (Environmental Pathways Affecting Gene Expression) (https://github.com/AhmedMehdiLab/E.PAGE) was written in R version 4.0.3
+- The statistical analysis package E.PAGE (Environmental Pathways Affecting Gene Expression) (https://github.com/AhmedMehdiLab/E.PAGE)
+- The statistical analysis package E.PAGE (Environmental Pathways Affecting Gene Expression) (https://github.com/AhmedMehdiLab/E.PAGE) was written in R
+derived_from:
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+source_repos:
+- https://github.com/AhmedMehdiLab/E.PAGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AhmedMehdiLab/E.PAGE

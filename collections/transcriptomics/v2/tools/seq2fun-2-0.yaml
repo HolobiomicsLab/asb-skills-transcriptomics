@@ -1,0 +1,17 @@
+name: Seq2Fun 2.0
+slug: seq2fun-2-0
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have updated Seq2Fun to version 2.0 to reduce its memory footprint (e.g., from 1.49 GB to 0.94 GB)
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

@@ -1,0 +1,24 @@
+name: gridExtra
+slug: gridextra
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(gridExtra)
+- for (pkg in c("enrichplot", "pheatmap", "RColorBrewer", "gridExtra")) {
+derived_from:
+- doi: 10.1038/s41598-022-26434-1
+  title: Correspondence analysis for dimension reduction, batch integration, and visualization of single-cell RNA-seq data
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+source_repos:
+- https://github.com/laurenhsu1/corral
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/aet21/DICE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/laurenhsu1/corral

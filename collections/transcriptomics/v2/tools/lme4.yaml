@@ -1,0 +1,23 @@
+name: lme4
+slug: lme4
+version_used: null
+edam_topics: []
+evidence_spans:
+- lme4 (Imports)
+- Estimate (Uβ)k by using lme427 to fit the model (6) using the PC scores corresponding to the k-th loading
+- lme4 (Imports)
+- using lme427 to fit the model (6) using the PC scores corresponding to the k-th loading
+derived_from:
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+source_repos:
+- https://github.com/BIGslu/kimma
+- https://github.com/phillipnicol/scDist
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BIGslu/kimma

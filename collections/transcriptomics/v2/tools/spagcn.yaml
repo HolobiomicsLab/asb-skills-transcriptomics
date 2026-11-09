@@ -1,0 +1,26 @@
+name: spaGCN
+slug: spagcn
+version_used: null
+edam_topics: []
+evidence_spans:
+- Spatially variable genes are selected using the rank_genes_groups function in the spaGCN package
+- Spatially variable genes are selected using the rank_genes_groups function in the spaGCN package (for 2D location recovery)
+- Run iSC.MEB and the comparison methods (BASS, SC.MEB, BayesSpace, SpaGCN; Louvain excluded per the paper) on the six-section mouse embryo seqFISH dataset
+- such as SpaGCN35, BayesSpace37, DR-SC38, etc., we highlight the fundamental difference between the methods
+derived_from:
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+source_repos:
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/XiaoZhangryy/iSC.MEB
+- https://github.com/ZJUFanLab/scSpace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QihuangZhang/CeLEry

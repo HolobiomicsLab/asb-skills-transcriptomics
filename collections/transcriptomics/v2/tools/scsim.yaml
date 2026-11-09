@@ -1,0 +1,17 @@
+name: scsim
+slug: scsim
+version_used: null
+edam_topics: []
+evidence_spans:
+- metatime.testdata module
+derived_from:
+- doi: 10.1038/s41467-023-38333-8
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+source_repos:
+- https://github.com/yi-zhang/MetaTiME
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yi-zhang/MetaTiME

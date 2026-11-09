@@ -1,0 +1,20 @@
+name: RStudio
+slug: rstudio
+version_used: null
+edam_topics: []
+evidence_spans:
+- and developed using RStudio14
+derived_from:
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+- doi: 10.1007/978-1-4939-9004-7_11
+  title: Pipeline for Integrated Microarray Expression Normalization Tool Kit (PIMENTo) for Tumor Microarray Profiling Experiments
+source_repos:
+- https://github.com/AhmedMehdiLab/E.PAGE
+- https://github.com/MUSC-CGM/PIMENTo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AhmedMehdiLab/E.PAGE

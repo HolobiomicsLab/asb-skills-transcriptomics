@@ -1,0 +1,16 @@
+name: TSNP R software
+slug: tsnp-r-software
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/pst.2075
+  title: '<scp>TSNP</scp>: A <scp>two‐stage</scp> nonparametric phase I/<scp>II</scp> clinical trial design for immunotherapy'
+source_repos:
+- https://github.com/yongzang2020/TSNP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yongzang2020/TSNP

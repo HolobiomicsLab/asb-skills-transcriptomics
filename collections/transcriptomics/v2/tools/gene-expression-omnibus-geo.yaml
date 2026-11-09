@@ -1,0 +1,17 @@
+name: Gene Expression Omnibus (GEO)
+slug: gene-expression-omnibus-geo
+version_used: null
+edam_topics: []
+evidence_spans:
+- We undertook a comprehensive literature and database search using PubMed, Gene expression omnibus (GEO), and Gene set enrichment analysis (GSEA) databases7.
+derived_from:
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+source_repos:
+- https://github.com/AhmedMehdiLab/E.PAGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AhmedMehdiLab/E.PAGE

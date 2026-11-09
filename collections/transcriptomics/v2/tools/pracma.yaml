@@ -1,0 +1,17 @@
+name: pracma
+slug: pracma
+version_used: null
+edam_topics: []
+evidence_spans:
+- The subspace angle was calculated using the subspace function in the R library pracma55.
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+source_repos:
+- https://github.com/KlugerLab/ALRA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

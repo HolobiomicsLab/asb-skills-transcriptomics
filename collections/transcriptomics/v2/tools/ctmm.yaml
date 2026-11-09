@@ -1,0 +1,21 @@
+name: ctmm
+slug: ctmm
+version_used: null
+edam_topics: []
+evidence_spans:
+- contains the CTMM python package. It is also published on PyPI (``pip install ctmm``)
+- '[ctmm](ctmm) contains the CTMM python package. It is also published on PyPI (``pip install ctmm``)'
+- To fit CTP, import the ``ctp`` module and call the function in the same way. For example, ``ctp.full_ML()`` to fit Full model using ML.
+- '[ctmm](ctmm) contains the CTMM python package. It is also published on PyPI'
+derived_from:
+- doi: 10.1038/s41467-024-49242-9
+  title: A robust model for cell type-specific interindividual variation in single-cell RNA sequencing data
+source_repos:
+- https://github.com/Minhui-Chen/CTMM
+- https://github.com/Minhui-Chen/ctmm_python
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Minhui-Chen/CTMM

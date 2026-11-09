@@ -1,0 +1,33 @@
+name: MASS
+slug: mass
+version_used: null
+edam_topics: []
+evidence_spans:
+- MASS-based prediction contours
+- MASS (Imports)
+- library(MASS)
+- To run LDA without HSS, you can use the MASS package in R
+- To run LDA without HSS, you can use the MASS package in R, then use makeAxes to generate your LD axes
+derived_from:
+- doi: 10.1093/bioinformatics/btad714
+  title: Hierarchical and automated cell-type annotation and inference of cancer cell of origin with Census
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+- doi: 10.1038/s41467-023-39017-z
+  title: Cell-attribute aware community detection improves differential abundance testing from single-cell RNA-Seq data
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1016/j.patter.2020.100139
+  title: 'scTenifoldNet: A Machine Learning Workflow for Constructing and Comparing Transcriptome-wide Gene Regulatory Networks from Single-Cell Data'
+source_repos:
+- https://github.com/sjdlabgroup/Census
+- https://github.com/elisabettasciacca/DEGGs
+- https://github.com/aet21/ELVAR
+- https://github.com/mamouzgar/hsslda
+- https://github.com/cailab-tamu/scTenifoldNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sjdlabgroup/Census

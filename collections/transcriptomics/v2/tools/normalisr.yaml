@@ -1,0 +1,24 @@
+name: normalisr
+slug: normalisr
+version_used: null
+edam_topics: []
+evidence_spans:
+- lingfeiwang/normalisr
+- Here we present Normalisr, a normalization and statistical association testing framework that unifies single-cell differential expression, co-expression, and CRISPR screen analyses with linear models.
+- Normalisr
+- normalisr.association
+- Normalisr, a normalization and statistical association testing framework that unifies single-cell differential expression, co-expression
+derived_from:
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1038/s41467-021-26682-1
+  title: Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr
+source_repos:
+- https://github.com/lingfeiwang/normalisr
+- https://github.com/ChangSuBiostats/CS-CORE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lingfeiwang/normalisr

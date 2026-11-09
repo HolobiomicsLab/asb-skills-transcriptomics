@@ -1,0 +1,28 @@
+name: GATK
+slug: gatk
+version_used: 4.2.0.0
+edam_topics: []
+evidence_spans:
+- following the SNV guideline of GATK (Supplementary Figure 1)
+- Aligned reads were then submitted to the GATK (version 3.7) pipeline
+- all SNPs that failed previously mentioned GATK filters, SNPs within 75 base pairs of INDELs
+- using GATK to remove variants with
+- variant calling using HaplotypeCaller (with the g.vcf setting)
+derived_from:
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/lanagarmire/SSrGE
+- https://github.com/broadinstitute/gatk
+- https://github.com/jiujiezz/tsnad
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lanagarmire/SSrGE

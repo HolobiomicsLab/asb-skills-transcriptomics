@@ -1,0 +1,16 @@
+name: Flame
+slug: flame
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+source_repos:
+- https://github.com/PavlopoulosLab/SCALA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PavlopoulosLab/SCALA

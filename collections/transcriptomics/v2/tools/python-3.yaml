@@ -1,0 +1,46 @@
+name: Python 3
+slug: python-3
+version_used: '3.8'
+edam_topics: []
+evidence_spans:
+- The server backend is implemented in PostgreSQL, Python 3, and GraphQL
+- Cellenium provides python utility functions that add data in the AnnData structure and validate the file
+- python3 -m build
+- peaks2utr is implemented in Python 3 (≥3.8)
+- please download and install Python3 Anaconda from here
+- please download and install Python3 Anaconda
+- Temporally unified RNA velocity for single cell trajectory inference (UniTVelo) is implementated on Python 3 and TensorFlow 2.
+- UniTVelo) is implementated on Python 3 and TensorFlow 2.
+- (UniTVelo) is implementated on Python 3 and TensorFlow 2.
+- implementated on Python 3 and TensorFlow 2
+- implementated on Python 3 and TensorFlow 2.
+- The LPI-CNNCP is supported on Linux operating system python 3
+derived_from:
+- doi: 10.1093/bioinformatics/btad349
+  title: Cellenium—a scalable and interactive visual analytics app for exploring multimodal single-cell data
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1038/s41467-019-09670-4
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+- doi: 10.1038/s41467-022-34188-7
+  title: 'UniTVelo: temporally unified RNA velocity reinforces single-cell trajectory inference'
+- doi: 10.1007/s11704-022-2011-y
+  title: 'AE-TPGG: a novel autoencoder-based approach for single-cell RNA-seq data imputation and dimensionality reduction'
+- doi: 10.1016/j.ab.2020.113767
+  title: 'LPI-CNNCP: Prediction of lncRNA-protein interactions by using convolutional neural network with the copy-padding trick'
+source_repos:
+- https://github.com/Bayer-Group/cellenium
+- https://github.com/haessar/peaks2utr
+- https://github.com/RabadanLab/randomly
+- https://github.com/pinellolab/stream
+- https://github.com/StatBiomed/UniTVelo
+- https://github.com/PUGEA/AE-TPGG
+- https://github.com/NWPU-903PR/LPI-CNNCP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Bayer-Group/cellenium

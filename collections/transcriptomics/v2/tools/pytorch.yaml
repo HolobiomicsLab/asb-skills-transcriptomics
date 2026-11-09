@@ -1,0 +1,206 @@
+name: PyTorch
+slug: pytorch
+version_used: 1.10.2
+edam_topics: []
+evidence_spans:
+- '- [pytorch(>=1.13.0,<2.0)](https://pytorch.org/get-started/locally/)'
+- pytorch(>=1.13.0,<2.0)
+- torch>=1.8
+- 'Python (>3.8) support packages: torch>=1.8, pandas>=1.4, numpy>=1.20, scipy, tqdm, scanpy>=1.5, anndata, sklearn, scikit-image'
+- conda install pytorch torchvision torchaudio cpuonly -c pytorch
+- Our project is developed using PyTorch 1.7.1 in Python 3.7.
+- '- Python >= 3.9
+
+  - PyTorch
+
+  - Scanpy, AnnData'
+- '- Python >= 3.9
+
+  - PyTorch
+
+  - Scanpy, AnnData
+
+  - NumPy, SciPy, Pandas'
+- '- PyTorch'
+- PyTorch
+- --train          Start or resume model training
+- Gradient backpropagation is handled by the PyTorch53 python package
+- Gradient backpropagation is handled by the PyTorch53 python package, and we used Pyro’s66 implementation of the ELBO objective.
+- relies on Py Torch81 for
+- relies on PyTorch81 for matrix operations on the GPU
+- The experiments were run with mvTCR v0.1.3 together with PyTorch v1.8.0.
+- Then install PyTorch e.g. v2.1.2 with a fitting CUDA Version
+- conda create -n pollock -c pytorch -c conda-forge -y pytorch torchvision torchaudio cpuonly captum scanpy umap-learn r-base
+- The model is implemented in the PyTorch Python library (Paszke et al., 2017).
+- These inputs are used to generate a **PRESCIENT torch object**
+- The `prescient process_data` command will generate a torch pt file `data_pt`
+- PRESCIENT torch object
+- Pytorch version 1.10.0 for implementing the VAE network
+- scBridge is implemented in Python using the PyTorch41 framework, v.1.12.1.
+- 'Pytorch: An imperative style, high-performance deep learning library'
+- pip install scButterfly --extra-index-url https://download.pytorch.org/whl/cu116
+- pip install scanpy torch scib
+- pytorch -- 1.5.1+cu101 (https://pytorch.org)
+- 20 minutes on the pytorch cpu version
+- The training time of the test case including bulk-level and single-cell-level training on the testing computer was 20 minutes on the pytorch cpu version
+- was 20 minutes on the pytorch cpu version
+- on the pytorch cpu version
+- device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+- 'Pytorch version: 1.10.0'
+- Pytorch 1.6.0
+- Install pytorch according to your computational platform
+- Install [pytorch](https://pytorch.org/get-started/locally/) according to your computational platform
+- device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
+- Pytorch Dataloader preparation
+- computation and weight updates, and Pytorch Dataloader preparation, which remains constant across datasets
+- We developed both components using PyTorch100
+- We present our completed pipeline, written in PyTorch, as an end-to-end tool for automating and interpreting the classification of scRNA-seq data.
+- '``conda install pytorch-cluster -c pyg``'
+- pip install torch --extra-index-url https://download.pytorch.org/whl/cu116
+- The version of pytorch should be suitable to the CUDA version of your machine.
+- '### Install pytorch
+
+  The version of pytorch should be suitable to the CUDA version of your machine.'
+- The PyTorch version 1.7 was used in all experiments.
+- Cancer-Finder is built on Python and the Pytorch deep-learning framework
+- To install `SPACEL`, you need to install [PyTorch](https://pytorch.org) with GPU support first.
+- conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+- TACTiCS requires PyTorch.
+- Pytorch (Paszke et al. 2019) was used for the model architecture.
+- '- pytorch>=1.9.0'
+- pytorch>=1.9.0
+- We highly recommand training the model with Nvidia GPU devices, consider install Pytorch cuda version
+- VEGA is implemented in Pytorch and works around the `scanpy
+- VEGA is implemented in Pytorch
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+- doi: 10.1016/j.gpb.2022.11.004
+  title: 'DGMP: Identifying Cancer Driver Genes by Jointing DGCN and MLP from Multi-Omics Genomic Data'
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1038/s41467-025-61337-5
+  title: Unveiling causal regulatory mechanisms through cell-state parallax
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1016/j.isci.2022.105530
+  title: 'layerUMAP: A tool for visualizing and understanding deep learning models in biological sequence classification using UMAP'
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+- doi: 10.1038/s41467-024-49806-9
+  title: Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data
+- doi: 10.1093/bioadv/vbac028
+  title: 'Pollock: fishing for cell states'
+- doi: 10.1038/s41467-021-23518-w
+  title: Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions
+- doi: 10.1093/bioinformatics/btad546
+  title: 'scAce: an adaptive embedding and clustering method for single-cell gene expression data'
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+- doi: 10.1038/s41467-024-47418-x
+  title: 'scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders'
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+- doi: 10.1038/s41467-024-45227-w
+  title: 'scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data'
+- doi: 10.1093/bioinformatics/btad098
+  title: 'scGCL: an imputation method for scRNA-seq data based on graph contrastive learning'
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1016/j.crmeth.2021.100071
+  title: A mixture-of-experts deep generative model for integrated analysis of single-cell multiomics data
+- doi: 10.1038/s41467-023-36066-2
+  title: scMoMaT jointly performs single cell mosaic integration and multi-modal bio-marker detection
+- doi: 10.1093/bib/bbae112
+  title: 'scNovel: a scalable deep learning-based network for novel rare cell discovery in single-cell transcriptomics'
+- doi: 10.1038/s41467-024-50150-1
+  title: 'scSemiProfiler: Advancing large-scale single-cell studies through semi-profiling with deep generative models and active learning'
+- doi: 10.1093/bioinformatics/btad360
+  title: Consensus label propagation with graph convolutional networks for single-cell RNA sequencing cell type annotation
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1093/bioadv/vbad171
+  title: 'scTopoGAN: unsupervised manifold alignment of single-cell data'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+- doi: 10.1093/bioinformatics/btad248
+  title: Cell type matching across species using protein embeddings and transfer learning
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+source_repos:
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/HKU-BAL/CellContrast
+- https://github.com/NWPU-903PR/DGMP
+- https://github.com/nceglia/genevector
+- https://github.com/alexw16/gridnet
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/jingry/autoBioSeqpy
+- https://github.com/cistrome/MIRA
+- https://github.com/cantinilab/mowgli
+- https://github.com/SchubertLab/mvTCR
+- https://github.com/ding-lab/pollock
+- https://github.com/gifford-lab/prescient
+- https://github.com/sldyns/scAce
+- https://github.com/XLearning-SCU/scBridge
+- https://github.com/BioX-NKU/scButterfly
+- https://github.com/mcgilldinglab/scCobra
+- https://github.com/ttgump/scDCC
+- https://github.com/OSU-BMBL/scDEAL
+- https://github.com/ZhangLabGT/scDisInFact
+- https://github.com/zehaoxiong123/scGCL
+- https://github.com/xianglin226/scMDC
+- https://github.com/bucky527/scME
+- https://github.com/kodaim1115/scMM
+- https://github.com/PeterZZQ/scMoMaT
+- https://github.com/chuanyang-Zheng/scNovel
+- https://github.com/mcgilldinglab/scSemiProfiler
+- https://github.com/lewinsohndp/scSHARP
+- https://github.com/mperozek11/scSHARP_tool
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/AkashCiel/scTopoGAN
+- https://github.com/SELINA-team/SELINA.py
+- https://github.com/Patchouli-M/SequencingCancerFinder
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/WhirlFirst/STEM
+- https://github.com/kbiharie/TACTiCS
+- https://github.com/bauerbach95/tempo
+- https://github.com/deeplearningplus/tGPT
+- https://github.com/caokai1073/uniPort
+- https://github.com/LucasESBS/vega
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion

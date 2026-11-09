@@ -1,0 +1,18 @@
+name: linclust (MMseqs2)
+slug: linclust-mmseqs2
+version_used: null
+edam_topics: []
+evidence_spans:
+- cluster all sequences that are >90% identical with a minimum coverage of 80% (parameters --min-seq-id 0.9 --cov-mode 0 -c 0.8)
+- cluster all sequences that are >90% identical with a minimum coverage of 80%
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

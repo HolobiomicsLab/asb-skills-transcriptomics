@@ -1,0 +1,23 @@
+name: MetaNeighbor
+slug: metaneighbor
+version_used: null
+edam_topics: []
+evidence_spans:
+- Supervised methods, such as MetaNeighbor, have been proposed to assess how well cell-type-specific transcriptional profiles replicate across different datasets
+- AUROC_scores = MetaNeighbor(dat = mn_data,
+- library(MetaNeighbor)
+- first, we build a network of rank correlations between all cells for a gene set
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1038/s41467-018-03282-0
+  title: Characterizing the replicability of cell types defined by single cell RNA-sequencing data using MetaNeighbor
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/gillislab/MetaNeighbor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

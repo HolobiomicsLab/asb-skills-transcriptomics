@@ -1,0 +1,143 @@
+name: dplyr
+slug: dplyr
+version_used: '1.0'
+edam_topics: []
+evidence_spans:
+- library(dplyr)
+- 'library(GEOquery)
+
+  library(biomaRt)
+
+  library(dplyr)'
+- library(dplyr)
+- library(dplyr)
+- you will need to have the dplyr, mvtnorm, tensorflow, keras, ranger, devtools, liquidSVM, and xgboost libraries installed
+- library(dplyr)
+- test <- data.frame(test %>% group_by(vector) %>% top_n(5,weight_sc))
+- library(dplyr)
+- dplyr (Imports)
+- library(dplyr)
+- library(dplyr)
+- 'library(Matrix)
+
+  library(dplyr)'
+- '- `dplyr (Imports)`'
+- call library(<dep>) explicitly before using their functions.
+- Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- 'Following libraries are needed to run the shiny app: igraph,tidyr,dplyr,ggplot2,plotly,ggtext,data.table,readr.'
+- dplyr (Imports)
+- dplyr (Imports)
+- dplyr (Imports)
+- "suppressPackageStartupMessages({\n  library(dplyr)"
+- library(dplyr)
+- 'The RSCanner script has three R package dependencies: ''tidyverse'', ''dplyr'', and ''ggplot2''.'
+- install.packages("dplyr")
+- 'suppressMessages(library(scCancer))
+
+  suppressMessages(library(dplyr))'
+- suppressMessages(library(dplyr))
+- 'library(dplyr)           # tidy data'
+- lapply(c("dplyr","Seurat","HGNChelper"), library, character.only = T)
+- lapply(c("dplyr","Seurat","HGNChelper","openxlsx"), library, character.only = T)
+- sctype_scores <- cL_resutls %>% group_by(cluster) %>% top_n(n = 1, wt = scores)
+- library(dplyr)
+- dplyr::mutate(ID = toupper(ID))
+- library(dplyr)
+- library(tauFisher)
+- dplyr v1.0.2Hadley Wickhamhttps://dplyr.tidyverse.org/
+derived_from:
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1093/bioinformatics/btae283
+  title: 'CASCC: a co-expression-assisted single-cell RNA-seq data clustering method'
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1093/bioadv/vbae002
+  title: Predicting evolutionary targets and parameters of gene deletion from expression data
+- doi: 10.1038/s41467-024-44823-0
+  title: Trajectory inference across multiple conditions with condiments
+- doi: 10.1038/s41598-022-07959-x
+  title: Computation and visualization of cell–cell signaling topologies in single-cell systems data using Connectome
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+- doi: 10.1038/s41467-023-39017-z
+  title: Cell-attribute aware community detection improves differential abundance testing from single-cell RNA-Seq data
+- doi: 10.1016/j.simpa.2021.100144
+  title: 'FeatureCorr: An R package to study feature correlations aided with data transformation for sequencing and microarray data'
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+- doi: 10.1093/bib/bbaf110
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+- doi: 10.1016/j.mex.2023.102179
+  title: 'Cell annotation using scRNA-seq data: A protein-protein interaction network approach'
+- doi: 10.1016/j.mex.2022.101778
+  title: 'ORIGINS: A protein network-based approach to quantify cell pluripotency from scRNA-seq data'
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1093/bioinformatics/btad111
+  title: 'RSCanner: rapid assessment and visualization of RNA structure content'
+- doi: 10.1093/bioinformatics/btae028
+  title: 'scCancer2: data-driven in-depth annotations of the tumor microenvironment at single-level resolution'
+- doi: 10.1093/bioinformatics/btad449
+  title: <u>S</u>ub-<u>C</u>luster <u>I</u>dentification through <u>S</u>emi-<u>S</u>upervised <u>O</u>ptimization of <u>R</u>are-Cell <u>S</u>ilhouettes (SCISSORS) in single-cell RNA-sequencing
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+- doi: 10.1038/s41467-021-25957-x
+  title: Efficient and precise single-cell reference atlas mapping with Symphony
+- doi: 10.1038/s41467-024-48041-6
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+- doi: 10.1016/j.ailsci.2021.100025
+  title: 'OmicInt package: Exploring omics data and regulatory networks using integrative analyses and machine learning'
+source_repos:
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/LingyiC/CASCC
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/anddssan/CLOUDe
+- https://github.com/HectorRDB/condiments
+- https://github.com/msraredon/Connectome
+- https://github.com/bsml320/deCS
+- https://github.com/AhmedMehdiLab/E.PAGE
+- https://github.com/rx-li/EasyCellType
+- https://github.com/aet21/ELVAR
+- https://github.com/DKundnani/FeatureCorr
+- https://github.com/mamouzgar/hsslda
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/BIGslu/kimma
+- https://github.com/yuntianf/Longcell
+- https://github.com/ConesaLab/MOSim
+- https://github.com/danielasenraoka/ORIGINS2
+- https://github.com/danielasenraoka/ORIGINS
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/pylelab/RSCanner
+- https://github.com/czythu/scCancer
+- https://github.com/jr-leary7/SCISSORS
+- https://github.com/jackbibby1/SCPA
+- https://github.com/IanevskiAleksandr/sc-type
+- https://github.com/immunogenomics/symphony
+- https://github.com/micnngo/tauFisher
+- https://github.com/LXY1201/GSFM
+- https://github.com/WilsonImmunologyLab/LinQView
+- https://github.com/AusteKan/OmicInt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scibiome/boostdiff_inference

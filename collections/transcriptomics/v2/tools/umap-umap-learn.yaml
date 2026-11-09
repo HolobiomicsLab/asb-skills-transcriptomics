@@ -1,0 +1,17 @@
+name: UMAP (umap-learn)
+slug: umap-umap-learn
+version_used: null
+edam_topics: []
+evidence_spans:
+- The lymph node CODEX data was reduced via UMAP12 with 10 dimensions using the Python package umap-learn
+derived_from:
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+source_repos:
+- https://github.com/euxhenh/cellar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/euxhenh/cellar

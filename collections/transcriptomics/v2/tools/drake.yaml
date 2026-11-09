@@ -1,0 +1,25 @@
+name: drake
+slug: drake
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Because `{drake}` knows the inner relationships between targets in your plan, it also knows which targets are
+
+  independent of each other, and thus, can be run concurrently.'
+- '`{drake}` pipelines are composed of individual steps called targets.'
+- '`{scdrake}` is an R package built on top of the `{drake}` package'
+- 'Because `{drake}` knows the inner relationships between targets in your plan, it also knows which targets are
+
+  independent of each other'
+- Because `{drake}` knows the inner relationships between targets in your plan
+derived_from:
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+source_repos:
+- https://github.com/bioinfocz/scdrake
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bioinfocz/scdrake

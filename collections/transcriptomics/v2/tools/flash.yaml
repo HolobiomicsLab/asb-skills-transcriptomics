@@ -1,0 +1,22 @@
+name: FLASh
+slug: flash
+version_used: null
+edam_topics: []
+evidence_spans:
+- forward and reverse reads are merged using [FLASh](http://ccb.jhu.edu/software/FLASH/).
+- BARtab leverages widely used bioinformatics tools including fastp, FLASh, cutadapt, samtools, bowtie, starcode, umi-tools, and FastQC
+- For pathomics data, structure segmentation was performed with FLASH followed by graph-based clustering as described before
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+source_repos:
+- https://github.com/DaneVass/BARtab
+- https://github.com/CostaLab/PILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DaneVass/BARtab

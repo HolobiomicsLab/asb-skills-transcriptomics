@@ -1,0 +1,36 @@
+name: statsmodels
+slug: statsmodels
+version_used: 0.12.1
+edam_topics: []
+evidence_spans:
+- '- statsmodels (>= 0.10.1)'
+- GAM regression was implemented using the statsmodels v0.14.0 package in python
+- '- statsmodels'
+- '`statsmodels <https://www.statsmodels.org/stable/index.html>`_ for GLM fitting'
+- '> statsmodels >= 0.8.0'
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100095
+  title: Inference of high-resolution trajectories in single-cell RNA-seq data by using RNA velocity
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/PeterZZQ/CellPath
+- https://github.com/MintaYLu/COT
+- https://github.com/jranek/delve
+- https://github.com/bauerbach95/tempo
+- https://github.com/single-cell-genetics/XClone
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PeterZZQ/CellPath

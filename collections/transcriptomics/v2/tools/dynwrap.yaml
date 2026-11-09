@@ -1,0 +1,17 @@
+name: dynwrap
+slug: dynwrap
+version_used: null
+edam_topics: []
+evidence_spans:
+- they can be assigned after the fact using the [`add_pseudotime`](https://rdrr.io/github/dynverse/dynwrap/man/add_pseudotime.html) function.
+derived_from:
+- doi: 10.1016/j.celrep.2022.110333
+  title: Network inference with Granger causality ensembles on single-cell transcriptomics
+source_repos:
+- https://github.com/gitter-lab/SINGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gitter-lab/SINGE

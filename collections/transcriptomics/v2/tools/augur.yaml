@@ -1,0 +1,20 @@
+name: Augur
+slug: augur
+version_used: null
+edam_topics: []
+evidence_spans:
+- Augur9 uses a machine learning approach to quantify the cell-type specific separation between the two conditions.
+derived_from:
+- doi: 10.1038/s41467-024-51649-3
+  title: Robust identification of perturbed cell types in single-cell RNA-seq data
+- doi: 10.1016/j.xcrm.2024.101568
+  title: scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network
+source_repos:
+- https://github.com/phillipnicol/scDist
+- https://github.com/ZJUFanLab/scRank
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/phillipnicol/scDist

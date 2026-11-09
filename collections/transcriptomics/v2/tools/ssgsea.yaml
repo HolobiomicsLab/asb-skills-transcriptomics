@@ -1,0 +1,32 @@
+name: ssGSEA
+slug: ssgsea
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'We further compared the pathway activity scoring speed among five methods: GSDensity, CelliD, AUCell, ssGSEA, and VAM'
+- we used the single-sample gene-set enrichment analysis (ssGSEA) [25] to assess the proliferation score
+- '`ssgsea(x, exprsFile, infoFile, geneSet, attribute, clus, outputDir)`'
+- the 10-gene signature score was annotated utilizing single sample Gene Set Enrichment Analysis (ssGSEA)
+derived_from:
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+- doi: 10.1038/s41598-020-67016-3
+  title: Recursive Consensus Clustering for novel subtype discovery from transcriptome data
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+source_repos:
+- https://github.com/qingnanl/gsdensity
+- https://github.com/WangX-Lab/PreCanCell
+- https://github.com/MSCTR/RecursiveConsensusClustering
+- https://github.com/jackbibby1/SCPA
+- https://github.com/Patchouli-M/SequencingCancerFinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/qingnanl/gsdensity

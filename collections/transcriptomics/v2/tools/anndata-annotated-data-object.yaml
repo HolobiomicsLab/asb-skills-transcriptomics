@@ -1,0 +1,20 @@
+name: AnnData (Annotated Data object)
+slug: anndata-annotated-data-object
+version_used: null
+edam_topics: []
+evidence_spans:
+- '[AnnData](https://anndata.readthedocs.io/en/latest/) is the internal object
+
+  that Cellar uses for storing annotations and exporting session files.'
+derived_from:
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+source_repos:
+- https://github.com/theislab/anndata2ri
+- https://github.com/euxhenh/cellar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/anndata2ri

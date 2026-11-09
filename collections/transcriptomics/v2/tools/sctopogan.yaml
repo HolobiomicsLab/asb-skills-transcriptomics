@@ -1,0 +1,21 @@
+name: scTopoGAN
+slug: sctopogan
+version_used: null
+edam_topics: []
+evidence_spans:
+- aligns the source manifold to the target manifold using the topology-guided GAN model
+- Run_scTopoGAN.py script provides an example for running scTopoGAN on a new data.
+- run_scTopoGAN which aligns the source manifold to the target manifold using the topology-guided GAN model.
+- The scTopoGAN_results.py script reproduce the alignment results of scTopoGAN using different datasets.
+- run_scTopoGAN which aligns the source manifold to the target manifold using the topology-guided GAN model
+derived_from:
+- doi: 10.1093/bioadv/vbad171
+  title: 'scTopoGAN: unsupervised manifold alignment of single-cell data'
+source_repos:
+- https://github.com/AkashCiel/scTopoGAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AkashCiel/scTopoGAN

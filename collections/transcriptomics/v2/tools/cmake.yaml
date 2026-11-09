@@ -1,0 +1,26 @@
+name: CMake
+slug: cmake
+version_used: '3.13'
+edam_topics: []
+evidence_spans:
+- CMake 3.13 or higher
+- cmake -B ./<path_to_build_folder> -S ./ -DCUDA_ARCH="<cuda_arch>"
+- Fortuna requires C++11 to run and CMake version >=2.8.12 to compile.
+- Next, compile the tool (requires cmake version >= 2.8)
+derived_from:
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+- doi: 10.1093/bioinformatics/btad569
+  title: 'INTEGRATE-Circ and INTEGRATE-Vis: unbiased detection and visualization of fusion-derived circular RNA'
+source_repos:
+- https://github.com/SFGLab/cudaMMC
+- https://github.com/canzarlab/fortuna
+- https://github.com/ChrisMaherLab/INTEGRATE-CIRC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/cudaMMC

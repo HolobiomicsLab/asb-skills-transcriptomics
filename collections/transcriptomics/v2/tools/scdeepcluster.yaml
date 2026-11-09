@@ -1,0 +1,22 @@
+name: scDeepCluster
+slug: scdeepcluster
+version_used: null
+edam_topics: []
+evidence_spans:
+- Recently developed competitive methods include DCA7, scVI8, scDeepCluster9, PHATE10, SAUCIE11, scGNN12, ZINB-WaVE13 and Ivis14
+- scDeepCluster learns the feature representation and clustering simultaneously in the autoencoder from the zero-inflated negative binomial distribution model
+derived_from:
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+source_repos:
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/ttgump/scDeepCluster
+- https://github.com/Philyzh8/scMGCA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZixiangLuo1161/scGAE

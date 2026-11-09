@@ -1,0 +1,17 @@
+name: TCGA-Assembler
+slug: tcga-assembler
+version_used: null
+edam_topics: []
+evidence_spans:
+- we downloaded tool (`Module_A.R`) via  http://www.compgenome.org/TCGA-Assembler/index.php
+derived_from:
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+source_repos:
+- https://github.com/deargen/DearWXpub
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/deargen/DearWXpub

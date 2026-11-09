@@ -1,0 +1,22 @@
+name: SkewC
+slug: skewc
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run SkewC analysis on all geneBody coverage files under indir
+- geneBodyCoverage.pl is a perl script to imitate process of RSeQC 'geneBody_coverage.py'
+- Gene body coverage is a computationally demanding task and users of SkewC may have concerns about the computation time
+- SkewC will split the barcoded BAM into multiple BAM files (one BAM file per cell barcode).
+- SkewC is a single-cell RNA sequencing (scRNA-seq) data quality evaluation tool.
+derived_from:
+- doi: 10.1016/j.xpro.2022.102038
+  title: Computational approach to evaluate scRNA-seq data quality and gene body coverage with SkewC
+source_repos:
+- https://github.com/LSBDT/SkewC.git
+- https://github.com/LSBDT/SkewC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LSBDT/SkewC.git

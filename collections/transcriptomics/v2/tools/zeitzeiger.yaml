@@ -1,0 +1,17 @@
+name: ZeitZeiger
+slug: zeitzeiger
+version_used: null
+edam_topics: []
+evidence_spans:
+- we benchmarked it against state-of-the-art methods ZeitZeiger28 and TimeSignatR30
+derived_from:
+- doi: 10.1038/s41467-024-48041-6
+  title: tauFisher predicts circadian time from a single sample of bulk and single-cell pseudobulk transcriptomic data
+source_repos:
+- https://github.com/micnngo/tauFisher
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/micnngo/tauFisher

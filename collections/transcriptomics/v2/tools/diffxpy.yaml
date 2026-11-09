@@ -1,0 +1,19 @@
+name: diffxpy
+slug: diffxpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- Differential gene expression analysis was performed with diffxpy (https://github.com/theislab/diffxpy)
+- Differential gene expression analysis was performed with diffxpy (https://github.com/theislab/diffxpy) by using a Welch’s t-test.
+derived_from:
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+source_repos:
+- https://github.com/theislab/diffxpy
+- https://github.com/euxhenh/cellar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/diffxpy

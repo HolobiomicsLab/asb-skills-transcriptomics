@@ -1,0 +1,22 @@
+name: BUSseq
+slug: busseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- the R package `BUSseq` fits an interpretable Bayesian hierarchical model---the Batch Effects Correction with Unknown Subtypes for scRNA seq Data (BUSseq)
+- the R package `BUSseq` fits an interpretable Bayesian hierarchical model
+- We develop Batch effects correction with Unknown Subtypes for scRNA-seq data (BUSseq), which is an interpretable Bayesian hierarchical model
+- '`BUSseq_MCMC(ObservedData, n.celltypes, seed, n.cores, n.iterations, n.burnin, n.unchanged, n.output, working_dir, Drop_ind, fdr, hyper_pi, hyper_gamma0, hyper_gamma1, hyper_alpha, tau1sq, hyper_p,'
+- the Batch Effects Correction with Unknown Subtypes for scRNA seq Data (BUSseq)---to correct batch effects in the presence of unknown cell types
+derived_from:
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+source_repos:
+- https://github.com/songfd2018/BUSseq
+- https://github.com/songfd2018/BUSseq-Rpackage
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songfd2018/BUSseq

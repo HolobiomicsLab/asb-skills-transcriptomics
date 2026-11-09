@@ -1,0 +1,20 @@
+name: NMF
+slug: nmf
+version_used: null
+edam_topics: []
+evidence_spans:
+- we generated cell labels for the Usoskin dataset via NMF clustering
+derived_from:
+- doi: 10.1016/j.omtn.2022.10.015
+  title: 'CRIT: Identifying RNA-binding protein regulator in circRNA life cycle via non-negative matrix factorization'
+- doi: 10.1038/s41598-019-56911-z
+  title: Using transfer learning from prior reference knowledge to improve the clustering of single-cell RNA-Seq data
+source_repos:
+- https://github.com/BioinformaticsSTU/CRIT
+- https://github.com/nicococo/scRNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioinformaticsSTU/CRIT

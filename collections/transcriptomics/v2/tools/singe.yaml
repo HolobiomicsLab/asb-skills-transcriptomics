@@ -1,0 +1,19 @@
+name: SINGE
+slug: singe
+version_used: null
+edam_topics: []
+evidence_spans:
+- The following guidelines contain best practices for running SINGE on a new dataset.
+- the complete SINGE workflow, which includes the SINGE GLG and SINGE Aggregate modes.
+- Here we present single-cell inference of networks using Granger ensembles (SINGE), an algorithm for gene regulatory network inference from ordered single-cell gene expression data.
+derived_from:
+- doi: 10.1016/j.celrep.2022.110333
+  title: Network inference with Granger causality ensembles on single-cell transcriptomics
+source_repos:
+- https://github.com/gitter-lab/SINGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gitter-lab/SINGE

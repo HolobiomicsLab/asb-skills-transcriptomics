@@ -1,0 +1,17 @@
+name: sclink_net
+slug: sclink-net
+version_used: '0.5'
+edam_topics: []
+evidence_spans:
+- networks = sclink_net(expr = count.norm, ncores = 1, lda = seq(0.5, 0.1, -0.05))
+derived_from:
+- doi: 10.1016/j.gpb.2020.11.006
+  title: 'scLink: Inferring Sparse Gene Co-Expression Networks from Single-Cell Expression Data'
+source_repos:
+- https://github.com/Vivianstats/scLink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Vivianstats/scLink

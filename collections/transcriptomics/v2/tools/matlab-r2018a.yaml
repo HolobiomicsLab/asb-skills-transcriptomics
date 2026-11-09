@@ -1,0 +1,17 @@
+name: MATLAB R2018a
+slug: matlab-r2018a
+version_used: null
+edam_topics: []
+evidence_spans:
+- This code has been tested on MATLAB R2014b and R2018a on Linux, MATLAB R2020a on macOS, and MATLAB R2018a on Windows.
+derived_from:
+- doi: 10.1016/j.celrep.2022.110333
+  title: Network inference with Granger causality ensembles on single-cell transcriptomics
+source_repos:
+- https://github.com/gitter-lab/SINGE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gitter-lab/SINGE

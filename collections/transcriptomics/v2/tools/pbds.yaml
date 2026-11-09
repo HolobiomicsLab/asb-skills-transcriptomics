@@ -1,0 +1,17 @@
+name: pbDS
+slug: pbds
+version_used: null
+edam_topics: []
+evidence_spans:
+- as produced by `pbDS` or `mmDS`
+derived_from:
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+source_repos:
+- https://github.com/HelenaLC/muscat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HelenaLC/muscat

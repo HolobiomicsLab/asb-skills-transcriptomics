@@ -1,0 +1,22 @@
+name: SCISSOR
+slug: scissor
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`SCISSOR` is an R package containing tools for statistical analysis and visualization of base-level RNA-seq data.'
+- The whole procedures of SCISSOR can be performed by using all-in-one function `Scissor`
+- '`SCISSOR` is free software and available on [Github](https://github.com/hyochoi/SCISSOR).'
+- ScissorOutput=Scissor(pileupData=pileupData,Ranges=geneRanges)
+- Shape changes in selecting sample outliers in RNA-seq, SCISSOR, is a series of procedures for transforming and normalizing base-level RNA sequencing coverage data
+- '`SCISSOR` (shape changes in selecting sample outliers in RNA-seq) aims for unsupervised screening of a range of structural alterations in RNA-seq data.'
+derived_from:
+- doi: 10.1038/s41467-020-20593-3
+  title: 'SCISSOR: a framework for identifying structural changes in RNA transcripts'
+source_repos:
+- https://github.com/hyochoi/SCISSOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hyochoi/SCISSOR

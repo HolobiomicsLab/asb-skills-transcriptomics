@@ -1,0 +1,20 @@
+name: scHiCDiff
+slug: schicdiff
+version_used: null
+edam_topics: []
+evidence_spans:
+- The inputs of the normalization function scHiCDiff.norm are illustrated below
+- the other type is the detection function (scHiCDiff.KS, scHiCDiff.CVM, scHiCDiff.NB and scHiCDiff.ZINB)
+- result.ks <- scHiCDiff.KS(count.table,group)
+- result.zinb <- scHiCDiff.ZINB(count.table,group)
+derived_from:
+- doi: 10.1093/bioinformatics/btad625
+  title: 'scHiCDiff: detecting differential chromatin interactions in single-cell Hi-C data'
+source_repos:
+- https://github.com/wmalab/scHiCDiff
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wmalab/scHiCDiff

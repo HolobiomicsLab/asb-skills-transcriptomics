@@ -1,0 +1,143 @@
+name: samtools
+slug: samtools
+version_used: '1.16'
+edam_topics: []
+evidence_spans:
+- SAMtools (v.1.9)
+- samtools sort - -o sorted.bam
+- The SAM file of aligned barcode reads is sorted, indexed and compressed using [samtools](http://www.htslib.org/).
+- BARtab leverages widely used bioinformatics tools including fastp, FLASh, cutadapt, samtools, bowtie, starcode, umi-tools, and FastQC
+- samtools view <bam_file> | ./BAFExtract -generate_compressed_pileup_per_SAM stdin <genome_list> <sample_dir> 50 0
+- samtools view <bam_file> | ./BAFExtract -generate_compressed_pileup_per_SAM
+- samtools sort -@ 8 -o atac/genome.bam -n -m 8G atac/genome.u.bam
+- samtools view -@ 8 -o atac/genome.u.bam -b atac/genome.sam
+- samtools sort -n -o accepted_hits.sorted.bam accepted_hits.bam
+- HISAT2-mapped results are first converted to BAM format by SAMtools [25]. StringTie [18] is then used to calculate transcript expression by FPKM
+- transformed into coordinate sorted BAM files using samtools [47]
+- Then, we use samtools to filter the reads have unique map to the genome.
+- we use samtools to filter the reads have unique map to the genome
+- '* htslib (https://github.com/samtools/htslib)'
+- with a prior sorting and indexing of alignments using samtools (Li et al. 2009).
+- 'Requirements
+
+  ------------
+
+  * samtools'
+- ':param string samtools_path: path to samtools'
+- '* samtools
+
+  * 2bit genome downloaded from UCSC'
+- path to samtools
+- Script will remove secondary alignments and those which are not aligned to designed gRNA cassette.
+- later they are used by Samtools to split alignment file (bam file) into bam files which contain reads that aligned to window region.
+- samtools faidx /path/to/reference.fasta
+- Reads flagged as secondary alignment were filtered out using SAMtools
+- samtools >= 1.0 (tested on version 1.10)
+- '* samtools'
+- The software uses outside software samtools, bowtie2, and htseq to quantify pathogen reads
+- pathogen_al_mapped_sort.bam - sorted reads mapped to pathogen (can be used to visualize reads in [IGV])
+- pathogen_al_mapped_sort.bam - sorted reads mapped to pathogen (can be used to visualize reads in [IGV]
+- SPQ, initiates by extracting unaligned sequence reads from the host genome using SAMtools (Li et al. 2009)
+- '`samtools_directory`: Path to software *samtools*.'
+- '- `samtools_directory`: Path to software *samtools*.'
+- The sequence alignment/map format and SAMtools
+- ScType implements a single-cell single-nucleotide variant (SNV) calling option to distinguish between malignant and non-malignant cells (Fig. 1a)
+- Samtools v1.16 or higher (http://www.htslib.org/download/)
+- 'derived from SAMtools44 view (parameters: -q 255)'
+- The total coverage of each differentially expressed uTAR is extracted using SAMtools depth and the coverage along the length of the uTAR is smoothed
+- 'derived from SAMtools view (parameters: -q 255)'
+- we used the samtools merge (Li et al., 2009) to generate the merged alignments
+- obtained by following the workflows outlined in the methods on somatic variant calling in the main text
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1038/s41467-021-21894-x
+  title: Aptardi predicts polyadenylation sites in sample-specific transcriptomes using high-throughput RNA sequencing and DNA sequence
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1038/s41467-019-13779-x
+  title: CaSpER identifies and visualizes CNV events by integrative analysis of single-cell or bulk RNA-sequencing data
+- doi: 10.1093/bioinformatics/btae168
+  title: A machine-readable specification for genomics assays
+- doi: 10.1016/j.gpb.2019.03.004
+  title: 'CircAST: Full-Length Assembly and Quantification of Alternatively Spliced Isoforms in Circular RNAs'
+- doi: 10.1016/j.gpb.2019.11.004
+  title: 'CIRCexplorer3: A CLEAR Pipeline for Direct Comparison of Circular and Linear RNA Expression'
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+- doi: 10.1093/bioinformatics/btae207
+  title: "<tt>Forseti</tt>\n                    : a mechanistic and predictive model of the splicing status of scRNA-seq reads"
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+- doi: 10.1038/s42003-023-05351-7
+  title: GiRAFR improves gRNA detection and annotation in single-cell CRISPR screens
+- doi: 10.1038/s41467-025-60446-5
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+- doi: 10.1038/s41467-024-46875-8
+  title: 'InPACT: a computational method for accurate characterization of intronic polyadenylation from RNA sequencing data'
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+- doi: 10.1093/bib/bbaf107
+  title: 'REDInet: a temporal convolutional network-based classifier for A-to-I RNA editing detection harnessing million known events'
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+- doi: 10.1038/s41467-023-43162-w
+  title: 'scReadSim: a single-cell RNA-seq and ATAC-seq read simulator'
+- doi: 10.1038/s41467-021-21808-x
+  title: Identifying transposable element expression dynamics and heterogeneity during development at the single-cell level with a processing pipeline scTE
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+- doi: 10.1038/s41467-021-22496-3
+  title: Uncovering transcriptional dark matter via gene annotation independent single-cell RNA sequencing analysis
+- doi: 10.1016/j.isci.2022.104067
+  title: Tiglon enables accurate transcriptome assembly via integrating mappings of different aligners
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+source_repos:
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/luskry/aptardi
+- https://github.com/DaneVass/BARtab
+- https://github.com/akdess/CaSpER
+- https://github.com/cellatlas/cellatlas
+- https://github.com/xiaofengsong/CircAST
+- https://github.com/YangLab/CLEAR
+- https://github.com/suda-huanglab/circlehunter
+- https://github.com/COMBINE-lab/forseti
+- https://github.com/samtools/htslib
+- https://github.com/canzarlab/fortuna
+- https://github.com/FunctionalEpigeneticsLab/GiRAFR
+- https://github.com/parklab/HiScanner
+- https://github.com/YY-TMU/InPACT
+- https://github.com/F0nz0/NanoSpeech_basecaller
+- https://github.com/BioinfoUNIBA/REDInet
+- https://github.com/equipeGST/RiboDoc
+- https://github.com/XiDsLab/scFusion
+- https://github.com/noush-joglekar/scisorseqr
+- https://github.com/galelab/scPathoQuant
+- https://github.com/JSB-UCLA/scReadSim
+- https://github.com/JiekaiLab/scTE
+- https://github.com/IanevskiAleksandr/sc-type
+- https://github.com/bvaldebenitom/SoloTE
+- https://github.com/fw262/TAR-scRNA-seq
+- https://github.com/yutingsdu/Tiglon-v.1.1
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/jiujiezz/tsnad
+- https://github.com/annweideman/canopy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion

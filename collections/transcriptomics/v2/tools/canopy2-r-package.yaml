@@ -1,0 +1,17 @@
+name: Canopy2 R package
+slug: canopy2-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- Canopy2 is an open-source R package available at https://github.com/annweideman/canopy2.
+derived_from:
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+source_repos:
+- https://github.com/annweideman/canopy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/annweideman/canopy2

@@ -1,0 +1,20 @@
+name: scPhere
+slug: scphere
+version_used: 3.6.7
+edam_topics: []
+evidence_spans:
+- scPhere has been tested on Python 3.6.7 on Linux
+- from scphere.model.vae import SCPHERE
+- git clone https://github.com/klarman-cell-observatory/scPhere
+- model = SCPHERE(n_gene=x.shape[1], n_batch=[30, 3, 2],
+derived_from:
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+source_repos:
+- https://github.com/klarman-cell-observatory/scPhere
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/klarman-cell-observatory/scPhere

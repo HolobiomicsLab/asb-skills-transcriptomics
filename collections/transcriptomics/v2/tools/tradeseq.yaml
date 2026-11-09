@@ -1,0 +1,25 @@
+name: tradeSeq
+slug: tradeseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- sce <- fitGAM(counts = counts, sds = sds, conditions = df$conditions)
+- and in trajectory lineages (e.g. tradeSeq27)
+derived_from:
+- doi: 10.1038/s41467-024-44823-0
+  title: Trajectory inference across multiple conditions with condiments
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+- doi: 10.1016/j.ailsci.2023.100068
+  title: Elucidating dynamic cell lineages and gene networks in time-course single cell differentiation
+source_repos:
+- https://github.com/statomics.github.io/tradeSeq
+- https://github.com/HectorRDB/condiments
+- https://github.com/Winnie09/Lamian
+- https://github.com/zhangzmr/CellST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/statomics.github.io/tradeSeq

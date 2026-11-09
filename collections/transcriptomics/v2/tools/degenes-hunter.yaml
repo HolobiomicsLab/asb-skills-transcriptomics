@@ -1,0 +1,18 @@
+name: DEgenes Hunter
+slug: degenes-hunter
+version_used: null
+edam_topics: []
+evidence_spans:
+- It incorporates the DEgenes Hunter pipeline13, in addition to co-expression analysis
+derived_from:
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+source_repos:
+- https://github.com/fmjabato/ExpHunterSuiteExamples
+- https://github.com/seoanezonjic/ExpHunterSuite
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fmjabato/ExpHunterSuiteExamples

@@ -1,0 +1,20 @@
+name: circlehunter
+slug: circlehunter
+version_used: null
+edam_topics: []
+evidence_spans:
+- circlehunter use a `yaml` format config file to figure out all samples and their output
+- Therefore, we developed circlehunter to reconstruct ecDNA by taking full advantage of the increased ATAC-Seq signals arising from the high accessibility of ecDNA itself.
+- We developed circlehunter ( https://github.com/suda-huanglab/circlehunter ), a tool for identifying ecDNA from ATAC-Seq data
+- conda activate circlehunter
+derived_from:
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+source_repos:
+- https://github.com/suda-huanglab/circlehunter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/suda-huanglab/circlehunter

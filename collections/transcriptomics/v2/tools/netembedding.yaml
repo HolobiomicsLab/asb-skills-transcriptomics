@@ -1,0 +1,17 @@
+name: netEmbedding
+slug: netembedding
+version_used: null
+edam_topics: []
+evidence_spans:
+- netEmbedding(object, slot.name, type, comparison, pathway.remove, umap.method, n_neighbors, min_dist, ...)
+derived_from:
+- doi: 10.1038/s41467-021-21246-9
+  title: Inference and analysis of cell-cell communication using CellChat
+source_repos:
+- https://github.com/jinworks/CellChat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jinworks/CellChat

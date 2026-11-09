@@ -1,0 +1,23 @@
+name: Raptor
+slug: raptor
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Each command will have a respective help page that can be shown via, e.g.,
+
+  `raptor build --help`.'
+- We present Raptor, a system for approximately searching many queries such as next-generation sequencing reads or transcripts in large collections of nucleotide sequences.
+- conda install -c bioconda -c conda-forge raptor
+- We present our implementation, called Raptor, discuss its capabilities and limitations, and compare it with the state-of-the-art methods Mantis and COBS.
+- Raptor is being developed by [Enrico Seiler](mailto:enrico.seiler@fu-berlin.de), but also incorporates much work from
+derived_from:
+- doi: 10.1016/j.isci.2021.102782
+  title: 'Raptor: A fast and space-efficient pre-filter for querying very large collections of nucleotide sequences'
+source_repos:
+- https://github.com/seqan/raptor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/seqan/raptor

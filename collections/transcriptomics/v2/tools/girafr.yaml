@@ -1,0 +1,20 @@
+name: GiRAFR
+slug: girafr
+version_used: null
+edam_topics: []
+evidence_spans:
+- girafr gRNA_mutation -f absolute_path/ConfigFile
+- '**GiRAFR** is a python package'
+- Prepare **ConfigFile** for girafr gRNA_mutation.
+- GiRAFR (Guide RNA Anomaly and Functionality Revealer), a tool based on pysam
+derived_from:
+- doi: 10.1038/s42003-023-05351-7
+  title: GiRAFR improves gRNA detection and annotation in single-cell CRISPR screens
+source_repos:
+- https://github.com/FunctionalEpigeneticsLab/GiRAFR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FunctionalEpigeneticsLab/GiRAFR

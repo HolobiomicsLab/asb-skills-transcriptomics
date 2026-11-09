@@ -1,0 +1,58 @@
+name: t-SNE
+slug: t-sne
+version_used: null
+edam_topics: []
+evidence_spans:
+- we produced a t-SNE plot based on the first 50 principal components
+- The cells were clearly segregated into three dominant groups in the t-SNE map
+- Those methods include RaceID54, SCUBA55, SNN-Cliq56, ZIFA57, t-SNE4, SC349; just to name a few.
+- simu.tsne <- Rtsne(dat_log)
+- t-SNE appeared to pack certain points together
+- Although t-SNE is often a method of choice for visualization of single cell experiments13,29, we demonstrated that in the presence of random noise, the algorithm tends to yield spurious clusters
+- '`t-SNE <https://lvdmaaten.github.io/tsne/>`__'
+- 'For t-SNE: reduction.method = ''tsne'''
+- data = RunTSNE(data)
+- data = RunTSNE(data, seed.use = 100, perplexity = 50)
+- permuted = RunTSNE(data.permuted, perplexity = 10)
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)1 were implemented on scRNA-seq data
+- the validation set is used to produce the t-SNE plots
+- (absent — flagged as missing)
+- Embedding data distributed on a hypersphere to a Euclidean space introduces significant distortion for commonly used dimensionality reduction tools
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1016/j.gpb.2020.05.005
+  title: 'c-CSN: Single-Cell RNA Sequencing Data Analysis by Conditional Cell-Specific Network'
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s41598-017-13665-w
+  title: Controlling for Confounding Effects in Single Cell RNA Sequencing Studies Using both Control and Target Genes
+- doi: 10.1038/s41467-020-19465-7
+  title: Ensemble dimensionality reduction and feature gene extraction for single-cell RNA-seq data
+- doi: 10.1038/s41598-019-45301-0
+  title: Structure-preserving visualisation of high dimensional single-cell datasets
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-019-14018-z
+  title: Realistic in silico generation and augmentation of single-cell RNA-seq data using generative adversarial networks
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/LinLi-0909/c-CSN
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/ChenMengjie/Citrus
+- https://github.com/shawnstat/EDGE
+- https://github.com/beringresearch/ivis
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/imsb-uke/scGAN
+- https://github.com/klarman-cell-observatory/scPhere
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

@@ -1,0 +1,17 @@
+name: ProjectSVR
+slug: projectsvr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+source_repos:
+- https://github.com/JarningGau/ProjectSVR
+- https://github.com/jarninggau/ProjectSVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JarningGau/ProjectSVR

@@ -1,0 +1,17 @@
+name: TopHat-Fusion
+slug: tophat-fusion
+version_used: 2.0.12
+edam_topics: []
+evidence_spans:
+- HISAT2-unmapped fragments were then mapped to the same GRCh38/hg38 reference genome using TopHat-Fusion (version 2.0.12
+derived_from:
+- doi: 10.1016/j.gpb.2019.11.004
+  title: 'CIRCexplorer3: A CLEAR Pipeline for Direct Comparison of Circular and Linear RNA Expression'
+source_repos:
+- https://github.com/YangLab/CLEAR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YangLab/CLEAR

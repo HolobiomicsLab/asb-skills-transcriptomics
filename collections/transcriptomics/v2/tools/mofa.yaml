@@ -1,0 +1,24 @@
+name: MOFA+
+slug: mofa
+version_used: null
+edam_topics: []
+evidence_spans:
+- We compare Mowgli to MOFA+14, a variational inference method
+- and 15 factors for the other datasets
+- Multi-Omics Factor Analysis (MOFA)
+- MOFA model is trained to capture variance in PAS among different samples
+derived_from:
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+source_repos:
+- https://github.com/cantinilab/mowgli
+- https://github.com/bioFAM/mofapy2
+- https://github.com/ZhuoliHuang/scPAFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/mowgli

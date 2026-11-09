@@ -1,0 +1,25 @@
+name: Arriba
+slug: arriba
+version_used: 2.4.0
+edam_topics: []
+evidence_spans:
+- In the detection of gene fusion events, ScanNeo2 utilizes [`Arriba`](https://github.com/suhrig/arriba)
+- ScanNeo2 utilizes [`Arriba`](https://github.com/suhrig/arriba)
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1093/bioinformatics/btad659
+  title: 'ScanNeo2: a comprehensive workflow for neoantigen detection and immunogenicity prediction from diverse genomic and transcriptomic alterations'
+- doi: 10.1016/j.csbj.2021.08.016
+  title: 'TSNAD v2.0: A one-stop software solution for tumor-specific neoantigen detection'
+source_repos:
+- https://github.com/suhrig/arriba
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/ylab-hi/ScanNeo2
+- https://github.com/jiujiezz/tsnad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/suhrig/arriba

@@ -1,0 +1,17 @@
+name: Capybara
+slug: capybara
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.stemcr.2022.11.010
+  title: Gene regulatory network reconfiguration in direct lineage reprogramming
+source_repos:
+- https://github.com/morris-lab/Capybara
+- https://github.com/morris-lab/CellOracle
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/morris-lab/Capybara

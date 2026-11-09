@@ -1,0 +1,18 @@
+name: DawnRank
+slug: dawnrank
+version_used: null
+edam_topics: []
+evidence_spans:
+- We used the gene-interaction reference network constructed in Dawnrank (Hou and Ma, 2014)
+- Gene_Net is the hub network of intersection of gene interaction network constructed in Dawnrank[1]
+derived_from:
+- doi: 10.1093/bioinformatics/btad071
+  title: 'WMDS.net: a network control framework for identifying key players in transcriptome programs'
+source_repos:
+- https://github.com/chaofen123/WMDS.net
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/chaofen123/WMDS.net

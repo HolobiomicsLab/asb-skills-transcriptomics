@@ -1,0 +1,19 @@
+name: CellMarker
+slug: cellmarker
+version_used: null
+edam_topics: []
+evidence_spans:
+- annot.GSEA <- easyct(input.d, db="cellmarker", species="Human",
+- The candidate tissues can be seen using `data(cellmarker_tissue)`,
+- easyct(input.d, db="cellmarker", species="Human",
+derived_from:
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+source_repos:
+- https://github.com/rx-li/EasyCellType
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rx-li/EasyCellType

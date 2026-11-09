@@ -1,0 +1,18 @@
+name: FLAIR
+slug: flair
+version_used: null
+edam_topics: []
+evidence_spans:
+- TALON (Wyman et al. 2019), FLAIR (Tang et al. 2020) and LIQA (Hu et al. 2021)
+derived_from:
+- doi: 10.1007/s00439-023-02539-z
+  title: 'VIsoQLR: an interactive tool for the detection, quantification and fine-tuning of isoforms in selected genes using long-read sequencing'
+source_repos:
+- https://github.com/TBLabFJD/VIsoQLR_benchmark
+- https://github.com/TBLabFJD/VIsoQLR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TBLabFJD/VIsoQLR_benchmark

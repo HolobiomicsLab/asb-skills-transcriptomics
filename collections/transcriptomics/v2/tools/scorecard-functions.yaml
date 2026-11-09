@@ -1,0 +1,19 @@
+name: scorecard_functions
+slug: scorecard-functions
+version_used: null
+edam_topics: []
+evidence_spans:
+- import scorecard_functions
+- scorecard_functions.scorecard(df,param_dict)
+- scorecard_functions.count_frequencies(main_folder)
+derived_from:
+- doi: 10.1007/s00284-025-04435-3
+  title: 'A Scorecard for Information Synthesis in Multiple Experimental Conditions: Application to Bacterial Biofilm Matrix Transcriptomics'
+source_repos:
+- https://github.com/m89p067/Scorecard
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/m89p067/Scorecard

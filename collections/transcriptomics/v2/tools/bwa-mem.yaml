@@ -1,0 +1,27 @@
+name: BWA-MEM
+slug: bwa-mem
+version_used: '0.7'
+edam_topics: []
+evidence_spans:
+- Clean reads were mapped to the genome using bwa-mem [45].
+- hg38-bam-file was created by aligning the reads to the GRCh38 reference genome using BWA mem (v0.7.6a; Li and Durbin, 2009)
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+source_repos:
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/suda-huanglab/circlehunter
+- https://github.com/Rashedul/CRIS
+- https://github.com/F0nz0/NanoSpeech_basecaller
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion

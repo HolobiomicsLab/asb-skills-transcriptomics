@@ -1,0 +1,17 @@
+name: Axiom Analysis Suite Software
+slug: axiom-analysis-suite-software
+version_used: 3.0.1
+edam_topics: []
+evidence_spans:
+- Raw genotyping data (cel files) was analyzed using Axiom Analysis Suite Software (version 3.0.1 64 bit) with the Gallus gallus 5.0 genome
+derived_from:
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mjtiv/VADT

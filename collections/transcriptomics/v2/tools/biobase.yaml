@@ -1,0 +1,30 @@
+name: Biobase
+slug: biobase
+version_used: null
+edam_topics: []
+evidence_spans:
+- Bisque requires expression data in the ExpressionSet format from the Biobase package.
+- library(Biobase)
+- library(Biobase)
+- Bioconduct base package provides `ExpressionSet` class
+- Bioconduct base package provides `ExpressionSet` class, which is a convenient data structure to hold expression data along with sample/feature annotation.
+derived_from:
+- doi: 10.1038/s41467-020-15816-6
+  title: Accurate estimation of cell composition in bulk expression through robust integration of single-cell information
+- doi: 10.1038/s41598-017-16747-x
+  title: 'CMScaller: an R package for consensus molecular subtyping of colorectal cancer pre-clinical models'
+- doi: 10.1016/j.isci.2022.105709
+  title: Distance covariance entropy reveals primed states and bifurcation dynamics in single-cell RNA-Seq data
+- doi: 10.1038/s41467-018-08023-x
+  title: Bulk tissue cell type deconvolution with multi-subject single-cell expression reference
+source_repos:
+- https://github.com/cozygene/bisque
+- https://github.com/Lothelab/CMScaller
+- https://github.com/aet21/DICE
+- https://github.com/xuranw/MuSiC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cozygene/bisque

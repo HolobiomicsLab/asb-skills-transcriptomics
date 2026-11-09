@@ -1,0 +1,21 @@
+name: Cell Marker Accordion
+slug: cell-marker-accordion
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Cell Marker Accordion database was constructed by considering multiple published marker gene databases and collections of cell-sorting markers
+- The Cell Marker Accordion includes an R package to automatically identify cell type, cell cycle stage and pathway activation in single-cell and spatial omics data
+- The Cell Marker Accordion was run using max_n_marker set to 30 and specifying the tissue of the dataset.
+- The Cell Marker Accordion performances and running times were compared against SCEVAN64 and CopyKAT65, run with default parameters (Supplementary Data 5)
+- includes the accordion_disease function which allows the identification of aberrant populations exploiting the built-in Accordion gene marker disease database
+derived_from:
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+source_repos:
+- https://github.com/TebaldiLab/cellmarkeraccordion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TebaldiLab/cellmarkeraccordion

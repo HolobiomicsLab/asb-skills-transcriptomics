@@ -1,0 +1,18 @@
+name: DeepCCI
+slug: deepcci
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/JiangBioLab/DeepCCI.git
+- python Interaction_inference.py --device cuda
+derived_from:
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+source_repos:
+- https://github.com/JiangBioLab/DeepCCI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JiangBioLab/DeepCCI

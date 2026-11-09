@@ -1,0 +1,18 @@
+name: PAC
+slug: pac
+version_used: null
+edam_topics: []
+evidence_spans:
+- PAC will construct an index in the folder index_test using all the datasets containend in the file of file fof.txt.
+- PAC will load the index inside the index_test folder and query each line of the GCF_000864885.1_ViralProj15500_genomic.fna.gz fasta file.
+derived_from:
+- doi: 10.1093/bioinformatics/btad225
+  title: Scalable sequence database search using partitioned aggregated Bloom comb trees
+source_repos:
+- https://github.com/Malfoy/PAC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Malfoy/PAC

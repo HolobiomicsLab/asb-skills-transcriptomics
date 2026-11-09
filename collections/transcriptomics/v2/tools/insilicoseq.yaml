@@ -1,0 +1,17 @@
+name: InSilicoSeq
+slug: insilicoseq
+version_used: null
+edam_topics: []
+evidence_spans:
+- Evaluating it on simulated and real human data, we found that cloudrnaSPAdes accurately assembles isoforms
+derived_from:
+- doi: 10.1093/bioinformatics/btad781
+  title: "<scp>cloudrna</scp>\n                    SP\n                    <scp>Ades</scp>\n                    : isoform assembly using bulk barcoded RNA sequencing data"
+source_repos:
+- https://github.com/1dayac/cloudrnaSPAdes-release
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/1dayac/cloudrnaSPAdes-release

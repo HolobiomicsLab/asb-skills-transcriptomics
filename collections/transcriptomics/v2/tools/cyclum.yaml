@@ -1,0 +1,25 @@
+name: Cyclum
+slug: cyclum
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop Cyclum, an autoencoder approach identifying circular trajectories in the gene expression space
+- Cyclum is a package that infer latent periodic process (e.g., cell cycle) from single-cell RNA-seq data.
+- It provides methods to recover cell cycle information and remove cell cycle effects from the scRNA-seq data.
+- existing methods yield poor circadian phase estimates, and do not quantify estimation uncertainty
+derived_from:
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+source_repos:
+- https://github.com/KChen-lab/Cyclum
+- https://github.com/KChen-lab/Cyclum.git
+- https://github.com/KChen-lab/cyclum
+- https://github.com/bauerbach95/tempo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KChen-lab/Cyclum

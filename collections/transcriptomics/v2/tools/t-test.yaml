@@ -1,0 +1,17 @@
+name: t_test
+slug: t-test
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `t_test`'
+derived_from:
+- doi: 10.1038/s41598-024-66381-7
+  title: Scanpro is a tool for robust proportion analysis of single-cell resolution data
+source_repos:
+- https://github.com/loosolab/scanpro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/loosolab/scanpro

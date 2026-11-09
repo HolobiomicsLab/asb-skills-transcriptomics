@@ -1,0 +1,20 @@
+name: scMGCA
+slug: scmgca
+version_used: null
+edam_topics: []
+evidence_spans:
+- we develop a deep graph learning method, scMGCA, for single-cell data analysis
+- pip install scMGCA
+- scMGCA is a deep graph embedding learning method for single-cell clustering
+- $ pip install scMGCA
+derived_from:
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+source_repos:
+- https://github.com/Philyzh8/scMGCA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Philyzh8/scMGCA

@@ -1,0 +1,19 @@
+name: MuDCoD
+slug: mudcod
+version_used: null
+edam_topics: []
+evidence_spans:
+- Run MuDCoD iterative algorithm to find smoothed spectral representations of nodes, and then predict by clustering them to communities.
+- or simply use `pip install mudcod`
+- Run MuDCoD's iterative algorithm to find smoothed spectral representations of nodes, and then predict by clustering them to communities.
+derived_from:
+- doi: 10.1093/bioinformatics/btad592
+  title: 'MuDCoD: multi-subject community detection in personalized dynamic gene networks from single-cell RNA sequencing'
+source_repos:
+- https://github.com/bo1929/MuDCoD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bo1929/MuDCoD

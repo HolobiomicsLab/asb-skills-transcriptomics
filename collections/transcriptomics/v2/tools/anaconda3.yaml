@@ -1,0 +1,16 @@
+name: Anaconda3
+slug: anaconda3
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2022.105530
+  title: 'layerUMAP: A tool for visualizing and understanding deep learning models in biological sequence classification using UMAP'
+source_repos:
+- https://github.com/jingry/autoBioSeqpy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jingry/autoBioSeqpy

@@ -1,0 +1,17 @@
+name: gurobipy
+slug: gurobipy
+version_used: 10.0.0
+edam_topics: []
+evidence_spans:
+- gurobipy(>=10.0.0)
+derived_from:
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+source_repos:
+- https://github.com/WPZgithub/CEFCON
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WPZgithub/CEFCON

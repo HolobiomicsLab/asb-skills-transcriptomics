@@ -1,0 +1,23 @@
+name: sridnona/python3:180925.v1
+slug: sridnona-python3-180925-v1
+version_used: null
+edam_topics: []
+evidence_spans:
+- sridnona/python3:180925.v1
+- '* sridnona/python3:180925.v1'
+- 'Docker image
+
+  ----------
+
+  * sridnona/python3:180925.v1'
+derived_from:
+- doi: 10.1038/s41467-019-11591-1
+  title: A general approach for detecting expressed mutations in AML cells using single cell RNA-sequencing
+source_repos:
+- https://github.com/sridnona/cb_sniffer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sridnona/cb_sniffer

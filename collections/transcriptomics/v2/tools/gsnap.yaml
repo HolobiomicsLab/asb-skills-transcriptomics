@@ -1,0 +1,17 @@
+name: GSNAP
+slug: gsnap
+version_used: null
+edam_topics: []
+evidence_spans:
+- Align your reads to a genomic reference sequence
+derived_from:
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ncgr/UMI-analysis

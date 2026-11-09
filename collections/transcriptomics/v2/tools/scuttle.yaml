@@ -1,0 +1,22 @@
+name: scuttle
+slug: scuttle
+version_used: null
+edam_topics: []
+evidence_spans:
+- We will perform basic QC steps using the scuttle library.
+- library(scuttle)
+- we calculated logcounts and normalized with the size factor using the scuttle R package52
+derived_from:
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-024-45198-y
+  title: The impacts of active and self-supervised learning on efficient annotation of single-cell expression data
+source_repos:
+- https://github.com/csglab/GEDI
+- https://github.com/camlab-bioml/leader
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/csglab/GEDI

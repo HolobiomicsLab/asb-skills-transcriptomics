@@ -1,0 +1,28 @@
+name: rsvd
+slug: rsvd
+version_used: null
+edam_topics: []
+evidence_spans:
+- The only prerequisite for ALRA is installation of the randomized SVD package RSVD which can be installed as `install.packages('rsvd')`
+- We assume an upper bound k < 100, and thus first use rsvd to compute the top 100 singular values
+- By default, ALRA uses the single-threaded implementation from the R package rsvd32
+- The only prerequisite for ALRA is installation of the randomized SVD package RSVD which can be installed as `install.packages('rsvd')`.
+- By default, ALRA uses the single-threaded implementation from the R package rsvd32.
+- pca_nointeg<- rsvd::rpca(t(assay(sce, "logcounts")), k=5)
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+source_repos:
+- https://github.com/KlugerLab/ALRA
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/csglab/GEDI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

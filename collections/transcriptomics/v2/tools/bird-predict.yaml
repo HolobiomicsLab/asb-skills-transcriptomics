@@ -1,0 +1,18 @@
+name: BIRD_predict
+slug: bird-predict
+version_used: null
+edam_topics: []
+evidence_spans:
+- path_to_BIRD/BIRD_predict -b path_to_model/human_hg38_model.bin -i FPKM_data_matrix.txt -o output_file.txt
+- 'Standard output: BIRD_predict -b model_file.bin -i input_file.txt -o output_file.txt'
+derived_from:
+- doi: 10.1038/s41467-017-01188-x
+  title: Genome-wide prediction of DNase I hypersensitivity using gene expression
+source_repos:
+- https://github.com/WeiqiangZhou/BIRD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WeiqiangZhou/BIRD

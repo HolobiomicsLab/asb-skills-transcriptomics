@@ -1,0 +1,35 @@
+name: org.Hs.eg.db
+slug: org-hs-eg-db
+version_used: null
+edam_topics: []
+evidence_spans:
+- these were org.Mm.eg.db40 and org.Hs.eg.db41 for annotations for mouse and human respectively
+- "entrezIDs = TRUE,\n  convert_to_gene_symbols = TRUE"
+- library(org.Hs.eg.db)
+- markers$entrezid <- mapIds(org.Hs.eg.db,
+- 'human: "org.Hs.eg.db"'
+- the use of the R package **org.Hs.eg.db** in the Bioconductor project, for gene ID conversion
+- the use of the R package **org.Hs.eg.db** in the Bioconductor project
+derived_from:
+- doi: 10.1038/srep33892
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1093/bioinformatics/btad377
+  title: 'SEMtree: tree-based structure learning methods with structural equation models'
+source_repos:
+- https://github.com/cran/ccRemover
+- https://github.com/elisabettasciacca/DEGGs
+- https://github.com/rx-li/EasyCellType
+- https://github.com/bioinfocz/scdrake
+- https://github.com/fernandoPalluzzi/SEMgraph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cran/ccRemover

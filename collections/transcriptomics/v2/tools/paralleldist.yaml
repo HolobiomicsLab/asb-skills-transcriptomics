@@ -1,0 +1,17 @@
+name: parallelDist
+slug: paralleldist
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `parallelDist (Imports)`'
+derived_from:
+- doi: 10.1038/s41467-023-36790-9
+  title: A variational algorithm to detect the clonal copy number substructure of tumors from scRNA-seq data
+source_repos:
+- https://github.com/AntonioDeFalco/SCEVAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AntonioDeFalco/SCEVAN

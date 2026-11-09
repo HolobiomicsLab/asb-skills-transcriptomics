@@ -1,0 +1,18 @@
+name: Text::Levenshtein::XS
+slug: text-levenshtein-xs
+version_used: null
+edam_topics: []
+evidence_spans:
+- This requires the packages [Text::Levenshtein::XS]
+- This requires the packages [Text::Levenshtein::XS](http://search.cpan.org/~ugexe/Text-Levenshtein-XS-0.503/lib/Text/Levenshtein/XS.pm)
+derived_from:
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+source_repos:
+- https://github.com/ncgr/UMI-analysis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ncgr/UMI-analysis

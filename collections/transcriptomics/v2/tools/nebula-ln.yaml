@@ -1,0 +1,19 @@
+name: NEBULA-LN
+slug: nebula-ln
+version_used: null
+edam_topics: []
+evidence_spans:
+- Compared to a standard h-likelihood method, we see that NEBULA-LN sacrifices some asymptotic efficiency in estimating the cell-level overdispersion
+- NEBULA-LN uses an approximated likelihood based on the law of large numbers, and NEBULA-HL uses an h-likelihood.
+- NEBULA-LN uses an approximated likelihood based on the law of large numbers
+derived_from:
+- doi: 10.1038/s42003-021-02146-6
+  title: NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data
+source_repos:
+- https://github.com/lhe17/nebula
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lhe17/nebula

@@ -1,0 +1,17 @@
+name: scButterfly calculate_cluster
+slug: scbutterfly-calculate-cluster
+version_used: null
+edam_topics: []
+evidence_spans:
+- calculate_cluster.calculate_cluster_index
+derived_from:
+- doi: 10.1038/s41467-024-47418-x
+  title: 'scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders'
+source_repos:
+- https://github.com/BioX-NKU/scButterfly
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioX-NKU/scButterfly

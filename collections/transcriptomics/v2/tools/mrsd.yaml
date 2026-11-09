@@ -1,0 +1,19 @@
+name: MRSD
+slug: mrsd
+version_used: null
+edam_topics: []
+evidence_spans:
+- MRSD (Minimum Required Sequencing Depth) is a statistical framework to predict the depth of RNA sequencing required to achieve a user-specified level of coverage of a transcript(s) of interest.
+- MRSD (Minimum Required Sequencing Depth) is a statistical framework to predict the depth of RNA sequencing required
+- MRSD (Minimum Required Sequencing Depth) is a statistical framework to predict the depth of RNA sequencing required to achieve a user-specified level of coverage
+derived_from:
+- doi: 10.1016/j.ajhg.2021.12.014
+  title: 'MRSD: A quantitative approach for assessing suitability of RNA-seq in the investigation of mis-splicing in Mendelian disease'
+source_repos:
+- https://github.com/mcgm-mrsd/mrsd-explorer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgm-mrsd/mrsd-explorer

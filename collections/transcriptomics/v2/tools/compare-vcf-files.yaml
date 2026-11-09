@@ -1,0 +1,18 @@
+name: Compare_VCF_Files
+slug: compare-vcf-files
+version_used: null
+edam_topics: []
+evidence_spans:
+- compares concordance of matching samples and SNPs (https://github.com/mjtiv/Compare_VCF_Files)
+derived_from:
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/mjtiv/Compare_VCF_Files
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mjtiv/Compare_VCF_Files

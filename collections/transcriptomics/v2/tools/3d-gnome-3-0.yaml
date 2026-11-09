@@ -1,0 +1,17 @@
+name: 3D-GNOME 3.0
+slug: 3d-gnome-3-0
+version_used: null
+edam_topics: []
+evidence_spans:
+- cudaMMC is a GPU-enhanced version of the 3D-GNOME software, which utilizes the Multiscale Monte Carlo approach for 3D chromatin structure modeling.
+derived_from:
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+source_repos:
+- https://github.com/SFGLab/cudaMMC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/cudaMMC

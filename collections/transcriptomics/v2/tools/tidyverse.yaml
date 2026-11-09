@@ -1,0 +1,57 @@
+name: tidyverse
+slug: tidyverse
+version_used: null
+edam_topics: []
+evidence_spans:
+- The [tidyverse package](https://www.tidyverse.org/)
+- we implemented SSN in R using basic R and tidyverse functions54
+- Using publicly available packages tidyverse15 , Seurat16 as dependencies
+- library(tidyverse)
+- the “tidyverse” package should be installed first
+- Before installing ROGUE, the “tidyverse” package should be installed first
+- 'The RSCanner script has three R package dependencies: ''tidyverse'', ''dplyr'', and ''ggplot2''.'
+- install.packages("tidyverse")
+- library(tidyverse)
+- install.packages("tidyverse")
+- library(tidyverse)
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1038/s41467-021-24152-2
+  title: Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells
+- doi: 10.1038/s41598-022-21988-6
+  title: Environmental pathways affecting gene expression (E.PAGE) as an R package to predict gene–environment associations
+- doi: 10.1093/bioinformatics/btad522
+  title: Coherent pathway enrichment estimation by modeling inter-pathway dependencies using regularized regression
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+- doi: 10.1038/s41467-020-16904-3
+  title: An entropy-based metric for assessing the purity of single cell populations
+- doi: 10.1093/bioinformatics/btad111
+  title: 'RSCanner: rapid assessment and visualization of RNA structure content'
+- doi: 10.1093/bib/bbae011
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s42003-023-05283-2
+  title: TimeTalk uses single-cell RNA-seq datasets to decipher cell-cell communication during early embryo development
+source_repos:
+- https://github.com/DaneVass/BARtab
+- https://github.com/dynverse/dyngen
+- https://github.com/AhmedMehdiLab/E.PAGE
+- https://github.com/cbg-ethz/pareg
+- https://github.com/jarninggau/ProjectSVR
+- https://github.com/PaulingLiu/ROGUE
+- https://github.com/pylelab/RSCanner
+- https://github.com/MengQiuchen/scDecouple
+- https://github.com/PaulingLiu/scibet
+- https://github.com/jackbibby1/SCPA
+- https://github.com/ChengLiLab/TimeTalk
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DaneVass/BARtab

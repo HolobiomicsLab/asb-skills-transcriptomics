@@ -1,0 +1,17 @@
+name: PhEMD
+slug: phemd
+version_used: null
+edam_topics: []
+evidence_spans:
+- PhEMD (Chen et al, 2020) is based on earth moving distance (EMD) to measure the distance between specimens (single-cell samples)
+derived_from:
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+source_repos:
+- https://github.com/CostaLab/PILOT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CostaLab/PILOT

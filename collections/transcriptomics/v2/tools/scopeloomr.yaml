@@ -1,0 +1,20 @@
+name: SCopeLoomR
+slug: scopeloomr
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2023.10.032
+  title: 'SCALA: A complete solution for multimodal analysis of single-cell Next Generation Sequencing data'
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+source_repos:
+- https://github.com/aertslab/SCopeLoomR
+- https://github.com/PavlopoulosLab/SCALA
+- https://github.com/compbioNJU/scPlant
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aertslab/SCopeLoomR

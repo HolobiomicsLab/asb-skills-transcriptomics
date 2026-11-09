@@ -1,0 +1,24 @@
+name: AutoImpute
+slug: autoimpute
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed an autoencoder-based sparse gene expression matrix imputation method. AutoImpute, which learns the inherent distribution of the input scRNA-seq data
+- '`AutoImpute\ Model/AutoImpute.py` - is the AutoImpute imputation model.'
+- we developed an autoencoder-based sparse gene expression matrix imputation method. AutoImpute
+- we leverage the autoencoder based imputation approach from the prior studies (in collaborative filtering) to address the problem at hand
+- AutoImpute21, DCA22, DeepImpute23, SAUCIE24, scScope25, scVI26
+derived_from:
+- doi: 10.1038/s41598-018-34688-x
+  title: 'AutoImpute: Autoencoder based imputation of single-cell RNA-seq data'
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+source_repos:
+- https://github.com/divyanshu-talwar/AutoImpute
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/divyanshu-talwar/AutoImpute

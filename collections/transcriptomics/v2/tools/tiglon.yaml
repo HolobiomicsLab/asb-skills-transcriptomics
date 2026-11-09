@@ -1,0 +1,21 @@
+name: Tiglon
+slug: tiglon
+version_used: null
+edam_topics: []
+evidence_spans:
+- Tiglon -B bamFile_list -s first -o Tiglon_outdir
+- we present a new genome-guided transcriptome assembly algorithm, namely Tiglon, which integrates multiple alignments of different mapping tools
+- $ Tiglon -B bamFile_list -s first -o Tiglon_outdir
+- tiglon_abundance, tiglon_cover, tiglon_graph, tiglon_merge, tiglon_path_search.
+derived_from:
+- doi: 10.1016/j.isci.2022.104067
+  title: Tiglon enables accurate transcriptome assembly via integrating mappings of different aligners
+source_repos:
+- https://github.com/yutingsdu/Tiglon
+- https://github.com/yutingsdu/Tiglon-v.1.1
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yutingsdu/Tiglon

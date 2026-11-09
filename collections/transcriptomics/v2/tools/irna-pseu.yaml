@@ -1,0 +1,17 @@
+name: iRNA-PseU
+slug: irna-pseu
+version_used: null
+edam_topics: []
+evidence_spans:
+- It has shown considerable improvement in Ψ site prediction over existing tools, XG-PseU, PseUI, and iRNA-PseU
+derived_from:
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+source_repos:
+- https://github.com/smk5g5/MU-PseUDeep
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/smk5g5/MU-PseUDeep

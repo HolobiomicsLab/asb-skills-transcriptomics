@@ -1,0 +1,17 @@
+name: transcript_bed_generator.py
+slug: transcript-bed-generator-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have provided a script, `transcript_bed_generator.py`, which allows users to generate such BED files from a supplied GTF file
+derived_from:
+- doi: 10.1016/j.ajhg.2021.12.014
+  title: 'MRSD: A quantitative approach for assessing suitability of RNA-seq in the investigation of mis-splicing in Mendelian disease'
+source_repos:
+- https://github.com/mcgm-mrsd/mrsd-explorer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgm-mrsd/mrsd-explorer

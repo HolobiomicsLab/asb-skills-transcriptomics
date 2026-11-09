@@ -1,0 +1,18 @@
+name: Startle
+slug: startle
+version_used: null
+edam_topics: []
+evidence_spans:
+- A recent method, Startle21, aims to infer cell division trees from lineage barcode data
+- A recent method, Startle21, aims to infer cell division trees from lineage barcode data by enforcing the
+derived_from:
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+source_repos:
+- https://github.com/ZhangLabGT/LinRace
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhangLabGT/LinRace

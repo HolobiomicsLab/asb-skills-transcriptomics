@@ -1,0 +1,16 @@
+name: ORIGINS2
+slug: origins2
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.mex.2023.102179
+  title: 'Cell annotation using scRNA-seq data: A protein-protein interaction network approach'
+source_repos:
+- https://github.com/danielasenraoka/ORIGINS2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/danielasenraoka/ORIGINS2

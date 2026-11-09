@@ -1,0 +1,33 @@
+name: seqkit
+slug: seqkit
+version_used: 0.12.0
+edam_topics: []
+evidence_spans:
+- seqkit (v0.12.0)
+- Flexiplex can perform an error-tolerant grep-like search for a single sequence.
+- Running windows of 51 base pair fragments were generated using SeqKit
+- PAC can handle FASTA, MultiLine FASTA  and FASTQ files gziped or not.
+- Seqkit (Shen, et al., 2016. PloS One)
+derived_from:
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+- doi: 10.1093/bioinformatics/btae102
+  title: 'Flexiplex: a versatile demultiplexer and search tool for omics data'
+- doi: 10.1016/j.csbj.2020.07.010
+  title: 'MU-PseUDeep: A deep learning method for prediction of pseudouridine sites'
+- doi: 10.1093/bioinformatics/btad225
+  title: Scalable sequence database search using partitioned aggregated Bloom comb trees
+- doi: 10.1093/bioinformatics/btad676
+  title: 'PhasiHunter: a robust phased siRNA regulatory cascade mining tool based on multiple reference sequences'
+source_repos:
+- https://github.com/Rashedul/CRIS
+- https://github.com/DavidsonGroup/flexiplex
+- https://github.com/smk5g5/MU-PseUDeep
+- https://github.com/Malfoy/PAC
+- https://github.com/HuangLab-CBI/PhasiHunter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rashedul/CRIS

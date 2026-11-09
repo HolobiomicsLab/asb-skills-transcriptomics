@@ -1,0 +1,25 @@
+name: Cancer-Finder
+slug: cancer-finder
+version_used: null
+edam_topics: []
+evidence_spans:
+- Cancer-Finder is built on Python and the Pytorch deep-learning framework
+- Cancer-Finder, CaSee14, CopyKAT13, SCEVAN35 and ikarus17 were evaluated on the 10 external validation datasets via the default parameters for fairness.
+- We tested the inference speed of Cancer-Finder on datasets of varying sizes, including 100, 1000, 10,000, 100,000 and 1,000,000 cells
+- Over 500,000 cells can be quickly predicted by Cancer-Finder in one hour.
+- we present Cancer-Finder, a domain generalization-based deep-learning algorithm that can rapidly identify malignant cells in single-cell data
+- we present Cancer-Finder, a domain generalization-based deep-learning algorithm that can rapidly identify malignant cells in single-cell data with an average accuracy of 95.16%
+derived_from:
+- doi: 10.1038/s42003-025-07942-y
+  title: scMalignantFinder distinguishes malignant cells in single-cell and spatial transcriptomics by leveraging cancer signatures
+- doi: 10.1038/s41467-024-46413-6
+  title: Domain generalization enables general cancer cell annotation in single-cell and spatial transcriptomics
+source_repos:
+- https://github.com/Patchouli-M/SequencingCancerFinder
+- https://github.com/Jonyyqn/scMalignantFinder
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Patchouli-M/SequencingCancerFinder

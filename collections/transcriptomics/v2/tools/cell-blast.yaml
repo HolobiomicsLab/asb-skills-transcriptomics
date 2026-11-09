@@ -1,0 +1,37 @@
+name: Cell BLAST
+slug: cell-blast
+version_used: null
+edam_topics: []
+evidence_spans:
+- a deep generative model (currently named **DIRECTi**)
+- import Cell_BLAST as cb
+- pip install Cell-BLAST
+- '**Cell_BLAST** is a single cell transcriptome querying tool'
+- we present Cell BLAST, an accurate and robust cell-querying method built on a neural network-based generative model
+- A user-friendly Web server is publicly accessible at https://cblast.gao-lab.org, with all curated datasets and pretrained models available
+- many automatic annotation tools have recently been developed, including SingleR [7], CHETAH [8], CellAssign [9], scMatch [10], scCATCH [11], scPred [12], SciBet [13], scVI [14], and Cell BLAST [15]
+- others search for similar cells in a reference database (e.g., scmap8 and Cell-BLAST9)
+- CELLBLAST and chetah, two annotators that actively identify new cell types
+derived_from:
+- doi: 10.1038/s41467-020-17281-7
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1038/s41467-021-23196-8
+  title: Hierarchical progressive learning of cell identities in single-cell data
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+- doi: 10.1038/s41467-023-35923-4
+  title: Transformer for one stop interpretable cell type annotation
+source_repos:
+- https://github.com/gao-lab/Cell_BLAST
+- https://github.com/bsml320/deCS
+- https://github.com/lcmmichielsen/scHPL
+- https://github.com/SELINA-team/SELINA.py
+- https://github.com/JackieHanLab/TOSICA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gao-lab/Cell_BLAST

@@ -1,0 +1,16 @@
+name: dyno
+slug: dyno
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+source_repos:
+- https://github.com/jackbibby1/SCPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jackbibby1/SCPA

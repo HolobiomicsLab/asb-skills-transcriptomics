@@ -1,0 +1,590 @@
+name: Python
+slug: python
+version_used: '3.8'
+edam_topics: []
+evidence_spans:
+- Python package, stable | Recommended for Python users
+- 'in an easy-to-use and freely available computational environment for both R and Python: ACTIONet'
+- import ACTIONet as an
+- The Python based AnnSQL package enables SQL-based queries
+- The Python based AnnSQL package enables SQL-based queries on [AnnData]
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0)
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0) and a few other pacakges installed
+- AutoClass runs with Python 3
+- AutoClass runs with Python 3, and you need to have TensorFlow (>=2.0) and a few other pacakges installed first(as below).
+- The first module is a Python-based system which allows to organize and execute different steps or rules
+- The first module is a Python-based system
+- Python >= 3.7.0
+- "## Requirements\n Python >= 3.7.0"
+- 'import pandas as pd
+
+  import numpy as np'
+- 'from boostdiff.main_boostdiff import BoostDiff
+
+  import pandas as pd
+
+  import numpy as np
+
+  import os'
+- from boostdiff.main_boostdiff import BoostDiff
+- Louvain community detection algorithm using the python-louvain package (https://github.com/taynaud/python-louvain)
+- conda create -n capital python=3.8 graphviz
+- We implemented CAPITAL in Python, which can also be used in the interactive development environment JupyterLab
+- is a Python package tool
+- scLVM is applied using the python script available from the scLVM GitHub page
+- CEFCON was originally tested on Ubuntu 20.04 with Python (3.9~3.10).
+- CEFCON is implemented in Python as a user-friendly package and is available at https://github.com/WPZgithub/CEFCON.
+- CEFCON was originally tested on Ubuntu 20.04 with Python (3.9~3.10)
+- python(>=3.9,<=3.10)
+- Cellar is written in Python using the Dash framework
+- primarily using packages for the R/Python languages
+- python ciclops [-h] [--train_path TRAIN_PATH] [--valid_path VALID_PATH]
+- Since Ciclops was developed on an Ubuntu Linux system with Python 3 (>=3.8)
+- COSLIR is tested on Python v3.6.4 (Windows)
+- '- python (>= 3.7.4)'
+- We implemented the COT workflow in Python... The Python package is open source at GitHub, built using NumPy and Pandas, and is distributed under the MIT license.
+- Source codes for the CPPLS_MLP R, python packages and the related scripts
+- Source codes for the CPPLS_MLP R, python packages
+- contains the CTMM python package. It is also published on PyPI (``pip install ctmm``)
+- '[ctmm](ctmm) contains the CTMM python package. It is also published on PyPI'
+- '[ctmm](ctmm) contains the CTMM python package. It is also published on PyPI (``pip install ctmm``)'
+- We implement and freely release these methods as a user-friendly Python package.
+- '[ctmm](ctmm) contains the CTMM python package.'
+- The cTP-net package is available both in Python and R at https://github.com/zhouzilu/cTPnet.
+- we have decided to share our training python code [***here***](https://github.com/zhouzilu/cTPnet/blob/master/extdata/training_05152020.py)
+- A python-based package, Dandelion , introduced the VDJ-feature space method
+- DC3 is implemented in Python 2.7
+- '* Python 3.7.3'
+- '#### rule for merging cells python'
+- and in GitHub (https://github.com/saezlab/decoupler-py) for Python
+- a Bioconductor and Python package containing computational methods to extract these activities within a unified framework.
+- conda create -n deepcciEnv python=3.7.4 pip
+- python DeepCycle.py --help
+- python (tested on 3.7.9)
+- $ python DeepCycle.py --help
+- 'DELVE is available as an open-source python package: https://github.com/jranek/delve'
+- DELVE is available as an open-source python package
+- Our project is developed using PyTorch 1.7.1 in Python 3.7.
+- Python version 3.x or higher
+- The Python source code of DTFLOW can be freely accessed at https://github.com/statway/DTFLOW.
+- there are currently no available package for screening endogenous reference genes in Python
+- Declared exports parsed from the repository (NAMESPACE / __init__ / entry points).
+- there is no package for screening endogenous genes available in Python
+- Here, we introduce ERgene, a Python library for screening endogenous reference genes.
+- This section provides documentation for the `fava.py` module.
+- if python setup.py ${CARG} --record $LOG_FILE; then
+- python setup.py ${CARG} --inplace
+- python setup.py ${CARG} --record $LOG_FILE
+- 'ensure that `python3.9`, and `python-pip` are installed, then run:'
+- 'ensure that `python3.9`, and `python-pip` are installed, then run: `make install`'
+- '* python >= 3.6'
+- Other Python libraries were used to reduce runtime.
+- Forseti is implemented in Python and you could easily import the `forseti` package
+- _Forseti_ is implemented in Python and you could easily import the `forseti` package
+- is implemented in Python and you could easily import the `forseti` package
+- Forseti_ is implemented in Python and you could easily import the `forseti` package
+- Install Python 3.7 (or later) at https://www.python.org/downloads/
+- The code was written with the Python programming language (https://www.python.org/) and the web tool is made with Streamlit
+- python files which contain the main steps of the process
+- pip install -r requirements.txt
+- '- Python >= 3.9
+
+  - PyTorch
+
+  - Scanpy, AnnData'
+- '- Python >= 3.9
+
+  - PyTorch
+
+  - Scanpy, AnnData
+
+  - NumPy, SciPy, Pandas'
+- '- Python >= 3.9'
+- Python >= 3.9
+- '**GiRAFR** is a python package'
+- python >=3.7, <4
+- is a python package
+- We therefore developed a python tool to identify and characterize intact and mutant gRNAs, called GiRAFR.
+- python3 -m pip install gssnng
+- The gssnng software is available using the python package index (PyPI)
+- '* Python3.8+'
+- "pip install the following packages: (Command: pip install <package name>)\n  - python"
+- '- python'
+- "- python\n  - pandas\n  - numpy\n  - sklearn"
+- python
+- Python package tests
+- ivis is made publicly available through Python and R interfaces on https://github.com/beringresearch/ivis
+- '``ivis`` is a machine learning library for reducing dimensionality of very large datasets using Siamese Neural Networks.'
+- The latest development version is on `github <https://github.com/beringresearch/ivis>`_.
+- our current implementation is in python/scipy
+- '## Usage in Python environment'
+- our current implementation is in python/scipy. This makes the code more accessible to users, but results in longer running times than widely used clustering algorithms
+- python 3 >= 3.9
+- LncDC is implemented in Python and freely available
+- python 3 >= 3.9; pandas == 1.5; numpy == 1.23; scikit-learn == 1.1.3; xgboost == 1.7.1
+- You can test the installation using the following code in Python
+- You can download the [MDIC3.py](https://github.com/LYxiaotai/MDIC3/tree/main) and [MDIC3_LR.py](https://github.com/LYxiaotai/MDIC3/tree/main) and enter the command line in the Python terminal.
+- MDIC3 is publicly available as a Python package.
+- enter the command line in the Python terminal
+- python MDIC3.py -exp=exp.txt -label=metadata.txt -grnchoose='GNIPLR' -process=3 -step=500 -out=target
+- python MDIC3.py -exp=scRNA_expression_file -label=cell_label_file -grnchoose='GNIPLR'
+- The code is implemented in Python and relies on Py Torch81 for
+- The code is implemented in Python
+- Mowgli is implemented as a Python package seamlessly integrated within the scverse ecosystem
+- '**Python-based** ([software requirements](#2)), but **no additional coding in python is required**'
+- '`oggmap` is a python package that can:'
+- oggmap v0.0.2 was developed using Python `3.10`.
+- Here, we propose a Python package called oggmap
+- oggmap v0.0.2 was developed using Python `3.10`
+- The algorithm is implemented in Python (https://github.com/wangshenguiuc/OnClass) and it has been included in PyPy to facilitate its integration with current workflows.
+- 'Please use Python3.6. To install OnClass using pip, run:'
+- The algorithm is implemented in Python (https://github.com/wangshenguiuc/OnClass)
+- 'Python modules/libraries:'
+- pip install peaks2utr
+- To install PyWGCNA, python version 3.9 or greater is required.
+- a robust feature selection algorithm (MATLAB and Python versions)
+- adata = sc.AnnData(data)
+- we developed a Python package for single-cell co-expression network analysis (SCANet)
+- '`SCANet` officially supports Python 3.6+.'
+- we developed a Python package for single-cell co-expression network analysis (SCANet), which is available on PyPI
+- seamlessly integrating into widely accepted frameworks in the Python environment
+- seamlessly integrating into widely accepted frameworks in the python environment
+- To use Scanpro, import the module and run the scanpro function.
+- conda create -n scasl -c conda-forge scikit-learn python=3.9
+- python SDDA.py --dataname Adam --highly_genes 2000 --random_seed "1111, 2222, 3333, 4444, 5555, 6666, 7777, 8888, 9999, 10000"
+- python SDDA.py --dataname Adam --highly_genes 2000
+- '[python 3.6+]'
+- scBONITA requires Python 3.6 or newer.
+- python main.py --data_path="PBMC/" --source_data="CITE-seq.h5ad" --target_data="ASAP-seq.h5ad" --umap_plot
+- scBridge is implemented in Python using the PyTorch41 framework, v.1.12.1.
+- conda create scButterfly python==3.9
+- A functioning python environment (>=3.8) is necessary to run this package.
+- Python --- 3.6.8
+- scDrug provides an easy-to-use pipeline with scRNA-seq data analysis to sub-clustering tumor cells under a Python environment.
+- scDrug provides an easy-to-use pipeline with scRNA-seq data analysis to sub-clustering tumor cells under a Python environment
+- python 3
+- '- python 3'
+- The code was tested with Python 3.5 and the packages listed in requirements.txt.
+- The code was tested with Python 3.5 and the packages listed in [requirements.txt](requirements.txt).
+- The code was tested with Python 3.5
+- The code was tested with Python 3.5 and the packages listed in [requirements.txt]
+- The code was tested with Python 3.5 and the packages listed in
+- $ python main.py --dataset adam --epochs 300
+- proposed by the python package sklearn9 (function model_selection.train_test_split)
+- '* python version >= 3.7 with the following libraries'
+- an open-source Python package that integrates neural network and barcode preprocessing
+- pip install scNovel==1.1.0
+- we propose the first corresponding auto-detection model named scNovel, an open-source Python package that integrates neural network and barcode preprocessing
+- a Python library designed for large-scale single-cell datasets
+- we have built a python package, called scPathoQuant
+- This instructions are for linux base systems. (Linux, MacOS, BSD, etc.) **You need PYTHON3!**
+- '**You need PYTHON3!**'
+- You need PYTHON3!
+- 'Recommended Python version: 3.10.6'
+- '``conda create -n <env name> python=3.9``'
+- conda create -n <env name> python=3.9
+- '[![python >=3.8](https://img.shields.io/badge/python-%3E%3D3.8-brightgreen)](https://www.python.org/)'
+- python >=3.8
+- the python version need is over 3.8
+- This repository contains the Python implementation of the scTopoGAN method.
+- conda create -n senepy python=3.9
+- We have generated the open-source Python package SenePy (https://github.com/jaleesr/senepy).
+- We have made SiFT available as an open-source python package along with documentation and tutorials
+- import sift
+- pip install singleCellHaystack
+- singleCellHaystack is available as packages in both R and Python.
+- This repository contains a python implementation of [singleCellHaystack](https://github.com/alexisvdb/singleCellHaystack) (version >= 1.0.0).
+- '### Python'
+- For python version of script, please see [an_example_of_generate_embedding_using_SnapCCESS_python_version]
+- is a Python package of deep-learning-based methods for ST data analysis
+- we have developed a user-friendly Python code by integrating the original MATLAB code and third-party GUI software
+- a Python package of deep-learning-based methods for ST data analysis
+- python>=3.8.0
+- offering open-accessible code in both Python and R
+- pip install git+https://github.com/BrainStOrmics/Spaco.git
+- The matlab and python implementations of SSRE are available at https://github.com/CSUBioGroup/SSRE.
+- 'pip2 install -r requirements.txt --user # python 2.7.X must be used'
+- Tempo requires python >= 3.8 and depends on the following python packages
+- Tempo requires python >= 3.8
+- tiny-count and other tinyRNA tools are implemented in Python, C++, Cython, and R, and the workflow is coordinated with CWL.
+- Python >= 3.8
+- + Python >= 3.8
+- Python version 3.8.11 and R version 4.0.5 were used for downstream analysis
+- twas_sim supports dynamically loading custom code (e.g., Python, R, Julia)
+- python sim.py
+- A python software leveraging real genotype data to simulate a complex trait
+- + Python 3.5+
+- $ python 3.4
+- You can use CAFEH as a command line tool or a python package.
+- python cafeh.py --mode genotype -X example/X_example.tsv -Y example/y_example.tsv -c example/cov_example.tsv --out output --save-model
+- python process_cummings_output.py output_list output_prefix
+- python MRSDexplorer.py --tissues all --number_reads 10 --sj_prop 0.8 --mrsd_param 0.9 --output_prefix example
+- Windows environment with all needed python package
+- Now load the CSV data into the computer memory as Pandas Dataframe by typing
+- import scorecard_functions
+- This software requires Python and additional packages installed on your platform before you can use it.
+- It is developed using the Python programming language so it is a cross-platform GUI program
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1016/j.crmeth.2024.100733
+  title: Anchored-fusion enables targeted fusion search in bulk and single-cell RNA sequencing data
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+- doi: 10.1016/j.csbj.2024.01.013
+  title: 'Augusta: From RNA‐Seq to gene regulatory networks and Boolean models'
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+- doi: 10.1093/bioinformatics/btad479
+  title: 'BEENE: deep learning-based nonlinear embedding improves batch effect estimation'
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/s41467-022-33681-3
+  title: Alignment of single-cell trajectory trees with CAPITAL
+- doi: 10.1038/s41598-022-19782-5
+  title: CCIVR facilitates comprehensive identification of cis-natural antisense transcripts with their structural characteristics and expression profiles
+- doi: 10.1038/srep33892
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+- doi: 10.1016/j.isci.2021.103251
+  title: 'CellexalVR: A virtual reality platform to visualize and analyze single-cell omics data'
+- doi: 10.1016/j.stemcr.2022.11.010
+  title: Gene regulatory network reconfiguration in direct lineage reprogramming
+- doi: 10.1016/j.xpro.2022.101583
+  title: Protocol for using Ciclops to build models trained on cross-platform transcriptome data for clinical outcome prediction
+- doi: 10.1038/s41598-024-62850-1
+  title: Unveiling gene regulatory networks during cellular state transitions without linkage across time points
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1093/bib/bbae198
+  title: 'CPPLS-MLP: a method for constructing cell–cell communication networks and identifying related highly variable genes based on single-cell sequencing and spatial transcriptomics data'
+- doi: 10.1038/s41467-024-49242-9
+  title: A robust model for cell type-specific interindividual variation in single-cell RNA sequencing data
+- doi: 10.1038/s41467-020-14391-0
+  title: Surface protein imputation from single cell transcriptomes by deep neural networks
+- doi: 10.1016/j.csbj.2025.06.047
+  title: "<i>dandelionR</i>\n                    : Single-cell immune repertoire trajectory analysis in R"
+- doi: 10.1038/s41467-019-12547-1
+  title: DC3 is a method for deconvolution and coupled clustering from bulk and single-cell genomics data
+- doi: 10.1080/2162402x.2022.2043662
+  title: Deep learning using bulk RNA-seq data expands cell landscape identification in tumor microenvironment
+- doi: 10.1038/s42003-023-04557-z
+  title: Single-cell transcriptome sequencing allows genetic separation, characterization and identification of individuals in multi-person biological mixtures
+- doi: 10.1093/bioadv/vbac016
+  title: 'decoupleR: ensemble of computational methods to infer biological activities from omics data'
+- doi: 10.1093/bioinformatics/btad596
+  title: 'DeepCCI: a deep learning framework for identifying cell–cell interactions from single-cell RNA sequencing data'
+- doi: 10.1038/s41467-022-30545-8
+  title: Cell cycle gene regulation dynamics revealed by RNA velocity and deep-learning
+- doi: 10.1038/s41467-024-46773-z
+  title: 'DELVE: feature selection for preserving biological trajectories in single-cell data'
+- doi: 10.1016/j.gpb.2022.11.004
+  title: 'DGMP: Identifying Cancer Driver Genes by Jointing DGCN and MLP from Multi-Omics Genomic Data'
+- doi: 10.1093/bioinformatics/btad649
+  title: 'dsRID: <i>in silico</i> identification of dsRNA regions using long-read RNA-seq data'
+- doi: 10.1016/j.gpb.2020.08.003
+  title: 'DTFLOW: Inference and Visualization of Single-Cell Pseudotime Trajectory Using Diffusion Propagation'
+- doi: 10.1016/j.patter.2022.100443
+  title: 'EMBEDR: Distinguishing signal from noise in single-cell omics data'
+- doi: 10.1038/s41598-020-75586-5
+  title: 'ERgene: Python library for screening endogenous reference genes'
+- doi: 10.1016/j.crmeth.2023.100512
+  title: Characterization of cell-fate decision landscapes by estimating transcription factor dynamics
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+- doi: 10.1038/s41467-018-07234-6
+  title: Discovery of rare cells from voluminous single cell expression data
+- doi: 10.1093/bioinformatics/btae102
+  title: 'Flexiplex: a versatile demultiplexer and search tool for omics data'
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1093/bioinformatics/btae207
+  title: "<tt>Forseti</tt>\n                    : a mechanistic and predictive model of the splicing status of scRNA-seq reads"
+- doi: 10.1038/s41598-022-17104-3
+  title: 'Gene Updater: a web tool that autocorrects and updates for Excel misidentified gene names'
+- doi: 10.1038/s41540-021-00175-9
+  title: Computational analysis of fused co-expression networks for the identification of candidate cancer gene biomarkers
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1038/s42003-023-05351-7
+  title: GiRAFR improves gRNA detection and annotation in single-cell CRISPR screens
+- doi: 10.1093/bioadv/vbad150
+  title: Single-cell gene set scoring with nearest neighbor graph smoothed data (gssnng)
+- doi: 10.1093/bioinformatics/btad721
+  title: 'Hybkit: a Python API and command-line toolkit for hybrid sequence data from chimeric RNA methods'
+- doi: 10.1016/j.csbj.2020.10.032
+  title: Accurate prediction of RNA 5-hydroxymethylcytosine modification by utilizing novel position-specific gapped k-mer descriptors
+- doi: 10.1038/s41598-019-45301-0
+  title: Structure-preserving visualisation of high dimensional single-cell datasets
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+- doi: 10.1038/s41598-022-22082-7
+  title: 'LncDC: a machine learning-based tool for long non-coding RNA detection from RNA-Seq data'
+- doi: 10.1038/s41467-023-44014-3
+  title: Accurate integration of single-cell DNA and RNA for analyzing intratumor heterogeneity using MaCroDNA
+- doi: 10.1016/j.patter.2023.100911
+  title: 'MDIC3: Matrix decomposition to infer cell-cell communication'
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+- doi: 10.1038/s41467-020-18873-z
+  title: Predicting cell-to-cell communication networks using NATMI
+- doi: 10.1093/bioinformatics/btad657
+  title: 'oggmap: a Python package to extract gene ages per orthogroup and link them with single-cell RNA data'
+- doi: 10.1038/s41467-021-25725-x
+  title: Leveraging the Cell Ontology to classify unseen cell types
+- doi: 10.1038/s41467-023-36862-w
+  title: 'OTTERS: a powerful TWAS framework leveraging summary-level reference data'
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+- doi: 10.1016/j.crmeth.2022.100332
+  title: Multiset multicover methods for discriminative marker selection
+- doi: 10.1093/bioinformatics/btad415
+  title: 'PyWGCNA: a Python package for weighted gene co-expression network analysis'
+- doi: 10.1093/bib/bbaf107
+  title: 'REDInet: a temporal convolutional network-based classifier for A-to-I RNA editing detection harnessing million known events'
+- doi: 10.1016/j.patter.2022.100471
+  title: 'Relevance, redundancy, and complementarity trade-off (RRCT): A principled, generic, robust feature-selection tool'
+- doi: 10.1093/bioinformatics/btad546
+  title: 'scAce: an adaptive embedding and clustering method for single-cell gene expression data'
+- doi: 10.1093/bib/bbaf243
+  title: 'scaLR: a low-resource deep neural network-based platform for single cell analysis and biomarker discovery'
+- doi: 10.1093/bioinformatics/btad644
+  title: Inference of differential key regulatory networks and mechanistic drug repurposing candidates from scRNA-seq data with SCANet
+- doi: 10.1038/s41598-024-66381-7
+  title: Scanpro is a tool for robust proportion analysis of single-cell resolution data
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+- doi: 10.1093/bioinformatics/btad075
+  title: 'scBGEDA: deep single-cell clustering analysis via a dual denoising autoencoder with bipartite graph ensemble clustering'
+- doi: 10.1038/s41540-022-00246-5
+  title: Executable models of immune signaling pathways in HIV-associated atherosclerosis
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+- doi: 10.1038/s41467-024-47418-x
+  title: 'scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders'
+- doi: 10.1038/s41467-021-27150-6
+  title: scCODA is a Bayesian model for compositional single-cell data analysis
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+- doi: 10.1038/s41467-022-28661-6
+  title: Single-cell gene fusion detection by scFusion
+- doi: 10.1038/s41467-019-14018-z
+  title: Realistic in silico generation and augmentation of single-cell RNA-seq data using generative adversarial networks
+- doi: 10.1093/bioinformatics/btad098
+  title: 'scGCL: an imputation method for scRNA-seq data based on graph contrastive learning'
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+- doi: 10.1093/bib/bbae112
+  title: 'scNovel: a scalable deep learning-based network for novel rare cell discovery in single-cell transcriptomics'
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+- doi: 10.1093/bioinformatics/btae145
+  title: 'scPathoQuant: a tool for efficient alignment and quantification of pathogen sequence reads from 10× single cell sequencing datasets'
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+- doi: 10.1093/bioinformatics/btad594
+  title: 'ScribbleDom: using scribble-annotated histology images to identify domains in spatial transcriptomics data'
+- doi: 10.1093/bioinformatics/btad360
+  title: Consensus label propagation with graph convolutional networks for single-cell RNA sequencing cell type annotation
+- doi: 10.1016/j.isci.2021.102855
+  title: A reference-free approach for cell type classification with scRNA-seq
+- doi: 10.1016/j.csbj.2021.08.021
+  title: 'SCSit: A high-efficiency preprocessing tool for single-cell sequencing data from SPLiT-seq'
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1038/s41598-025-12897-5
+  title: Enabling scalable single-cell transcriptomic analysis through distributed computing with Apache spark
+- doi: 10.1093/bioadv/vbad171
+  title: 'scTopoGAN: unsupervised manifold alignment of single-cell data'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+- doi: 10.1038/s41467-025-57047-7
+  title: Unveiling the cell-type-specific landscape of cellular senescence through single-cell transcriptomics using SenePy
+- doi: 10.1038/s41467-024-44757-7
+  title: 'SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data'
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+- doi: 10.1093/bioinformatics/btad382
+  title: Ensemble deep learning of embeddings for clustering multimodal single-cell omics data
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+- doi: 10.1016/j.patter.2023.100915
+  title: 'Spaco: A comprehensive tool for coloring spatial data at single-cell resolution'
+- doi: 10.1016/j.gpb.2020.09.004
+  title: 'SSRE: Cell Type Detection Based on Sparse Subspace Representation and Similarity Enhancement'
+- doi: 10.1038/s41467-018-07170-5
+  title: Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage
+- doi: 10.1016/j.omtn.2021.10.012
+  title: 'Staem5: A novel computational approach for accurate prediction of m5C site'
+- doi: 10.1038/s41467-022-34185-w
+  title: 'Tempo: an unsupervised Bayesian algorithm for circadian phase inference in single-cell transcriptomics'
+- doi: 10.1093/bioadv/vbad065
+  title: 'tiny-count: a counting tool for hierarchical classification and quantification of small RNA-seq reads with single-nucleotide precision'
+- doi: 10.1038/s41467-023-35923-4
+  title: Transformer for one stop interpretable cell type annotation
+- doi: 10.1093/bioinformatics/btad288
+  title: twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis
+- doi: 10.1016/j.gpb.2018.08.003
+  title: 'VASC: Dimension Reduction and Visualization of Single-Cell RNA-Seq Data by Deep Variational Autoencoder'
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+- doi: 10.1016/j.ajhg.2022.01.002
+  title: Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity
+- doi: 10.1016/j.ailsci.2023.100068
+  title: Elucidating dynamic cell lineages and gene networks in time-course single cell differentiation
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+- doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+- doi: 10.1016/j.ajhg.2021.12.014
+  title: 'MRSD: A quantitative approach for assessing suitability of RNA-seq in the investigation of mis-splicing in Mendelian disease'
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+- doi: 10.1007/s12539-021-00471-2
+  title: 'Rhythmic Component Analysis Tool (RCAT): A Precise, Efficient and User-Friendly Tool for Circadian Clock Genes Analysis'
+- doi: 10.1007/s00284-025-04435-3
+  title: 'A Scorecard for Information Synthesis in Multiple Experimental Conditions: Application to Bacterial Biofilm Matrix Transcriptomics'
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet@python-devel
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/ShenLab-Genomics/Anchored-Fusion
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/JanaMus/Augusta
+- https://github.com/WanluLiuLab/CRISPRTE
+- https://github.com/datapplab/AutoClass
+- https://github.com/Carrion-lab/bacLIFE
+- https://github.com/ashiq24/BEENE
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/ykat0/capital
+- https://github.com/CCIVR/ccivr
+- https://github.com/cran/ccRemover
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/euxhenh/cellar
+- https://github.com/sonejilab/2d_vs_3d
+- https://github.com/sonejilab/cellexalvr
+- https://github.com/morris-lab/CellOracle
+- https://github.com/GuanLab/ciclops.git
+- https://github.com/GuanLab/ciclops
+- https://github.com/Ge-lab-pku/COSLIR
+- https://github.com/MintaYLu/COT
+- https://github.com/wuzhenao/CPPLS-MLP
+- https://github.com/Minhui-Chen/CTMM
+- https://github.com/Minhui-Chen/ctmm_python
+- https://github.com/zhouzilu/cTPnet
+- https://github.com/tuonglab/dandelionR
+- https://github.com/SUwonglab/DC3
+- https://github.com/xindd/DCNet
+- https://github.com/genid/de-goulash
+- https://github.com/saezlab/decoupler-py
+- https://github.com/saezlab/decoupleR_manuscript
+- https://github.com/JiangBioLab/DeepCCI
+- https://github.com/andreariba/DeepCycle
+- https://github.com/jranek/delve
+- https://github.com/NWPU-903PR/DGMP
+- https://github.com/gxiaolab/dsRID
+- https://github.com/statway/DTFLOW
+- https://github.com/ejohnson643/EMBEDR
+- https://github.com/Starlitnightly/ERgene
+- https://github.com/sarajimenez/fatecompass
+- https://github.com/mikelkou/fava
+- https://github.com/princethewinner/FiRE
+- https://github.com/DavidsonGroup/flexiplex
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/COMBINE-lab/forseti
+- https://github.com/kuanrongchan/date-to-gene-converter
+- https://github.com/DEIB-GECO/GeneNetFusion
+- https://github.com/nceglia/genevector
+- https://github.com/FunctionalEpigeneticsLab/GiRAFR
+- https://github.com/IlyaLab/gssnng
+- https://github.com/RenneLab/hybkit
+- https://github.com/zahid6454/iRNA5hmC-PS
+- https://github.com/beringresearch/ivis
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+- https://github.com/lim74/LncDC
+- https://github.com/NakhlehLab/MaCroDNA
+- https://github.com/LYxiaotai/MDIC3
+- https://github.com/cantinilab/mowgli
+- https://github.com/forrest-lab/NATMI
+- https://github.com/kullrich/oggmap
+- https://github.com/wangshenguiuc/OnClass
+- https://github.com/daiqile96/OTTERS
+- https://github.com/haessar/peaks2utr
+- https://github.com/euxhenh/phenotype-cover
+- https://github.com/mortazavilab/PyWGCNA
+- https://github.com/BioinfoUNIBA/REDInet
+- https://github.com/ThanasisTsanas/RRCT
+- https://github.com/sldyns/scAce
+- https://github.com/infocusp/scaLR
+- https://github.com/oubounyt/SCANet
+- https://github.com/loosolab/scanpro
+- https://github.com/xryanglab/SCASL
+- https://github.com/wangyh082/scBGEDA
+- https://github.com/Thakar-Lab/scBONITA
+- https://github.com/XLearning-SCU/scBridge
+- https://github.com/BioX-NKU/scButterfly
+- https://github.com/theislab/scCODA
+- https://github.com/ttgump/scDCC
+- https://github.com/ailabstw/scDrug
+- https://github.com/XiDsLab/scFusion
+- https://github.com/imsb-uke/scGAN
+- https://github.com/zehaoxiong123/scGCL
+- https://github.com/PaulingLiu/scibet
+- https://github.com/noush-joglekar/scisorseqr
+- https://github.com/chuanyang-Zheng/scNovel
+- https://github.com/ZhuoliHuang/scPAFA
+- https://github.com/galelab/scPathoQuant
+- https://github.com/cantinilab/scPRINT
+- https://github.com/1alnoman/ScribbleDom
+- https://github.com/mperozek11/scSHARP_tool
+- https://github.com/digi2002/scSimClassify
+- https://github.com/shang-qian/SCSit
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/asif7adil/scSparkl
+- https://github.com/AkashCiel/scTopoGAN
+- https://github.com/SELINA-team/SELINA.py
+- https://github.com/jaleesr/senepy
+- https://github.com/nitzanlab/sift-sc
+- https://github.com/ddiez/singleCellHaystack-py
+- https://github.com/PYangLab/SnapCCESS
+- https://github.com/yulijia/SnapCCESS
+- https://github.com/QuKunLab/SPACEL
+- https://github.com/BrainStOrmics/Spaco_scripts
+- https://github.com/BrainStOrmics/Spaco
+- https://github.com/CSUBioGroup/SSRE
+- https://github.com/lanagarmire/SSrGE
+- https://github.com/Cxd-626/Staem5
+- https://github.com/bauerbach95/tempo
+- https://github.com/MontgomeryLab/tinyRNA
+- https://github.com/JackieHanLab/TOSICA
+- https://github.com/mancusolab/twas_sim
+- https://github.com/wang-research/VASC
+- https://github.com/deargen/DearWXpub
+- https://github.com/LXY1201/GSFM
+- https://github.com/karltayeb/cafeh
+- https://github.com/zhangzmr/CellST
+- https://github.com/audreyqyfu/LATE
+- https://github.com/Coffey-Lab/MIRIAM
+- https://github.com/mcgm-mrsd/mrsd-explorer
+- https://github.com/Xinglab/PAIRADISE
+- https://github.com/lzbbest/Rhythmic-Component-Analysis-Tool
+- https://github.com/m89p067/Scorecard
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet@python-devel

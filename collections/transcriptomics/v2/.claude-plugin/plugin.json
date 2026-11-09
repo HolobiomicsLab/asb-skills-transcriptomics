@@ -1,0 +1,16 @@
+{
+  "author": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab"
+  },
+  "description": "ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval.",
+  "homepage": "https://github.com/HolobiomicsLab/asb-skills-transcriptomics",
+  "keywords": [
+    "transcriptomics",
+    "scientific skills"
+  ],
+  "license": "CC-BY-4.0",
+  "name": "transcriptomics",
+  "repository": "https://github.com/HolobiomicsLab/asb-skills-transcriptomics",
+  "version": "0.1.0"
+}

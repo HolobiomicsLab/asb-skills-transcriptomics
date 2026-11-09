@@ -1,0 +1,18 @@
+name: Strelka2
+slug: strelka2
+version_used: null
+edam_topics: []
+evidence_spans:
+- ScType implements a single-cell single-nucleotide variant (SNV) calling option to distinguish between malignant and non-malignant cells (Fig. 1a)
+- 'Strelka2: fast and accurate calling of germline and somatic variants'
+derived_from:
+- doi: 10.1038/s41467-022-28803-w
+  title: Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data
+source_repos:
+- https://github.com/IanevskiAleksandr/sc-type
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/IanevskiAleksandr/sc-type

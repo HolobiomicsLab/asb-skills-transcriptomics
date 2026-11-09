@@ -1,0 +1,16 @@
+name: HOCOMOCO v11
+slug: hocomoco-v11
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41467-025-61337-5
+  title: Unveiling causal regulatory mechanisms through cell-state parallax
+source_repos:
+- https://github.com/alexw16/gridnet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/alexw16/gridnet

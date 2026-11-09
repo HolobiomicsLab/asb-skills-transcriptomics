@@ -1,0 +1,49 @@
+name: scImpute
+slug: scimpute
+version_used: null
+edam_topics: []
+evidence_spans:
+- SAVER and scImpute may be extremely slow on scRNA-seq datasets with over 100,000 cells
+- scImpute and SAVER both take over 10 h for 10,000 cells and were not attempted on larger matrices.
+- scImpute11 uses a mixture of Gaussian and Gamma model
+- most notable among these are MAGIC, scImpute, and drImpute
+- AutoImpute, scImpute, and MAGIC successfully recover the majority of true zeros in the data
+- current approaches for scRNA-seq specific imputation include scImpute22, which defines likely dropout values using a mixture model
+- '`scImpute` is developed to accurately and efficiently impute the dropout values in scRNA-seq data.'
+- scImpute uses a Gaussian distribution to model the actual expression
+- Methods in this category include scImpute16, SAVER17, and BISCUIT18.
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41598-018-34688-x
+  title: 'AutoImpute: Autoencoder based imputation of single-cell RNA-seq data'
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1038/s41467-018-03405-7
+  title: An accurate and robust imputation method scImpute for single-cell RNA-seq data
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+source_repos:
+- https://github.com/KlugerLab/ALRA
+- https://github.com/Vivianstats/scImpute
+- https://github.com/datapplab/AutoClass
+- https://github.com/divyanshu-talwar/AutoImpute
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/theislab/dca
+- https://github.com/RabadanLab/randomly
+- https://github.com/duct317/scISR
+- https://github.com/audreyqyfu/LATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

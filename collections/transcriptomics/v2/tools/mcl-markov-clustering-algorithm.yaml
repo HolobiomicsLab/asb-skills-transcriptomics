@@ -1,0 +1,18 @@
+name: MCL (Markov clustering algorithm)
+slug: mcl-markov-clustering-algorithm
+version_used: null
+edam_topics: []
+evidence_spans:
+- Gene clustering is performed using a combination of linclust39 and the Markov clustering algorithm38
+- Gene clustering is performed using a combination of linclust
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

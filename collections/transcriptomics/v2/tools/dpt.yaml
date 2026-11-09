@@ -1,0 +1,17 @@
+name: DPT
+slug: dpt
+version_used: null
+edam_topics: []
+evidence_spans:
+- Popular trajectory tools also include Seurat, DPT, Wishbone, and numerous others [21], [22], [23], [24], [25].
+derived_from:
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+source_repos:
+- https://github.com/tinglab/redPATH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/tinglab/redPATH

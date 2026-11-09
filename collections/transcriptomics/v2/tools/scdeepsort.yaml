@@ -1,0 +1,16 @@
+name: scDeepSort
+slug: scdeepsort
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.eng.2023.12.004
+  title: A Single-Cell Landscape of Human Liver Transplantation Reveals a Pathogenic Immune Niche Associated with Early Allograft Dysfunction
+source_repos:
+- https://github.com/multitalk/scCrossTalk
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/multitalk/scCrossTalk

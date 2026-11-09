@@ -1,0 +1,18 @@
+name: BEELINE
+slug: beeline
+version_used: null
+edam_topics: []
+evidence_spans:
+- -- Beeline
+derived_from:
+- doi: 10.1038/s41467-024-48516-6
+  title: 'GRouNdGAN: GRN-guided simulation of single-cell RNA-seq data using causal generative adversarial networks'
+source_repos:
+- https://github.com/Murali-group/Beeline
+- https://github.com/Emad-COMBINE-lab/GRouNdGAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Murali-group/Beeline

@@ -1,0 +1,24 @@
+name: rMATS
+slug: rmats
+version_used: 3.2.5
+edam_topics: []
+evidence_spans:
+- most event-based methods such as SplAdder (Kahles et al. 2016) and rMATS (Shen et al. 2014) first summarize reads by counting
+- rMATS (for bulk data) employs a linear mixed-effects model
+derived_from:
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+- doi: 10.1038/s41467-024-46480-9
+  title: Interrogations of single-cell RNA splicing landscapes with SCASL define new cell identities with physiological relevance
+- doi: 10.1016/j.ajhg.2020.07.005
+  title: Detecting Allele-Specific Alternative Splicing from Population-Scale RNA-Seq Data
+source_repos:
+- https://github.com/canzarlab/fortuna
+- https://github.com/xryanglab/SCASL
+- https://github.com/Xinglab/PAIRADISE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/canzarlab/fortuna

@@ -1,0 +1,17 @@
+name: SECEDO
+slug: secedo
+version_used: null
+edam_topics: []
+evidence_spans:
+- HiScanner revealed phases and timing of tumor progression by detecting subclone-defining CNAs, which were subsequently corroborated by an orthogonal clustering based on somatic point mutations
+derived_from:
+- doi: 10.1038/s41467-025-60446-5
+  title: High-resolution detection of copy number alterations in single cells with HiScanner
+source_repos:
+- https://github.com/parklab/HiScanner
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/parklab/HiScanner

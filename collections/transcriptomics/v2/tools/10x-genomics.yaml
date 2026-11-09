@@ -1,0 +1,22 @@
+name: 10x Genomics
+slug: 10x-genomics
+version_used: null
+edam_topics: []
+evidence_spans:
+- Utilities for handling droplet-based single-cell RNA-seq data
+- exclude individual molecules that have swapped between samples in 10x Genomics experiments
+- an algorithm to exclude individual molecules that have swapped between samples in 10x Genomics experiments
+derived_from:
+- doi: 10.1038/s41467-018-05083-x
+  title: Detection and removal of barcode swapping in single-cell RNA-seq data
+- doi: 10.1038/s41598-025-12897-5
+  title: Enabling scalable single-cell transcriptomic analysis through distributed computing with Apache spark
+source_repos:
+- https://github.com/MarioniLab/DropletUtils
+- https://github.com/asif7adil/scSparkl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MarioniLab/DropletUtils

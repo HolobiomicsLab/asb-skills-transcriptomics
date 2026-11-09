@@ -1,0 +1,17 @@
+name: mgatk
+slug: mgatk
+version_used: 0.6.2
+edam_topics: []
+evidence_spans:
+- We ran mgatk (v0.6.2) with default settings on both datasets.
+derived_from:
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+source_repos:
+- https://github.com/single-cell-genetics/MQuad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/MQuad

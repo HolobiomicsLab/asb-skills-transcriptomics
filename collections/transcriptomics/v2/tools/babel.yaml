@@ -1,0 +1,17 @@
+name: BABEL
+slug: babel
+version_used: null
+edam_topics: []
+evidence_spans:
+- BABEL uses two autoencoders to embed ATAC and RNA profiles respectively, and infers RNA and ATAC profiles by simultaneously minimizing two reconstruction losses
+derived_from:
+- doi: 10.1038/s41467-024-47418-x
+  title: 'scButterfly: a versatile single-cell cross-modality translation method via dual-aligned variational autoencoders'
+source_repos:
+- https://github.com/BioX-NKU/scButterfly
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioX-NKU/scButterfly

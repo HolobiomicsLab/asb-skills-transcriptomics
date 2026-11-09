@@ -1,0 +1,21 @@
+name: kimma
+slug: kimma
+version_used: null
+edam_topics: []
+evidence_spans:
+- kmFit(dat, kin, patientID, libraryID, counts, meta, genes, weights, subset_var, subset_lvl
+- kimma (Kinship In Mixed Model Analysis), an open-source R package for flexible linear mixed effects modeling of RNA-seq
+- kimma_lmerel(model_lme, to_model_gene, gene, kin_subset, use_weights, patientID, metrics)
+- kimma_cleaning(dat, kin, patientID, libraryID, counts, meta, genes, weights, subset_var, subset_lvl
+- we introduce kimma (Kinship In Mixed Model Analysis), an open-source R package for flexible linear mixed effects modeling
+derived_from:
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+source_repos:
+- https://github.com/BIGslu/kimma
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BIGslu/kimma

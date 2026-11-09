@@ -1,0 +1,21 @@
+name: scQA
+slug: scqa
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The scQA framework comprises three primary modules: qualitative landmark constructor (LC1), quantitative landmark constructor (LC2), and cluster constructor (CC).'
+- Qualitative landmark constructor (LC1) initially binarizes the matrix and persists to cluster genes with qualitative quasi-trend-preserved expression patterns to form landmarks.
+- Here, we introduce a novel method named scQA, notable for its ability to concurrently identify cell types and cell type-specific key genes
+- CC module clusters cells by combination of the two cell-landmark matrices derived from LC1 and LC2 modules
+- Here, we introduce a novel method named scQA, notable for its ability to concurrently identify cell types and cell type-specific key genes from both qualitative and quantitative perspectives.
+derived_from:
+- doi: 10.1016/j.csbj.2023.12.021
+  title: 'scQA: A dual-perspective cell type identification model for single cell transcriptome data'
+source_repos:
+- https://github.com/LD-Lyndee/scQA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LD-Lyndee/scQA

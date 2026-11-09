@@ -1,0 +1,40 @@
+name: FastQC
+slug: fastqc
+version_used: 0.11.9
+edam_topics: []
+evidence_spans:
+- we recommend assessing read quality with a tool such as [FastQC]
+- QC of fastq files is performed using [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
+- BARtab leverages widely used bioinformatics tools including fastp, FLASh, cutadapt, samtools, bowtie, starcode, umi-tools, and FastQC
+- '[FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) reports land in `results/<sample>/{dnaseq,rnaseq}/qualitycontrol/` per read group'
+- All fastq files were reviewed for sequence quality using FastQC24
+- All fastq files were reviewed for sequence quality using FastQC
+derived_from:
+- doi: 10.1038/s41467-021-21894-x
+  title: Aptardi predicts polyadenylation sites in sample-specific transcriptomes using high-throughput RNA sequencing and DNA sequence
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1093/bib/bbaf709
+  title: "<i>Ab initio</i>\n                    detection of multiple epitranscriptomic modifications from Oxford nanopore technology direct RNA sequencing data"
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+- doi: 10.1093/bioinformatics/btad659
+  title: 'ScanNeo2: a comprehensive workflow for neoantigen detection and immunogenicity prediction from diverse genomic and transcriptomic alterations'
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/luskry/aptardi
+- https://github.com/DaneVass/BARtab
+- https://github.com/F0nz0/NanoSpeech_basecaller
+- https://github.com/equipeGST/RiboDoc
+- https://github.com/ylab-hi/ScanNeo2
+- https://github.com/jackbibby1/SCPA
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/luskry/aptardi

@@ -1,0 +1,32 @@
+name: msigdbr
+slug: msigdbr
+version_used: 7.4.1
+edam_topics: []
+evidence_spans:
+- MSigDBr attained from R package `msigdbr` with function get_msigdbr() in DeepCC
+- 'library(msigdbr) # for gathering gene sets'
+- gene set enrichment analysis (GSEA) is performed by the package fgsea (v1.19.4) and msigdbr (v7.4.1) in R
+- tutorials/spatial
+derived_from:
+- doi: 10.1038/s41389-019-0157-8
+  title: 'DeepCC: a novel deep learning-based framework for cancer molecular subtype classification'
+- doi: 10.1038/s41467-023-44206-x
+  title: Pathway centric analysis for single-cell RNA-seq and spatial transcriptomics data with GSDensity
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+source_repos:
+- https://github.com/CityUHK-CompBio/DeepCC
+- https://github.com/qingnanl/gsdensity
+- https://github.com/xianglin226/scMDC
+- https://github.com/jackbibby1/SCPA
+- https://github.com/ddiez/singleCellHaystack-py
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CityUHK-CompBio/DeepCC

@@ -1,0 +1,25 @@
+name: CaSpER
+slug: casper
+version_used: null
+edam_topics: []
+evidence_spans:
+- CaSpER is a signal processing approach for identification, visualization, and integrative analysis of focal and large-scale CNV events
+- Here, we present CaSpER, a signal processing approach for identification, visualization, and integrative analysis of focal and large-scale CNV events
+- CaSpER is publicly available from https://github.com/akdess/CaSpER
+- library(CaSpER)
+- The main functions you will need to use to identify CNV events are CreateCasperObject() and runCaSpER(casper_object).
+- On the other hand, HoneyBADGER10 and CaSpER11 were proposed to account for the allelic shift signal for detecting a full spectrum of CNAs.
+derived_from:
+- doi: 10.1038/s41467-019-13779-x
+  title: CaSpER identifies and visualizes CNV events by integrative analysis of single-cell or bulk RNA-sequencing data
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+source_repos:
+- https://github.com/akdess/CaSpER
+- https://github.com/single-cell-genetics/XClone
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/akdess/CaSpER

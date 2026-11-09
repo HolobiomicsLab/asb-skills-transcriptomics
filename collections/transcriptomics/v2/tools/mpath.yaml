@@ -1,0 +1,23 @@
+name: Mpath
+slug: mpath
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we present Mpath, an algorithm that derives multi-branching developmental trajectories using neighborhood-based cell state transitions.
+- Mpath reference manual provides detailed documentation of Mpath R package.
+- an algorithm that derives multi-branching developmental trajectories using neighborhood-based cell state transitions
+- _No usage/docs found._
+derived_from:
+- doi: 10.1038/ncomms11988
+  title: Mpath maps multi-branching single-cell trajectories revealing progenitor cell progression during development
+- doi: 10.1016/j.csbj.2021.07.016
+  title: Identify differential genes and cell subclusters from time-series scRNA-seq data using scTITANS
+source_repos:
+- https://github.com/JinmiaoChenLab/Mpath
+- https://github.com/ZJUFanLab/scTITANS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JinmiaoChenLab/Mpath

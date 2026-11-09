@@ -1,0 +1,20 @@
+name: BERMUDA
+slug: bermuda
+version_used: null
+edam_topics: []
+evidence_spans:
+- balances biological and technical differences between clusters, and reduces the influence of batch effect
+derived_from:
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+source_repos:
+- https://github.com/mandricigor/batman
+- https://github.com/eleozzr/desc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mandricigor/batman

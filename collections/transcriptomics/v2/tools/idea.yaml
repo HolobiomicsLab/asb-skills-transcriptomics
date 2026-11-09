@@ -1,0 +1,23 @@
+name: iDEA
+slug: idea
+version_used: null
+edam_topics: []
+evidence_spans:
+- We have provided both human gene sets and mouse gene sets in our package.
+- devtools::install_github('xzhoulab/iDEA')
+- The function iDEA.fit fits the iDEA model on the input data.
+- we develop an integrative and scalable computational method, iDEA, to perform joint DE and GSE analysis through a hierarchical Bayesian framework
+derived_from:
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+source_repos:
+- https://github.com/xzhoulab/iDEA
+- https://github.com/jackbibby1/SCPA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xzhoulab/iDEA

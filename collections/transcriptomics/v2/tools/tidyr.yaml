@@ -1,0 +1,33 @@
+name: tidyr
+slug: tidyr
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(tidyr)
+- Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- Packages listed under Dependencies are NOT attached by loading this package (only Depends is); call library(<dep>) explicitly before using their functions.
+- 'Following libraries are needed to run the shiny app: igraph,tidyr,dplyr,ggplot2,plotly,ggtext,data.table,readr.'
+- tidyr (Imports)
+derived_from:
+- doi: 10.1038/s41467-024-44823-0
+  title: Trajectory inference across multiple conditions with condiments
+- doi: 10.1016/j.patter.2022.100536
+  title: Supervised dimensionality reduction for exploration of single-cell data by HSS-LDA
+- doi: 10.1093/bioinformatics/btad140
+  title: 'IntestLine: a shiny-based application to map the rolled intestinal tissue onto a line'
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1016/j.ailsci.2021.100025
+  title: 'OmicInt package: Exploring omics data and regulatory networks using integrative analyses and machine learning'
+source_repos:
+- https://github.com/HectorRDB/condiments
+- https://github.com/mamouzgar/hsslda
+- https://github.com/JiangyanYu/IntestLine
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/AusteKan/OmicInt
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HectorRDB/condiments

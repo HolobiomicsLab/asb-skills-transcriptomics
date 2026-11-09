@@ -1,0 +1,23 @@
+name: Cardelino
+slug: cardelino
+version_used: null
+edam_topics: []
+evidence_spans:
+- predicted nuclear clones from Cardelino
+- Cardelino [13] takes scRNA-seq as input and indirectly utilizes bulk DNA-seq data through a guide clonal tree produced from a first-step run of Canopy [21]
+- 'The distinguishing features of Canopy2 when compared to available methods, including predecessor Canopy, are:'
+derived_from:
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+- doi: 10.1007/s12561-024-09466-1
+  title: 'Canopy2: Tumor Phylogeny Inference by Bulk DNA and Single-Cell RNA Sequencing'
+source_repos:
+- https://github.com/PMBio/cardelino
+- https://github.com/single-cell-genetics/MQuad
+- https://github.com/annweideman/canopy2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PMBio/cardelino

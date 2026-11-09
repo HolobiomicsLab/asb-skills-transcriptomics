@@ -1,0 +1,21 @@
+name: GMM-Demux
+slug: gmm-demux
+version_used: null
+edam_topics: []
+evidence_spans:
+- The improved performance of demuxmix compared with existing demultiplexing methods is assessed using real and simulated data.
+- HTOdemux (Seurat), Multi-seq, GMM_Demux, BFF, and DropletUtils have been shown to work well with benchmark datasets
+derived_from:
+- doi: 10.1093/bioinformatics/btad481
+  title: 'demuxmix: demultiplexing oligonucleotide-barcoded single-cell RNA sequencing data with regression mixture models'
+- doi: 10.1093/bib/bbae254
+  title: A hybrid demultiplexing strategy that improves performance and robustness of cell hashing
+source_repos:
+- https://github.com/huklein/demuxmix
+- https://github.com/WilsonImmunologyLab/HTOreader
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/huklein/demuxmix

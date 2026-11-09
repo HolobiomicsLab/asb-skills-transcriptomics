@@ -1,0 +1,22 @@
+name: miRBase
+slug: mirbase
+version_used: '22.1'
+edam_topics: []
+evidence_spans:
+- 'COMPSRA currently uses several different (and expandable) small RNA reference databases for annotating human genome mapped reads: miRBase20 for miRNA'
+- miRBase20 for miRNA
+- miRNA precursors annotated in miRBase (v22.1), PmiREN (v1.0), sRNAanno (v1.0), and PsRNA (v1.0) databases
+derived_from:
+- doi: 10.1038/s41598-020-61495-0
+  title: 'COMPSRA: a COMprehensive Platform for Small RNA-Seq data Analysis'
+- doi: 10.1016/j.gpb.2021.02.010
+  title: Interactive Web-Based Annotation of Plant MicroRNAs with iwa-miRNA
+source_repos:
+- https://github.com/cougarlj/COMPSRA
+- https://github.com/cma2015/iwa-miRNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cougarlj/COMPSRA

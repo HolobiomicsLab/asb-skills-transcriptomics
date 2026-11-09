@@ -1,0 +1,19 @@
+name: twas_sim
+slug: twas-sim
+version_used: null
+edam_topics: []
+evidence_spans:
+- To download `twas_sim`, first type the commands
+- twas_sim computes TWAS test statistics using LD, GWAS Z-scores, and estimated eQTL effect sizes.
+- twas_sim computes TWAS test statistics using LD, GWAS Z-scores, and estimated eQTL effect sizes
+derived_from:
+- doi: 10.1093/bioinformatics/btad288
+  title: twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis
+source_repos:
+- https://github.com/mancusolab/twas_sim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mancusolab/twas_sim

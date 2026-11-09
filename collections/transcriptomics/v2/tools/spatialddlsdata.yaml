@@ -1,0 +1,19 @@
+name: SpatialDDLSdata
+slug: spatialddlsdata
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("diegommcc/SpatialDDLSdata")
+- library("SpatialDDLSdata")
+derived_from:
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+source_repos:
+- https://github.com/diegommcc/SpatialDDLSdata
+- https://github.com/diegommcc/SpatialDDLS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/diegommcc/SpatialDDLSdata

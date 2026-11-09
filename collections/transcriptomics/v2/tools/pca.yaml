@@ -1,0 +1,30 @@
+name: PCA
+slug: pca
+version_used: null
+edam_topics: []
+evidence_spans:
+- against DCA, PCA, and tSNE
+- Cyclone24 uses PCA and relative expression of gene pairs to predict cell-cycle phases
+- Conventional dimensionality reduction techniques such as principal component analysis (PCA) and t-Distributed Stochastic Neighbor Embedding (t-SNE)1 were implemented on scRNA-seq data
+- evf_type="discrete", n_pc=20, label='pop', saving = F, plotname="discrete populations (true counts)"
+- 'We apply three different dimensionality reduction methods to cluster cells simulated from multiple discrete populations: PCA, scVI, and SIMLR.'
+derived_from:
+- doi: 10.1038/s41467-020-17281-7
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+source_repos:
+- https://github.com/gao-lab/Cell_BLAST
+- https://github.com/KChen-lab/cyclum
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/YosefLab/SymSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gao-lab/Cell_BLAST

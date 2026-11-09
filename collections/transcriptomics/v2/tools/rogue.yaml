@@ -1,0 +1,25 @@
+name: ROGUE
+slug: rogue
+version_used: null
+edam_topics: []
+evidence_spans:
+- introduced a conceptually novel statistic, named ROGUE, to examine whether a given cluster is a pure cell population
+- CalculateRogue
+- ROGUELiu et al., 2020https://github.com/PaulingLiu/ROGUE
+derived_from:
+- doi: 10.1038/s41467-020-16904-3
+  title: An entropy-based metric for assessing the purity of single cell populations
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1016/j.crmeth.2021.100056
+  title: Improved integration of single-cell transcriptome and surface protein expression by LinQ-View
+source_repos:
+- https://github.com/PaulingLiu/ROGUE
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/WilsonImmunologyLab/LinQView
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PaulingLiu/ROGUE

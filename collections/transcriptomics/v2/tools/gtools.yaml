@@ -1,0 +1,17 @@
+name: gtools
+slug: gtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- calculated using the foldchange() and foldchange2logratio() functions of the R package gtools
+derived_from:
+- doi: 10.1038/s41467-024-46302-y
+  title: 'bacLIFE: a user-friendly computational workflow for genome analysis and prediction of lifestyle-associated genes in bacteria'
+source_repos:
+- https://github.com/Carrion-lab/bacLIFE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Carrion-lab/bacLIFE

@@ -1,0 +1,16 @@
+name: MIRIAM
+slug: miriam
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1002/cyto.a.24541
+  title: 'MIRIAM: A machine and deep learning single‐cell segmentation and quantification pipeline for multi‐dimensional tissue images'
+source_repos:
+- https://github.com/Coffey-Lab/MIRIAM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Coffey-Lab/MIRIAM

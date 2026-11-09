@@ -1,0 +1,17 @@
+name: PyTorch Lightning
+slug: pytorch-lightning
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.xgen.2024.100581
+  title: 'SIMS: A deep-learning label transfer tool for single-cell RNA sequencing analysis'
+source_repos:
+- https://github.com/braingeneers/SIMS
+- https://github.com/jlehrer1/sims
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/braingeneers/SIMS

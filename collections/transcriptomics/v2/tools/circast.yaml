@@ -1,0 +1,19 @@
+name: CircAST
+slug: circast
+version_used: null
+edam_topics: []
+evidence_spans:
+- we developed CircAST, a tool to assemble alternatively spliced circRNA transcripts and estimate their expression by using multiple splice graphs
+- python CircAST.py -L 100 -T 5 -G /home/***/circRNA/Gene/genes.gtf -F accepted_hits.sorted.sam -J circRNA_list.txt
+- python CircAST.py -L length -T thresh -G GTF -F accepted_hits.sorted.sam -J junction.txt
+derived_from:
+- doi: 10.1016/j.gpb.2019.03.004
+  title: 'CircAST: Full-Length Assembly and Quantification of Alternatively Spliced Isoforms in Circular RNAs'
+source_repos:
+- https://github.com/xiaofengsong/CircAST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaofengsong/CircAST

@@ -1,0 +1,20 @@
+name: cTP-net
+slug: ctp-net
+version_used: null
+edam_topics: []
+evidence_spans:
+- (2) **cTP-net**, which impute the surface protein abundance based on previously trained model.
+- '**cTP-net**, which impute the surface protein abundance based on previously trained model'
+- (2) **cTP-net**, which impute the surface protein abundance based on previously trained model
+- single cell Transcriptome to Protein prediction with deep neural network (cTP-net), to impute surface protein abundances from scRNA-seq data
+derived_from:
+- doi: 10.1038/s41467-020-14391-0
+  title: Surface protein imputation from single cell transcriptomes by deep neural networks
+source_repos:
+- https://github.com/zhouzilu/cTPnet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhouzilu/cTPnet

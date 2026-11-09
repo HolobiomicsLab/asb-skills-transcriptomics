@@ -1,0 +1,18 @@
+name: cudaMMC
+slug: cudammc
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./build/cudaMMC -s config.ini -c chr14 -o ~/chiapet/chr14/ -n chr14_test
+- cudaMMC -s config.ini -c chr14 -o ~/chiapet/chr14/ -n chr14_test
+derived_from:
+- doi: 10.1093/bioinformatics/btad588
+  title: 'cudaMMC: GPU-enhanced multiscale Monte Carlo chromatin 3D modelling'
+source_repos:
+- https://github.com/SFGLab/cudaMMC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SFGLab/cudaMMC

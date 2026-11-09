@@ -1,0 +1,17 @@
+name: visnormsc
+slug: visnormsc
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`python visnormscGUI.py`'
+derived_from:
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/solo7773/visnormsc

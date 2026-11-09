@@ -1,0 +1,13 @@
+{
+  "outputs": {
+    "corpus.yaml": "create",
+    "corpus_join_receipt.json": "create"
+  },
+  "receipt": "corpus_join_receipt.json",
+  "status": "ok",
+  "summary": {
+    "hold": 0,
+    "included": 450,
+    "total": 450
+  }
+}

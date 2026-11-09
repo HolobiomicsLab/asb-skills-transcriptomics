@@ -1,0 +1,18 @@
+name: TensorFlow GPU
+slug: tensorflow-gpu
+version_used: 1.4.0
+edam_topics: []
+evidence_spans:
+- $ tensorflow gpu 1.4.0
+- We use the Keras as Neural Network running framework, original paper used naive tensorflow framework
+derived_from:
+- doi: 10.1038/s41598-019-47016-8
+  title: 'Wx: a neural network-based feature selection algorithm for transcriptomic data'
+source_repos:
+- https://github.com/deargen/DearWXpub
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/deargen/DearWXpub

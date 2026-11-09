@@ -1,0 +1,23 @@
+name: SoloTE
+slug: solote
+version_used: null
+edam_topics: []
+evidence_spans:
+- python SoloTE_pipeline.py --threads NumberOfThreads --bam BAMfile --teannotation BEDfile --outputprefix Prefix --outputdir OutputDirectory
+- a new matrix having both genes and TEs expression per cell is obtained as output, which is compatible with downstream analysis tools, such as Seurat67
+- SoloTE, a pipeline that outperforms the previous approach in terms of computational resources
+- 'Once everything is set up, you can run the SoloTE script:'
+derived_from:
+- doi: 10.1038/s41467-024-53114-7
+  title: 'MATES: a deep learning-based model for locus-specific quantification of transposable elements in single cell'
+- doi: 10.1038/s42003-022-04020-5
+  title: SoloTE for improved analysis of transposable elements in single-cell RNA-Seq data using locus-specific expression
+source_repos:
+- https://github.com/mcgilldinglab/MATES
+- https://github.com/bvaldebenitom/SoloTE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mcgilldinglab/MATES

@@ -1,0 +1,25 @@
+name: UniTVelo
+slug: unitvelo
+version_used: 0.1.5
+edam_topics: []
+evidence_spans:
+- UniTVelo13 directly designed a function of time to model the spliced RNA level
+- Temporally unified RNA velocity for single cell trajectory inference (UniTVelo) is implementated on Python 3 and TensorFlow 2.
+- import unitvelo as utv
+derived_from:
+- doi: 10.1016/j.crmeth.2023.100581
+  title: Inferring single-cell transcriptomic dynamics with structured latent gene expression dynamics
+- doi: 10.1038/s41467-024-45661-w
+  title: 'TFvelo: gene regulation inspired RNA velocity estimation'
+- doi: 10.1038/s41467-022-34188-7
+  title: 'UniTVelo: temporally unified RNA velocity reinforces single-cell trajectory inference'
+source_repos:
+- https://github.com/Spencerfar/LatentVelo
+- https://github.com/xiaoyeye/TFvelo
+- https://github.com/StatBiomed/UniTVelo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Spencerfar/LatentVelo

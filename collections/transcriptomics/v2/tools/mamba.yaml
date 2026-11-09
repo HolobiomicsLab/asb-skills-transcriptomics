@@ -1,0 +1,21 @@
+name: mamba
+slug: mamba
+version_used: null
+edam_topics: []
+evidence_spans:
+- All dependencies can be installed using `mamba`
+- create and activate an environment including Mamba, Snakemake and Snakedeploy
+derived_from:
+- doi: 10.1038/s41389-023-00476-0
+  title: 'Circlehunter: a tool to identify extrachromosomal circular DNA from ATAC-Seq data'
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+source_repos:
+- https://github.com/suda-huanglab/circlehunter
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/suda-huanglab/circlehunter

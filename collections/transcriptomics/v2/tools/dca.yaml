@@ -1,0 +1,60 @@
+name: DCA
+slug: dca
+version_used: null
+edam_topics: []
+evidence_spans:
+- several imputation methods have been developed, including DCA5, MAGIC6, SAVER7, and scImpute8
+- DCA requires about 4 h to run on the same number of cells
+- deep count autoencoder (DCA)9 assumes negative binomial distribution with or without zero inflation
+- against DCA, PCA, and tSNE
+- We propose a deep count autoencoder network (DCA) to denoise scRNA-seq datasets.
+- DCA is implemented in Python 3 using Keras53 and its TensorFlow54 backend.
+- Welcome to autoencoder's documentation!
+- '.. automodule:: autoencoder.network'
+- we developed a deep learning based autoencoder with specialized loss functions targeted towards scRNA-seq data, the so-called "deep count autoencoder" (DCA)
+- theislab/dca
+- Recently developed competitive methods include DCA7, scVI8, scDeepCluster9, PHATE10, SAUCIE11, scGNN12, ZINB-WaVE13 and Ivis14
+- DCA, on the other hand, extends the standard autoencoder to account for sparse count data
+- deep count autoencoder network (DCA) uses an autoencoder based on negative binomial loss, with or without zero expansion to denoise scRNA-seq count data
+- AutoImpute21, DCA22, DeepImpute23, SAUCIE24, scScope25, scVI26
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41467-020-17281-7
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+source_repos:
+- https://github.com/KlugerLab/ALRA
+- https://github.com/theislab/dca
+- https://github.com/datapplab/AutoClass
+- https://github.com/gao-lab/Cell_BLAST
+- https://github.com/RabadanLab/randomly
+- https://github.com/ttgump/scDCC
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/duct317/scISR
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/audreyqyfu/LATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

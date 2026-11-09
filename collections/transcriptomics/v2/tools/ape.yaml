@@ -1,0 +1,28 @@
+name: ape
+slug: ape
+version_used: null
+edam_topics: []
+evidence_spans:
+- tree_Lintimat <- drop.tip(tree_Lintimat,"normal")
+- Treenj = nj(dist_h)
+- write.tree(tree, file = out_dir)
+- phyla1 <- Phyla5()
+- stored as a tree structure in the ape R package (Paradis and Schliep, 2019)
+- cells were pruned from the lineage using the ape R package (Paradis and Schliep, 2019)
+derived_from:
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1016/j.crmeth.2022.100200
+  title: Interactive, integrated analysis of single-cell transcriptomic and phylogenetic data with PhyloVision
+source_repos:
+- https://github.com/ZhangLabGT/LinRace
+- https://github.com/YosefLab/SymSim
+- https://github.com/YosefLab/VISION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhangLabGT/LinRace

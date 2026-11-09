@@ -1,0 +1,20 @@
+name: zingeR
+slug: zinger
+version_used: null
+edam_topics: []
+evidence_spans:
+- which can be obtained using any existing single-cell RNAseq DE approaches (i.e., [zingeR](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1406-4),
+- Commonly applied DE methods in scRNA-seq include MAST3, SCDE4, and zingeR5, to name a few.
+- prepared by [zingeR-DESeq2](https://github.com/statOmics/zinbwaveZinger) method.
+derived_from:
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+source_repos:
+- https://github.com/statOmics/zinbwaveZinger
+- https://github.com/xzhoulab/iDEA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/statOmics/zinbwaveZinger

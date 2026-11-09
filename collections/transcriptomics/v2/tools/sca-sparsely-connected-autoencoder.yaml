@@ -1,0 +1,19 @@
+name: SCA (Sparsely-Connected Autoencoder)
+slug: sca-sparsely-connected-autoencoder
+version_used: null
+edam_topics: []
+evidence_spans:
+- the functional mining of single cell clusters based on Sparsely-Connected Autoencoder (SCA)
+- we report a tool that we developed for the functional mining of single cell clusters based on Sparsely-Connected Autoencoder (SCA)
+derived_from:
+- doi: 10.1038/s41540-020-00162-6
+  title: Sparsely-connected autoencoder (SCA) for single cell RNAseq data mining
+source_repos:
+- https://github.com/kendomaniac/SCAtutorial
+- https://github.com/kendomaniac/rCASC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kendomaniac/SCAtutorial

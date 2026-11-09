@@ -1,0 +1,16 @@
+name: CommPath
+slug: commpath
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2022.10.028
+  title: 'CommPath: An R package for inference and analysis of pathway-mediated cell-cell communication chain from single-cell transcriptomics'
+source_repos:
+- https://github.com/yingyonghui/CommPath
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yingyonghui/CommPath

@@ -1,0 +1,16 @@
+name: miRSCAPE
+slug: mirscape
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2022.104962
+  title: miRSCAPE - inferring miRNA expression from scRNA-seq data
+source_repos:
+- https://github.com/hannenhalli-lab/miRSCAPE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hannenhalli-lab/miRSCAPE

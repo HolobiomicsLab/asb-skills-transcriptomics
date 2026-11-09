@@ -1,0 +1,17 @@
+name: plotmclust
+slug: plotmclust
+version_used: '0.5'
+edam_topics: []
+evidence_spans:
+- Lamian::plotmclust(res, cell_point_size = 0.5,
+derived_from:
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+source_repos:
+- https://github.com/Winnie09/Lamian
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Winnie09/Lamian

@@ -1,0 +1,21 @@
+name: OnClass
+slug: onclass
+version_used: '1.2'
+edam_topics: []
+evidence_spans:
+- Set nlp_mapping = True to use the Char-level LSTM that maps uncontrolled vocabulary to controlled vocabulary.
+- from OnClass.OnClassModel import OnClassModel
+- pip install OnClass==1.2
+- Here, we present OnClass, an algorithm and accompanying software for automatically classifying cells into cell types that are part of the controlled vocabulary that forms the Cell Ontology.
+- Then run `run_marker_genes_identification.py <https://github.com/wangshenguiuc/OnClass/blob/master/script/run_marker_genes_identification.py>`__
+derived_from:
+- doi: 10.1038/s41467-021-25725-x
+  title: Leveraging the Cell Ontology to classify unseen cell types
+source_repos:
+- https://github.com/wangshenguiuc/OnClass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/wangshenguiuc/OnClass

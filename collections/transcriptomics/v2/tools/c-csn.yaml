@@ -1,0 +1,20 @@
+name: c-CSN
+slug: c-csn
+version_used: null
+edam_topics: []
+evidence_spans:
+- The computational framework of c-CSN is shown in Figure 1
+- we develop a novel method, c-CSN, which measures the direct gene–gene associations based on the conditional independency ρxy|z
+- we propose the c-CSN method, which can construct the conditional cell-specific network (CCSN) for each cell
+- we develop a novel method, c-CSN, which measures the direct gene–gene associations based on the conditional independency
+derived_from:
+- doi: 10.1016/j.gpb.2020.05.005
+  title: 'c-CSN: Single-Cell RNA Sequencing Data Analysis by Conditional Cell-Specific Network'
+source_repos:
+- https://github.com/LinLi-0909/c-CSN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LinLi-0909/c-CSN

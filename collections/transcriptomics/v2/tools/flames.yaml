@@ -1,0 +1,22 @@
+name: FLAMES
+slug: flames
+version_used: null
+edam_topics: []
+evidence_spans:
+- compared to leading task-specific tools
+- For a detailed description of how Flexiplex works and compares against other tools, please see our paper.
+derived_from:
+- doi: 10.1093/bioinformatics/btae102
+  title: 'Flexiplex: a versatile demultiplexer and search tool for omics data'
+- doi: 10.1038/s41467-025-60902-2
+  title: Single cell and spatial alternative splicing analysis with Nanopore long read sequencing
+source_repos:
+- https://github.com/LuyiTian/FLAMES
+- https://github.com/DavidsonGroup/flexiplex
+- https://github.com/yuntianf/Longcell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LuyiTian/FLAMES

@@ -1,0 +1,34 @@
+name: CellAssign
+slug: cellassign
+version_used: '99.21'
+edam_topics: []
+evidence_spans:
+- many automatic annotation tools have recently been developed, including SingleR [7], CHETAH [8], CellAssign [9], scMatch [10], scCATCH [11], scPred [12], SciBet [13], scVI [14], and Cell BLAST [15]
+- Popular methods in this category include scmap13, CHETAH14, CellAssign15, and others
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+source_repos:
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/bsml320/deCS
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/ZJUFanLab/scCATCH_performance_comparison
+- https://github.com/ZJUFanLab/scCATCH
+- https://github.com/compbioNJU/scPlant
+- https://github.com/Dulab2020/scWizard
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification

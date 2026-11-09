@@ -1,0 +1,17 @@
+name: jetset
+slug: jetset
+version_used: null
+edam_topics: []
+evidence_spans:
+- install.packages(c("devtools", "jetset", "readxl", "psych", "GGally", "gplots", "ggplot2", "RColorBrewer", "data.table", "grid", "gridExtra", "ggthemes", "scales","rlist"))
+derived_from:
+- doi: 10.1038/s41467-021-21244-x
+  title: Dissection of intercellular communication using the transcriptome-based framework ICELLNET
+source_repos:
+- https://github.com/soumelis-lab/ICELLNET
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/soumelis-lab/ICELLNET

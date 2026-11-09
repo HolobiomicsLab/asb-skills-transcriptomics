@@ -1,0 +1,25 @@
+name: Trim Galore!
+slug: trim-galore
+version_used: 0.6.6
+edam_topics: []
+evidence_spans:
+- for performing the expression profile analysis of cis-NATs by CCIVR, it uses processed RNA-seq data using third-party programs
+- Trim_galore (https://github.com/FelixKrueger/TrimGalore)
+derived_from:
+- doi: 10.1038/s41598-022-19782-5
+  title: CCIVR facilitates comprehensive identification of cis-natural antisense transcripts with their structural characteristics and expression profiles
+- doi: 10.1093/bioinformatics/btad676
+  title: 'PhasiHunter: a robust phased siRNA regulatory cascade mining tool based on multiple reference sequences'
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+source_repos:
+- https://github.com/CCIVR/ccivr
+- https://github.com/FelixKrueger/TrimGalore
+- https://github.com/HuangLab-CBI/PhasiHunter
+- https://github.com/skbinfo/tncRNA-Toolkit
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CCIVR/ccivr

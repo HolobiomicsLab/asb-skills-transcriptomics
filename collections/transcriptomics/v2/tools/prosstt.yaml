@@ -1,0 +1,17 @@
+name: PROSSTT
+slug: prosstt
+version_used: null
+edam_topics: []
+evidence_spans:
+- ound at Run_scGAE.ipynb
+derived_from:
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+source_repos:
+- https://github.com/ZixiangLuo1161/scGAE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZixiangLuo1161/scGAE

@@ -1,0 +1,16 @@
+name: RNAct
+slug: rnact
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.omtn.2022.10.015
+  title: 'CRIT: Identifying RNA-binding protein regulator in circRNA life cycle via non-negative matrix factorization'
+source_repos:
+- https://github.com/BioinformaticsSTU/CRIT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BioinformaticsSTU/CRIT

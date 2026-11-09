@@ -1,0 +1,20 @@
+name: stare-abc
+slug: stare-abc
+version_used: null
+edam_topics: []
+evidence_spans:
+- install with bioconda ... bioconda/recipes/stare-abc/README.html
+- conda install stare-abc
+- "Once Bioconda is set up you can install STARE either inside or outside of a conda environment::\n\n   conda install stare-abc"
+derived_from:
+- doi: 10.1093/bioinformatics/btad062
+  title: The adapted Activity-By-Contact model for enhancer–gene assignment and its application to single-cell data
+source_repos:
+- https://github.com/SchulzLab/STARE
+- https://github.com/schulzlab/STARE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SchulzLab/STARE

@@ -1,0 +1,24 @@
+name: Cassiopeia
+slug: cassiopeia
+version_used: null
+edam_topics: []
+evidence_spans:
+- Cassiopeia20, a parsimony-based method that aims at minimizing the number of mutations occurred on the reconstructed lineage tree
+- tree_cas <- read.tree("./inst/extdata/data_zebrafish/tree_cassiopeia_ZF1_F3.processed.newick")
+- Cassiopeia20, a parsimony-based method that aims at minimizing the number of mutations
+- reconstructed using the Cassiopeia-Hybrid (Jones et al., 2020) algorithm
+- reconstructed single-cell phylogenies from the original study, which were inferred with the Cassiopeia package (Jones et al., 2020)
+derived_from:
+- doi: 10.1038/s41467-023-44173-3
+  title: 'LinRace: cell division history reconstruction of single cells using paired lineage barcode and gene expression data'
+- doi: 10.1016/j.crmeth.2022.100200
+  title: Interactive, integrated analysis of single-cell transcriptomic and phylogenetic data with PhyloVision
+source_repos:
+- https://github.com/ZhangLabGT/LinRace
+- https://github.com/YosefLab/VISION
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhangLabGT/LinRace

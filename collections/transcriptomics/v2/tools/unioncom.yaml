@@ -1,0 +1,17 @@
+name: UnionCom
+slug: unioncom
+version_used: null
+edam_topics: []
+evidence_spans:
+- The ```UnionCom.py``` and ```manifold_align_mmd_pytorch.py``` scripts are used to apply UnionCom and MMD-MA, respectively.
+derived_from:
+- doi: 10.1093/bioadv/vbad171
+  title: 'scTopoGAN: unsupervised manifold alignment of single-cell data'
+source_repos:
+- https://github.com/AkashCiel/scTopoGAN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AkashCiel/scTopoGAN

@@ -1,0 +1,17 @@
+name: PyTorch 1.12.1
+slug: pytorch-1-12-1
+version_used: null
+edam_topics: []
+evidence_spans:
+- scBridge is implemented in Python using the PyTorch41 framework, v.1.12.1.
+derived_from:
+- doi: 10.1038/s41467-023-41795-5
+  title: scBridge embraces cell heterogeneity in single-cell RNA-seq and ATAC-seq data integration
+source_repos:
+- https://github.com/XLearning-SCU/scBridge
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/XLearning-SCU/scBridge

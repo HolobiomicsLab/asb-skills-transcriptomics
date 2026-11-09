@@ -1,0 +1,25 @@
+name: ZIFA
+slug: zifa
+version_used: null
+edam_topics: []
+evidence_spans:
+- Multiple clustering algorithms have been developed, including Seurat [11], SC3 [12], SIMLR [13], ZIFA [14], CIDR [15], SNN-Cliq [16], and Corr [17].
+- zero-inflated factor analysis (ZIFA)
+derived_from:
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1016/j.gpb.2018.10.003
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-Scale Single Cell RNA-Seq Data'
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+source_repos:
+- https://github.com/RabadanLab/randomly
+- https://github.com/Japrin/sscClust
+- https://github.com/epierson9/ZIFA
+- https://github.com/drisso/zinbwave
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RabadanLab/randomly

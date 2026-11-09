@@ -1,0 +1,17 @@
+name: RNA-Magnet
+slug: rna-magnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- the handling of heteromeric complexes (CellPhoneDB18, RNA-Magnet19)
+derived_from:
+- doi: 10.1038/s41467-020-18873-z
+  title: Predicting cell-to-cell communication networks using NATMI
+source_repos:
+- https://github.com/forrest-lab/NATMI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/forrest-lab/NATMI

@@ -1,0 +1,21 @@
+name: GenomeTools
+slug: genometools
+version_used: null
+edam_topics: []
+evidence_spans:
+- (for post-processing of output gff3)
+- apt-get install genometools
+- for post-processing of output gff3
+derived_from:
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+source_repos:
+- https://github.com/genometools/genometools
+- https://github.com/genometools/genometools#building-and-installation
+- https://github.com/haessar/peaks2utr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/genometools/genometools

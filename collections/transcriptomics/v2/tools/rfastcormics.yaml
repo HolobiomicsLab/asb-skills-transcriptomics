@@ -1,0 +1,17 @@
+name: rFASTCORMICS
+slug: rfastcormics
+version_used: '2.1'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2021.103331
+  title: 'DCcov: Repositioning of drugs and drug combinations for SARS-CoV-2 infected lung through constraint-based modeling'
+source_repos:
+- https://github.com/sysbiolux/rFASTCORMICS
+- https://github.com/sysbiolux/DCcov
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sysbiolux/rFASTCORMICS

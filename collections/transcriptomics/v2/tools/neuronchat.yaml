@@ -1,0 +1,20 @@
+name: NeuronChat
+slug: neuronchat
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we develop NeuronChat, a method and package for the inference, visualization and analysis of neural-specific communication networks among pre-defined cell groups using single-cell expression
+- library(NeuronChat)
+- x <- run_NeuronChat(x,M=100)
+- Here we develop NeuronChat, a method and package for the inference, visualization and analysis of neural-specific communication networks
+derived_from:
+- doi: 10.1038/s41467-023-36800-w
+  title: Inferring neuron-neuron communications from single-cell transcriptomics through NeuronChat
+source_repos:
+- https://github.com/Wei-BioMath/NeuronChat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Wei-BioMath/NeuronChat

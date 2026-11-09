@@ -1,0 +1,19 @@
+name: SCENT
+slug: scent
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'package: SCENT'
+- A brief tutorial for estimating differentiation potency of single cells using SCENT and CCAT
+- The main purpose of the `SCENT` package is to provide a means of estimating the differentiation potency of single cells without the need to assume prior biological knowledge
+derived_from:
+- doi: 10.1038/ncomms15599
+  title: Single-cell entropy for accurate estimation of differentiation potency from a cell’s transcriptome
+source_repos:
+- https://github.com/aet21/SCENT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aet21/SCENT

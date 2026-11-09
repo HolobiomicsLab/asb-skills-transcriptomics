@@ -1,0 +1,25 @@
+name: org.Mm.eg.db
+slug: org-mm-eg-db
+version_used: null
+edam_topics: []
+evidence_spans:
+- these were org.Mm.eg.db40 and org.Hs.eg.db41 for annotations for mouse and human respectively
+- run gene set enrichment analysis with clusterProfiler (mouse GO annotation from Org.Mm.eg.db and GO.db)
+- geneSymbol <-  mapIds(org.Mm.eg.db,rownames(RUD_RAW),'SYMBOL','ENTREZID')
+derived_from:
+- doi: 10.1038/srep33892
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+- doi: 10.1016/j.gpb.2023.01.003
+  title: 'stAPAminer: Mining Spatial Patterns of Alternative Polyadenylation for Spatially Resolved Transcriptomic Studies'
+source_repos:
+- https://github.com/cran/ccRemover
+- https://github.com/MahShaaban/curatedAdipoArray
+- https://github.com/BMILAB/stAPAminer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cran/ccRemover

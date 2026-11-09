@@ -1,0 +1,22 @@
+name: ccRemover
+slug: ccremover
+version_used: null
+edam_topics: []
+evidence_spans:
+- xhat <- ccRemover(dat, cutoff = 3, max_it = 4, nboot = 200, ntop = 10, bar=FALSE)
+- 'The ccRemover algorithm follows these steps: 1. Perform a PCA on the data matrix of control genes XB.'
+- The cell cycle regression approaches implemented in scLVM17, Seurat18, and ccRemover19 are based on linear representations
+derived_from:
+- doi: 10.1038/srep33892
+  title: Identifying and removing the cell-cycle effect from single-cell RNA-Sequencing data
+- doi: 10.1038/s41467-020-15295-9
+  title: Latent periodic process inference from single-cell RNA-seq data
+source_repos:
+- https://github.com/cran/ccRemover
+- https://github.com/KChen-lab/cyclum
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cran/ccRemover

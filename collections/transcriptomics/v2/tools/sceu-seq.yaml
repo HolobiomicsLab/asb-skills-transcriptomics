@@ -1,0 +1,16 @@
+name: scEU-seq
+slug: sceu-seq
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.patter.2023.100793
+  title: Transcriptomic forecasting with neural ordinary differential equations
+source_repos:
+- https://github.com/FertigLab/RNAForecaster.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FertigLab/RNAForecaster.jl

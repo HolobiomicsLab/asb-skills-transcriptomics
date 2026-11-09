@@ -1,0 +1,20 @@
+name: PCC
+slug: pcc
+version_used: null
+edam_topics: []
+evidence_spans:
+- The cut-off on the Pearson Correlation scores. The scores can range from 1 (high correlation) to -1 (high anti-correlation).
+derived_from:
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+- doi: 10.1016/j.omtn.2021.10.012
+  title: 'Staem5: A novel computational approach for accurate prediction of m5C site'
+source_repos:
+- https://github.com/mikelkou/fava
+- https://github.com/Cxd-626/Staem5
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mikelkou/fava

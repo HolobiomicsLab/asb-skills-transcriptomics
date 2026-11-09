@@ -1,0 +1,20 @@
+name: faiss
+slug: faiss
+version_used: null
+edam_topics: []
+evidence_spans:
+- The embeddings were then used to construct an approximate neighbors graph using faiss with 15 neighbors
+- construct an approximate neighbors graph using faiss25 with 15 neighbors
+- approximate neighbors graph using faiss25 with 15 neighbors
+derived_from:
+- doi: 10.1038/s41467-022-29744-0
+  title: Interactive single-cell data analysis using Cellar
+source_repos:
+- https://github.com/facebookresearch/faiss
+- https://github.com/euxhenh/cellar
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/facebookresearch/faiss

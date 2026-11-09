@@ -1,0 +1,18 @@
+name: ERgene
+slug: ergene
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here, we introduce ERgene, a Python library for screening endogenous reference genes.
+- '- `FindERG`'
+derived_from:
+- doi: 10.1038/s41598-020-75586-5
+  title: 'ERgene: Python library for screening endogenous reference genes'
+source_repos:
+- https://github.com/Starlitnightly/ERgene
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Starlitnightly/ERgene

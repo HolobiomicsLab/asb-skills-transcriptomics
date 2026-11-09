@@ -1,0 +1,17 @@
+name: DCA (deep count autoencoder)
+slug: dca-deep-count-autoencoder
+version_used: null
+edam_topics: []
+evidence_spans:
+- DCA is implemented in Python 3 using Keras53 and its TensorFlow54 backend.
+derived_from:
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+source_repos:
+- https://github.com/theislab/dca
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/dca

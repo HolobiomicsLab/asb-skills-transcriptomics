@@ -1,0 +1,17 @@
+name: f-scLVM
+slug: f-sclvm
+version_used: null
+edam_topics: []
+evidence_spans:
+- f-scLVM12 is a Bayesian hierarchical model with explicit prior biological knowledge specification
+derived_from:
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+source_repos:
+- https://github.com/LucasESBS/vega
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LucasESBS/vega

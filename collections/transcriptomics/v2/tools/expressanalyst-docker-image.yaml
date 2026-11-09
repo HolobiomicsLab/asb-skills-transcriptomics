@@ -1,0 +1,17 @@
+name: ExpressAnalyst Docker image
+slug: expressanalyst-docker-image
+version_used: null
+edam_topics: []
+evidence_spans:
+- we provide a Docker image for local installation
+derived_from:
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+source_repos:
+- https://github.com/xia-lab/ExpressAnalystR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xia-lab/ExpressAnalystR

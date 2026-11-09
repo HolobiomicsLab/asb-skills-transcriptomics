@@ -1,0 +1,25 @@
+name: ACTIONet
+slug: actionet
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("shmohammadi86/ACTIONet", ref = "R-release")
+- an.run_ACTIONet(adata)
+- We implement this framework in the ACTIONet computational environment (https://github.com/shmohammadi86/ACTIONet).
+- We implement this concept in ACTIONet, a comprehensive framework that combines archetypal analysis and manifold learning
+- DR methods implementing matrix factorization (ACTIONet)33, random projection (SHARP)38, and autoencoder (scDHA and scVI)27,39 rather than PCA generally exclude the gene scaling step in log
+- matrix factorization (ACTIONet)
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+source_repos:
+- https://github.com/shmohammadi86/ACTIONet
+- https://github.com/Mathbiomed/scLENS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohammadi86/ACTIONet

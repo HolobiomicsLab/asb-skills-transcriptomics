@@ -1,0 +1,19 @@
+name: SCSA
+slug: scsa
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+source_repos:
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/Dulab2020/scWizard
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification

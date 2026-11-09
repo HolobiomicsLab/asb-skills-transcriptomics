@@ -1,0 +1,19 @@
+name: vireoSNP
+slug: vireosnp
+version_used: 0.5.3
+edam_topics: []
+evidence_spans:
+- vireoSNP (v0.5.3)24 uses variational inference to reconstruct clonal populations based on the selected SNPs from MQuad
+- uses variational inference to reconstruct clonal populations based on the selected SNPs from MQuad
+derived_from:
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+source_repos:
+- https://github.com/single-cell-genetics/vireo
+- https://github.com/single-cell-genetics/MQuad
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/single-cell-genetics/vireo

@@ -1,0 +1,31 @@
+name: novoSpaRc
+slug: novosparc
+version_used: null
+edam_topics: []
+evidence_spans:
+- novoSpaRc18 is another method that utilizes the optimal transform algorithm to spatially map cells to tissue locations.
+- novoSpaRc18 is another method that utilizes the optimal transform algorithm to spatially map cells to tissue locations
+- including NovoSpaRc,11 which assigns SC cells to predefined locations based on the assumption that physically proximate cells share similar gene expression
+- used the recommended default parameter setting on the novoSpaRc GitHub repository
+- For gene expression imputation task, we compared SpatialScope with Tangram, gimVI, SpaGE, SpaOTsc, novoSpaRc, stPlus and Seurat.
+derived_from:
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s41467-023-39895-3
+  title: Leveraging spatial transcriptomics data to recover cell locations in single-cell RNA-seq with CeLEry
+- doi: 10.1016/j.patter.2024.101022
+  title: 'CellContrast: Reconstructing spatial relationships in single-cell RNA sequencing data via deep contrastive learning'
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+source_repos:
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/QihuangZhang/CeLEry
+- https://github.com/HKU-BAL/CellContrast
+- https://github.com/rajewsky-lab/novosparc
+- https://github.com/YangLabHKUST/SpatialScope
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinglab-ai/ccsf

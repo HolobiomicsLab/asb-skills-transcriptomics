@@ -1,0 +1,28 @@
+name: totalVI
+slug: totalvi
+version_used: null
+edam_topics: []
+evidence_spans:
+- methods for either CITE-seq analysis or hashing demultiplexing are available, e.g. Seurat (Hao et al. 2021), totalVI (Gayoso et al. 2021), and CiteFuse
+- and Specter (https://github.com/canzarlab/Specter)24 are used as competing methods
+- The totalVI analysis was performed on only RNA and ADT modalities following the official tutorial
+derived_from:
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+- doi: 10.1038/s41467-022-35031-9
+  title: Clustering of single-cell multi-omics data with a multimodal deep learning method
+- doi: 10.1016/j.crmeth.2021.100071
+  title: A mixture-of-experts deep generative model for integrated analysis of single-cell multiomics data
+- doi: 10.1038/s41467-023-36016-y
+  title: Decision level integration of unimodal and multimodal single cell data with scTriangulate
+source_repos:
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+- https://github.com/xianglin226/scMDC
+- https://github.com/kodaim1115/scMM
+- https://github.com/frankligy/scTriangulate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ETH-NEXUS/gExcite_pipeline

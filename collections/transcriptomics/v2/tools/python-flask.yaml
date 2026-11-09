@@ -1,0 +1,17 @@
+name: Python Flask
+slug: python-flask
+version_used: '3.7'
+edam_topics: []
+evidence_spans:
+- The webservice to CanIsoNet was implemented using Python Flask (Python version 3.7) with JavaScript/AJAX extensions
+derived_from:
+- doi: 10.1093/bioadv/vbad050
+  title: 'CanIsoNet: a database to study the functional impact of isoform switching events in diseases'
+source_repos:
+- https://github.com/kahramanlab/CanIsoNet_Web
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kahramanlab/CanIsoNet_Web

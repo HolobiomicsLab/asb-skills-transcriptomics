@@ -1,0 +1,17 @@
+name: conda-pack
+slug: conda-pack
+version_used: null
+edam_topics: []
+evidence_spans:
+- conda-pack is available from Anaconda as well as from conda-forge
+derived_from:
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+source_repos:
+- https://github.com/OSU-BMBL/scDEAL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OSU-BMBL/scDEAL

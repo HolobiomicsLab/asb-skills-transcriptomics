@@ -1,0 +1,29 @@
+name: Symphony
+slug: symphony
+version_used: null
+edam_topics: []
+evidence_spans:
+- A developer-provided tutorial on using Symphony could be found on GitHub (https://github.com/immunogenomics/symphony).
+- library(symphony)
+- an algorithm for building large-scale, integrated reference atlases
+- We present Symphony ( https://github.com/immunogenomics/symphony ), an algorithm for building large-scale, integrated reference atlases
+- query = mapQuery(query_exp,
+- construct a Symphony reference from two PBMC datasets
+- calcPerCellMappingMetric(reference, query, Z_orig, metric)
+derived_from:
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+- doi: 10.1038/s41467-021-25957-x
+  title: Efficient and precise single-cell reference atlas mapping with Symphony
+source_repos:
+- https://github.com/immunogenomics/symphony
+- https://github.com/hayatlab/MASI
+- https://github.com/jarninggau/ProjectSVR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/immunogenomics/symphony

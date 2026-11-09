@@ -1,0 +1,153 @@
+---
+name: multi-aligner-alignment-integration
+description: Use when short-read RNA-seq reads have been (or can be) aligned with
+  more than one splice-aware aligner to the same reference genome and the goal is
+  a genome-guided transcript assembly that recovers junctions and lowly expressed
+  transcripts missed by any single aligner's assembly.
+when_to_use_negative:
+- 'Input is long-read RNA-seq data (PacBio or Oxford Nanopore): the current Tiglon
+  version is not compatible with long-read RNA-seq datasets.'
+- 'The goal is annotation-guided assembly using known transcript annotations to guide
+  assembly: the current Tiglon version has no option for annotation-guided assemblies.'
+- 'Only a single aligner''s alignment is available (or only one aligner will be used):
+  the integration strategy requires alignments from multiple mapping tools such as
+  Hisat2 and Star, and single-aligner comparisons are better served by StringTie2
+  or Scallop directly.'
+edam_operation: http://edamontology.org/operation_3258
+edam_topics:
+- http://edamontology.org/topic_0203
+- http://edamontology.org/topic_3308
+tools:
+- name: Tiglon
+  role: Genome-guided assembler that integrates multi-aligner BAMs into a labeled
+    splice graph and recovers transcripts via label-based dynamic path extension;
+    run as 'Tiglon -B bamFile_list -s <strand> -o Tiglon_outdir'
+  repo: https://github.com/yutingsdu/Tiglon
+- name: Hisat2
+  role: Splice-aware aligner producing one of the input BAM alignment sets (run with
+    --dta) whose junction coverage is integrated with Star's
+  repo: https://github.com/DaehwanKimLab/hisat2
+- name: Star
+  role: Splice-aware aligner producing the second input BAM alignment set integrated
+    with Hisat2's alignments
+  repo: https://github.com/alexdobin/STAR
+- name: StringTie2
+  role: Baseline single-aligner assembler (per-aligner runs plus StringTie2-Merge)
+    used for comparison against Tiglon's integrated assembly
+  repo: https://github.com/gpertea/stringtie
+- name: Scallop
+  role: Baseline reference-based transcript assembler run on Hisat2/Star/merged alignments
+    for comparison against Tiglon
+  repo: https://github.com/Kingsford-Group/scallop
+- name: Bamtools
+  role: BAM-handling library prerequisite for building Tiglon (install via git clone
+    and cmake per the wiki)
+  repo: https://github.com/pezmaster31/bamtools
+- name: Cuffcompare
+  role: Evaluation tool comparing assembled GTFs against the RefSeq annotation to
+    compute correct transcripts, precision, and F-score
+provenance:
+  source_task_ids:
+  - task_001
+  - task_006
+  - task_003
+  source_papers:
+  - doi: 10.1016/j.isci.2022.104067
+    title: Tiglon enables accurate transcriptome assembly via integrating mappings
+      of different aligners
+  source_content_hash: sha256:8164b833dbc13019c5c97bda6ae29d0070f79fb7e0619487d9e4e764811d4e00
+schema_version: 0.2.0
+metadata:
+  license_tier: open
+  repo_url: https://github.com/yutingsdu/Tiglon
+  tools:
+  - Bamtools
+  - Cuffcompare
+  - Hisat2
+  - Scallop
+  - Star
+  - StringTie2
+  - Tiglon
+  edam_operation: http://edamontology.org/operation_3258
+  edam_topics:
+  - http://edamontology.org/topic_0203
+  - http://edamontology.org/topic_3308
+  provenance_tier: literature
+license: CC-BY-4.0
+triage_status: promoted
+yes_rate: 0.6666666666666666
+n_claims: 15
+---
+
+# multi-aligner-alignment-integration
+
+## Summary
+
+Integrate RNA-seq alignments from multiple splice-aware aligners (e.g., Hisat2 and Star) into a labeled splice graph with Tiglon, so that junctions captured by all aligners (label 2, refined to 2+ / 2-) versus only some (label 1) guide a label-based dynamic path extension to assemble transcripts more completely than a single aligner's mapping allows.
+
+## When to use
+
+Use when short-read RNA-seq reads have been (or can be) aligned with more than one splice-aware aligner to the same reference genome and the goal is a genome-guided transcript assembly that recovers junctions and lowly expressed transcripts missed by any single aligner's assembly.
+
+## When NOT to use
+
+- Input is long-read RNA-seq data (PacBio or Oxford Nanopore): the current Tiglon version is not compatible with long-read RNA-seq datasets.
+- The goal is annotation-guided assembly using known transcript annotations to guide assembly: the current Tiglon version has no option for annotation-guided assemblies.
+- Only a single aligner's alignment is available (or only one aligner will be used): the integration strategy requires alignments from multiple mapping tools such as Hisat2 and Star, and single-aligner comparisons are better served by StringTie2 or Scallop directly.
+
+## Inputs
+
+- RNA-seq reads per sample (FASTQ, e.g., SRA samples such as SRR307911 or simulated ~52 million 100-bp paired-end reads from RSEM)
+- Reference genome (e.g., GRCh38/hg38 human or GRCm38/mm10 mouse)
+- BAM alignment files from Hisat2 (--dta) and Star for each sample
+- bamFile_list text file listing alignment files generated by different aligners (one per line)
+- Reference transcript annotation GTF (e.g., NCBI RefSeq mm10.ncbiRefSeq.gtf) for downstream Cuffcompare evaluation
+
+## Outputs
+
+- Assembled transcript structures with estimated expression levels in GTF format (Tiglon output)
+- Per-locus labeled splice graphs (exon nodes, junction edges with label 1/2/2+/2-; serializable as GraphML, e.g., xr_locus_labeled_graph.graphml)
+- Cuffcompare evaluation metrics (correct transcripts, precision, sensitivity, F-score) per assembler condition
+
+## How to apply
+
+Align the same RNA-seq FASTQ sample independently with Hisat2 (using --dta) and with Star, producing coordinate-sorted BAM files per sample. Assemble the BAM file paths (one per line) into a bamFile_list and run Tiglon (e.g., 'Tiglon -B bamFile_list -s <strand> -o Tiglon_outdir'), which builds a labeled splice graph per gene locus — nodes are exons, edges are splice junctions — and labels each junction edge 2 when captured by all employed aligners (further split into 2+ when identical reads are captured across aligners, 2- otherwise) and 1 otherwise; per-aligner edge weights are averaged. Filter spurious junction edges using Tiglon's thresholds: min_average_frac 0.03, min_unbalance_frac 0.03, min_gap_length 200, min_trans_length 500, with min_trans_cov at default (>0). Tiglon then applies its label-based dynamic path extension to recover expressed transcripts and outputs candidate transcripts in GTF format, which can be scored against a reference annotation (e.g., NCBI RefSeq GTF for hg38 or mm10.ncbiRefSeq.gtf) using Cuffcompare for correct transcripts, precision, and F-score.
+
+## Related tools
+
+- **Tiglon** (Genome-guided assembler that integrates multi-aligner BAMs into a labeled splice graph and recovers transcripts via label-based dynamic path extension; run as 'Tiglon -B bamFile_list -s <strand> -o Tiglon_outdir') — https://github.com/yutingsdu/Tiglon
+- **Hisat2** (Splice-aware aligner producing one of the input BAM alignment sets (run with --dta) whose junction coverage is integrated with Star's) — https://github.com/DaehwanKimLab/hisat2
+- **Star** (Splice-aware aligner producing the second input BAM alignment set integrated with Hisat2's alignments) — https://github.com/alexdobin/STAR
+- **StringTie2** (Baseline single-aligner assembler (per-aligner runs plus StringTie2-Merge) used for comparison against Tiglon's integrated assembly) — https://github.com/gpertea/stringtie
+- **Scallop** (Baseline reference-based transcript assembler run on Hisat2/Star/merged alignments for comparison against Tiglon) — https://github.com/Kingsford-Group/scallop
+- **Bamtools** (BAM-handling library prerequisite for building Tiglon (install via git clone and cmake per the wiki)) — https://github.com/pezmaster31/bamtools
+- **Cuffcompare** (Evaluation tool comparing assembled GTFs against the RefSeq annotation to compute correct transcripts, precision, and F-score)
+
+## Examples
+
+```
+Tiglon -B bamFile_list -s first -o Tiglon_outdir
+```
+
+## Evaluation signals
+
+- The Tiglon output GTF exists and contains assembled transcripts with expression estimates for all loci in the bamFile_list inputs.
+- If a labeled splice graph is serialized (e.g., xr_locus_labeled_graph.graphml), every edge carries a 'label' field and junction label patterns match known per-aligner capture (e.g., junctions not captured by Star or Hisat2 labeled 1, others labeled 2).
+- Against RefSeq via Cuffcompare on the RSEM-simulated dataset, the integrated assembly recovers more correct transcripts (Tiglon: 22,928) than StringTie2-Merge (20,630) and Scallop + MergedAlignments (20,277), with precision ~64.01% and F-score ~0.480.
+- Across the four M. musculus samples (M1–M4), the aggregated mouse_benchmark.csv shows Tiglon's average precision ≈51.71% and average F-score ≈0.2341 (7.45% above StringTie-Merge).
+- Stratified low-expression recovery shows improvements within the reported ranges: 108.64%–139.58% over Scallop (Star) and 25.36%–39.91% over StringTie2-Merge.
+
+## Limitations
+
+- The current version of Tiglon does not have an option for annotation-guided assemblies, i.e., where known transcript annotations guide the assembly procedure.
+- The current version is not compatible with long-read RNA-seq datasets (e.g., Pacific Biosciences or Oxford Nanopore Technologies).
+- The current Tiglon version only accepts BAM files generated by Hisat(2) and Star.
+- A combination of the integrating strategy with the borrowing strategy used in TransBorrow is proposed future work and not implemented; use of known annotations or other tools' assembly results is deferred to future work.
+
+## Evidence
+
+- [abstract] we present a new genome-guided transcriptome assembly algorithm, namely Tiglon, which integrates multiple alignments of different mapping tools: "we present a new genome-guided transcriptome assembly algorithm, namely Tiglon, which integrates multiple alignments of different mapping tools"
+- [intro] Tiglon further labels the edges (junctions) with 1 and 2, where label 2 indicates that they are captured by all the employed aligners: "Tiglon further labels the edges (junctions) with 1 and 2, where label 2 indicates that they are captured by all the employed aligners and label 1 otherwise."
+- [methods] --min_average_frac/-d <float> 	: Minimum junction coverage fraction by average junction coverage, default: 0.03.: "--min_average_frac/-d <float> 	: Minimum junction coverage fraction by average junction coverage, default: 0.03."
+- [discussion] The current version of Tiglon does not have an option for annotation-guided assemblies, i.e., where the known transcript annotations are used to guide the assembly procedure.: "The current version of Tiglon does not have an option for annotation-guided assemblies, i.e., where the known transcript annotations are used to guide the assembly procedure."
+- [readme] The software takes a file that lists alignment files generated by different aligners as input, and outputs all assembled candidate transcripts in GTF format.: "The software takes a file that lists alignment files generated by different aligners as input, and outputs all assembled candidate transcripts in GTF format."

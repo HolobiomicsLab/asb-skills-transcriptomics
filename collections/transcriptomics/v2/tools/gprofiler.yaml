@@ -1,0 +1,17 @@
+name: gProfiler
+slug: gprofiler
+version_used: null
+edam_topics: []
+evidence_spans:
+- Gene set enrichment analysis (GSEA). The g Pro fi ler API83 was used
+derived_from:
+- doi: 10.1038/s41467-023-43019-2
+  title: Paired single-cell multi-omics data integration with Mowgli
+source_repos:
+- https://github.com/cantinilab/mowgli
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/mowgli

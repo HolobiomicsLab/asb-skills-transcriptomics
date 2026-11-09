@@ -1,0 +1,38 @@
+name: Anaconda
+slug: anaconda
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Step 1: Install Anaconda'
+- We recommend you to use [anaconda](https://www.anaconda.com/) for dependency configuration.
+- 'Install: Anaconda'
+- '- Install: Anaconda'
+- conda-pack is available from Anaconda as well as from conda-forge
+- We recommend to install the newest Anaconda from https://www.continuum.io/downloads.
+- The easiest way to install the right Python version and dependencies is to download and install the latest version of [Anaconda]
+derived_from:
+- doi: 10.1038/s41467-022-31369-2
+  title: Context-aware deconvolution of cell–cell communication with Tensor-cell2cell
+- doi: 10.1016/j.gpb.2022.11.004
+  title: 'DGMP: Identifying Cancer Driver Genes by Jointing DGCN and MLP from Multi-Omics Genomic Data'
+- doi: 10.1016/j.csbj.2020.10.032
+  title: Accurate prediction of RNA 5-hydroxymethylcytosine modification by utilizing novel position-specific gapped k-mer descriptors
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+- doi: 10.1016/j.gpb.2018.08.003
+  title: 'VASC: Dimension Reduction and Visualization of Single-Cell RNA-Seq Data by Deep Variational Autoencoder'
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/earmingol/cell2cell
+- https://github.com/NWPU-903PR/DGMP
+- https://github.com/zahid6454/iRNA5hmC-PS
+- https://github.com/OSU-BMBL/scDEAL
+- https://github.com/wang-research/VASC
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/earmingol/cell2cell

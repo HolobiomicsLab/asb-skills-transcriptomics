@@ -1,0 +1,17 @@
+name: GraphEmbed
+slug: graphembed
+version_used: null
+edam_topics: []
+evidence_spans:
+- GraphEmbed can be installed via PyPI
+derived_from:
+- doi: 10.1038/s41467-018-05988-7
+  title: 'GraphDDP: a graph-embedding approach to detect differentiation pathways in single-cell-data using prior class knowledge'
+source_repos:
+- https://github.com/fabriziocosta/GraphEmbed
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fabriziocosta/GraphEmbed

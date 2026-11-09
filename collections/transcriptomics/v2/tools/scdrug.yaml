@@ -1,0 +1,19 @@
+name: scDrug
+slug: scdrug
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**Single-Cell Data Analysis** performed data preprocessing, clustering, cell type annotation, Gene Set Enrichment Analysis (GSEA), and survival analysis.'
+- We present scDrug as a bioinformatics workflow that includes a one-step pipeline to generate cell clustering for scRNA-seq data and two methods to predict drug treatments.
+- We present scDrug as a bioinformatics workflow that includes a one-step pipeline to generate cell clustering for scRNA-seq data and two methods to predict drug treatments
+derived_from:
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+source_repos:
+- https://github.com/ailabstw/scDrug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ailabstw/scDrug

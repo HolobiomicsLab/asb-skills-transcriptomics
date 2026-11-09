@@ -1,0 +1,20 @@
+name: PRESCIENT
+slug: prescient
+version_used: null
+edam_topics: []
+evidence_spans:
+- PRESCIENT takes as input longitudinal scRNA-seq data. For training, all that is needed is normalized gene expression, time-point labels, and cell type annotations.
+- PRESCIENT takes as input longitudinal scRNA-seq data.
+- will generate a torch pt file `data_pt` (serialized dictionary) that contains all the necessary information for downstream training, simulations, and perturbations.
+- PRESCIENT takes as input longitudinal scRNA-seq data
+derived_from:
+- doi: 10.1038/s41467-021-23518-w
+  title: Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions
+source_repos:
+- https://github.com/gifford-lab/prescient
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gifford-lab/prescient

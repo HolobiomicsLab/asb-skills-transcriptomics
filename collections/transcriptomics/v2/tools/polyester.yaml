@@ -1,0 +1,22 @@
+name: Polyester
+slug: polyester
+version_used: null
+edam_topics: []
+evidence_spans:
+- we simulated several RNA-seq data with different sequencing coverage levels using the R package Polyester63
+- simulated several RNA-seq data with different sequencing coverage levels using the R package Polyester63
+- we used the tool Polyester (Frazee et al., 2015) to generate RNA‐Seq reads from a random selection of 3,000 transcripts
+derived_from:
+- doi: 10.1038/s41467-024-46875-8
+  title: 'InPACT: a computational method for accurate characterization of intronic polyadenylation from RNA sequencing data'
+- doi: 10.1002/ece3.5571
+  title: The Bellerophon pipeline, improving de novo transcriptomes and removing chimeras
+source_repos:
+- https://github.com/YY-TMU/InPACT
+- https://github.com/JesseKerkvliet/Bellerophon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YY-TMU/InPACT

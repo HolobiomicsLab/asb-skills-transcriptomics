@@ -1,0 +1,17 @@
+name: conda (bioconda)
+slug: conda-bioconda
+version_used: null
+edam_topics: []
+evidence_spans:
+- We recommend all x86 (Linux or Mac) users to install ``simpleaf`` from bioconda
+derived_from:
+- doi: 10.1093/bioinformatics/btad614
+  title: "<tt>simpleaf</tt>\n                    : a simple, flexible, and scalable framework for single-cell data processing using alevin-fry"
+source_repos:
+- https://github.com/COMBINE-lab/simpleaf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/COMBINE-lab/simpleaf

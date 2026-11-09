@@ -1,0 +1,17 @@
+name: scMerge
+slug: scmerge
+version_used: null
+edam_topics: []
+evidence_spans:
+- Seurat16,17, LIGER18, and scMerge19 attempt to identify shared variations across batches
+derived_from:
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+source_repos:
+- https://github.com/songfd2018/BUSseq
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/songfd2018/BUSseq

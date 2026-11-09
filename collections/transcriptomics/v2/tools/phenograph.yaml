@@ -1,0 +1,20 @@
+name: PhenoGraph
+slug: phenograph
+version_used: 0.99.1
+edam_topics: []
+evidence_spans:
+- which uses a shared neighbor graph to perform Louvain community detection
+derived_from:
+- doi: 10.1038/s42003-023-05480-z
+  title: 'KMD clustering: robust general-purpose clustering of biological data'
+- doi: 10.1016/j.csbj.2022.04.023
+  title: 'scEFSC: Accurate single-cell RNA-seq data analysis via ensemble consensus clustering based on multiple feature selections'
+source_repos:
+- https://github.com/KaplanLab/KMDHierarchicalClustering
+- https://github.com/Conan-Bian/scEFSC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KaplanLab/KMDHierarchicalClustering

@@ -1,0 +1,17 @@
+name: BiocStyle
+slug: biocstyle
+version_used: null
+edam_topics: []
+evidence_spans:
+- require(BiocStyle)
+derived_from:
+- doi: 10.1038/ncomms15599
+  title: Single-cell entropy for accurate estimation of differentiation potency from a cell’s transcriptome
+source_repos:
+- https://github.com/aet21/SCENT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aet21/SCENT

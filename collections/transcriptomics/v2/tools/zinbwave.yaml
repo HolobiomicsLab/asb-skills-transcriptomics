@@ -1,0 +1,18 @@
+name: zinbwave
+slug: zinbwave
+version_used: null
+edam_topics: []
+evidence_spans:
+- BiocManager::install("zinbwave")
+- The recommended way to install the `zinbwave` package is
+derived_from:
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+source_repos:
+- https://github.com/drisso/zinbwave
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/drisso/zinbwave

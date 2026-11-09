@@ -1,0 +1,23 @@
+name: scSpace
+slug: scspace
+version_used: null
+edam_topics: []
+evidence_spans:
+- is an integrative algorithm that integrates spatial transcriptome data to reconstruct spatial associations of single cells within scRNA-seq data
+- scSpace (<u>**s**</u>ingle-<u>**c**</u>ell and <u>**s**</u>patial <u>**p**</u>osition <u>**a**</u>ssociated <u>**c**</u>o-<u>**e**</u>mbeddings) is an integrative algorithm that integrates spatial
+- scSpace could extract the characteristic matrixes of spatial transcriptomics and scRNA-seq
+- scSpace26 uses a multi-layer perceptron (MLP) to predict the absolute spatial coordinates by gene expression data.
+derived_from:
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1038/s42003-023-05640-1
+  title: STEM enables mapping of single-cell and spatial transcriptomics data with transfer learning
+source_repos:
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/WhirlFirst/STEM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZJUFanLab/scSpace

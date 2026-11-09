@@ -1,0 +1,127 @@
+name: limma
+slug: limma
+version_used: 3.34.9
+edam_topics: []
+evidence_spans:
+- Limma (Bayes) method showed the best average AUC performance compared to all other three methods
+- Get differential gene expression profiles for every cell type (or cluster if without annotation) from Limma
+- fit <- lmFit(expr, mm)
+- library('limma')
+- We selected Limma, Seurat, DESeq2, and edgeR for DE methods, given that they were top-ranked methods in a benchmark study
+- the higher accuracies reached with mLRs using PAM50 genes or with the AWCA-PAM50 method
+- limma-derived signatures brought less convincing performances on testing
+- _No usage/docs found._
+- We analyzed the original feature space of 19,737 genes using limma, an R package for the analysis of gene expression data
+- "BiocManager::install(\"sva\")\n    BiocManager::install(\"limma\")"
+- Differential expression analysis is performed using limma (Ritchie et al. 2015)
+- BiocManager::install(c('biomaRt', 'limma', 'GO.db', 'org.Hs.eg.db', 'GOstats'))
+- '* Bioconductor [@huber_orchestrating_2015]: `r Biocpkg(c("Biobase", "limma"))`'
+- missing and low intensity genes were removed. Then the gene intensities were log transformed and normalized across studies using `limma`.
+- Then the gene intensities were log transformed and normalized across studies using `limma`.
+- the gene intensities were log transformed and normalized across studies using `limma`.
+- The intensities were log2-transformed and normalized so they would have similar distributions across arrays using limma [14].
+- dsb uses a function from the limma52 package removeBatchEffect() for robust and efficient matrix decomposition
+- denoised_adt = limma::removeBatchEffect(norm_adt, covariates = dsb.technical.component)
+- the limma function `removeBatchEffect`
+- whereas limma showed higher precision
+- dataSets <- SetupDesignMatrix("estrogen.txt", "limma");
+- Limma utilizes simple linear regression and empirical Bayes statistics to assess differential gene expression
+- Gene set enrichment analysis was performed using the camera function from limma
+- limma powers differential expression analyses for RNA-sequencing and microarray studies
+- regressing differential expression p-values of all genes considered in an experiment
+- We then use limma (Ritchie et al. 2015) to run a differential gene expression analysis to compare tumor and normal samples
+- This selection implements limma and extracts the logFC and padj columns to generate a similar volcano plot to DESeq2.
+- limma powers differential expression analyses for RNA-sequencing and microarray studies
+- PILOT uses limma's empirical Bayes approach (Ritchie et al, 2015) to contrast the expression of cells
+- BiocManager::install("limma")
+- Differential expression was performed using Limma (version 3.32.10).
+- limma powers differential expression analyses for RNA-sequencing and microarray studies
+- 'We applied SEMtree() to both Coronavirus disease (COVID-19) RNA-seq dataset (GEO accession: GSE172114) and simulated datasets with various differential expression patterns.'
+- The empirical Bayes technique, as implemented in the limma R package (Smyth 2005), was used to fit linear models on the normalized RNA-seq data
+derived_from:
+- doi: 10.1016/j.csbj.2021.08.009
+  title: 'ARMT: An automatic RNA-seq data mining tool based on comprehensive and integrative analysis in cancer research'
+- doi: 10.1038/s41467-023-36637-3
+  title: ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs
+- doi: 10.1016/j.isci.2020.101185
+  title: 'BATMAN: Fast and Accurate Integration of Single-Cell RNA-Seq Datasets via Minimum-Weight Matching'
+- doi: 10.1038/s41598-020-70832-2
+  title: Machine learning for RNA sequencing-based intrinsic subtyping of breast cancer
+- doi: 10.1038/s41421-019-0114-x
+  title: A novel approach to remove the batch effect of single-cell data
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/s41467-019-13779-x
+  title: CaSpER identifies and visualizes CNV events by integrative analysis of single-cell or bulk RNA-sequencing data
+- doi: 10.1038/s41598-017-16747-x
+  title: 'CMScaller: an R package for consensus molecular subtyping of colorectal cancer pre-clinical models'
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+- doi: 10.1038/s41467-022-29356-8
+  title: Normalizing and denoising protein expression data from droplet-based single cell profiling
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1016/j.isci.2022.104962
+  title: miRSCAPE - inferring miRNA expression from scRNA-seq data
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1093/bib/bbaf110
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+- doi: 10.1038/s41598-021-04473-4
+  title: A neural network-based method for exhaustive cell label assignment using single cell RNA-seq data
+- doi: 10.1093/bioinformatics/btad522
+  title: Coherent pathway enrichment estimation by modeling inter-pathway dependencies using regularized regression
+- doi: 10.1038/s42003-023-04461-6
+  title: Open-source curation of a pancreatic ductal adenocarcinoma gene expression analysis platform (pdacR) supports a two-subtype model
+- doi: 10.1038/s44320-023-00003-8
+  title: Detection of PatIent-Level distances from single cell genomics and pathomics data with Optimal Transport (PILOT)
+- doi: 10.1016/j.celrep.2019.10.131
+  title: Single-Cell Profiling Defines Transcriptomic Signatures Specific to Tumor-Reactive versus Virus-Responsive CD4+ T Cells
+- doi: 10.1038/s41598-024-66381-7
+  title: Scanpro is a tool for robust proportion analysis of single-cell resolution data
+- doi: 10.1093/bioinformatics/btad377
+  title: 'SEMtree: tree-based structure learning methods with structural equation models'
+- doi: 10.1016/j.apsb.2024.08.017
+  title: 'GSFM: A genome-scale functional module transformation to represent drug efficacy for in silico drug discovery'
+- doi: 10.1007/978-1-4939-9004-7_11
+  title: Pipeline for Integrated Microarray Expression Normalization Tool Kit (PIMENTo) for Tumor Microarray Profiling Experiments
+source_repos:
+- https://github.com/Dulab2020/ARMT
+- https://github.com/lanagarmire/ASGARD
+- https://github.com/lanagarmire/Asgard
+- https://github.com/mandricigor/batman
+- https://github.com/DEIB-GECO/BC_Intrinsic_subtyping
+- https://github.com/jumphone/BEER
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/akdess/CaSpER
+- https://github.com/Lothelab/CMScaller
+- https://github.com/MahShaaban/curatedAdipoArray
+- https://github.com/niaid/dsb
+- https://github.com/seoanezonjic/ExpHunterSuite
+- https://github.com/xia-lab/ExpressAnalystR
+- https://github.com/BIGslu/kimma
+- https://github.com/hannenhalli-lab/miRSCAPE
+- https://github.com/lixiangchun/Miscell
+- https://github.com/ConesaLab/MOSim
+- https://github.com/single-cell-genetics/MQuad
+- https://github.com/haoharryfeng/NeuCA
+- https://github.com/cbg-ethz/pareg
+- https://github.com/rmoffitt/pdacR
+- https://github.com/CostaLab/PILOT
+- https://github.com/asmagen/robustSingleCell
+- https://github.com/loosolab/scanpro
+- https://github.com/fernandoPalluzzi/SEMgraph
+- https://github.com/LXY1201/GSFM
+- https://github.com/MUSC-CGM/PIMENTo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Dulab2020/ARMT

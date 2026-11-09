@@ -1,0 +1,30 @@
+name: PHATE
+slug: phate
+version_used: null
+edam_topics: []
+evidence_spans:
+- of which PHATE13 is celebrated for its reliability in describing complex biological structures14.
+- PHATE with a q-diffused kernel yielded a new kind of full-transcriptome embedding that we term qPHATE
+- Recently developed competitive methods include DCA7, scVI8, scDeepCluster9, PHATE10, SAUCIE11, scGNN12, ZINB-WaVE13 and Ivis14
+- 'PHATE was used with default parameters: number of (output) embedding dimensions equal to 2'
+derived_from:
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+source_repos:
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/marmarelis/QDiffusion.jl
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/pkathail/magic
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xinglab-ai/ccsf

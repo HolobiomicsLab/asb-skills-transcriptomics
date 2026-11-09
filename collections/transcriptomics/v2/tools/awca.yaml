@@ -1,0 +1,17 @@
+name: AWCA
+slug: awca
+version_used: null
+edam_topics: []
+evidence_spans:
+- the AWCA strategy allows constructing predefined external references (Supplementary Material Table S3) that can be used to classify independent RNA-seq profiles
+derived_from:
+- doi: 10.1038/s41598-020-70832-2
+  title: Machine learning for RNA sequencing-based intrinsic subtyping of breast cancer
+source_repos:
+- https://github.com/DEIB-GECO/BC_Intrinsic_subtyping
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DEIB-GECO/BC_Intrinsic_subtyping

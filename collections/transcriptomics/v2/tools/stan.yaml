@@ -1,0 +1,17 @@
+name: Stan
+slug: stan
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Stan: a probabilistic programming language'
+derived_from:
+- doi: 10.1038/s41467-019-13099-0
+  title: A Bayesian mixture model for the analysis of allelic expression in single cells
+source_repos:
+- https://github.com/churchill-lab/scBASE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/churchill-lab/scBASE

@@ -1,0 +1,17 @@
+name: COSLIR (Python version)
+slug: coslir-python-version
+version_used: null
+edam_topics: []
+evidence_spans:
+- the MATLAB version and the python version of COSLIR
+derived_from:
+- doi: 10.1038/s41598-024-62850-1
+  title: Unveiling gene regulatory networks during cellular state transitions without linkage across time points
+source_repos:
+- https://github.com/Ge-lab-pku/COSLIR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ge-lab-pku/COSLIR

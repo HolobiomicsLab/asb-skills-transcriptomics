@@ -1,0 +1,20 @@
+name: clustifyr
+slug: clustifyr
+version_used: null
+edam_topics: []
+evidence_spans:
+- Annotation performance was compared against five automatic annotation tools, ScType40, SCINA19, clustifyR12, scCATCH41, scSorter17.
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1038/s41467-025-60900-4
+  title: 'Cell Marker Accordion: interpretable single-cell and spatial omics annotation in health and disease'
+source_repos:
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/TebaldiLab/cellmarkeraccordion
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification

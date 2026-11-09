@@ -1,0 +1,21 @@
+name: VEGA
+slug: vega
+version_used: null
+edam_topics: []
+evidence_spans:
+- we introduce a novel sparse Variational Autoencoder architecture, VEGA (VAE Enhanced by Gene Annotations)
+- VEGA provides a Bayesian testing procedure to find significantly activated gene modules in your dataset
+- VEGA is a deep generative model for scRNA-Seq data whose decoder structure is informed by gene modules
+- import vega
+- differential activity testing for those gene modules between groups of cells
+derived_from:
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+source_repos:
+- https://github.com/LucasESBS/vega
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LucasESBS/vega

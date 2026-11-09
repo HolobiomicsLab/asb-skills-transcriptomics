@@ -1,0 +1,17 @@
+name: PhasiHunter Docker image
+slug: phasihunter-docker-image
+version_used: null
+edam_topics: []
+evidence_spans:
+- we also provide a Docker image at `https://hub.docker.com/repository/docker/zacksfeng/phasihunter`
+derived_from:
+- doi: 10.1093/bioinformatics/btad676
+  title: 'PhasiHunter: a robust phased siRNA regulatory cascade mining tool based on multiple reference sequences'
+source_repos:
+- https://github.com/HuangLab-CBI/PhasiHunter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HuangLab-CBI/PhasiHunter

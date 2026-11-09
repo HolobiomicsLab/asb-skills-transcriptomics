@@ -1,0 +1,17 @@
+name: UTRme
+slug: utrme
+version_used: null
+edam_topics: []
+evidence_spans:
+- Apply peaks2utr, GETUTR, and UTRme to the C. elegans reference chromosome I dataset
+derived_from:
+- doi: 10.1093/bioinformatics/btad112
+  title: 'peaks2utr: a robust Python tool for the annotation of 3′ UTRs'
+source_repos:
+- https://github.com/haessar/peaks2utr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/haessar/peaks2utr

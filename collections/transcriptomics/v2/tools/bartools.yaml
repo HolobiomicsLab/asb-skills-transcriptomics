@@ -1,0 +1,20 @@
+name: bartools
+slug: bartools
+version_used: null
+edam_topics: []
+evidence_spans:
+- DaneVass/bartools_manuscript_code
+- we developed bartools, a flexible open-source R package that incorporates workflows for population-level cellular barcoding data analysis
+- and bartools, an open-source R package
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+source_repos:
+- https://github.com/DaneVass/bartools
+- https://github.com/DaneVass/BARtab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DaneVass/bartools

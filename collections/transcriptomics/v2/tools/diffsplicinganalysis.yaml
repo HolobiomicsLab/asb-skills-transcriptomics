@@ -1,0 +1,17 @@
+name: DiffSplicingAnalysis
+slug: diffsplicinganalysis
+version_used: null
+edam_topics: []
+evidence_spans:
+- "DiffSplicingAnalysis(configFile = config, \n                     typeOfTest = 'Iso', \n                     minNumReads = 25, is.hier = FALSE)"
+derived_from:
+- doi: 10.1038/s41467-020-20343-5
+  title: A spatially resolved brain region- and cell type-specific isoform atlas of the postnatal mouse brain
+source_repos:
+- https://github.com/noush-joglekar/scisorseqr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/noush-joglekar/scisorseqr

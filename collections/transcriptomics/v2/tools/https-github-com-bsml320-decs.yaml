@@ -1,0 +1,22 @@
+name: https://github.com/bsml320/deCS
+slug: https-github-com-bsml320-decs
+version_used: null
+edam_topics: []
+evidence_spans:
+- All documents for deCS, including source code, user manual, demo data, and tutorials, are freely available at https://github.com/bsml320/deCS.
+- freely available at GitHub (https://github.com/bsml320/deCS)
+- 'Source: github:github.com__bsml320__deCS'
+- devtools::install_github("bsml320/deCS")
+- https://github.com/GuangshengPei/deCS/tree/main/Example_data/1.1.PBMC/pbmc_example.rda
+- The raw data and predefined label are available from [Github](https://github.com/zhangzlab/covid_balf)
+derived_from:
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+source_repos:
+- https://github.com/bsml320/deCS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bsml320/deCS

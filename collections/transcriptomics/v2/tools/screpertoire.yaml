@@ -1,0 +1,20 @@
+name: scRepertoire
+slug: screpertoire
+version_used: null
+edam_topics: []
+evidence_spans:
+- It provides all the necessary tools to interface with [scRepertoire](https://github.com/ncborcherding/scRepertoire)
+- Scirpy[23], Dandelion[25], [20], and scRepertoire[29], [4] are widely used tools for conducting scVDJ-seq analysis.
+- dandelionR uses a SingleCellExperiment object already combined with vdj data, such as from reading with scRepertoire
+derived_from:
+- doi: 10.1016/j.csbj.2025.06.047
+  title: "<i>dandelionR</i>\n                    : Single-cell immune repertoire trajectory analysis in R"
+source_repos:
+- https://github.com/ncborcherding/scRepertoire
+- https://github.com/tuonglab/dandelionR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ncborcherding/scRepertoire

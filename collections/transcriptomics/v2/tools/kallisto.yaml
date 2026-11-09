@@ -1,0 +1,50 @@
+name: Kallisto
+slug: kallisto
+version_used: 0.46.1
+edam_topics: []
+evidence_spans:
+- four publicly available RNA-Seq datasets on OIH, Alzheimer's Disease, Parkinson's Disease and Behcet's Disease
+- The transcript abundances were estimated using Kallisto (Bray et al., 2016) on transcripts from the ENSEMBL database
+- kallisto index -i rna/index.idx rna/transcriptome.fa
+- kallisto bustools (Melsted et al. 2021)
+- quantification based on Kallisto (version 0.46.1) or Seq2Fun (version 2.0.2)
+- reads will be pseudoaligned to fragments using kallisto (step D).
+- reads will be pseudoaligned to fragments using kallisto (step D)
+- It then pseudoaligns reads to fragments using kallisto and efficiently derives counts of the most elementary splicing units from kallisto's equivalence classes.
+- reads will be pseudoaligned to fragments using kallisto
+- kallisto (https://github.com/pachterlab/kallisto)
+- '`kdx`: Kallisto index for UTRome'
+- Gene expression estimates in transcripts per million mapped reads (TPM, Kallisto estimation) were retrieved from the Soybean Expression Atlas19
+derived_from:
+- doi: 10.1093/bioadv/vbad050
+  title: 'CanIsoNet: a database to study the functional impact of isoform switching events in diseases'
+- doi: 10.1093/bioinformatics/btae168
+  title: A machine-readable specification for genomics assays
+- doi: 10.1016/j.isci.2020.101913
+  title: 'CellO: comprehensive and hierarchical cell type classification of human cells with the Cell Ontology'
+- doi: 10.1016/j.xpro.2022.101729
+  title: Protocol for fast scRNA-seq raw data processing using scKB and non-arbitrary quality control with COPILOT
+- doi: 10.1038/s41467-023-38785-y
+  title: 'ExpressAnalyst: A unified platform for RNA-sequencing analysis in non-model species'
+- doi: 10.1093/bioinformatics/btad419
+  title: Counting pseudoalignments to novel splicing events
+- doi: 10.1038/s41467-024-48254-9
+  title: Quantifying 3′UTR length from scRNA-seq data reveals changes independent of gene expression
+- doi: 10.1038/s41598-021-03864-x
+  title: Integration of genome-wide association studies and gene coexpression networks unveils promising soybean resistance genes against five common fungal pathogens
+source_repos:
+- https://github.com/kahramanlab/CanIsoNet_Web
+- https://github.com/cellatlas/cellatlas
+- https://github.com/deweylab/CellO
+- https://github.com/ohlerlab/COPILOT
+- https://github.com/xia-lab/ExpressAnalystR
+- https://github.com/pachterlab/kallisto
+- https://github.com/canzarlab/fortuna
+- https://github.com/Mayrlab/scUTRquant
+- https://github.com/almeidasilvaf/SoyFungiGCN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kahramanlab/CanIsoNet_Web

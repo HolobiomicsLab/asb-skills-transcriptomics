@@ -1,0 +1,21 @@
+name: blastx
+slug: blastx
+version_used: null
+edam_topics: []
+evidence_spans:
+- the presence and classification of multiple viral reads was verified by targeted blastn- and blastx-based sequence analyses in different samples
+- 'blasted against the nonredundant protein database (NR), using the BLASTX algorithm (E‐value cut‐off: 10–4).'
+derived_from:
+- doi: 10.1038/s41467-023-36336-z
+  title: A deep learning approach reveals unexplored landscape of viral expression in cancer
+- doi: 10.1002/ece3.5571
+  title: The Bellerophon pipeline, improving de novo transcriptomes and removing chimeras
+source_repos:
+- https://github.com/AuslanderLab/virnatrap
+- https://github.com/JesseKerkvliet/Bellerophon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AuslanderLab/virnatrap

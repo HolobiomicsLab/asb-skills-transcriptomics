@@ -1,0 +1,21 @@
+name: CellRouter
+slug: cellrouter
+version_used: null
+edam_topics: []
+evidence_spans:
+- source the CellRouter class
+- source('path/to/CellRouter_Class.R')
+- To use CellRouter, clone/download this repository. You also need to install several packages
+- Here, we present CellRouter, a multifaceted single-cell analysis platform that identifies complex cell-state transition trajectories by using flow networks
+- To use CellRouter, clone/download this repository.
+derived_from:
+- doi: 10.1038/s41467-018-03214-y
+  title: Reconstruction of complex single-cell trajectories using CellRouter
+source_repos:
+- https://github.com/edroaldo/cellrouter
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/edroaldo/cellrouter

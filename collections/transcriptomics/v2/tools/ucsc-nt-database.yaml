@@ -1,0 +1,17 @@
+name: UCSC nt database
+slug: ucsc-nt-database
+version_used: null
+edam_topics: []
+evidence_spans:
+- The qualified reads that were not mapped to the human genome in the Alignment Module are aligned to the nucleotide (nt) database27 from UCSC using BLAST
+derived_from:
+- doi: 10.1038/s41598-020-61495-0
+  title: 'COMPSRA: a COMprehensive Platform for Small RNA-Seq data Analysis'
+source_repos:
+- https://github.com/cougarlj/COMPSRA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cougarlj/COMPSRA

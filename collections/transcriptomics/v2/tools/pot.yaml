@@ -1,0 +1,24 @@
+name: POT
+slug: pot
+version_used: null
+edam_topics: []
+evidence_spans:
+- pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.
+- 'SpaOTsc depends on the following packages: pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.'
+derived_from:
+- doi: 10.1038/s41467-024-51382-x
+  title: 'scConfluence: single-cell diagonal integration with regularized Inverse Optimal Transport on weakly connected features'
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1016/j.ailsci.2023.100068
+  title: Elucidating dynamic cell lineages and gene networks in time-course single cell differentiation
+source_repos:
+- https://github.com/cantinilab/scconfluence
+- https://github.com/zcang/SpaOTsc
+- https://github.com/zhangzmr/CellST
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cantinilab/scconfluence

@@ -1,0 +1,17 @@
+name: RED-ML
+slug: red-ml
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/bib/bbaf107
+  title: 'REDInet: a temporal convolutional network-based classifier for A-to-I RNA editing detection harnessing million known events'
+source_repos:
+- https://github.com/BGIRED/RED-ML
+- https://github.com/BioinfoUNIBA/REDInet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BGIRED/RED-ML

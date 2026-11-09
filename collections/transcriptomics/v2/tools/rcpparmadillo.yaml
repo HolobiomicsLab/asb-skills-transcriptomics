@@ -1,0 +1,27 @@
+name: RcppArmadillo
+slug: rcpparmadillo
+version_used: null
+edam_topics: []
+evidence_spans:
+- install_github("lichen-lab/BAMMSC")
+- '- `RcppArmadillo (Imports)`'
+- RcppArmadillo (Imports)
+- car, combinat, doParallel, dplyr, energy, ggplot2, GOsummaries, gplots, MASS, mclust, minerva, plotly, Rcpp, RcppArmadillo, scater
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+- doi: 10.1038/s41598-017-13665-w
+  title: Controlling for Confounding Effects in Single Cell RNA Sequencing Studies Using both Control and Target Genes
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+- https://github.com/ChenMengjie/Citrus
+- https://github.com/tinglabs/redPATH
+- https://github.com/tinglab/redPATH
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

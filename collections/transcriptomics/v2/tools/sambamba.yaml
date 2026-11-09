@@ -1,0 +1,17 @@
+name: sambamba
+slug: sambamba
+version_used: 0.7.0
+edam_topics: []
+evidence_spans:
+- sambamba (v0.7.0)
+derived_from:
+- doi: 10.1093/bioadv/vbab021
+  title: 'CRIS: complete reconstruction of immunoglobulin <i>V-D-J</i> sequences from RNA-seq data'
+source_repos:
+- https://github.com/Rashedul/CRIS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Rashedul/CRIS

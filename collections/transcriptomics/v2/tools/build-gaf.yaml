@@ -1,0 +1,17 @@
+name: build_gaf
+slug: build-gaf
+version_used: null
+edam_topics: []
+evidence_spans:
+- regions = build_gaf(Gene=Gene,GTF.file="./Homo_sapiens.GRCh37.87.gtf")
+derived_from:
+- doi: 10.1038/s41467-020-20593-3
+  title: 'SCISSOR: a framework for identifying structural changes in RNA transcripts'
+source_repos:
+- https://github.com/hyochoi/SCISSOR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hyochoi/SCISSOR

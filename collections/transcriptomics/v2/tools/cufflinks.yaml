@@ -1,0 +1,21 @@
+name: Cufflinks
+slug: cufflinks
+version_used: null
+edam_topics: []
+evidence_spans:
+- Linear full-length assembly methods such as Cufflinks cannot use back-spliced reads
+- Linear full-length assembly methods such as Cufflinks cannot use back-spliced reads, which are treated as unmapped reads and discarded
+derived_from:
+- doi: 10.1016/j.gpb.2019.03.004
+  title: 'CircAST: Full-Length Assembly and Quantification of Alternatively Spliced Isoforms in Circular RNAs'
+- doi: 10.1007/978-1-4939-7710-9_15
+  title: Single-Cell Transcriptome Analysis Using SINCERA Pipeline
+source_repos:
+- https://github.com/xiaofengsong/CircAST
+- https://github.com/xu-lab/SINCERA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaofengsong/CircAST

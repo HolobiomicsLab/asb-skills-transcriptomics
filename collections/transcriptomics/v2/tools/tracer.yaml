@@ -1,0 +1,17 @@
+name: tracer
+slug: tracer
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+source_repos:
+- https://github.com/Teichlab/tracer
+- https://github.com/carmonalab/TILPRED
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Teichlab/tracer

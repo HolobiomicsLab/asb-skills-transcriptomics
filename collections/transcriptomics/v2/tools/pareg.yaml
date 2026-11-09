@@ -1,0 +1,22 @@
+name: pareg
+slug: pareg
+version_used: null
+edam_topics: []
+evidence_spans:
+- develop a novel gene set enrichment method, called pareg, which is based on a regularized generalized linear model
+- It estimates pathway enrichment scores by regressing differential expression p-values
+- This vignette is an introduction to the usage of `pareg`. It estimates pathway enrichment scores by regressing differential expression p-values
+- we compute pairwise pathway similarities with `pareg`'s helper function
+- This vignette is an introduction to the usage of `pareg`.
+- 'package: pareg ... This vignette is an introduction to the usage of `pareg`. It estimates pathway enrichment scores by regressing differential expression p-values'
+derived_from:
+- doi: 10.1093/bioinformatics/btad522
+  title: Coherent pathway enrichment estimation by modeling inter-pathway dependencies using regularized regression
+source_repos:
+- https://github.com/cbg-ethz/pareg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cbg-ethz/pareg

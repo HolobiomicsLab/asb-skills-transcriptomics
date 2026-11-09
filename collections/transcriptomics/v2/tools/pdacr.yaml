@@ -1,0 +1,23 @@
+name: pdacR
+slug: pdacr
+version_used: null
+edam_topics: []
+evidence_spans:
+- devtools::install_github("rmoffitt/pdacR")
+- Data/ holds all parsed datasets, as well as the gene signatures object and PurIST classifier object.
+- we have created pdacR ( http://pdacR.bmi.stonybrook.edu , github.com/rmoffitt/pdacR), an open-source software package and web-tool with annotated datasets
+- R/ holds all wrapper functions used in the application
+- we have created an R package, termed pdacR, for public use
+- we have created pdacR ( http://pdacR.bmi.stonybrook.edu , github.com/rmoffitt/pdacR), an open-source software package and web-tool
+derived_from:
+- doi: 10.1038/s42003-023-04461-6
+  title: Open-source curation of a pancreatic ductal adenocarcinoma gene expression analysis platform (pdacR) supports a two-subtype model
+source_repos:
+- https://github.com/rmoffitt/pdacR
+- https://github.com/rmoffitt/pdacR.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rmoffitt/pdacR

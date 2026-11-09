@@ -1,0 +1,20 @@
+name: rROMA
+slug: rroma
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(rRoma)
+- You can now run rRoma on our dataset by simply specifying the expression dataset and the modules you want to test.
+- Here, we present the rROMA software package for fast and accurate computation of the activity of gene sets with coordinated expression.
+- rRoma requires a gene expression matrix, with column names indicating samples and row names indicating gene names.
+derived_from:
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+source_repos:
+- https://github.com/sysbio-curie/rROMA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sysbio-curie/rROMA

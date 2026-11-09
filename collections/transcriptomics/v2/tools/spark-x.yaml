@@ -1,0 +1,27 @@
+name: SPARK-X
+slug: spark-x
+version_used: null
+edam_topics: []
+evidence_spans:
+- (absent — flagged as missing)
+- nonparametric covariance tests (SPARK-X27)
+- nnSVG Tutorial
+- For spatial transcriptomics the fastest method available is SPARK-X.
+- We applied SPARK-X to MERFISH dataset using the default parameters following the instruction
+derived_from:
+- doi: 10.1038/s41467-023-39748-z
+  title: nnSVG for the scalable identification of spatially variable genes using nearest-neighbor Gaussian processes
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+- doi: 10.1038/s41467-023-43629-w
+  title: Integrating spatial and single-cell transcriptomics data using deep generative models with SpatialScope
+source_repos:
+- https://github.com/lmweber/nnSVG
+- https://github.com/ddiez/singleCellHaystack-py
+- https://github.com/YangLabHKUST/SpatialScope
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lmweber/nnSVG

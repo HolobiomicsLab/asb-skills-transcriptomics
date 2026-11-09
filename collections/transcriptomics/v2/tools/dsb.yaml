@@ -1,0 +1,21 @@
+name: dsb
+slug: dsb
+version_used: null
+edam_topics: []
+evidence_spans:
+- The dsb method is implemented via the R package “dsb [https://cran.r-project.org/package=dsb]” through a single function call to DSBNormalizeProtein()
+- The dsb method is implemented via the R package “dsb [https://cran.r-project.org/package=dsb]”
+- library(dsb)
+- dsb_rescaled = DSBNormalizeProtein(cell_protein_matrix = cells_citeseq_mtx,
+- denoised_adt_3 = DSBNormalizeProtein(cell_protein_matrix = cell,
+derived_from:
+- doi: 10.1038/s41467-022-29356-8
+  title: Normalizing and denoising protein expression data from droplet-based single cell profiling
+source_repos:
+- https://github.com/niaid/dsb
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/niaid/dsb

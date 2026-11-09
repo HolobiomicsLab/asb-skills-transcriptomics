@@ -1,0 +1,17 @@
+name: Gurobi
+slug: gurobi
+version_used: 9.5.1
+edam_topics: []
+evidence_spans:
+- Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+derived_from:
+- doi: 10.1038/s41467-023-44014-3
+  title: Accurate integration of single-cell DNA and RNA for analyzing intratumor heterogeneity using MaCroDNA
+source_repos:
+- https://github.com/NakhlehLab/MaCroDNA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NakhlehLab/MaCroDNA

@@ -1,0 +1,21 @@
+name: tophat
+slug: tophat
+version_used: null
+edam_topics: []
+evidence_spans:
+- tophat -o results -p 12 -G /home/***/genes_homo.gtf
+- tophat -o results -p 12 -G /home/***/genes_homo.gtf /home/***/index/Homo_sapiens/UCSC/hg19/Sequence/BowtieIndex/genome reads_1.fastq reads_2.fastq
+derived_from:
+- doi: 10.1016/j.gpb.2019.03.004
+  title: 'CircAST: Full-Length Assembly and Quantification of Alternatively Spliced Isoforms in Circular RNAs'
+- doi: 10.1007/978-1-4939-7710-9_15
+  title: Single-Cell Transcriptome Analysis Using SINCERA Pipeline
+source_repos:
+- https://github.com/xiaofengsong/CircAST
+- https://github.com/xu-lab/SINCERA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiaofengsong/CircAST

@@ -1,0 +1,20 @@
+name: SCPA
+slug: scpa
+version_used: null
+edam_topics: []
+evidence_spans:
+- a recently proposed sensitive method Single Cell Pathway Analysis (SCPA)11 can deal with a large number of pathways
+derived_from:
+- doi: 10.1016/j.celrep.2022.111697
+  title: Systematic single-cell pathway analysis to characterize early T cell activation
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+source_repos:
+- https://github.com/jackbibby1/SCPA
+- https://github.com/ZhuoliHuang/scPAFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jackbibby1/SCPA

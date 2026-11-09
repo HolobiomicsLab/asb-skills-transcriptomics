@@ -1,0 +1,17 @@
+name: extract_whole.py
+slug: extract-whole-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- python src/extract_whole.py -b <input_bam_file> -o <output_dir>/dsRID_whole.tsv
+derived_from:
+- doi: 10.1093/bioinformatics/btad649
+  title: 'dsRID: <i>in silico</i> identification of dsRNA regions using long-read RNA-seq data'
+source_repos:
+- https://github.com/gxiaolab/dsRID
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gxiaolab/dsRID

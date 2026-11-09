@@ -1,0 +1,21 @@
+name: xcltk
+slug: xcltk
+version_used: null
+edam_topics: []
+evidence_spans:
+- we re-designed our original genotyping software cellsnp-lite13 to a tailored package xcltk
+- pip install -U git+https://github.com/hxj5/xcltk
+- pip install -U xcltk
+- For BAF, we recommend using ``xcltk`` tool to get the two allelic AD and DP matrices.
+derived_from:
+- doi: 10.1038/s41467-024-51026-0
+  title: Robust analysis of allele-specific copy number alterations from scRNA-seq data with XClone
+source_repos:
+- https://github.com/hxj5/xcltk
+- https://github.com/single-cell-genetics/XClone
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hxj5/xcltk

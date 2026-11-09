@@ -1,0 +1,20 @@
+name: transformers
+slug: transformers
+version_used: null
+edam_topics: []
+evidence_spans:
+- The transformers package is only necessary for embedding protein sequences.
+derived_from:
+- doi: 10.1093/bioinformatics/btad248
+  title: Cell type matching across species using protein embeddings and transfer learning
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/kbiharie/TACTiCS
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kbiharie/TACTiCS

@@ -1,0 +1,137 @@
+name: devtools
+slug: devtools
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(devtools)
+- devtools::install_github("elisabettasciacca/DEGGs", build_vignettes = TRUE)
+- '# install.packages("devtools")'
+- Simply run `library(devtools)` and then `install_github("UPSUTER/GEMLI", subdir="GEMLI_package_v0")`
+- install.packages(c("devtools", "jetset", "readxl", "psych", "GGally", "gplots", "ggplot2", "RColorBrewer", "data.table", "grid", "gridExtra", "ggthemes", "scales","rlist"))
+- library(devtools)
+- devtools::install_github("XiaoZhangryy/iSC.MEB")
+- devtools::install_github("BIGslu/kimma")
+- '# install.packages("devtools")'
+- 'install.packages("devtools")
+
+  library(devtools)
+
+  install_github("lhe17/nebula")'
+- install_github("lhe17/nebula")
+- 'To install the package, simply run
+
+  ```
+
+  devtools::install_github("rmoffitt/pdacR")
+
+  ```'
+- 'To install the package, simply run
+
+  devtools::install_github("rmoffitt/pdacR")'
+- install.packages("devtools")
+- if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+- devtools::install_github("PaulingLiu/ROGUE")
+- To install scATOMIC you will need to use the devtools package.
+- devtools::install_github("MengQiuchen/scDecouple", build_vignettes = TRUE)
+- devtools::install_github("JSB-UCLA/scDEED")
+- 'library(devtools)
+
+  devtools::install_github("JSB-UCLA/scDEED")'
+- devtools::install_github("CostaLab/scMEGA", force = TRUE)
+- devtools::install_github("diegommcc/SpatialDDLSdata")
+- if (!requireNamespace("devtools", quietly = TRUE)) { install.packages("devtools") }
+- You will first have to have [devtools](https://github.com/hadley/devtools) package installed.
+derived_from:
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41467-019-10216-x
+  title: Model-based understanding of single-cell CRISPR screening
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+- doi: 10.1016/j.simpa.2021.100144
+  title: 'FeatureCorr: An R package to study feature correlations aided with data transformation for sequencing and microarray data'
+- doi: 10.1016/j.csbj.2023.03.035
+  title: "<i>f</i>\n                    RNC: Uncovering the dynamic and condition-specific RBP-ncRNA circuits from multi-omics data"
+- doi: 10.1038/s41467-024-47158-y
+  title: Gene-expression memory-based prediction of cell lineages from scRNA-seq datasets
+- doi: 10.1038/s41467-021-21244-x
+  title: Dissection of intercellular communication using the transcriptome-based framework ICELLNET
+- doi: 10.1016/j.isci.2023.107945
+  title: 'InterOpt: Improved gene expression quantification in qPCR experiments using weighted aggregation of reference genes'
+- doi: 10.1093/bioadv/vbad019
+  title: 'iSC.MEB: an R package for multi-sample spatial clustering analysis of spatial transcriptomics data'
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1038/s42003-021-01938-0
+  title: 'mmsig: a fitting approach to accurately identify somatic mutational signatures in hematological malignancies'
+- doi: 10.1038/s42003-021-02146-6
+  title: NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data
+- doi: 10.1038/s42003-023-04461-6
+  title: Open-source curation of a pancreatic ductal adenocarcinoma gene expression analysis platform (pdacR) supports a two-subtype model
+- doi: 10.1038/s41540-020-00162-6
+  title: Sparsely-connected autoencoder (SCA) for single cell RNAseq data mining
+- doi: 10.1038/s41467-020-16904-3
+  title: An entropy-based metric for assessing the purity of single cell populations
+- doi: 10.1038/s41467-023-37353-8
+  title: Pan-cancer classification of single cells in the tumour microenvironment
+- doi: 10.1016/j.isci.2020.100882
+  title: 'scCATCH: Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data'
+- doi: 10.1016/j.eng.2023.12.004
+  title: A Single-Cell Landscape of Human Liver Transplantation Reveals a Pathogenic Immune Niche Associated with Early Allograft Dysfunction
+- doi: 10.1093/bib/bbae011
+  title: 'scDecouple: decoupling cellular response from infected proportion bias in scCRISPR-seq'
+- doi: 10.1038/s41467-024-45891-y
+  title: Statistical method scDEED for detecting dubious 2D single-cell embeddings and optimizing t-SNE and UMAP hyperparameters
+- doi: 10.1016/j.celrep.2020.108589
+  title: Overcoming Expressional Drop-outs in Lineage Reconstruction from Single-Cell RNA-Sequencing Data
+- doi: 10.1093/bioadv/vbad003
+  title: 'scMEGA: single-cell multi-omic enhancer-based gene regulatory network inference'
+- doi: 10.1016/j.xcrm.2024.101568
+  title: scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network
+- doi: 10.1093/bioinformatics/btae072
+  title: 'SpatialDDLS: an R package to deconvolute spatial transcriptomics data using neural networks'
+- doi: 10.1038/s41467-018-05112-9
+  title: TCM visualizes trajectories and cell populations from single cell data
+- doi: 10.1016/j.ailsci.2023.100068
+  title: Elucidating dynamic cell lineages and gene networks in time-course single cell differentiation
+- doi: 10.1007/s12561-021-09304-8
+  title: Penalized Latent Dirichlet Allocation Model in Single-Cell RNA Sequencing
+source_repos:
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/bm2-lab/MUSIC
+- https://github.com/elisabettasciacca/DEGGs
+- https://github.com/DKundnani/FeatureCorr
+- https://github.com/leiming8886/fRNC
+- https://github.com/BioinformaticsSTU/fRNC
+- https://github.com/UPSUTER/GEMLI
+- https://github.com/soumelis-lab/ICELLNET
+- https://github.com/asalimih/InterOpt
+- https://github.com/XiaoZhangryy/iSC.MEB
+- https://github.com/BIGslu/kimma
+- https://github.com/evenrus/mmsig
+- https://github.com/lhe17/nebula
+- https://github.com/rmoffitt/pdacR
+- https://github.com/kendomaniac/rCASC
+- https://github.com/PaulingLiu/ROGUE
+- https://github.com/abelson-lab/scATOMIC
+- https://github.com/ZJUFanLab/scCATCH
+- https://github.com/multitalk/scCrossTalk
+- https://github.com/MengQiuchen/scDecouple
+- https://github.com/JSB-UCLA/scDEED
+- https://github.com/inmybrain/SClineager
+- https://github.com/r-lib/remotes
+- https://github.com/CostaLab/scMEGA
+- https://github.com/ZJUFanLab/scRank
+- https://github.com/rikenbit/rTensor
+- https://github.com/diegommcc/SpatialDDLS
+- https://github.com/hadley/devtools
+- https://github.com/r-lib/devtools
+- https://github.com/gongx030/tcm
+- https://github.com/zhangzmr/CellST
+- https://github.com/wuxiaotiankevin/pLDA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/maiziezhoulab/Bfimpute

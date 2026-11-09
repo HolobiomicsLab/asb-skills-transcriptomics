@@ -1,0 +1,17 @@
+name: AddModuleScore
+slug: addmodulescore
+version_used: null
+edam_topics: []
+evidence_spans:
+- These functions are more computationally efficient implementation of UCell and AddModuleScore (also known as ‘score_genes’ in Scanpy)
+derived_from:
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+source_repos:
+- https://github.com/ZhuoliHuang/scPAFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ZhuoliHuang/scPAFA

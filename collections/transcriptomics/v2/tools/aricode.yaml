@@ -1,0 +1,22 @@
+name: aricode
+slug: aricode
+version_used: '0.2'
+edam_topics: []
+evidence_spans:
+- cafr_0.312    dplyr_1.1.2   aricode_1.0.2 stringr_1.5.0
+- 'aricode::ARI(liver$object$celltype, liver$object$seurat_clusters) # 0.7415981'
+- aricode::ARI(liver$object$celltype, liver$object$seurat_clusters)
+derived_from:
+- doi: 10.1093/bioinformatics/btae283
+  title: 'CASCC: a co-expression-assisted single-cell RNA-seq data clustering method'
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+source_repos:
+- https://github.com/LingyiC/CASCC
+- https://github.com/madsen-lab/rJOINTLY
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LingyiC/CASCC

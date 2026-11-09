@@ -1,0 +1,21 @@
+name: SEMtree()
+slug: semtree
+version_used: null
+edam_topics: []
+evidence_spans:
+- We propose SEMtree(), a set of tree-based structure discovery algorithms, combining graph and statistically interpretable parameters
+- We propose SEMtree(), a set of tree-based structure discovery algorithms
+- ST <- SEMtree(W, data = pc1.npn, seed = seed, type = "ST", eweight = "pvalue")
+- We propose SEMtree(), a set of tree-based structure discovery algorithms, combining graph and statistically interpretable parameters together with a user-friendly R package
+- 'SEMtree: tree-based structure learning methods with structural equation models'
+derived_from:
+- doi: 10.1093/bioinformatics/btad377
+  title: 'SEMtree: tree-based structure learning methods with structural equation models'
+source_repos:
+- https://github.com/fernandoPalluzzi/SEMgraph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fernandoPalluzzi/SEMgraph

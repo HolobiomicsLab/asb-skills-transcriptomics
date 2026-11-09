@@ -1,0 +1,17 @@
+name: Student's t-test
+slug: student-s-t-test
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used two-tailed Student’s t tests.
+derived_from:
+- doi: 10.1016/j.csbj.2023.07.009
+  title: 'PreCanCell: An ensemble learning algorithm for predicting cancer and non-cancer cells from single-cell transcriptomes'
+source_repos:
+- https://github.com/WangX-Lab/PreCanCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/WangX-Lab/PreCanCell

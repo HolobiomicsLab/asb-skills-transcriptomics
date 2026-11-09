@@ -1,0 +1,75 @@
+name: MAGIC
+slug: magic
+version_used: null
+edam_topics: []
+evidence_spans:
+- Some methods such as DCA and MAGIC treat all zeros as “missing data” and output a matrix in which every gene is expressed in every cell
+- ALRA and MAGIC are significantly faster than the other methods, taking ~40 min on 50,000 cells.
+- AutoClass but not the regular autoencoder was able to recover cell type pattern, indicating the classifier component is necessary
+- AutoClass but not the regular autoencoder was able to recover cell type pattern
+- most notable among these are MAGIC, scImpute, and drImpute
+- AutoImpute, scImpute, and MAGIC successfully recover the majority of true zeros in the data
+- MAGIC20 and SAVER21, on the other hand, denoise single-cell gene expression data and generate a denoised output for each gene and cell entry
+- Once the data imputation is needed, scDrug also integrates MAGIC [37] to impute missing values.
+- MAGIC is the first available method for explicit and genome-wide imputation of single-cell gene expression profiles16.
+- MAGIC imputes zero values using heat diffusion25.
+- Methods in this category include MAGIC20, DrImpute21, scScope22, DCA23, and DeepImpute24.
+- We run MAGIC using the Scanpy implementation with default parameters and the approximate solver for computational speed.
+- MAGIC78, a widely used method for imputing missing values to overcome zero-inflation in scRNA-Seq data, was applied to both datasets
+- MAGIC was downloaded from https://github.com/pkathail/magic.
+- We use scVI4 and MAGIC18 for the imputation.
+derived_from:
+- doi: 10.1038/s41467-021-27729-z
+  title: Zero-preserving imputation of single-cell RNA-seq data
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41598-018-34688-x
+  title: 'AutoImpute: Autoencoder based imputation of single-cell RNA-seq data'
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1016/j.csbj.2022.11.055
+  title: 'scDrug: From single-cell RNA-seq to drug response prediction'
+- doi: 10.1038/s41467-018-03405-7
+  title: An accurate and robust imputation method scImpute for single-cell RNA-seq data
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+- doi: 10.1016/j.patter.2022.100577
+  title: Single-cell multi-modal GAN reveals spatial patterns in single-cell data from triple-negative breast cancer
+- doi: 10.1038/s41467-025-58699-1
+  title: 'scPRINT: pre-training on 50 million cells allows robust gene network predictions'
+- doi: 10.1038/s41598-019-56911-z
+  title: Using transfer learning from prior reference knowledge to improve the clustering of single-cell RNA-Seq data
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+source_repos:
+- https://github.com/KlugerLab/ALRA
+- https://github.com/KrishnaswamyLab/MAGIC
+- https://github.com/datapplab/AutoClass
+- https://github.com/divyanshu-talwar/AutoImpute
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/pkathail/magic
+- https://github.com/theislab/dca
+- https://github.com/RabadanLab/randomly
+- https://github.com/ailabstw/scDrug
+- https://github.com/Vivianstats/scImpute
+- https://github.com/duct317/scISR
+- https://github.com/KrishnaswamyLab/scMMGAN
+- https://github.com/cantinilab/scPRINT
+- https://github.com/nicococo/scRNA
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/YosefLab/SymSim
+- https://github.com/audreyqyfu/LATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/KlugerLab/ALRA

@@ -1,0 +1,17 @@
+name: FAVA (favapy)
+slug: fava-favapy
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install favapy
+derived_from:
+- doi: 10.1093/bioinformatics/btae010
+  title: 'FAVA: high-quality functional association networks inferred from scRNA-seq and proteomics data'
+source_repos:
+- https://github.com/mikelkou/fava
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mikelkou/fava

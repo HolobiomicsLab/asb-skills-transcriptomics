@@ -1,0 +1,36 @@
+name: UCell
+slug: ucell
+version_used: null
+edam_topics: []
+evidence_spans:
+- remotes::install_github("carmonalab/UCell")
+- These functions are more computationally efficient implementation of UCell and AddModuleScore (also known as ‘score_genes’ in Scanpy)
+- computationally efficient implementation of UCell and AddModuleScore
+- Existing single-cell pathway activity scoring methods, such as AddModuleScore7,8, UCell9, and AUCell10 can generate pathway activity scores (PAS) for individual cells
+- These functions are more computationally efficient implementation of UCell and AddModuleScore
+- compute PAS by “fast_ucell”
+- UCell calculates gene signature scores for scRNA-seq data based on the Mann-Whitney U statistic [7].
+- '`ScoreSignatures_UCell`    Calculate module enrichment scores from single-cell data.'
+- UCell calculates gene signature scores for scRNA-seq data based on the Mann-Whitney U statistic
+- '`SmoothKNN` Perform signature score smoothing using a weighted average of the scores of the first k nearest neighbors (kNN).'
+- UCell is an R package for evaluating gene signatures in single-cell datasets.
+derived_from:
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+- doi: 10.1038/s42003-024-07238-7
+  title: Uncovering disease-related multicellular pathway modules on large-scale single-cell transcriptomes with scPAFA
+- doi: 10.1016/j.csbj.2021.06.043
+  title: 'UCell: Robust and scalable single-cell gene signature scoring'
+source_repos:
+- https://github.com/carmonalab/UCell
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/jarninggau/ProjectSVR
+- https://github.com/ZhuoliHuang/scPAFA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/carmonalab/UCell

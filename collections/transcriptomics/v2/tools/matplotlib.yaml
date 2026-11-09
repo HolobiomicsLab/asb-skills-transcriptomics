@@ -1,0 +1,87 @@
+name: matplotlib
+slug: matplotlib
+version_used: 3.5.3
+edam_topics: []
+evidence_spans:
+- '#plot aggregation of all filters runtime'
+- pip install numpy pandas sklearn matplotlib
+- numpy, scikit-learn, tensorflow, matplotlib.
+- '> numpy, scikit-learn, tensorflow, matplotlib.'
+- import matplotlib.pyplot as plt
+- matplotlib(>=3.5.3)
+- '- matplotlib (>= 3.1.1)'
+- import matplotlib.pyplot as plt
+- '* `matplotlib <https://matplotlib.org/>`_ >= 3.7.1 (|Hunter2007|_)'
+- matplotlib <https://matplotlib.org/>`_ >= 3.7.1
+- '`matplotlib <https://matplotlib.org/>`_ >= 3.7.1'
+- "- matplotlib\n  - imblearn\n  - tabulate"
+- '`scanpy` installs a newer version of matplotlib than the default one.'
+- pip3 install numpy scipy pandas scikit-learn pyro-ppl matplotlib scanpy anndata scvi-tools
+- '* matplotlib >= 3.1.0'
+- '[![matplotlib 3.6.3](https://img.shields.io/badge/matplotlib-3.6.3-blueviolet)](https://pypi.org/project/matplotlib/)'
+- '[![matplotlib 3.6.3](https://img.shields.io/badge/matplotlib-3.6.3-blueviolet)]'
+- such as matplotlib18 in Python or ggplot219 in R
+- 'SpaOTsc depends on the following packages: pandas, numpy, scipy, networkx, python-igraph, louvain, POT, dit, astropy, scikit-learn, matplotlib, umap-learn.'
+- '> matplotlib >= 2.0.2'
+derived_from:
+- doi: 10.1093/bioadv/vbaf105
+  title: 'AnnSQL: a Python SQL-based package for fast large-scale single-cell genomics analysis using minimal computational resources'
+- doi: 10.1038/s41467-022-29576-y
+  title: A universal deep neural network for in-depth cleaning of single-cell RNA-Seq data
+- doi: 10.1038/s41598-018-34688-x
+  title: 'AutoImpute: Autoencoder based imputation of single-cell RNA-seq data'
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1016/j.patter.2023.100840
+  title: Leveraging cell-cell similarity for high-performance spatial and temporal cellular mappings from gene expression data
+- doi: 10.1038/s41467-023-44103-3
+  title: Deciphering driver regulators of cell fate decisions from single-cell transcriptomics data with CEFCON
+- doi: 10.1093/bioadv/vbac037
+  title: 'COT: an efficient and accurate method for detecting marker genes among many subtypes'
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1093/bioinformatics/btad721
+  title: 'Hybkit: a Python API and command-line toolkit for hybrid sequence data from chimeric RNA methods'
+- doi: 10.1016/j.csbj.2020.10.032
+  title: Accurate prediction of RNA 5-hydroxymethylcytosine modification by utilizing novel position-specific gapped k-mer descriptors
+- doi: 10.1038/s41540-024-00339-3
+  title: 'MarkerMap: nonlinear marker selection for single-cell studies'
+- doi: 10.1093/bioinformatics/btad337
+  title: 'scME: a dual-modality factor model for single-cell multiomics embedding'
+- doi: 10.1038/s41467-021-22851-4
+  title: Deep generative model embedding of single-cell RNA-Seq profiles on hyperspheres and hyperbolic spaces
+- doi: 10.1038/s41467-023-38121-4
+  title: Reconstruction of the cell pseudo-space from single-cell RNA sequencing data with scSpace
+- doi: 10.1016/j.patter.2023.100915
+  title: 'Spaco: A comprehensive tool for coloring spatial data at single-cell resolution'
+- doi: 10.1038/s41467-020-15968-5
+  title: Inferring spatial and signaling relationships between cells from single cell transcriptomic data
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+- doi: 10.1007/s12539-017-0277-9
+  title: 'visnormsc: A Graphical User Interface to Normalize Single-cell RNA Sequencing Data'
+source_repos:
+- https://github.com/ArpiarSaundersLab/annsql
+- https://github.com/datapplab/AutoClass
+- https://github.com/divyanshu-talwar/AutoImpute
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/xinglab-ai/ccsf
+- https://github.com/WPZgithub/CEFCON
+- https://github.com/MintaYLu/COT
+- https://github.com/eleozzr/desc
+- https://github.com/RenneLab/hybkit
+- https://github.com/zahid6454/iRNA5hmC-PS
+- https://github.com/Computational-Morphogenomics-Group/MarkerMap
+- https://github.com/bucky527/scME
+- https://github.com/klarman-cell-observatory/scPhere
+- https://github.com/ZJUFanLab/scSpace
+- https://github.com/BrainStOrmics/Spaco
+- https://github.com/zcang/SpaOTsc
+- https://github.com/audreyqyfu/LATE
+- https://github.com/solo7773/visnormsc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ArpiarSaundersLab/annsql

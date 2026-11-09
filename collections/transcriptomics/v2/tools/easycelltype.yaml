@@ -1,0 +1,21 @@
+name: EasyCellType
+slug: easycelltype
+version_used: null
+edam_topics: []
+evidence_spans:
+- The `EasyCellType` package was designed to examine an input marker list using
+- "The `EasyCellType` package was designed to examine an input marker list using \nthe databases and provide annotation recommendations in graphical outcomes."
+- annot.GSEA <- easyct(input.d, db="cellmarker", species="Human",
+- Now we can call the `annot` function to run annotation analysis.
+- library(EasyCellType)
+derived_from:
+- doi: 10.1093/bioadv/vbad029
+  title: 'EasyCellType: marker-based cell-type annotation by automatically querying multiple databases'
+source_repos:
+- https://github.com/rx-li/EasyCellType
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rx-li/EasyCellType

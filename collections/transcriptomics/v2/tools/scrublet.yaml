@@ -1,0 +1,19 @@
+name: Scrublet
+slug: scrublet
+version_used: null
+edam_topics: []
+evidence_spans:
+- AllonKleinLab/scrublet
+- 'Scrublet: Computational Identification of Cell Doublets in Single-Cell Transcriptomic Data. Cell Syst 8, 281-291.e289.'
+derived_from:
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+source_repos:
+- https://github.com/AllonKleinLab/scrublet
+- https://github.com/13308204545/Chord
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AllonKleinLab/scrublet

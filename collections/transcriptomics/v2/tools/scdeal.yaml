@@ -1,0 +1,25 @@
+name: scDEAL
+slug: scdeal
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/OSU-BMBL/scDEAL.git
+- The home directory of scDEAL can be cloned from the GitHub repository
+- python bulkmodel.py --drug "I.BET.762" --dimreduce "DAE" --encoder_h_dims "256,128"
+- We propose scDEAL, a deep transfer learning framework for cancer drug response prediction at the single-cell level by integrating large-scale bulk cell-line data.
+- The software is a stand-alone python script package.
+derived_from:
+- doi: 10.1038/s41467-022-34277-7
+  title: Deep transfer learning of cancer drug responses by integrating bulk and single-cell RNA-seq data
+- doi: 10.1016/j.xcrm.2024.101568
+  title: scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network
+source_repos:
+- https://github.com/OSU-BMBL/scDEAL.git
+- https://github.com/OSU-BMBL/scDEAL
+- https://github.com/ZJUFanLab/scRank
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/OSU-BMBL/scDEAL.git

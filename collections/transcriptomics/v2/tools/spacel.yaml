@@ -1,0 +1,21 @@
+name: SPACEL
+slug: spacel
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install SPACEL
+- Here, we introduce spatial architecture characterization by deep learning (SPACEL) for ST data analysis.
+- SPACEL (**SP**atial **A**rchitecture **C**haracterization by d**E**ep **L**earning) is a Python package of deep-learning-based methods for ST data analysis.
+- we developed SPACEL, a deep-learning-based toolkit comprising three modules
+- SPACEL (**SP**atial **A**rchitecture **C**haracterization by d**E**ep **L**earning) is a Python package of deep-learning-based methods for ST data analysis
+derived_from:
+- doi: 10.1038/s41467-023-43220-3
+  title: 'SPACEL: deep learning-based characterization of spatial transcriptome architectures'
+source_repos:
+- https://github.com/QuKunLab/SPACEL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/QuKunLab/SPACEL

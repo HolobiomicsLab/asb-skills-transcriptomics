@@ -1,0 +1,20 @@
+name: BIDCell
+slug: bidcell
+version_used: null
+edam_topics: []
+evidence_spans:
+- we present BIDCell, a self-supervised deep learning-based framework with biologically-informed loss functions that learn relationships between spatially resolved gene expression and cell morphology
+- we present BIDCell, a self-supervised deep learning-based framework with biologically-informed loss functions
+- from bidcell import BIDCellModel
+- We ran BIDCell on a Linux system with a 12GB NVIDIA GTX Titan V GPU, Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz with 16 threads, and 64GB RAM.
+derived_from:
+- doi: 10.1038/s41467-023-44560-w
+  title: 'BIDCell: Biologically-informed self-supervised learning for segmentation of subcellular spatial transcriptomics data'
+source_repos:
+- https://github.com/SydneyBioX/BIDCell
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SydneyBioX/BIDCell

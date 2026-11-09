@@ -1,0 +1,17 @@
+name: QDiffusion.jl
+slug: qdiffusion-jl
+version_used: null
+edam_topics: []
+evidence_spans:
+- This software package is released as part of an ongoing project for analyzing single-cell RNA sequencing (scRNAseq) data in its full dimensionality.
+derived_from:
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+source_repos:
+- https://github.com/marmarelis/QDiffusion.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/marmarelis/QDiffusion.jl

@@ -1,0 +1,17 @@
+name: 10x Genomics Chromium system
+slug: 10x-genomics-chromium-system
+version_used: null
+edam_topics: []
+evidence_spans:
+- the recently developed droplet-based technology, largely represented by the 10x Genomics Chromium system
+derived_from:
+- doi: 10.1038/s41467-019-09639-3
+  title: A Bayesian mixture model for clustering droplet-based single-cell transcriptomic data from population studies
+source_repos:
+- https://github.com/lichen-lab/BAMMSC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lichen-lab/BAMMSC

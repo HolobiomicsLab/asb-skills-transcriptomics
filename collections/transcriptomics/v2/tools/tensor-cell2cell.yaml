@@ -1,0 +1,23 @@
+name: Tensor-cell2cell
+slug: tensor-cell2cell
+version_used: null
+edam_topics: []
+evidence_spans:
+- the latter is for deconvolving complex patterns of cell-cell communication across multiple samples or contexts simultaneously into interpretable factors
+- Includes all functions pertinent to the analysis of *Tensor-cell2cell*
+- Context Factorisation with tensor-cell2cell
+derived_from:
+- doi: 10.1038/s41467-022-31369-2
+  title: Context-aware deconvolution of cell–cell communication with Tensor-cell2cell
+- doi: 10.1038/s41467-022-30755-0
+  title: Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data
+source_repos:
+- https://github.com/earmingol/cell2cell
+- https://github.com/saezlab/ccc_protocols
+- https://github.com/saezlab/liana
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/earmingol/cell2cell

@@ -1,0 +1,17 @@
+name: OpenMPI
+slug: openmpi
+version_used: null
+edam_topics: []
+evidence_spans:
+- MPI, for example openmpi or mvapich2
+derived_from:
+- doi: 10.1093/bioinformatics/btad373
+  title: 'MCPNet: a parallel maximum capacity-based genome-scale gene network construction framework'
+source_repos:
+- https://github.com/AluruLab/MCPNet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AluruLab/MCPNet

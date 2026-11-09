@@ -1,0 +1,20 @@
+name: piscem
+slug: piscem
+version_used: null
+edam_topics: []
+evidence_spans:
+- after the expanded reference is constructed, the resulting reference will be indexed with ``piscem build``
+- '`simpleaf` uses [`piscem`](https://github.com/COMBINE-lab/piscem) as its RNA back-end mapper and indexer.'
+- This change is to unify the geometry description language between ``simpleaf`` and the tools in the backend that actually perform the fragment mapping
+derived_from:
+- doi: 10.1093/bioinformatics/btad614
+  title: "<tt>simpleaf</tt>\n                    : a simple, flexible, and scalable framework for single-cell data processing using alevin-fry"
+source_repos:
+- https://github.com/COMBINE-lab/piscem
+- https://github.com/COMBINE-lab/simpleaf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/COMBINE-lab/piscem

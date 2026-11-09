@@ -1,0 +1,18 @@
+name: TinGa
+slug: tinga
+version_used: null
+edam_topics: []
+evidence_spans:
+- (absent — flagged as missing)
+- TinGa
+derived_from:
+- doi: 10.1093/bioinformatics/btad515
+  title: Cell-connectivity-guided trajectory inference from single-cell data
+source_repos:
+- https://github.com/elolab/Totem
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/elolab/Totem

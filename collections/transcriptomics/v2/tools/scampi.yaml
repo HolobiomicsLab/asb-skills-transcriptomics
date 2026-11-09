@@ -1,0 +1,18 @@
+name: scAmpi
+slug: scampi
+version_used: null
+edam_topics: []
+evidence_spans:
+- scAmpi, a workflow that provides basic scRNA processing steps, is included as a module into gExcite
+derived_from:
+- doi: 10.1093/bioinformatics/btad329
+  title: 'gExcite: a start-to-end framework for single-cell gene expression, hashing, and antibody analysis'
+source_repos:
+- https://github.com/ETH-NEXUS/scAmpi_single_cell_RNA
+- https://github.com/ETH-NEXUS/gExcite_pipeline
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ETH-NEXUS/scAmpi_single_cell_RNA

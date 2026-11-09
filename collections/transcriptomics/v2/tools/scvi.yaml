@@ -1,0 +1,177 @@
+name: scVI
+slug: scvi
+version_used: '0.11'
+edam_topics: []
+evidence_spans:
+- run BUSseq and the six compared methods
+- Scanorama and Seurat calculate mutual nearest neighbors in a low-dimensional space
+- we ran Scanorama12, scVI11, and Seurat13 on the combinations of the synthetic datasets to merge two respective datasets
+- the canonical variational autoencoder model used by scVI
+- the canonical variational autoencoder model used by scVI and several other tools
+- many automatic annotation tools have recently been developed, including SingleR [7], CHETAH [8], CellAssign [9], scMatch [10], scCATCH [11], scPred [12], SciBet [13], scVI [14], and Cell BLAST [15]
+- balances biological and technical differences between clusters, and reduces the influence of batch effect
+- The single cell variational inference (scVI) framework14 generates an embedding using non-linear autoencoders
+- deep learning-based (e.g., scVI3)
+- JOINTLY performs on par with state-of-the-art batch integration tools, such as scVI3 and Harmony2, in clustering tasks
+- or generative deep learning models using variational autoencoders (scVI)23
+- We benchmarked CODAL against the MIRA topic model28, scanpy principal component analysis (PCA), scVI20, scANVI18, scanpy PCA+Harmony19, and scanorama25.
+- The Tabula Sapiens datasets were packaged with state-of-the-art dimensionality reductions, including scVI34
+- The most widely used methods include Seurat13, Harmony14, Scanorama15, scVI16, scDML17, and scDREAMER18.
+- 'scVI (scvi-tools, v0.11): utilized for its advanced batch correction techniques within a VAE model'
+- we used Seurat, Harmony, Scanorama, scVI, scDML, and scDREAMER as benchmarking methods with default parameters
+- '(2) scVI (scvi-tools, v0.11): utilized for its advanced batch correction techniques within a VAE model by adjusting the "n_batch" parameter'
+- trained the scDBM and scVI on these sub-samples, and generated synthetic data
+- First, we considered single-cell variational inference (scVI) in two variants, generating samples from the posterior distribution, the standard approach, or the prior distribution.
+- Lopez et al.7 proposed a method called single-cell variational inference (scVI)
+- we used the Python implementation of scVI (https://github.com/YosefLab/scVI), which we adapted to be able to sample from the prior distribution.
+- scverse/scvi-tools
+- In contrast to existing autoencoders, such as scVI40 that was developed for data imputation, scDHA provides a complete analysis pipeline
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33.'
+- '[scVI](https://github.com/YosefLab/scvi-tools)'
+- Single-cell variational inference (scVI)6 models library size and takes into account batch effect in generating cell embeddings.
+- Recently developed competitive methods include DCA7, scVI8, scDeepCluster9, PHATE10, SAUCIE11, scGNN12, ZINB-WaVE13 and Ivis14
+- we advise to align the datasets before matching the cell populations. We advise doing this with scVI or scArches
+- DR methods implementing matrix factorization (ACTIONet)33, random projection (SHARP)38, and autoencoder (scDHA and scVI)27,39 rather than PCA generally exclude the gene scaling step in log
+- autoencoder (scDHA and scVI)
+- scVI19, scANVI20
+- several of these rapid procedures (deepMNN16, BBKNN17, Harmony18, scVI19, scANVI20 and DESC21) focus on extracting the joint embedding
+- other deep embedding models have been proposed to enhance the clustering results from diverse perspectives such as, DESC18, scVI19, scCAEs20, scDHA21 and SCA22
+- Overall, scANVI, scVI and SeuratV4 methods achieve a balance between species-mixing and biology conservation.
+- AutoImpute21, DCA22, DeepImpute23, SAUCIE24, scScope25, scVI26
+- https://github.com/scverse/scvi-tools
+- scverse/scvi-tools
+- most integration methods, including scVI, provide a correction at the level of a joint latent representation of the cells
+- latent spaces returned by batch correction methods (such as Harmony, Scanorama, and scVI)
+- compares favorably to popular unsupervised methods such as Harmony, FastMNN, Seurat v4, scVI, and Scanorama
+- We use scVI4 and MAGIC18 for the imputation.
+- 'We apply three different dimensionality reduction methods to cluster cells simulated from multiple discrete populations: PCA, scVI, and SIMLR.'
+- different imputation methods (scVI4 and MAGIC18) to reduce technical variation in real data
+- We applied UMAP to visualize the integration results of cell embeddings by uniPort, Harmony, Seurat, SCALEX, scVI, gimVI27 and MultiMAP
+- such as scVI and scGen8–10
+- works around the `scanpy <https://scanpy.readthedocs.io/en/stable/index.html>`_ and `scvi-tools
+- and `scvi-tools <https://docs.scvi-tools.org/en/stable/index.html#>`_ ecosystems
+- Inspired by the differential gene expression procedure from ``scvi-tools``, VEGA provides a Bayesian testing procedure
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1038/s41467-020-16905-2
+  title: Flexible experimental designs for valid single-cell RNA-sequencing experiments allowing batch effects correction
+- doi: 10.1038/s41467-022-33681-3
+  title: Alignment of single-cell trajectory trees with CAPITAL
+- doi: 10.1038/s41467-020-17281-7
+  title: Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST
+- doi: 10.1016/j.gpb.2022.04.001
+  title: "<i>deCS</i>\n                    : A Tool for Systematic Cell Type Annotations of Single-Cell RNA Sequencing Data Among Human Tissues"
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1038/s41467-023-39985-2
+  title: Identification of transcriptional programs using dense vector representations defined by mutual information with GeneVector
+- doi: 10.1038/s41467-023-44279-8
+  title: 'JOINTLY: interpretable joint clustering of single-cell transcriptomes'
+- doi: 10.1038/s41467-023-38333-8
+  title: MetaTiME integrates single-cell gene expression to characterize the meta-components of the tumor immune microenvironment
+- doi: 10.1038/s41467-023-39494-2
+  title: Multi-batch single-cell comparative atlas construction by deep learning disentanglement
+- doi: 10.1016/j.isci.2021.103200
+  title: 'Miscell: An efficient self-supervised learning approach for dissecting single-cell transcriptome'
+- doi: 10.1093/bib/bbaf110
+  title: 'MOSim: bulk and single-cell multilayer regulatory network simulator'
+- doi: 10.1038/s42003-024-06104-w
+  title: q-Diffusion leverages the full dimensionality of gene coexpression in single-cell transcriptomics
+- doi: 10.1016/j.patter.2020.100035
+  title: A Random Matrix Theory Approach to Denoise Single-Cell Data
+- doi: 10.1093/bib/bbaf243
+  title: 'scaLR: a low-resource deep neural network-based platform for single cell analysis and biomarker discovery'
+- doi: 10.1038/s42003-025-07692-x
+  title: scCobra allows contrastive cell embedding learning with domain adaptation for single cell data integration and harmonization
+- doi: 10.1038/s41598-021-88875-4
+  title: Synthetic single cell RNA sequencing data from small pilot studies using deep generative models
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1038/s41467-021-21312-2
+  title: Fast and precise single-cell data analysis using a hierarchical autoencoder
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1038/s41467-021-25534-2
+  title: Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data
+- doi: 10.1038/s41598-021-99003-7
+  title: A topology-preserving dimensionality reduction method for single-cell RNA-seq data using graph autoencoder
+- doi: 10.1038/s41467-021-23196-8
+  title: Hierarchical progressive learning of cell identities in single-cell data
+- doi: 10.1016/j.isci.2020.100914
+  title: scID Uses Discriminant Analysis to Identify Transcriptionally Equivalent Cell Types across Single-Cell RNA-Seq Data with Batch Effect
+- doi: 10.1038/s41467-024-47884-3
+  title: 'scLENS: data-driven signal detection for unbiased scRNA-seq data analysis'
+- doi: 10.1038/s41467-023-39923-2
+  title: Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1038/s41467-023-41855-w
+  title: Benchmarking strategies for cross-species integration of single-cell RNA sequencing data
+- doi: 10.1038/s41467-022-34595-w
+  title: Leveraging data-driven self-consistency for high-fidelity gene expression recovery
+- doi: 10.1038/s41467-024-44757-7
+  title: 'SiFT: uncovering hidden biological processes by probabilistic filtering of single-cell data'
+- doi: 10.1038/s41598-023-38965-2
+  title: A universal tool for predicting differentially active features in single-cell and spatial genomics data
+- doi: 10.1038/s41467-024-45240-z
+  title: Semi-supervised integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+- doi: 10.1038/s41467-022-35094-8
+  title: A unified computational framework for single-cell data integration with optimal transport
+- doi: 10.1038/s41467-021-26017-0
+  title: VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics
+- doi: 10.1007/s40484-019-0192-7
+  title: Imputation of single‐cell gene expression with an autoencoder neural network
+source_repos:
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/songfd2018/BUSseq
+- https://github.com/ykat0/capital
+- https://github.com/gao-lab/Cell_BLAST
+- https://github.com/bsml320/deCS
+- https://github.com/eleozzr/desc
+- https://github.com/nceglia/genevector
+- https://github.com/madsen-lab/rJOINTLY
+- https://github.com/yi-zhang/MetaTiME
+- https://github.com/cistrome/MIRA
+- https://github.com/lixiangchun/Miscell
+- https://github.com/ConesaLab/MOSim
+- https://github.com/marmarelis/QDiffusion.jl
+- https://github.com/RabadanLab/randomly
+- https://github.com/infocusp/scaLR
+- https://github.com/mcgilldinglab/scCobra
+- https://github.com/scverse/scvi-tools
+- https://github.com/MTreppner/scDBM.jl
+- https://github.com/ttgump/scDCC
+- https://github.com/duct317/scDHA
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/YosefLab/scvi-tools
+- https://github.com/hui2000ji/scETM
+- https://github.com/ZixiangLuo1161/scGAE
+- https://github.com/lcmmichielsen/scHPL
+- https://github.com/BatadaLab/scID
+- https://github.com/Mathbiomed/scLENS
+- https://github.com/SydneyBioX/scMerge
+- https://github.com/YosefLab/scVI
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/Papatheodorou-Group/scOntoMatch
+- https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
+- https://github.com/nitzanlab/sift-sc
+- https://github.com/ddiez/singleCellHaystack-py
+- https://github.com/carmonalab/STACAS
+- https://github.com/YosefLab/SymSim
+- https://github.com/theislab/scvelo
+- https://github.com/deeplearningplus/tGPT
+- https://github.com/caokai1073/uniPort
+- https://github.com/LucasESBS/vega
+- https://github.com/audreyqyfu/LATE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification

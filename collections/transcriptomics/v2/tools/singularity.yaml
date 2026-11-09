@@ -1,0 +1,26 @@
+name: Singularity
+slug: singularity
+version_used: null
+edam_topics: []
+evidence_spans:
+- Singularity can also be used to run the docker container directly from terminal.
+- Singularity can also be used to run the docker container directly from terminal
+- We provide a separate vignette on the Docker image installation and usage (also within Singularity).
+- singularity build skewc.sif docker://moirai2/skewc:latest
+derived_from:
+- doi: 10.1093/bioinformatics/btad184
+  title: 'methylR: a graphical interface for comprehensive DNA methylation array data analysis'
+- doi: 10.1093/bioadv/vbad089
+  title: 'Scdrake: a reproducible and scalable pipeline for scRNA-seq data analysis'
+- doi: 10.1016/j.xpro.2022.102038
+  title: Computational approach to evaluate scRNA-seq data quality and gene body coverage with SkewC
+source_repos:
+- https://github.com/JD2112/methylr
+- https://github.com/bioinfocz/scdrake
+- https://github.com/LSBDT/SkewC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JD2112/methylr

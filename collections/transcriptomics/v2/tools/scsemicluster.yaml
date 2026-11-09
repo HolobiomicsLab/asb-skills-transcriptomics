@@ -1,0 +1,18 @@
+name: scSemiCluster
+slug: scsemicluster
+version_used: null
+edam_topics: []
+evidence_spans:
+- To avoid the shortcomings of these methods, scSemiCluster [10] adds structural similarity regularization to the source data aiming to constrain clustering results of the target data.
+- scSemiCluster [10] adds structural similarity regularization to the source data aiming to constrain clustering results of the target data.
+derived_from:
+- doi: 10.1016/j.gpb.2022.12.008
+  title: 'scEMAIL: Universal and Source-Free Annotation Method for scRNA-Seq Data with Novel Cell-Type Perception'
+source_repos:
+- https://github.com/aster-ww/scEMAIL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aster-ww/scEMAIL

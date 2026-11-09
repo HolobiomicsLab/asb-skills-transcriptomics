@@ -1,0 +1,16 @@
+name: simhash
+slug: simhash
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.isci.2021.102855
+  title: A reference-free approach for cell type classification with scRNA-seq
+source_repos:
+- https://github.com/digi2002/scSimClassify
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/digi2002/scSimClassify

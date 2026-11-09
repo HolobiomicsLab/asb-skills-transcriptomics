@@ -1,0 +1,19 @@
+name: scDREAMER-Sup
+slug: scdreamer-sup
+version_used: null
+edam_topics: []
+evidence_spans:
+- for both unsupervised and supervised (scDREAMER-Sup) integration of multiple batches
+- '*scDREAMER-SUP* for a supervised integration across multiple batches'
+- The scDREAMER model was further extended to scDREAMER-Supervised (scDREAMER-Sup), which can leverage existing cell type annotations to further improve biological conservation
+derived_from:
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+source_repos:
+- https://github.com/Zafar-Lab/scDREAMER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Zafar-Lab/scDREAMER

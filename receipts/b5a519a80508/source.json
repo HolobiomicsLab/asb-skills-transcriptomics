@@ -1,0 +1,51 @@
+{
+  "asb_commit": "da8abd15",
+  "corpus_commit": "9f15448",
+  "cut_id": "b5a519a80508",
+  "domain": "transcriptomics",
+  "model": "BAAI/bge-small-en-v1.5",
+  "output_tree_sha256": "e0ac81f779af2513f433ecc0a2560d2a46607611e2a0dd56e3c32cc91f5fa4cf",
+  "receipts": [
+    "bootstrap.txt",
+    "bootstrap_receipt.json",
+    "check_license_tiers.txt",
+    "check_provenance_tiers.txt",
+    "check_tools_index.txt",
+    "checks.json",
+    "collect.txt",
+    "collect_receipt.json",
+    "corpus.yaml",
+    "corpus_join_receipt.json",
+    "evidence_trim_receipt.json",
+    "gate.txt",
+    "gate_report.json",
+    "gates.txt",
+    "join.txt",
+    "lint.txt",
+    "mapping.json",
+    "same_paper.txt",
+    "same_paper_pairs.json",
+    "source.json",
+    "surface.txt",
+    "verify.txt"
+  ],
+  "stage_script_sha256": {
+    "bootstrap_indexes.py": "165852aecced776cdcbae98ca76f21419c9d6cec870c0b4e692311850fd1d122",
+    "check_release_surface.py": "8455d96b609e44040f1138b80245ab2f4aa34cc0cccb809205a18d13b90d07ef",
+    "collect_from_cut.py": "8bf1541bcda8e336b2fad1b3945d3678a577665622fec982e93bd26ea0b52093",
+    "join_corpus_records.py": "5f7dd6fc6cb6ed0b9bc7c0af43efd61bd9b865ce8191af4208747480d11773c7",
+    "release_surface_rules.yaml": "fd05ca0fd5811bc7c76518d2fe33305e4da746de897c9020645c5ff6cb463352",
+    "run_candidate_gates.py": "ddaca83961a63c06464504794794bde18062e77294b09fc3318268ed7637f831",
+    "same_paper_pairs.py": "4932386ffcc4a5376b01134959459a95b128848925975f0c6ac280b6d84d706c"
+  },
+  "status": "complete",
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "suggest": 0.9
+  },
+  "tooling_commit": "b8c22a6bc",
+  "version": "v2",
+  "view": "outputs/asbb_classA_papers_2026-09-17_filtered/transcriptomics/corpus",
+  "view_source_sha256": "7ff0a9f8628bea1d8b689368a360bfb864bfa58cb37cdb070e7ac70c411d8c70"
+}

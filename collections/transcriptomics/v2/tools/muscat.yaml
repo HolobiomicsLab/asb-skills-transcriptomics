@@ -1,0 +1,21 @@
+name: muscat
+slug: muscat
+version_used: null
+edam_topics: []
+evidence_spans:
+- library(muscat)
+- All methods tested are available within the muscat R package and a Snakemake35 workflow was built to run simulation replicates.
+- provide robust tools for multi-condition analysis within the muscat R package
+- We first load an example dataset and perform a pseudo-bulk differential state analysis
+- provide robust tools for multi-condition analysis within the muscat
+derived_from:
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+source_repos:
+- https://github.com/HelenaLC/muscat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/HelenaLC/muscat

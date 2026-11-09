@@ -1,0 +1,21 @@
+name: RSeQC
+slug: rseqc
+version_used: 2.6.4
+edam_topics: []
+evidence_spans:
+- geneBodyCoverage.pl is a perl script to imitate process of RSeQC 'geneBody_coverage.py' (http://rseqc.sourceforge.net/#genebody-coverage-py).
+- gene coverage was assessed using RSeQC’s (version 2.6.4) geneBody_coverage.py
+derived_from:
+- doi: 10.1016/j.xpro.2022.102038
+  title: Computational approach to evaluate scRNA-seq data quality and gene body coverage with SkewC
+- doi: 10.1038/s41598-021-83459-8
+  title: Investigation of allele specific expression in various tissues of broiler chickens using the detection tool VADT
+source_repos:
+- https://github.com/LSBDT/SkewC
+- https://github.com/mjtiv/VADT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/LSBDT/SkewC

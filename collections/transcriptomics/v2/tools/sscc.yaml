@@ -1,0 +1,17 @@
+name: SSCC
+slug: sscc
+version_used: null
+edam_topics: []
+evidence_spans:
+- Here we proposed Spearman subsampling-clustering-classification (SSCC), a new clustering framework based on random projection and feature construction
+derived_from:
+- doi: 10.1016/j.gpb.2018.10.003
+  title: 'SSCC: A Novel Computational Framework for Rapid and Accurate Clustering Large-Scale Single Cell RNA-Seq Data'
+source_repos:
+- https://github.com/Japrin/sscClust
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Japrin/sscClust

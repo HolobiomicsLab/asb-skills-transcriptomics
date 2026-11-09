@@ -1,0 +1,30 @@
+ASBB release gate — strict mode
+  scope      : content-policy checks and bound artifact integrity
+  collection : collections/transcriptomics/v2
+  corpus     : collections/transcriptomics/v2/corpus.yaml
+  reuse      : vendored-fallback
+  parser     : scripts.release_gate (gate-owned)
+  checks:
+    PASS  access_tier_oa (gates [2, 15]) [hard-gate] — checked=450 / skipped=0 / missing=0 / failed=0 [included papers]
+    PASS  strip_verbatim_similarity (gates [5, 6]) [hard-gate] — checked=36969 / skipped=0 / missing=0 / failed=0 [evidence spans]
+            coverage: inspected_files=11256, files_without_spans=1973, missing_files=0, parser_one_line=35268, parser_multiline=1701, parser_embedded_quote=1534, parser_unterminated=3, strict_regime_dois=93, permissive_regime_dois=357, unknown_text_licence_dois=0
+    PASS  pii_dual_use (gates [6]) [hard-gate] — checked=36969 / skipped=0 / missing=0 / failed=0 [evidence spans]
+            coverage: inspected_files=11256, files_without_spans=1973, missing_files=0, parser_one_line=35268, parser_multiline=1701, parser_embedded_quote=1534, parser_unterminated=3
+    PASS  provenance_doi_license (gates [8]) [hard-gate] — checked=11256 / skipped=0 / missing=0 / failed=0 [leaf skills]
+    PASS  composite_workflows (gates []) — checked=2 / skipped=0 / missing=0 / failed=0 [composite workflows]
+    PASS  layout_packaging (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
+    PASS  skill_frontmatter (gates [10]) [hard-gate] — checked=11257 / skipped=0 / missing=0 / failed=0 [SKILL.md files]
+    PASS  unit_closure (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
+    NOT_APPLICABLE  peer_review_claim (gates []) — checked=0 / skipped=0 / missing=0 / failed=0 [advertised text files]
+            coverage: not_peer_reviewed_dois=0
+    PASS  leaf_text_floor (gates []) — checked=11256 / skipped=0 / missing=0 / failed=0 [leaf skills]
+            coverage: leaves=11256, leaves_without_evidence_spans=11256, leaves_without_any_evidence=1973
+    PASS  gate_input_files (gates []) [hard-gate] — checked=2 / skipped=0 / missing=0 / failed=0 [gate input files]
+    PASS  target_binding (gates []) [hard-gate] — checked=13361 / skipped=0 / missing=0 / failed=0 [payload files]
+    PASS  catalogue_membership (gates [10]) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [items]
+            · [PASS] All 1 collection catalogues agree.
+    PASS  collection_inventory (gates []) [hard-gate] — checked=5 / skipped=0 / missing=0 / failed=0 [inventory fields]
+    NOT_APPLICABLE  cut_manifest (gates []) [hard-gate] — checked=0 / skipped=0 / missing=0 / failed=0 [manifest bindings]
+    PASS  target_stability (gates []) [hard-gate] — checked=1 / skipped=0 / missing=0 / failed=0 [target and input snapshots]
+  overall    : PASS  (exit 0)
+  report     : receipts/b5a519a80508/gate_report.json

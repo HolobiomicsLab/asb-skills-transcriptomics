@@ -1,0 +1,17 @@
+name: stats (R package, hypergeometric testing)
+slug: stats-r-package-hypergeometric-testing
+version_used: null
+edam_topics: []
+evidence_spans:
+- In our implementation, we adopt the lm function that is available in the stats R package.
+derived_from:
+- doi: 10.1038/s41598-022-06500-4
+  title: A novel method for single-cell data imputation using subspace regression
+source_repos:
+- https://github.com/duct317/scISR
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/duct317/scISR

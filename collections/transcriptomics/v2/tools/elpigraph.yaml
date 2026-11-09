@@ -1,0 +1,24 @@
+name: ElPiGraph
+slug: elpigraph
+version_used: null
+edam_topics: []
+evidence_spans:
+- Although ElPiGraph, the core algorithm behind STREAM, inherently supports learning complex graphs, more work is necessary to provide intuitive visualizations
+- ElPiGraph, the core algorithm behind STREAM, inherently supports learning complex graphs
+- Although ElPiGraph, the core algorithm behind STREAM, inherently supports learning complex graphs
+- Although ElPiGraph, the core algorithm behind STREAM
+- ElPiGraph, the core algorithm behind STREAM
+derived_from:
+- doi: 10.1038/s41467-019-09670-4
+  title: Single-cell trajectories reconstruction, exploration and mapping of omics data with STREAM
+source_repos:
+- https://github.com/Albluca/ElPiGraph.R
+- https://github.com/pinellolab/STREAM
+- https://github.com/sysbio-curie/ElPiGraph.R
+- https://github.com/pinellolab/stream
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Albluca/ElPiGraph.R

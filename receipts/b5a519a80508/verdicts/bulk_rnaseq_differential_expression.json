@@ -1,0 +1,42 @@
+{
+  "workflow": "bulk_rnaseq_differential_expression",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "Runs kallisto bus with barcode correction on 10x 3'-tag single-cell libraries to produce UTRome isoform and per-cell counts, which is incompatible with the stated bulk transcriptome-to-gene quantification.",
+      "severity": "advisory",
+      "slug": "kallisto-bus-pseudoalignment-to-utrome",
+      "stage": "quantify_raw_gene_counts"
+    },
+    {
+      "check": "V4",
+      "detail": "Fits pareg regularized regression to gene p-values and pathway similarities, estimating pathway coefficients without computing or testing enrichment at the extremes of a consensus-logFC ranking.",
+      "severity": "advisory",
+      "slug": "pathway-enrichment-estimation",
+      "stage": "test_pathway_enrichment"
+    },
+    {
+      "check": "V4",
+      "detail": "Transforms per-sample expression ranks into GSFM ssGSEA activity scores, which does not test a between-condition consensus-logFC ranking or report the required pathway FDR results.",
+      "severity": "advisory",
+      "slug": "ssgsea-pathway-enrichment-scoring",
+      "stage": "test_pathway_enrichment"
+    },
+    {
+      "check": "V4",
+      "detail": "Runs Trimmomatic in a tumor-normal WES/WGS variant-calling workflow and explicitly excludes RNA-seq inputs, so it does not perform the specified bulk RNA-seq trimming stage.",
+      "severity": "advisory",
+      "slug": "wgs-read-quality-trimming",
+      "stage": "trim_bulk_reads"
+    }
+  ],
+  "verdict": "pass"
+}

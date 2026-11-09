@@ -1,0 +1,46 @@
+name: MAST
+slug: mast
+version_used: null
+edam_topics: []
+evidence_spans:
+- e.g., DESeq27 and MAST8.
+- 'MAST: a flexible statistical framework for assessing transcriptional changes and characterizing heterogeneity in single-cell RNA sequencing data.'
+- pass the upweighted count matrix
+- which can be obtained using any existing single-cell RNAseq DE approaches (i.e., [zingeR](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1406-4),
+- Commonly applied DE methods in scRNA-seq include MAST3, SCDE4, and zingeR5, to name a few.
+- we applied well-known scRNA-seq methods, such as scDD33 and MAST34, although these methods were not specifically intended for the across-sample situation.
+- we applied well-known scRNA-seq methods, such as scDD33 and MAST34
+- genes 7 and 8 show differential expression, pseudotime dependence and pseudotime-covariate interactions
+- Note that `zinbwave` requires R (>=3.4) and Bioconductor (>=3.6).
+derived_from:
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1038/s42003-022-03476-9
+  title: 'Chord: an ensemble machine learning algorithm to identify doublets in single-cell RNA sequencing data'
+- doi: 10.1093/bioinformatics/btad278
+  title: 'ICAT: a novel algorithm to robustly identify cell states following perturbations in single-cell transcriptomes'
+- doi: 10.1038/s41467-020-15298-6
+  title: Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1038/s41467-017-02554-5
+  title: A general and flexible method for signal extraction from single-cell RNA-seq data
+source_repos:
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/13308204545/Chord
+- https://github.com/BradhamLab/icat
+- https://github.com/xzhoulab/iDEA
+- https://github.com/HelenaLC/muscat
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/carmonalab/TILPRED
+- https://github.com/drisso/zinbwave
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yizhuo-wang/CASi

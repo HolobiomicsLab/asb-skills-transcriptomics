@@ -1,0 +1,20 @@
+name: MASI
+slug: masi
+version_used: null
+edam_topics: []
+evidence_spans:
+- annotation= masi.parallel(scores=scores,labels=labels,batch_size=50000)
+- we have built a fast model-free integration method, named MASI (Marker-Assisted Standardization and Integration)
+- scores, labels = masi.gene2cell(ad=ad,cell_markers=cell_markers,use_weight=True)
+- MASI in combination with SCCAF can be used to identify subtypes within major cell types
+derived_from:
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+source_repos:
+- https://github.com/hayatlab/MASI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hayatlab/MASI

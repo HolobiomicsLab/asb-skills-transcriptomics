@@ -1,0 +1,36 @@
+name: scArches
+slug: scarches
+version_used: 1.7.0
+edam_topics: []
+evidence_spans:
+- https://scarches.readthedocs.io/en/latest/scanvi_surgery_pipeline.html
+- When combined with tools like scArches, mvTCR adeptly mapped new multimodal studies into reference atlases
+- As a new attempt, scArches [11] is a transfer learning strategy which maps target data on top of a source dataset by single-cell architectural surgery without sharing raw source data.
+- and scArches, which is compatible with autoencoders such as scANVI32 and trVAE33
+derived_from:
+- doi: 10.1038/s42003-023-04820-3
+  title: MASI enables fast model-free standardization and integration of single-cell transcriptomics data
+- doi: 10.1038/s41467-024-49806-9
+  title: Multi-modal generative modeling for joint analysis of single-cell T cell receptor and gene expression data
+- doi: 10.1093/bib/bbaf586
+  title: 'ProjectSVR: mapping single-cell RNA-seq data to reference atlases by supported vector regression'
+- doi: 10.1016/j.gpb.2022.12.008
+  title: 'scEMAIL: Universal and Source-Free Annotation Method for scRNA-Seq Data with Novel Cell-Type Perception'
+- doi: 10.1038/s41467-021-25957-x
+  title: Efficient and precise single-cell reference atlas mapping with Symphony
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/hayatlab/MASI
+- https://github.com/SchubertLab/mvTCR
+- https://github.com/theislab/scarches
+- https://github.com/jarninggau/ProjectSVR
+- https://github.com/aster-ww/scEMAIL
+- https://github.com/immunogenomics/symphony
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hayatlab/MASI

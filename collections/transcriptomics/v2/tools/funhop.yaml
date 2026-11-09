@@ -1,0 +1,21 @@
+name: FunHoP
+slug: funhop
+version_used: null
+edam_topics: []
+evidence_spans:
+- The original files from KEGG were run through FunHoP’s steps of creating expanded and aggregated networks,
+- The original files from KEGG were run through FunHoP’s steps of creating expanded and aggregated networks, as explained above
+- The original files from KEGG were run through FunHoP’s steps of creating expanded and aggregated networks
+- Our new method, FunHoP, shows all possible genes in each node, making the pathways more complete.
+- FunHoP collapses all genes in a node into one measurement using read counts from RNA-seq.
+derived_from:
+- doi: 10.1016/j.gpb.2021.03.003
+  title: 'FunHoP: Enhanced Visualization and Analysis of Functionally Homologous Proteins in Complex Metabolic Networks'
+source_repos:
+- https://github.com/kjerstirise/FunHoP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/kjerstirise/FunHoP

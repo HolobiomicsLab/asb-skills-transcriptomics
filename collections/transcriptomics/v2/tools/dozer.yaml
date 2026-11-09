@@ -1,0 +1,18 @@
+name: Dozer
+slug: dozer
+version_used: null
+edam_topics: []
+evidence_spans:
+- We suggest to use Dozer [3] to filter genes and construct robust networks that will enable finding meaningful gene modules.
+derived_from:
+- doi: 10.1093/bioinformatics/btad592
+  title: 'MuDCoD: multi-subject community detection in personalized dynamic gene networks from single-cell RNA sequencing'
+source_repos:
+- https://github.com/shanlu01/Dozer
+- https://github.com/bo1929/MuDCoD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shanlu01/Dozer

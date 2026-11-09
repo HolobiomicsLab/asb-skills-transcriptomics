@@ -1,0 +1,33 @@
+name: desc
+slug: desc
+version_used: 2.0.3
+edam_topics: []
+evidence_spans:
+- The [**desc**](https://github.com/eleozzr/desc) package is an implementation of deep embedding for single-cell clustering
+- We present DESC, an unsupervised deep embedding algorithm that clusters scRNA-seq data by iteratively optimizing a clustering objective function
+- implementation of deep embedding for single-cell clustering
+- DESC is an unsupervised deep learning algorithm for clustering scRNA-seq data.
+- we released `desc(2.0.3)`
+- 'We have compared our method against eleven state-of-the-art integration methods: scVI20, Scanaroma16, Harmony15, Seurat17, BBKNN18, INSCT48, LIGER19, iMAP22, scANVI30, scGEN31 and scDML33'
+- other deep embedding models have been proposed to enhance the clustering results from diverse perspectives such as, DESC18, scVI19, scCAEs20, scDHA21 and SCA22
+- other deep embedding models have been proposed to enhance the clustering results from diverse perspectives such as, DESC18, scVI19
+derived_from:
+- doi: 10.1038/s41467-020-15851-3
+  title: Deep learning enables accurate clustering with batch effect removal in single-cell RNA-seq analysis
+- doi: 10.1038/s41467-023-43590-8
+  title: scDREAMER for atlas-level integration of single-cell datasets using deep generative model paired with adversarial classifier
+- doi: 10.1038/s41467-023-36134-7
+  title: Topological identification and interpretation for single-cell gene regulation elucidation across multiple platforms using scMGCA
+- doi: 10.1016/j.isci.2023.106536
+  title: Generative pretraining from large-scale transcriptomes for single-cell deciphering
+source_repos:
+- https://github.com/eleozzr/desc
+- https://github.com/Zafar-Lab/scDREAMER
+- https://github.com/Philyzh8/scMGCA
+- https://github.com/deeplearningplus/tGPT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/eleozzr/desc

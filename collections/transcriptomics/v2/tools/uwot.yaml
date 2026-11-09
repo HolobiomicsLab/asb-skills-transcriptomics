@@ -1,0 +1,22 @@
+name: uwot
+slug: uwot
+version_used: null
+edam_topics: []
+evidence_spans:
+- umap_2_res <- umap(embedding_res_svd, min_dist=0.01, metric="euclidean")
+- library(uwot)
+- save_uwot_path = './testing_uwot_model_1'
+derived_from:
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41467-021-25957-x
+  title: Efficient and precise single-cell reference atlas mapping with Symphony
+source_repos:
+- https://github.com/csglab/GEDI
+- https://github.com/immunogenomics/symphony
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/csglab/GEDI

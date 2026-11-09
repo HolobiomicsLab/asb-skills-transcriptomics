@@ -1,0 +1,19 @@
+name: secDrug
+slug: secdrug
+version_used: null
+edam_topics: []
+evidence_spans:
+- we have developed a computational method called secDrug for discovering novel synergistic secondary drug combinations
+- '- `CombinationDrugMyeloma`'
+- '- `CombinationDrugs(dir, file, dest)`'
+derived_from:
+- doi: 10.1038/s41408-022-00636-2
+  title: 'secDrug: a pipeline to discover novel drug combinations to kill drug-resistant multiple myeloma cells using a greedy set cover algorithm and single-cell multi-omics'
+source_repos:
+- https://github.com/Ujjal-Mukherjee/secDrug
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Ujjal-Mukherjee/secDrug

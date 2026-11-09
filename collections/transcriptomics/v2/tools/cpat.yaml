@@ -1,0 +1,21 @@
+name: CPAT
+slug: cpat
+version_used: null
+edam_topics: []
+evidence_spans:
+- CPAT differentiates mRNAs and lncRNAs by using a logistic regression model with several features
+- We benchmarked the performance of LncDC against six existing tools (CPAT, PLEK, CPC2, CPPred, LncFinder, and COME)
+derived_from:
+- doi: 10.1016/j.csbj.2023.02.012
+  title: 'LncCat: An ORF attention model to identify LncRNA based on ensemble learning strategy and fused sequence information'
+- doi: 10.1038/s41598-022-22082-7
+  title: 'LncDC: a machine learning-based tool for long non-coding RNA detection from RNA-Seq data'
+source_repos:
+- https://github.com/a525076133/LncCat
+- https://github.com/lim74/LncDC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/a525076133/LncCat

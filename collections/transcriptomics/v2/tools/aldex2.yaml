@@ -1,0 +1,17 @@
+name: ALDEx2
+slug: aldex2
+version_used: null
+edam_topics: []
+evidence_spans:
+- sccoda.model.other_models.ALDEx2Model
+derived_from:
+- doi: 10.1038/s41467-021-27150-6
+  title: scCODA is a Bayesian model for compositional single-cell data analysis
+source_repos:
+- https://github.com/theislab/scCODA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/theislab/scCODA

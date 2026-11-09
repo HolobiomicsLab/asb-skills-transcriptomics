@@ -1,0 +1,19 @@
+name: curatedAdipoArray
+slug: curatedadipoarray
+version_used: null
+edam_topics: []
+evidence_spans:
+- A curated dataset of Microarrays samples. The samples are MDI-induced pre- adipocytes (3T3-L1) at different time points/stage of differentiation
+- This package is for documenting and distributing a curated dataset of gene expression from MDI-induced 3T3-L1 adipocyte cell model
+- The curated datasets are available as an R/Bioconductor experimental data package curatedAdipoArray.
+derived_from:
+- doi: 10.1080/21623945.2020.1829852
+  title: Curated gene expression dataset of differentiating 3T3-L1 adipocytes under pharmacological and genetic perturbations
+source_repos:
+- https://github.com/MahShaaban/curatedAdipoArray
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MahShaaban/curatedAdipoArray

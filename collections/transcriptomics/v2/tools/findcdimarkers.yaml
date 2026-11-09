@@ -1,0 +1,17 @@
+name: findCDIMarkers
+slug: findcdimarkers
+version_used: null
+edam_topics: []
+evidence_spans:
+- cdi_output <- findCDIMarkers(object =  so.query, features.x = "sub_cluster", features.y = expr_gene)
+derived_from:
+- doi: 10.1038/s42003-022-04093-2
+  title: Multi-level cellular and functional annotation of single-cell transcriptomes using scPipeline
+source_repos:
+- https://github.com/NMikolajewicz/scMiko
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/NMikolajewicz/scMiko

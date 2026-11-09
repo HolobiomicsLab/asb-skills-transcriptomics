@@ -1,0 +1,23 @@
+name: ACTINN
+slug: actinn
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.csbj.2021.10.027
+  title: Automatic cell type identification methods for single-cell RNA sequencing
+- doi: 10.1016/j.csbj.2022.08.028
+  title: 'scWizard: A web-based automated tool for classifying and annotating single cells and downstream analysis of single-cell RNA-seq data in cancers'
+- doi: 10.1016/j.crmeth.2023.100577
+  title: Single-cell assignment using multiple-adversarial domain adaptation network with large-scale references
+source_repos:
+- https://github.com/mafeiyang/ACTINN
+- https://github.com/xiebb123456/AutomaticCellTypeIdentification
+- https://github.com/Dulab2020/scWizard
+- https://github.com/SELINA-team/SELINA.py
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mafeiyang/ACTINN

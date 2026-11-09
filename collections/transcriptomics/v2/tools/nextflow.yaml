@@ -1,0 +1,30 @@
+name: Nextflow
+slug: nextflow
+version_used: null
+edam_topics: []
+evidence_spans:
+- nextflow run DaneVass/bartab -profile <test_SE,test_PE,test_SE_ref_free,test_sc,test_sc_bam,test_sc_saw_fastq>,<conda,docker,singularity>,<slurm,lsf>
+- nextflow run DaneVass/bartab --help
+- we present BARtab, a portable and scalable Nextflow pipeline
+- Nextflow enables reproducible computational workflows
+- ./nextflow run guigolab/sqtlseeker2-nf -with-docker
+- curl -fsSL get.nextflow.io | bash
+- Install Nextflow
+derived_from:
+- doi: 10.1016/j.crmeth.2024.100763
+  title: Analysis of synthetic cellular barcodes in the genome and transcriptome with BARtab and bartools
+- doi: 10.1016/j.xplc.2023.100631
+  title: 'scPlant: A versatile framework for single-cell transcriptomic data analysis in plants'
+- doi: 10.1038/s41467-020-20578-2
+  title: Identification and analysis of splicing quantitative trait loci across multiple tissues in the human genome
+source_repos:
+- https://github.com/DaneVass/BARtab
+- https://github.com/VIB-PSB/MINI-EX
+- https://github.com/compbioNJU/scPlant
+- https://github.com/guigolab/sqtlseeker2-nf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DaneVass/BARtab

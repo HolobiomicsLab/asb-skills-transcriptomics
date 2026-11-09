@@ -1,0 +1,19 @@
+name: scRNA-seq
+slug: scrna-seq
+version_used: null
+edam_topics: []
+evidence_spans:
+- Pseudotime analysis based on single-cell RNA-seq (scRNA-seq) data has been widely used
+- Pseudotime analysis with single-cell RNA-sequencing (scRNA-seq) data has been widely used to study dynamic gene regulatory programs
+- Pseudotime analysis based on single-cell RNA-seq (scRNA-seq) data has been widely used to study dynamic gene regulatory programs
+derived_from:
+- doi: 10.1038/s41467-023-42841-y
+  title: A statistical framework for differential pseudotime analysis with multiple single-cell RNA-seq samples
+source_repos:
+- https://github.com/Winnie09/Lamian
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Winnie09/Lamian

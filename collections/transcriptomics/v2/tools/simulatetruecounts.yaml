@@ -1,0 +1,17 @@
+name: SimulateTrueCounts
+slug: simulatetruecounts
+version_used: null
+edam_topics: []
+evidence_spans:
+- SimulateTrueCounts generates true transcript counts for the given number of genes and cells
+derived_from:
+- doi: 10.1038/s41467-019-10500-w
+  title: Simulating multiple faceted variability in single cell RNA sequencing
+source_repos:
+- https://github.com/YosefLab/SymSim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YosefLab/SymSim

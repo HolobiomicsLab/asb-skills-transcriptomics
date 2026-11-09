@@ -1,0 +1,18 @@
+name: Genrich
+slug: genrich
+version_used: null
+edam_topics: []
+evidence_spans:
+- Genrich -t atac/genome.bam -o atac/genome.bed
+- Genrich -t atac/genome.bam -o atac/genome.bed -f atac/genome_peaks.log -v
+derived_from:
+- doi: 10.1093/bioinformatics/btae168
+  title: A machine-readable specification for genomics assays
+source_repos:
+- https://github.com/cellatlas/cellatlas
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cellatlas/cellatlas

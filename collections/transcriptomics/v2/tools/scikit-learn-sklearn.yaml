@@ -1,0 +1,21 @@
+name: scikit-learn (sklearn)
+slug: scikit-learn-sklearn
+version_used: null
+edam_topics: []
+evidence_spans:
+- Synthetic data of different shapes were produced by the sklearn package in Python
+- We implemented the hold-out validation strategy proposed by the python package sklearn9 (function model_selection.train_test_split)
+derived_from:
+- doi: 10.1038/s41467-022-31107-8
+  title: Forest Fire Clustering for single-cell sequencing combines iterative label propagation with parallelized Monte Carlo simulations
+- doi: 10.1038/s41467-020-15523-2
+  title: SciBet as a portable and fast single cell type identifier
+source_repos:
+- https://github.com/gersteinlab/forest-fire-clustering
+- https://github.com/PaulingLiu/scibet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gersteinlab/forest-fire-clustering

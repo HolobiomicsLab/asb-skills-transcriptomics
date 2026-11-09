@@ -1,0 +1,18 @@
+name: ACTIONet (Python package)
+slug: actionet-python-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install git+https://github.com/shmohammadi86/ACTIONet@python-devel
+derived_from:
+- doi: 10.1038/s41467-020-18416-6
+  title: A multiresolution framework to characterize single-cell state landscapes
+source_repos:
+- https://github.com/shmohadi86/ACTIONet
+- https://github.com/shmohammadi86/ACTIONet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shmohadi86/ACTIONet

@@ -1,0 +1,17 @@
+name: bash
+slug: bash
+version_used: null
+edam_topics: []
+evidence_spans:
+- bash run_cci.sh AML1_cluster1 (toy data in data_obj/)
+derived_from:
+- doi: 10.1038/s41421-020-00223-4
+  title: Integrated decoding hematopoiesis and leukemogenesis using single-cell sequencing and its medical implication
+source_repos:
+- https://github.com/pengfeeei/cci
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/pengfeeei/cci

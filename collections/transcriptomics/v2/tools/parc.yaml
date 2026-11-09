@@ -1,0 +1,20 @@
+name: PARC
+slug: parc
+version_used: null
+edam_topics: []
+evidence_spans:
+- graph pruning for PARC clustering stage
+- global level  graph pruning for PARC clustering stage. Key tuning parameter.
+- Single-cell level graph is clustered such that each node represents a cluster of single cells (computed by our clustering algorithm PARC14)
+- global level  graph pruning for PARC clustering stage
+derived_from:
+- doi: 10.1038/s41467-021-25773-3
+  title: Generalized and scalable trajectory inference in single-cell omics data with VIA
+source_repos:
+- https://github.com/ShobiStassen/VIA
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ShobiStassen/VIA

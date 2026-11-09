@@ -1,0 +1,17 @@
+name: ROGUE (R package)
+slug: rogue-r-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- is implemented in an open-source R package ROGUE
+derived_from:
+- doi: 10.1038/s41467-020-16904-3
+  title: An entropy-based metric for assessing the purity of single cell populations
+source_repos:
+- https://github.com/PaulingLiu/ROGUE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PaulingLiu/ROGUE

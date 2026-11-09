@@ -1,0 +1,156 @@
+name: DESeq2
+slug: deseq2
+version_used: 1.22.2
+edam_topics: []
+evidence_spans:
+- we re-quantitated the high quality transcriptome with RSEM to perform differential expression analysis
+- Seurat18, DESeq226, edgeR27, and Limma25 are among the top methods in discovering differentially expressed genes using single-cell data
+- Get differential genes from DESeq2 method
+- test.use = "DESeq2"
+- We selected Limma, Seurat, DESeq2, and edgeR for DE methods, given that they were top-ranked methods in a benchmark study
+- Count data are normalized using the DESeq2 package in R with the variance stabilizing transformation (vst) function
+- e.g., DESeq27 and MAST8.
+- But more complex model-based frameworks have been shown to achieve better performance, e.g., DESeq27 and MAST8.
+- DESeq252 for statistical analysis
+- Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2
+- Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2
+- API documentation
+- usually performed via well-known R Bioconductor packages such as DESeq2, edgeR, or limma-voom.
+- DESeq2::DESeqDataSetFromMatrix(
+- the Lafora disease experiment, showed DESeq2 was the most conservative method
+- apply GEDI (hyperplane and hyperellipsoid), LEMUR, miloDE, and DESeq2 pseudobulk
+- We leverage the DESeq2 R/Bioconductor package to identify the differentially expressed (DE) genes46
+- We leverage the DESeq2 R/Bioconductor package to identify the differentially expressed (DE) genes
+- DESeq2 and edgeR employ negative binomial regression to assess differential expression
+- Differential expression analysis on the TNBC1 dataset was performed using the FindMarkers function from Seurat45 using the DESeq2 model46.
+- 57 up-regulated genes in subclone 1 (Adjusted p-value < 0.01, Seurat FindMarkers function with DESeq2 model
+- pseudobulk counts were used as input to bulk RNA-seq differential engines, such as edgeR22, DESeq223, or limma-voom24,25.
+- pseudobulk counts were used as input to bulk RNA-seq differential engines, such as edgeR22, DESeq223, or limma-voom24,25
+- This selection implements DESeq2 methodology on the subset of the data selected to generate an A vs B log fold change
+- Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2
+- genes 7 and 8 show differential expression, pseudotime dependence and pseudotime-covariate interactions
+- Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2
+- All the bulk datasets were normalized using the DESeq19 package in R and single-cell data using Counts Per Million (CPM)
+- standard normalization procedures using existing methods such as edgeR and DEseq2
+- but you could also use vst from DeSeq2 or any other method you deem interesting
+- you could also use vst from DeSeq2 or any other method
+- We apply DESeq2 to conduct differential expression analysis of these marker genes by comparing one cluster versus the others
+- We use the R package DESeq231 to identify DE genes from the bulk data
+- command-line based analysis pipeline (DEseq2 and edgeR)
+- '''SeedMatchR'' is designed to extend current differential expression analysis tools, such as ''DESeq2'', by annotating results with predicted seed matches.'
+- '''SeedMatchR'' is designed to extend current differential expression analysis tools, such as ''DESeq2'''
+- The `DESEQ2` mode of `SeedMatchR` assumes that you will be performing your analysis on `DESEQ2` results outputs
+- '`res`: A data frame of DESEQ2 results.'
+- "'SeedMatchR' is designed to extend current differential \nexpression analysis tools, such as 'DESeq2', by annotating results with \npredicted seed matches."
+- SeedMatchR is designed to extend current differential expression analysis tools, such as DESeq2, by annotating results with predicted seed matches
+- The collapsed and uncollapsed groups were analyzed with DESeq218.
+derived_from:
+- doi: 10.1038/s41467-021-21894-x
+  title: Aptardi predicts polyadenylation sites in sample-specific transcriptomes using high-throughput RNA sequencing and DNA sequence
+- doi: 10.1016/j.csbj.2021.08.009
+  title: 'ARMT: An automatic RNA-seq data mining tool based on comprehensive and integrative analysis in cancer research'
+- doi: 10.1038/s41467-023-36637-3
+  title: ASGARD is A Single-cell Guided Pipeline to Aid Repurposing of Drugs
+- doi: 10.1016/j.crmeth.2021.100133
+  title: A Bayesian factorization method to recover single-cell RNA sequencing data
+- doi: 10.1093/bioadv/vbae034
+  title: Inference of differential gene regulatory networks using boosted differential trees
+- doi: 10.1038/s41598-024-58566-x
+  title: 'CASi: A framework for cross-timepoint analysis of single-cell RNA sequencing data'
+- doi: 10.1038/s41598-022-19782-5
+  title: CCIVR facilitates comprehensive identification of cis-natural antisense transcripts with their structural characteristics and expression profiles
+- doi: 10.1038/s41467-023-40503-7
+  title: Cell-type-specific co-expression inference from single cell RNA-sequencing data
+- doi: 10.1038/s41467-018-07931-2
+  title: Single-cell RNA-seq denoising using a deep count autoencoder
+- doi: 10.1016/j.isci.2021.103331
+  title: 'DCcov: Repositioning of drugs and drug combinations for SARS-CoV-2 infected lung through constraint-based modeling'
+- doi: 10.1093/bioinformatics/btad192
+  title: 'DEGGs: an R package with shiny app for the identification of differentially expressed gene–gene interactions in high-throughput sequencing data'
+- doi: 10.1038/s41467-021-24152-2
+  title: Spearheading future omics analyses using dyngen, a multi-modal simulator of single cells
+- doi: 10.1038/s41598-021-94343-w
+  title: Gene expression analysis method integration and co-expression module detection applied to rare glucide metabolism disorders using ExpHunterSuite
+- doi: 10.1038/s41467-024-50963-0
+  title: A unified model for interpretable latent embedding of multi-sample, multi-condition single-cell data
+- doi: 10.1038/s41540-021-00175-9
+  title: Computational analysis of fused co-expression networks for the identification of candidate cancer gene biomarkers
+- doi: 10.1093/bioinformatics/btad279
+  title: 'Kimma: flexible linear mixed effects modeling with kinship covariance for RNA-seq data'
+- doi: 10.1038/s41467-022-28845-0
+  title: MQuad enables clonal substructure discovery using single cell mitochondrial variants
+- doi: 10.1038/s41467-020-19894-4
+  title: muscat detects subpopulation-specific state transitions from multi-sample multi-condition single-cell transcriptomics data
+- doi: 10.1038/s42003-023-04461-6
+  title: Open-source curation of a pancreatic ductal adenocarcinoma gene expression analysis platform (pdacR) supports a two-subtype model
+- doi: 10.1038/s41467-018-04696-6
+  title: Uncovering pseudotemporal trajectories with covariates from single cell and bulk expression data
+- doi: 10.1038/s41467-017-02391-6
+  title: Perturbation-response genes reveal signaling footprints in cancer gene expression
+- doi: 10.1038/s41598-020-67016-3
+  title: Recursive Consensus Clustering for novel subtype discovery from transcriptome data
+- doi: 10.1016/j.gpb.2020.06.014
+  title: 'redPATH: Reconstructing the Pseudo Development Time of Cell Lineages in Single-Cell RNA-Seq Data and Applications in Cancer'
+- doi: 10.1016/j.csbj.2021.05.014
+  title: 'RiboDoc: A Docker-based package for ribosome profiling analysis'
+- doi: 10.1038/s41540-024-00331-x
+  title: Representation and quantification of module activity from omics data with rROMA
+- doi: 10.1038/s41467-021-22008-3
+  title: Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data
+- doi: 10.1038/s41467-018-03405-7
+  title: An accurate and robust imputation method scImpute for single-cell RNA-seq data
+- doi: 10.1093/bib/bbaf279
+  title: 'scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks'
+- doi: 10.1038/s41408-022-00636-2
+  title: 'secDrug: a pipeline to discover novel drug combinations to kill drug-resistant multiple myeloma cells using a greedy set cover algorithm and single-cell multi-omics'
+- doi: 10.1093/bioinformatics/btae011
+  title: 'SeedMatchR: identify off-target effects mediated by siRNA seed regions in RNA-seq experiments'
+- doi: 10.1080/2162402x.2020.1737369
+  title: Deciphering the transcriptomic landscape of tumor-infiltrating CD8 lymphocytes in B16 melanoma tumors with single-cell RNA-Seq
+- doi: 10.1016/j.csbj.2021.09.021
+  title: 'Transfer RNA-derived non-coding RNAs (tncRNAs): Hidden regulation of plants'' transcriptional regulatory circuits'
+- doi: 10.1038/s41598-018-31064-7
+  title: Unique Molecular Identifiers reveal a novel sequencing artefact with implications for RNA-Seq based gene expression analysis
+- doi: 10.1002/sim.9430
+  title: Differential expression of single‐cell RNA‐seq data using Tweedie models
+source_repos:
+- https://github.com/luskry/aptardi
+- https://github.com/Dulab2020/ARMT
+- https://github.com/lanagarmire/ASGARD
+- https://github.com/maiziezhoulab/Bfimpute
+- https://github.com/scibiome/boostdiff_inference
+- https://github.com/yizhuo-wang/CASi
+- https://github.com/CCIVR/ccivr
+- https://github.com/ChangSuBiostats/CS-CORE
+- https://github.com/theislab/dca
+- https://github.com/sysbiolux/DCcov
+- https://github.com/elisabettasciacca/DEGGs
+- https://github.com/dynverse/dyngen
+- https://github.com/seoanezonjic/ExpHunterSuite
+- https://github.com/csglab/GEDI
+- https://github.com/DEIB-GECO/GeneNetFusion
+- https://github.com/BIGslu/kimma
+- https://github.com/single-cell-genetics/MQuad
+- https://github.com/HelenaLC/muscat
+- https://github.com/rmoffitt/pdacR
+- https://github.com/kieranrcampbell/phenopath
+- https://github.com/saezlab/progeny
+- https://github.com/MSCTR/RecursiveConsensusClustering
+- https://github.com/tinglab/redPATH
+- https://github.com/equipeGST/RiboDoc
+- https://github.com/sysbio-curie/rROMA
+- https://github.com/ttgump/scDCC
+- https://github.com/Vivianstats/scImpute
+- https://github.com/LHBCB/scvalue
+- https://github.com/Ujjal-Mukherjee/secDrug
+- https://github.com/tacazares/SeedMatchR
+- https://github.com/carmonalab/TILPRED
+- https://github.com/skbinfo/tncRNA-Toolkit
+- https://github.com/ncgr/UMI-analysis
+- https://github.com/himelmallick/Tweedieverse
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/luskry/aptardi

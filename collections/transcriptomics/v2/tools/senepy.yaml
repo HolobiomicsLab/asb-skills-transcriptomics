@@ -1,0 +1,19 @@
+name: SenePy
+slug: senepy
+version_used: null
+edam_topics: []
+evidence_spans:
+- To install senePy, follow these steps
+- We have generated the open-source Python package SenePy (https://github.com/jaleesr/senepy).
+- score_hub contains multiple options that can affect the scoring method
+derived_from:
+- doi: 10.1038/s41467-025-57047-7
+  title: Unveiling the cell-type-specific landscape of cellular senescence through single-cell transcriptomics using SenePy
+source_repos:
+- https://github.com/jaleesr/senepy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jaleesr/senepy
