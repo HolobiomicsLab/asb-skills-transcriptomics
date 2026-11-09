@@ -13,7 +13,6 @@ when_to_use_negative:
   inference — the article notes no wet-lab validation was performed
 edam_operation: http://edamontology.org/operation_2238
 edam_topics:
-- http://edamontology.org/topic_2648
 - http://edamontology.org/topic_2269
 tools:
 - name: TimiGP
@@ -56,7 +55,6 @@ metadata:
   - xCell
   edam_operation: http://edamontology.org/operation_2238
   edam_topics:
-  - http://edamontology.org/topic_2648
   - http://edamontology.org/topic_2269
   provenance_tier: literature
 license: CC-BY-4.0

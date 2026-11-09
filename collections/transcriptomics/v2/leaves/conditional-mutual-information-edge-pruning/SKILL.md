@@ -12,7 +12,7 @@ when_to_use_negative:
   during GRN construction
 - Strict causal/directional regulatory claims are required — pruned SCING links are
   not necessarily causal or directional
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -39,7 +39,7 @@ metadata:
   tools:
   - SCING
   - conda
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

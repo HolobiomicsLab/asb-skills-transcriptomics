@@ -10,7 +10,7 @@ when_to_use_negative:
   feature alignment methods (e.g. scArches) rather than source-free adaptation
 - Only per-cluster annotations without cell-level uncertainty are needed — the E-score
   requires per-cell classifier probability outputs
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -45,7 +45,7 @@ metadata:
   - scEMAIL
   - scSemiCluster
   - scmap
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   statistical association between traits and individual cells does not imply causality
 - Your biological question depends on non-canonical or non-KEGG pathway definitions
   — the method is restricted to canonical KEGG pathways (5-300 genes)
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3170
@@ -54,7 +54,7 @@ metadata:
   - Seurat AddModuleScore function
   - scPagwas
   - scPagwas_py
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3170

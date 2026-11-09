@@ -11,7 +11,7 @@ when_to_use_negative:
   — the article declares this fine-grained appraisal beyond its scope
 - When the input is already a summarized table of expression statistics rather than
   per-cell count values
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -39,7 +39,7 @@ metadata:
   - Python
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

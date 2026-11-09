@@ -10,7 +10,7 @@ when_to_use_negative:
   library-size assumption no longer applies.
 - Spatial coordinates or cell-type labels are the analysis target — this skill only
   transforms expression matrices and computes QC metrics.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -43,7 +43,7 @@ metadata:
   - Tangram
   - scSpace
   - scanpy
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

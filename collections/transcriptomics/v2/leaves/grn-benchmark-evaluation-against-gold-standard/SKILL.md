@@ -11,7 +11,7 @@ when_to_use_negative:
   remains a significant challenge'
 - The network is a refined Augusta GRN with signed interactions destined for Boolean
   model construction rather than benchmarking
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0204
@@ -42,7 +42,7 @@ metadata:
   tools:
   - Augusta
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0204

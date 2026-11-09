@@ -11,7 +11,7 @@ when_to_use_negative:
   simulation) rather than visualization of an already-partitioned graph
 - Data are bulk or pseudobulk profiles with no single-cell graph, since force-directed
   single-cell layouts require cell-level graph nodes
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -52,7 +52,7 @@ metadata:
   - CellOracle
   - Python
   - igraph
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

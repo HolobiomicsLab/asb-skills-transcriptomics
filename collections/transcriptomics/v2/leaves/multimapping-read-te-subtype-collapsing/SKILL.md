@@ -10,7 +10,7 @@ when_to_use_negative:
   demultiplexing logic does not apply
 - Single-cell ATAC-seq chromatin accessibility quantification — use scTEATAC with
   its own index instead
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0204
 - http://edamontology.org/topic_0080
@@ -37,7 +37,7 @@ metadata:
   tools:
   - scTE
   - scTE_build
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0204
   - http://edamontology.org/topic_0080

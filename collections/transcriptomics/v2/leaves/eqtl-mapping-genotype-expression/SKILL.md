@@ -10,7 +10,7 @@ when_to_use_negative:
   eQTL models cannot be constructed
 - Samples are unrelated and no kinship matrix is available, so the kinship-covariance
   random effect central to this model is not estimable
-edam_operation: http://edamontology.org/operation_3224
+edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_0625
 - http://edamontology.org/topic_3308
@@ -43,7 +43,7 @@ metadata:
   - devtools
   - kimma
   - lme4qtl
-  edam_operation: http://edamontology.org/operation_3224
+  edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_0625
   - http://edamontology.org/topic_3308

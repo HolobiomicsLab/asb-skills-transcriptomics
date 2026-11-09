@@ -9,7 +9,7 @@ when_to_use_negative:
 - When input is already a ranked driver-gene list or a feature table rather than raw
   tumor/normal expression matrices — WMDS.net requires expression matrices to recompute
   co-expression
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -41,7 +41,7 @@ metadata:
   - DawnRank
   - Matlab R2020b
   - WMDS.net
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

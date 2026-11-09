@@ -11,7 +11,7 @@ when_to_use_negative:
   notes mis-classification arose from their absence).
 - The goal is whole-dataset deconvolution rather than deconvolving a pre-annotated
   subset — run feature selection/clustering on all cells instead.
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3934
@@ -46,7 +46,7 @@ metadata:
   - Seurat
   - SingleR
   - hdf5r
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3934

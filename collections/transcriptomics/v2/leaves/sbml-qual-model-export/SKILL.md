@@ -10,7 +10,7 @@ when_to_use_negative:
   a first draft to be manually edited
 - The organism's genome (GenBank file) is unavailable, since add_dbs_info-based conversion
   depends on additional genomic knowledge
-edam_operation: http://edamontology.org/operation_0271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2258
 tools:
@@ -47,7 +47,7 @@ metadata:
   - Cell Collective database
   - CellNOpt
   - Python
-  edam_operation: http://edamontology.org/operation_0271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2258
   provenance_tier: literature

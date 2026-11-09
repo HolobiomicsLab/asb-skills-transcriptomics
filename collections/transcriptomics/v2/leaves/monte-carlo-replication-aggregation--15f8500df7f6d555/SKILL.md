@@ -11,7 +11,7 @@ when_to_use_negative:
   precision/recall/F1 against ground truth cannot be computed
 - When the goal is de novo network inference rather than head-to-head comparison of
   already-implemented subnetwork detection methods
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 tools:
 - name: SEMtree()
   role: Provides the ST and STr2z tree-based subnetwork detection methods being benchmarked
@@ -43,7 +43,7 @@ metadata:
   - SEMgraph
   - SEMtree()
   - igraph
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -14,7 +14,7 @@ when_to_use_negative:
 - Analysis requires the full undirected communication network without focusing on
   a sender/receiver cell type; filtering to one viewpoint would discard the rest of
   the network.
-edam_operation: http://edamontology.org/operation_3696
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -45,7 +45,7 @@ metadata:
   - CellChat
   - InterCellar
   - R
-  edam_operation: http://edamontology.org/operation_3696
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

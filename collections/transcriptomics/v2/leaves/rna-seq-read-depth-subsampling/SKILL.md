@@ -14,7 +14,7 @@ edam_operation: http://edamontology.org/operation_3230
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: samtools
   role: Subsample read pairs by successive halving to create depth series
@@ -72,7 +72,7 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -11,7 +11,7 @@ when_to_use_negative:
   and are not interchangeable with genome-based shuffling
 - When testing associations with region types other than 5'UTR/CDS (e.g. stop codons
   or threeUTR) without adapting the customPick function accordingly
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_0085
@@ -43,7 +43,7 @@ metadata:
   - R
   - RgnTX
   - TxDb.Hsapiens.UCSC.hg19.knownGene
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_0085

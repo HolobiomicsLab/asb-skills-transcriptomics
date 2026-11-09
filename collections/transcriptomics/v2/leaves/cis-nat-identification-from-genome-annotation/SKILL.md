@@ -13,7 +13,7 @@ when_to_use_negative:
   assembled transcriptomes instead.
 - Downstream gene annotation (structure and strand direction) in the database is unknown
   or unreliable, since CCIVR predictions depend on annotation accuracy.
-edam_operation: http://edamontology.org/operation_2434
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0621
@@ -56,7 +56,7 @@ metadata:
   - RSEM
   - STAR
   - pip
-  edam_operation: http://edamontology.org/operation_2434
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0621

@@ -11,7 +11,7 @@ when_to_use_negative:
   and batch mixing metrics robust to lopsided cell proportions are still lacking
 - Integrating technical replicates where cell type-agnostic batch mixing metrics would
   suffice, making a full semi-supervised benchmark unnecessary
-edam_operation: http://edamontology.org/operation_2934
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0091
@@ -64,7 +64,7 @@ metadata:
   - scGen
   - scVI
   - scib-pipeline
-  edam_operation: http://edamontology.org/operation_2934
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0091

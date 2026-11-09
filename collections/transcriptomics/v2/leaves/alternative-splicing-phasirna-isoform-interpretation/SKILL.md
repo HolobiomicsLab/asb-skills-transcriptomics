@@ -12,7 +12,7 @@ when_to_use_negative:
 - Input is a single-reference workflow where only genome-based PHAS loci are needed
   and no transcript isoform distinction is sought (integration with -g y would discard
   only-P results)
-edam_operation: http://edamontology.org/operation_3235
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0659
 tools:
@@ -56,7 +56,7 @@ metadata:
   - Perl5
   - PhasiHunter
   - Seqkit
-  edam_operation: http://edamontology.org/operation_3235
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0659
   provenance_tier: literature

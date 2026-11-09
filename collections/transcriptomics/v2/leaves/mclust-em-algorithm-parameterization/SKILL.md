@@ -9,8 +9,7 @@ when_to_use_negative:
 - The goal is general clustering of cells rather than modeling the within-cell protein-level
   background/positive bimodality
 edam_operation: http://edamontology.org/operation_3891
-edam_topics:
-- http://edamontology.org/topic_3557
+edam_topics: []
 tools:
 - name: mclust
   role: Fits the Gaussian mixture model via the EM algorithm for each cell and returns
@@ -39,8 +38,7 @@ metadata:
   - dsb
   - mclust
   edam_operation: http://edamontology.org/operation_3891
-  edam_topics:
-  - http://edamontology.org/topic_3557
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

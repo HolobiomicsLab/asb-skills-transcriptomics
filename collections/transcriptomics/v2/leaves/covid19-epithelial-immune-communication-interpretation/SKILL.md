@@ -11,7 +11,7 @@ when_to_use_negative:
   CellPhoneDB, ICELLNET, SingleCellSignalR), since input options are currently limited
 - Only a single condition/dataset is available — the skill requires InterCellar's
   multi-condition comparison to define condition-unique couplets
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3361
 tools:
@@ -45,7 +45,7 @@ metadata:
   - R
   - R/Shiny
   - Shiny
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3361
   provenance_tier: literature

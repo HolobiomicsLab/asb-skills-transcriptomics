@@ -8,7 +8,7 @@ when_to_use_negative:
   be computed (e.g. purely exploratory real-data analysis)
 - The goal is a single-method application (e.g. inferring one disease-vs-control network)
   rather than a comparative benchmark across methods and complexity settings
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0602
@@ -43,7 +43,7 @@ metadata:
   - dcanr
   - minet
   - pip
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0602

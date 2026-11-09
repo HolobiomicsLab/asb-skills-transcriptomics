@@ -12,8 +12,7 @@ when_to_use_negative:
 - A new slice is being added to an already-trained SPACEL model — the entire deep
   learning model must be retrained from scratch, which may affect computational efficiency
 edam_operation: http://edamontology.org/operation_3634
-edam_topics:
-- http://edamontology.org/topic_6170
+edam_topics: []
 tools:
 - name: SPACEL
   role: Python package providing the Spoint deconvolution and Splane composition-input
@@ -46,8 +45,7 @@ metadata:
   - Splane
   - Spoint
   edam_operation: http://edamontology.org/operation_3634
-  edam_topics:
-  - http://edamontology.org/topic_6170
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

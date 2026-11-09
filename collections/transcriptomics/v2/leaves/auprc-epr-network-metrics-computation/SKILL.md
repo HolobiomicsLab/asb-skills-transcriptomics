@@ -12,7 +12,7 @@ when_to_use_negative:
   would then be misapplied.
 - When benchmarking on ODE-generated mock-up expression data rather than real ground
   truths, which the authors criticize as uninformative.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -49,7 +49,7 @@ metadata:
   - scGPT
   - scPRINT
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

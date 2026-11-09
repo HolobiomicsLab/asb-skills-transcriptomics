@@ -10,7 +10,7 @@ when_to_use_negative:
   for the organism
 - The goal is pathway-level transcriptome enrichment (e.g. GSEA of DEGs) rather than
   pairwise ligand-receptor communication inference
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -54,7 +54,7 @@ metadata:
   - ggplot2
   - heatmaply
   - scCrossTalk
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

@@ -9,10 +9,9 @@ when_to_use_negative:
   protocol
 - You already have paired true/observed count data from a controlled mixture experiment
   (e.g., the sc_mixology cell-line mixtures)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3081
 tools:
 - name: Splatter
   role: Generates the simulated scRNA-Seq count matrices (Dataset 1, Dataset 8) with
@@ -55,10 +54,9 @@ metadata:
   - numpy
   - scImpute
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3081
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

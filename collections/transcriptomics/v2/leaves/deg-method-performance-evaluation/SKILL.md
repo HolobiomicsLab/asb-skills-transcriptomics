@@ -10,7 +10,7 @@ when_to_use_negative:
 - When the goal is differential expression calling on a single real dataset rather
   than benchmarking method performance — use the DEgenes Hunter pipeline directly
   instead of the simulation-based evaluation
-edam_operation: http://edamontology.org/operation_3578
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3516
 - http://edamontology.org/topic_0203
@@ -52,7 +52,7 @@ metadata:
   - NOISeq
   - R
   - limma
-  edam_operation: http://edamontology.org/operation_3578
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3516
   - http://edamontology.org/topic_0203

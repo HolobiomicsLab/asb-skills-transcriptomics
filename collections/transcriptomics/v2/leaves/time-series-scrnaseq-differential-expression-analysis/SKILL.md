@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3680
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3279
 tools:
 - name: scTITANS
   role: 'core method: corrects cell asynchrony via pseudotime and identifies time-varying
@@ -59,7 +58,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3680
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3279
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

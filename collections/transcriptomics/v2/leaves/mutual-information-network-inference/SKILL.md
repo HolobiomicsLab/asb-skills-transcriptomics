@@ -13,7 +13,7 @@ when_to_use_negative:
 - Only a single time point or non-time-series expression data are available — edge
   orientation/sign relies on the most significant difference among adjacent pairs
   of time points
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_3170
@@ -55,7 +55,7 @@ metadata:
   - SignaLink
   - Signor
   - TDAracne
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_3170

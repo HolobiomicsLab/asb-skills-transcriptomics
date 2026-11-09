@@ -11,7 +11,7 @@ when_to_use_negative:
   relies on a single LD matrix, so top_component sharing across such studies is unreliable
 - 'When the goal is to claim disease-eQTL causality: colocalization does not imply
   mediation, and colocalizing signals can arise from horizontal pleiotropy'
-edam_operation: http://edamontology.org/operation_3777
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - CAFEH
   - Python
-  edam_operation: http://edamontology.org/operation_3777
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

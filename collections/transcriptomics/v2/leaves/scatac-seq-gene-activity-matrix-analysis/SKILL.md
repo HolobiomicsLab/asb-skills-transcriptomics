@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3935
 edam_topics:
 - http://edamontology.org/topic_3173
-- http://edamontology.org/topic_2228
 tools:
 - name: Cellar
   role: Interactive graphical pipeline orchestrating preprocessing, PCA, clustering,
@@ -58,7 +57,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3935
   edam_topics:
   - http://edamontology.org/topic_3173
-  - http://edamontology.org/topic_2228
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

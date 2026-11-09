@@ -13,7 +13,7 @@ when_to_use_negative:
   of events, and quality of survival information
 - The goal is immunotherapy response rather than prognosis — use the TimiGP-Response
   module (e.g. TimiFisher) instead of the Cox-based Prognosis Module
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2640
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - R
   - TimiGP
   - devtools
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2640
   - http://edamontology.org/topic_0203

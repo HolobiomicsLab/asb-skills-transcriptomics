@@ -12,7 +12,7 @@ when_to_use_negative:
   true zeros)
 - No ground-truth labels or simulation-derived labels exist to compute ARI, so imputation
   quality cannot be evaluated by clustering
-edam_operation: http://edamontology.org/operation_4091
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -56,7 +56,7 @@ metadata:
   - scISR
   - scImpute
   - scScope
-  edam_operation: http://edamontology.org/operation_4091
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

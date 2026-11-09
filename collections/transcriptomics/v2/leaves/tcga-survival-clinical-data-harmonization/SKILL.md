@@ -10,7 +10,7 @@ when_to_use_negative:
   modelled as a time-varying effect rather than a strata factor
 - The outcome of interest is not time-to-event (e.g. binary response) — logistic regression,
   not Cox modelling, is required
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -44,7 +44,7 @@ metadata:
   - dplyr
   - ggplot2
   - tibble
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

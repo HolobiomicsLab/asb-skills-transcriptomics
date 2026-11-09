@@ -12,7 +12,7 @@ when_to_use_negative:
 - When data are bulk Hi-C replicate counts rather than single-cell-level scHi-C count
   tables — scHiCDiff's NB/ZINB models and their BH-adjusted outputs are designed for
   single-cell comparison
-edam_operation: http://edamontology.org/operation_3812
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0602
@@ -44,7 +44,7 @@ metadata:
   - STEM
   - scHiCDiff
   - scSTEM
-  edam_operation: http://edamontology.org/operation_3812
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0602

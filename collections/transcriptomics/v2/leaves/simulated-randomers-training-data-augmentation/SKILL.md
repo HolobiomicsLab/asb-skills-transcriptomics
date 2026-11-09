@@ -11,7 +11,7 @@ when_to_use_negative:
   Dorado, m6ABasecaller) rather than building a custom training set
 - When working with DNA nanopore data — this strategy is grounded in ONT direct RNA
   (dRNA) reads from SQK-RNA002/SQK-RNA004 chemistries
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3170
@@ -52,7 +52,7 @@ metadata:
   - NanoSpeech
   - f5c
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3170

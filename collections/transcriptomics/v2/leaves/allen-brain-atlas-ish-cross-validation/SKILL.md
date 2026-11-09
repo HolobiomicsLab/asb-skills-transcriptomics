@@ -10,7 +10,7 @@ when_to_use_negative:
   pattern to compare against ISH anatomy
 - A curated single-cell reference with confident cell-type annotations already exists,
   making ISH cross-validation redundant for annotation
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3512
@@ -44,7 +44,7 @@ metadata:
   - R
   - STdeconvolve
   - remotes
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3512

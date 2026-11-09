@@ -10,7 +10,7 @@ when_to_use_negative:
 - The mutation calls are not splice-site annotated, or the gene/analysis cohort differs
   from the TP53 TCGA HNSC results object, so the GSC/LSC sample overlap is undefined.
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: SCISSOR
   role: Provides the ScissorOutput shape-change results (GSC/LSC outliers and outlyingness
@@ -36,7 +36,7 @@ metadata:
   - SCISSOR
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

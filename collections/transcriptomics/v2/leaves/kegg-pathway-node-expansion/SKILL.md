@@ -10,7 +10,7 @@ when_to_use_negative:
   from KEGG
 - Data lacking raw RNA-seq read counts — read-count-based prioritization of homologs
   cannot be performed
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_3170
@@ -49,7 +49,7 @@ metadata:
   - FunHoP
   - KEGGScape
   - Voom
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_3170

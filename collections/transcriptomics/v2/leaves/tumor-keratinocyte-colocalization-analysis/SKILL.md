@@ -11,7 +11,7 @@ when_to_use_negative:
   cannot link SC and ST at the single-cell level
 - No spot spatial coordinates are available for the ST data, since pseudo-spatial
   assignment via all_coord depends on them
-edam_operation: http://edamontology.org/operation_3806
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3512
@@ -48,7 +48,7 @@ metadata:
   - STEM
   - scSTEM
   - scanpy
-  edam_operation: http://edamontology.org/operation_3806
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3512

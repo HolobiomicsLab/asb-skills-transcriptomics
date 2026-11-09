@@ -13,7 +13,7 @@ when_to_use_negative:
 - When proteomics-level ligand-receptor evidence is needed — mRNA levels are used
   to approximate protein levels, so a significant interaction is not direct evidence
   of protein-level signaling
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -55,7 +55,7 @@ metadata:
   - createCellChat
   - filterCommunication
   - netAnalysis_computeCentrality
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

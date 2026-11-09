@@ -13,8 +13,7 @@ when_to_use_negative:
 - The data are bulk or non-imaging expression profiles where per-cell marker-intensity
   gating over CyCIF antibody channels does not apply.
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3317
+edam_topics: []
 tools:
 - name: SpatialCells
   role: Provides spatialcells.prep.setGate/setGates for defining marker-intensity
@@ -49,8 +48,7 @@ metadata:
   - MCMICRO
   - SpatialCells
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3317
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

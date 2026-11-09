@@ -13,7 +13,7 @@ when_to_use_negative:
 - The goal is MLP-based classification of communication-associated genes or MIMO graph
   construction (compare_hvg.zip / divide folder workflows), not the CPPLS network
   inference step itself
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3307
 - http://edamontology.org/topic_0659
@@ -58,7 +58,7 @@ metadata:
   - R (version <=)
   - Seurat
   - pls
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3307
   - http://edamontology.org/topic_0659

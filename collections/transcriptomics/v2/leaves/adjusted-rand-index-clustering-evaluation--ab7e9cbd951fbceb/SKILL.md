@@ -12,7 +12,7 @@ when_to_use_negative:
 - Input is a single static clustering with no multi-subject/multi-time-point structure
   — the aggregation scheme (mean over subjects and time points) does not apply as
   designed here
-edam_operation: http://edamontology.org/operation_0563
+edam_operation: http://edamontology.org/operation_0335
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3473
@@ -45,7 +45,7 @@ metadata:
   - MuDCoD
   - MuSDynamicDCBM
   - numpy
-  edam_operation: http://edamontology.org/operation_0563
+  edam_operation: http://edamontology.org/operation_0335
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3473

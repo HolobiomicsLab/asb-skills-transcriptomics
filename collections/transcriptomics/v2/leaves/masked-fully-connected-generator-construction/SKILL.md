@@ -10,7 +10,7 @@ when_to_use_negative:
   normalized expression values
 - You need a predictive model of knockout outcomes for a new dataset rather than a
   generative model — GRouNdGAN must be retrained for new data and is not predictive
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -41,7 +41,7 @@ metadata:
   - GRNBoost2
   - GRouNdGAN
   - scGAN
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

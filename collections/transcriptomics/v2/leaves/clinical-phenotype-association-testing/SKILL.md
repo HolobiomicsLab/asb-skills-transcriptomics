@@ -13,7 +13,6 @@ when_to_use_negative:
   — inferred GRN links are not necessarily causal or directional.
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_3272
 tools:
 - name: SCING
   role: Provides the merged, edge-pruned gene regulatory network that is partitioned
@@ -48,7 +47,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_3272
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

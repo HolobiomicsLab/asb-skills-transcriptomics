@@ -13,7 +13,6 @@ when_to_use_negative:
   13–25-mers for MHC class II, but the workflow restricts extraction to 13,14,15).
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_0657
 tools:
 - name: ScanNeo2
   role: Workflow whose prioritization rules implement the subset check between configured
@@ -57,7 +56,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_0657
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

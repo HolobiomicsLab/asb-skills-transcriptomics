@@ -12,7 +12,7 @@ when_to_use_negative:
 - When cells from one cell type do not share a common expression distribution across
   individuals with different genetic, demographic, or clinical characteristics — an
   assumption CS-CORE explicitly states
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -71,7 +71,7 @@ metadata:
   - locCSN
   - normalisr
   - pheatmap
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

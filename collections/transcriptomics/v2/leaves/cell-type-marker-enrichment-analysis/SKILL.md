@@ -10,7 +10,7 @@ when_to_use_negative:
   network), since marker enrichment per cell type is not defined
 - When you need a quantitative significance judgment per cell type rather than the
   paper's criterion of manual identification of the cell type name in the top 10
-edam_operation: http://edamontology.org/operation_3932
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -45,7 +45,7 @@ metadata:
   - GRnnData
   - Python
   - scPRINT
-  edam_operation: http://edamontology.org/operation_3932
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

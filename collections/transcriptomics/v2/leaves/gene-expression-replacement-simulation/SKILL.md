@@ -12,7 +12,6 @@ when_to_use_negative:
   discriminate it reliably, making the replacement-sensitivity design uninformative
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_4041
 tools:
 - name: GapClust
   role: Primary method under test; detects the rare monocyte population in each synthetic
@@ -48,7 +47,6 @@ metadata:
   edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_4041
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

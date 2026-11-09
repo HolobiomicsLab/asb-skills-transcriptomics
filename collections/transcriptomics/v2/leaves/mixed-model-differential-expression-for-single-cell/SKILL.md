@@ -13,7 +13,7 @@ when_to_use_negative:
   measurements, not pseudobulk matrices
 - When performing differential detection (DD) rather than differential state analysis
   — use pbDD/aggregateData with fun='num.detected' instead per the README
-edam_operation: http://edamontology.org/operation_3577
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -47,7 +47,7 @@ metadata:
   - limma-voom
   - muscat
   - scDD
-  edam_operation: http://edamontology.org/operation_3577
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

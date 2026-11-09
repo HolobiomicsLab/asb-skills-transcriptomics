@@ -13,8 +13,7 @@ when_to_use_negative:
   ones — Spaco enforces a correspondence between color differences and spatial distribution
   that may not match user preferences.
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_3608
+edam_topics: []
 tools:
 - name: Spaco
   role: 'Core tool: builds the CI-graph, selects palettes (adaptive or image-guided),
@@ -62,8 +61,7 @@ metadata:
   - pandas
   - scipy
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_3608
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

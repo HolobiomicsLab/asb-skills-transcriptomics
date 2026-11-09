@@ -10,7 +10,7 @@ when_to_use_negative:
   suffices and no genotype-informative SNV set exists
 - Analysis goals require detecting chimerism below the method's detection level (~4%
   of 6,000 cells), where the K=1 model will be selected
-edam_operation: http://edamontology.org/operation_3259
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3168
 - http://edamontology.org/topic_3308
@@ -35,7 +35,7 @@ metadata:
   tools:
   - Cell Ranger Single-Cell Software Suite
   - Freebayes 1.0.2
-  edam_operation: http://edamontology.org/operation_3259
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3168
   - http://edamontology.org/topic_3308

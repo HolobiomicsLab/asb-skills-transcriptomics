@@ -11,7 +11,7 @@ when_to_use_negative:
   differs from the scRNA-seq reference — use MuSiC2, the iterative variant, instead
 - No single-cell reference with cell type labels and replicate subjects is available,
   since MuSiC requires cross-subject scRNA-seq to weight genes
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - CIBERSORT
   - MuSiC
   - R
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

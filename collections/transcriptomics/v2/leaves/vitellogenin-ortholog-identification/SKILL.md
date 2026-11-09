@@ -10,7 +10,7 @@ when_to_use_negative:
   read mapping instead of ortholog-group refinement.
 - The gene is already present in the KEGG KO system and does not require EcoOmicsDB
   ortholog-based analysis.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0084
 tools:
@@ -47,7 +47,7 @@ metadata:
   - FastTree
   - MAFFT
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0084
   provenance_tier: literature

@@ -11,9 +11,8 @@ when_to_use_negative:
   basecaller is available and supported
 - Signal chunks are truncated or unpadded in a way inconsistent with the chunk length
   the model was trained on
-edam_operation: http://edamontology.org/operation_3759
-edam_topics:
-- http://edamontology.org/topic_3579
+edam_operation: null
+edam_topics: []
 tools:
 - name: NanoSpeech
   role: Basecaller whose pipeline performs the STFT conversion, CNN embedding, and
@@ -42,9 +41,8 @@ metadata:
   tools:
   - NanoSpeech
   - TensorFlow
-  edam_operation: http://edamontology.org/operation_3759
-  edam_topics:
-  - http://edamontology.org/topic_3579
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -10,7 +10,7 @@ when_to_use_negative:
   or non-count summaries)
 - Estimating differential abundance on an actual dataset — use the scCODA model directly
   rather than the synthetic generation utility
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_3170
@@ -60,7 +60,7 @@ metadata:
   - scCODA
   - scCODA_reproducibility
   - tensorflow-probability
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_3170

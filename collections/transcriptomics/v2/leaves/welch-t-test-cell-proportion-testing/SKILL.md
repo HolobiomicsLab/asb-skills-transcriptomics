@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2238
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_2222
 tools:
 - name: PILOT
   role: Provides the patient-level Wasserstein distance matrix, Leiden patient clusters,
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2238
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_2222
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

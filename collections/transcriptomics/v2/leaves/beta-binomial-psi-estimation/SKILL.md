@@ -10,7 +10,7 @@ when_to_use_negative:
   estimates will not pass the >=10 gene-count-in-30-cells filter
 - Bulk or tissue-level splicing analysis where cell-level (inter vs intra) heterogeneity
   decomposition is not the goal
-edam_operation: http://edamontology.org/operation_2264
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3170
@@ -51,7 +51,7 @@ metadata:
   - future
   - future.apply
   - ggplot2
-  edam_operation: http://edamontology.org/operation_2264
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3170

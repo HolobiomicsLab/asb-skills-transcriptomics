@@ -11,7 +11,7 @@ when_to_use_negative:
 - Your environmental exposure is outside the four curated factors (cigarette smoking,
   diet, infections, toxic chemicals) — the paper notes more environmental datasets
   need integrating
-edam_operation: http://edamontology.org/operation_3945
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0092
@@ -51,7 +51,7 @@ metadata:
   - R 4.0.3 / tidyverse
   - RStudio
   - Seurat
-  edam_operation: http://edamontology.org/operation_3945
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0092

@@ -12,8 +12,7 @@ when_to_use_negative:
 - The comparison targets a Bayesian parametric design benchmark rather than U-BOIN
   — that is a different comparison workflow than this TSNP-vs-U-BOIN skill
 edam_operation: http://edamontology.org/operation_3659
-edam_topics:
-- http://edamontology.org/topic_0279
+edam_topics: []
 tools:
 - name: R
   role: Runs the TSNP two-stage simulation, the U-BOIN simulation path, and the Gumbel()/crossratio()
@@ -39,8 +38,7 @@ metadata:
   - R
   - TSNP (R code)
   edam_operation: http://edamontology.org/operation_3659
-  edam_topics:
-  - http://edamontology.org/topic_0279
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

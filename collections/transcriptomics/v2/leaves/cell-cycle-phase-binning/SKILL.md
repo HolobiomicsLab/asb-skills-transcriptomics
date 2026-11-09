@@ -13,7 +13,7 @@ when_to_use_negative:
 - DeepCycle found no cycling genes (shallow sequencing, few RNAs per cell) — the README
   states the results will not be reliable in this case, so downstream phase binning
   is unfounded.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0102
@@ -54,7 +54,7 @@ metadata:
   - scVelo
   - scipy
   - velocyto
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0102

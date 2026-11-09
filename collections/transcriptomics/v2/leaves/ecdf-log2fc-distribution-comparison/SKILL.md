@@ -10,7 +10,7 @@ when_to_use_negative:
   an ECDF comparison — use full_search() or SeedMatchReport() instead
 - The perturbation effect is expected to be a single strong driver rather than cumulative
   seed-mediated repression, making a distributional ECDF/KS comparison uninformative
-edam_operation: http://edamontology.org/operation_0572
+edam_operation: http://edamontology.org/operation_3925
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3518
@@ -44,7 +44,7 @@ metadata:
   - DESeq2
   - R
   - SeedMatchR
-  edam_operation: http://edamontology.org/operation_0572
+  edam_operation: http://edamontology.org/operation_3925
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3518

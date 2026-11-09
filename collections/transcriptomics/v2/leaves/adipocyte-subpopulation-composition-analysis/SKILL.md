@@ -11,7 +11,7 @@ when_to_use_negative:
   across donors — use the JOINTLY joint clustering workflow instead
 - Donor-level metadata lacks weight status, depot, or sex covariates, making the covariate-adjusted
   lm design unidentifiable
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3360
@@ -43,7 +43,7 @@ metadata:
   - JOINTLY
   - R lm
   - WATLAS (SCP2289)
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3360

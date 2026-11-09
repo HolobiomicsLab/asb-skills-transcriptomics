@@ -11,7 +11,7 @@ when_to_use_negative:
   Jupyter notebooks first (initial setup takes a couple of hours)
 - The goal is cross-study marker-gene comparison rather than per-cell-type tables
   for a single imported study
-edam_operation: http://edamontology.org/operation_2434
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0622
@@ -43,7 +43,7 @@ metadata:
   - GraphQL
   - PostgreSQL
   - Python 3
-  edam_operation: http://edamontology.org/operation_2434
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0622

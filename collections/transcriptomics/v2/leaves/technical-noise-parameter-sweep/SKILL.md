@@ -10,7 +10,7 @@ when_to_use_negative:
   on the True2ObservedCounts output instead.
 - Your question is experimental design for detecting a rare subpopulation (cell-number
   need), which the paper treats as a separate use case from technical-noise sweeps.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -38,7 +38,7 @@ metadata:
   - PCA
   - RJAGS
   - SymSim
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

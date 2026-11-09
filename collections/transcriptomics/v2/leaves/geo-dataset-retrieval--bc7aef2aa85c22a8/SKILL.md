@@ -11,7 +11,6 @@ when_to_use_negative:
   simulation replaces GEO retrieval in the demuxmix comparison workflow
 edam_operation: http://edamontology.org/operation_2422
 edam_topics:
-- http://edamontology.org/topic_6398
 - http://edamontology.org/topic_0203
 tools:
 - name: R
@@ -39,7 +38,6 @@ metadata:
   - demuxmix
   edam_operation: http://edamontology.org/operation_2422
   edam_topics:
-  - http://edamontology.org/topic_6398
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

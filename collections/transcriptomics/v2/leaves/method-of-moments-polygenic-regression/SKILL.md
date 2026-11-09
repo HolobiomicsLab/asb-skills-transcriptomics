@@ -10,7 +10,7 @@ when_to_use_negative:
   is preferred over pathway-based regression
 - When the single-cell data are not normalized or pathway sizes fall outside 5-300
   genes, since the SVD-based PAS and pathway filtering assumptions are violated
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3170
@@ -51,7 +51,7 @@ metadata:
   - SnpToGene
   - scPagwas
   - scPagwas_py
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3170

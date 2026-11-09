@@ -10,7 +10,7 @@ when_to_use_negative:
 - Query genes have not been reordered to match the reference (query_adata = query_adata[:,
   ref_adata.var_names]); inconsistent var_names make TOSICA.pre output invalid before
   normalization is meaningful.
-edam_operation: http://edamontology.org/operation_2925
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -36,7 +36,7 @@ metadata:
   - TOSICA
   - scanpy
   - torch
-  edam_operation: http://edamontology.org/operation_2925
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

@@ -11,7 +11,7 @@ when_to_use_negative:
 - The data are very large (million-object scale) single-cell datasets, where the python/scipy
   KMD implementation's long runtimes and the need to scan many k values make this
   benchmark setup impractical without the sampling extension
-edam_operation: http://edamontology.org/operation_0532
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -49,7 +49,7 @@ metadata:
   - Scanpy
   - Seurat
   - hkariti/DBCV
-  edam_operation: http://edamontology.org/operation_0532
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

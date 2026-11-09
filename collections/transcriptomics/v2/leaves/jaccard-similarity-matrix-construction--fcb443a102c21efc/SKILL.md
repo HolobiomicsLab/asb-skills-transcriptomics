@@ -8,7 +8,7 @@ when_to_use_negative:
   testing across multiple labeled datasets.
 - When the goal is malignant cell identification or spatial transcriptome analysis,
   which are separate scCancer2 modules, not label similarity mapping.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2640
@@ -43,7 +43,7 @@ metadata:
   - dplyr
   - scCancer
   - scCancer2
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2640

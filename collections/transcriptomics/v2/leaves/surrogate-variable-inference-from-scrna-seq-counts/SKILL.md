@@ -12,7 +12,7 @@ when_to_use_negative:
 - Goal is discarding variation rather than estimating a hidden factor and its associated
   gene set (e.g., simply regressing out geometric library size, which can reach r
   = 0.99 with PCA PC1)
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -48,7 +48,7 @@ metadata:
   - SummarizedExperiment
   - fast_iasva
   - iasva
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

@@ -10,7 +10,7 @@ when_to_use_negative:
   SNP allele-specific expression
 - Variant calls come from a non-GATK caller whose VCF formatting may break VADT (the
   README warns VADT VCFs were produced by HaplotypeCaller)
-edam_operation: http://edamontology.org/operation_3673
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0622
@@ -37,7 +37,7 @@ metadata:
   tools:
   - GATK 3.7
   - VADT (VCF ASE Detection Tool)
-  edam_operation: http://edamontology.org/operation_3673
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0622

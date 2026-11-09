@@ -8,7 +8,7 @@ when_to_use_negative:
   a single gene-selection strategy is possible
 - The question is deconvolution or coupled clustering itself (DC3's core task) rather
   than downstream GO enrichment comparison of alternative gene sets
-edam_operation: http://edamontology.org/operation_3754
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_3170
@@ -39,7 +39,7 @@ metadata:
   - Python
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3754
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_3170

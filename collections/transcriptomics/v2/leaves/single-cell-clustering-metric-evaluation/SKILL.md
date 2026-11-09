@@ -9,7 +9,7 @@ when_to_use_negative:
 - Evaluating quantitative per-feature accuracy of translated profiles (e.g. gene/peak
   expression correlation) rather than preservation of cellular heterogeneity — use
   feature-level regression metrics instead
-edam_operation: http://edamontology.org/operation_0342
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -45,7 +45,7 @@ metadata:
   - Polarbear
   - Python
   - scButterfly
-  edam_operation: http://edamontology.org/operation_0342
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

@@ -13,7 +13,6 @@ when_to_use_negative:
   complete reconstructions without cell clumping or filtered-out cells
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
-- http://edamontology.org/topic_2228
 - http://edamontology.org/topic_3308
 tools:
 - name: CellContrast
@@ -45,7 +44,6 @@ metadata:
   - spatialDM
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
-  - http://edamontology.org/topic_2228
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

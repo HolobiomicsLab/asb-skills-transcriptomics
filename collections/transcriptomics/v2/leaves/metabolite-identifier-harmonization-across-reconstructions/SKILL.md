@@ -13,9 +13,8 @@ when_to_use_negative:
 - The target model is not a consistent COBRA-format genome-scale reconstruction (e.g.
   a small cell-line model or non-metabolic network), since the workflow is defined
   for Recon2.04/Recon3D_01-style inputs
-edam_operation: http://edamontology.org/operation_0281
-edam_topics:
-- http://edamontology.org/topic_2250
+edam_operation: null
+edam_topics: []
 tools:
 - name: COBRA Toolbox V3
   role: Used in MATLAB to load Recon2.04/Recon3D_01, add the VBOF as an extra biomass
@@ -55,9 +54,8 @@ metadata:
   - Recon2.04
   - Recon3D_01
   - rFASTCORMICS
-  edam_operation: http://edamontology.org/operation_0281
-  edam_topics:
-  - http://edamontology.org/topic_2250
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

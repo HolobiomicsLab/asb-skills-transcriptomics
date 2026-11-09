@@ -10,7 +10,7 @@ when_to_use_negative:
   benchmarks) — simulation is unnecessary and may not capture real background complexity
 - For single-end RNA-seq or whole-genome/exome data, since the downstream detection
   requires paired-end RNA-seq
-edam_operation: http://edamontology.org/operation_3580
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0080
 - http://edamontology.org/topic_3170
@@ -43,7 +43,7 @@ metadata:
   tools:
   - Anchored-fusion
   - wgsim
-  edam_operation: http://edamontology.org/operation_3580
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0080
   - http://edamontology.org/topic_3170

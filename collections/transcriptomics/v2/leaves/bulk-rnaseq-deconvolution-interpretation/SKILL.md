@@ -13,7 +13,7 @@ when_to_use_negative:
 - Marker genes of interest are absent from the input expression platform — 33 cell
   types were discarded because none of their marker genes were detected, so such cell
   types cannot be inferred.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2640
@@ -51,7 +51,7 @@ metadata:
   - Python
   - TIMER
   - mxnet
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2640

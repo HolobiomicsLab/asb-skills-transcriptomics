@@ -10,7 +10,7 @@ when_to_use_negative:
   it to common cell types'
 - Lowly-expressed genes, which can be severely non-Gaussian and violate the Gaussian
   pseudobulk approximation
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2269
@@ -47,7 +47,7 @@ metadata:
   - mvtnorm
   - numDeriv
   - rpy2
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2269

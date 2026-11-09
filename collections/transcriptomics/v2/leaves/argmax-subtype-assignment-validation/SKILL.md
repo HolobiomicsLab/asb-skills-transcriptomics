@@ -10,7 +10,7 @@ when_to_use_negative:
   — use cot.estimate_p_values() or cot.obtain_subtype_markers() instead
 - There are too few genes for downstream null-distribution steps (though argmax cosine
   assignment itself still works, p-values cannot be computed — see Example_GSE28490)
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3520
@@ -45,7 +45,7 @@ metadata:
   - Python
   - SciPy
   - pandas
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3520

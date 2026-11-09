@@ -13,7 +13,6 @@ when_to_use_negative:
   — scores are not on the same scale across independent experiments.
 edam_operation: http://edamontology.org/operation_3680
 edam_topics:
-- http://edamontology.org/topic_2228
 - http://edamontology.org/topic_3170
 tools:
 - name: DIEM
@@ -57,7 +56,6 @@ metadata:
   - diem
   edam_operation: http://edamontology.org/operation_3680
   edam_topics:
-  - http://edamontology.org/topic_2228
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

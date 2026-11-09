@@ -10,7 +10,7 @@ when_to_use_negative:
   marker lists for conservation/overlap rather than per-module functional enrichment
 - Input lacks sample trait metadata, so module-trait eigengene correlations cannot
   be computed
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -38,7 +38,7 @@ metadata:
   - GSEApy
   - PyWGCNA
   - Python
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

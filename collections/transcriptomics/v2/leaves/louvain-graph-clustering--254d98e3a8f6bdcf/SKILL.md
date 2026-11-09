@@ -11,8 +11,7 @@ when_to_use_negative:
 - Droplets have not yet been filtered or converted to a feature-space embedding (e.g.,
   raw counts without normalization and variable-gene selection)
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_4040
+edam_topics: []
 tools:
 - name: Seurat
   role: Runs log-normalization, top-2000-variable-gene selection, 30-PC PCA, Louvain
@@ -46,8 +45,7 @@ metadata:
   - Seurat
   - diem
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_4040
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

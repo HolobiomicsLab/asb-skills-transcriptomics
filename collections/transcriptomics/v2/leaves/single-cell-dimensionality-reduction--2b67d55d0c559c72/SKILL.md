@@ -13,7 +13,7 @@ when_to_use_negative:
   PCA routine
 - You need a biologically benchmarked reduction validated against Seurat/Scanpy —
   the paper explicitly acknowledges 'No benchmarking against Seurat and Scanpy performed'
-edam_operation: http://edamontology.org/operation_0797
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3473
@@ -48,7 +48,7 @@ metadata:
   - Apache Parquet
   - Apache Spark
   - scSPARKL
-  edam_operation: http://edamontology.org/operation_0797
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3473

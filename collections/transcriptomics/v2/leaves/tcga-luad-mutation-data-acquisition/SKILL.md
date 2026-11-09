@@ -12,8 +12,7 @@ when_to_use_negative:
   differential modules instead)
 - Sample-level integration is impossible because clinical, GSVA and mutation data
   do not share common sample identifiers
-edam_topics:
-- http://edamontology.org/topic_2648
+edam_topics: []
 tools:
 - name: ARMT
   role: Automatic RNA-seq data mining tool providing TCGA clinical data, data integration
@@ -55,8 +54,7 @@ metadata:
   - R
   - maftools
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_2648
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

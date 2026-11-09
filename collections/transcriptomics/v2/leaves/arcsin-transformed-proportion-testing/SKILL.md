@@ -12,7 +12,7 @@ when_to_use_negative:
   cell-type proportion shift
 - When rare cell types make up less than 2% of all cells and would drive unstable
   results — merge or interpret such clusters with caution
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_2229
@@ -44,7 +44,7 @@ metadata:
   - Python
   - Scanpro
   - scCODA
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_2229

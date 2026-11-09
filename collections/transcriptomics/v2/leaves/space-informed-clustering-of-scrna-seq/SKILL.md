@@ -14,7 +14,6 @@ when_to_use_negative:
   using a DLPFC reference for agranular dACC lacking layer 4) without prior assessment
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
-- http://edamontology.org/topic_2228
 - http://edamontology.org/topic_3170
 tools:
 - name: scSpace
@@ -52,7 +51,6 @@ metadata:
   - scanpy
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
-  - http://edamontology.org/topic_2228
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

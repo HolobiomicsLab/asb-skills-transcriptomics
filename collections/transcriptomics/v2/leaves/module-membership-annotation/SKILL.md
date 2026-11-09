@@ -10,7 +10,7 @@ when_to_use_negative:
   specifically designed for human blood transcriptome data
 - The task is de novo co-expression module discovery on new datasets — this skill
   only applies the fixed published repertoire, it does not rebuild it
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -47,7 +47,7 @@ metadata:
   - ExperimentHub
   - R
   - WGCNA
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

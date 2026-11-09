@@ -10,7 +10,7 @@ when_to_use_negative:
   to lineages over about 1-5 cell divisions
 - You need per-lineage identity agreement rather than category-level (GO-term) agreement;
   a rank correlation of enrichment profiles does not verify cell-to-cell lineage assignments
-edam_operation: http://edamontology.org/operation_3782
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -47,7 +47,7 @@ metadata:
   - R
   - devtools
   - topGO
-  edam_operation: http://edamontology.org/operation_3782
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

@@ -14,7 +14,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3919
 edam_topics:
 - http://edamontology.org/topic_0091
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: Anchored-fusion
   role: Hosts the HVLD filter model being evaluated; retrained model is saved to its
@@ -61,7 +61,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3919
   edam_topics:
   - http://edamontology.org/topic_0091
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

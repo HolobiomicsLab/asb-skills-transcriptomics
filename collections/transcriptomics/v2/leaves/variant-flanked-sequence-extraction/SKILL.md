@@ -8,7 +8,7 @@ when_to_use_negative:
   position (e.g., only summary statistics without alleles)
 - The goal is gene-level or locus-level attribution rather than allele-specific motif
   disruption analysis
-edam_operation: http://edamontology.org/operation_2402
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0749
 - http://edamontology.org/topic_3175
@@ -42,7 +42,7 @@ metadata:
   - GrID-Net
   - HOCOMOCO v11
   - JASPAR CORE (Non-Redundant) v2
-  edam_operation: http://edamontology.org/operation_2402
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0749
   - http://edamontology.org/topic_3175

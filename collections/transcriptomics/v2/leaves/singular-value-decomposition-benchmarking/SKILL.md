@@ -9,7 +9,7 @@ when_to_use_negative:
 - The benchmark matrix dimensions or data distribution differ substantially from the
   target pipeline's inputs (e.g., tall-skinny or sparse single-cell matrices), so
   runtimes will not transfer.
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -43,7 +43,7 @@ metadata:
   - r.jive
   - scJIVE
   - svd
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

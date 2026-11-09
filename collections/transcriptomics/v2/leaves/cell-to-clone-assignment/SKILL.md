@@ -13,7 +13,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3802
 edam_topics:
 - http://edamontology.org/topic_3173
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: MaCroDNA
   role: Performs the cell-to-clone assignment by maximizing summed per-gene Pearson
@@ -49,7 +49,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3802
   edam_topics:
   - http://edamontology.org/topic_3173
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

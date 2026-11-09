@@ -10,7 +10,7 @@ when_to_use_negative:
 - The method under test was not among the compared trajectory algorithms (CellRouter,
   Monocle 1/2, DPT, Wishbone, Waterfall) and the correlation/autocorrelation metrics
   do not apply to its output
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -61,7 +61,7 @@ metadata:
   - Wishbone
   - mclust
   - scran
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

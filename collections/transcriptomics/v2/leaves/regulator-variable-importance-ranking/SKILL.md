@@ -12,7 +12,7 @@ when_to_use_negative:
   them.
 - Dataset scale matches the Crohn's disease dataset (GSE126124), which the authors
   state is too large for a single machine and needs a high-performance computing cluster.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0659
@@ -47,7 +47,7 @@ metadata:
   - numpy
   - pandas
   - pip
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0659

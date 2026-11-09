@@ -14,8 +14,7 @@ when_to_use_negative:
 - The data are proteomic or genomic (mutation/CNV) rather than microarray transcriptomics
   — the GDSC drug-association workflow in the article operates on expression profiles.
 edam_operation: http://edamontology.org/operation_2422
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: progeny
   role: Consumes the retrieved microarray expression profiles to score the 11 PROGENy
@@ -40,8 +39,7 @@ metadata:
   - footprints data scripts
   - progeny
   edam_operation: http://edamontology.org/operation_2422
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

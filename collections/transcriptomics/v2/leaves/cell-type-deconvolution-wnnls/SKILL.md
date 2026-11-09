@@ -10,7 +10,7 @@ when_to_use_negative:
   from the single-cell reference — use MuSiC2 instead of the plain W-NNLS fit.
 - No multi-subject scRNA-seq reference with per-subject replication is available —
   the gene weighting requires cross-subject statistics (M.theta, Sigma).
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -41,7 +41,7 @@ metadata:
   - Biobase
   - MuSiC
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

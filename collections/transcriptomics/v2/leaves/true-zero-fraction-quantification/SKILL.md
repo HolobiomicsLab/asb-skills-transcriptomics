@@ -10,7 +10,7 @@ when_to_use_negative:
   preservation behavior of an imputer
 - The single-cell matrix has not been imputed yet (the analysis evaluates zeros in
   imputed output, not the raw matrix)
-edam_operation: http://edamontology.org/operation_3287
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0091
@@ -41,7 +41,7 @@ metadata:
   - MAGIC
   - drImpute
   - scImpute
-  edam_operation: http://edamontology.org/operation_3287
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0091

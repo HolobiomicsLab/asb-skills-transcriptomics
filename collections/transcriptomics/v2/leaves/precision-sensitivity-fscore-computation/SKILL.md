@@ -15,7 +15,6 @@ when_to_use_negative:
   classification of HTO-labeled droplets
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
-- http://edamontology.org/topic_6394
 - http://edamontology.org/topic_2229
 tools:
 - name: demuxmix
@@ -68,7 +67,6 @@ metadata:
   - hashedDrops
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
-  - http://edamontology.org/topic_6394
   - http://edamontology.org/topic_2229
   provenance_tier: literature
 license: CC-BY-4.0

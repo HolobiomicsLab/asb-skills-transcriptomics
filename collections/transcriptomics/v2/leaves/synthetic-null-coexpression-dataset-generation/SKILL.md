@@ -12,8 +12,7 @@ when_to_use_negative:
   distribution for read counts'
 - When the analysis requires biologically realistic correlated gene programs or batch
   effects — the null is homogeneous and co-expression-free by construction
-edam_topics:
-- http://edamontology.org/topic_0257
+edam_topics: []
 tools:
 - name: Normalisr
   role: Framework whose library-size confounder detection is calibrated with the synthetic
@@ -35,8 +34,7 @@ metadata:
   tools:
   - Normalisr
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0257
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

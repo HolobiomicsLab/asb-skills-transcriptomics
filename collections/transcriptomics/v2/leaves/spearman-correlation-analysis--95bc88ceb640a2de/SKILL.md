@@ -8,7 +8,7 @@ when_to_use_negative:
   been generated or observed post-treatment proportions are unavailable
 - The comparison variables are binary/categorical rather than ordered, where rank
   correlation is not the appropriate validation statistic
-edam_operation: http://edamontology.org/operation_2884
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -41,7 +41,7 @@ metadata:
   - Python
   - Scanpy
   - scDrug
-  edam_operation: http://edamontology.org/operation_2884
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

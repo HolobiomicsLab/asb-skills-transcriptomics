@@ -10,7 +10,7 @@ when_to_use_negative:
   kernel-based Granger regression and its ensemble are not appropriate
 - lambda=0 hyperparameter sets were run — these produce non-sparse solutions and should
   be excluded before aggregation
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2258
@@ -41,7 +41,7 @@ metadata:
   - MATLAB R2018a
   - SINGE
   - glmnet_matlab
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2258

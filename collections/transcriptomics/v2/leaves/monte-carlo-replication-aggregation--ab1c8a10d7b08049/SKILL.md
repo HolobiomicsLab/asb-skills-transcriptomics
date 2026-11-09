@@ -8,7 +8,7 @@ when_to_use_negative:
   over stochastic replications
 - Real experimental datasets without simulation ground truth are the input, so 'true
   feature genes' cannot be enumerated per replication
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -41,7 +41,7 @@ metadata:
   - RSpectra
   - Rcpp
   - splatter
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

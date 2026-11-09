@@ -11,7 +11,7 @@ when_to_use_negative:
   aggregation.
 - 'When miRNA-level validation is expected directly: miRNAs cannot be quantified together
   with mRNAs at single-cell level, so TF-miRNA circuits are not directly measurable.'
-edam_operation: http://edamontology.org/operation_2936
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3474
@@ -51,7 +51,7 @@ metadata:
   - clusterNgriph
   - counts2log
   - rCASC
-  edam_operation: http://edamontology.org/operation_2936
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3474

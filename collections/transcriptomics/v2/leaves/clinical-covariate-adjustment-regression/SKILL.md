@@ -11,7 +11,7 @@ when_to_use_negative:
   (e.g., only binary response), where Cox regression is inappropriate.
 - Analysis targets non-clinical associations such as driver-mutation recovery or drug
   response in GDSC cell lines, where this Cox-survival workflow does not apply.
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -44,7 +44,7 @@ metadata:
   - PROGENy
   - R survival package (coxph)
   - decoupler
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

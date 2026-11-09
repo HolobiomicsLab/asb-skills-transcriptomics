@@ -9,7 +9,7 @@ when_to_use_negative:
   in known-barcode mode with -k.
 - Input is a count matrix or already-assigned BAM with cell barcodes — filtering operates
   on barcode frequency counts from discovery mode, not on downstream expression outputs.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -42,7 +42,7 @@ metadata:
   - flexiplex
   - flexiplex-filter
   - scTagger
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

@@ -11,8 +11,7 @@ when_to_use_negative:
 - Input is already a cluster-label table needing only annotation, not an end-to-end
   clustering comparison
 edam_operation: http://edamontology.org/operation_2428
-edam_topics:
-- http://edamontology.org/topic_4085
+edam_topics: []
 tools:
 - name: SCISSORS
   role: 'Method under test: iterative silhouette-based semi-supervised reclustering
@@ -53,8 +52,7 @@ metadata:
   - ggsignif
   - magrittr
   edam_operation: http://edamontology.org/operation_2428
-  edam_topics:
-  - http://edamontology.org/topic_4085
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

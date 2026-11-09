@@ -12,7 +12,7 @@ when_to_use_negative:
 - When no replicate/population RNA-seq heterozygous SNP coverage exists (a heterozygous
   SNP outside but near the alternative exon is required for ASAS detection in the
   first place)
-edam_operation: http://edamontology.org/operation_0192
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0654
@@ -39,7 +39,7 @@ metadata:
     url: https://github.com/Xinglab/PAIRADISE
   tools:
   - PAIRADISE
-  edam_operation: http://edamontology.org/operation_0192
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0654

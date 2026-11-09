@@ -8,7 +8,7 @@ when_to_use_negative:
   preservation — use a metric such as mean iLISI instead
 - 'When more than two datasets must be integrated: the current BATMAN implementation
   (whose corrected outputs feed this comparison) works only with two datasets'
-edam_operation: http://edamontology.org/operation_2934
+edam_operation: http://edamontology.org/operation_2938
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -52,7 +52,7 @@ metadata:
   - Harmony
   - Scanorama
   - Seurat V3.0
-  edam_operation: http://edamontology.org/operation_2934
+  edam_operation: http://edamontology.org/operation_2938
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

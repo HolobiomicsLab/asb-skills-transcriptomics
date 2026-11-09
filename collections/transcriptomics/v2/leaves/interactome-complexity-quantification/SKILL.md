@@ -8,7 +8,7 @@ when_to_use_negative:
   on LFC-based significance, so unfiltered or raw expression data is out of scope
 - The goal is de novo prediction of physical interactions rather than assessment of
   known interactors from STRING/UniProt resources
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_0085
@@ -51,7 +51,7 @@ metadata:
   - STRING v11
   - STRINGdb
   - UniProt
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_0085

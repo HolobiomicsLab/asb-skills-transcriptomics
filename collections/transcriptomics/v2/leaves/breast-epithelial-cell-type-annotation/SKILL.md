@@ -11,7 +11,7 @@ when_to_use_negative:
   cell populations (cell labels and UMAP embedding are assumed precomputed)
 - The biological process of interest has no corresponding gene list and no edges exist
   in full_human_ppin to build a custom PPIN
-edam_operation: http://edamontology.org/operation_3934
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -55,7 +55,7 @@ metadata:
   - dplyr
   - magrittr
   - remotes
-  edam_operation: http://edamontology.org/operation_3934
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

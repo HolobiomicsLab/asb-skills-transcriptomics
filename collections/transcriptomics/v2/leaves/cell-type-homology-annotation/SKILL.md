@@ -10,7 +10,7 @@ when_to_use_negative:
   system, so ontology-based matching cannot be trusted
 - Only a single dataset is being analysed and no cross-dataset label harmonisation
   is needed
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0089
@@ -56,7 +56,7 @@ metadata:
   - scANVI
   - scOntoMatch
   - scVI
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0089

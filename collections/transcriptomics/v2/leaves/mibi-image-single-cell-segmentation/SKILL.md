@@ -12,7 +12,7 @@ when_to_use_negative:
 - 'The task is generic deep-learning segmentation rather than reproducing MIRIAM''s
   membrane-extension approach (e.g., Mesmer alone, which MIRIAM outperformed: DSC
   0.65 ± 0.08 vs 0.59 ± 0.10)'
-edam_operation: http://edamontology.org/operation_3684
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3382
 tools:
@@ -48,7 +48,7 @@ metadata:
   - MIRIAM
   - Matlab
   - Python
-  edam_operation: http://edamontology.org/operation_3684
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3382
   provenance_tier: literature

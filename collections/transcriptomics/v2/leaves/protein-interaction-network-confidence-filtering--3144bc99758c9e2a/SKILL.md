@@ -11,7 +11,7 @@ when_to_use_negative:
   filtering of existing STRING edges
 - You are analyzing interactions at the gene level where isoform domain composition
   differences are irrelevant
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0121
 tools:
@@ -37,7 +37,7 @@ metadata:
   tools:
   - CanIsoNet
   - STRING
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0121
   provenance_tier: literature

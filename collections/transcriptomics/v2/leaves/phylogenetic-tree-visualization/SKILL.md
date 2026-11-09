@@ -13,8 +13,7 @@ when_to_use_negative:
 - The tree exceeds the tested scale (~4,000 leaves), where low-latency selections
   and subtree collapsing were validated
 edam_operation: http://edamontology.org/operation_0323
-edam_topics:
-- http://edamontology.org/topic_0069
+edam_topics: []
 tools:
 - name: PhyloVision
   role: R package whose viewResults call builds the interactive web report containing
@@ -53,8 +52,7 @@ metadata:
   - VISION
   - iTOL
   edam_operation: http://edamontology.org/operation_0323
-  edam_topics:
-  - http://edamontology.org/topic_0069
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -17,7 +17,6 @@ edam_operation: http://edamontology.org/operation_2478
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2229
-- http://edamontology.org/topic_3557
 tools:
 - name: SCENT
   role: Provides the SignallingEntropy routine that computes per-cell signalling entropy
@@ -51,7 +50,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2229
-  - http://edamontology.org/topic_3557
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

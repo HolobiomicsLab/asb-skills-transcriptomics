@@ -10,7 +10,7 @@ when_to_use_negative:
   (--perturb) with no new GRN to impose
 - The imposed TF-gene relationships differ significantly from patterns consistent
   with the reference dataset, which degrades resemblance to the reference data
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_3170
@@ -39,7 +39,7 @@ metadata:
   - GRouNdGAN
   - PIDC
   - PPCOR
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_3170

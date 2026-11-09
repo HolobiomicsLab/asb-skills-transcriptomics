@@ -11,7 +11,7 @@ when_to_use_negative:
   around already-significant SNPs
 - You lack coexpression data or defense-related guide gene annotations, since cageminer
   scoring depends on both the 2 Mb SNP neighborhoods and rpb-based coexpression evidence
-edam_operation: http://edamontology.org/operation_3236
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0625
 tools:
@@ -41,7 +41,7 @@ metadata:
   - R
   - SoyFungiGCN
   - remotes
-  edam_operation: http://edamontology.org/operation_3236
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0625
   provenance_tier: literature

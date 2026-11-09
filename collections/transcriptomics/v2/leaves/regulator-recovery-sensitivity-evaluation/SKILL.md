@@ -10,7 +10,7 @@ when_to_use_negative:
   benchmark (run_php_noise.R / get_simmulated_data.R are separate scripts)
 - Input is single-dataset activity inference without perturbation ground truth — there
   is no response vector to compute AUROC/AUPRC against
-edam_operation: http://edamontology.org/operation_1815
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3523
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - R
   - decoupleR
   - decoupleRBench
-  edam_operation: http://edamontology.org/operation_1815
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3523
   - http://edamontology.org/topic_0203

@@ -12,7 +12,7 @@ when_to_use_negative:
   cervix, endometrium, haematopoietic, kidney, large intestine, liver, pancreas, prostate)'
 - The input is already a trained model or prediction list and the task is functional
   enrichment or literature validation rather than model training
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_2640
@@ -40,7 +40,7 @@ metadata:
   tools:
   - Random Forest (scikit-learn)
   - cTaG
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_2640

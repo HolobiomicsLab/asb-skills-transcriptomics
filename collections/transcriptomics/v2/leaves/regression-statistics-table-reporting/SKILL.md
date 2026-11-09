@@ -12,7 +12,7 @@ when_to_use_negative:
   must be decile-binned for the regression design
 - You need per-gene resolution rather than decile-level summaries — the 10-bin aggregation
   discards within-decile variation
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -43,7 +43,7 @@ metadata:
   - R
   - Snakemake
   - ctmm
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

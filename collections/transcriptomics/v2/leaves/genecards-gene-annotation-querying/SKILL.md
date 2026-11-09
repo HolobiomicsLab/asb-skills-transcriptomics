@@ -8,7 +8,7 @@ when_to_use_negative:
   CSV) — re-querying duplicates the annotation step
 - When the goal is filtering based on expression statistics (e.g. zero-expression
   genes or coefficient-equal-to-0 HVGs) rather than database annotation tags
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Gene Ontology (GO)
   - GeneCards
   - Python
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

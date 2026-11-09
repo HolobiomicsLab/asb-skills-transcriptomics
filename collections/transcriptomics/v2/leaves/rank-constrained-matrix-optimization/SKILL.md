@@ -12,7 +12,7 @@ when_to_use_negative:
   to data whose statistical characteristics already fit standard assumptions
 edam_operation: http://edamontology.org/operation_3463
 edam_topics:
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 tools:
 - name: SIMLR
   role: Implements the multi-kernel similarity-learning framework; the SIMLR.R script
@@ -41,7 +41,7 @@ metadata:
   - projsplx_R.c
   edam_operation: http://edamontology.org/operation_3463
   edam_topics:
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

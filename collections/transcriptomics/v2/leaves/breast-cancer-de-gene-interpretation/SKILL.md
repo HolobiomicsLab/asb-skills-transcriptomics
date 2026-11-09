@@ -10,7 +10,7 @@ when_to_use_negative:
   pipeline instead of nuclear-gene DE)
 - Cells are not tumor cells or the mitochondrial subclones have too few cells per
   group to support a DESeq2-based two-sided Wald test
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -43,7 +43,7 @@ metadata:
   - MQuad
   - Seurat
   - vireoSNP
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

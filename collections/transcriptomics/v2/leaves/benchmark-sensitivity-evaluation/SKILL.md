@@ -10,7 +10,7 @@ when_to_use_negative:
   unavailable, since the response vector depends on perturbation labels
 - When analyzing phospho-proteomic perturbations — that requires the analogous run_php_bench.R
   pipeline rather than the RNA benchmark
-edam_operation: http://edamontology.org/operation_3988
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -49,7 +49,7 @@ metadata:
   - decoupleR
   - decoupleRBench
   - decoupleR_manuscript
-  edam_operation: http://edamontology.org/operation_3988
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

@@ -13,7 +13,7 @@ when_to_use_negative:
 - You need to distinguish autocrine interactions — the article notes SingleCellSignalR
   cannot distinguish autocrine interactions with default parameters, and other methods'
   behaviors differ; verify the chosen method supports your interaction topology.
-edam_operation: http://edamontology.org/operation_3940
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -61,7 +61,7 @@ metadata:
   - dsCellNet
   - homologene
   - igraph
-  edam_operation: http://edamontology.org/operation_3940
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

@@ -10,7 +10,7 @@ when_to_use_negative:
   differential expression along it
 - The question is doublet-detection accuracy itself (AUC/precision) rather than downstream
   trajectory integrity — score-based benchmarks are more direct
-edam_operation: http://edamontology.org/operation_3320
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_3170
@@ -59,7 +59,7 @@ metadata:
   - gbm
   - monocle
   - scds
-  edam_operation: http://edamontology.org/operation_3320
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_3170

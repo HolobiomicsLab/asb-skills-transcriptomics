@@ -11,7 +11,7 @@ when_to_use_negative:
   instead.
 - The input lacks per-sample annotation or a sample-level design matrix, so cross-sample
   variability cannot be modeled.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0092
@@ -43,7 +43,7 @@ metadata:
   - Lamian
   - Seurat
   - TSCAN
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0092

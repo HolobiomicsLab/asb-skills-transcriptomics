@@ -11,7 +11,7 @@ when_to_use_negative:
   proteomics), which SingleCellGGM does not support.
 - A quick clustering-free annotation of a novel dataset is needed and marker GEPs
   already exist — use CellGEP's cellgep/average_by_gep instead of re-inferring a network.
-edam_operation: http://edamontology.org/operation_3989
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -49,7 +49,7 @@ metadata:
   - MCL
   - ModuleEnrichmentAnalysis
   - SingleCellGGM
-  edam_operation: http://edamontology.org/operation_3989
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

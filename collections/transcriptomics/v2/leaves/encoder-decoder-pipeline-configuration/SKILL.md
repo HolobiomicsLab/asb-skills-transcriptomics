@@ -9,7 +9,7 @@ when_to_use_negative:
   channel simulation
 - When input is real sequencing read data to be decoded rather than an in-silico fault-injection
   experiment over encoded oligos
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0196
@@ -42,7 +42,7 @@ metadata:
   - DNArSim
   - FrameD
   - db_gen.py
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_0196

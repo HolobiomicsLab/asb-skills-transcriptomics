@@ -11,7 +11,7 @@ when_to_use_negative:
 - Candidate pairs were not filtered by the required thresholds (genes in >= 1% of
   cells, peaks in >= 0.1% of cells, peaks within the distance window), in which case
   the training distribution is invalid
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 tools:
@@ -43,7 +43,7 @@ metadata:
   - GrID-Net
   - PyTorch
   - Schema
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   provenance_tier: literature

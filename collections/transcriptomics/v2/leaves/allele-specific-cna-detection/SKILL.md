@@ -11,7 +11,7 @@ when_to_use_negative:
 - The cell is known aneuploid across whole chromosomes and the goal is megabase-scale
   mosaic CNA prevalence analysis — the article excluded aneuploid neurons from CNA
   length and prevalence analyses
-edam_operation: http://edamontology.org/operation_3231
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 - http://edamontology.org/topic_3308
@@ -68,7 +68,7 @@ metadata:
   - SCOPE
   - SCYN
   - SHAPEIT2
-  edam_operation: http://edamontology.org/operation_3231
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   - http://edamontology.org/topic_3308

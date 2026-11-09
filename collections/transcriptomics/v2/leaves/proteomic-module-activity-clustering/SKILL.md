@@ -15,7 +15,6 @@ edam_operation: http://edamontology.org/operation_3929
 edam_topics:
 - http://edamontology.org/topic_3520
 - http://edamontology.org/topic_0602
-- http://edamontology.org/topic_3557
 tools:
 - name: rROMA
   role: R package that computes module activity (PC1 per gene set), generates random-gene-set
@@ -53,7 +52,6 @@ metadata:
   edam_topics:
   - http://edamontology.org/topic_3520
   - http://edamontology.org/topic_0602
-  - http://edamontology.org/topic_3557
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -10,7 +10,7 @@ when_to_use_negative:
   boxplot.
 - The region sets under comparison were generated on different gene backgrounds, making
   the null distributions non-comparable in one plot.
-edam_operation: http://edamontology.org/operation_0572
+edam_operation: http://edamontology.org/operation_3925
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_0797
@@ -45,7 +45,7 @@ metadata:
   - RgnTX
   - TxDb.Hsapiens.UCSC.hg19.knownGene
   - regioneR
-  edam_operation: http://edamontology.org/operation_0572
+  edam_operation: http://edamontology.org/operation_3925
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_0797

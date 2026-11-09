@@ -10,7 +10,7 @@ when_to_use_negative:
   assignments (Flexiplex's discovery mode is a different task)
 - When input is already a per-tool accuracy/FDR summary table rather than raw read-barcode
   assignments
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_3170
@@ -43,7 +43,7 @@ metadata:
   - Flexiplex
   - conda
   - scTagger
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_3170

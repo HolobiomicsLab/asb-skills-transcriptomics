@@ -11,7 +11,7 @@ when_to_use_negative:
   — use full_human_ppin directly.
 - The input is a normalized expression matrix needing activity scoring rather than
   a gene list needing an edge set — use the activity() function instead.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_3170
@@ -51,7 +51,7 @@ metadata:
   - dplyr
   - magrittr
   - remotes
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_3170

@@ -10,7 +10,7 @@ when_to_use_negative:
   prioritization add nothing
 - When enzyme-level (isoform) activity resolution is required — KEGG does not provide
   curated isoform-level enzyme activity, so analysis is limited to the gene level
-edam_operation: http://edamontology.org/operation_2497
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0602
@@ -46,7 +46,7 @@ metadata:
   - FunHoP
   - KEGGScape
   - Voom
-  edam_operation: http://edamontology.org/operation_2497
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0602

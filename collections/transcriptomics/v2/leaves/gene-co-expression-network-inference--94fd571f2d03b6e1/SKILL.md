@@ -12,7 +12,7 @@ when_to_use_negative:
 - When input is already normalized or imputed full-length (non-UMI) scRNA-seq — nonlinear
   covariates were validated only on UMI-based datasets and may need revalidation on
   full-length platforms
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -43,7 +43,7 @@ metadata:
   - BioServices
   - GOATOOLS
   - Normalisr
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

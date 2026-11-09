@@ -10,8 +10,7 @@ when_to_use_negative:
 - The response outcome is not binary and quickly observable after treatment initiation,
   or the trial involves drug combinations (an untested extension in the TSNP design)
 edam_operation: http://edamontology.org/operation_3659
-edam_topics:
-- http://edamontology.org/topic_0274
+edam_topics: []
 tools:
 - name: R
   role: Programming language used to implement PAVA and the TSNP design; R code for
@@ -32,8 +31,7 @@ metadata:
   tools:
   - R
   edam_operation: http://edamontology.org/operation_3659
-  edam_topics:
-  - http://edamontology.org/topic_0274
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

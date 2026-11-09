@@ -10,7 +10,7 @@ when_to_use_negative:
   on network topology, not per-gene expression statistics
 - Networks are unweighted or directed, since the disparity filter is designed for
   undirected weighted networks
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3366
@@ -45,7 +45,7 @@ metadata:
   - Jupyter Notebook
   - PyGMQL
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3366

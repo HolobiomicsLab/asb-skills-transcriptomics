@@ -9,7 +9,7 @@ when_to_use_negative:
   cluster-level data requiring compute_sc_flux instead).
 - The analysis goal is flux computation itself (MRAS/compute_flux) rather than statistical
   association of precomputed fluxes with a signature.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_0203
@@ -38,7 +38,7 @@ metadata:
   tools:
   - METAFlux
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_0203

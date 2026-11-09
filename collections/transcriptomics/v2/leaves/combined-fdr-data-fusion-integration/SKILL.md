@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3223
 edam_topics:
 - http://edamontology.org/topic_0203
-- http://edamontology.org/topic_0263
 tools:
 - name: ExpHunter Suite
   role: R/Bioconductor package hosting the DEgenes Hunter pipeline and the data-fusion/threshold/Naïve
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3223
   edam_topics:
   - http://edamontology.org/topic_0203
-  - http://edamontology.org/topic_0263
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

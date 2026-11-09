@@ -10,7 +10,7 @@ when_to_use_negative:
   FAVA networks are meant to be free of literature bias and complement existing networks
 - The network is tiny or the goal is single-pair interaction prediction rather than
   modular structure detection
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 tools:
@@ -44,7 +44,7 @@ metadata:
   - MCL
   - Python
   - favapy
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   provenance_tier: literature

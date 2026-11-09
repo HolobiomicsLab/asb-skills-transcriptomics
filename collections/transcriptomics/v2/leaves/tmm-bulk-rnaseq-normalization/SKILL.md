@@ -10,7 +10,7 @@ when_to_use_negative:
   and composition-bias checking unreliable.
 - The goal is standalone differential expression between bulk conditions rather than
   building reference expression bins for evaluating scRNA-seq imputation.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -34,7 +34,7 @@ metadata:
   - MAGIC
   - drImpute
   - scImpute
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

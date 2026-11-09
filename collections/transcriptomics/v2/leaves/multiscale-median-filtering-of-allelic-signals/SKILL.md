@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3232
 edam_topics:
 - http://edamontology.org/topic_3518
-- http://edamontology.org/topic_0282
 tools:
 - name: BAFExtract
   role: Generates the B-allele frequency shifts from mapped reads alone (compressed
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3232
   edam_topics:
   - http://edamontology.org/topic_3518
-  - http://edamontology.org/topic_0282
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

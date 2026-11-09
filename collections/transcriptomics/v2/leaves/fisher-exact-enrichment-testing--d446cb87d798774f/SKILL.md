@@ -10,7 +10,7 @@ when_to_use_negative:
   or CLIP binding lists) to test enrichment against, making the 2x2 table ill-defined
 - The question is a continuous association between gene expression and circRNA levels
   (use the rho_m Spearman correlation feature) rather than categorical set membership
-edam_operation: http://edamontology.org/operation_0493
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0085
 - http://edamontology.org/topic_0203
@@ -48,7 +48,7 @@ metadata:
   - CRIT
   - NMF
   - R
-  edam_operation: http://edamontology.org/operation_0493
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0085
   - http://edamontology.org/topic_0203

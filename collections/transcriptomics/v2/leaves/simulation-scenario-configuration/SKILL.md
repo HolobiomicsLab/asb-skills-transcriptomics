@@ -10,7 +10,7 @@ when_to_use_negative:
   genes — the article notes the framework does not yet support these extensions
 - You need scenarios such as different percentages of DM mixtures that the paper did
   not test
-edam_operation: http://edamontology.org/operation_0563
+edam_operation: http://edamontology.org/operation_0335
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -38,7 +38,7 @@ metadata:
   - R
   - Snakemake
   - muscat
-  edam_operation: http://edamontology.org/operation_0563
+  edam_operation: http://edamontology.org/operation_0335
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

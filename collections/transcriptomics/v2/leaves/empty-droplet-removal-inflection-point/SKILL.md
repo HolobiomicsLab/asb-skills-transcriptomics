@@ -10,7 +10,7 @@ when_to_use_negative:
 - When the input is not single-cell droplet data with empty droplets (e.g. bulk reads
   or plate-based single-cell data with no droplet barcode frequency curve), inflection-point
   empty-droplet removal does not apply.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -42,7 +42,7 @@ metadata:
   - conda
   - flexiplex
   - flexiplex-filter
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

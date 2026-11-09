@@ -14,8 +14,7 @@ when_to_use_negative:
   model extension is explicitly future research.
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_3525
-- http://edamontology.org/topic_2228
+- http://edamontology.org/topic_0128
 tools:
 - name: Lamian
   role: 'Core framework: lamian_test (TDE/XDE via permutation-based likelihood ratio
@@ -45,8 +44,7 @@ metadata:
   - TSCAN
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_3525
-  - http://edamontology.org/topic_2228
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

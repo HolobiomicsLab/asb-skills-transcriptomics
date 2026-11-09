@@ -13,7 +13,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0292
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3526
+- http://edamontology.org/topic_0128
 tools:
 - name: scKB
   role: Bash wrapper script that orchestrates the kallisto/bustools run and organizes
@@ -52,7 +52,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_0292
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3526
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

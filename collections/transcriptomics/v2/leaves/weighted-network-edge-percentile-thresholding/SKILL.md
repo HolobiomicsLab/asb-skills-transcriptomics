@@ -11,7 +11,7 @@ when_to_use_negative:
 - When the goal is Pearson correlation significance filtering, where the article prescribes
   the permutation test with a p-value percentile threshold instead of raw weight percentile
   thresholding
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Jupyter Notebook
   - Python
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   provenance_tier: literature

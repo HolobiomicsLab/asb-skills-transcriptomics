@@ -12,7 +12,7 @@ when_to_use_negative:
   artefactual cell libraries that would distort the calls.
 - The input is already a matrix of called cells from a prior cell-calling step — re-running
   emptyDrops at FDR 0.01 would double-call rather than filter.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -42,7 +42,7 @@ metadata:
   - 10x Genomics
   - DropletUtils
   - R
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

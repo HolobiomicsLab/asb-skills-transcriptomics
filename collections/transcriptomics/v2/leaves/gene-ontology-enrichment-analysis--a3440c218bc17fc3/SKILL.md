@@ -9,7 +9,7 @@ when_to_use_negative:
 - You need pathway-level or custom-geneset enrichment rather than GO biological-process
   terms
 - The gene list is too small or unfiltered to support FDR < 0.05 enrichment testing
-edam_operation: http://edamontology.org/operation_3941
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 tools:
@@ -45,7 +45,7 @@ metadata:
   - MU-PseUDeep
   - Salmon
   - clusterProfiler
-  edam_operation: http://edamontology.org/operation_3941
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   provenance_tier: literature

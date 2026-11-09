@@ -12,7 +12,7 @@ when_to_use_negative:
 - The expression distribution is known or suspected to deviate from Gaussian/log-normal
   — the article itself flags that other distributions (like beta distribution) and
   better measures are suggested for further improvement
-edam_operation: http://edamontology.org/operation_2269
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -39,7 +39,7 @@ metadata:
   tools:
   - InterOpt
   - R
-  edam_operation: http://edamontology.org/operation_2269
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

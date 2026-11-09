@@ -12,7 +12,7 @@ when_to_use_negative:
   estimation adds unnecessary machinery.
 - Input data are not time-stamped cross-sectional samples from which first and second
   moments between consecutive time points can be computed.
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0749
@@ -42,7 +42,7 @@ metadata:
   - COSLIR (Python version)
   - NumPy
   - Python 3.6.4
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0749

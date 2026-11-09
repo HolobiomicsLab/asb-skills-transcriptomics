@@ -15,7 +15,6 @@ when_to_use_negative:
   to simulated_data.scores.csv instead
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
-- http://edamontology.org/topic_6170
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3474
 tools:
@@ -53,7 +52,6 @@ metadata:
   - scds
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
-  - http://edamontology.org/topic_6170
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3474
   provenance_tier: literature

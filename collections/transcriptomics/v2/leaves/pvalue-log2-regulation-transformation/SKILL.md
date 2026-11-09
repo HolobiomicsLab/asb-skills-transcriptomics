@@ -10,7 +10,7 @@ when_to_use_negative:
   signed and need no P-value scaling
 - Pathways from KEGG category 1.7 'glycan biosynthesis and metabolism' that use 'links'
   instead of nodes and cannot be colored in Cytoscape
-edam_operation: http://edamontology.org/operation_3224
+edam_operation: http://edamontology.org/operation_2436
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -41,7 +41,7 @@ metadata:
   - FunHoP
   - KEGGScape
   - Voom
-  edam_operation: http://edamontology.org/operation_3224
+  edam_operation: http://edamontology.org/operation_2436
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

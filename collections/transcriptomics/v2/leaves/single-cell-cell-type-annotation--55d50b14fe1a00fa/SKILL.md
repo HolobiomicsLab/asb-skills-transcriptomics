@@ -10,7 +10,7 @@ when_to_use_negative:
   can be trained (pretrained organ and cancer models cover a fixed list).
 - The task requires the shortest runtime over annotation quality — scType had shorter
   run times than Census in the 44-tissue benchmark.
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -46,7 +46,7 @@ metadata:
   - Census
   - Seurat 4
   - ggpubr
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

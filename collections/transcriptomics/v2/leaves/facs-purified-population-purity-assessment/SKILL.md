@@ -11,7 +11,7 @@ when_to_use_negative:
   — the article notes this is not yet supported and is proposed as future work
 - The input has no cell-level count matrix or cluster labels, e.g. it is already a
   summarized feature table or metadata-only summary
-edam_operation: http://edamontology.org/operation_0576
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2229
@@ -42,7 +42,7 @@ metadata:
   - ROGUE
   - devtools
   - tidyverse
-  edam_operation: http://edamontology.org/operation_0576
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2229

@@ -10,7 +10,7 @@ when_to_use_negative:
   datasets and notes full-length platforms may need revalidation of nonlinear covariates.
 - The goal is biological discovery or differential expression calling itself rather
   than quantifying method accuracy against a known effect-size ground truth.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -56,7 +56,7 @@ metadata:
   - bayNorm
   - edgeR
   - sctransform
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

@@ -12,7 +12,7 @@ when_to_use_negative:
   models are required
 - The input is already a table of encoded features and cross-validated predictions
   rather than raw FASTA sequences to be encoded and classified
-edam_operation: http://edamontology.org/operation_2919
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0099
@@ -49,7 +49,7 @@ metadata:
   - iLearn
   - mlxtend
   - scikit-learn
-  edam_operation: http://edamontology.org/operation_2919
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0099

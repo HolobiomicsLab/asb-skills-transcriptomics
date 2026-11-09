@@ -11,7 +11,7 @@ when_to_use_negative:
   CTMM is limited to common cell types
 - Lowly-expressed genes that are severely non-Gaussian at available cell counts, violating
   the Gaussian approximation underlying the pseudobulk LMM
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3518
 tools:
@@ -48,7 +48,7 @@ metadata:
   - mvtnorm
   - numDeriv
   - rpy2
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3518
   provenance_tier: literature

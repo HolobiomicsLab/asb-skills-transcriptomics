@@ -11,7 +11,7 @@ when_to_use_negative:
   layer
 - The downstream analysis is a directed-network method (e.g., directed regulatory-edge
   inference) where edge directionality is meaningful and should not be collapsed
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0085
@@ -52,7 +52,7 @@ metadata:
   - Rcpp
   - igraph
   - scTenifoldNet
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_0085

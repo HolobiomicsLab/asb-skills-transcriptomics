@@ -9,7 +9,7 @@ when_to_use_negative:
   like Splatter, powsimR, PROSSTT, or SymSim may be more appropriate)
 - The backbone is fully predefined and the task is running the downstream SSA simulation
   or experiment emulation rather than specifying the module network itself
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_3170
@@ -36,7 +36,7 @@ metadata:
   tools:
   - GillespieSSA2
   - dyngen
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_3170

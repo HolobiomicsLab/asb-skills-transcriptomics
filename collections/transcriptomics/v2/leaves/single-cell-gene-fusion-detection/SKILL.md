@@ -12,7 +12,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2928
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: scFusion
   role: 'Main pipeline: jointly analyzes all single cells with statistical, deep-learning,
@@ -67,7 +67,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_2928
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

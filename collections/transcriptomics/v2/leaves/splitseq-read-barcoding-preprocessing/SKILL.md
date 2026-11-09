@@ -13,7 +13,7 @@ when_to_use_negative:
 - You need tolerance beyond one mismatch and one indel by default — the article reports
   this increases identified reads only 4–5% while taking 20–40% more runtime, so it
   was not adopted
-edam_operation: http://edamontology.org/operation_3238
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3168
@@ -52,7 +52,7 @@ metadata:
   - BLAST
   - SCSit
   - STAR
-  edam_operation: http://edamontology.org/operation_3238
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3168

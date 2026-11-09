@@ -12,7 +12,6 @@ when_to_use_negative:
 - When analyzing cancer types other than KIRC, LIHC, and PRAD, for which no IC gene
   lists are provided in the repository
 edam_topics:
-- http://edamontology.org/topic_2642
 - http://edamontology.org/topic_0203
 tools:
 - name: Python
@@ -49,7 +48,6 @@ metadata:
   - R/Bioconductor
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_2642
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

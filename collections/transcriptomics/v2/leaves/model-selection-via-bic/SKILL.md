@@ -10,7 +10,7 @@ when_to_use_negative:
   cell types) — no method, including BIC-based selection, is applicable
 - When data are already clustered and only batch-effect correction or imputation is
   required
-edam_operation: http://edamontology.org/operation_2948
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -40,7 +40,7 @@ metadata:
   - MNN
   - Scanorama
   - Seurat
-  edam_operation: http://edamontology.org/operation_2948
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

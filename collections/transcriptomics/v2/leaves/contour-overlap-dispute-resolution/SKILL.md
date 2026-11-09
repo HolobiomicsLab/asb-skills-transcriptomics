@@ -9,7 +9,7 @@ when_to_use_negative:
 - Predictions are already stabilized/converged (no overlapping contours or label changes)
   — iterating further is unnecessary
 - You need raw model predictions rather than cluster- and contour-smoothed annotations
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Census
   - MASS
   - Seurat 4
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

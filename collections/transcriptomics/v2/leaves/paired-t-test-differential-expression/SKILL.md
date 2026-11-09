@@ -12,7 +12,7 @@ when_to_use_negative:
   the weighted-vs-unweighted comparison uninformative
 - You only have normalized high-throughput expression data (e.g., TCGA miRNA-seq)
   rather than raw qPCR CT values for the internal controls
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3519
 - http://edamontology.org/topic_0203
@@ -40,7 +40,7 @@ metadata:
   tools:
   - InterOpt
   - R
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3519
   - http://edamontology.org/topic_0203

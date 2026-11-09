@@ -10,7 +10,7 @@ when_to_use_negative:
   fitted negative/positive components, not directly from raw HTO counts
 - You need the full per-droplet transcription profile rather than the total genes-detected
   summary; demuxmix works with the number of detected genes passed alongside HTO counts
-edam_operation: http://edamontology.org/operation_4513
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3173
 - http://edamontology.org/topic_0622
@@ -37,7 +37,7 @@ metadata:
   tools:
   - R
   - demuxmix
-  edam_operation: http://edamontology.org/operation_4513
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3173
   - http://edamontology.org/topic_0622

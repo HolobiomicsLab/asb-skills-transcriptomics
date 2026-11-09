@@ -10,7 +10,7 @@ when_to_use_negative:
   so the calibration fit a0–a4 cannot be established
 - The goal is de novo network inference rather than filtering an already-scored network
   — use the FAVA VAE inference step instead
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0128
 - http://edamontology.org/topic_3523
@@ -42,7 +42,7 @@ metadata:
   - FAVA
   - Python
   - favapy
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_3523

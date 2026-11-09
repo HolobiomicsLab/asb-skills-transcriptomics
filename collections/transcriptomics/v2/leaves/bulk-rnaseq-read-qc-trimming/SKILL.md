@@ -9,7 +9,7 @@ when_to_use_negative:
 - Data is already quantified transcript-level abundance (e.g. Salmon/Kallisto output)
   and only needs tximport aggregation and DESeq2 modeling
 - Input is already a gene-level count matrix — trimming has no effect at this stage
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3512
 - http://edamontology.org/topic_3308
@@ -44,7 +44,7 @@ metadata:
   - Trimmomatic
   - clusterProfiler
   - tximport
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3512
   - http://edamontology.org/topic_3308

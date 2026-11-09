@@ -10,7 +10,7 @@ when_to_use_negative:
   selection); AutoImpute.py expects the pre-processed count matrix as input
 - The goal is differential-expression testing rather than matrix completion prior
   to downstream clustering or variance analysis
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -49,7 +49,7 @@ metadata:
   - scImpute
   - scScope
   - scVI
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

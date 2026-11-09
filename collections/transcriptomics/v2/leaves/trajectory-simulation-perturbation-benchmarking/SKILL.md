@@ -10,7 +10,7 @@ when_to_use_negative:
   assignments would not be verifiable against a known reference
 - Gene-level differential expression is the goal — conditionTest along lineages is
   the appropriate skill instead
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -41,7 +41,7 @@ metadata:
   - dyngen
   - ggplot2
   - slingshot
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

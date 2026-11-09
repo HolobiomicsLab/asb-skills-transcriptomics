@@ -10,7 +10,7 @@ when_to_use_negative:
   version ignores unmapped reads
 - Species with a single (non-homeologous) genome, where A/B/D subgenome assignment
   and homologous-group triad analysis are meaningless
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0102
@@ -41,7 +41,7 @@ metadata:
   - Galaxy
   - Rmarkdown
   - iwa-miRNA
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0102

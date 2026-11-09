@@ -11,7 +11,7 @@ when_to_use_negative:
   in treatment response — scCODA does not model response variability within a condition
 - When the relationship between covariates and cell abundance is expected to be non-log-linear
   — scCODA assumes a log-linear model that may be mis-specified
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -51,7 +51,7 @@ metadata:
   - scCODA
   - scanpy
   - theislab/scCODA_reproducibility
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

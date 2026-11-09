@@ -10,8 +10,7 @@ when_to_use_negative:
   assumption of similar cellular responses across clusters fail, e.g. intricate systems
   or disease tissues such as tumors.
 edam_operation: http://edamontology.org/operation_3432
-edam_topics:
-- http://edamontology.org/topic_0603
+edam_topics: []
 tools:
 - name: scDecouple
   role: R package whose decoupling step fits per-PC GMMs and selects the shared cluster
@@ -38,8 +37,7 @@ metadata:
   - scDecouple
   - tidyverse
   edam_operation: http://edamontology.org/operation_3432
-  edam_topics:
-  - http://edamontology.org/topic_0603
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

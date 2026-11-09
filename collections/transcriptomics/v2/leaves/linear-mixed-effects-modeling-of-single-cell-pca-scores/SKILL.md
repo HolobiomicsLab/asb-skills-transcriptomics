@@ -10,7 +10,7 @@ when_to_use_negative:
   effects bias distances downward (double dipping)
 - Only a single replicate per condition exists, so patient-level random effects cannot
   be estimated
-edam_operation: http://edamontology.org/operation_3657
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3170
@@ -47,7 +47,7 @@ metadata:
   - lmerTest
   - scDist
   - simData
-  edam_operation: http://edamontology.org/operation_3657
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3170

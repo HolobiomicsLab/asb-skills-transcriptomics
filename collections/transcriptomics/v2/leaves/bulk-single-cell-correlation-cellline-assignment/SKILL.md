@@ -10,7 +10,7 @@ when_to_use_negative:
   (e.g. GDSC/PRISM IC50 prediction via CaDRReS-Sc)
 - When the user's bulk reference sample is not one of the eight supported LINCS cell
   lines and no custom reference is available
-edam_operation: http://edamontology.org/operation_0572
+edam_operation: http://edamontology.org/operation_3925
 edam_topics:
 - http://edamontology.org/topic_3308
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Python
   - Scanpy
   - scDrug
-  edam_operation: http://edamontology.org/operation_0572
+  edam_operation: http://edamontology.org/operation_3925
   edam_topics:
   - http://edamontology.org/topic_3308
   provenance_tier: literature

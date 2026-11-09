@@ -9,7 +9,7 @@ when_to_use_negative:
 - No user-defined cell group exists and correlations would be computed on all cells
   rather than the in-session selection
 - Genes of interest are not transcription factors and are not annotated in AnimalTFDB
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3308
@@ -46,7 +46,7 @@ metadata:
   - RScriptRunner
   - cellexalvrR
   - propr
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3308

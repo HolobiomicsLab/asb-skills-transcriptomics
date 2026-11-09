@@ -10,7 +10,7 @@ when_to_use_negative:
   by TF binding sites), not data-driven GRN subnetwork modules from SCING.
 - The expression data are bulk or spatially aggregated without single-cell resolution,
   since AUCell scores are computed per cell.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -42,7 +42,7 @@ metadata:
   - SCING
   - enrichR
   - leiden
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

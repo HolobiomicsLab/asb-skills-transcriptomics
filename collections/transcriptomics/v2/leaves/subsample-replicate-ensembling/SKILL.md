@@ -11,7 +11,7 @@ when_to_use_negative:
   removal probability 0.2 assumes enough cells per subsample for GLG regression
 - The algorithm is not SINGE — this skill is specific to SINGE's GLG/Aggregate ensemble
   and its modified Borda aggregation
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -42,7 +42,7 @@ metadata:
   - MATLAB R2018a
   - SINGE
   - glmnet_matlab
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

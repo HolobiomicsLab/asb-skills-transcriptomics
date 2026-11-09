@@ -14,7 +14,7 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3227
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: SCISSOR
   role: Detects global and local RNA shape-change outliers whose sample IDs are then
@@ -39,7 +39,7 @@ metadata:
   edam_operation: http://edamontology.org/operation_3227
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

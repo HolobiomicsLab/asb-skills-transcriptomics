@@ -13,7 +13,7 @@ when_to_use_negative:
   data — the README warns they are pre-processed examples only
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 - http://edamontology.org/topic_2229
 tools:
 - name: SIMLR
@@ -52,7 +52,7 @@ metadata:
   - igraph
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_2229
   provenance_tier: literature
 license: CC-BY-4.0

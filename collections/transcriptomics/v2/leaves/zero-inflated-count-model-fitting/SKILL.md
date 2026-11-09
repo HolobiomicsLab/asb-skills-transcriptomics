@@ -10,7 +10,7 @@ when_to_use_negative:
   longer reflect the dropout process being modeled
 - Only denoised mean output is needed without a principled model-choice decision —
   DCA's default noise model may suffice
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2269
@@ -44,7 +44,7 @@ metadata:
   - Keras
   - TensorFlow
   - anndata
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2269

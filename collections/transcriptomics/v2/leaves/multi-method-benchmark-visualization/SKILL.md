@@ -9,7 +9,7 @@ when_to_use_negative:
   assessment instead
 - The goal is comparing trajectory topology/structure rather than cell ordering accuracy
   — Kendall correlation only evaluates pseudotime ordering
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0091
@@ -59,7 +59,7 @@ metadata:
   - VeloSim
   - dyngen
   - scVelo
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0091

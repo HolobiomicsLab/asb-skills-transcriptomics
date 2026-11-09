@@ -10,7 +10,7 @@ when_to_use_negative:
 - Input lacks a defined gene universe or q-values for the bulk JTKCycle results, making
   the q < 0.05 cycler call and hypergeometric denominator uncomputable
 - The goal is phase inference itself (use Tempo) rather than post-hoc cycler-set enrichment
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -49,7 +49,7 @@ metadata:
   - numpy
   - pandas
   - scipy
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

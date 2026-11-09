@@ -13,7 +13,7 @@ when_to_use_negative:
   present.
 - Large LD differences between studies (e.g., ancestry differences) are expected,
   since CAFEH relies on a single LD matrix and inference could be impacted.
-edam_operation: http://edamontology.org/operation_3957
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3517
 - http://edamontology.org/topic_0625
@@ -46,7 +46,7 @@ metadata:
   - Python
   - conda
   - pip
-  edam_operation: http://edamontology.org/operation_3957
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3517
   - http://edamontology.org/topic_0625

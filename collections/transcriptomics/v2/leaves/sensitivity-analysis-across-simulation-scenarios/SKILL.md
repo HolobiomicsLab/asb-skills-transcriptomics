@@ -10,7 +10,7 @@ when_to_use_negative:
 - The goal is differential pathway ranking or biological interpretation of real conditions
   (e.g. COVID-19 vs healthy monocytes), where compare_pathways() results on real data
   are the appropriate output instead of a simulation sweep
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0605
@@ -68,7 +68,7 @@ metadata:
   - iDEA
   - msigdbr
   - ssGSEA
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0605

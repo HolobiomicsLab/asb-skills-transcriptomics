@@ -12,7 +12,7 @@ when_to_use_negative:
 - Your data are bulk cell trajectories (population mean) rather than individual cell
   fate trajectories — the article's motivation is that bulk trajectories miss individual
   differentiation behaviors
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -52,7 +52,7 @@ metadata:
   - CombMSC 1.4.2.1
   - R
   - readr
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

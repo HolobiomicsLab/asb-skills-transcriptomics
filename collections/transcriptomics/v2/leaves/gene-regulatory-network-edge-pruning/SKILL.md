@@ -11,7 +11,7 @@ when_to_use_negative:
 - The goal is in silico TF perturbation simulation downstream — this skill builds
   the cluster-specific Links objects that simulation consumes, it does not itself
   simulate KO/overexpression
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_3308
@@ -48,7 +48,7 @@ metadata:
   - CellOracle
   - Python
   - igraph
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_3308

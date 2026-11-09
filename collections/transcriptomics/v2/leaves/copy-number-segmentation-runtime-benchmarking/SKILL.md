@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_2648
 tools:
 - name: SCEVAN
   role: Tool under test; pipelineCNA (par_cores = 20) run per dataset with classifyTumorCells
@@ -50,7 +49,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_2648
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

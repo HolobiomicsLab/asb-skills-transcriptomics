@@ -11,7 +11,7 @@ when_to_use_negative:
   ERgene's efficiency declines and it may return no result
 - The task requires an R- or Excel-based tool such as geNorm (qbase+/Excel), Normfinder
   (R/Excel), or BestKeeper instead of a Python package
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3577
 - http://edamontology.org/topic_0091
@@ -39,7 +39,7 @@ metadata:
   - ERgene
   - Pandas
   - Python
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3577
   - http://edamontology.org/topic_0091

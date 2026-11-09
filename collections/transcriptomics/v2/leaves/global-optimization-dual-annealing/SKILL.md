@@ -9,7 +9,7 @@ when_to_use_negative:
   suffice without global search
 - Cell labels are not categorical (e.g. trajectories or spatial positions), since
   scGeneFit assumes categorical labeling and linear separability of cell type classes
-edam_operation: http://edamontology.org/operation_2438
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 - http://edamontology.org/topic_3308
@@ -36,7 +36,7 @@ metadata:
   tools:
   - SciPy
   - scGeneFit
-  edam_operation: http://edamontology.org/operation_2438
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   - http://edamontology.org/topic_3308

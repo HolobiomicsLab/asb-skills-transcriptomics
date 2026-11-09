@@ -10,7 +10,7 @@ when_to_use_negative:
   rather than interpreting what individual latent dimensions encode
 - Input is raw count data that has not yet been trained through scMM — motif enrichment
   here operates on decoded pseudocell accessibility, not primary counts
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0749
@@ -47,7 +47,7 @@ metadata:
   - MMVAE
   - R
   - scMM
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0749

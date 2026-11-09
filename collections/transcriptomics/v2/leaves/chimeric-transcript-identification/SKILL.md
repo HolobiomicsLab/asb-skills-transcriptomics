@@ -9,7 +9,7 @@ when_to_use_negative:
 - The goal is gene expression quantification from RNA-Seq rather than fusion detection
   (TSNAD handles expression separately, e.g. filtering neoantigens from genes with
   TPM < 1)
-edam_operation: http://edamontology.org/operation_3271
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_2640
@@ -47,7 +47,7 @@ metadata:
   - Arriba
   - STAR
   - TSNAD v2.0
-  edam_operation: http://edamontology.org/operation_3271
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_2640

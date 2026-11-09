@@ -12,7 +12,7 @@ when_to_use_negative:
   raw counts is more appropriate.
 - ref_adata and query_adata var_names differ or are unordered — TOSICA prediction
   requires identical, consistently ordered genes.
-edam_operation: http://edamontology.org/operation_3323
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0769
@@ -42,7 +42,7 @@ metadata:
   - TOSICA
   - scanpy
   - torch
-  edam_operation: http://edamontology.org/operation_3323
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0769

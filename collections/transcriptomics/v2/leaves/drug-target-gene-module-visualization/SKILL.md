@@ -13,7 +13,7 @@ when_to_use_negative:
   has only preliminary results (Figure S17)
 - No tpGRN exists yet — init_mod requires the gene regulatory network reconstructed
   by Constr_net() from the expression profiles for the target gene
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - rTensor
   - scRank
   - tensorly
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

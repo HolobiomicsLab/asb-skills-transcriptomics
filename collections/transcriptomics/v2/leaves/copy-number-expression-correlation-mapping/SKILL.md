@@ -10,7 +10,7 @@ when_to_use_negative:
   methods such as clonealign, MaCroDNA does not provide probabilistic confidence measures'
 - Ground-truth correspondence between cells exists and direct pairing suffices; no
   cross-modality matching is needed
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0622
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Gurobi Optimizer
   - MaCroDNA
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0622

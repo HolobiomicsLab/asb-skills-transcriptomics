@@ -14,7 +14,7 @@ when_to_use_negative:
   populations
 edam_operation: http://edamontology.org/operation_3935
 edam_topics:
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 tools:
 - name: EDGE
   role: Primary ensemble method producing the 2D embedding that separates rare cell
@@ -47,7 +47,7 @@ metadata:
   - t-SNE
   edam_operation: http://edamontology.org/operation_3935
   edam_topics:
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

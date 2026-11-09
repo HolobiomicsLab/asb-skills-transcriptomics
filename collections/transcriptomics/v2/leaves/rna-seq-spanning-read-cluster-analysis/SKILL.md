@@ -10,7 +10,7 @@ when_to_use_negative:
   are available, so no junction cluster can be designated as primary
 edam_operation: http://edamontology.org/operation_0279
 edam_topics:
-- http://edamontology.org/topic_3522
+- http://edamontology.org/topic_3520
 tools:
 - name: INTEGRATE-Circ
   role: Fusion junction detection tool whose clustering of spanning RNA-Seq reads
@@ -43,7 +43,7 @@ metadata:
   - g++
   edam_operation: http://edamontology.org/operation_0279
   edam_topics:
-  - http://edamontology.org/topic_3522
+  - http://edamontology.org/topic_3520
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -11,7 +11,7 @@ when_to_use_negative:
   chain, or there is no permuted-null object to compare against.
 - The 2D embedding method is not t-SNE/UMAP and the pre-embedding space has been changed
   away from PCA without adjusting the pre_embedding argument.
-edam_operation: http://edamontology.org/operation_0939
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -41,7 +41,7 @@ metadata:
   - devtools
   - distances
   - scDEED
-  edam_operation: http://edamontology.org/operation_0939
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

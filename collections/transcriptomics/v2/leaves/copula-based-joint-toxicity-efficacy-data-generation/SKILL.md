@@ -12,7 +12,7 @@ when_to_use_negative:
   treatment initiation'
 - The trial is a drug-combination study — extending TSNP to combination dosing is
   explicitly listed as future work, not yet available
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3398
 - http://edamontology.org/topic_0203
@@ -40,7 +40,7 @@ metadata:
   tools:
   - R
   - TSNP R package code
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3398
   - http://edamontology.org/topic_0203

@@ -11,7 +11,7 @@ when_to_use_negative:
 - When a single 'best' confounding-removal method must hold for all questions — the
   best method may vary depending on the downstream analysis of interest (e.g. scPLS
   lost under tSNE)
-edam_operation: http://edamontology.org/operation_3665
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3523
 tools:
@@ -53,7 +53,7 @@ metadata:
   - scAce
   - scPLS
   - t-SNE
-  edam_operation: http://edamontology.org/operation_3665
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3523
   provenance_tier: literature

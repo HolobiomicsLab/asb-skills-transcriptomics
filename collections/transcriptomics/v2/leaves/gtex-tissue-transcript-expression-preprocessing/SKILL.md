@@ -11,7 +11,7 @@ when_to_use_negative:
   this skill works on transcript-level expression tables with trId/geneId.
 - Only effect annotation of already-called variants is needed (e.g. LoF prediction
   via LOFTEE/VEP) — no sQTL association testing is involved.
-edam_operation: http://edamontology.org/operation_3236
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_3170
@@ -55,7 +55,7 @@ metadata:
   - STAR
   - sQTLseekeR2
   - sqtlseeker2-nf
-  edam_operation: http://edamontology.org/operation_3236
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_3170

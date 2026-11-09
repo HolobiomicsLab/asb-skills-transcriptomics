@@ -10,7 +10,7 @@ when_to_use_negative:
 - Only whole-transcriptome UMI counts are needed (no splicing dynamics or RNA velocity
   analysis); a cDNA-only kallisto index without intronic entries would be the simpler
   choice.
-edam_operation: http://edamontology.org/operation_3580
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - bustools
   - kallisto
   - scKB
-  edam_operation: http://edamontology.org/operation_3580
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203

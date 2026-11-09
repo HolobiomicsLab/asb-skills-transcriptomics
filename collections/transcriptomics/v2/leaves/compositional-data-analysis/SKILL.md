@@ -12,7 +12,7 @@ when_to_use_negative:
   does not model this.
 - Cell-type definitions come from clustering that is not statistically sound or biologically
   meaningful — scCODA requires pre-specified, reliable cell-type annotations.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0203
@@ -46,7 +46,7 @@ metadata:
   - pandas
   - scCODA
   - scanpy
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0203

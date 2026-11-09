@@ -12,7 +12,7 @@ when_to_use_negative:
 - 'You need only a curated, high-confidence miRNA set without downstream filtering:
   the aggregated list ''certainly contain[s] false positive hits'' and requires MiRNA
   Selection and Manual Curation before functional use'
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0659
 - http://edamontology.org/topic_3170
@@ -45,7 +45,7 @@ metadata:
   - Docker
   - Galaxy
   - iwa-miRNA
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0659
   - http://edamontology.org/topic_3170

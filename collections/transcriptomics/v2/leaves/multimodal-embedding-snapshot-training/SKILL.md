@@ -12,7 +12,7 @@ when_to_use_negative:
   the paper, parameters must be determined separately.
 - You need supervised cell-type annotation — SnapCCESS is an unsupervised clustering/embedding
   framework, not a classifier.
-edam_operation: http://edamontology.org/operation_3686
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -49,7 +49,7 @@ metadata:
   - SnapCCESS R wrapper
   - remotes
   - snapccess
-  edam_operation: http://edamontology.org/operation_3686
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

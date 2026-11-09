@@ -9,7 +9,7 @@ when_to_use_negative:
 - The error model is a nanopore channel with memory rather than the fault distributions
   FrameD injects directly — in that case FrameD wraps DNArSim output, but DNArSim
   itself is invoked separately via its Julia simulator
-edam_operation: http://edamontology.org/operation_3864
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -41,7 +41,7 @@ metadata:
   - DNArSim
   - FrameD
   - db_gen.py
-  edam_operation: http://edamontology.org/operation_3864
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

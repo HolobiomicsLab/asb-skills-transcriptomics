@@ -12,7 +12,7 @@ when_to_use_negative:
   identical results
 - The target dataset has more than 30,000 genes — a known DuckDB memory leak affects
   databases with >30k genes
-edam_operation: http://edamontology.org/operation_3875
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0091
@@ -53,7 +53,7 @@ metadata:
   - Pandas
   - Python
   - Scanpy
-  edam_operation: http://edamontology.org/operation_3875
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0091

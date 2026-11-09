@@ -8,7 +8,7 @@ when_to_use_negative:
   — no pooling is needed and raw proportions are the constrained MLEs.
 - When dose-response need not be monotone (the constraint p1 ≤ p2 ≤ ... ≤ pJ is a
   design assumption of TSNP; violating it structurally invalidates isotonic fitting).
-edam_operation: http://edamontology.org/operation_3653
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -30,7 +30,7 @@ metadata:
   repo_url: https://github.com/yongzang2020/TSNP
   tools:
   - R
-  edam_operation: http://edamontology.org/operation_3653
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

@@ -11,7 +11,7 @@ when_to_use_negative:
   tables require single-cell scores
 - Data are already scaled — score_hub expects raw or normalized (not scaled) expression
   since it binarizes by default
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0625
@@ -46,7 +46,7 @@ metadata:
   - Python
   - SenePy
   - scanpy
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0625

@@ -11,7 +11,7 @@ when_to_use_negative:
   from each method first
 - Comparing methods across different tissues or spot sets, where gene rankings are
   not defined over a shared gene universe and set overlaps are not meaningful
-edam_operation: http://edamontology.org/operation_2240
+edam_operation: null
 tools:
 - name: nnSVG
   role: Source of the reference SVG rankings (LR_stat-based rank in rowData) compared
@@ -40,7 +40,7 @@ metadata:
   - R
   - SPARK-X
   - nnSVG
-  edam_operation: http://edamontology.org/operation_2240
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

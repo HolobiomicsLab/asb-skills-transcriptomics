@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3432
 edam_topics:
 - http://edamontology.org/topic_3308
-- http://edamontology.org/topic_3481
 tools:
 - name: c-CSN
   role: Constructs the per-cell CCSNs and integrates them into the CNDM that this
@@ -45,7 +44,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3432
   edam_topics:
   - http://edamontology.org/topic_3308
-  - http://edamontology.org/topic_3481
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

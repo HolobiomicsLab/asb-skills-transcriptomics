@@ -10,7 +10,7 @@ when_to_use_negative:
   would double-correct and distort counts
 - Barcode protocols without UMI sequences, where there is no molecular identifier
   to collapse
-edam_operation: http://edamontology.org/operation_3579
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 tools:
@@ -53,7 +53,7 @@ metadata:
   - samtools
   - starcode
   - umi-tools
-  edam_operation: http://edamontology.org/operation_3579
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   provenance_tier: literature

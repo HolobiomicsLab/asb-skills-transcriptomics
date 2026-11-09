@@ -10,7 +10,7 @@ when_to_use_negative:
   genes lack variability, or tissue slivers/thin structures covering only a few pixels
 - Very sparse ST data with high stochastic drop-out rates, where the LDA model may
   struggle to identify distinct groups of co-expressed genes
-edam_operation: http://edamontology.org/operation_3648
+edam_operation: http://edamontology.org/operation_3649
 edam_topics:
 - http://edamontology.org/topic_3518
 tools:
@@ -40,7 +40,7 @@ metadata:
   - R
   - STdeconvolve
   - remotes
-  edam_operation: http://edamontology.org/operation_3648
+  edam_operation: http://edamontology.org/operation_3649
   edam_topics:
   - http://edamontology.org/topic_3518
   provenance_tier: literature

@@ -11,7 +11,7 @@ when_to_use_negative:
   (beta and var(beta)) have been computed by a standalone DE method
 - The analysis goal is gene set enrichment testing alone (use iDEA.fit with iDEA.louis
   / iDEA.FDR for calibrated gene set p-values rather than BMA gene aggregation)
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -50,7 +50,7 @@ metadata:
   - iDEA.BMA
   - iDEA.fit
   - zingeR
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

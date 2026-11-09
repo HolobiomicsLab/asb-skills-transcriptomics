@@ -10,7 +10,7 @@ when_to_use_negative:
   to compare degree against
 - The input is raw single-cell counts that have not been normalized with sclink_norm
   and filtered to a gene set
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_3170
@@ -38,7 +38,7 @@ metadata:
   tools:
   - R
   - scLink
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   - http://edamontology.org/topic_3170

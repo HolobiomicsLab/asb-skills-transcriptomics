@@ -12,7 +12,7 @@ when_to_use_negative:
   expression analyses
 - Sample size per condition is below the package minimum (min_samples=15 per condition);
   the README recommends at least 30 samples per condition as ideal input
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0203
@@ -64,7 +64,7 @@ metadata:
   - pandas
   - pip
   - python-louvain
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0203

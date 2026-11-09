@@ -11,7 +11,7 @@ when_to_use_negative:
   resolution for building cell-specific networks
 - Runtime is severely constrained, since the conditional testing incurs a G-fold computational
   cost increase with no parallel scheme provided
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -46,7 +46,7 @@ metadata:
   - SIMLR
   - c-CSN
   - t-SNE
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

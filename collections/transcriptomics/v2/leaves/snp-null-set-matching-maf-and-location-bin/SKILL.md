@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3664
 edam_topics:
 - http://edamontology.org/topic_0622
-- http://edamontology.org/topic_3268
 tools:
 - name: sQTLseekeR2
   role: R package whose nominal and permuted passes produce the sQTL catalog and all-tests
@@ -42,7 +41,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3664
   edam_topics:
   - http://edamontology.org/topic_0622
-  - http://edamontology.org/topic_3268
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

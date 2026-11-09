@@ -14,7 +14,7 @@ when_to_use_negative:
   from pseudo-replicates should be interpreted with caution and validated experimentally,
   so this skill is the wrong choice when fully powered replicate-based analysis is
   available.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 tools:
@@ -51,7 +51,7 @@ metadata:
   - Scanpro
   - Scanpy
   - propeller
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   provenance_tier: literature

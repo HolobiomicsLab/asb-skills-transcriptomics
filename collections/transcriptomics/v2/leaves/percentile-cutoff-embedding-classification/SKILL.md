@@ -14,7 +14,6 @@ when_to_use_negative:
   whether embeddings preserve pre-embedding cell distances
 edam_operation: http://edamontology.org/operation_0337
 edam_topics:
-- http://edamontology.org/topic_4085
 - http://edamontology.org/topic_3308
 tools:
 - name: scDEED
@@ -48,7 +47,6 @@ metadata:
   - scDEED
   edam_operation: http://edamontology.org/operation_0337
   edam_topics:
-  - http://edamontology.org/topic_4085
   - http://edamontology.org/topic_3308
   provenance_tier: literature
 license: CC-BY-4.0

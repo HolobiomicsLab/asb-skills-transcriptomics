@@ -12,7 +12,7 @@ when_to_use_negative:
   confirmation
 - When cell-cycle or proliferation-driven non-stationary dynamics dominate, which
   the current method does not model
-edam_operation: http://edamontology.org/operation_3930
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_3308
@@ -45,7 +45,7 @@ metadata:
   - PyEMMA
   - Scanpy
   - pyMuTrans
-  edam_operation: http://edamontology.org/operation_3930
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_3308

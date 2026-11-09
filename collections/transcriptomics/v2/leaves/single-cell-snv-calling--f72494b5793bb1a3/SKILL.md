@@ -12,7 +12,6 @@ when_to_use_negative:
 - Datasets without cell-barcoded 10x alignments (e.g., plate-based scRNA-seq without
   CB tags), since VarTrix requires a Cell Ranger BAM and barcodes file
 edam_topics:
-- http://edamontology.org/topic_2648
 - http://edamontology.org/topic_0199
 tools:
 - name: ScType
@@ -55,7 +54,6 @@ metadata:
   - samtools + Strelka2
   edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_2648
   - http://edamontology.org/topic_0199
   provenance_tier: literature
 license: CC-BY-4.0

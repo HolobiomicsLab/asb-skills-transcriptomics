@@ -10,7 +10,7 @@ when_to_use_negative:
   network
 - The analysis targets a tool other than the GNIAP R package workflow (its functions
   define the overlap, topological, and biological assessment steps)
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0605
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - GNIAP
   - R
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0605
   provenance_tier: literature

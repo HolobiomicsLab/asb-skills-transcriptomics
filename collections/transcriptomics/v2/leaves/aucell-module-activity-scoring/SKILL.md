@@ -10,7 +10,7 @@ when_to_use_negative:
   CEFCON stages (NetModel training, driver_regulators()), not activity scoring
 - Data are not single-cell expression profiles — AUCell is designed for single-cell
   RNA-seq gene-set activity analysis
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0605
@@ -55,7 +55,7 @@ metadata:
   - pyscenic
   - scanpy
   - torch-geometric
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0605

@@ -12,7 +12,7 @@ when_to_use_negative:
 - 'When trying to merge or batch-correct across many platforms: the article notes
   the inability to robustly merge datasets across platforms and compositions, so comparisons
   are done within each platform separately'
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -39,7 +39,7 @@ metadata:
   tools:
   - R
   - pdacR
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

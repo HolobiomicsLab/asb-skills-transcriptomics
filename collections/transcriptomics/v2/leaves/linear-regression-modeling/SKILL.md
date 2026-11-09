@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2239
 edam_topics:
 - http://edamontology.org/topic_2269
-- http://edamontology.org/topic_2642
 tools:
 - name: R
   role: Statistical environment used to load the merged flux/hypoxia table, fit lm(Hypoxia_score
@@ -42,7 +41,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2239
   edam_topics:
   - http://edamontology.org/topic_2269
-  - http://edamontology.org/topic_2642
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

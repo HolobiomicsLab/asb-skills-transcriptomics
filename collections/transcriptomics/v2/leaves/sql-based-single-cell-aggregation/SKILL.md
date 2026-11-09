@@ -12,7 +12,7 @@ when_to_use_negative:
 - Situations that require a performance-tuned database schema — the AnnSQL tables
   are explicitly designed to mirror the AnnData object structure, not optimized for
   performance
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -52,7 +52,7 @@ metadata:
   - Scanpy
   - Seurat
   - duckdb R driver
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

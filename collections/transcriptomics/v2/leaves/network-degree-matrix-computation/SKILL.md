@@ -9,7 +9,7 @@ when_to_use_negative:
 - A plain (unconditional) cell-specific network is sufficient and the G-fold computational
   cost of testing G conditional genes per cell is prohibitive, especially since no
   parallel computation scheme is provided
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -34,7 +34,7 @@ metadata:
   tools:
   - SC3
   - c-CSN
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

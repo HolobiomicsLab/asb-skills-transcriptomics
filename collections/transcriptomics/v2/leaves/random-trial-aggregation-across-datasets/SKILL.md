@@ -13,7 +13,7 @@ when_to_use_negative:
 - Your dataset is small enough that sketching is unnecessary; the paper motivates
   this for datasets whose size exceeds the capability of current computational analysis
   methods
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3307
 - http://edamontology.org/topic_0091
@@ -41,7 +41,7 @@ metadata:
   tools:
   - Sphetcher
   - git
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3307
   - http://edamontology.org/topic_0091

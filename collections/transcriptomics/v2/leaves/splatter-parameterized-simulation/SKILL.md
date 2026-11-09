@@ -8,7 +8,7 @@ when_to_use_negative:
   GSE84133) rather than to regenerate the simulated benchmark scenarios
 - A different cell/gene dimensionality than 2000 x 5000 is required, since the validated
   benchmark outputs are fixed at exactly 2000 cells x 5000 genes
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -39,7 +39,7 @@ metadata:
   - R
   - Splatter
   - scGAE
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

@@ -8,7 +8,7 @@ when_to_use_negative:
   nodes, which cannot be expanded or coloured in Cytoscape
 - Nodes already containing a single gene only — expansion is unnecessary and the KEGGScape
   baseline rendering suffices
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_0602
@@ -39,7 +39,7 @@ metadata:
   - Cytoscape
   - FunHoP
   - KEGGScape
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_0602

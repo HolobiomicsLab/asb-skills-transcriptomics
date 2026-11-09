@@ -10,7 +10,7 @@ when_to_use_negative:
   is not the appropriate step
 - Data are not barcoded single-cell or whitelist-searchable reads (e.g. generic genomic
   alignment tasks) — use a mapper instead
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -42,7 +42,7 @@ metadata:
   - Flexiplex
   - conda
   - scTagger
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

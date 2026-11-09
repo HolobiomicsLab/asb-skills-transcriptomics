@@ -10,7 +10,7 @@ when_to_use_negative:
   evaluation is calibrated on scRNA-seq representations (e.g. PBMC clusters)
 - No cluster-annotated real cells are available for the target clusters, so the real-vs-synthetic
   comparison cannot be constructed
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_2269
@@ -46,7 +46,7 @@ metadata:
   - Tensorboard
   - cscGAN
   - t-SNE
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_2269

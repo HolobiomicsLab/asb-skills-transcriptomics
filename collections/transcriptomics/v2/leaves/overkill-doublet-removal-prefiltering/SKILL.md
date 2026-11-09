@@ -12,7 +12,6 @@ when_to_use_negative:
   integrates results of multiple methods'
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
-- http://edamontology.org/topic_6170
 - http://edamontology.org/topic_2269
 tools:
 - name: Chord
@@ -53,7 +52,6 @@ metadata:
   - scds
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
-  - http://edamontology.org/topic_6170
   - http://edamontology.org/topic_2269
   provenance_tier: literature
 license: CC-BY-4.0

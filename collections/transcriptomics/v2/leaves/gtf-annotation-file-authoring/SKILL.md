@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3208
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3117
 tools:
 - name: scisorseqr
   role: R-package supplying MapAndFilter for full-length, spliced read filtering and
@@ -57,7 +56,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3208
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3117
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

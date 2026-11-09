@@ -10,7 +10,7 @@ when_to_use_negative:
   than matched against a whitelist (Flexiplex's discovery mode handles that separately)
 - The goal is downstream cell-barcode filtering against a whitelist with empty-droplet
   removal via inflection point — that is flexiplex-filter's role, not chimeric splitting
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0622
 - http://edamontology.org/topic_0080
@@ -42,7 +42,7 @@ metadata:
   - Python
   - edlib
   - pip
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0622
   - http://edamontology.org/topic_0080

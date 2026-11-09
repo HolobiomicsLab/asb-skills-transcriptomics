@@ -10,7 +10,7 @@ when_to_use_negative:
   fixed and only varies sigma and A^ noise
 - Input lacks a converged reference fit to serve as the baseline for computing velocity
   deviations
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -37,7 +37,7 @@ metadata:
   tools:
   - Jupyter
   - scKINETICS
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

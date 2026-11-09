@@ -9,9 +9,8 @@ when_to_use_negative:
 - When the tool in use derives its cell-calling cutoff automatically (e.g., EmptyDrops
   infers the cell-free profile with a Dirichlet-multinomial model, or Cell Ranger
   v.3 integrates EmptyDrops) rather than requiring a user-supplied expected cell count
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_6170
 - http://edamontology.org/topic_3170
 tools:
 - name: CellBender
@@ -43,9 +42,8 @@ metadata:
   - CellBender
   - EmptyDrops
   - EmptyNN
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_6170
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

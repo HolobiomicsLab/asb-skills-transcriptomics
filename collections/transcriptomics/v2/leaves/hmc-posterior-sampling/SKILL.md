@@ -11,7 +11,7 @@ when_to_use_negative:
   heterogeneities between samples
 - When the log-linear relationship between covariates and cell abundance is likely
   mis-specified for the system under study
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 tools:
@@ -50,7 +50,7 @@ metadata:
   - scCODA
   - scanpy
   - tensorflow-probability
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   provenance_tier: literature

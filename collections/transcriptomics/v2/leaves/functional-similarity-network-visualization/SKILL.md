@@ -10,7 +10,7 @@ when_to_use_negative:
   discovery or trajectory inference rather than functional annotation
 - Input is bulk transcriptomic data — scPlant targets single-cell atlases and uses
   Seurat/CellFunTopic single-cell objects
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0204
@@ -47,7 +47,7 @@ metadata:
   - CellFunTopic
   - Seurat
   - scPlant
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0204

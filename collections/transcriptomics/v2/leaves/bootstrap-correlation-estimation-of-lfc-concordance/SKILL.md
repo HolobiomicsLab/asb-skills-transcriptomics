@@ -10,7 +10,7 @@ when_to_use_negative:
   expression agreement with bulk data
 - Populations have fewer than ~20 cells per group, making the 20-cells-per-population
   bootstrap resampling infeasible
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0203
@@ -61,7 +61,7 @@ metadata:
   - Scanpy
   - anndata
   - scImpute
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0203

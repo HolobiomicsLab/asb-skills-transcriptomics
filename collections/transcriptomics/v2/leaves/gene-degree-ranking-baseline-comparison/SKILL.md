@@ -9,7 +9,7 @@ when_to_use_negative:
 - The evaluation benchmark differs from the CGC set or the β parameter is changed,
   since the F0.2 measure deliberately weights precision over recall and is integral
   to the published comparison
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_2640
@@ -42,7 +42,7 @@ metadata:
   - MATLAB
   - Matlab R2020b
   - WMDS.net
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_2640

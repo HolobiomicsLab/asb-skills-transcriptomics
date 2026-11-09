@@ -14,7 +14,7 @@ when_to_use_negative:
 - Running on a desktop without SLURM/distributed computing — the README warns large
   scRNA-seq datasets need in excess of 10G RAM and rule inference is not recommended
   on a desktop computer
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_3308
@@ -48,7 +48,7 @@ metadata:
   - SLURM
   - conda
   - scBONITA
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   - http://edamontology.org/topic_3308

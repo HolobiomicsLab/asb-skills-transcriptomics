@@ -10,7 +10,7 @@ when_to_use_negative:
   them
 - Spatially resolved communication inference is the goal, as NATMI has not been specifically
   designed for spatial data
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -33,7 +33,7 @@ metadata:
   repo_url: https://github.com/forrest-lab/NATMI
   tools:
   - NATMI
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

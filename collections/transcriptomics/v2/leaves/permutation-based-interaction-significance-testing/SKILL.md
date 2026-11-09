@@ -12,7 +12,7 @@ when_to_use_negative:
 - Only single ligand/single receptor gene pairs with no consideration of multimeric
   complexes are required — CellChatDB's complex-aware modeling would be unnecessary
   overhead
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0602
@@ -42,7 +42,7 @@ metadata:
   - CellChat
   - CellChatDB
   - SingleCellSignalR
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0602

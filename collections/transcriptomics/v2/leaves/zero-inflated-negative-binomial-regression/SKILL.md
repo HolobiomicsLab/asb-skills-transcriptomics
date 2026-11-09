@@ -16,7 +16,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3664
 edam_topics:
 - http://edamontology.org/topic_0611
-- http://edamontology.org/topic_3942
 tools:
 - name: scHiCDiff
   role: Provides the scHiCDiff.ZINB (and companion NB/KS/CVM/common.DCI) detection
@@ -47,7 +46,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3664
   edam_topics:
   - http://edamontology.org/topic_0611
-  - http://edamontology.org/topic_3942
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

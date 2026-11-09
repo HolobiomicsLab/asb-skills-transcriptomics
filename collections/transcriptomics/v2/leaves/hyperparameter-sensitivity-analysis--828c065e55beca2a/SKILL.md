@@ -12,7 +12,7 @@ when_to_use_negative:
   vs gene expression)
 - The goal is benchmarking against other integration methods rather than characterizing
   robustness to one model's hyperparameter
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -51,7 +51,7 @@ metadata:
   - POT
   - Scanpy
   - scConfluence
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

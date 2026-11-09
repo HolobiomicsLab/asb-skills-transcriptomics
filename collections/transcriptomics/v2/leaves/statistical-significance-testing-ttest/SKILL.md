@@ -8,7 +8,7 @@ when_to_use_negative:
   — a t-test requires per-dataset metric vectors to test against
 - When the goal is two-sided comparison of arbitrary methods rather than the one-tailed
   hypothesis that scNovel's novel rare cell detection advantage is real
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_3307
@@ -48,7 +48,7 @@ metadata:
   - scPred
   - scmap-cell
   - scmap-cluster
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   - http://edamontology.org/topic_3307

@@ -10,7 +10,7 @@ when_to_use_negative:
 - Datasets without definitive ground-truth splicing labels (e.g. single-end data without
   the paired-end read-1 labeling rules e∧e′, e·e′, i, i·e) — AUC cannot be computed
   without gold-standard labels
-edam_operation: http://edamontology.org/operation_1221
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0091
@@ -47,7 +47,7 @@ metadata:
   - R
   - bedtools
   - samtools
-  edam_operation: http://edamontology.org/operation_1221
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0091

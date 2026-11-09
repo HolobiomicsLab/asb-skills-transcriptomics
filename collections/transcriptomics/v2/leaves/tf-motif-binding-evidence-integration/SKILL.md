@@ -10,9 +10,8 @@ when_to_use_negative:
   scMEGA will drop TF–gene pairs lacking a bound, linked enhancer.
 - Bulk multi-omics data without per-cell pairing/trajectory, since scMEGA's workflow
   depends on single-cell multiome objects and pseudo-time (AddTrajectory) context.
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_0603
 - http://edamontology.org/topic_0102
 tools:
 - name: scMEGA
@@ -46,9 +45,8 @@ metadata:
   - ggraph
   - igraph
   - scMEGA
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0603
   - http://edamontology.org/topic_0102
   provenance_tier: literature
 license: CC-BY-4.0

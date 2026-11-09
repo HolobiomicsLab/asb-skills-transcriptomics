@@ -12,7 +12,7 @@ when_to_use_negative:
   include batch correction and requires preprocessing beforehand
 - The goal is biological interpretation of a prognostic feature — clinically significant
   Miscell latent features lack explainability in this framework
-edam_operation: http://edamontology.org/operation_0301
+edam_operation: http://edamontology.org/operation_0303
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -47,7 +47,7 @@ metadata:
   - Miscell
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_0301
+  edam_operation: http://edamontology.org/operation_0303
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

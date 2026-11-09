@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3935
 edam_topics:
 - http://edamontology.org/topic_3170
-- http://edamontology.org/topic_3685
 tools:
 - name: Mowgli
   role: 'Core method: combines integrative NMF and entropic-regularized optimal transport
@@ -62,7 +61,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3935
   edam_topics:
   - http://edamontology.org/topic_3170
-  - http://edamontology.org/topic_3685
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

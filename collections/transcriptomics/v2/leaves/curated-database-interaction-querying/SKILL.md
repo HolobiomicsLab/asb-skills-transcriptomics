@@ -9,7 +9,7 @@ when_to_use_negative:
 - The goal is de novo motif-based refinement only (TFBM discovery with MEME), not
   database interaction incorporation
 - The input is raw count data rather than an already inferred GRN adjacency matrix
-edam_operation: http://edamontology.org/operation_0277
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0602
 - http://edamontology.org/topic_0204
@@ -57,7 +57,7 @@ metadata:
   - Signor
   - TDAracne
   - TRRUST
-  edam_operation: http://edamontology.org/operation_0277
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0602
   - http://edamontology.org/topic_0204

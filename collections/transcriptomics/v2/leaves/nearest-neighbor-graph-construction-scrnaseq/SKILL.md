@@ -12,7 +12,7 @@ when_to_use_negative:
   testing of cell types
 edam_operation: http://edamontology.org/operation_3891
 edam_topics:
-- http://edamontology.org/topic_3525
+- http://edamontology.org/topic_0128
 - http://edamontology.org/topic_3170
 tools:
 - name: Seurat
@@ -52,7 +52,7 @@ metadata:
   - igraph
   edam_operation: http://edamontology.org/operation_3891
   edam_topics:
-  - http://edamontology.org/topic_3525
+  - http://edamontology.org/topic_0128
   - http://edamontology.org/topic_3170
   provenance_tier: literature
 license: CC-BY-4.0

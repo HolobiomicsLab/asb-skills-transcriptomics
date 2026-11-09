@@ -10,7 +10,7 @@ when_to_use_negative:
   since anchors are the basis of this workflow
 - When the goal is cell-type-specific gene regulatory network inference (use MINI-EX/pySCENIC
   instead) rather than cross-species data integration
-edam_operation: http://edamontology.org/operation_3934
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 - http://edamontology.org/topic_0780
@@ -45,7 +45,7 @@ metadata:
   - R
   - Seurat
   - scPlant
-  edam_operation: http://edamontology.org/operation_3934
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   - http://edamontology.org/topic_0780

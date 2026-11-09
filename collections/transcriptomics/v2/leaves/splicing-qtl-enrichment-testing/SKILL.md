@@ -11,7 +11,7 @@ when_to_use_negative:
 - Variants come from a univariate splicing QTL analysis not accounting for the multivariate
   nature of alternative splicing (no LeafCutter intron excision ratios), making the
   sQTL/non-sQTL stratification non-comparable
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3170
 tools:
@@ -41,7 +41,7 @@ metadata:
   - LeafCutter
   - gkmSVM
   - sQTLseekeR2
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3170
   provenance_tier: literature

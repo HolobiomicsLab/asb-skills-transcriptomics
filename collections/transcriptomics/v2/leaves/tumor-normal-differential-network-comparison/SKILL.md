@@ -11,7 +11,7 @@ when_to_use_negative:
 - The input is single-cell scRNA-seq and the goal is clustering or trajectory direction
   via network flow entropy, where the broader c-CSN scRNA-seq workflow (CNDM, NFE)
   rather than this differential-comparison application is appropriate
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3523
 - http://edamontology.org/topic_0203
@@ -35,7 +35,7 @@ metadata:
   repo_url: https://github.com/LinLi-0909/c-CSN
   tools:
   - c-CSN
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3523
   - http://edamontology.org/topic_0203

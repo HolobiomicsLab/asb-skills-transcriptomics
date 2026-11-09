@@ -8,7 +8,7 @@ when_to_use_negative:
   be computed and must be omitted
 - You lack cell-type annotations, since the purity score requires an external reference
   label per cell
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2229
 - http://edamontology.org/topic_0091
@@ -40,7 +40,7 @@ metadata:
   - Python
   - Scanpy
   - Seurat v4
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2229
   - http://edamontology.org/topic_0091

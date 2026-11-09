@@ -11,7 +11,7 @@ when_to_use_negative:
   which the README states produces a four-way plot, not the scorecard.
 - The goal is experience-driven tracking of a preselected gene list; the article positions
   the scorecard to bypass gene preselection and stay data-driven.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3308
 - http://edamontology.org/topic_0203
@@ -45,7 +45,7 @@ metadata:
   - Python
   - TRANSIT
   - scorecard_functions
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3308
   - http://edamontology.org/topic_0203
