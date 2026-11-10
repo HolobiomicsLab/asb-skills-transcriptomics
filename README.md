@@ -30,6 +30,7 @@ This repository holds the transcriptomics skill collection of AgenticScienceBuil
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
+| `collections/transcriptomics/v1` | ASB Transcriptomics Skill Collection v1 (legacy) | 166 | 37 | 2026-06-15 | not deposited |
 | `collections/transcriptomics/v2` | ASB Transcriptomics Skill Collection v2 | 11256 | 2086 | 2026-11-09 | [10.5281/zenodo.24093100](https://doi.org/10.5281/zenodo.24093100) |
 
 ## Status
@@ -134,7 +135,7 @@ Each leaf names its source paper in `provenance.source_papers` (11,256 of 11,256
 
 ## Related repositories
 
-- [ASB skill collections](https://github.com/HolobiomicsLab/asb-skill-collections): the registry of every domain, the shared tooling, the governance documents, the contribution loop and the released metabolomics collection.
+- [ASB skill collections](https://github.com/HolobiomicsLab/asb-skill-collections): the registry of every domain, the shared tooling, the governance documents, the contribution loop and the earlier metabolomics v2 tree. The current metabolomics collection (v3) is in the `asb-skills-metabolomics` repository.
 - AgenticScienceBuilder: the pipeline that generated this collection. Repository follows.
 - `indicium-adapters-transcriptomics`: the Indicium domain adapter for the same domain. Repository follows.
 

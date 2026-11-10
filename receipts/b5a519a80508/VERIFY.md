@@ -1,19 +1,21 @@
 # Verifying the receipt of cut b5a519a80508
 
-This directory holds the receipts of the transcriptomics v2 candidate, cut `b5a519a80508`.
+This directory holds the receipts of the transcriptomics v2 release, cut `b5a519a80508`.
 `gate_report.json` is a strict release-gate receipt: it binds every file under
 `collections/transcriptomics/v2/` (the workflows included) and the policy that measured them. Verification
 measures the collection again and compares the result with the receipt; it writes nothing.
 
 ## What the receipt was written with
 
-- Tooling: HolobiomicsLab/asb-skill-collections at commit `b8c22a6bc`, the `tooling_commit`
-  of `source.json`. Gate policy `asbb-content-gate/1.4`.
-- `promote_logic_source: vendored-fallback` in `gate_report.json`: the gate ran without
-  AgenticScienceBuilder installed. Verify in an environment where the `agentic_science_builder`
-  package is not importable. Where it is importable, the gate loads another promotion module,
-  the policy digest differs, and verification reports a policy mismatch.
-- Python 3.12 and PyYAML; the gate imports nothing else that needs installing.
+- Tooling: HolobiomicsLab/asb-skill-collections at commit `95cb2a07189cfc2776c644ad283cf9f621b9ca96`, the commit the CI workflows
+  pin. `gate_report.json` was regenerated on 2026-11-10 and verifies with it. `source.json` names
+  `b8c22a6bc`, the tooling commit that assembled the collection. Gate policy `asbb-content-gate/1.4`.
+- `promote_logic_source: agentic_science_builder.release.promote` in `gate_report.json`: the gate
+  loaded the promotion module of the AgenticScienceBuilder package. Verify in an environment where the
+  `agentic_science_builder` package is importable. Where it is not, the gate loads a vendored module
+  instead, the policy digest differs, and verification reports a policy mismatch.
+- Python with PyYAML, and the AgenticScienceBuilder package installed in the same environment. The
+  receipt was verified with Python 3.11.15 and the package taken from the pipeline repository at commit `8c22ee66`.
 
 ## Commands
 
@@ -22,9 +24,10 @@ contains this file:
 
 ```bash
 git clone https://github.com/HolobiomicsLab/asb-skill-collections
-git -C asb-skill-collections checkout b8c22a6bc
-python3.12 -m venv .venv-verify
+git -C asb-skill-collections checkout 95cb2a07189cfc2776c644ad283cf9f621b9ca96
+python3 -m venv .venv-verify
 .venv-verify/bin/python -m pip install pyyaml
+.venv-verify/bin/python -m pip install -e <path to a checkout of AgenticScienceBuilder>
 cd asb-skill-collections
 ../.venv-verify/bin/python scripts/release_gate.py ../asb-skills-transcriptomics/collections/transcriptomics/v2 --verify --report ../asb-skills-transcriptomics/receipts/b5a519a80508/gate_report.json
 ```
