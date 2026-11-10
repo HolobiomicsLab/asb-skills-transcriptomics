@@ -1,6 +1,6 @@
 ---
 name: transcriptomics-router
-description: 'Use when a task needs a skill from ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval — search this unit''s 11,256 evidence-grounded skills, then apply and optionally ground the one that fits.'
+description: Use for any transcriptomics how-to question (which method, tool, parameters or pipeline to use), before answering from memory. Searches 11,256 evidence-grounded transcriptomics skills distilled from method papers and their code, 2 end-to-end workflows and 2,086 tool records, then reads the one that fits.
 license: CC-BY-4.0
 metadata:
   skills_count: 11256
@@ -8,40 +8,45 @@ metadata:
   retrieval: bin/search_skills.py
   indexes:
   - skills_index.json
+  - workflows/workflows_index.json
+  - tools_index.json
 schema_version: 0.2.0
 ---
 
-# ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval — router
+# ASB Transcriptomics router
 
-Entry point for **11,256 evidence-grounded skills**, each derived from a
-method paper (journal article or preprint) and its code.
-
-## How this unit is laid out
-
-The leaf skills live in **`leaves/<slug>/SKILL.md`**, not in `skills/`. A plugin
-host loads the name and description of everything under `skills/` into the
-session prompt, so advertising the whole corpus would cost far more context than
-the work itself. Only this router is advertised; the corpus ships beside it as
-data.
-
-**Do not enumerate `leaves/`, and do not read `skills_index.json` whole.**
-Search it, then read the one skill you need.
+**11,256 evidence-grounded skills**, each derived from a
+method paper (journal article or preprint) and its code, with 2 end-to-end workflows and 2,086 tool records.
+They ship beside this router as data, in `leaves/<slug>/SKILL.md`. **Do not
+list `leaves/` and do not read the indexes whole.** Search, then read the one
+file you need.
 
 ## 1. Search
 
+Run the commands as written, from any working directory; do not `cd`.
+If a command still shows a `${...}` variable instead of an absolute path, the
+host did not fill it in: replace the variable with the absolute directory of
+this file, `<collection root>/skills/_router`.
+
 ```bash
-python bin/search_skills.py --query "<the user's task>" -k 10
+# one atomic skill
+python3 "${CLAUDE_SKILL_DIR}/../../bin/search_skills.py" --query "<the user's task>" -k 10
+# an end-to-end workflow for a whole analysis goal
+python3 "${CLAUDE_SKILL_DIR}/../../bin/search_skills.py" --query "<the user's goal>" --target workflows -k 3
+# a tool record (licence tier, source DOIs)
+python3 "${CLAUDE_SKILL_DIR}/../../bin/search_skills.py" --query "<a tool name or task>" --target tools -k 5
 ```
 
-Standard library only — no network, no API key. Narrow with `--tool <name>`,
-`--technique <tag>` or `--edam <iri-substring>` when the user is already
-specific. Each hit prints the exact path to read.
+Each hit prints the absolute `read:` path; a skill hit also its licence tier and source DOI. Narrow with `--tool <name>` or `--edam <iri-substring>`.
+Python 3.9 or later, standard library only, no network; where `python3` is missing, use `python` or `py -3`.
 
 ## 2. Apply
 
-Read the chosen `leaves/<slug>/SKILL.md`. Its frontmatter carries `tools` and `metadata.tools` (what
-to install or invoke) and `provenance.source_papers` (source paper DOIs). Find
-verbatim evidence lines in the body, then follow the procedure.
+Read the `read:` path of the chosen hit, `leaves/<slug>/SKILL.md`. Its
+frontmatter carries `tools` and `metadata.tools` (what to install or invoke) and `provenance.source_papers`
+(source paper DOIs). Find verbatim evidence lines in the body, then follow the
+procedure.
+In the answer, name the skill and give its source DOI and its licence tier.
 
 ## 3. Ground (recommended)
 
@@ -50,7 +55,11 @@ source-paper DOIs of the leaf, listed in its `provenance.source_papers` frontmat
 
 ## Licence tiers
 
-Read each candidate's `license_tier` before presenting it. `open` — surface
-freely. `noncommercial` — commercial use forbidden without a separate licence;
-get explicit confirmation of an academic or non-commercial purpose first.
-`restricted` — no clear licence detected; surface that caveat before use.
+Each skill hit prints `tier`, the licence tier of the tool it relies on (the
+skill text itself is CC-BY-4.0). Check it before presenting a candidate.
+`open`: commercial use allowed. `noncommercial`: academic or non-commercial use
+only; get explicit confirmation of a non-commercial purpose before applying it.
+`restricted`: a licence was established and it constrains reuse (for example a
+vendor licence); say so before commercial use or redistribution. `unknown`: no
+licence for the tool was established; say so, and treat the tool as all rights
+reserved until the user has checked it.

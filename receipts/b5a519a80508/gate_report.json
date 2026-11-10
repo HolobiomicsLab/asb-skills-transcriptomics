@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:47:52.437487+00:00",
+  "generated_at": "2026-11-10T15:55:30.474923+00:00",
   "collection_dir": "collections/transcriptomics/v2",
   "corpus_path": "collections/transcriptomics/v2/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "ed2f6fe382502b1efd6aee1c1b62d5ced19a744ccd76b7c142f63ec780664c5b",
+      "sha256": "f34ed93fac2e289692fe7cc3308b881190973b26488aad35e7304a9db4ccade5",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2508,
-          "sha256": "488a582e2652509cd94d9c07adef03364fa53a4b0b3173e4f6a089b977cf7d77"
+          "sha256": "c17220f3f0cc58ad32f91fbc8bc193304d2d4d743350416135769ef43b973831"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 513603,
-          "sha256": "ac2779ba41cdcdd71ffc742977a1ffe3d03a016fa6ed18e8c6c646c69d9a44d9"
+          "bytes": 513602,
+          "sha256": "d1ce278a1482cc3713bd43e8fe98cad641b7e25f4d7ff3d6fda0612a62107423"
         },
         {
           "path": "corpus.yaml",
@@ -101422,8 +101422,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2275,
-          "sha256": "d659869cdc6e71b449e3202b1f4e38cf9d03f4fcbc536cec6db833e578c5ac55"
+          "bytes": 3072,
+          "sha256": "a01dc21de481003cd0bba04c03fb1a3ca9b691e875a3041a85543a2d186f9261"
         },
         {
           "path": "skills_index.json",
@@ -111879,8 +111879,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3091,
-          "sha256": "a874a762a167274f4a925e5621911b116c309ad3af913ff9335e991faa1a258e"
+          "bytes": 3497,
+          "sha256": "7314371910b5c5ff20195dd083a6ef022672865f67ff18ac7e9067d9a6122f76"
         },
         {
           "path": "workflows/bulk-rnaseq-differential-expression",
@@ -112313,5 +112313,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "b9036a56260fd919c3469ff5382d6c0055acfbc4900dcb683578fdc7fdb37a8b"
+  "receipt_sha256": "cfd1f39c08c7d94533a013bbe0fd8daaa700643ee6f67bac1793b9dd63bf72f4"
 }

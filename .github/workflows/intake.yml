@@ -15,7 +15,7 @@ name: Paper issue intake
 # Otherwise the core deduplicates against the collection corpus and the open
 # wave and watch files only.
 #
-# 9ce636ba3deacf80bdd11a08af12de8ac9b395d2 is a reviewed full tooling commit: bump it deliberately after
+# 00486304f8d0309384cacc03b298ac6a3444c416 is a reviewed full tooling commit: bump it deliberately after
 # reviewing the new tooling. transcriptomics is the domain slug the Action serves.
 # scripts/render_domain_ci.py replaces both.
 
@@ -59,7 +59,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: HolobiomicsLab/asb-skill-collections
-          ref: 9ce636ba3deacf80bdd11a08af12de8ac9b395d2
+          ref: 00486304f8d0309384cacc03b298ac6a3444c416
           token: ${{ github.token }}
           path: tooling
 
