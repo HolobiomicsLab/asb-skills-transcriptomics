@@ -43,3 +43,7 @@ references:
   repository-code: https://github.com/HolobiomicsLab/asb-skill-collections
   authors: *id001
   license: Apache-2.0
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.24093100
+  description: Zenodo version DOI of v2 (2026-11-09)
