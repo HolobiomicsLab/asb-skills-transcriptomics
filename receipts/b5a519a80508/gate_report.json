@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T10:46:11.131704+00:00",
+  "generated_at": "2026-11-10T13:47:52.437487+00:00",
   "collection_dir": "collections/transcriptomics/v2",
   "corpus_path": "collections/transcriptomics/v2/corpus.yaml",
   "mode": "strict",
@@ -19,6 +19,12 @@
       "repo-copyleft",
       "repo-oa",
       "repo-permissive"
+    ],
+    "non_oa_tiers": [
+      "closed",
+      "hybrid",
+      "paywalled",
+      "unknown"
     ],
     "per_span_cap": 150,
     "cumulative_cap": 1500,
@@ -43,8 +49,8 @@
       "10.5281/"
     ],
     "max_leaves_per_evidence_span": 10,
-    "config_sha256": "b0119e2ec7c8a0fd33ce30eac249c4fb658b1fa34a5f866d5622f6bab698c190",
-    "implementation_sha256": "d0e6ced672181e093ee4f3002c7910a5a1bbb982d4e6cebea0150d37fd80562e"
+    "config_sha256": "abbae26c2214dac53dac1e7663e127d1b74560ee441166b42f8ea0fae989ccb2",
+    "implementation_sha256": "6cca2d07a9bf6428df9b59cf13ed210b50a1e8234c67e21a03f420847a5e4ad3"
   },
   "binding": {
     "payload": {
@@ -112307,5 +112313,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "9a612fc66ad1b9a552a12ac0832de06da51dbde5368fc9001d805c0519fd35f7"
+  "receipt_sha256": "b9036a56260fd919c3469ff5382d6c0055acfbc4900dcb683578fdc7fdb37a8b"
 }
