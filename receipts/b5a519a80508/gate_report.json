@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:55:30.474923+00:00",
+  "generated_at": "2026-11-10T17:00:33.375623+00:00",
   "collection_dir": "collections/transcriptomics/v2",
   "corpus_path": "collections/transcriptomics/v2/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "f34ed93fac2e289692fe7cc3308b881190973b26488aad35e7304a9db4ccade5",
+      "sha256": "ec2f7ebc50c6a32534010c6252c16a4fc10b9f0ecda274c6f2e7d9a79df7b226",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -112313,5 +112313,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "cfd1f39c08c7d94533a013bbe0fd8daaa700643ee6f67bac1793b9dd63bf72f4"
+  "receipt_sha256": "ed8620e4a2559d2409f0cf5e1afaed5736e0110ad1c52a460c26a5d191e5936c"
 }
