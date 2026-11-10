@@ -32,10 +32,23 @@ ROUTER_STOP = frozenset(
     "with what which when data set my our this these those i need want".split()
 )
 SELECTOR_NAME = "asb-keyword"
-SELECTOR_VERSION = "1.0.0"
+SELECTOR_VERSION = "1.1.0"
 DEFAULT_SELECTOR = "router"
 SELECTOR_ENV = "ASB_SELECTOR_RULE"
 SELECTORS = ("package", "router")
+ROUTER_FIELD_WEIGHTS = {
+    "name": 2.0,
+    "description": 3.0,
+    "tools": 1.0,
+    "member_tools": 1.0,
+}
+PLUMBING_TERMS = frozenset(
+    "parse parsed parsing parser convert converted conversion export exporting import importing "
+    "loading handle handling request requests submit submitting submission configuration configure "
+    "configuring parameterization parameterisation toggle toggling".split()
+)
+PLUMBING_PENALTY = 6.0
+MATCHED_SCORE_FLOOR = 0.5
 TARGETS = {
     "skills": ("skills_index.json",),
     "workflows": ("workflows/workflows_index.json", "workflows_index.json"),
@@ -258,13 +271,29 @@ def _field_matches(fields: dict, terms: list[str], rule: str) -> dict[str, list[
             for field, text in fields.items()}
 
 
+def _plumbing_penalty(fields: dict[str, str], terms: list[str]) -> float:
+    """De-boost plumbing descriptions unless the query asks for plumbing."""
+    if set(terms) & PLUMBING_TERMS:
+        return 0.0
+    description_terms = set(tokenize(fields["description"], "router"))
+    return PLUMBING_PENALTY if description_terms & PLUMBING_TERMS else 0.0
+
+
+def _router_score(fields: dict[str, str], matched: dict, terms: list[str]) -> float:
+    """Weight role-bearing fields above tool metadata, then de-boost plumbing."""
+    score = sum(
+        ROUTER_FIELD_WEIGHTS.get(field, 0.0) * len(values)
+        for field, values in matched.items()
+    )
+    penalised = score - _plumbing_penalty(fields, terms)
+    return max(MATCHED_SCORE_FLOOR, penalised) if matched else 0.0
+
+
 def _score_row(row: dict, terms: list[str], rule: str) -> tuple[float, dict]:
     fields = row_fields(row)
     matched = {field: values for field, values in _field_matches(fields, terms, rule).items() if values}
     if rule == "router":
-        overlap = {term for values in matched.values() for term in values}
-        boost = 2.0 if set(terms) & {tool.lower() for tool in entry_tools(row)} else 0.0
-        return float(len(overlap)) + boost, matched
+        return _router_score(fields, matched, terms), matched
     text = " ".join(fields.values())
     score = sum(text.count(term) for term in terms)
     score += 3 * sum(term in fields["name"] for term in terms)
@@ -441,25 +470,57 @@ def read_dir(collection: Path, target: str) -> str:
     return str(base / ("leaves" if (base / "leaves").is_dir() else "skills"))
 
 
+def _dois(entry: dict) -> str:
+    """The first source DOI, with a count of the others."""
+    dois = [str(doi) for doi in entry.get("dois") or [] if doi]
+    if not dois:
+        return "-"
+    return dois[0] + (f" (+{len(dois) - 1} more)" if len(dois) > 1 else "")
+
+
 def format_hit(rank: int, entry: dict, leaf_dir: str, target: str = "skills") -> str:
-    """Render a candidate, its source path and the same typed JSON explanation."""
-    tools = ", ".join(entry_tools(entry)[:6])
+    """Render what an agent needs to choose and cite a candidate, and where to read it.
+
+    The scoring explanation stays in ``--json``; in text it doubled the output
+    without helping the choice.
+    """
     desc = " ".join(str(entry.get("description") or "").split())
-    stages = entry.get("stages") or []
-    scope = f"stages: {' -> '.join(str(stage) for stage in stages)}" if stages else (
-        f"tier: {entry.get('license_tier') or '-'}")
-    suffix = f"{entry['slug']}.yaml" if target == "tools" else f"{entry['slug']}/SKILL.md"
-    explanation_keys = ("selector", "collection", "target", "slug", "qualified_slug",
-                        "matched_fields", "score", "filters", "fallback")
-    explanation = {key: entry[key] for key in explanation_keys if key in entry}
-    return (
-        f"{rank}. {entry.get('slug')}\n"
-        f"   {desc}\n"
-        f"   tools: {tools or '-'} | techniques: "
-        f"{', '.join(entry.get('techniques') or []) or '-'} | {scope}\n"
-        f"   read: {leaf_dir}/{suffix}\n"
-        f"   explanation: {json.dumps(explanation, ensure_ascii=False, sort_keys=True)}"
-    )
+    tools = ", ".join(entry_tools(entry)[:6])
+    techniques = ", ".join(entry.get("techniques") or [])
+    tier = entry.get("license_tier") or "-"
+    if target == "tools":
+        licence = entry.get("license") or "none recorded"
+        used_by = len(entry.get("used_by_skills") or [])
+        lines = [f"{rank}. {entry.get('slug')} | tier: {tier} | licence: {licence}",
+                 f"   used by {used_by} skill{'s' if used_by != 1 else ''} | doi: {_dois(entry)}"]
+        suffix = f"{entry['slug']}.yaml"
+    elif target == "workflows":
+        stages = entry.get("stages") or []
+        lines = [f"{rank}. {entry.get('slug')}", f"   {desc}"]
+        if stages:
+            lines.append(f"   stages: {' -> '.join(str(stage) for stage in stages)}")
+        lines.append(f"   tools: {tools or '-'}")
+        suffix = f"{entry['slug']}/SKILL.md"
+    else:
+        lines = [f"{rank}. {entry.get('slug')} | tier: {tier} | doi: {_dois(entry)}",
+                 f"   {desc}",
+                 f"   tools: {tools or '-'}" + (f" | techniques: {techniques}" if techniques else "")]
+        suffix = f"{entry['slug']}/SKILL.md"
+    lines.append(f"   read: {leaf_dir}/{suffix}")
+    return "\n".join(lines)
+
+
+def no_match_hint(args: argparse.Namespace) -> str:
+    """Say what to try next when nothing matched."""
+    tips = ["use fewer, plainer words (a method, data type or tool name); terms match whole words"]
+    if args.tool:
+        tips.append(f"--tool needs a tool's exact name; look it up with "
+                    f"--target tools --query \"{args.tool}\"")
+    if args.technique or args.edam:
+        tips.append("drop --technique/--edam")
+    others = [name for name in ("skills", "workflows", "tools") if name != args.target]
+    tips.append("or search --target " + " / --target ".join(others))
+    return f"no {args.target} matched. Next: " + "; ".join(tips) + "."
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -472,7 +533,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--tool", help="exact tool name, e.g. SIRIUS")
     parser.add_argument("--edam", help="substring of an EDAM operation/topic IRI")
     parser.add_argument("--selector", choices=SELECTORS,
-                        help="scoring rule (or ASB_SELECTOR_RULE); router is deprecated for one release")
+                        help="scoring rule (default router; or ASB_SELECTOR_RULE)")
     parser.add_argument("--max-tools", type=int, help="maximum tools for skills; 0 disables the guard")
     parser.add_argument("-k", "--k", type=int, default=10, help="how many candidates to print")
     parser.add_argument("--json", action="store_true", help="print the shared result dictionaries")
@@ -480,7 +541,12 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: list[str] | None = None) -> int:
-    """Search a unit and print candidates; return 1 for no match, 2 for bad input."""
+    """Search a unit and print candidates; return 2 for bad input.
+
+    No match is a result, not a failure: it prints what to try next and exits 0.
+    An agent host reports a nonzero exit as a failed call, and a search chained
+    after one that did match would mark the whole call as failed.
+    """
     args = build_parser().parse_args(argv)
     collection = unit_root(args.collection)
     try:
@@ -502,8 +568,8 @@ def main(argv: list[str] | None = None) -> int:
         for rank, hit in enumerate(hits, 1):
             print(format_hit(rank, {**by_slug[hit["slug"]], **hit}, where, args.target))
     else:
-        print("no match — loosen the filters or reword --query")
-    return 0 if hits else 1
+        print(no_match_hint(args))
+    return 0
 
 
 def selftest() -> None:
@@ -521,7 +587,7 @@ def selftest() -> None:
     flows = [{"slug": "untargeted", "name": "Untargeted pipeline",
               "member_tools": ["MZmine", "SIRIUS"], "stages": ["preprocess", "annotate"]}]
     assert keyword_search(flows, "MZmine", target="workflows")[0]["slug"] == "untargeted"
-    assert "stages: preprocess -> annotate" in format_hit(1, flows[0], "workflows")
+    assert "stages: preprocess -> annotate" in format_hit(1, flows[0], "/w", "workflows")
     print("search_skills.py smoke check OK", file=sys.stderr)
 
 

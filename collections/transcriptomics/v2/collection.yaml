@@ -10,7 +10,7 @@ slug: transcriptomics
 version: 2
 description: 'ASB Transcriptomics: 11256 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 license: CC-BY-4.0
-status: candidate
+status: released
 roles:
   generator: AgenticScienceBuilder
   promoter: Louis-Félix Nothias
