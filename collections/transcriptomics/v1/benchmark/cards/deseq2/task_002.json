@@ -286,7 +286,7 @@
     "ma-plot-visualization-and-interpretation",
     "results-table-extraction-and-comparison"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_deseq2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_deseq2/synthesized_package",
   "spine_condition_ids": [
     "cond_treated_vs_untreated",
     "cond_alpha01",

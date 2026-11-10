@@ -196,7 +196,7 @@
     "differential-expression-result-interpretation",
     "prior-distribution-fitting-for-genomics"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_limmavoom/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_limmavoom/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "limma",

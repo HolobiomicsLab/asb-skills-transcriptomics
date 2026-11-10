@@ -198,7 +198,7 @@
     "alternative-splicing-event-comparison-across-conditions",
     "uncertainty-aware-significance-assessment"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_suppa2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_suppa2/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "SUPPA2_system",

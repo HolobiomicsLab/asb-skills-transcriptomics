@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:03:19.044971+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_limmavoom/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_limmavoom/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `statistical-analysis`, `benchmark-evaluation`
 - DOI: `10.1093/nar/gkv007`

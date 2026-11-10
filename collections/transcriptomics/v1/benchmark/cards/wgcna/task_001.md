@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:14:05.538846+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_wgcna/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_wgcna/synthesized_package`
 - GitHub: `cran/WGCNA`
 
 ## Classification

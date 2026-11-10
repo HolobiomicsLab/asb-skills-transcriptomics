@@ -3,7 +3,7 @@
 - Task ID: `task_003`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T18:27:16.217915+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_salmon/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_salmon/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `benchmark-evaluation`, `data-analysis`, `statistical-analysis`
 - DOI: `10.1038/nmeth.4197`

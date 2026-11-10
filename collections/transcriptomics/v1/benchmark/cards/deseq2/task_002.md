@@ -3,7 +3,7 @@
 - Task ID: `task_002`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T18:08:54.168626+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_deseq2/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_deseq2/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-analysis`, `statistical-analysis`, `visualization`
 - DOI: `10.1186/s13059-014-0550-8`
