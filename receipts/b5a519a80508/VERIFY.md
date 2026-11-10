@@ -7,15 +7,15 @@ measures the collection again and compares the result with the receipt; it write
 
 ## What the receipt was written with
 
-- Tooling: HolobiomicsLab/asb-skill-collections at commit `95cb2a07189cfc2776c644ad283cf9f621b9ca96`, the commit the CI workflows
+- Tooling: HolobiomicsLab/asb-skill-collections at commit `9ce636ba3deacf80bdd11a08af12de8ac9b395d2`, the commit the CI workflows
   pin. `gate_report.json` was regenerated on 2026-11-10 and verifies with it. `source.json` names
   `b8c22a6bc`, the tooling commit that assembled the collection. Gate policy `asbb-content-gate/1.4`.
-- `promote_logic_source: agentic_science_builder.release.promote` in `gate_report.json`: the gate
-  loaded the promotion module of the AgenticScienceBuilder package. Verify in an environment where the
-  `agentic_science_builder` package is importable. Where it is not, the gate loads a vendored module
-  instead, the policy digest differs, and verification reports a policy mismatch.
-- Python with PyYAML, and the AgenticScienceBuilder package installed in the same environment. The
-  receipt was verified with Python 3.11.15 and the package taken from the pipeline repository at commit `8c22ee66`.
+- `promote_logic_source` in `gate_report.json` names the module that supplied the promotion
+  constants when the receipt was written. The policy digest binds the values of those constants,
+  not the module, so the receipt verifies whether or not the `agentic_science_builder` package is
+  importable. Hosted CI verifies it without the package.
+- Python with PyYAML; nothing else needs installing. The receipt was verified with Python 3.11.15,
+  once with the AgenticScienceBuilder package importable and once with its import blocked.
 
 ## Commands
 
@@ -24,10 +24,9 @@ contains this file:
 
 ```bash
 git clone https://github.com/HolobiomicsLab/asb-skill-collections
-git -C asb-skill-collections checkout 95cb2a07189cfc2776c644ad283cf9f621b9ca96
+git -C asb-skill-collections checkout 9ce636ba3deacf80bdd11a08af12de8ac9b395d2
 python3 -m venv .venv-verify
 .venv-verify/bin/python -m pip install pyyaml
-.venv-verify/bin/python -m pip install -e <path to a checkout of AgenticScienceBuilder>
 cd asb-skill-collections
 ../.venv-verify/bin/python scripts/release_gate.py ../asb-skills-transcriptomics/collections/transcriptomics/v2 --verify --report ../asb-skills-transcriptomics/receipts/b5a519a80508/gate_report.json
 ```
