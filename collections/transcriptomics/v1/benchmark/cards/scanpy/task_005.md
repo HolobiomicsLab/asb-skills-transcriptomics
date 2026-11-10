@@ -3,7 +3,7 @@
 - Task ID: `task_005`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T17:50:38.861186+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_scanpy/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_scanpy/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `benchmark-evaluation`, `data-processing`
 - DOI: `10.1186/s13059-017-1382-0`

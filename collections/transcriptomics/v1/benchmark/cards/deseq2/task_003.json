@@ -281,7 +281,7 @@
     "sample-metadata-preparation-and-assignment",
     "rna-seq-experimental-design-specification"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_deseq2/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_deseq2/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "deseq2_system",

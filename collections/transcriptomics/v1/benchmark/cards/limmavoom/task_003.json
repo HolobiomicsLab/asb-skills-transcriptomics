@@ -270,7 +270,7 @@
     "method-comparison-differential-calls",
     "design-matrix-construction-experiments"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_limmavoom/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_limmavoom/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "limma",

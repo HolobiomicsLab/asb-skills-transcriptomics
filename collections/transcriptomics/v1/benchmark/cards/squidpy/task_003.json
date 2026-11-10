@@ -344,7 +344,7 @@
     "spatial-statistics-interpretation",
     "categorical-annotation-handling-in-omics-data"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_squidpy/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_squidpy/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "squidpy_system",

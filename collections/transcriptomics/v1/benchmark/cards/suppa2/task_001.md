@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T17:50:44.296688+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_suppa2/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_suppa2/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `information-extraction`
 - GitHub: `comprna/SUPPA`

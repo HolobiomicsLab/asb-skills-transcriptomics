@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:03:30.531922+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_tximport/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_tximport/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `information-extraction`
 - DOI: `10.12688/f1000research.7563.1`

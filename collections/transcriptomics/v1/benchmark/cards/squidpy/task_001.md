@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T17:58:24.733366+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_squidpy/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_squidpy/synthesized_package`
 - Domain: `bioinformatics`
 - Subtask categories: `data-processing`, `benchmark-evaluation`
 - DOI: `10.1038/s41592-021-01358-2`

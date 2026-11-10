@@ -371,7 +371,7 @@
     "anndata-object-manipulation-and-storage",
     "dask-array-materialization-and-collection"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_squidpy/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_squidpy/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "squidpy_system",

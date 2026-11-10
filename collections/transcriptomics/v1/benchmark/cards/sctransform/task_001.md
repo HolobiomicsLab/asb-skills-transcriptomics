@@ -3,7 +3,7 @@
 - Task ID: `task_001`
 - Schema version: `0.18.0`
 - Created at: `2026-06-15T19:12:13.410576+00:00`
-- Source package: `/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_sctransform/synthesized_package`
+- Source package: `<builder>/outputs/asbb_transcriptomics/coll_sctransform/synthesized_package`
 - GitHub: `satijalab/sctransform`
 
 ## Classification

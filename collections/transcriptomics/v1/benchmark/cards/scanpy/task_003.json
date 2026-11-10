@@ -352,7 +352,7 @@
     "anndata-object-manipulation",
     "single-cell-rna-seq-interpretation"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_scanpy/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_scanpy/synthesized_package",
   "spine_condition_ids": [],
   "spine_entity_ids": [
     "scanpy_system",

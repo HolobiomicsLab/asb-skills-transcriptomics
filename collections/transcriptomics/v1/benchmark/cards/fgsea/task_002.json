@@ -308,7 +308,7 @@
     "gene-identifier-deduplication-and-filtering",
     "multi-conditional-data-coregulation-scoring"
   ],
-  "source_package": "/Users/nothiasl/git/AgenticScienceBuilder/outputs/asbb_transcriptomics/coll_fgsea/synthesized_package",
+  "source_package": "<builder>/outputs/asbb_transcriptomics/coll_fgsea/synthesized_package",
   "spine_condition_ids": [
     "cond_geseca_full_matrix",
     "cond_geseca_pca_reduced",
