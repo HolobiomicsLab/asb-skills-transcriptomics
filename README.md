@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/papers-450-00284b" alt="450 source papers">
   <img src="https://img.shields.io/badge/content-CC--BY--4.0-04919a" alt="content CC-BY-4.0">
   <img src="https://img.shields.io/badge/code-Apache--2.0-04919a" alt="code Apache-2.0">
-  <img src="https://img.shields.io/badge/status-candidate-5d6a78" alt="status candidate">
+  <img src="https://img.shields.io/badge/status-released-04919a" alt="status released">
 </p>
 
 ---
@@ -26,17 +26,24 @@
 
 This repository holds the transcriptomics skill collection of AgenticScienceBuilder (ASB): 11,256 skills over 2,086 software tools and 2 composite workflows, distilled from 450 method papers and their code repositories. Each skill is a `SKILL.md` file that an agent can load. It names its source paper; 9,283 of the 11,256 also quote it or its repository README. The collection installs as a Claude Code plugin, and a script that needs only the Python standard library searches it offline.
 
+## Collections
+
+| Path | Title | Skills | Tools | Released | DOI |
+|---|---|---|---|---|---|
+| `collections/transcriptomics/v2` | ASB Transcriptomics Skill Collection v2 | 11256 | 2086 | 2026-11-09 | [10.5281/zenodo.24093100](https://doi.org/10.5281/zenodo.24093100) |
+
 ## Status
 
-Candidate, not a release. Branch `candidate/b5a519a80508` adds collection `v2`, built from corpus cut `b5a519a80508`, and is what this page describes. Collection `v1` (166 skills, 37 tools) is the earlier flat-layout collection split from the registry on 2026-09-17; it is on `main` today. The marketplace on this branch lists `v2` only, and its entry sets `"release": false`. A release is a merge to `main` tagged `v<major>.<minor>.<patch>`.
+Collection `v2`, built from corpus cut `b5a519a80508`, is released on `main` at tag `transcriptomics-v2.0.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24093100](https://doi.org/10.5281/zenodo.24093100). The earlier flat-layout collection `v1` stays in the repository as a legacy collection; it is not part of this release.
 
 | Item | State |
 |---|---|
 | Release gate | `receipts/b5a519a80508/gate_report.json` reports `pass`: 14 of 16 checks pass and 2 are not applicable (`cut_manifest`, and `peer_review_claim` because the corpus holds no preprint or deposit DOI). [`receipts/b5a519a80508/VERIFY.md`](receipts/b5a519a80508/VERIFY.md) gives the command that re-verifies it. |
-| Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` (3 warnings on fields Claude Code ignores) and for `collections/transcriptomics/v2` |
+| Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/transcriptomics/v2` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/transcriptomics/v2` |
 | IRI resolution (2026-10-31) | Registered at w3id.org. It redirects (HTTP 302) to a path in the asb-skill-collections registry that returns 404: the collection lives in this repository, not in the registry. |
-| DOI | None yet. The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| DOI | [10.5281/zenodo.24093100](https://doi.org/10.5281/zenodo.24093100) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| Concept DOI | [10.5281/zenodo.24093099](https://doi.org/10.5281/zenodo.24093099) (all versions) |
 
 ## What is inside
 
@@ -75,10 +82,9 @@ The tier is advice about the tool. It does not change the licence of this collec
 
 ## Install
 
-Claude Code, from the directory that holds your clone of this repository, with the candidate branch checked out (the default branch `main` does not hold this collection yet):
+Claude Code, from the directory that holds your clone of this repository:
 
 ```bash
-git -C asb-skills-transcriptomics switch candidate/b5a519a80508
 claude plugin marketplace add ./asb-skills-transcriptomics
 claude plugin install transcriptomics@asb-skills-transcriptomics
 ```
@@ -134,7 +140,7 @@ Each leaf names its source paper in `provenance.source_papers` (11,256 of 11,256
 
 ## Citation
 
-Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection has no DOI yet.
+Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24093100](https://doi.org/10.5281/zenodo.24093100); its concept DOI, which covers all versions, is [10.5281/zenodo.24093099](https://doi.org/10.5281/zenodo.24093099).
 
 ## Licence
 
