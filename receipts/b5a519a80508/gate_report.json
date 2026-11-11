@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T17:00:33.375623+00:00",
+  "generated_at": "2026-11-11T00:26:42.214447+00:00",
   "collection_dir": "collections/transcriptomics/v2",
   "corpus_path": "collections/transcriptomics/v2/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "ec2f7ebc50c6a32534010c6252c16a4fc10b9f0ecda274c6f2e7d9a79df7b226",
+      "sha256": "8b1e945deb7b1b12df28d32216da71a39489a1dce0c7cfb29492a4cd863f282c",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -63,7 +63,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 542,
-          "sha256": "daa9a07c5ac801e9b44e735f474b2f006375d533ae09728279618aef0a78ac9d"
+          "sha256": "77b0fbdda779deb7eeb84d2fb08727bf52445f9426d5823d6351704d3d7d5d46"
         },
         {
           "path": ".zenodo.json",
@@ -72,8 +72,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 878,
-          "sha256": "ecde029416682a318cd96f801f7e2ea10a41269bcca1826df75f245ec77bc383"
+          "bytes": 980,
+          "sha256": "6329889480bb677ca647904fe428dbd501966737dbbf4f7a0104678929d0324a"
         },
         {
           "path": "bin",
@@ -112313,5 +112313,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "ed8620e4a2559d2409f0cf5e1afaed5736e0110ad1c52a460c26a5d191e5936c"
+  "receipt_sha256": "b34b9565d1462d29d16bd5d7695e767c47cc07e273da72944a857d11839515d1"
 }
