@@ -50,8 +50,10 @@ source_repos:
 - https://github.com/carmonalab/UCell
 - https://github.com/caokai1073/uniPort
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/TebaldiLab/cellmarkeraccordion
+entry_kind: software
+license_tier: open
+license: MPL-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cran.r-project.org/web/packages/data.table/index.html
+repo_url: https://github.com/Rdatatable/data.table

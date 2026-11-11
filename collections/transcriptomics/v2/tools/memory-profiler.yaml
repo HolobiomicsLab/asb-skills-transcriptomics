@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/ArpiarSaundersLab/annsql
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/ArpiarSaundersLab/annsql
+entry_kind: software
+license_tier: open
+license: BSD
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/memory-profiler/
+repo_url: https://github.com/pythonprofilers/memory_profiler

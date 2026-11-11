@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/camlab-bioml/leader
 - https://github.com/abelson-lab/scATOMIC
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cran.r-project.org/web/packages/caret/index.html
+repo_url: null

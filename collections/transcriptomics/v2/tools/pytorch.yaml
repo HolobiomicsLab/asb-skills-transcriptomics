@@ -199,8 +199,10 @@ source_repos:
 - https://github.com/caokai1073/uniPort
 - https://github.com/LucasESBS/vega
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/pytorch/pytorch/HEAD/LICENSE
+repo_url: https://github.com/pytorch/pytorch

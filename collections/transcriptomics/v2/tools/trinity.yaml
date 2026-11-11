@@ -25,8 +25,10 @@ source_repos:
 - https://github.com/Rashedul/CRIS
 - https://github.com/JesseKerkvliet/Bellerophon
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/1dayac/cloudrnaSPAdes-release
+license_evidence: null
+repo_url: null

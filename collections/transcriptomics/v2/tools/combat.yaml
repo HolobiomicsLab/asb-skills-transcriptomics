@@ -20,8 +20,10 @@ source_repos:
 - https://github.com/Jfortin1/ComBatHarmonization
 - https://github.com/deeplearningplus/tGPT
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/jumphone/BEER
+license_evidence: null
+repo_url: null

@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/zktuong/dandelion
 - https://github.com/tuonglab/dandelionR
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/zktuong/dandelion
+license_evidence: null
+repo_url: null

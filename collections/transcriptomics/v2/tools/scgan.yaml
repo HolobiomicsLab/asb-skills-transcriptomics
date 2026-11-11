@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/Emad-COMBINE-lab/GRouNdGAN
 - https://github.com/imsb-uke/scGAN
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/Emad-COMBINE-lab/GRouNdGAN
+license_evidence: null
+repo_url: null

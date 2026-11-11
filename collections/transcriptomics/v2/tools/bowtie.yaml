@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/churchill-lab/scBASE
 - https://github.com/skbinfo/tncRNA-Toolkit
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/HuangLab-CBI/PhasiHunter
+entry_kind: software
+license_tier: open
+license: Artistic-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/BenLangmead/bowtie/HEAD/LICENSE
+repo_url: https://github.com/BenLangmead/bowtie

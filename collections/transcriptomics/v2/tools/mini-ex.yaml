@@ -10,8 +10,10 @@ source_repos:
 - https://github.com/VIB-PSB/MINI-EX
 - https://github.com/compbioNJU/scPlant
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: noncommercial
+license: LicenseRef-repository-noncommercial
+license_detection: repository-licence-file
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/VIB-PSB/MINI-EX/HEAD/LICENSE
 repo_url: https://github.com/VIB-PSB/MINI-EX

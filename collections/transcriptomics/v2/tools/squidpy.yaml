@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/saezlab/liana
 - https://github.com/BrainStOrmics/Spaco
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/saezlab/liana
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/squidpy/
+repo_url: https://github.com/scverse/squidpy

@@ -25,8 +25,10 @@ source_repos:
 - https://github.com/schulzlab/STARE
 - https://github.com/LXY1201/GSFM
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/lanagarmire/ASGARD
+entry_kind: software
+license_tier: open
+license: GPL-3.0-or-later
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cran.r-project.org/web/packages/pROC/index.html
+repo_url: null

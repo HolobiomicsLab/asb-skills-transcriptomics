@@ -95,8 +95,10 @@ source_repos:
 - https://github.com/PUGEA/AE-TPGG
 - https://github.com/NWPU-903PR/LPI-CNNCP
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/yizhuo-wang/CASi
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/keras-team/keras/HEAD/LICENSE
+repo_url: https://github.com/keras-team/keras

@@ -23,8 +23,10 @@ source_repos:
 - https://github.com/LSBDT/SkewC
 - https://github.com/ncgr/UMI-analysis
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/OritAdato/ElemeNT
+entry_kind: software
+license_tier: open
+license: GPL-1.0-or-later OR Artistic-1.0-Perl
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://dev.perl.org/licenses/
+repo_url: https://github.com/Perl/perl5

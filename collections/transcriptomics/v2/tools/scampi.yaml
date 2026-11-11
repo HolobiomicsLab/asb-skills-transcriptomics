@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/ETH-NEXUS/scAmpi_single_cell_RNA
 - https://github.com/ETH-NEXUS/gExcite_pipeline
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/ETH-NEXUS/scAmpi_single_cell_RNA
+license_evidence: null
+repo_url: null

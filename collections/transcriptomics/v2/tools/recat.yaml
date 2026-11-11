@@ -19,8 +19,10 @@ source_repos:
 - https://github.com/tinglab/reCAT
 - https://github.com/tinglab/redPATH
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/KChen-lab/cyclum
+license_evidence: null
+repo_url: null

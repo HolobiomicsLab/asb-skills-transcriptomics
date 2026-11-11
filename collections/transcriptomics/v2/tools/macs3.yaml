@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/macs3-project/MACS
 - https://github.com/JSB-UCLA/scReadSim
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/haessar/peaks2utr
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/macs3
+repo_url: https://github.com/macs3-project/MACS

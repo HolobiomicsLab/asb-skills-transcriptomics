@@ -26,8 +26,10 @@ source_repos:
 - https://github.com/kieranrcampbell/phenopath
 - https://github.com/AusteKan/OmicInt
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/HectorRDB/condiments
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=tidyr
+repo_url: https://github.com/tidyverse/tidyr

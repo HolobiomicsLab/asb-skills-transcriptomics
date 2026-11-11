@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/sarajimenez/fatecompass
 - https://github.com/StatBiomed/UniTVelo
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/PeterZZQ/CellPath
+entry_kind: software
+license_tier: open
+license: BSD
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/cellrank
+repo_url: https://github.com/theislab/cellrank

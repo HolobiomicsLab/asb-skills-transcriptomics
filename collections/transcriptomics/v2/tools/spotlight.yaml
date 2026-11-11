@@ -23,8 +23,10 @@ source_repos:
 - https://github.com/YangLabHKUST/SpatialScope
 - https://github.com/JEFworks-Lab/STdeconvolve
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/saezlab/liana
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/SPOTlight
+repo_url: https://github.com/MarcElosua/SPOTlight

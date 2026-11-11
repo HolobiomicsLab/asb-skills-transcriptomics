@@ -20,8 +20,10 @@ source_repos:
 - https://github.com/JiekaiLab/scTE
 - https://github.com/bvaldebenitom/SoloTE
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/mcgilldinglab/MATES
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/scte
+repo_url: https://github.com/JiekaiLab/scTE

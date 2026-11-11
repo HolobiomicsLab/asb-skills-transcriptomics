@@ -31,8 +31,10 @@ source_repos:
 - https://github.com/wang-research/VASC
 - https://github.com/solo7773/visnormsc
 schema_version: 0.2.0
-license_tier: unknown
+entry_kind: vendor_product
+license_tier: restricted
 license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/earmingol/cell2cell
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://www.anaconda.com/legal/terms/terms-of-service
+repo_url: null

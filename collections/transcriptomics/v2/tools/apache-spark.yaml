@@ -9,8 +9,10 @@ derived_from:
 source_repos:
 - https://github.com/asif7adil/scSparkl
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/asif7adil/scSparkl
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/apache/spark/HEAD/LICENSE
+repo_url: https://github.com/apache/spark

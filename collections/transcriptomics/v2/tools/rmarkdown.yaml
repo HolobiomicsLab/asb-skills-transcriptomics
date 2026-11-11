@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/cma2015/iwa-miRNA
 - https://github.com/saezlab/progeny
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cma2015/iwa-miRNA
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/rstudio/rmarkdown/HEAD/DESCRIPTION
+repo_url: https://github.com/rstudio/rmarkdown

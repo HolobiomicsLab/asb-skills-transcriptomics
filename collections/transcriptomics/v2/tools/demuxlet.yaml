@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/yelabucsf/demuxlet_paper_code
 - https://github.com/lkmklsmn/empty_nn
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/huklein/demuxmix
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: repository-licence-file
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/statgen/demuxlet/HEAD/LICENSE
+repo_url: https://github.com/statgen/demuxlet

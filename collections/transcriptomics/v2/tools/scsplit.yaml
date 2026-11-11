@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/WilsonImmunologyLab/HTOreader
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/WilsonImmunologyLab/HTOreader
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/scsplit
+repo_url: https://github.com/jon-xu/scSplit

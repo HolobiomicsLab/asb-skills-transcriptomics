@@ -47,8 +47,10 @@ source_repos:
 - https://github.com/Papatheodorou-Group/scOntoMatch
 - https://github.com/klarman-cell-observatory/scPhere
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/songfd2018/BUSseq
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/welch-lab/liger/HEAD/DESCRIPTION
+repo_url: https://github.com/welch-lab/liger

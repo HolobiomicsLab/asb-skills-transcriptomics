@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/Murali-group/Beeline
 - https://github.com/Emad-COMBINE-lab/GRouNdGAN
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/Murali-group/Beeline
+license_evidence: null
+repo_url: null

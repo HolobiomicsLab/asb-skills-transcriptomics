@@ -97,8 +97,10 @@ source_repos:
 - https://github.com/nitzanlab/sift-sc
 - https://github.com/karltayeb/cafeh
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/scibiome/boostdiff_inference
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/pypa/pip/HEAD/LICENSE.txt
+repo_url: https://github.com/pypa/pip

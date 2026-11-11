@@ -22,8 +22,10 @@ source_repos:
 - https://github.com/saezlab/progeny
 - https://github.com/equipeGST/RiboDoc
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/luskry/aptardi
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/marcelm/cutadapt/HEAD/LICENSE
+repo_url: https://github.com/marcelm/cutadapt

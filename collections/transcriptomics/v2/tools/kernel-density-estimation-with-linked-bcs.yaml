@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/MColbrook/Kernel-Density-Estimation-with-Linked-BCs.git
 - https://github.com/karstenkuritz/MAPiT
 schema_version: 0.2.0
+entry_kind: artefact
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/MColbrook/Kernel-Density-Estimation-with-Linked-BCs.git
+license_evidence: null
+repo_url: null

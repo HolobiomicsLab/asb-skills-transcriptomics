@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/xiebb123456/AutomaticCellTypeIdentification
 - https://github.com/lcmmichielsen/scHPL
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/schpl
+repo_url: https://github.com/lcmmichielsen/scHPL

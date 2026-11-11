@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/W-Holtz/R4scSHARP
 - https://github.com/mperozek11/scSHARP_tool
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/W-Holtz/R4scSHARP
+license_evidence: null
+repo_url: null

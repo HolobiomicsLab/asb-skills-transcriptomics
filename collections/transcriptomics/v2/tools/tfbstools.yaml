@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/CostaLab/scMEGA
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/CostaLab/scMEGA
+entry_kind: software
+license_tier: open
+license: GPL-2.0-only
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/TFBSTools
+repo_url: https://github.com/ge11232002/TFBSTools

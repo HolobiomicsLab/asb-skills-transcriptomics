@@ -120,8 +120,10 @@ source_repos:
 - https://github.com/LXY1201/GSFM
 - https://github.com/MUSC-CGM/PIMENTo
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/Dulab2020/ARMT
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/release/bioc/html/limma.html
+repo_url: null

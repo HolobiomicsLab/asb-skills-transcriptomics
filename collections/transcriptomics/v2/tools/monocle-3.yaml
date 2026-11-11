@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/prabhakarlab/DUBStepR
 - https://github.com/multitalk/scCrossTalk
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/prabhakarlab/DUBStepR
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/cole-trapnell-lab/monocle3/HEAD/DESCRIPTION
+repo_url: https://github.com/cole-trapnell-lab/monocle3

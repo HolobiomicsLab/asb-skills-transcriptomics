@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/genid/de-goulash
 - https://github.com/lanagarmire/SSrGE
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/nh13/freebayes
+license_evidence: null
+repo_url: null

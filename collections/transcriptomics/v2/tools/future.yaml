@@ -19,8 +19,10 @@ source_repos:
 - https://github.com/bioinfocz/scdrake
 - https://github.com/carmonalab/UCell
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/yuntianf/Longcell
+license_evidence: null
+repo_url: null

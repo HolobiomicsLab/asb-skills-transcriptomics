@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/JSB-UCLA/scDEED
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/JSB-UCLA/scDEED
+entry_kind: software
+license_tier: open
+license: GPL-3.0-or-later
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=distances
+repo_url: https://github.com/fsavje/distances

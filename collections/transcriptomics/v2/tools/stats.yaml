@@ -55,8 +55,10 @@ source_repos:
 - https://github.com/micnngo/tauFisher
 - https://github.com/minoda-lab/universc
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cozygene/bisque
+entry_kind: software
+license_tier: open
+license: GPL-2.0-only OR GPL-3.0-only
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://www.r-project.org/Licenses/
+repo_url: null

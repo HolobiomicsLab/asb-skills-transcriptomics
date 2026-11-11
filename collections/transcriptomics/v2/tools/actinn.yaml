@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/Dulab2020/scWizard
 - https://github.com/SELINA-team/SELINA.py
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/mafeiyang/ACTINN
+license_evidence: null
+repo_url: null

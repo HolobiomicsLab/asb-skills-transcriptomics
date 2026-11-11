@@ -50,8 +50,10 @@ source_repos:
 - https://github.com/Cxd-626/Staem5
 - https://github.com/deargen/DearWXpub
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/sjdlabgroup/Census
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/dmlc/xgboost/HEAD/LICENSE
+repo_url: https://github.com/dmlc/xgboost

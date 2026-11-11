@@ -125,8 +125,10 @@ source_repos:
 - https://github.com/bauerbach95/tempo
 - https://github.com/xiaoyeye/TFvelo
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/ArpiarSaundersLab/annsql
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/scverse/anndata/HEAD/LICENSE
+repo_url: https://github.com/scverse/anndata

@@ -55,8 +55,10 @@ source_repos:
 - https://github.com/dajmcdon/suffpcr
 - https://github.com/BatzoglouLabSU/SIMLR
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/marcalva/diem
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cran.r-project.org/web/packages/Matrix/index.html
+repo_url: null

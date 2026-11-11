@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/saezlab/decoupleR_manuscript
 - https://github.com/cantinilab/scPRINT
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/WanluLiuLab/CRISPRTE
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/omnipath/
+repo_url: https://github.com/saezlab/omnipath

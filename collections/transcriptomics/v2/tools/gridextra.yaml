@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/ChangSuBiostats/CS-CORE
 - https://github.com/aet21/DICE
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/laurenhsu1/corral
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=gridExtra
+repo_url: null

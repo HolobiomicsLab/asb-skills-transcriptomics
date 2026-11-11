@@ -21,8 +21,10 @@ source_repos:
 - https://github.com/dynverse/dyngen
 - https://github.com/sarajimenez/fatecompass
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/HectorRDB/condiments
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=dyngen
+repo_url: https://github.com/dynverse/dyngen

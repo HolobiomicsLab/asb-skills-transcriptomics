@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/martaint/InterCellar
 - https://github.com/martaint/InterCellar-reproducibility
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/InterCellar
 repo_url: https://github.com/martaint/InterCellar

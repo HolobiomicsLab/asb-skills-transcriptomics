@@ -42,8 +42,10 @@ source_repos:
 - https://github.com/dajmcdon/suffpcr
 - https://github.com/carmonalab/TILPRED
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/13308204545/Chord
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/r-lib/remotes/HEAD/DESCRIPTION
+repo_url: https://github.com/r-lib/remotes
