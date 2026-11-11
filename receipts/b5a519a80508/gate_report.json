@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-11T05:51:05.068518+00:00",
+  "generated_at": "2026-11-11T09:40:23.430613+00:00",
   "collection_dir": "collections/transcriptomics/v2",
   "corpus_path": "collections/transcriptomics/v2/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "f74b7744cd1b7389710d4dc820f33d6e8a9c9a6999452a5972dc0b0829b0a797",
+      "sha256": "663f4581bd967446d47b26d5720b7b959948b6f7888273fb19ec95f9d4d2bbf9",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -80,9 +80,14 @@
           "directory": true
         },
         {
+          "path": "bin/report_issue.py",
+          "bytes": 44558,
+          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+        },
+        {
           "path": "bin/search_skills.py",
-          "bytes": 24610,
-          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
+          "bytes": 25199,
+          "sha256": "a9bb1cc42eb2f77430025edc70a6f30ca2fd5da639970f0cbfeb1af4c80aef00"
         },
         {
           "path": "collection.yaml",
@@ -101422,8 +101427,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 3072,
-          "sha256": "a01dc21de481003cd0bba04c03fb1a3ca9b691e875a3041a85543a2d186f9261"
+          "bytes": 4326,
+          "sha256": "c8ce1c7ff1a8f921ce32536877da04cd2a87292811980ba9ed372a6245d74b0a"
         },
         {
           "path": "skills_index.json",
@@ -111884,8 +111889,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3497,
-          "sha256": "7314371910b5c5ff20195dd083a6ef022672865f67ff18ac7e9067d9a6122f76"
+          "bytes": 4751,
+          "sha256": "8ccefe71d9f331339aca29c5f1cbf743f4af7c311a7ad7fb1e443b409f3bb0c4"
         },
         {
           "path": "workflows/bulk-rnaseq-differential-expression",
@@ -112231,7 +112236,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 13362,
+        "checked": 13363,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -112318,5 +112323,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "337226c10cd95928f418dcf604736c07a3b70ab58ed7b53cea14c908d1b8680b"
+  "receipt_sha256": "4c57ac412cd01e6ff1dc38c4077bb2775e4e9d6742b185a8b036632d5016d6d3"
 }
