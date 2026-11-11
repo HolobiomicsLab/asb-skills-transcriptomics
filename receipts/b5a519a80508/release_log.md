@@ -7,7 +7,13 @@
 | deposit-draft | 2026-11-11T00:08:13Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"archive_sha256": "a26c7baf34d27de417a1f3a6df33138d814329b07e1d9db0b0e3d9d056031457"}` |
 | record-doi | 2026-11-11T00:22:32Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"CITATION.cff": "47c15ca97ec7dae5aeb81f2e2e188b892c94f5ccec9f9c4e0a594259a1815814", "README.md": "fa5ee5bec5e9380e72c4fd5a88b92a2fb433c8b3fa863a2f178071801552b47e", "RELEASE.yaml": "2334f444b846b9425c28f226f20821afdcda57fb7fa2448ec8d7a4a428187680", "marketplace.json": "2e3a738e1a8ce5f69e9266dcb516b52cd8ea6cfe1c75da7b13e0e4c61009b536", "plugin.json": "77b0fbdda779deb7eeb84d2fb08727bf52445f9426d5823d6351704d3d7d5d46"}` |
 | receipt | 2026-11-11T00:31:08Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"receipt": "7075e6c1607e1b264332282ef4a2d77ac1b16e7a8225d304554c02138a8b9f8b"}` |
+| manifest | 2026-11-11T00:33:12Z | 376cec1aa0fe229906f8b5feddd3ed2957aeaa04 | `{"catalogue_jsonld": "3de4f5c245d609bd65c2f3e555b98fd8811bffd11556518eb5c22ea109e42966", "collections_yaml": "92daac98896a71360b4dc36b1acc2c994647ea140ee46d8a72f010afc8280656"}` |
+| tag | 2026-11-11T00:55:19Z | 376cec1aa0fe229906f8b5feddd3ed2957aeaa04 | `{}` |
 
 ## Owner actions
 
 - OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24122113, then run record-doi --doi <version DOI>
+- OWNER: git tag transcriptomics-v2.0.1 376cec1aa0fe229906f8b5feddd3ed2957aeaa04
+- OWNER: git push origin transcriptomics-v2.0.1
+- OWNER: git tag transcriptomics-v2.0.1 376cec1aa0fe229906f8b5feddd3ed2957aeaa04
+- OWNER: git push origin transcriptomics-v2.0.1
