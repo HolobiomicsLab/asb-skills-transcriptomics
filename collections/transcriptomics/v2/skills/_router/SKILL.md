@@ -63,3 +63,32 @@ only; get explicit confirmation of a non-commercial purpose before applying it.
 vendor licence); say so before commercial use or redistribution. `unknown`: no
 licence for the tool was established; say so, and treat the tool as all rights
 reserved until the user has checked it.
+
+## Report and contribute
+
+`transcriptomics/v2` improves from use. Offer a report yourself, once per
+problem, when a procedure failed or no longer matches the tool, the search
+returned nothing usable and the work was done unaided, the user names a
+method paper whose DOI the search does not find, the leaves had to be
+composed by hand, or a command of this collection failed. Name the route:
+
+1. this skill is wrong or could be better;
+2. a skill is missing: request it, or propose yours;
+3. a paper is not referenced: propose it;
+4. something technical failed: report it.
+
+After a no, do not raise it again. Draft the report, show the user its exact
+title, labels and body, and post only on an explicit yes. Never paste paths,
+credentials or sample names.
+
+```bash
+python3 "${CLAUDE_SKILL_DIR}/../../bin/report_issue.py" skill --skill <slug> --kind defect --symptom "<what happened>"
+```
+
+Routes: `skill`, `missing`, `paper`, `fault` (`--help` lists the fields). It
+redacts and prints the report and a prefilled address. With `gh` and the
+user's yes, run `gh issue create --repo HolobiomicsLab/asb-skill-collections`; otherwise give the user
+the address.
+
+Reports go to the public registry; a maintainer carries them into the private
+domain repository.

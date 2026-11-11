@@ -21,7 +21,7 @@ jobs:
               receipts_path: "receipts/b5a519a80508"
     # Pin the tooling commit recorded in collections.yaml for the release.
     # Bump this full commit SHA deliberately when adopting newer gate tooling.
-    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@a03312fe8425b6c70075651c40d263252059bd23
+    uses: HolobiomicsLab/asb-skill-collections/.github/workflows/domain-gates.yml@7bf0052639ea55ef0b63ae05a816261e19f1e06e
     with:
       domain: ${{ matrix.collection.domain }}
       collection_path: ${{ matrix.collection.collection_path }}
