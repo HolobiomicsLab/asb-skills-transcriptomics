@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/JD2112/methylr
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/methylr
 repo_url: https://github.com/JD2112/methylr

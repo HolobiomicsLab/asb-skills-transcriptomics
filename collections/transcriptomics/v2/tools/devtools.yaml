@@ -130,8 +130,10 @@ source_repos:
 - https://github.com/zhangzmr/CellST
 - https://github.com/wuxiaotiankevin/pLDA
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/maiziezhoulab/Bfimpute
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/r-lib/devtools/HEAD/DESCRIPTION
+repo_url: https://github.com/r-lib/devtools

@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/huklein/demuxmix
 - https://github.com/WilsonImmunologyLab/HTOreader
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/huklein/demuxmix
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/gmm-demux
+repo_url: https://github.com/CHPGenetics/GMM-demux

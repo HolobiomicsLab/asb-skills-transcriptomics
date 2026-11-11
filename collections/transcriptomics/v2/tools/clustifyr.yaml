@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/xiebb123456/AutomaticCellTypeIdentification
 - https://github.com/TebaldiLab/cellmarkeraccordion
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification
+license_evidence: null
+repo_url: null

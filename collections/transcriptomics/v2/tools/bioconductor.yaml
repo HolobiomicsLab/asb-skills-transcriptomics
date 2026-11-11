@@ -57,8 +57,10 @@ source_repos:
 - https://github.com/xu-lab/SINCERA
 - https://github.com/himelmallick/Tweedieverse
 schema_version: 0.2.0
+entry_kind: artefact
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/laurenhsu1/corral
+license_evidence: null
+repo_url: null

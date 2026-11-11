@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/aet21/DICE
 - https://github.com/ShobiStassen/VIA
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/dpeerlab/Palantir
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: repository-licence-file
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/dpeerlab/palantir/HEAD/LICENSE
+repo_url: https://github.com/dpeerlab/palantir

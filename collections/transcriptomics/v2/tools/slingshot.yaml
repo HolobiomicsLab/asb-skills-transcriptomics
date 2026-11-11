@@ -77,8 +77,10 @@ source_repos:
 - https://github.com/kstreet13/slingshot
 - https://github.com/drisso/zinbwave
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/xinglab-ai/ccsf
+entry_kind: software
+license_tier: open
+license: Artistic-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/release/bioc/html/slingshot.html
+repo_url: null

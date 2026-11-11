@@ -22,8 +22,10 @@ source_repos:
 - https://github.com/pinellolab/stream
 - https://github.com/LXY1201/GSFM
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/DEIB-GECO/GeneNetFusion
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/jupyter/notebook/HEAD/LICENSE
+repo_url: https://github.com/jupyter/notebook

@@ -10,8 +10,10 @@ source_repos:
 - https://github.com/BioinfoUNIBA/REDInet
 - https://github.com/BioinfoUNIBA/REDInet.git
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: noncommercial
+license: CC-BY-NC-4.0
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/redinet
 repo_url: https://github.com/BioinfoUNIBA/REDInet

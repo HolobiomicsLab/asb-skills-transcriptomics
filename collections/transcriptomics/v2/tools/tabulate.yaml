@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/zahid6454/iRNA5hmC-PS
 - https://github.com/lanagarmire/SSrGE
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/zahid6454/iRNA5hmC-PS
+license_evidence: null
+repo_url: null

@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/duckdb/duckdb-go
 - https://github.com/marcboeker/go-duckdb
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/ArpiarSaundersLab/annsql
+license_evidence: null
+repo_url: null

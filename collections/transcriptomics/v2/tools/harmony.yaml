@@ -142,8 +142,10 @@ source_repos:
 - https://github.com/deeplearningplus/tGPT
 - https://github.com/caokai1073/uniPort
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/shmohammadi86/ACTIONet
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/immunogenomics/harmony/HEAD/DESCRIPTION
+repo_url: https://github.com/immunogenomics/harmony

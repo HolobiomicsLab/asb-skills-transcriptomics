@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/anddssan/CLOUDe
 - https://github.com/Minhui-Chen/CTMM
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/anddssan/CLOUDe
+entry_kind: software
+license_tier: open
+license: GPL-2.0-only
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=mvtnorm
+repo_url: https://codeberg.org/thothorn/mvtnorm

@@ -16,8 +16,10 @@ source_repos:
 - https://github.com/mcgilldinglab/scCobra
 - https://github.com/Zafar-Lab/scDREAMER
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/mcgilldinglab/scCobra
+license_evidence: null
+repo_url: null

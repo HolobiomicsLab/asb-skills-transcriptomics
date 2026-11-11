@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/NWPU-903PR/DGMP
 - https://github.com/zehaoxiong123/scGCL
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/NWPU-903PR/DGMP
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/torch-sparse/
+repo_url: https://github.com/rusty1s/pytorch_sparse

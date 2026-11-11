@@ -10,8 +10,10 @@ derived_from:
 source_repos:
 - https://github.com/SchubertLab/mvTCR
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/SchubertLab/mvTCR
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/scirpy
+repo_url: https://github.com/icbi-lab/scirpy

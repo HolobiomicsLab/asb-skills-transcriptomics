@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/calico/scnym
 - https://github.com/hayatlab/MASI
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/scnym
 repo_url: https://github.com/calico/scnym

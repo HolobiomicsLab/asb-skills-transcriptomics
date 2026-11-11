@@ -41,8 +41,10 @@ source_repos:
 - https://github.com/xiaoyeye/TFvelo
 - https://github.com/LucasESBS/vega
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/scibiome/boostdiff_inference
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/gseapy
+repo_url: https://github.com/zqfang/gseapy

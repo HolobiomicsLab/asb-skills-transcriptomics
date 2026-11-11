@@ -27,8 +27,10 @@ source_repos:
 - https://github.com/AntonioDeFalco/SCEVAN
 - https://github.com/Patchouli-M/SequencingCancerFinder
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/TebaldiLab/cellmarkeraccordion
+license_evidence: null
+repo_url: null

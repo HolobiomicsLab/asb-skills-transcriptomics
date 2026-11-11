@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/XLearning-SCU/scBridge
 - https://github.com/Mathbiomed/scLENS
 schema_version: 0.2.0
-license_tier: unknown
+entry_kind: vendor_product
+license_tier: restricted
 license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/XLearning-SCU/scBridge
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://docs.nvidia.com/cuda/eula/index.html
+repo_url: null

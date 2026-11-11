@@ -34,8 +34,10 @@ source_repos:
 - https://github.com/wang-research/VASC
 - https://github.com/audreyqyfu/LATE
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/datapplab/AutoClass
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING
+repo_url: https://github.com/scikit-learn/scikit-learn

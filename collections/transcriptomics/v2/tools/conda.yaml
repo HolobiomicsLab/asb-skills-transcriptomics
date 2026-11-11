@@ -90,8 +90,10 @@ source_repos:
 - https://github.com/mancusolab/twas_sim
 - https://github.com/karltayeb/cafeh
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/SydneyBioX/BIDCell
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE
+repo_url: https://github.com/conda/conda

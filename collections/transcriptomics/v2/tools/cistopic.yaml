@@ -11,8 +11,10 @@ source_repos:
 - https://github.com/aertslab/cisTopic
 - https://github.com/euxhenh/cellar
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/aertslab/cisTopic
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/cistopic
+repo_url: http://github.com/aertslab/cistopic

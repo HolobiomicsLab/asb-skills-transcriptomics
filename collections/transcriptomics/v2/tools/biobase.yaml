@@ -23,8 +23,10 @@ source_repos:
 - https://github.com/aet21/DICE
 - https://github.com/xuranw/MuSiC
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cozygene/bisque
+entry_kind: software
+license_tier: open
+license: Artistic-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/release/bioc/html/Biobase.html
+repo_url: null

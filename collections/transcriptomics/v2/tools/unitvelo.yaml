@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/xiaoyeye/TFvelo
 - https://github.com/StatBiomed/UniTVelo
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/Spencerfar/LatentVelo
+entry_kind: software
+license_tier: open
+license: BSD
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/unitvelo/
+repo_url: https://github.com/StatBiomed/UniTVelo

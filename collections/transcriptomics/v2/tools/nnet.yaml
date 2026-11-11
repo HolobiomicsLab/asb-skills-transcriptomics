@@ -11,8 +11,10 @@ derived_from:
 source_repos:
 - https://github.com/micnngo/tauFisher
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/micnngo/tauFisher
+entry_kind: software
+license_tier: open
+license: GPL-2.0-only OR GPL-3.0-only
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=nnet
+repo_url: http://www.stats.ox.ac.uk/pub/MASS4/

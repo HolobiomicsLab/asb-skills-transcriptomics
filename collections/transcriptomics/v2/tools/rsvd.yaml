@@ -21,8 +21,10 @@ source_repos:
 - https://github.com/maiziezhoulab/Bfimpute
 - https://github.com/csglab/GEDI
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/KlugerLab/ALRA
+entry_kind: software
+license_tier: open
+license: GPL-3.0-or-later
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=rsvd
+repo_url: https://github.com/erichson/rSVD

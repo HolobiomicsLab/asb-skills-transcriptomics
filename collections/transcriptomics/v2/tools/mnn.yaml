@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/MarioniLab/MNN2017
 - https://github.com/deeplearningplus/tGPT
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/songfd2018/BUSseq
+license_evidence: null
+repo_url: null

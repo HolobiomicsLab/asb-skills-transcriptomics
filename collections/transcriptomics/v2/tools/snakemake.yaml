@@ -81,8 +81,10 @@ source_repos:
 - https://github.com/Mayrlab/txcutr-db
 - https://github.com/fw262/TAR-scRNA-seq
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/Carrion-lab/bacLIFE
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/snakemake/snakemake/HEAD/LICENSE.md
+repo_url: https://github.com/snakemake/snakemake

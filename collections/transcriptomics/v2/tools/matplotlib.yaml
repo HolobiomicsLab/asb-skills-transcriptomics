@@ -80,8 +80,10 @@ source_repos:
 - https://github.com/audreyqyfu/LATE
 - https://github.com/solo7773/visnormsc
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/ArpiarSaundersLab/annsql
+entry_kind: software
+license_tier: open
+license: LicenseRef-Matplotlib
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/matplotlib/matplotlib/HEAD/LICENSE/LICENSE
+repo_url: https://github.com/matplotlib/matplotlib

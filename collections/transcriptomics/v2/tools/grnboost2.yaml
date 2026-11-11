@@ -21,8 +21,10 @@ source_repos:
 - https://github.com/oubounyt/SCANet
 - https://github.com/XiaYangLabOrg/SCING
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/Emad-COMBINE-lab/GRouNdGAN
+license_evidence: null
+repo_url: null

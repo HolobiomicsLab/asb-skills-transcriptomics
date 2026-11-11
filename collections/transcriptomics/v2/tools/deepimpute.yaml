@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/lanagarmire/deepimpute
 - https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/duct317/scISR
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/DeepImpute
+repo_url: https://github.com/lanagarmire/DeepImpute

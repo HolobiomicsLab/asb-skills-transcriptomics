@@ -12,8 +12,10 @@ source_repos:
 - https://github.com/raphael-group/chisel
 - https://github.com/parklab/HiScanner
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: bioconda-package
+license_subject: tool
+license_evidence: https://anaconda.org/bioconda/chisel
 repo_url: https://github.com/raphael-group/chisel

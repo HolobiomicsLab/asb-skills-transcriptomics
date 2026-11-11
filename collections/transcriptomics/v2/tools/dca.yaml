@@ -53,8 +53,10 @@ source_repos:
 - https://github.com/xinglab-ai/self-consistent-expression-recovery-machine
 - https://github.com/audreyqyfu/LATE
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/KlugerLab/ALRA
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/theislab/dca/HEAD/LICENSE.txt
+repo_url: https://github.com/theislab/dca

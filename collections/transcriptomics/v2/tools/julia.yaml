@@ -20,8 +20,10 @@ source_repos:
 - https://github.com/MTreppner/scDBM.jl
 - https://github.com/Mathbiomed/scLENS
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/FertigLab/RNAForecasterPaperCode
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/JuliaLang/julia/HEAD/LICENSE.md
+repo_url: https://github.com/JuliaLang/julia

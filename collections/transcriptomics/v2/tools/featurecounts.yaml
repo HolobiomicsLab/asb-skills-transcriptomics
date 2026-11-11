@@ -32,8 +32,10 @@ source_repos:
 - https://github.com/fw262/TAR-scRNA-seq
 - https://github.com/MontgomeryLab/tinyRNA
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/canzarlab/fortuna
+license_evidence: null
+repo_url: null

@@ -20,8 +20,10 @@ source_repos:
 - https://github.com/Rashedul/CRIS
 - https://github.com/F0nz0/NanoSpeech_basecaller
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/ShenLab-Genomics/Anchored-Fusion
+entry_kind: software
+license_tier: open
+license: GPL-3.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/lh3/bwa/HEAD/README.md
+repo_url: https://github.com/lh3/bwa

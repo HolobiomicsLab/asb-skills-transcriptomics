@@ -26,8 +26,10 @@ source_repos:
 - https://github.com/JiangyanYu/IntestLine
 - https://github.com/JD2112/methylr
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/chung-R/HD-MAC
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cran.r-project.org/web/packages/shiny/index.html
+repo_url: https://github.com/rstudio/shiny

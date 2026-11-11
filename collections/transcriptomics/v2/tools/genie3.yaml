@@ -30,8 +30,10 @@ source_repos:
 - https://github.com/Vivianstats/scLink
 - https://github.com/cantinilab/scPRINT
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/WanluLiuLab/CRISPRTE
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: bioconductor-package
+license_subject: tool
+license_evidence: https://bioconductor.org/packages/GENIE3
+repo_url: null

@@ -14,8 +14,10 @@ source_repos:
 - https://github.com/ashiq24/BEENE
 - https://github.com/Minhui-Chen/CTMM
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/ashiq24/BEENE
+license_evidence: null
+repo_url: null

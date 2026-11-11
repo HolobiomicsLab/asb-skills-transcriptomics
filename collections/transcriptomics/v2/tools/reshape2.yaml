@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/bsml320/deCS
 - https://github.com/AusteKan/OmicInt
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/bsml320/deCS
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=reshape2
+repo_url: https://github.com/hadley/reshape

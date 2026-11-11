@@ -57,8 +57,10 @@ source_repos:
 - https://github.com/mcgilldinglab/scSemiProfiler
 - https://github.com/ZJUDBlab/InterCellDB
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/sqjin/CellChat
+entry_kind: software
+license_tier: open
+license: GPL-3.0-only
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/jinworks/CellChat/HEAD/DESCRIPTION
+repo_url: https://github.com/jinworks/CellChat

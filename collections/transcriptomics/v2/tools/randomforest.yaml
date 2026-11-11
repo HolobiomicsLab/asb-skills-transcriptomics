@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/myles-lewis/nestedcv
 - https://github.com/abelson-lab/scATOMIC
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/RamanLab/cTaG
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: cran-package
+license_subject: tool
+license_evidence: https://cran.r-project.org/package=randomForest
+repo_url: https://www.stat.berkeley.edu/~breiman/RandomForests/

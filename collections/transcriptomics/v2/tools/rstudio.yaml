@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/AhmedMehdiLab/E.PAGE
 - https://github.com/MUSC-CGM/PIMENTo
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/AhmedMehdiLab/E.PAGE
+entry_kind: software
+license_tier: open
+license: AGPL-3.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/rstudio/rstudio/HEAD/COPYING
+repo_url: https://github.com/rstudio/rstudio

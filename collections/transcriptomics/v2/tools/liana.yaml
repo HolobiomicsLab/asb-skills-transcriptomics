@@ -15,8 +15,10 @@ source_repos:
 - https://github.com/earmingol/cell2cell
 - https://github.com/saezlab/liana
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/liana
 repo_url: https://github.com/saezlab/liana-py

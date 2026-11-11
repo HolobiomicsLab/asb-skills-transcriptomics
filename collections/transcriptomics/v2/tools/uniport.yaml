@@ -17,8 +17,10 @@ source_repos:
 - https://github.com/caokai1073/uniPort
 - https://github.com/caokai1073/uniport
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/cantinilab/scconfluence
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: biotools-entry
+license_subject: tool
+license_evidence: https://bio.tools/uniport
+repo_url: https://github.com/caokai1073/uniPort

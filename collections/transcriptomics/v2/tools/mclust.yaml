@@ -59,8 +59,10 @@ source_repos:
 - https://github.com/1alnoman/ScribbleDom
 - https://github.com/AusteKan/OmicInt
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/lichen-lab/BAMMSC
+entry_kind: software
+license_tier: open
+license: GPL-2.0-or-later
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://cran.r-project.org/web/packages/mclust/index.html
+repo_url: null

@@ -18,8 +18,10 @@ source_repos:
 - https://github.com/kuanrongchan/COVID19-severity
 - https://github.com/kuanrongchan/date-to-gene-converter
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/kuanrongchan/COVID19-severity
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/streamlit/
+repo_url: https://github.com/streamlit/streamlit

@@ -170,8 +170,10 @@ source_repos:
 - https://github.com/LucasESBS/vega
 - https://github.com/audreyqyfu/LATE
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/xiebb123456/AutomaticCellTypeIdentification
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/scverse/scvi-tools/HEAD/LICENSE
+repo_url: https://github.com/scverse/scvi-tools

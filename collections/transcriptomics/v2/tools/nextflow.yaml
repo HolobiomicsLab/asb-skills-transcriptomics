@@ -23,8 +23,10 @@ source_repos:
 - https://github.com/compbioNJU/scPlant
 - https://github.com/guigolab/sqtlseeker2-nf
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/DaneVass/BARtab
+entry_kind: software
+license_tier: open
+license: Apache-2.0
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/nextflow-io/nextflow/HEAD/COPYING
+repo_url: https://github.com/nextflow-io/nextflow
