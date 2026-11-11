@@ -31,7 +31,7 @@ This repository holds the transcriptomics skill collection of AgenticScienceBuil
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
 | `collections/transcriptomics/v1` | ASB Transcriptomics Skill Collection v1 (legacy) | 166 | 37 | 2026-06-15 | not deposited |
-| `collections/transcriptomics/v2` | ASB Transcriptomics Skill Collection v2 | 11256 | 2086 | 2026-11-09 | [10.5281/zenodo.24093100](https://doi.org/10.5281/zenodo.24093100) |
+| `collections/transcriptomics/v2` | ASB Transcriptomics Skill Collection v2 | 11256 | 2086 | 2026-11-10 | [10.5281/zenodo.24122113](https://doi.org/10.5281/zenodo.24122113) |
 
 ## Status
 
