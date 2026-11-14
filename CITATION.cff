@@ -11,7 +11,7 @@ abstract: 'Curated, evidence-grounded skill and software-tool collection for com
   EDAM (Transcriptomics) and gated for licensing and personal data before release; the source paper of
   every skill is cited in its provenance block (provenance.source_papers) and must be cited alongside
   the collection. Released by the Holobiomics Lab (CNRS / Université Côte d''Azur). Source repositories:
-  collection - asb-skills-transcriptomics (repository to follow); registry and tooling - https://github.com/HolobiomicsLab/asb-skill-collections;
+  collection - https://github.com/HolobiomicsLab/asb-skills-transcriptomics; registry and tooling - https://github.com/HolobiomicsLab/asb-skill-collections;
   generating pipeline - AgenticScienceBuilder (repository to follow). Licence: collection content CC-BY-4.0;
   code Apache-2.0; verbatim quotes under quotation right (LICENSING.md).'
 keywords:
