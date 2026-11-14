@@ -2,18 +2,12 @@
 
 | Stage | Done at | Repository commit | Digests |
 |---|---|---|---|
-| gate | 2026-11-10T17:17:13Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"candidate_tree": "sha256:a88b2f030c5bffee439c89dc1a1f5fe4f9b08a5fffb68b48a2561178fb1f86b6", "gate_report": "7ce7a749478b9e22b22ad8af079c83d91bab047b68e1f296ec02ab351cfef9a9"}` |
-| deposit-plan | 2026-11-10T17:17:17Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"archive_sha256": "a26c7baf34d27de417a1f3a6df33138d814329b07e1d9db0b0e3d9d056031457"}` |
-| deposit-draft | 2026-11-11T00:08:13Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"archive_sha256": "a26c7baf34d27de417a1f3a6df33138d814329b07e1d9db0b0e3d9d056031457"}` |
-| record-doi | 2026-11-11T00:22:32Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"CITATION.cff": "47c15ca97ec7dae5aeb81f2e2e188b892c94f5ccec9f9c4e0a594259a1815814", "README.md": "fa5ee5bec5e9380e72c4fd5a88b92a2fb433c8b3fa863a2f178071801552b47e", "RELEASE.yaml": "2334f444b846b9425c28f226f20821afdcda57fb7fa2448ec8d7a4a428187680", "marketplace.json": "2e3a738e1a8ce5f69e9266dcb516b52cd8ea6cfe1c75da7b13e0e4c61009b536", "plugin.json": "77b0fbdda779deb7eeb84d2fb08727bf52445f9426d5823d6351704d3d7d5d46"}` |
-| receipt | 2026-11-11T00:31:08Z | 7e81e965177c18efdaeefbf2da587220599d9d38 | `{"receipt": "7075e6c1607e1b264332282ef4a2d77ac1b16e7a8225d304554c02138a8b9f8b"}` |
-| manifest | 2026-11-11T00:33:12Z | 376cec1aa0fe229906f8b5feddd3ed2957aeaa04 | `{"catalogue_jsonld": "3de4f5c245d609bd65c2f3e555b98fd8811bffd11556518eb5c22ea109e42966", "collections_yaml": "92daac98896a71360b4dc36b1acc2c994647ea140ee46d8a72f010afc8280656"}` |
-| tag | 2026-11-11T00:55:19Z | 376cec1aa0fe229906f8b5feddd3ed2957aeaa04 | `{}` |
+| gate | 2026-11-14T16:23:31Z | 2c3f7d96628a44528d489389e4468f7127aa3cd1 | `{"candidate_tree": "sha256:9f82b89915f4a486335a88290c9c873c8de12546d59ce8642c200c095830095a", "gate_report": "d98739e64d18b2c8c0368c1df169d58efbb08f0677b355f0b5b786dfbe20fcb0"}` |
+| deposit-plan | 2026-11-14T16:51:46Z | 2c3f7d96628a44528d489389e4468f7127aa3cd1 | `{"archive_sha256": "11c46dc698b6e394a197ad32a480af20c2f5f6a2acb20abdd8e1e8aaec6a13d3"}` |
+| deposit-draft | 2026-11-14T16:52:58Z | 2c3f7d96628a44528d489389e4468f7127aa3cd1 | `{"archive_sha256": "11c46dc698b6e394a197ad32a480af20c2f5f6a2acb20abdd8e1e8aaec6a13d3"}` |
+| record-doi | 2026-11-14T21:17:21Z | 2c3f7d96628a44528d489389e4468f7127aa3cd1 | `{".zenodo.json": "7a348ce1174bf924fa4e5959cd861382014cd8c879659a964a4cc6aacae836f7", "CITATION.cff": "feffcd95713280c35f77fa600fb444f7a993b3c286ed156ac999e266407d8efc", "README.md": "85ada1a65f044a9c7103f31552fcdedc9e41163adbe46334959dcabb4d28fb47", "RELEASE.yaml": "e87be9d588454289c96b86f64e839ac127217dbbdb62384cf9d8e962910d5dd8", "marketplace.json": "338d327d15d8ce97fe5baf4c9abe49a0a94b2a2a5df28c0a854a841fe94db9ad", "plugin.json": "863186d9cd995d9f0ed2a990eecbf2824254dd1356870b5419812f150fd1e4bd"}` |
+| receipt | 2026-11-14T21:23:49Z | 2c3f7d96628a44528d489389e4468f7127aa3cd1 | `{"receipt": "31b3fe4075b19e5a599ec2c6fd87b655f2a2296651cc975867950f9f21185f23"}` |
 
 ## Owner actions
 
-- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24122113, then run record-doi --doi <version DOI>
-- OWNER: git tag transcriptomics-v2.0.1 376cec1aa0fe229906f8b5feddd3ed2957aeaa04
-- OWNER: git push origin transcriptomics-v2.0.1
-- OWNER: git tag transcriptomics-v2.0.1 376cec1aa0fe229906f8b5feddd3ed2957aeaa04
-- OWNER: git push origin transcriptomics-v2.0.1
+- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24224649, then run record-doi --doi <version DOI>
