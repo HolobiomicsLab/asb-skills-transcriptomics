@@ -99,5 +99,5 @@ redacts and prints the report and a prefilled address. With `gh` and the
 user's yes, run `gh issue create --repo HolobiomicsLab/asb-skill-collections`; otherwise give the user
 the address.
 
-Reports go to the public registry; a maintainer carries them into the private
+Reports go to the public registry; a maintainer carries them into the
 domain repository.
