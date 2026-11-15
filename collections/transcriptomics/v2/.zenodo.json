@@ -5,7 +5,7 @@
   "access_right": "open",
   "license": "cc-by-4.0",
   "language": "eng",
-  "version": "v2.1.0",
+  "version": "v2.1.1",
   "creators": [
     {
       "name": "Nothias, Louis-Félix",
@@ -39,6 +39,11 @@
     }
   ],
   "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/HolobiomicsLab/asb-skills-transcriptomics",
+      "scheme": "url"
+    },
     {
       "relation": "references",
       "identifier": "https://github.com/HolobiomicsLab/asb-skill-collections",

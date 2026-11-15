@@ -7,7 +7,7 @@ measures the collection again and compares the result with the receipt; it write
 
 ## What the receipt was written with
 
-- Tooling: HolobiomicsLab/asb-skill-collections at commit `7bf0052639ea55ef0b63ae05a816261e19f1e06e`, the commit the CI workflows
+- Tooling: HolobiomicsLab/asb-skill-collections at commit `16a23fb09bccf1dd5ed214debd0a367216756be2`, the commit the CI workflows
   pin. `gate_report.json` was regenerated on 2026-11-10 and verifies with it. `source.json` names
   `b8c22a6bc`, the tooling commit that assembled the collection. Gate policy `asbb-content-gate/1.4`.
 - `promote_logic_source` in `gate_report.json` names the module that supplied the promotion
@@ -24,7 +24,7 @@ contains this file:
 
 ```bash
 git clone https://github.com/HolobiomicsLab/asb-skill-collections
-git -C asb-skill-collections checkout 7bf0052639ea55ef0b63ae05a816261e19f1e06e
+git -C asb-skill-collections checkout 16a23fb09bccf1dd5ed214debd0a367216756be2
 python3 -m venv .venv-verify
 .venv-verify/bin/python -m pip install pyyaml
 cd asb-skill-collections
