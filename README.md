@@ -31,11 +31,11 @@ This repository holds the transcriptomics skill collection of AgenticScienceBuil
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
 | `collections/transcriptomics/v1` | ASB Transcriptomics Skill Collection v1 (legacy) | 166 | 37 | 2026-06-15 | not deposited |
-| `collections/transcriptomics/v2` | ASB Transcriptomics Skill Collection v2 | 11256 | 2086 | 2026-11-14 | [10.5281/zenodo.24224649](https://doi.org/10.5281/zenodo.24224649) |
+| `collections/transcriptomics/v2` | ASB Transcriptomics Skill Collection v2 | 11256 | 2086 | 2026-11-15 | [10.5281/zenodo.24255483](https://doi.org/10.5281/zenodo.24255483) |
 
 ## Status
 
-Collection `v2`, built from corpus cut `b5a519a80508`, is released on `main` at tag `transcriptomics-v2.1.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24224649](https://doi.org/10.5281/zenodo.24224649). The earlier flat-layout collection `v1` stays in the repository as a legacy collection; it is not part of this release.
+Collection `v2`, built from corpus cut `b5a519a80508`, is released on `main` at tag `transcriptomics-v2.1.1` and archived on Zenodo under the version DOI [10.5281/zenodo.24255483](https://doi.org/10.5281/zenodo.24255483). The earlier flat-layout collection `v1` stays in the repository as a legacy collection; it is not part of this release.
 
 | Item | State |
 |---|---|
@@ -43,7 +43,7 @@ Collection `v2`, built from corpus cut `b5a519a80508`, is released on `main` at 
 | Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/transcriptomics/v2` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/transcriptomics/v2` |
 | IRI resolution (2026-11-14) | Registered at w3id.org. It redirects (HTTP 302) to the collection landing page in the asb-skill-collections registry (HTTP 200), which names this repository and the Zenodo record. |
-| DOI | [10.5281/zenodo.24224649](https://doi.org/10.5281/zenodo.24224649) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| DOI | [10.5281/zenodo.24255483](https://doi.org/10.5281/zenodo.24255483) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
 | Concept DOI | [10.5281/zenodo.24093099](https://doi.org/10.5281/zenodo.24093099) (all versions) |
 
 ## What is inside
@@ -141,7 +141,7 @@ Each leaf names its source paper in `provenance.source_papers` (11,256 of 11,256
 
 ## Citation
 
-Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24224649](https://doi.org/10.5281/zenodo.24224649); its concept DOI, which covers all versions, is [10.5281/zenodo.24093099](https://doi.org/10.5281/zenodo.24093099).
+Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24255483](https://doi.org/10.5281/zenodo.24255483); its concept DOI, which covers all versions, is [10.5281/zenodo.24093099](https://doi.org/10.5281/zenodo.24093099).
 
 ## Licence
 
