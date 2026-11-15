@@ -10,7 +10,7 @@
       "name": "transcriptomics",
       "source": "./collections/transcriptomics/v2",
       "description": "ASB Transcriptomics Skill Collection v2: 11256 evidence-grounded skills over 2086 tools.",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "author": {
         "name": "Holobiomics Lab",
         "url": "https://github.com/HolobiomicsLab"
